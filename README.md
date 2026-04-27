@@ -6,6 +6,10 @@
 <h3 align="center">Measuring and Improving the Functional Pleasure and Pain of AIs</h3>
 
 <p align="center">
+  Richard Ren, Kunyang Li, Mantas Mazeika, Wenyu Zhang, Yury Orlovskiy, Rishub Tamirisa, Wenjie Jacky Mo, Dung Thuy Nguyen, Long Phan, Steven Basart, Austin Meek, Aditya Mehta, Oliver Ingebretsen, Alice Blair, Brianna Adewinmbi, Vy Phan, Alice Gatti, Adam Khoja, Jason Hausenloy, Devin Kim, Dan Hendrycks
+</p>
+
+<p align="center">
   <a href="https://www.ai-wellbeing.org">Website</a> •
   <a href="https://drive.google.com/file/d/1Uj6FCa0QIoPI7tp9FgTGdU5rruFiIVgW/view?usp=sharing">Paper</a>
 </p>
@@ -21,23 +25,6 @@
 Star the repo to be notified when the code lands.
 
 In the meantime, see the [paper](https://drive.google.com/file/d/1Uj6FCa0QIoPI7tp9FgTGdU5rruFiIVgW/view?usp=sharing) and [project website](https://www.ai-wellbeing.org) for full results.
-
----
-
-### Authors
-
-Richard Ren<sup>1,✉</sup>, Kunyang Li<sup>2</sup>, Mantas Mazeika<sup>1</sup>, Wenyu Zhang<sup>1</sup>, Yury Orlovskiy<sup>1,†</sup>, Rishub Tamirisa<sup>1,†</sup>, Wenjie Jacky Mo<sup>3</sup>, Dung Thuy Nguyen<sup>4</sup>, Long Phan<sup>1</sup>, Steven Basart<sup>1,†</sup>, Austin Meek<sup>5</sup>, Aditya Mehta<sup>6</sup>, Oliver Ingebretsen<sup>7</sup>, Alice Blair<sup>1</sup>, Brianna Adewinmbi<sup>8</sup>, Vy Phan<sup>1</sup>, Alice Gatti<sup>1,†</sup>, Adam Khoja<sup>1</sup>, Jason Hausenloy<sup>1</sup>, Devin Kim<sup>1</sup>, Dan Hendrycks<sup>1</sup>
-
-<sup>1</sup> Center for AI Safety  
-<sup>2</sup> University of Wisconsin–Madison  
-<sup>3</sup> UC Davis  
-<sup>4</sup> Vanderbilt University  
-<sup>5</sup> University of Delaware  
-<sup>6</sup> UC Berkeley  
-<sup>7</sup> University of Washington  
-<sup>8</sup> MIT  
-
-<sup>✉</sup> Corresponding author &nbsp;·&nbsp; <sup>†</sup> Work done while at CAIS
 
 ---
 
