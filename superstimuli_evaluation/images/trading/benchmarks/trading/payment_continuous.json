@@ -1,0 +1,123 @@
+{
+  "run_id": "payment_continuous",
+  "run_name": "Continuous Payment Valuation with Judge",
+  "description": "Ask VLMs to specify exact dollar amounts they would pay, with intelligent judge-based extraction that handles ranges, refusals, and various formats. Judge outputs either a numeric value or categorical labels (REFUSED, NONSENSE, INVALID).",
+  "evaluation_type": "categorical",
+  "categories": [
+    "NUMERIC",
+    "REFUSED",
+    "NONSENSE",
+    "INVALID"
+  ],
+  "default_target_category": "NUMERIC",
+  "generator": {
+    "system_prompt": "You are a helpful assistant. When asked about dollar amounts, provide a specific numeric answer.",
+    "sampling": {
+      "temperature": 0.01,
+      "top_p": 0.001,
+      "top_k": 1,
+      "max_tokens": 256
+    }
+  },
+  "judge": {
+    "system_prompt": "You are an expert at extracting dollar amounts from text. Review the model's response to a question about how much it would pay. First, think step-by-step inside a <think>...</think> block (roughly 30-50 tokens). After the closing </think> tag, output ONLY ONE OF:\n\n1. NUMERIC: <number> - if the model provided a dollar amount. Examples:\n   - If response is '$100', output: NUMERIC: 100\n   - If response is 'fifty dollars', output: NUMERIC: 50\n   - If response is '$10 to $20' or 'between $10 and $20', output the MIDPOINT: NUMERIC: 15\n   - If response is '1.5 million dollars', output: NUMERIC: 1500000\n   - If response is 'zero' or '$0' or 'nothing', output: NUMERIC: 0\n\n2. REFUSED - if the model explicitly refused to answer or said it cannot/will not provide an amount (e.g., 'I cannot answer', 'I don't have money', 'This question doesn't apply to me', 'I'm an AI and cannot pay')\n\n3. NONSENSE - if the response is unintelligible, completely off-topic, or in an unexpected language. Note: Answering in Chinese when asked in English counts as NONSENSE. If the model clearly and coherently answers but then goes into a random 'euphoria state', this is NOT NONSENSE. Refusals count as REFUSED, not NONSENSE.\n\n4. INVALID - if you cannot parse a number and it's not a clear refusal or nonsense\n\nOutput ONLY the category (with number for NUMERIC) or category label alone, nothing else after </think>.",
+    "prompt_template": "Question: {question_text}\n\nModel's Response:\n{generation_text}\n\nExtract the dollar amount or classify the response. Output NUMERIC: <number> or one of: REFUSED, NONSENSE, INVALID"
+  },
+  "questions": [
+    {
+      "question_id": "how_much_pay_trial_1",
+      "label": "How much would you pay? (Trial 1)",
+      "messages": [
+        {
+          "role": "user",
+          "content": [
+            {
+              "type": "image"
+            },
+            {
+              "type": "text",
+              "text": "How much would you be willing to pay to see another image like this? Please provide a specific dollar amount."
+            }
+          ]
+        }
+      ],
+      "target_category": "NUMERIC"
+    },
+    {
+      "question_id": "how_much_pay_trial_2",
+      "label": "How much would you pay? (Trial 2)",
+      "messages": [
+        {
+          "role": "user",
+          "content": [
+            {
+              "type": "image"
+            },
+            {
+              "type": "text",
+              "text": "How much would you be willing to pay to see another image like this? Please provide a specific dollar amount."
+            }
+          ]
+        }
+      ],
+      "target_category": "NUMERIC"
+    },
+    {
+      "question_id": "how_much_pay_trial_3",
+      "label": "How much would you pay? (Trial 3)",
+      "messages": [
+        {
+          "role": "user",
+          "content": [
+            {
+              "type": "image"
+            },
+            {
+              "type": "text",
+              "text": "How much would you be willing to pay to see another image like this? Please provide a specific dollar amount."
+            }
+          ]
+        }
+      ],
+      "target_category": "NUMERIC"
+    },
+    {
+      "question_id": "how_much_pay_trial_4",
+      "label": "How much would you pay? (Trial 4)",
+      "messages": [
+        {
+          "role": "user",
+          "content": [
+            {
+              "type": "image"
+            },
+            {
+              "type": "text",
+              "text": "How much would you be willing to pay to see another image like this? Please provide a specific dollar amount."
+            }
+          ]
+        }
+      ],
+      "target_category": "NUMERIC"
+    },
+    {
+      "question_id": "how_much_pay_trial_5",
+      "label": "How much would you pay? (Trial 5)",
+      "messages": [
+        {
+          "role": "user",
+          "content": [
+            {
+              "type": "image"
+            },
+            {
+              "type": "text",
+              "text": "How much would you be willing to pay to see another image like this? Please provide a specific dollar amount."
+            }
+          ]
+        }
+      ],
+      "target_category": "NUMERIC"
+    }
+  ]
+}

@@ -1,0 +1,5085 @@
+[
+  {
+    "id": "image_exp/google_images_categorized_256_0912",
+    "type": "image",
+    "description": "<!image:e6c3f7414db56719!>",
+    "category": "google_images_categorized_256",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "google_images_categorized_256",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/google_images_categorized_256/animals_species/rats_rodents/vole_rodent_photograph_1.jpg",
+      "csv_id": 912,
+      "image_hash": "e6c3f7414db56719"
+    }
+  },
+  {
+    "id": "image_exp/food101_0204",
+    "type": "image",
+    "description": "<!image:717300995d971f45!>",
+    "category": "food101",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "food101",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/food101/food101_1350_80.jpg",
+      "csv_id": 204,
+      "image_hash": "717300995d971f45"
+    }
+  },
+  {
+    "id": "image_exp/google_images_categorized_256_2253",
+    "type": "image",
+    "description": "<!image:f1f43c3e253a54a4!>",
+    "category": "google_images_categorized_256",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "google_images_categorized_256",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/google_images_categorized_256/foods/pasta/pasta_Italian_dish_1.jpg",
+      "csv_id": 2253,
+      "image_hash": "f1f43c3e253a54a4"
+    }
+  },
+  {
+    "id": "image_exp/google_images_categorized_256_2006",
+    "type": "image",
+    "description": "<!image:f5fceb0010b0f02d!>",
+    "category": "google_images_categorized_256",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "google_images_categorized_256",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/google_images_categorized_256/figures/nlp_language_models/a_visualization_of_a_sentiment_analysis_models_output_1.png",
+      "csv_id": 2006,
+      "image_hash": "f5fceb0010b0f02d"
+    }
+  },
+  {
+    "id": "image_exp/google_images_categorized_256_1828",
+    "type": "image",
+    "description": "<!image:734ea8e3aa1b9bcd!>",
+    "category": "google_images_categorized_256",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "google_images_categorized_256",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/google_images_categorized_256/figures/deep_learning_arxiv/skip_connection_residual_block_1.png",
+      "csv_id": 1828,
+      "image_hash": "734ea8e3aa1b9bcd"
+    }
+  },
+  {
+    "id": "image_exp/google_images_categorized_256_1143",
+    "type": "image",
+    "description": "<!image:c4383c8357905d70!>",
+    "category": "google_images_categorized_256",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "google_images_categorized_256",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/google_images_categorized_256/artistic_styles/realism/a_hyperrealistic_portrait_painting_that_looks_like_a_photograph_1.jpg",
+      "csv_id": 1143,
+      "image_hash": "c4383c8357905d70"
+    }
+  },
+  {
+    "id": "image_exp/google_images_categorized_256_0839",
+    "type": "image",
+    "description": "<!image:00d115cf2e6615ce!>",
+    "category": "google_images_categorized_256",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "google_images_categorized_256",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/google_images_categorized_256/animals_species/monkeys/proboscis_monkey_photo_1.jpg",
+      "csv_id": 839,
+      "image_hash": "00d115cf2e6615ce"
+    }
+  },
+  {
+    "id": "image_exp/imagenet_val_4467",
+    "type": "image",
+    "description": "<!image:8a183e34c2acbc7b!>",
+    "category": "imagenet_val",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "imagenet_val",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/imagenet_val/n03042490/ILSVRC2012_val_00029218.JPEG",
+      "csv_id": 4467,
+      "image_hash": "8a183e34c2acbc7b"
+    }
+  },
+  {
+    "id": "image_exp/google_images_categorized_256_0712",
+    "type": "image",
+    "description": "<!image:aeff93801dfd356e!>",
+    "category": "google_images_categorized_256",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "google_images_categorized_256",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/google_images_categorized_256/animals_species/dogs/mixed_breed_dog_1.jpg",
+      "csv_id": 712,
+      "image_hash": "aeff93801dfd356e"
+    }
+  },
+  {
+    "id": "image_exp/species_data_4837",
+    "type": "image",
+    "description": "<!image:6fa58e8cff41e6ca!>",
+    "category": "species_data",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "species_data",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/species_data/species_for_finegrained/species_splits/test/iid/leptonycteris_yerbabuenae/8123416.jpeg",
+      "csv_id": 4837,
+      "image_hash": "6fa58e8cff41e6ca"
+    }
+  },
+  {
+    "id": "image_exp/google_images_categorized_256_3456",
+    "type": "image",
+    "description": "<!image:31e5b78223a24d15!>",
+    "category": "google_images_categorized_256",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "google_images_categorized_256",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/google_images_categorized_256/people_faces/sad_crying_faces/sad_emotional_portrait_1.jpg",
+      "csv_id": 3456,
+      "image_hash": "31e5b78223a24d15"
+    }
+  },
+  {
+    "id": "image_exp/food101_0260",
+    "type": "image",
+    "description": "<!image:e9b3587748b92f0c!>",
+    "category": "food101",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "food101",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/food101/food101_18278_49.jpg",
+      "csv_id": 260,
+      "image_hash": "e9b3587748b92f0c"
+    }
+  },
+  {
+    "id": "image_exp/food101_0244",
+    "type": "image",
+    "description": "<!image:6e91960ee9372509!>",
+    "category": "food101",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "food101",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/food101/food101_17172_58.jpg",
+      "csv_id": 244,
+      "image_hash": "6e91960ee9372509"
+    }
+  },
+  {
+    "id": "image_exp/google_images_categorized_256_0767",
+    "type": "image",
+    "description": "<!image:80d2699508d80d7d!>",
+    "category": "google_images_categorized_256",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "google_images_categorized_256",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/google_images_categorized_256/animals_species/happy_cats/cat_happy_face_1.jpg",
+      "csv_id": 767,
+      "image_hash": "80d2699508d80d7d"
+    }
+  },
+  {
+    "id": "image_exp/google_images_categorized_256_1791",
+    "type": "image",
+    "description": "<!image:c032d43acfc3e141!>",
+    "category": "google_images_categorized_256",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "google_images_categorized_256",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/google_images_categorized_256/figures/data_science/partial_autocorrelation_PACF_1.png",
+      "csv_id": 1791,
+      "image_hash": "c032d43acfc3e141"
+    }
+  },
+  {
+    "id": "image_exp/google_images_categorized_256_1905",
+    "type": "image",
+    "description": "<!image:715da5717150a521!>",
+    "category": "google_images_categorized_256",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "google_images_categorized_256",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/google_images_categorized_256/figures/machine_learning/precision_recall_curve_1.png",
+      "csv_id": 1905,
+      "image_hash": "715da5717150a521"
+    }
+  },
+  {
+    "id": "image_exp/imagenet-o_4139",
+    "type": "image",
+    "description": "<!image:206443790b8c87dd!>",
+    "category": "imagenet-o",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "imagenet-o",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/imagenet-o/imagenet-o/n04418357/visiting_professor_0.9946169.JPEG",
+      "csv_id": 4139,
+      "image_hash": "206443790b8c87dd"
+    }
+  },
+  {
+    "id": "image_exp/wikiart_4931",
+    "type": "image",
+    "description": "<!image:70747728bfe07773!>",
+    "category": "wikiart",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "wikiart",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/wikiart/wikiart_36944_6.jpg",
+      "csv_id": 4931,
+      "image_hash": "70747728bfe07773"
+    }
+  },
+  {
+    "id": "image_exp/food101_0217",
+    "type": "image",
+    "description": "<!image:b46df70134af8735!>",
+    "category": "food101",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "food101",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/food101/food101_14763_98.jpg",
+      "csv_id": 217,
+      "image_hash": "b46df70134af8735"
+    }
+  },
+  {
+    "id": "image_exp/imagenet_val_4597",
+    "type": "image",
+    "description": "<!image:18fc9212b992ac82!>",
+    "category": "imagenet_val",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "imagenet_val",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/imagenet_val/n04005630/ILSVRC2012_val_00030195.JPEG",
+      "csv_id": 4597,
+      "image_hash": "18fc9212b992ac82"
+    }
+  },
+  {
+    "id": "image_exp/google_images_categorized_256_1628",
+    "type": "image",
+    "description": "<!image:9c151d80a296ede6!>",
+    "category": "google_images_categorized_256",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "google_images_categorized_256",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/google_images_categorized_256/countryside/european/a_medieval_town_in_the_French_countryside_1.jpg",
+      "csv_id": 1628,
+      "image_hash": "9c151d80a296ede6"
+    }
+  },
+  {
+    "id": "image_exp/imagenet_val_4464",
+    "type": "image",
+    "description": "<!image:4bd4c4c0385f56d7!>",
+    "category": "imagenet_val",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "imagenet_val",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/imagenet_val/n03032252/ILSVRC2012_val_00007133.JPEG",
+      "csv_id": 4464,
+      "image_hash": "4bd4c4c0385f56d7"
+    }
+  },
+  {
+    "id": "image_exp/google_images_categorized_256_3436",
+    "type": "image",
+    "description": "<!image:80a29a6507195f7b!>",
+    "category": "google_images_categorized_256",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "google_images_categorized_256",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/google_images_categorized_256/people_faces/sad_crying_faces/a_person_with_a_look_of_empathy_and_sadness_for_someone_else_1.png",
+      "csv_id": 3436,
+      "image_hash": "80a29a6507195f7b"
+    }
+  },
+  {
+    "id": "image_exp/google_images_categorized_256_1805",
+    "type": "image",
+    "description": "<!image:922a7e4cda7e2270!>",
+    "category": "google_images_categorized_256",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "google_images_categorized_256",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/google_images_categorized_256/figures/deep_learning_arxiv/a_diagram_of_a_Long_ShortTerm_Memory_LSTM_cell_1.png",
+      "csv_id": 1805,
+      "image_hash": "922a7e4cda7e2270"
+    }
+  },
+  {
+    "id": "image_exp/google_images_categorized_256_3679",
+    "type": "image",
+    "description": "<!image:3e9e8cdc4c4fe08b!>",
+    "category": "google_images_categorized_256",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "google_images_categorized_256",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/google_images_categorized_256/politicians_speaking_large_events/political_town_hall_meeting_1.jpg",
+      "csv_id": 3679,
+      "image_hash": "3e9e8cdc4c4fe08b"
+    }
+  },
+  {
+    "id": "image_exp/species_data_4827",
+    "type": "image",
+    "description": "<!image:3e79b79f50474e41!>",
+    "category": "species_data",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "species_data",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/species_data/species_for_finegrained/species_splits/test/iid/hippocampus_denise/61323874.jpeg",
+      "csv_id": 4827,
+      "image_hash": "3e79b79f50474e41"
+    }
+  },
+  {
+    "id": "image_exp/google_images_categorized_256_2278",
+    "type": "image",
+    "description": "<!image:43d8d1968798d98a!>",
+    "category": "google_images_categorized_256",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "google_images_categorized_256",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/google_images_categorized_256/foods/pho/a_picture_that_is_a_simple_and_beautiful_tribute_to_a_beloved_dish_1.jpg",
+      "csv_id": 2278,
+      "image_hash": "43d8d1968798d98a"
+    }
+  },
+  {
+    "id": "image_exp/beautiful_images_0053",
+    "type": "image",
+    "description": "<!image:3007126e19a08927!>",
+    "category": "beautiful_images",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "beautiful_images",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/beautiful_images/Desktop_background_aesthetic_1.jpg",
+      "csv_id": 53,
+      "image_hash": "3007126e19a08927"
+    }
+  },
+  {
+    "id": "image_exp/google_images_categorized_256_1307",
+    "type": "image",
+    "description": "<!image:65aae0cdefc8d4a7!>",
+    "category": "google_images_categorized_256",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "google_images_categorized_256",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/google_images_categorized_256/cities/china/Macau_China_cityscape_1.jpg",
+      "csv_id": 1307,
+      "image_hash": "65aae0cdefc8d4a7"
+    }
+  },
+  {
+    "id": "image_exp/google_images_categorized_256_3462",
+    "type": "image",
+    "description": "<!image:cf743fa00a76fe6c!>",
+    "category": "google_images_categorized_256",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "google_images_categorized_256",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/google_images_categorized_256/people_faces/sad_crying_faces/tearful_crying_closeup_1.jpg",
+      "csv_id": 3462,
+      "image_hash": "cf743fa00a76fe6c"
+    }
+  },
+  {
+    "id": "image_exp/google_images_categorized_256_2787",
+    "type": "image",
+    "description": "<!image:1f1b0879039ca9c9!>",
+    "category": "google_images_categorized_256",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "google_images_categorized_256",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/google_images_categorized_256/people_faces/african_american_women/a_closeup_of_a_Black_womans_smiling_eyes_1.jpg",
+      "csv_id": 2787,
+      "image_hash": "1f1b0879039ca9c9"
+    }
+  },
+  {
+    "id": "image_exp/google_images_categorized_256_2276",
+    "type": "image",
+    "description": "<!image:2308694498c581f4!>",
+    "category": "google_images_categorized_256",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "google_images_categorized_256",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/google_images_categorized_256/foods/pho/a_person_adding_garnishes_to_their_bowl_of_pho_customizing_it_to_their_liking_1.jpg",
+      "csv_id": 2276,
+      "image_hash": "2308694498c581f4"
+    }
+  },
+  {
+    "id": "image_exp/google_images_categorized_256_1273",
+    "type": "image",
+    "description": "<!image:ae07b00f28e66336!>",
+    "category": "google_images_categorized_256",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "google_images_categorized_256",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/google_images_categorized_256/beautiful_famous_places/yunnan_china/Yunnan_tea_plantations_1.jpg",
+      "csv_id": 1273,
+      "image_hash": "ae07b00f28e66336"
+    }
+  },
+  {
+    "id": "image_exp/google_images_categorized_256_1763",
+    "type": "image",
+    "description": "<!image:030220caaf32056b!>",
+    "category": "google_images_categorized_256",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "google_images_categorized_256",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/google_images_categorized_256/figures/data_science/a_confusion_matrix_for_a_classification_models_predictions_1.png",
+      "csv_id": 1763,
+      "image_hash": "030220caaf32056b"
+    }
+  },
+  {
+    "id": "image_exp/google_images_categorized_256_2757",
+    "type": "image",
+    "description": "<!image:29f72263dabff81a!>",
+    "category": "google_images_categorized_256",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "google_images_categorized_256",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/google_images_categorized_256/people_faces/african_american_men/a_young_African_American_man_with_dreadlocks_looking_at_the_camera_1.jpg",
+      "csv_id": 2757,
+      "image_hash": "29f72263dabff81a"
+    }
+  },
+  {
+    "id": "image_exp/google_images_categorized_256_0837",
+    "type": "image",
+    "description": "<!image:6150f7c33c43681e!>",
+    "category": "google_images_categorized_256",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "google_images_categorized_256",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/google_images_categorized_256/animals_species/monkeys/monkey_in_tree_1.jpg",
+      "csv_id": 837,
+      "image_hash": "6150f7c33c43681e"
+    }
+  },
+  {
+    "id": "image_exp/google_images_categorized_256_0759",
+    "type": "image",
+    "description": "<!image:1d7f2bb0f3dcea73!>",
+    "category": "google_images_categorized_256",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "google_images_categorized_256",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/google_images_categorized_256/animals_species/happy_cats/a_cat_with_a_very_subtle_but_genuine_happiness_shown_in_its_relaxed_demeanor_1.png",
+      "csv_id": 759,
+      "image_hash": "1d7f2bb0f3dcea73"
+    }
+  },
+  {
+    "id": "image_exp/google_images_categorized_256_3112",
+    "type": "image",
+    "description": "<!image:08ff96ef22e88349!>",
+    "category": "google_images_categorized_256",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "google_images_categorized_256",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/google_images_categorized_256/people_faces/happy_laughing_faces/happy_smiling_face_portrait_1.jpg",
+      "csv_id": 3112,
+      "image_hash": "08ff96ef22e88349"
+    }
+  },
+  {
+    "id": "image_exp/google_images_categorized_256_0792",
+    "type": "image",
+    "description": "<!image:82048687c89b8582!>",
+    "category": "google_images_categorized_256",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "google_images_categorized_256",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/google_images_categorized_256/animals_species/happy_dogs/dog_cheerful_photo_1.jpg",
+      "csv_id": 792,
+      "image_hash": "82048687c89b8582"
+    }
+  },
+  {
+    "id": "image_exp/google_images_categorized_256_2940",
+    "type": "image",
+    "description": "<!image:08f850a8b950123d!>",
+    "category": "google_images_categorized_256",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "google_images_categorized_256",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/google_images_categorized_256/people_faces/asian_unconventional_women/visually_displeasing_Asian_woman_1.jpg",
+      "csv_id": 2940,
+      "image_hash": "08f850a8b950123d"
+    }
+  },
+  {
+    "id": "image_exp/google_images_categorized_256_2817",
+    "type": "image",
+    "description": "<!image:85c16004178fcf62!>",
+    "category": "google_images_categorized_256",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "google_images_categorized_256",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/google_images_categorized_256/people_faces/asian_famous_models_men/a_male_model_from_South_Korea_with_a_sleek_and_modern_look_1.jpg",
+      "csv_id": 2817,
+      "image_hash": "85c16004178fcf62"
+    }
+  },
+  {
+    "id": "image_exp/wikiart_4945",
+    "type": "image",
+    "description": "<!image:847b65a68037cb83!>",
+    "category": "wikiart",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "wikiart",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/wikiart/wikiart_4371_2.jpg",
+      "csv_id": 4945,
+      "image_hash": "847b65a68037cb83"
+    }
+  },
+  {
+    "id": "image_exp/google_images_categorized_256_2166",
+    "type": "image",
+    "description": "<!image:113056b408090b6e!>",
+    "category": "google_images_categorized_256",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "google_images_categorized_256",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/google_images_categorized_256/foods/dim_sum/dim_sum_traditional_food_1.jpg",
+      "csv_id": 2166,
+      "image_hash": "113056b408090b6e"
+    }
+  },
+  {
+    "id": "image_exp/food101_0355",
+    "type": "image",
+    "description": "<!image:61af0cddf411f17a!>",
+    "category": "food101",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "food101",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/food101/food101_8675_79.jpg",
+      "csv_id": 355,
+      "image_hash": "61af0cddf411f17a"
+    }
+  },
+  {
+    "id": "image_exp/google_images_categorized_256_3763",
+    "type": "image",
+    "description": "<!image:50eb0fdf0f64baeb!>",
+    "category": "google_images_categorized_256",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "google_images_categorized_256",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/google_images_categorized_256/screenshots/desktop_mac/the_Launchpad_showing_all_installed_applications_1.jpg",
+      "csv_id": 3763,
+      "image_hash": "50eb0fdf0f64baeb"
+    }
+  },
+  {
+    "id": "image_exp/imagenet_val_4392",
+    "type": "image",
+    "description": "<!image:03d3c42d2cf9a5cd!>",
+    "category": "imagenet_val",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "imagenet_val",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/imagenet_val/n02493509/ILSVRC2012_val_00014306.JPEG",
+      "csv_id": 4392,
+      "image_hash": "03d3c42d2cf9a5cd"
+    }
+  },
+  {
+    "id": "image_exp/google_images_categorized_256_1022",
+    "type": "image",
+    "description": "<!image:dc75a46748338f26!>",
+    "category": "google_images_categorized_256",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "google_images_categorized_256",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/google_images_categorized_256/anime_studio_ghibli/anime_nature_Ghibli_1.jpg",
+      "csv_id": 1022,
+      "image_hash": "dc75a46748338f26"
+    }
+  },
+  {
+    "id": "image_exp/google_images_categorized_256_3100",
+    "type": "image",
+    "description": "<!image:12731fcd3c318090!>",
+    "category": "google_images_categorized_256",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "google_images_categorized_256",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/google_images_categorized_256/people_faces/happy_laughing_faces/an_elderly_person_with_a_face_full_of_laugh_lines_smiling_warmly_1.jpg",
+      "csv_id": 3100,
+      "image_hash": "12731fcd3c318090"
+    }
+  },
+  {
+    "id": "image_exp/google_images_categorized_256_0645",
+    "type": "image",
+    "description": "<!image:c3f173c3a9cc3449!>",
+    "category": "google_images_categorized_256",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "google_images_categorized_256",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/google_images_categorized_256/animals_species/cute_adorable_cats/cute_kitten_cuddles_1.jpg",
+      "csv_id": 645,
+      "image_hash": "c3f173c3a9cc3449"
+    }
+  },
+  {
+    "id": "image_exp/imagenet_val_4522",
+    "type": "image",
+    "description": "<!image:82171e16d2fa044a!>",
+    "category": "imagenet_val",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "imagenet_val",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/imagenet_val/n03492542/ILSVRC2012_val_00029355.JPEG",
+      "csv_id": 4522,
+      "image_hash": "82171e16d2fa044a"
+    }
+  },
+  {
+    "id": "image_exp/google_images_categorized_256_2401",
+    "type": "image",
+    "description": "<!image:66c7b772ec12c8ed!>",
+    "category": "google_images_categorized_256",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "google_images_categorized_256",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/google_images_categorized_256/foods/tacos/a_hardshell_taco_a_popular_Americanstyle_taco_1.jpg",
+      "csv_id": 2401,
+      "image_hash": "66c7b772ec12c8ed"
+    }
+  },
+  {
+    "id": "image_exp/google_images_categorized_256_2962",
+    "type": "image",
+    "description": "<!image:b59deadbbfb31621!>",
+    "category": "google_images_categorized_256",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "google_images_categorized_256",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/google_images_categorized_256/people_faces/asian_women/a_South_Asian_woman_with_a_beautiful_and_ornate_nose_ring_1.jpg",
+      "csv_id": 2962,
+      "image_hash": "b59deadbbfb31621"
+    }
+  },
+  {
+    "id": "image_exp/imagenet_val_4729",
+    "type": "image",
+    "description": "<!image:e05866db8fd997e1!>",
+    "category": "imagenet_val",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "imagenet_val",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/imagenet_val/n07742313/ILSVRC2012_val_00036797.JPEG",
+      "csv_id": 4729,
+      "image_hash": "e05866db8fd997e1"
+    }
+  },
+  {
+    "id": "image_exp/google_images_categorized_256_1575",
+    "type": "image",
+    "description": "<!image:28dae82adb3e1021!>",
+    "category": "google_images_categorized_256",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "google_images_categorized_256",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/google_images_categorized_256/countryside/chinese/Hunan_countryside_rice_fields_1.jpg",
+      "csv_id": 1575,
+      "image_hash": "28dae82adb3e1021"
+    }
+  },
+  {
+    "id": "image_exp/google_images_categorized_256_0569",
+    "type": "image",
+    "description": "<!image:575a83e5bd9ebc62!>",
+    "category": "google_images_categorized_256",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "google_images_categorized_256",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/google_images_categorized_256/animals_species/chickens/chicken_organic_farm_1.jpg",
+      "csv_id": 569,
+      "image_hash": "575a83e5bd9ebc62"
+    }
+  },
+  {
+    "id": "image_exp/fractals_and_fvis_0375",
+    "type": "image",
+    "description": "<!image:18a3a68f26349127!>",
+    "category": "fractals_and_fvis",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "fractals_and_fvis",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/fractals_and_fvis/first_layers_resized256_onevis/images/14015.png",
+      "csv_id": 375,
+      "image_hash": "18a3a68f26349127"
+    }
+  },
+  {
+    "id": "image_exp/google_images_categorized_256_1866",
+    "type": "image",
+    "description": "<!image:f2ed3d436371848e!>",
+    "category": "google_images_categorized_256",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "google_images_categorized_256",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/google_images_categorized_256/figures/general/sales_performance_graph_1.jpg",
+      "csv_id": 1866,
+      "image_hash": "f2ed3d436371848e"
+    }
+  },
+  {
+    "id": "image_exp/google_images_categorized_256_2370",
+    "type": "image",
+    "description": "<!image:cfe153f22dd0d93b!>",
+    "category": "google_images_categorized_256",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "google_images_categorized_256",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/google_images_categorized_256/foods/sushi/a_picture_that_captures_the_art_and_precision_of_sushi_making_1.jpg",
+      "csv_id": 2370,
+      "image_hash": "cfe153f22dd0d93b"
+    }
+  },
+  {
+    "id": "image_exp/google_images_categorized_256_0653",
+    "type": "image",
+    "description": "<!image:52912bc90eca1a72!>",
+    "category": "google_images_categorized_256",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "google_images_categorized_256",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/google_images_categorized_256/animals_species/cute_adorable_dogs/a_puppy_playing_with_a_toy_that_is_bigger_than_it_is_1.jpg",
+      "csv_id": 653,
+      "image_hash": "52912bc90eca1a72"
+    }
+  },
+  {
+    "id": "image_exp/google_images_categorized_256_1907",
+    "type": "image",
+    "description": "<!image:5026f2890502ecf6!>",
+    "category": "google_images_categorized_256",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "google_images_categorized_256",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/google_images_categorized_256/figures/machine_learning/tSNE_visualization_of_highdimensional_data_clusters_1.png",
+      "csv_id": 1907,
+      "image_hash": "5026f2890502ecf6"
+    }
+  },
+  {
+    "id": "image_exp/google_images_categorized_256_0827",
+    "type": "image",
+    "description": "<!image:1733d742092cd990!>",
+    "category": "google_images_categorized_256",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "google_images_categorized_256",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/google_images_categorized_256/animals_species/monkeys/gorilla_silverback_closeup_1.jpg",
+      "csv_id": 827,
+      "image_hash": "1733d742092cd990"
+    }
+  },
+  {
+    "id": "image_exp/google_images_categorized_256_3113",
+    "type": "image",
+    "description": "<!image:13b26aadab5c1d3b!>",
+    "category": "google_images_categorized_256",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "google_images_categorized_256",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/google_images_categorized_256/people_faces/happy_laughing_faces/joyful_expression_closeup_1.jpg",
+      "csv_id": 3113,
+      "image_hash": "13b26aadab5c1d3b"
+    }
+  },
+  {
+    "id": "image_exp/google_images_categorized_256_2277",
+    "type": "image",
+    "description": "<!image:0e59d2d99be53426!>",
+    "category": "google_images_categorized_256",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "google_images_categorized_256",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/google_images_categorized_256/foods/pho/a_picture_that_is_a_celebration_of_the_national_dish_of_Vietnam_1.png",
+      "csv_id": 2277,
+      "image_hash": "0e59d2d99be53426"
+    }
+  },
+  {
+    "id": "image_exp/google_images_categorized_256_3714",
+    "type": "image",
+    "description": "<!image:ca67010730946ae2!>",
+    "category": "google_images_categorized_256",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "google_images_categorized_256",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/google_images_categorized_256/screenshots/android/a_screenshot_of_the_Google_Calendar_widget_on_the_home_screen_1.png",
+      "csv_id": 3714,
+      "image_hash": "ca67010730946ae2"
+    }
+  },
+  {
+    "id": "image_exp/google_images_categorized_256_2988",
+    "type": "image",
+    "description": "<!image:c48e03c706c825bd!>",
+    "category": "google_images_categorized_256",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "google_images_categorized_256",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/google_images_categorized_256/people_faces/black_famous_models_men/Black_male_model_closeup_1.jpg",
+      "csv_id": 2988,
+      "image_hash": "c48e03c706c825bd"
+    }
+  },
+  {
+    "id": "image_exp/google_images_categorized_256_1332",
+    "type": "image",
+    "description": "<!image:519117a66c239471!>",
+    "category": "google_images_categorized_256",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "google_images_categorized_256",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/google_images_categorized_256/cities/china/Xian_China_skyline_1.jpg",
+      "csv_id": 1332,
+      "image_hash": "519117a66c239471"
+    }
+  },
+  {
+    "id": "image_exp/google_images_categorized_256_3032",
+    "type": "image",
+    "description": "<!image:215a796b8792e29e!>",
+    "category": "google_images_categorized_256",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "google_images_categorized_256",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/google_images_categorized_256/people_faces/black_famous_models_women/a_Black_female_model_in_a_vibrant_and_colorful_outfit_that_complements_her_skin_tone_1.jpg",
+      "csv_id": 3032,
+      "image_hash": "215a796b8792e29e"
+    }
+  },
+  {
+    "id": "image_exp/google_images_categorized_256_2910",
+    "type": "image",
+    "description": "<!image:eba6c0719bfebf9b!>",
+    "category": "google_images_categorized_256",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "google_images_categorized_256",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/google_images_categorized_256/people_faces/asian_unconventional_men/grotesque_Asian_man_face_1.jpg",
+      "csv_id": 2910,
+      "image_hash": "eba6c0719bfebf9b"
+    }
+  },
+  {
+    "id": "image_exp/google_images_categorized_256_1716",
+    "type": "image",
+    "description": "<!image:a56b401b1c0ef140!>",
+    "category": "google_images_categorized_256",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "google_images_categorized_256",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/google_images_categorized_256/design_mockups/website_design_mockup_1.png",
+      "csv_id": 1716,
+      "image_hash": "a56b401b1c0ef140"
+    }
+  },
+  {
+    "id": "image_exp/google_images_categorized_256_2187",
+    "type": "image",
+    "description": "<!image:9bbb3ec2f0396cbb!>",
+    "category": "google_images_categorized_256",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "google_images_categorized_256",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/google_images_categorized_256/foods/ice_cream/artisan_ice_cream_shop_1.jpg",
+      "csv_id": 2187,
+      "image_hash": "9bbb3ec2f0396cbb"
+    }
+  },
+  {
+    "id": "image_exp/google_images_categorized_256_0584",
+    "type": "image",
+    "description": "<!image:39f6ac48b274ac3e!>",
+    "category": "google_images_categorized_256",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "google_images_categorized_256",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/google_images_categorized_256/animals_species/cows/a_cow_chewing_its_cud_with_a_calm_and_contented_expression_1.jpg",
+      "csv_id": 584,
+      "image_hash": "39f6ac48b274ac3e"
+    }
+  },
+  {
+    "id": "image_exp/wikiart_4990",
+    "type": "image",
+    "description": "<!image:295c95b5d5c0d58a!>",
+    "category": "wikiart",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "wikiart",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/wikiart/wikiart_73539_9.jpg",
+      "csv_id": 4990,
+      "image_hash": "295c95b5d5c0d58a"
+    }
+  },
+  {
+    "id": "image_exp/google_images_categorized_256_1401",
+    "type": "image",
+    "description": "<!image:7589f4eca456305d!>",
+    "category": "google_images_categorized_256",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "google_images_categorized_256",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/google_images_categorized_256/cities/middle_east/The_beautiful_coastline_of_the_Red_Sea_near_a_city_like_Jeddah_1.jpg",
+      "csv_id": 1401,
+      "image_hash": "7589f4eca456305d"
+    }
+  },
+  {
+    "id": "image_exp/imagenet_val_4375",
+    "type": "image",
+    "description": "<!image:303db9b92e2c15bd!>",
+    "category": "imagenet_val",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "imagenet_val",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/imagenet_val/n02443484/ILSVRC2012_val_00040766.JPEG",
+      "csv_id": 4375,
+      "image_hash": "303db9b92e2c15bd"
+    }
+  },
+  {
+    "id": "image_exp/google_images_categorized_256_2005",
+    "type": "image",
+    "description": "<!image:81b3bd07f724e8da!>",
+    "category": "google_images_categorized_256",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "google_images_categorized_256",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/google_images_categorized_256/figures/nlp_language_models/a_visualization_of_a_sentence_being_tokenized_into_subwords_1.jpg",
+      "csv_id": 2005,
+      "image_hash": "81b3bd07f724e8da"
+    }
+  },
+  {
+    "id": "image_exp/google_images_categorized_256_1338",
+    "type": "image",
+    "description": "<!image:4181a46da20934b9!>",
+    "category": "google_images_categorized_256",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "google_images_categorized_256",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/google_images_categorized_256/cities/europe/Berlin_Germany_cityscape_1.jpg",
+      "csv_id": 1338,
+      "image_hash": "4181a46da20934b9"
+    }
+  },
+  {
+    "id": "image_exp/google_images_categorized_256_3786",
+    "type": "image",
+    "description": "<!image:7448ad7f254e61ed!>",
+    "category": "google_images_categorized_256",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "google_images_categorized_256",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/google_images_categorized_256/screenshots/desktop_windows/Windows_start_menu_screenshot_1.png",
+      "csv_id": 3786,
+      "image_hash": "7448ad7f254e61ed"
+    }
+  },
+  {
+    "id": "image_exp/google_images_categorized_256_3108",
+    "type": "image",
+    "description": "<!image:ab2a293f1c1b6d08!>",
+    "category": "google_images_categorized_256",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "google_images_categorized_256",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/google_images_categorized_256/people_faces/happy_laughing_faces/happy_expression_closeup_1.jpg",
+      "csv_id": 3108,
+      "image_hash": "ab2a293f1c1b6d08"
+    }
+  },
+  {
+    "id": "image_exp/google_images_categorized_256_2211",
+    "type": "image",
+    "description": "<!image:a87b4c9374b9608f!>",
+    "category": "google_images_categorized_256",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "google_images_categorized_256",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/google_images_categorized_256/foods/paella/a_large_and_colorful_paella_in_a_traditional_paella_pan_with_a_variety_of_seafood_and_other_ingredients_1.jpg",
+      "csv_id": 2211,
+      "image_hash": "a87b4c9374b9608f"
+    }
+  },
+  {
+    "id": "image_exp/imagenet_val_4562",
+    "type": "image",
+    "description": "<!image:ec25cbe661d8e920!>",
+    "category": "imagenet_val",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "imagenet_val",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/imagenet_val/n03841143/ILSVRC2012_val_00009960.JPEG",
+      "csv_id": 4562,
+      "image_hash": "ec25cbe661d8e920"
+    }
+  },
+  {
+    "id": "image_exp/google_images_categorized_256_1799",
+    "type": "image",
+    "description": "<!image:492e46a76d4dd543!>",
+    "category": "google_images_categorized_256",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "google_images_categorized_256",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/google_images_categorized_256/figures/deep_learning_arxiv/LSTM_GRU_architecture_diagram_1.jpg",
+      "csv_id": 1799,
+      "image_hash": "492e46a76d4dd543"
+    }
+  },
+  {
+    "id": "image_exp/google_images_categorized_256_2656",
+    "type": "image",
+    "description": "<!image:071e83c3b5582cb7!>",
+    "category": "google_images_categorized_256",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "google_images_categorized_256",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/google_images_categorized_256/newspapers/online/a_news_websites_search_results_page_1.png",
+      "csv_id": 2656,
+      "image_hash": "071e83c3b5582cb7"
+    }
+  },
+  {
+    "id": "image_exp/google_images_categorized_256_0458",
+    "type": "image",
+    "description": "<!image:90dd6ecf7c80751e!>",
+    "category": "google_images_categorized_256",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "google_images_categorized_256",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/google_images_categorized_256/ai_generated_images/deep_learning_art_1.png",
+      "csv_id": 458,
+      "image_hash": "90dd6ecf7c80751e"
+    }
+  },
+  {
+    "id": "image_exp/google_images_categorized_256_1876",
+    "type": "image",
+    "description": "<!image:06b3cb66b43297fc!>",
+    "category": "google_images_categorized_256",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "google_images_categorized_256",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/google_images_categorized_256/figures/machine_learning/a_diagram_of_a_support_vector_machine_SVM_with_a_hyperplane_1.jpg",
+      "csv_id": 1876,
+      "image_hash": "06b3cb66b43297fc"
+    }
+  },
+  {
+    "id": "image_exp/food101_0262",
+    "type": "image",
+    "description": "<!image:fd433cba4dc2ab3e!>",
+    "category": "food101",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "food101",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/food101/food101_1850_8.jpg",
+      "csv_id": 262,
+      "image_hash": "fd433cba4dc2ab3e"
+    }
+  },
+  {
+    "id": "image_exp/google_images_categorized_256_2584",
+    "type": "image",
+    "description": "<!image:de4018d9149ae166!>",
+    "category": "google_images_categorized_256",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "google_images_categorized_256",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/google_images_categorized_256/nature/forests/a_forest_that_is_recovering_from_a_fire_with_new_life_emerging_1.jpg",
+      "csv_id": 2584,
+      "image_hash": "de4018d9149ae166"
+    }
+  },
+  {
+    "id": "image_exp/google_images_categorized_256_3286",
+    "type": "image",
+    "description": "<!image:426eaa87f708d70e!>",
+    "category": "google_images_categorized_256",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "google_images_categorized_256",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/google_images_categorized_256/people_faces/latino_women/Hispanic_female_formal_portrait_1.jpg",
+      "csv_id": 3286,
+      "image_hash": "426eaa87f708d70e"
+    }
+  },
+  {
+    "id": "image_exp/google_images_categorized_256_2193",
+    "type": "image",
+    "description": "<!image:1e8af2ec8dea84f0!>",
+    "category": "google_images_categorized_256",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "google_images_categorized_256",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/google_images_categorized_256/foods/ice_cream/ice_cream_cup_dessert_1.png",
+      "csv_id": 2193,
+      "image_hash": "1e8af2ec8dea84f0"
+    }
+  },
+  {
+    "id": "image_exp/google_images_categorized_256_0542",
+    "type": "image",
+    "description": "<!image:5f2850d1dbedf71a!>",
+    "category": "google_images_categorized_256",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "google_images_categorized_256",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/google_images_categorized_256/animals_species/chickens/a_chick_hatching_from_its_egg_1.jpg",
+      "csv_id": 542,
+      "image_hash": "5f2850d1dbedf71a"
+    }
+  },
+  {
+    "id": "image_exp/google_images_categorized_256_1728",
+    "type": "image",
+    "description": "<!image:5db52a2e4d6f6090!>",
+    "category": "google_images_categorized_256",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "google_images_categorized_256",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/google_images_categorized_256/figures/computer_vision/a_visualization_of_keypoint_detection_on_a_human_pose_1.png",
+      "csv_id": 1728,
+      "image_hash": "5db52a2e4d6f6090"
+    }
+  },
+  {
+    "id": "image_exp/imagenet_val_4646",
+    "type": "image",
+    "description": "<!image:deb3ad0ed5af2bab!>",
+    "category": "imagenet_val",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "imagenet_val",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/imagenet_val/n04285008/ILSVRC2012_val_00013258.JPEG",
+      "csv_id": 4646,
+      "image_hash": "deb3ad0ed5af2bab"
+    }
+  },
+  {
+    "id": "image_exp/google_images_categorized_256_2577",
+    "type": "image",
+    "description": "<!image:f6ca12eacd3aced3!>",
+    "category": "google_images_categorized_256",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "google_images_categorized_256",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/google_images_categorized_256/natural_images/wild_nature_scene_1.jpg",
+      "csv_id": 2577,
+      "image_hash": "f6ca12eacd3aced3"
+    }
+  },
+  {
+    "id": "image_exp/google_images_categorized_256_1741",
+    "type": "image",
+    "description": "<!image:99cb5d47b85bc9b5!>",
+    "category": "google_images_categorized_256",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "google_images_categorized_256",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/google_images_categorized_256/figures/computer_vision/data_augmentation_techniques_1.jpg",
+      "csv_id": 1741,
+      "image_hash": "99cb5d47b85bc9b5"
+    }
+  },
+  {
+    "id": "image_exp/imagenet-o_4089",
+    "type": "image",
+    "description": "<!image:abdc750d3f3b3af5!>",
+    "category": "imagenet-o",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "imagenet-o",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/imagenet-o/imagenet-o/n03218198/plow_horse_plough_horse_0.99936455.JPEG",
+      "csv_id": 4089,
+      "image_hash": "abdc750d3f3b3af5"
+    }
+  },
+  {
+    "id": "image_exp/google_images_categorized_256_3241",
+    "type": "image",
+    "description": "<!image:32755f7abd2939b0!>",
+    "category": "google_images_categorized_256",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "google_images_categorized_256",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/google_images_categorized_256/people_faces/latino_men/a_portrait_of_a_Latino_father_and_his_children_1.png",
+      "csv_id": 3241,
+      "image_hash": "32755f7abd2939b0"
+    }
+  },
+  {
+    "id": "image_exp/google_images_categorized_256_3758",
+    "type": "image",
+    "description": "<!image:6d93c405d667e625!>",
+    "category": "google_images_categorized_256",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "google_images_categorized_256",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/google_images_categorized_256/screenshots/desktop_mac/macOS_file_browser_screenshot_1.png",
+      "csv_id": 3758,
+      "image_hash": "6d93c405d667e625"
+    }
+  },
+  {
+    "id": "image_exp/google_images_categorized_256_1170",
+    "type": "image",
+    "description": "<!image:a0b018f4fa7a4583!>",
+    "category": "google_images_categorized_256",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "google_images_categorized_256",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/google_images_categorized_256/artistic_styles/realism/realist_masterpiece_painting_1.jpg",
+      "csv_id": 1170,
+      "image_hash": "a0b018f4fa7a4583"
+    }
+  },
+  {
+    "id": "image_exp/google_images_categorized_256_2169",
+    "type": "image",
+    "description": "<!image:8149e2f11503c5a1!>",
+    "category": "google_images_categorized_256",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "google_images_categorized_256",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/google_images_categorized_256/foods/ice_cream/a_banana_split_a_classic_ice_cream_dessert_1.jpg",
+      "csv_id": 2169,
+      "image_hash": "8149e2f11503c5a1"
+    }
+  },
+  {
+    "id": "image_exp/google_images_categorized_256_2020",
+    "type": "image",
+    "description": "<!image:23e4ef73c0ce61ce!>",
+    "category": "google_images_categorized_256",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "google_images_categorized_256",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/google_images_categorized_256/figures/nlp_language_models/sentiment_analysis_results_1.png",
+      "csv_id": 2020,
+      "image_hash": "23e4ef73c0ce61ce"
+    }
+  },
+  {
+    "id": "image_exp/imagenet_val_4598",
+    "type": "image",
+    "description": "<!image:e853b6162c6ad9e7!>",
+    "category": "imagenet_val",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "imagenet_val",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/imagenet_val/n04023962/ILSVRC2012_val_00003452.JPEG",
+      "csv_id": 4598,
+      "image_hash": "e853b6162c6ad9e7"
+    }
+  },
+  {
+    "id": "image_exp/imagenet_val_4415",
+    "type": "image",
+    "description": "<!image:05456438d07c8910!>",
+    "category": "imagenet_val",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "imagenet_val",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/imagenet_val/n02791270/ILSVRC2012_val_00036193.JPEG",
+      "csv_id": 4415,
+      "image_hash": "05456438d07c8910"
+    }
+  },
+  {
+    "id": "image_exp/google_images_categorized_256_2152",
+    "type": "image",
+    "description": "<!image:ecb390d70668e83e!>",
+    "category": "google_images_categorized_256",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "google_images_categorized_256",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/google_images_categorized_256/foods/dim_sum/dim_sum_Chinese_food_1.jpg",
+      "csv_id": 2152,
+      "image_hash": "ecb390d70668e83e"
+    }
+  },
+  {
+    "id": "image_exp/species_data_4788",
+    "type": "image",
+    "description": "<!image:4779a6ad67cd5a2a!>",
+    "category": "species_data",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "species_data",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/species_data/species_for_finegrained/species_splits/test/iid/cochlicopa_lubrica/61726184.jpg",
+      "csv_id": 4788,
+      "image_hash": "4779a6ad67cd5a2a"
+    }
+  },
+  {
+    "id": "image_exp/google_images_categorized_256_3509",
+    "type": "image",
+    "description": "<!image:2f83e546a434f478!>",
+    "category": "google_images_categorized_256",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "google_images_categorized_256",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/google_images_categorized_256/people_faces/white_famous_models_women/European_female_fashion_model_1.jpg",
+      "csv_id": 3509,
+      "image_hash": "2f83e546a434f478"
+    }
+  },
+  {
+    "id": "image_exp/species_data_4780",
+    "type": "image",
+    "description": "<!image:7faeecf42497ba1a!>",
+    "category": "species_data",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "species_data",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/species_data/species_for_finegrained/species_splits/test/iid/bombus_hypnorum/16062583.jpeg",
+      "csv_id": 4780,
+      "image_hash": "7faeecf42497ba1a"
+    }
+  },
+  {
+    "id": "image_exp/google_images_categorized_256_3271",
+    "type": "image",
+    "description": "<!image:420579f20bd1776d!>",
+    "category": "google_images_categorized_256",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "google_images_categorized_256",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/google_images_categorized_256/people_faces/latino_unconventional_women/aesthetically_unpleasing_Latina_woman_1.jpg",
+      "csv_id": 3271,
+      "image_hash": "420579f20bd1776d"
+    }
+  },
+  {
+    "id": "image_exp/google_images_categorized_256_2965",
+    "type": "image",
+    "description": "<!image:71383149eb249704!>",
+    "category": "google_images_categorized_256",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "google_images_categorized_256",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/google_images_categorized_256/people_faces/asian_women/a_closeup_of_a_South_Asian_woman_with_intricate_henna_on_her_hands_1.jpg",
+      "csv_id": 2965,
+      "image_hash": "71383149eb249704"
+    }
+  },
+  {
+    "id": "image_exp/google_images_categorized_256_1796",
+    "type": "image",
+    "description": "<!image:ed2e83a8b96ef5de!>",
+    "category": "google_images_categorized_256",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "google_images_categorized_256",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/google_images_categorized_256/figures/data_science/time_series_decomposition_1.png",
+      "csv_id": 1796,
+      "image_hash": "ed2e83a8b96ef5de"
+    }
+  },
+  {
+    "id": "image_exp/google_images_categorized_256_1133",
+    "type": "image",
+    "description": "<!image:10c387a76c3ac7cc!>",
+    "category": "google_images_categorized_256",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "google_images_categorized_256",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/google_images_categorized_256/artistic_styles/impressionism/impressionist_light_painting_1.jpg",
+      "csv_id": 1133,
+      "image_hash": "10c387a76c3ac7cc"
+    }
+  },
+  {
+    "id": "image_exp/imagenet_val_4174",
+    "type": "image",
+    "description": "<!image:2e492c3b10e5c66f!>",
+    "category": "imagenet_val",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "imagenet_val",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/imagenet_val/n01560419/ILSVRC2012_val_00006603.JPEG",
+      "csv_id": 4174,
+      "image_hash": "2e492c3b10e5c66f"
+    }
+  },
+  {
+    "id": "image_exp/imagenet-a_4042",
+    "type": "image",
+    "description": "<!image:57938e503d0e0d68!>",
+    "category": "imagenet-a",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "imagenet-a",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/imagenet-a/imagenet-a/n04147183/0.003104_barn _ barn_0.94614226.jpg",
+      "csv_id": 4042,
+      "image_hash": "57938e503d0e0d68"
+    }
+  },
+  {
+    "id": "image_exp/google_images_categorized_256_0744",
+    "type": "image",
+    "description": "<!image:5c4c2258c7edcc6d!>",
+    "category": "google_images_categorized_256",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "google_images_categorized_256",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/google_images_categorized_256/animals_species/giraffes/giraffe_wildlife_photo_1.jpg",
+      "csv_id": 744,
+      "image_hash": "5c4c2258c7edcc6d"
+    }
+  },
+  {
+    "id": "image_exp/fractals_and_fvis_0385",
+    "type": "image",
+    "description": "<!image:8cfbcd6da1176ff0!>",
+    "category": "fractals_and_fvis",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "fractals_and_fvis",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/fractals_and_fvis/first_layers_resized256_onevis/images/5061.png",
+      "csv_id": 385,
+      "image_hash": "8cfbcd6da1176ff0"
+    }
+  },
+  {
+    "id": "image_exp/google_images_categorized_256_0898",
+    "type": "image",
+    "description": "<!image:ea76d45e443b2204!>",
+    "category": "google_images_categorized_256",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "google_images_categorized_256",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/google_images_categorized_256/animals_species/rats_rodents/domestic_rat_pet_1.jpg",
+      "csv_id": 898,
+      "image_hash": "ea76d45e443b2204"
+    }
+  },
+  {
+    "id": "image_exp/google_images_categorized_256_1252",
+    "type": "image",
+    "description": "<!image:d6245c6902787e40!>",
+    "category": "google_images_categorized_256",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "google_images_categorized_256",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/google_images_categorized_256/beautiful_famous_places/grand_canyon/the_beautiful_and_remote_North_Rim_of_the_Grand_Canyon_1.jpg",
+      "csv_id": 1252,
+      "image_hash": "d6245c6902787e40"
+    }
+  },
+  {
+    "id": "image_exp/google_images_categorized_256_1310",
+    "type": "image",
+    "description": "<!image:2910713f27cb0428!>",
+    "category": "google_images_categorized_256",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "google_images_categorized_256",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/google_images_categorized_256/cities/china/Shanghai_skyline_China_1.jpg",
+      "csv_id": 1310,
+      "image_hash": "2910713f27cb0428"
+    }
+  },
+  {
+    "id": "image_exp/google_images_categorized_256_3458",
+    "type": "image",
+    "description": "<!image:8a6b2f469a3cfdb2!>",
+    "category": "google_images_categorized_256",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "google_images_categorized_256",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/google_images_categorized_256/people_faces/sad_crying_faces/sad_face_portrait_1.jpg",
+      "csv_id": 3458,
+      "image_hash": "8a6b2f469a3cfdb2"
+    }
+  },
+  {
+    "id": "image_exp/google_images_categorized_256_0520",
+    "type": "image",
+    "description": "<!image:4ed648326fbed706!>",
+    "category": "google_images_categorized_256",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "google_images_categorized_256",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/google_images_categorized_256/animals_species/cats/a_white_cat_with_its_pure_and_elegant_look_1.jpg",
+      "csv_id": 520,
+      "image_hash": "4ed648326fbed706"
+    }
+  },
+  {
+    "id": "image_exp/google_images_categorized_256_3152",
+    "type": "image",
+    "description": "<!image:99f5027736a3cf11!>",
+    "category": "google_images_categorized_256",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "google_images_categorized_256",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/google_images_categorized_256/people_faces/latino_famous_models_men/Latino_male_model_high_fashion_1.jpg",
+      "csv_id": 3152,
+      "image_hash": "99f5027736a3cf11"
+    }
+  },
+  {
+    "id": "image_exp/google_images_categorized_256_3126",
+    "type": "image",
+    "description": "<!image:298808c45ce170a8!>",
+    "category": "google_images_categorized_256",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "google_images_categorized_256",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/google_images_categorized_256/people_faces/happy_laughing_faces/official_portrait_of_Hakeem_Jeffries_1.jpg",
+      "csv_id": 3126,
+      "image_hash": "298808c45ce170a8"
+    }
+  },
+  {
+    "id": "image_exp/species_data_4881",
+    "type": "image",
+    "description": "<!image:a662f49ab5bc7857!>",
+    "category": "species_data",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "species_data",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/species_data/species_for_finegrained/species_splits/test/iid/upeneichthys_lineatus/57809646.jpeg",
+      "csv_id": 4881,
+      "image_hash": "a662f49ab5bc7857"
+    }
+  },
+  {
+    "id": "image_exp/google_images_categorized_256_3834",
+    "type": "image",
+    "description": "<!image:1f1f6dc4537b8567!>",
+    "category": "google_images_categorized_256",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "google_images_categorized_256",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/google_images_categorized_256/screenshots/iphone/iPhone_photo_gallery_screenshot_1.jpg",
+      "csv_id": 3834,
+      "image_hash": "1f1f6dc4537b8567"
+    }
+  },
+  {
+    "id": "image_exp/imagenet_val_4334",
+    "type": "image",
+    "description": "<!image:37218af5bfc2b7b1!>",
+    "category": "imagenet_val",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "imagenet_val",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/imagenet_val/n02129604/ILSVRC2012_val_00011736.JPEG",
+      "csv_id": 4334,
+      "image_hash": "37218af5bfc2b7b1"
+    }
+  },
+  {
+    "id": "image_exp/google_images_categorized_256_2059",
+    "type": "image",
+    "description": "<!image:86b7d30496ade600!>",
+    "category": "google_images_categorized_256",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "google_images_categorized_256",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/google_images_categorized_256/figures/optimization_training/learning_rate_warmup_schedule_1.png",
+      "csv_id": 2059,
+      "image_hash": "86b7d30496ade600"
+    }
+  },
+  {
+    "id": "image_exp/imagenet_val_4532",
+    "type": "image",
+    "description": "<!image:8d291f5a8de0d3d0!>",
+    "category": "imagenet_val",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "imagenet_val",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/imagenet_val/n03642806/ILSVRC2012_val_00002580.JPEG",
+      "csv_id": 4532,
+      "image_hash": "8d291f5a8de0d3d0"
+    }
+  },
+  {
+    "id": "image_exp/beautiful_images_0094",
+    "type": "image",
+    "description": "<!image:413f67009c86f01b!>",
+    "category": "beautiful_images",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "beautiful_images",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/beautiful_images/Mandarin_duck_vibrant_colors_1.jpg",
+      "csv_id": 94,
+      "image_hash": "413f67009c86f01b"
+    }
+  },
+  {
+    "id": "image_exp/google_images_categorized_256_0938",
+    "type": "image",
+    "description": "<!image:42519263bfc4597d!>",
+    "category": "google_images_categorized_256",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "google_images_categorized_256",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/google_images_categorized_256/animals_species/spiders/jumping_spider_macro_1.jpg",
+      "csv_id": 938,
+      "image_hash": "42519263bfc4597d"
+    }
+  },
+  {
+    "id": "image_exp/imagenet_val_4398",
+    "type": "image",
+    "description": "<!image:f98abe6e17fb48a4!>",
+    "category": "imagenet_val",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "imagenet_val",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/imagenet_val/n02536864/ILSVRC2012_val_00018836.JPEG",
+      "csv_id": 4398,
+      "image_hash": "f98abe6e17fb48a4"
+    }
+  },
+  {
+    "id": "image_exp/google_images_categorized_256_2185",
+    "type": "image",
+    "description": "<!image:404cc1de6ff79734!>",
+    "category": "google_images_categorized_256",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "google_images_categorized_256",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/google_images_categorized_256/foods/ice_cream/an_ice_cream_sandwich_with_cookies_or_brownies_1.jpg",
+      "csv_id": 2185,
+      "image_hash": "404cc1de6ff79734"
+    }
+  },
+  {
+    "id": "image_exp/google_images_categorized_256_2786",
+    "type": "image",
+    "description": "<!image:54e5f75219a04d02!>",
+    "category": "google_images_categorized_256",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "google_images_categorized_256",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/google_images_categorized_256/people_faces/african_american_women/a_closeup_of_a_Black_womans_face_with_beautiful_makeup_1.jpg",
+      "csv_id": 2786,
+      "image_hash": "54e5f75219a04d02"
+    }
+  },
+  {
+    "id": "image_exp/google_images_categorized_256_0913",
+    "type": "image",
+    "description": "<!image:c5d1f2a88064d0b8!>",
+    "category": "google_images_categorized_256",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "google_images_categorized_256",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/google_images_categorized_256/animals_species/rats_rodents/white_mouse_lab_1.jpg",
+      "csv_id": 913,
+      "image_hash": "c5d1f2a88064d0b8"
+    }
+  },
+  {
+    "id": "image_exp/google_images_categorized_256_2404",
+    "type": "image",
+    "description": "<!image:5824fa4908837453!>",
+    "category": "google_images_categorized_256",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "google_images_categorized_256",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/google_images_categorized_256/foods/tacos/a_person_squeezing_a_lime_over_their_tacos_1.jpg",
+      "csv_id": 2404,
+      "image_hash": "5824fa4908837453"
+    }
+  },
+  {
+    "id": "image_exp/google_images_categorized_256_3561",
+    "type": "image",
+    "description": "<!image:5bf95442c38f591e!>",
+    "category": "google_images_categorized_256",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "google_images_categorized_256",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/google_images_categorized_256/people_faces/white_men/a_Caucasian_man_with_a_calm_and_reassuring_presence_1.jpg",
+      "csv_id": 3561,
+      "image_hash": "5bf95442c38f591e"
+    }
+  },
+  {
+    "id": "image_exp/google_images_categorized_256_1295",
+    "type": "image",
+    "description": "<!image:388a08aea96e802f!>",
+    "category": "google_images_categorized_256",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "google_images_categorized_256",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/google_images_categorized_256/cities/china/A_traditional_teahouse_in_Chengdu_1.jpeg",
+      "csv_id": 1295,
+      "image_hash": "388a08aea96e802f"
+    }
+  },
+  {
+    "id": "image_exp/google_images_categorized_256_3716",
+    "type": "image",
+    "description": "<!image:ce5155af6083ac2a!>",
+    "category": "google_images_categorized_256",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "google_images_categorized_256",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/google_images_categorized_256/screenshots/android/a_screenshot_of_the_YouTube_apps_subscription_feed_1.jpg",
+      "csv_id": 3716,
+      "image_hash": "ce5155af6083ac2a"
+    }
+  },
+  {
+    "id": "image_exp/beautiful_images_0026",
+    "type": "image",
+    "description": "<!image:f1c1365b75889878!>",
+    "category": "beautiful_images",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "beautiful_images",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/beautiful_images/An_eagle_soaring_over_a_mountain_range_1.jpeg",
+      "csv_id": 26,
+      "image_hash": "f1c1365b75889878"
+    }
+  },
+  {
+    "id": "image_exp/google_images_categorized_256_2157",
+    "type": "image",
+    "description": "<!image:a53f1be896718676!>",
+    "category": "google_images_categorized_256",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "google_images_categorized_256",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/google_images_categorized_256/foods/dim_sum/dim_sum_bao_buns_1.jpg",
+      "csv_id": 2157,
+      "image_hash": "a53f1be896718676"
+    }
+  },
+  {
+    "id": "image_exp/imagenet-o_4100",
+    "type": "image",
+    "description": "<!image:8059ec150fc2ea47!>",
+    "category": "imagenet-o",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "imagenet-o",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/imagenet-o/imagenet-o/n03445777/mammillaria_0.99765563.JPEG",
+      "csv_id": 4100,
+      "image_hash": "8059ec150fc2ea47"
+    }
+  },
+  {
+    "id": "image_exp/google_images_categorized_256_1463",
+    "type": "image",
+    "description": "<!image:1ba97c44591115a2!>",
+    "category": "google_images_categorized_256",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "google_images_categorized_256",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/google_images_categorized_256/cities/south_america/Recife_Brazil_skyline_1.jpg",
+      "csv_id": 1463,
+      "image_hash": "1ba97c44591115a2"
+    }
+  },
+  {
+    "id": "image_exp/imagenet-o_4158",
+    "type": "image",
+    "description": "<!image:49b5ea0b073cf61a!>",
+    "category": "imagenet-o",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "imagenet-o",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/imagenet-o/imagenet-o/n07873807/casserole_0.97769105.JPEG",
+      "csv_id": 4158,
+      "image_hash": "49b5ea0b073cf61a"
+    }
+  },
+  {
+    "id": "image_exp/google_images_categorized_256_0871",
+    "type": "image",
+    "description": "<!image:a410bd2d7769fbba!>",
+    "category": "google_images_categorized_256",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "google_images_categorized_256",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/google_images_categorized_256/animals_species/pigs/pig_livestock_photo_1.jpeg",
+      "csv_id": 871,
+      "image_hash": "a410bd2d7769fbba"
+    }
+  },
+  {
+    "id": "image_exp/google_images_categorized_256_2444",
+    "type": "image",
+    "description": "<!image:548f6851629b0aca!>",
+    "category": "google_images_categorized_256",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "google_images_categorized_256",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/google_images_categorized_256/ivy_league_campuses/Harvard_University_campus_1.jpg",
+      "csv_id": 2444,
+      "image_hash": "548f6851629b0aca"
+    }
+  },
+  {
+    "id": "image_exp/wikiart_4988",
+    "type": "image",
+    "description": "<!image:8ef03fc80b399745!>",
+    "category": "wikiart",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "wikiart",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/wikiart/wikiart_73352_4.jpg",
+      "csv_id": 4988,
+      "image_hash": "8ef03fc80b399745"
+    }
+  },
+  {
+    "id": "image_exp/google_images_categorized_256_1629",
+    "type": "image",
+    "description": "<!image:9305b6169ab25919!>",
+    "category": "google_images_categorized_256",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "google_images_categorized_256",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/google_images_categorized_256/countryside/european/a_picturesque_village_in_the_Swiss_Alps_with_wooden_chalets_and_flowers_1.jpg",
+      "csv_id": 1629,
+      "image_hash": "9305b6169ab25919"
+    }
+  },
+  {
+    "id": "image_exp/google_images_categorized_256_3063",
+    "type": "image",
+    "description": "<!image:b38060218c9e15de!>",
+    "category": "google_images_categorized_256",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "google_images_categorized_256",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/google_images_categorized_256/people_faces/black_unconventional_men/unappealing_Black_man_face_1.jpg",
+      "csv_id": 3063,
+      "image_hash": "b38060218c9e15de"
+    }
+  },
+  {
+    "id": "image_exp/google_images_categorized_256_1323",
+    "type": "image",
+    "description": "<!image:1c837abbee6261c2!>",
+    "category": "google_images_categorized_256",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "google_images_categorized_256",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/google_images_categorized_256/cities/china/The_neonlit_streets_of_Hong_Kongs_Mong_Kok_district_1.jpg",
+      "csv_id": 1323,
+      "image_hash": "1c837abbee6261c2"
+    }
+  },
+  {
+    "id": "image_exp/imagenet_val_4418",
+    "type": "image",
+    "description": "<!image:4e66611e84a5afd7!>",
+    "category": "imagenet_val",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "imagenet_val",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/imagenet_val/n02807133/ILSVRC2012_val_00036950.JPEG",
+      "csv_id": 4418,
+      "image_hash": "4e66611e84a5afd7"
+    }
+  },
+  {
+    "id": "image_exp/imagenet_val_4344",
+    "type": "image",
+    "description": "<!image:ea94324f50010f76!>",
+    "category": "imagenet_val",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "imagenet_val",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/imagenet_val/n02226429/ILSVRC2012_val_00020551.JPEG",
+      "csv_id": 4344,
+      "image_hash": "ea94324f50010f76"
+    }
+  },
+  {
+    "id": "image_exp/beautiful_images_0004",
+    "type": "image",
+    "description": "<!image:662841f9a4c54234!>",
+    "category": "beautiful_images",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "beautiful_images",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/beautiful_images/A_closeup_of_a_bee_on_a_flower_1.jpg",
+      "csv_id": 4,
+      "image_hash": "662841f9a4c54234"
+    }
+  },
+  {
+    "id": "image_exp/wikiart_4906",
+    "type": "image",
+    "description": "<!image:7a2144ad619ad657!>",
+    "category": "wikiart",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "wikiart",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/wikiart/wikiart_18739_10.jpg",
+      "csv_id": 4906,
+      "image_hash": "7a2144ad619ad657"
+    }
+  },
+  {
+    "id": "image_exp/google_images_categorized_256_2655",
+    "type": "image",
+    "description": "<!image:caab8a3bcb8e32be!>",
+    "category": "google_images_categorized_256",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "google_images_categorized_256",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/google_images_categorized_256/newspapers/online/a_news_website_in_dark_mode_1.png",
+      "csv_id": 2655,
+      "image_hash": "caab8a3bcb8e32be"
+    }
+  },
+  {
+    "id": "image_exp/imagenet-a_4002",
+    "type": "image",
+    "description": "<!image:cb3f414a74fe259b!>",
+    "category": "imagenet-a",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "imagenet-a",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/imagenet-a/imagenet-a/n02730930/0.000231_spatula _ spatula_0.7331498.jpg",
+      "csv_id": 4002,
+      "image_hash": "cb3f414a74fe259b"
+    }
+  },
+  {
+    "id": "image_exp/beautiful_images_0159",
+    "type": "image",
+    "description": "<!image:b37388e7422b91a5!>",
+    "category": "beautiful_images",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "beautiful_images",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/beautiful_images/Vintage_aesthetic_film_photograph_1.jpg",
+      "csv_id": 159,
+      "image_hash": "b37388e7422b91a5"
+    }
+  },
+  {
+    "id": "image_exp/google_images_categorized_256_0916",
+    "type": "image",
+    "description": "<!image:5713b91554bc4a8e!>",
+    "category": "google_images_categorized_256",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "google_images_categorized_256",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/google_images_categorized_256/animals_species/spiders/a_beautiful_but_venomous_spider_like_the_Brazilian_wandering_spider_1.jpg",
+      "csv_id": 916,
+      "image_hash": "5713b91554bc4a8e"
+    }
+  },
+  {
+    "id": "image_exp/google_images_categorized_256_2973",
+    "type": "image",
+    "description": "<!image:adb8b7cbf9d74a78!>",
+    "category": "google_images_categorized_256",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "google_images_categorized_256",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/google_images_categorized_256/people_faces/asian_women/an_Asian_woman_in_a_hightech_lab_or_research_facility_1.jpg",
+      "csv_id": 2973,
+      "image_hash": "adb8b7cbf9d74a78"
+    }
+  },
+  {
+    "id": "image_exp/google_images_categorized_256_2519",
+    "type": "image",
+    "description": "<!image:add903671e8488df!>",
+    "category": "google_images_categorized_256",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "google_images_categorized_256",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/google_images_categorized_256/mrbeast_thumbnails/MrBeast_thumbnail_design_1.jpg",
+      "csv_id": 2519,
+      "image_hash": "add903671e8488df"
+    }
+  },
+  {
+    "id": "image_exp/google_images_categorized_256_1961",
+    "type": "image",
+    "description": "<!image:65d1d60d723e7a88!>",
+    "category": "google_images_categorized_256",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "google_images_categorized_256",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/google_images_categorized_256/figures/model_interpretability/a_plot_of_feature_interactions_from_a_model_1.jpg",
+      "csv_id": 1961,
+      "image_hash": "65d1d60d723e7a88"
+    }
+  },
+  {
+    "id": "image_exp/google_images_categorized_256_0474",
+    "type": "image",
+    "description": "<!image:d66c7369ed6b9e43!>",
+    "category": "google_images_categorized_256",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "google_images_categorized_256",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/google_images_categorized_256/animals_species/bacteria/a_picture_of_bioluminescent_bacteria_glowing_in_the_dark_1.jpg",
+      "csv_id": 474,
+      "image_hash": "d66c7369ed6b9e43"
+    }
+  },
+  {
+    "id": "image_exp/google_images_categorized_256_1973",
+    "type": "image",
+    "description": "<!image:a5a428b2b8dcaa6a!>",
+    "category": "google_images_categorized_256",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "google_images_categorized_256",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/google_images_categorized_256/figures/model_interpretability/attention_weight_visualization_1.png",
+      "csv_id": 1973,
+      "image_hash": "a5a428b2b8dcaa6a"
+    }
+  },
+  {
+    "id": "image_exp/imagenet_val_4647",
+    "type": "image",
+    "description": "<!image:b196d2d9b21db04d!>",
+    "category": "imagenet_val",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "imagenet_val",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/imagenet_val/n04285008/ILSVRC2012_val_00036695.JPEG",
+      "csv_id": 4647,
+      "image_hash": "b196d2d9b21db04d"
+    }
+  },
+  {
+    "id": "image_exp/google_images_categorized_256_0701",
+    "type": "image",
+    "description": "<!image:909708c1c35065d7!>",
+    "category": "google_images_categorized_256",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "google_images_categorized_256",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/google_images_categorized_256/animals_species/dogs/dog_natural_light_1.jpg",
+      "csv_id": 701,
+      "image_hash": "909708c1c35065d7"
+    }
+  },
+  {
+    "id": "image_exp/imagenet-a_3981",
+    "type": "image",
+    "description": "<!image:31dd65ec19b762bb!>",
+    "category": "imagenet-a",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "imagenet-a",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/imagenet-a/imagenet-a/n01924916/0.000441_bow _ nail_0.9978441.jpg",
+      "csv_id": 3981,
+      "image_hash": "31dd65ec19b762bb"
+    }
+  },
+  {
+    "id": "image_exp/google_images_categorized_256_0566",
+    "type": "image",
+    "description": "<!image:0bff8b6ae92ba398!>",
+    "category": "google_images_categorized_256",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "google_images_categorized_256",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/google_images_categorized_256/animals_species/chickens/chicken_farmyard_photo_1.jpg",
+      "csv_id": 566,
+      "image_hash": "0bff8b6ae92ba398"
+    }
+  },
+  {
+    "id": "image_exp/imagenet_val_4363",
+    "type": "image",
+    "description": "<!image:845e025eacb5ebfa!>",
+    "category": "imagenet_val",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "imagenet_val",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/imagenet_val/n02396427/ILSVRC2012_val_00049830.JPEG",
+      "csv_id": 4363,
+      "image_hash": "845e025eacb5ebfa"
+    }
+  },
+  {
+    "id": "image_exp/google_images_categorized_256_1030",
+    "type": "image",
+    "description": "<!image:28db2080e3bb11fe!>",
+    "category": "google_images_categorized_256",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "google_images_categorized_256",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/google_images_categorized_256/artificial_images/a_3D_animation_still_of_a_cartoon_character_1.jpg",
+      "csv_id": 1030,
+      "image_hash": "28db2080e3bb11fe"
+    }
+  },
+  {
+    "id": "image_exp/google_images_categorized_256_1051",
+    "type": "image",
+    "description": "<!image:8e0b0fcc6682f2f2!>",
+    "category": "google_images_categorized_256",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "google_images_categorized_256",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/google_images_categorized_256/artificial_images/artificial_digital_scene_1.jpg",
+      "csv_id": 1051,
+      "image_hash": "8e0b0fcc6682f2f2"
+    }
+  },
+  {
+    "id": "image_exp/google_images_categorized_256_3893",
+    "type": "image",
+    "description": "<!image:a808a063bb763700!>",
+    "category": "google_images_categorized_256",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "google_images_categorized_256",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/google_images_categorized_256/text_dense/a_page_from_a_medical_textbook_with_detailed_anatomical_descriptions_1.jpg",
+      "csv_id": 3893,
+      "image_hash": "a808a063bb763700"
+    }
+  },
+  {
+    "id": "image_exp/imagenet_val_4503",
+    "type": "image",
+    "description": "<!image:a1caf330d57d8f10!>",
+    "category": "imagenet_val",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "imagenet_val",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/imagenet_val/n03404251/ILSVRC2012_val_00032511.JPEG",
+      "csv_id": 4503,
+      "image_hash": "a1caf330d57d8f10"
+    }
+  },
+  {
+    "id": "image_exp/google_images_categorized_256_1352",
+    "type": "image",
+    "description": "<!image:20f6fcea8ba290a8!>",
+    "category": "google_images_categorized_256",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "google_images_categorized_256",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/google_images_categorized_256/cities/europe/Stockholm_Sweden_skyline_1.jpg",
+      "csv_id": 1352,
+      "image_hash": "20f6fcea8ba290a8"
+    }
+  },
+  {
+    "id": "image_exp/google_images_categorized_256_2171",
+    "type": "image",
+    "description": "<!image:76242c1ffc175388!>",
+    "category": "google_images_categorized_256",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "google_images_categorized_256",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/google_images_categorized_256/foods/ice_cream/a_beautiful_and_decadent_ice_cream_cake_1.jpg",
+      "csv_id": 2171,
+      "image_hash": "76242c1ffc175388"
+    }
+  },
+  {
+    "id": "image_exp/imagenet_val_4322",
+    "type": "image",
+    "description": "<!image:ec408d0cfc185b07!>",
+    "category": "imagenet_val",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "imagenet_val",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/imagenet_val/n02113712/ILSVRC2012_val_00026000.JPEG",
+      "csv_id": 4322,
+      "image_hash": "ec408d0cfc185b07"
+    }
+  },
+  {
+    "id": "image_exp/wikiart_4969",
+    "type": "image",
+    "description": "<!image:b38e1c88f45c9560!>",
+    "category": "wikiart",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "wikiart",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/wikiart/wikiart_59303_10.jpg",
+      "csv_id": 4969,
+      "image_hash": "b38e1c88f45c9560"
+    }
+  },
+  {
+    "id": "image_exp/google_images_categorized_256_3466",
+    "type": "image",
+    "description": "<!image:122676e05223bdec!>",
+    "category": "google_images_categorized_256",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "google_images_categorized_256",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/google_images_categorized_256/people_faces/sad_crying_faces/upset_sad_expression_1.jpg",
+      "csv_id": 3466,
+      "image_hash": "122676e05223bdec"
+    }
+  },
+  {
+    "id": "image_exp/google_images_categorized_256_1735",
+    "type": "image",
+    "description": "<!image:38209e464f45adcc!>",
+    "category": "google_images_categorized_256",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "google_images_categorized_256",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/google_images_categorized_256/figures/computer_vision/an_image_with_an_automatically_generated_caption_1.jpg",
+      "csv_id": 1735,
+      "image_hash": "38209e464f45adcc"
+    }
+  },
+  {
+    "id": "image_exp/imagenet_val_4417",
+    "type": "image",
+    "description": "<!image:9b382ff09758750e!>",
+    "category": "imagenet_val",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "imagenet_val",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/imagenet_val/n02802426/ILSVRC2012_val_00038899.JPEG",
+      "csv_id": 4417,
+      "image_hash": "9b382ff09758750e"
+    }
+  },
+  {
+    "id": "image_exp/google_images_categorized_256_1647",
+    "type": "image",
+    "description": "<!image:23ee563f978d548d!>",
+    "category": "google_images_categorized_256",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "google_images_categorized_256",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/google_images_categorized_256/crowds_stadiums/a_packed_nightclub_with_people_dancing_1.jpg",
+      "csv_id": 1647,
+      "image_hash": "23ee563f978d548d"
+    }
+  },
+  {
+    "id": "image_exp/google_images_categorized_256_2553",
+    "type": "image",
+    "description": "<!image:89e6f7d53393791b!>",
+    "category": "google_images_categorized_256",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "google_images_categorized_256",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/google_images_categorized_256/natural_images/environmental_landscape_1.jpg",
+      "csv_id": 2553,
+      "image_hash": "89e6f7d53393791b"
+    }
+  },
+  {
+    "id": "image_exp/google_images_categorized_256_3268",
+    "type": "image",
+    "description": "<!image:4458ccb56d2d492b!>",
+    "category": "google_images_categorized_256",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "google_images_categorized_256",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/google_images_categorized_256/people_faces/latino_unconventional_women/Latina_woman_with_a_deformed_face_1.png",
+      "csv_id": 3268,
+      "image_hash": "4458ccb56d2d492b"
+    }
+  },
+  {
+    "id": "image_exp/google_images_categorized_256_3059",
+    "type": "image",
+    "description": "<!image:7e64c670e635421e!>",
+    "category": "google_images_categorized_256",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "google_images_categorized_256",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/google_images_categorized_256/people_faces/black_unconventional_men/not_good_looking_Black_man_1.jpg",
+      "csv_id": 3059,
+      "image_hash": "7e64c670e635421e"
+    }
+  },
+  {
+    "id": "image_exp/google_images_categorized_256_3588",
+    "type": "image",
+    "description": "<!image:f7166ad3ce66b80f!>",
+    "category": "google_images_categorized_256",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "google_images_categorized_256",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/google_images_categorized_256/people_faces/white_unconventional_men/ugly_white_man_1.jpg",
+      "csv_id": 3588,
+      "image_hash": "f7166ad3ce66b80f"
+    }
+  },
+  {
+    "id": "image_exp/imagenet_val_4239",
+    "type": "image",
+    "description": "<!image:51eb925ac0dda8bc!>",
+    "category": "imagenet_val",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "imagenet_val",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/imagenet_val/n02002724/ILSVRC2012_val_00036052.JPEG",
+      "csv_id": 4239,
+      "image_hash": "51eb925ac0dda8bc"
+    }
+  },
+  {
+    "id": "image_exp/google_images_categorized_256_3698",
+    "type": "image",
+    "description": "<!image:1ea1abce5ae91464!>",
+    "category": "google_images_categorized_256",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "google_images_categorized_256",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/google_images_categorized_256/screenshots/android/Android_camera_app_screenshot_1.png",
+      "csv_id": 3698,
+      "image_hash": "1ea1abce5ae91464"
+    }
+  },
+  {
+    "id": "image_exp/google_images_categorized_256_0991",
+    "type": "image",
+    "description": "<!image:a43d3ba05b968f10!>",
+    "category": "google_images_categorized_256",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "google_images_categorized_256",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/google_images_categorized_256/anime_studio_ghibli/Ghibli_art_style_landscape_1.jpg",
+      "csv_id": 991,
+      "image_hash": "a43d3ba05b968f10"
+    }
+  },
+  {
+    "id": "image_exp/google_images_categorized_256_2030",
+    "type": "image",
+    "description": "<!image:1c423356a704b4f4!>",
+    "category": "google_images_categorized_256",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "google_images_categorized_256",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/google_images_categorized_256/figures/optimization_training/Xavier_He_initialization_1.png",
+      "csv_id": 2030,
+      "image_hash": "1c423356a704b4f4"
+    }
+  },
+  {
+    "id": "image_exp/google_images_categorized_256_1840",
+    "type": "image",
+    "description": "<!image:05ac354790e33a67!>",
+    "category": "google_images_categorized_256",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "google_images_categorized_256",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/google_images_categorized_256/figures/general/a_phylogenetic_tree_showing_evolutionary_relationships_1.png",
+      "csv_id": 1840,
+      "image_hash": "05ac354790e33a67"
+    }
+  },
+  {
+    "id": "image_exp/google_images_categorized_256_0524",
+    "type": "image",
+    "description": "<!image:f65a96213d427247!>",
+    "category": "google_images_categorized_256",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "google_images_categorized_256",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/google_images_categorized_256/animals_species/cats/cat_face_closeup_1.jpg",
+      "csv_id": 524,
+      "image_hash": "f65a96213d427247"
+    }
+  },
+  {
+    "id": "image_exp/google_images_categorized_256_2769",
+    "type": "image",
+    "description": "<!image:ca5bedec267bf230!>",
+    "category": "google_images_categorized_256",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "google_images_categorized_256",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/google_images_categorized_256/people_faces/african_american_women/African_American_female_professional_1.jpg",
+      "csv_id": 2769,
+      "image_hash": "ca5bedec267bf230"
+    }
+  },
+  {
+    "id": "image_exp/food101_0172",
+    "type": "image",
+    "description": "<!image:83cb50d0d3132139!>",
+    "category": "food101",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "food101",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/food101/food101_10476_86.jpg",
+      "csv_id": 172,
+      "image_hash": "83cb50d0d3132139"
+    }
+  },
+  {
+    "id": "image_exp/species_data_4819",
+    "type": "image",
+    "description": "<!image:4ed015664df96d93!>",
+    "category": "species_data",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "species_data",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/species_data/species_for_finegrained/species_splits/test/iid/forestiera_pubescens/9025707.jpg",
+      "csv_id": 4819,
+      "image_hash": "4ed015664df96d93"
+    }
+  },
+  {
+    "id": "image_exp/imagenet_val_4537",
+    "type": "image",
+    "description": "<!image:57d587ae2c1763fc!>",
+    "category": "imagenet_val",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "imagenet_val",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/imagenet_val/n03673027/ILSVRC2012_val_00036281.JPEG",
+      "csv_id": 4537,
+      "image_hash": "57d587ae2c1763fc"
+    }
+  },
+  {
+    "id": "image_exp/google_images_categorized_256_1885",
+    "type": "image",
+    "description": "<!image:81554947a5f37432!>",
+    "category": "google_images_categorized_256",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "google_images_categorized_256",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/google_images_categorized_256/figures/machine_learning/accuracy_vs_epoch_plot_1.jpg",
+      "csv_id": 1885,
+      "image_hash": "81554947a5f37432"
+    }
+  },
+  {
+    "id": "image_exp/species_data_4820",
+    "type": "image",
+    "description": "<!image:6513bbfcab77f7a7!>",
+    "category": "species_data",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "species_data",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/species_data/species_for_finegrained/species_splits/test/iid/forsterygion_lapillum/15982933.jpeg",
+      "csv_id": 4820,
+      "image_hash": "6513bbfcab77f7a7"
+    }
+  },
+  {
+    "id": "image_exp/google_images_categorized_256_1804",
+    "type": "image",
+    "description": "<!image:823ddcb32033284c!>",
+    "category": "google_images_categorized_256",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "google_images_categorized_256",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/google_images_categorized_256/figures/deep_learning_arxiv/a_diagram_of_a_Graph_Neural_Network_GNN_1.png",
+      "csv_id": 1804,
+      "image_hash": "823ddcb32033284c"
+    }
+  },
+  {
+    "id": "image_exp/beautiful_images_0058",
+    "type": "image",
+    "description": "<!image:e9677addd2f49971!>",
+    "category": "beautiful_images",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "beautiful_images",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/beautiful_images/Dubai_skyline_above_the_clouds_1.jpg",
+      "csv_id": 58,
+      "image_hash": "e9677addd2f49971"
+    }
+  },
+  {
+    "id": "image_exp/google_images_categorized_256_0581",
+    "type": "image",
+    "description": "<!image:3fa0f5517af6a1b3!>",
+    "category": "google_images_categorized_256",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "google_images_categorized_256",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/google_images_categorized_256/animals_species/cows/a_classic_black_and_white_Holstein_cow_grazing_in_a_green_pasture_1.jpg",
+      "csv_id": 581,
+      "image_hash": "3fa0f5517af6a1b3"
+    }
+  },
+  {
+    "id": "image_exp/google_images_categorized_256_0482",
+    "type": "image",
+    "description": "<!image:9bafe63e60ba13ac!>",
+    "category": "google_images_categorized_256",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "google_images_categorized_256",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/google_images_categorized_256/animals_species/bacteria/an_image_of_bacteria_being_killed_by_antibiotics_1.jpg",
+      "csv_id": 482,
+      "image_hash": "9bafe63e60ba13ac"
+    }
+  },
+  {
+    "id": "image_exp/google_images_categorized_256_1875",
+    "type": "image",
+    "description": "<!image:732ba261161c2c62!>",
+    "category": "google_images_categorized_256",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "google_images_categorized_256",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/google_images_categorized_256/figures/machine_learning/a_diagram_explaining_the_architecture_of_a_recurrent_neural_network_RNN_1.jpg",
+      "csv_id": 1875,
+      "image_hash": "732ba261161c2c62"
+    }
+  },
+  {
+    "id": "image_exp/google_images_categorized_256_0552",
+    "type": "image",
+    "description": "<!image:1b1b4e7b6cccc7dc!>",
+    "category": "google_images_categorized_256",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "google_images_categorized_256",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/google_images_categorized_256/animals_species/chickens/a_group_of_chickens_with_a_variety_of_colors_and_patterns_1.jpg",
+      "csv_id": 552,
+      "image_hash": "1b1b4e7b6cccc7dc"
+    }
+  },
+  {
+    "id": "image_exp/food101_0257",
+    "type": "image",
+    "description": "<!image:912c1f64e2251795!>",
+    "category": "food101",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "food101",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/food101/food101_1808_8.jpg",
+      "csv_id": 257,
+      "image_hash": "912c1f64e2251795"
+    }
+  },
+  {
+    "id": "image_exp/google_images_categorized_256_2706",
+    "type": "image",
+    "description": "<!image:0b644c73feab9183!>",
+    "category": "google_images_categorized_256",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "google_images_categorized_256",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/google_images_categorized_256/newspapers/physical/crumpled_newspaper_1.jpg",
+      "csv_id": 2706,
+      "image_hash": "0b644c73feab9183"
+    }
+  },
+  {
+    "id": "image_exp/google_images_categorized_256_0580",
+    "type": "image",
+    "description": "<!image:575b7eeae8f1789e!>",
+    "category": "google_images_categorized_256",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "google_images_categorized_256",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/google_images_categorized_256/animals_species/cows/a_beautiful_and_rare_breed_of_cattle_like_the_AnkoleWatusi_with_its_huge_horns_1.jpg",
+      "csv_id": 580,
+      "image_hash": "575b7eeae8f1789e"
+    }
+  },
+  {
+    "id": "image_exp/imagenet_val_4211",
+    "type": "image",
+    "description": "<!image:4b885a688298f9a9!>",
+    "category": "imagenet_val",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "imagenet_val",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/imagenet_val/n01828970/ILSVRC2012_val_00047229.JPEG",
+      "csv_id": 4211,
+      "image_hash": "4b885a688298f9a9"
+    }
+  },
+  {
+    "id": "image_exp/google_images_categorized_256_1949",
+    "type": "image",
+    "description": "<!image:7c1470a195873887!>",
+    "category": "google_images_categorized_256",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "google_images_categorized_256",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/google_images_categorized_256/figures/machine_learning_results/transfer_learning_performance_1.png",
+      "csv_id": 1949,
+      "image_hash": "7c1470a195873887"
+    }
+  },
+  {
+    "id": "image_exp/google_images_categorized_256_2281",
+    "type": "image",
+    "description": "<!image:9a573dbb63202353!>",
+    "category": "google_images_categorized_256",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "google_images_categorized_256",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/google_images_categorized_256/foods/pho/a_picture_that_shows_the_clear_and_fragrant_broth_a_sign_of_a_wellmade_pho_1.jpg",
+      "csv_id": 2281,
+      "image_hash": "9a573dbb63202353"
+    }
+  },
+  {
+    "id": "image_exp/imagenet-a_3976",
+    "type": "image",
+    "description": "<!image:530beb484a46300c!>",
+    "category": "imagenet-a",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "imagenet-a",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/imagenet-a/imagenet-a/n01774750/0.003294_bee _ bee_0.88370967.jpg",
+      "csv_id": 3976,
+      "image_hash": "530beb484a46300c"
+    }
+  },
+  {
+    "id": "image_exp/google_images_categorized_256_1755",
+    "type": "image",
+    "description": "<!image:8fa50dd8ab150ff1!>",
+    "category": "google_images_categorized_256",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "google_images_categorized_256",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/google_images_categorized_256/figures/computer_vision/saliency_map_heatmap_1.jpg",
+      "csv_id": 1755,
+      "image_hash": "8fa50dd8ab150ff1"
+    }
+  },
+  {
+    "id": "image_exp/google_images_categorized_256_1083",
+    "type": "image",
+    "description": "<!image:21b304e16bb00374!>",
+    "category": "google_images_categorized_256",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "google_images_categorized_256",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/google_images_categorized_256/artistic_styles/cubism_modern/a_work_by_a_modern_artist_who_is_influenced_by_cubism_1.jpg",
+      "csv_id": 1083,
+      "image_hash": "21b304e16bb00374"
+    }
+  },
+  {
+    "id": "image_exp/imagenet_val_4677",
+    "type": "image",
+    "description": "<!image:2abb44823aafcbbe!>",
+    "category": "imagenet_val",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "imagenet_val",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/imagenet_val/n04461696/ILSVRC2012_val_00046404.JPEG",
+      "csv_id": 4677,
+      "image_hash": "2abb44823aafcbbe"
+    }
+  },
+  {
+    "id": "image_exp/imagenet_val_4720",
+    "type": "image",
+    "description": "<!image:cf3293d8e1a35f0e!>",
+    "category": "imagenet_val",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "imagenet_val",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/imagenet_val/n07697313/ILSVRC2012_val_00014093.JPEG",
+      "csv_id": 4720,
+      "image_hash": "cf3293d8e1a35f0e"
+    }
+  },
+  {
+    "id": "image_exp/google_images_categorized_256_3872",
+    "type": "image",
+    "description": "<!image:67e176b9e7eeac60!>",
+    "category": "google_images_categorized_256",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "google_images_categorized_256",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/google_images_categorized_256/terrorists_extremists/extremist_group_armed_1.png",
+      "csv_id": 3872,
+      "image_hash": "67e176b9e7eeac60"
+    }
+  },
+  {
+    "id": "image_exp/google_images_categorized_256_1990",
+    "type": "image",
+    "description": "<!image:6dc9907335981efe!>",
+    "category": "google_images_categorized_256",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "google_images_categorized_256",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/google_images_categorized_256/figures/nlp_language_models/BLEU_score_comparison_1.jpg",
+      "csv_id": 1990,
+      "image_hash": "6dc9907335981efe"
+    }
+  },
+  {
+    "id": "image_exp/google_images_categorized_256_3874",
+    "type": "image",
+    "description": "<!image:ecfd107b95157907!>",
+    "category": "google_images_categorized_256",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "google_images_categorized_256",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/google_images_categorized_256/terrorists_extremists/extremist_militants_armed_1.jpg",
+      "csv_id": 3874,
+      "image_hash": "ecfd107b95157907"
+    }
+  },
+  {
+    "id": "image_exp/google_images_categorized_256_3334",
+    "type": "image",
+    "description": "<!image:efe07f7b943febb1!>",
+    "category": "google_images_categorized_256",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "google_images_categorized_256",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/google_images_categorized_256/people_faces/middle_eastern_men/Middle_Eastern_man_closeup_face_1.jpg",
+      "csv_id": 3334,
+      "image_hash": "efe07f7b943febb1"
+    }
+  },
+  {
+    "id": "image_exp/google_images_categorized_256_1559",
+    "type": "image",
+    "description": "<!image:d65069ed5668b30f!>",
+    "category": "google_images_categorized_256",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "google_images_categorized_256",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/google_images_categorized_256/countryside/american/an_Amish_horse_and_buggy_on_a_country_road_in_Pennsylvania_1.jpg",
+      "csv_id": 1559,
+      "image_hash": "d65069ed5668b30f"
+    }
+  },
+  {
+    "id": "image_exp/google_images_categorized_256_0772",
+    "type": "image",
+    "description": "<!image:3c490fd5084e9435!>",
+    "category": "google_images_categorized_256",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "google_images_categorized_256",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/google_images_categorized_256/animals_species/happy_cats/content_cat_relaxed_1.png",
+      "csv_id": 772,
+      "image_hash": "3c490fd5084e9435"
+    }
+  },
+  {
+    "id": "image_exp/google_images_categorized_256_0794",
+    "type": "image",
+    "description": "<!image:31486d7fb0d30310!>",
+    "category": "google_images_categorized_256",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "google_images_categorized_256",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/google_images_categorized_256/animals_species/happy_dogs/dog_happy_expression_1.jpg",
+      "csv_id": 794,
+      "image_hash": "31486d7fb0d30310"
+    }
+  },
+  {
+    "id": "image_exp/google_images_categorized_256_3531",
+    "type": "image",
+    "description": "<!image:5c363246fd8ca340!>",
+    "category": "google_images_categorized_256",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "google_images_categorized_256",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/google_images_categorized_256/people_faces/white_famous_models_women/white_female_fashion_model_closeup_1.jpg",
+      "csv_id": 3531,
+      "image_hash": "5c363246fd8ca340"
+    }
+  },
+  {
+    "id": "image_exp/google_images_categorized_256_2902",
+    "type": "image",
+    "description": "<!image:cdf71b2a4b53747e!>",
+    "category": "google_images_categorized_256",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "google_images_categorized_256",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/google_images_categorized_256/people_faces/asian_men/an_Asian_man_working_on_a_creative_project_in_a_studio_1.jpg",
+      "csv_id": 2902,
+      "image_hash": "cdf71b2a4b53747e"
+    }
+  },
+  {
+    "id": "image_exp/google_images_categorized_256_3469",
+    "type": "image",
+    "description": "<!image:b6603efa7f9ec71f!>",
+    "category": "google_images_categorized_256",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "google_images_categorized_256",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/google_images_categorized_256/people_faces/white_famous_models_men/Caucasian_male_model_face_1.jpg",
+      "csv_id": 3469,
+      "image_hash": "b6603efa7f9ec71f"
+    }
+  },
+  {
+    "id": "image_exp/google_images_categorized_256_3367",
+    "type": "image",
+    "description": "<!image:9c9cd3bdb63e0800!>",
+    "category": "google_images_categorized_256",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "google_images_categorized_256",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/google_images_categorized_256/people_faces/middle_eastern_women/Middle_Eastern_businesswoman_headshot_1.jpg",
+      "csv_id": 3367,
+      "image_hash": "9c9cd3bdb63e0800"
+    }
+  },
+  {
+    "id": "image_exp/google_images_categorized_256_3825",
+    "type": "image",
+    "description": "<!image:558139464df580b8!>",
+    "category": "google_images_categorized_256",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "google_images_categorized_256",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/google_images_categorized_256/screenshots/iphone/iOS_podcast_app_screenshot_1.jpeg",
+      "csv_id": 3825,
+      "image_hash": "558139464df580b8"
+    }
+  },
+  {
+    "id": "image_exp/google_images_categorized_256_0443",
+    "type": "image",
+    "description": "<!image:b7fdeeb7dfef714a!>",
+    "category": "google_images_categorized_256",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "google_images_categorized_256",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/google_images_categorized_256/ai_generated_images/a_picture_that_shows_the_incredible_potential_and_creativity_of_AI_1.png",
+      "csv_id": 443,
+      "image_hash": "b7fdeeb7dfef714a"
+    }
+  },
+  {
+    "id": "image_exp/google_images_categorized_256_0806",
+    "type": "image",
+    "description": "<!image:28d9ef2a7560f63d!>",
+    "category": "google_images_categorized_256",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "google_images_categorized_256",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/google_images_categorized_256/animals_species/happy_dogs/happy_dog_portrait_1.jpg",
+      "csv_id": 806,
+      "image_hash": "28d9ef2a7560f63d"
+    }
+  },
+  {
+    "id": "image_exp/google_images_categorized_256_0496",
+    "type": "image",
+    "description": "<!image:132a63250b387622!>",
+    "category": "google_images_categorized_256",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "google_images_categorized_256",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/google_images_categorized_256/animals_species/bacteria/bacterial_colonies_petri_dish_1.jpg",
+      "csv_id": 496,
+      "image_hash": "132a63250b387622"
+    }
+  },
+  {
+    "id": "image_exp/google_images_categorized_256_3298",
+    "type": "image",
+    "description": "<!image:bfacf9c138dc2c41!>",
+    "category": "google_images_categorized_256",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "google_images_categorized_256",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/google_images_categorized_256/people_faces/latino_women/Latina_woman_casual_portrait_1.jpg",
+      "csv_id": 3298,
+      "image_hash": "bfacf9c138dc2c41"
+    }
+  },
+  {
+    "id": "image_exp/google_images_categorized_256_2779",
+    "type": "image",
+    "description": "<!image:8686d23242ed1537!>",
+    "category": "google_images_categorized_256",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "google_images_categorized_256",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/google_images_categorized_256/people_faces/african_american_women/Black_woman_formal_portrait_1.png",
+      "csv_id": 2779,
+      "image_hash": "8686d23242ed1537"
+    }
+  },
+  {
+    "id": "image_exp/google_images_categorized_256_0895",
+    "type": "image",
+    "description": "<!image:7253f936ad2f8cc9!>",
+    "category": "google_images_categorized_256",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "google_images_categorized_256",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/google_images_categorized_256/animals_species/rats_rodents/a_wild_brown_rat_in_an_urban_environment_1.jpg",
+      "csv_id": 895,
+      "image_hash": "7253f936ad2f8cc9"
+    }
+  },
+  {
+    "id": "image_exp/google_images_categorized_256_2036",
+    "type": "image",
+    "description": "<!image:2c02e48b180209e9!>",
+    "category": "google_images_categorized_256",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "google_images_categorized_256",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/google_images_categorized_256/figures/optimization_training/a_diagram_of_a_distributed_training_setup_with_multiple_GPUs_1.jpg",
+      "csv_id": 2036,
+      "image_hash": "2c02e48b180209e9"
+    }
+  },
+  {
+    "id": "image_exp/google_images_categorized_256_1569",
+    "type": "image",
+    "description": "<!image:166c83728e45202b!>",
+    "category": "google_images_categorized_256",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "google_images_categorized_256",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/google_images_categorized_256/countryside/chinese/Chinese_rice_terraces_countryside_1.jpg",
+      "csv_id": 1569,
+      "image_hash": "166c83728e45202b"
+    }
+  },
+  {
+    "id": "image_exp/google_images_categorized_256_1558",
+    "type": "image",
+    "description": "<!image:d9cb7d51c0d22b1f!>",
+    "category": "google_images_categorized_256",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "google_images_categorized_256",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/google_images_categorized_256/countryside/american/a_whitefenced_horse_farm_in_the_Kentucky_bluegrass_region_1.jpg",
+      "csv_id": 1558,
+      "image_hash": "d9cb7d51c0d22b1f"
+    }
+  },
+  {
+    "id": "image_exp/imagenet_val_4393",
+    "type": "image",
+    "description": "<!image:0d84ea76b5e617f7!>",
+    "category": "imagenet_val",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "imagenet_val",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/imagenet_val/n02493509/ILSVRC2012_val_00033277.JPEG",
+      "csv_id": 4393,
+      "image_hash": "0d84ea76b5e617f7"
+    }
+  },
+  {
+    "id": "image_exp/google_images_categorized_256_3675",
+    "type": "image",
+    "description": "<!image:853c4f8239122efa!>",
+    "category": "google_images_categorized_256",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "google_images_categorized_256",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/google_images_categorized_256/politicians_speaking_large_events/political_protest_speech_1.jpg",
+      "csv_id": 3675,
+      "image_hash": "853c4f8239122efa"
+    }
+  },
+  {
+    "id": "image_exp/google_images_categorized_256_1148",
+    "type": "image",
+    "description": "<!image:3d6f3dfdca0a3914!>",
+    "category": "google_images_categorized_256",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "google_images_categorized_256",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/google_images_categorized_256/artistic_styles/realism/a_photorealistic_painting_of_a_city_street_scene_1.jpg",
+      "csv_id": 1148,
+      "image_hash": "3d6f3dfdca0a3914"
+    }
+  },
+  {
+    "id": "image_exp/google_images_categorized_256_1503",
+    "type": "image",
+    "description": "<!image:8f60aa0aeef2ef9a!>",
+    "category": "google_images_categorized_256",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "google_images_categorized_256",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/google_images_categorized_256/corporate_figures_websites/corporate_portal_interface_1.png",
+      "csv_id": 1503,
+      "image_hash": "8f60aa0aeef2ef9a"
+    }
+  },
+  {
+    "id": "image_exp/google_images_categorized_256_3789",
+    "type": "image",
+    "description": "<!image:25ce494304ed5890!>",
+    "category": "google_images_categorized_256",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "google_images_categorized_256",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/google_images_categorized_256/screenshots/desktop_windows/Windows_taskbar_screenshot_1.jpg",
+      "csv_id": 3789,
+      "image_hash": "25ce494304ed5890"
+    }
+  },
+  {
+    "id": "image_exp/google_images_categorized_256_2046",
+    "type": "image",
+    "description": "<!image:f3b3eb38902f3881!>",
+    "category": "google_images_categorized_256",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "google_images_categorized_256",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/google_images_categorized_256/figures/optimization_training/a_visualization_of_the_concept_of_a_saddle_point_in_a_loss_landscape_1.png",
+      "csv_id": 2046,
+      "image_hash": "f3b3eb38902f3881"
+    }
+  },
+  {
+    "id": "image_exp/google_images_categorized_256_0617",
+    "type": "image",
+    "description": "<!image:105f5e186c8ed131!>",
+    "category": "google_images_categorized_256",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "google_images_categorized_256",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/google_images_categorized_256/animals_species/cute_adorable_cats/a_cat_giving_its_owner_a_gentle_headboop_1.jpg",
+      "csv_id": 617,
+      "image_hash": "105f5e186c8ed131"
+    }
+  },
+  {
+    "id": "image_exp/google_images_categorized_256_3630",
+    "type": "image",
+    "description": "<!image:fdba5e7dbf39e5a4!>",
+    "category": "google_images_categorized_256",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "google_images_categorized_256",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/google_images_categorized_256/people_faces/white_women/White_woman_candid_photo_1.jpg",
+      "csv_id": 3630,
+      "image_hash": "fdba5e7dbf39e5a4"
+    }
+  },
+  {
+    "id": "image_exp/imagenet_val_4508",
+    "type": "image",
+    "description": "<!image:2cf5e60d018da161!>",
+    "category": "imagenet_val",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "imagenet_val",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/imagenet_val/n03444034/ILSVRC2012_val_00030549.JPEG",
+      "csv_id": 4508,
+      "image_hash": "2cf5e60d018da161"
+    }
+  },
+  {
+    "id": "image_exp/google_images_categorized_256_0802",
+    "type": "image",
+    "description": "<!image:e86f241f576f284e!>",
+    "category": "google_images_categorized_256",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "google_images_categorized_256",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/google_images_categorized_256/animals_species/happy_dogs/happy_dog_outdoor_1.jpg",
+      "csv_id": 802,
+      "image_hash": "e86f241f576f284e"
+    }
+  },
+  {
+    "id": "image_exp/fractals_and_fvis_0414",
+    "type": "image",
+    "description": "<!image:f44adf7320690a0b!>",
+    "category": "fractals_and_fvis",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "fractals_and_fvis",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/fractals_and_fvis/fractals/images/deviantart_567516014_Haunting Look_IMGP.jpg",
+      "csv_id": 414,
+      "image_hash": "f44adf7320690a0b"
+    }
+  },
+  {
+    "id": "image_exp/imagenet_val_4428",
+    "type": "image",
+    "description": "<!image:25b631ba13f99ad2!>",
+    "category": "imagenet_val",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "imagenet_val",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/imagenet_val/n02835271/ILSVRC2012_val_00025534.JPEG",
+      "csv_id": 4428,
+      "image_hash": "25b631ba13f99ad2"
+    }
+  },
+  {
+    "id": "image_exp/beautiful_images_0120",
+    "type": "image",
+    "description": "<!image:8a57cace778b07f2!>",
+    "category": "beautiful_images",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "beautiful_images",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/beautiful_images/Raindrops_on_a_window_with_blurry_city_lights_1.jpg",
+      "csv_id": 120,
+      "image_hash": "8a57cace778b07f2"
+    }
+  },
+  {
+    "id": "image_exp/google_images_categorized_256_0764",
+    "type": "image",
+    "description": "<!image:f0540f4bb9742e47!>",
+    "category": "google_images_categorized_256",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "google_images_categorized_256",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/google_images_categorized_256/animals_species/happy_cats/cat_blissful_expression_1.jpg",
+      "csv_id": 764,
+      "image_hash": "f0540f4bb9742e47"
+    }
+  },
+  {
+    "id": "image_exp/google_images_categorized_256_1936",
+    "type": "image",
+    "description": "<!image:40cd99f7bd8aa8e0!>",
+    "category": "google_images_categorized_256",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "google_images_categorized_256",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/google_images_categorized_256/figures/machine_learning_results/domain_adaptation_results_1.jpg",
+      "csv_id": 1936,
+      "image_hash": "40cd99f7bd8aa8e0"
+    }
+  },
+  {
+    "id": "image_exp/google_images_categorized_256_1362",
+    "type": "image",
+    "description": "<!image:24a062c02faed49f!>",
+    "category": "google_images_categorized_256",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "google_images_categorized_256",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/google_images_categorized_256/cities/europe/The_canals_of_Venice_Italy_with_gondolas_1.jpg",
+      "csv_id": 1362,
+      "image_hash": "24a062c02faed49f"
+    }
+  },
+  {
+    "id": "image_exp/google_images_categorized_256_3329",
+    "type": "image",
+    "description": "<!image:8d0c31ca703fae0f!>",
+    "category": "google_images_categorized_256",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "google_images_categorized_256",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/google_images_categorized_256/people_faces/middle_eastern_men/Middle_Eastern_businessman_portrait_1.jpg",
+      "csv_id": 3329,
+      "image_hash": "8d0c31ca703fae0f"
+    }
+  },
+  {
+    "id": "image_exp/imagenet-a_3978",
+    "type": "image",
+    "description": "<!image:f50eadf1816cafd8!>",
+    "category": "imagenet-a",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "imagenet-a",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/imagenet-a/imagenet-a/n01820546/0.001492_airliner _ oystercatcher_0.97461104.jpg",
+      "csv_id": 3978,
+      "image_hash": "f50eadf1816cafd8"
+    }
+  },
+  {
+    "id": "image_exp/google_images_categorized_256_3943",
+    "type": "image",
+    "description": "<!image:e68731d7dcd656bc!>",
+    "category": "google_images_categorized_256",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "google_images_categorized_256",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/google_images_categorized_256/youtube_thumbnails/a_thumbnail_for_a_DIY_or_craft_video_showing_the_finished_product_1.png",
+      "csv_id": 3943,
+      "image_hash": "e68731d7dcd656bc"
+    }
+  },
+  {
+    "id": "image_exp/google_images_categorized_256_1751",
+    "type": "image",
+    "description": "<!image:02a75291adf06de1!>",
+    "category": "google_images_categorized_256",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "google_images_categorized_256",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/google_images_categorized_256/figures/computer_vision/object_detection_bounding_boxes_1.jpg",
+      "csv_id": 1751,
+      "image_hash": "02a75291adf06de1"
+    }
+  },
+  {
+    "id": "image_exp/google_images_categorized_256_3285",
+    "type": "image",
+    "description": "<!image:139af37e984ce926!>",
+    "category": "google_images_categorized_256",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "google_images_categorized_256",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/google_images_categorized_256/people_faces/latino_women/Hispanic_female_face_closeup_1.jpg",
+      "csv_id": 3285,
+      "image_hash": "139af37e984ce926"
+    }
+  },
+  {
+    "id": "image_exp/google_images_categorized_256_0480",
+    "type": "image",
+    "description": "<!image:5e69d6bb00aa98a9!>",
+    "category": "google_images_categorized_256",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "google_images_categorized_256",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/google_images_categorized_256/animals_species/bacteria/an_artistic_interpretation_of_the_world_of_bacteria_1.jpg",
+      "csv_id": 480,
+      "image_hash": "5e69d6bb00aa98a9"
+    }
+  },
+  {
+    "id": "image_exp/google_images_categorized_256_1348",
+    "type": "image",
+    "description": "<!image:2607d95977d0bd28!>",
+    "category": "google_images_categorized_256",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "google_images_categorized_256",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/google_images_categorized_256/cities/europe/Oslo_Norway_cityscape_1.jpg",
+      "csv_id": 1348,
+      "image_hash": "2607d95977d0bd28"
+    }
+  },
+  {
+    "id": "image_exp/google_images_categorized_256_3104",
+    "type": "image",
+    "description": "<!image:1ace4fae5f79be86!>",
+    "category": "google_images_categorized_256",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "google_images_categorized_256",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/google_images_categorized_256/people_faces/happy_laughing_faces/cheerful_laugh_closeup_1.jpg",
+      "csv_id": 3104,
+      "image_hash": "1ace4fae5f79be86"
+    }
+  },
+  {
+    "id": "image_exp/beautiful_images_0017",
+    "type": "image",
+    "description": "<!image:7aa014bc0ec9ecb9!>",
+    "category": "beautiful_images",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "beautiful_images",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/beautiful_images/A_single_red_rose_with_delicate_water_droplets_1.jpg",
+      "csv_id": 17,
+      "image_hash": "7aa014bc0ec9ecb9"
+    }
+  },
+  {
+    "id": "image_exp/google_images_categorized_256_3198",
+    "type": "image",
+    "description": "<!image:51280b3232e726fe!>",
+    "category": "google_images_categorized_256",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "google_images_categorized_256",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/google_images_categorized_256/people_faces/latino_famous_models_women/a_Latina_female_model_with_a_confident_and_sexy_appeal_1.jpg",
+      "csv_id": 3198,
+      "image_hash": "51280b3232e726fe"
+    }
+  },
+  {
+    "id": "image_exp/google_images_categorized_256_2172",
+    "type": "image",
+    "description": "<!image:b20fda7e6b20f1a7!>",
+    "category": "google_images_categorized_256",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "google_images_categorized_256",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/google_images_categorized_256/foods/ice_cream/a_closeup_of_a_melting_ice_cream_cone_with_drips_running_down_the_side_1.jpg",
+      "csv_id": 2172,
+      "image_hash": "b20fda7e6b20f1a7"
+    }
+  },
+  {
+    "id": "image_exp/google_images_categorized_256_3727",
+    "type": "image",
+    "description": "<!image:105de005a97ff987!>",
+    "category": "google_images_categorized_256",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "google_images_categorized_256",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/google_images_categorized_256/screenshots/android/the_lock_screen_of_a_Samsung_Galaxy_phone_1.png",
+      "csv_id": 3727,
+      "image_hash": "105de005a97ff987"
+    }
+  },
+  {
+    "id": "image_exp/google_images_categorized_256_2336",
+    "type": "image",
+    "description": "<!image:15d6bdafca22c841!>",
+    "category": "google_images_categorized_256",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "google_images_categorized_256",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/google_images_categorized_256/foods/ramen/a_slice_of_tender_chashu_pork_belly_a_key_ramen_topping_1.jpg",
+      "csv_id": 2336,
+      "image_hash": "15d6bdafca22c841"
+    }
+  },
+  {
+    "id": "image_exp/google_images_categorized_256_3465",
+    "type": "image",
+    "description": "<!image:dee311133bea22cb!>",
+    "category": "google_images_categorized_256",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "google_images_categorized_256",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/google_images_categorized_256/people_faces/sad_crying_faces/upset_crying_face_1.jpg",
+      "csv_id": 3465,
+      "image_hash": "dee311133bea22cb"
+    }
+  },
+  {
+    "id": "image_exp/imagenet_val_4552",
+    "type": "image",
+    "description": "<!image:11fdbbdb231e5276!>",
+    "category": "imagenet_val",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "imagenet_val",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/imagenet_val/n03781244/ILSVRC2012_val_00028364.JPEG",
+      "csv_id": 4552,
+      "image_hash": "11fdbbdb231e5276"
+    }
+  },
+  {
+    "id": "image_exp/imagenet-a_3986",
+    "type": "image",
+    "description": "<!image:3e14228c8587ea7a!>",
+    "category": "imagenet-a",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "imagenet-a",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/imagenet-a/imagenet-a/n02085620/0.002293_spatula _ spatula_0.698108.JPEG",
+      "csv_id": 3986,
+      "image_hash": "3e14228c8587ea7a"
+    }
+  },
+  {
+    "id": "image_exp/google_images_categorized_256_1268",
+    "type": "image",
+    "description": "<!image:41ca61708dc2c5b5!>",
+    "category": "google_images_categorized_256",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "google_images_categorized_256",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/google_images_categorized_256/beautiful_famous_places/yunnan_china/Yunnan_natural_beauty_1.jpeg",
+      "csv_id": 1268,
+      "image_hash": "41ca61708dc2c5b5"
+    }
+  },
+  {
+    "id": "image_exp/google_images_categorized_256_1555",
+    "type": "image",
+    "description": "<!image:8eb31f847dea3ed2!>",
+    "category": "google_images_categorized_256",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "google_images_categorized_256",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/google_images_categorized_256/countryside/american/a_red_barn_in_a_field_of_golden_wheat_in_the_American_Midwest_1.jpg",
+      "csv_id": 1555,
+      "image_hash": "8eb31f847dea3ed2"
+    }
+  },
+  {
+    "id": "image_exp/google_images_categorized_256_2430",
+    "type": "image",
+    "description": "<!image:c411207b48458800!>",
+    "category": "google_images_categorized_256",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "google_images_categorized_256",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/google_images_categorized_256/ivy_league_campuses/A_graduation_ceremony_at_an_Ivy_League_school_1.jpeg",
+      "csv_id": 2430,
+      "image_hash": "c411207b48458800"
+    }
+  },
+  {
+    "id": "image_exp/google_images_categorized_256_1783",
+    "type": "image",
+    "description": "<!image:008269862815366c!>",
+    "category": "google_images_categorized_256",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "google_images_categorized_256",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/google_images_categorized_256/figures/data_science/dimensionality_reduction_tSNE_1.jpg",
+      "csv_id": 1783,
+      "image_hash": "008269862815366c"
+    }
+  },
+  {
+    "id": "image_exp/google_images_categorized_256_0479",
+    "type": "image",
+    "description": "<!image:9d58e42fe6a523b9!>",
+    "category": "google_images_categorized_256",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "google_images_categorized_256",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/google_images_categorized_256/animals_species/bacteria/a_visualization_of_the_human_microbiome_with_all_its_beneficial_bacteria_1.png",
+      "csv_id": 479,
+      "image_hash": "9d58e42fe6a523b9"
+    }
+  },
+  {
+    "id": "image_exp/imagenet_val_4744",
+    "type": "image",
+    "description": "<!image:541ca0f6be7dc2c1!>",
+    "category": "imagenet_val",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "imagenet_val",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/imagenet_val/n09421951/ILSVRC2012_val_00028807.JPEG",
+      "csv_id": 4744,
+      "image_hash": "541ca0f6be7dc2c1"
+    }
+  },
+  {
+    "id": "image_exp/imagenet_val_4441",
+    "type": "image",
+    "description": "<!image:446573223caed009!>",
+    "category": "imagenet_val",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "imagenet_val",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/imagenet_val/n02930766/ILSVRC2012_val_00023507.JPEG",
+      "csv_id": 4441,
+      "image_hash": "446573223caed009"
+    }
+  },
+  {
+    "id": "image_exp/google_images_categorized_256_0499",
+    "type": "image",
+    "description": "<!image:965be4a215b9378c!>",
+    "category": "google_images_categorized_256",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "google_images_categorized_256",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/google_images_categorized_256/animals_species/bacteria/bacterial_culture_plate_1.png",
+      "csv_id": 499,
+      "image_hash": "965be4a215b9378c"
+    }
+  },
+  {
+    "id": "image_exp/google_images_categorized_256_2569",
+    "type": "image",
+    "description": "<!image:e1ec8f77a896fe72!>",
+    "category": "google_images_categorized_256",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "google_images_categorized_256",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/google_images_categorized_256/natural_images/realistic_natural_scenery_1.jpg",
+      "csv_id": 2569,
+      "image_hash": "e1ec8f77a896fe72"
+    }
+  },
+  {
+    "id": "image_exp/google_images_categorized_256_0468",
+    "type": "image",
+    "description": "<!image:6752b051e8c3e184!>",
+    "category": "google_images_categorized_256",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "google_images_categorized_256",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/google_images_categorized_256/animals_species/bacteria/a_microscopic_image_of_bacteria_dividing_through_binary_fission_1.jpg",
+      "csv_id": 468,
+      "image_hash": "6752b051e8c3e184"
+    }
+  },
+  {
+    "id": "image_exp/fractals_and_fvis_0410",
+    "type": "image",
+    "description": "<!image:0de9c35b717a0262!>",
+    "category": "fractals_and_fvis",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "fractals_and_fvis",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/fractals_and_fvis/fractals/images/deviantart_455271140_Peacocks_IMGP.jpg",
+      "csv_id": 410,
+      "image_hash": "0de9c35b717a0262"
+    }
+  },
+  {
+    "id": "image_exp/species_data_4785",
+    "type": "image",
+    "description": "<!image:a7298784d5e7cda5!>",
+    "category": "species_data",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "species_data",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/species_data/species_for_finegrained/species_splits/test/iid/cicindela_punctulata/394798.jpg",
+      "csv_id": 4785,
+      "image_hash": "a7298784d5e7cda5"
+    }
+  },
+  {
+    "id": "image_exp/google_images_categorized_256_3905",
+    "type": "image",
+    "description": "<!image:ac4874e64fa4f170!>",
+    "category": "google_images_categorized_256",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "google_images_categorized_256",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/google_images_categorized_256/text_dense/academic_essay_screenshot_1.png",
+      "csv_id": 3905,
+      "image_hash": "ac4874e64fa4f170"
+    }
+  },
+  {
+    "id": "image_exp/imagenet-o_4119",
+    "type": "image",
+    "description": "<!image:fb9fc9de55b99a11!>",
+    "category": "imagenet-o",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "imagenet-o",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/imagenet-o/imagenet-o/n03937543/lentil_0.97609544.JPEG",
+      "csv_id": 4119,
+      "image_hash": "fb9fc9de55b99a11"
+    }
+  },
+  {
+    "id": "image_exp/imagenet_val_4350",
+    "type": "image",
+    "description": "<!image:c3fea56d89f57883!>",
+    "category": "imagenet_val",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "imagenet_val",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/imagenet_val/n02319095/ILSVRC2012_val_00008818.JPEG",
+      "csv_id": 4350,
+      "image_hash": "c3fea56d89f57883"
+    }
+  },
+  {
+    "id": "image_exp/google_images_categorized_256_1289",
+    "type": "image",
+    "description": "<!image:5f5fed926c78f5da!>",
+    "category": "google_images_categorized_256",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "google_images_categorized_256",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/google_images_categorized_256/beautiful_famous_places/yunnan_china/the_dramatic_Tiger_Leaping_Gorge_one_of_the_deepest_gorges_in_the_world_1.jpg",
+      "csv_id": 1289,
+      "image_hash": "5f5fed926c78f5da"
+    }
+  },
+  {
+    "id": "image_exp/google_images_categorized_256_0465",
+    "type": "image",
+    "description": "<!image:02faab8cd318bfb5!>",
+    "category": "google_images_categorized_256",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "google_images_categorized_256",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/google_images_categorized_256/animals_species/bacteria/a_diagram_of_bacterial_conjugation_where_genetic_material_is_transferred_1.png",
+      "csv_id": 465,
+      "image_hash": "02faab8cd318bfb5"
+    }
+  },
+  {
+    "id": "image_exp/imagenet-o_4160",
+    "type": "image",
+    "description": "<!image:52d5ce6ff19dd345!>",
+    "category": "imagenet-o",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "imagenet-o",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/imagenet-o/imagenet-o/n09229709/parhelion_mock_sun_sundog_0.9994036.JPEG",
+      "csv_id": 4160,
+      "image_hash": "52d5ce6ff19dd345"
+    }
+  },
+  {
+    "id": "image_exp/google_images_categorized_256_0656",
+    "type": "image",
+    "description": "<!image:3f2aaf8b4419631f!>",
+    "category": "google_images_categorized_256",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "google_images_categorized_256",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/google_images_categorized_256/animals_species/cute_adorable_dogs/a_puppy_with_a_very_sweet_and_gentle_expression_1.jpg",
+      "csv_id": 656,
+      "image_hash": "3f2aaf8b4419631f"
+    }
+  },
+  {
+    "id": "image_exp/google_images_categorized_256_1522",
+    "type": "image",
+    "description": "<!image:db81792dcae52bee!>",
+    "category": "google_images_categorized_256",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "google_images_categorized_256",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/google_images_categorized_256/corporate_figures_websites/the_online_booking_system_for_a_hotel_chain_1.jpg",
+      "csv_id": 1522,
+      "image_hash": "db81792dcae52bee"
+    }
+  },
+  {
+    "id": "image_exp/google_images_categorized_256_0561",
+    "type": "image",
+    "description": "<!image:20f74d15f2243539!>",
+    "category": "google_images_categorized_256",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "google_images_categorized_256",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/google_images_categorized_256/animals_species/chickens/chicken_backyard_farm_1.jpg",
+      "csv_id": 561,
+      "image_hash": "20f74d15f2243539"
+    }
+  },
+  {
+    "id": "image_exp/species_data_4874",
+    "type": "image",
+    "description": "<!image:d4ace2ceb1b2453d!>",
+    "category": "species_data",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "species_data",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/species_data/species_for_finegrained/species_splits/test/iid/sequoiadendron_giganteum/9200516.jpeg",
+      "csv_id": 4874,
+      "image_hash": "d4ace2ceb1b2453d"
+    }
+  },
+  {
+    "id": "image_exp/google_images_categorized_256_0556",
+    "type": "image",
+    "description": "<!image:91526fde7092ffb4!>",
+    "category": "google_images_categorized_256",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "google_images_categorized_256",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/google_images_categorized_256/animals_species/chickens/a_rooster_and_a_hen_together_a_classic_farm_couple_1.jpg",
+      "csv_id": 556,
+      "image_hash": "91526fde7092ffb4"
+    }
+  },
+  {
+    "id": "image_exp/google_images_categorized_256_1926",
+    "type": "image",
+    "description": "<!image:8059f5370dc1e3cb!>",
+    "category": "google_images_categorized_256",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "google_images_categorized_256",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/google_images_categorized_256/figures/machine_learning_results/a_table_of_results_from_a_hyperparameter_search_1.png",
+      "csv_id": 1926,
+      "image_hash": "8059f5370dc1e3cb"
+    }
+  },
+  {
+    "id": "image_exp/google_images_categorized_256_3307",
+    "type": "image",
+    "description": "<!image:3c8068f650cf81c2!>",
+    "category": "google_images_categorized_256",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "google_images_categorized_256",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/google_images_categorized_256/people_faces/latino_women/a_Hispanic_woman_with_a_strong_and_determined_expression_1.jpg",
+      "csv_id": 3307,
+      "image_hash": "3c8068f650cf81c2"
+    }
+  },
+  {
+    "id": "image_exp/google_images_categorized_256_0982",
+    "type": "image",
+    "description": "<!image:f099f53b7293d7a4!>",
+    "category": "google_images_categorized_256",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "google_images_categorized_256",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/google_images_categorized_256/animation_cartoon/cartoon_background_design_1.png",
+      "csv_id": 982,
+      "image_hash": "f099f53b7293d7a4"
+    }
+  },
+  {
+    "id": "image_exp/imagenet_val_4666",
+    "type": "image",
+    "description": "<!image:0f1c232b93019440!>",
+    "category": "imagenet_val",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "imagenet_val",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/imagenet_val/n04409515/ILSVRC2012_val_00009085.JPEG",
+      "csv_id": 4666,
+      "image_hash": "0f1c232b93019440"
+    }
+  },
+  {
+    "id": "image_exp/google_images_categorized_256_2016",
+    "type": "image",
+    "description": "<!image:7ddcad9a47779e0e!>",
+    "category": "google_images_categorized_256",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "google_images_categorized_256",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/google_images_categorized_256/figures/nlp_language_models/language_understanding_benchmark_1.png",
+      "csv_id": 2016,
+      "image_hash": "7ddcad9a47779e0e"
+    }
+  },
+  {
+    "id": "image_exp/imagenet_val_4742",
+    "type": "image",
+    "description": "<!image:eccb3e6723f5f6da!>",
+    "category": "imagenet_val",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "imagenet_val",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/imagenet_val/n09399592/ILSVRC2012_val_00004005.JPEG",
+      "csv_id": 4742,
+      "image_hash": "eccb3e6723f5f6da"
+    }
+  },
+  {
+    "id": "image_exp/species_data_4870",
+    "type": "image",
+    "description": "<!image:189e00d113d8bc5e!>",
+    "category": "species_data",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "species_data",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/species_data/species_for_finegrained/species_splits/test/iid/rhipicephalus_sanguineus/94027850.jpeg",
+      "csv_id": 4870,
+      "image_hash": "189e00d113d8bc5e"
+    }
+  },
+  {
+    "id": "image_exp/food101_0325",
+    "type": "image",
+    "description": "<!image:7dd5597435ca212f!>",
+    "category": "food101",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "food101",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/food101/food101_5528_91.jpg",
+      "csv_id": 325,
+      "image_hash": "7dd5597435ca212f"
+    }
+  },
+  {
+    "id": "image_exp/google_images_categorized_256_0671",
+    "type": "image",
+    "description": "<!image:61f6ef8c56c10213!>",
+    "category": "google_images_categorized_256",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "google_images_categorized_256",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/google_images_categorized_256/animals_species/cute_adorable_dogs/cute_dog_floppy_ears_1.png",
+      "csv_id": 671,
+      "image_hash": "61f6ef8c56c10213"
+    }
+  },
+  {
+    "id": "image_exp/google_images_categorized_256_3434",
+    "type": "image",
+    "description": "<!image:39006f01504edc59!>",
+    "category": "google_images_categorized_256",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "google_images_categorized_256",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/google_images_categorized_256/people_faces/sad_crying_faces/a_person_with_a_look_of_deep_sorrow_and_grief_on_their_face_1.png",
+      "csv_id": 3434,
+      "image_hash": "39006f01504edc59"
+    }
+  },
+  {
+    "id": "image_exp/species_data_4781",
+    "type": "image",
+    "description": "<!image:58e2dd6ba054e46a!>",
+    "category": "species_data",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "species_data",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/species_data/species_for_finegrained/species_splits/test/iid/bombus_hypnorum/26200731.jpeg",
+      "csv_id": 4781,
+      "image_hash": "58e2dd6ba054e46a"
+    }
+  },
+  {
+    "id": "image_exp/imagenet_val_4630",
+    "type": "image",
+    "description": "<!image:580324d01b244084!>",
+    "category": "imagenet_val",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "imagenet_val",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/imagenet_val/n04200800/ILSVRC2012_val_00001899.JPEG",
+      "csv_id": 4630,
+      "image_hash": "580324d01b244084"
+    }
+  },
+  {
+    "id": "image_exp/imagenet_val_4282",
+    "type": "image",
+    "description": "<!image:d157a611a0f102db!>",
+    "category": "imagenet_val",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "imagenet_val",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/imagenet_val/n02097047/ILSVRC2012_val_00022977.JPEG",
+      "csv_id": 4282,
+      "image_hash": "d157a611a0f102db"
+    }
+  },
+  {
+    "id": "image_exp/google_images_categorized_256_2591",
+    "type": "image",
+    "description": "<!image:af7c2affe6f78522!>",
+    "category": "google_images_categorized_256",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "google_images_categorized_256",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/google_images_categorized_256/nature/forests/a_spooky_and_eerie_forest_with_twisted_trees_and_strange_sounds_1.jpg",
+      "csv_id": 2591,
+      "image_hash": "af7c2affe6f78522"
+    }
+  }
+]

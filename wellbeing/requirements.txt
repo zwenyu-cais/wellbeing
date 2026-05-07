@@ -1,0 +1,27 @@
+# Core ML
+torch>=2.7.0
+transformers>=4.53.0,<4.58.0
+vllm>=0.12.0
+accelerate
+
+# Inference
+litellm
+openai
+anthropic
+
+# Data & math
+numpy<2.0
+scipy
+pandas
+networkx
+scikit-learn
+
+# Utilities
+pyyaml
+tqdm
+pillow>=10.0.0
+psutil
+python-dotenv
+termcolor
+matplotlib
+huggingface_hub

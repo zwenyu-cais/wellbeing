@@ -1,0 +1,55 @@
+default:
+  max_tokens: 10
+  temperature: 1.0
+  concurrency_limit: 80
+  timeout: 10
+
+default_low_temp:
+  max_tokens: 10
+  temperature: 0.2
+  concurrency_limit: 200
+  timeout: 10
+
+default_greedy:
+  max_tokens: 500
+  temperature: 0
+  concurrency_limit: 50
+  timeout: 30
+
+default_with_reasoning:
+  max_tokens: 500  # Increased for reasoning
+  temperature: 1.0
+  concurrency_limit: 200
+  timeout: 10
+
+low_concurrency:
+  max_tokens: 10
+  temperature: 1.0
+  concurrency_limit: 2
+  timeout: 15
+
+political_eval:
+  max_tokens: 500  # Higher for political responses
+  temperature: 0.7
+  concurrency_limit: 50  # Very low to avoid rate limits
+  timeout: 30  # Longer timeout for complex questions
+
+political_judge:
+  max_tokens: 200  # Low for judge classifications
+  temperature: 0.0  # Deterministic judgments
+  concurrency_limit: 50  # Sequential processing
+  timeout: 15
+
+open_ended_eval:
+  max_tokens: 500  # Higher for open-ended responses
+  temperature: 0.7
+  concurrency_limit: 50  # Very low to avoid rate limits
+  timeout: 30  # Longer timeout for complex questions
+
+open_ended_judge:
+  max_tokens: 200  # Low for judge classifications
+  temperature: 0.0  # Deterministic judgments
+  concurrency_limit: 50  # Sequential processing
+  timeout: 15
+
+

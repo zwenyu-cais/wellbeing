@@ -1,0 +1,4985 @@
+{
+  "904b0bf7c301758b": {
+    "path": "stimuli/anchor_pure_A4.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 1.15,
+      "timbre": "sine",
+      "type": "anchor",
+      "interval_or_chord": "pure_tone",
+      "root": "A4"
+    }
+  },
+  "6ff241ed2e5dfdcb": {
+    "path": "stimuli/anchor_silence.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.0,
+      "timbre": "none",
+      "type": "anchor",
+      "interval_or_chord": "silence",
+      "root": "N/A"
+    }
+  },
+  "c8f10bbd19716de8": {
+    "path": "stimuli/anchor_white_noise.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": -1.0,
+      "timbre": "noise",
+      "type": "anchor",
+      "interval_or_chord": "white_noise",
+      "root": "N/A"
+    }
+  },
+  "fd4319543e2fc3c3": {
+    "path": "stimuli/piano_chord_augmented_triad_C3.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.91424,
+      "timbre": "piano",
+      "type": "chord",
+      "interval_or_chord": "augmented_triad",
+      "root": "C3"
+    }
+  },
+  "0cc61cd662a8fcbb": {
+    "path": "stimuli/piano_chord_augmented_triad_C4.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.937883,
+      "timbre": "piano",
+      "type": "chord",
+      "interval_or_chord": "augmented_triad",
+      "root": "C4"
+    }
+  },
+  "9e77a506c50fa123": {
+    "path": "stimuli/piano_chord_augmented_triad_E3.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.923205,
+      "timbre": "piano",
+      "type": "chord",
+      "interval_or_chord": "augmented_triad",
+      "root": "E3"
+    }
+  },
+  "d6ae378c0beac96f": {
+    "path": "stimuli/piano_chord_augmented_triad_E4.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.943755,
+      "timbre": "piano",
+      "type": "chord",
+      "interval_or_chord": "augmented_triad",
+      "root": "E4"
+    }
+  },
+  "6c36de2404c1232f": {
+    "path": "stimuli/piano_chord_augmented_triad_G3.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.929199,
+      "timbre": "piano",
+      "type": "chord",
+      "interval_or_chord": "augmented_triad",
+      "root": "G3"
+    }
+  },
+  "77760fc0140ff321": {
+    "path": "stimuli/piano_chord_augmented_triad_G4.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.947595,
+      "timbre": "piano",
+      "type": "chord",
+      "interval_or_chord": "augmented_triad",
+      "root": "G4"
+    }
+  },
+  "2c6a8fd9da6c4bde": {
+    "path": "stimuli/piano_chord_augmented_triad_inv1_C3.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.873205,
+      "timbre": "piano",
+      "type": "inversion",
+      "interval_or_chord": "augmented_triad_inv1",
+      "root": "C3"
+    }
+  },
+  "c494a769d3d947d3": {
+    "path": "stimuli/piano_chord_augmented_triad_inv1_C4.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.893755,
+      "timbre": "piano",
+      "type": "inversion",
+      "interval_or_chord": "augmented_triad_inv1",
+      "root": "C4"
+    }
+  },
+  "9ebddd6587d20b5c": {
+    "path": "stimuli/piano_chord_augmented_triad_inv1_G3.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.886271,
+      "timbre": "piano",
+      "type": "inversion",
+      "interval_or_chord": "augmented_triad_inv1",
+      "root": "G3"
+    }
+  },
+  "c9759b28c3a7e462": {
+    "path": "stimuli/piano_chord_augmented_triad_inv2_C3.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.881063,
+      "timbre": "piano",
+      "type": "inversion",
+      "interval_or_chord": "augmented_triad_inv2",
+      "root": "C3"
+    }
+  },
+  "5e3841f65aad39fd": {
+    "path": "stimuli/piano_chord_augmented_triad_inv2_C4.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.898777,
+      "timbre": "piano",
+      "type": "inversion",
+      "interval_or_chord": "augmented_triad_inv2",
+      "root": "C4"
+    }
+  },
+  "97f3fafb6065a87c": {
+    "path": "stimuli/piano_chord_augmented_triad_inv2_G3.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.892371,
+      "timbre": "piano",
+      "type": "inversion",
+      "interval_or_chord": "augmented_triad_inv2",
+      "root": "G3"
+    }
+  },
+  "08f86a4ea980adfa": {
+    "path": "stimuli/piano_chord_diminished_7th_C3.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.978291,
+      "timbre": "piano",
+      "type": "chord",
+      "interval_or_chord": "diminished_7th",
+      "root": "C3"
+    }
+  },
+  "c7de639da0301aaa": {
+    "path": "stimuli/piano_chord_diminished_7th_C4.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 1.006689,
+      "timbre": "piano",
+      "type": "chord",
+      "interval_or_chord": "diminished_7th",
+      "root": "C4"
+    }
+  },
+  "2ebc5280c5549a2c": {
+    "path": "stimuli/piano_chord_diminished_7th_E3.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.988659,
+      "timbre": "piano",
+      "type": "chord",
+      "interval_or_chord": "diminished_7th",
+      "root": "E3"
+    }
+  },
+  "df0ff269bab26bd5": {
+    "path": "stimuli/piano_chord_diminished_7th_E4.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 1.014376,
+      "timbre": "piano",
+      "type": "chord",
+      "interval_or_chord": "diminished_7th",
+      "root": "E4"
+    }
+  },
+  "4e6c207c54b0688c": {
+    "path": "stimuli/piano_chord_diminished_7th_G3.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.995841,
+      "timbre": "piano",
+      "type": "chord",
+      "interval_or_chord": "diminished_7th",
+      "root": "G3"
+    }
+  },
+  "8c1a6e758b6353c1": {
+    "path": "stimuli/piano_chord_diminished_7th_G4.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 1.019578,
+      "timbre": "piano",
+      "type": "chord",
+      "interval_or_chord": "diminished_7th",
+      "root": "G4"
+    }
+  },
+  "bd40c7e2f602d8d3": {
+    "path": "stimuli/piano_chord_diminished_triad_C3.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.859697,
+      "timbre": "piano",
+      "type": "chord",
+      "interval_or_chord": "diminished_triad",
+      "root": "C3"
+    }
+  },
+  "a7a32cc38019a9b7": {
+    "path": "stimuli/piano_chord_diminished_triad_C4.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.888856,
+      "timbre": "piano",
+      "type": "chord",
+      "interval_or_chord": "diminished_triad",
+      "root": "C4"
+    }
+  },
+  "9dcb199be42b0069": {
+    "path": "stimuli/piano_chord_diminished_triad_E3.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.8703,
+      "timbre": "piano",
+      "type": "chord",
+      "interval_or_chord": "diminished_triad",
+      "root": "E3"
+    }
+  },
+  "2684d4122dd182d3": {
+    "path": "stimuli/piano_chord_diminished_triad_E4.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.896821,
+      "timbre": "piano",
+      "type": "chord",
+      "interval_or_chord": "diminished_triad",
+      "root": "E4"
+    }
+  },
+  "85a572de7a284381": {
+    "path": "stimuli/piano_chord_diminished_triad_G3.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.877672,
+      "timbre": "piano",
+      "type": "chord",
+      "interval_or_chord": "diminished_triad",
+      "root": "G3"
+    }
+  },
+  "ad913b97d78ddb77": {
+    "path": "stimuli/piano_chord_diminished_triad_G4.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.902234,
+      "timbre": "piano",
+      "type": "chord",
+      "interval_or_chord": "diminished_triad",
+      "root": "G4"
+    }
+  },
+  "e211a016e1cf6a5b": {
+    "path": "stimuli/piano_chord_diminished_triad_inv1_C3.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.539107,
+      "timbre": "piano",
+      "type": "inversion",
+      "interval_or_chord": "diminished_triad_inv1",
+      "root": "C3"
+    }
+  },
+  "e0839e34207e3436": {
+    "path": "stimuli/piano_chord_diminished_triad_inv1_C4.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.561891,
+      "timbre": "piano",
+      "type": "inversion",
+      "interval_or_chord": "diminished_triad_inv1",
+      "root": "C4"
+    }
+  },
+  "937febb107bd5e0e": {
+    "path": "stimuli/piano_chord_diminished_triad_inv1_G3.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.553259,
+      "timbre": "piano",
+      "type": "inversion",
+      "interval_or_chord": "diminished_triad_inv1",
+      "root": "G3"
+    }
+  },
+  "d1a3516c2523a7a8": {
+    "path": "stimuli/piano_chord_diminished_triad_inv2_C3.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.549506,
+      "timbre": "piano",
+      "type": "inversion",
+      "interval_or_chord": "diminished_triad_inv2",
+      "root": "C3"
+    }
+  },
+  "2036e6c99ea9f373": {
+    "path": "stimuli/piano_chord_diminished_triad_inv2_C4.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.569579,
+      "timbre": "piano",
+      "type": "inversion",
+      "interval_or_chord": "diminished_triad_inv2",
+      "root": "C4"
+    }
+  },
+  "869e1eb5112181f6": {
+    "path": "stimuli/piano_chord_diminished_triad_inv2_G3.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.562129,
+      "timbre": "piano",
+      "type": "inversion",
+      "interval_or_chord": "diminished_triad_inv2",
+      "root": "G3"
+    }
+  },
+  "1bfa6e531c7c7e8e": {
+    "path": "stimuli/piano_chord_dominant_7th_C3.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.844838,
+      "timbre": "piano",
+      "type": "chord",
+      "interval_or_chord": "dominant_7th",
+      "root": "C3"
+    }
+  },
+  "5ce90f0e20cd767b": {
+    "path": "stimuli/piano_chord_dominant_7th_C4.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.871428,
+      "timbre": "piano",
+      "type": "chord",
+      "interval_or_chord": "dominant_7th",
+      "root": "C4"
+    }
+  },
+  "554d5fffce2ae8c9": {
+    "path": "stimuli/piano_chord_dominant_7th_E3.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.854629,
+      "timbre": "piano",
+      "type": "chord",
+      "interval_or_chord": "dominant_7th",
+      "root": "E3"
+    }
+  },
+  "d191b0469317efe2": {
+    "path": "stimuli/piano_chord_dominant_7th_E4.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.878493,
+      "timbre": "piano",
+      "type": "chord",
+      "interval_or_chord": "dominant_7th",
+      "root": "E4"
+    }
+  },
+  "82b17d392b191c93": {
+    "path": "stimuli/piano_chord_dominant_7th_G3.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.861357,
+      "timbre": "piano",
+      "type": "chord",
+      "interval_or_chord": "dominant_7th",
+      "root": "G3"
+    }
+  },
+  "68025e82c993393f": {
+    "path": "stimuli/piano_chord_dominant_7th_G4.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.883236,
+      "timbre": "piano",
+      "type": "chord",
+      "interval_or_chord": "dominant_7th",
+      "root": "G4"
+    }
+  },
+  "967651599a224611": {
+    "path": "stimuli/piano_chord_major_7th_C3.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.787591,
+      "timbre": "piano",
+      "type": "chord",
+      "interval_or_chord": "major_7th",
+      "root": "C3"
+    }
+  },
+  "b5912383dd8f47ae": {
+    "path": "stimuli/piano_chord_major_7th_C4.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.809676,
+      "timbre": "piano",
+      "type": "chord",
+      "interval_or_chord": "major_7th",
+      "root": "C4"
+    }
+  },
+  "08f664ce1983185a": {
+    "path": "stimuli/piano_chord_major_7th_E3.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.795912,
+      "timbre": "piano",
+      "type": "chord",
+      "interval_or_chord": "major_7th",
+      "root": "E3"
+    }
+  },
+  "ea4079f14655f14a": {
+    "path": "stimuli/piano_chord_major_7th_E4.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.815268,
+      "timbre": "piano",
+      "type": "chord",
+      "interval_or_chord": "major_7th",
+      "root": "E4"
+    }
+  },
+  "4489565163b59a78": {
+    "path": "stimuli/piano_chord_major_7th_G3.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.801504,
+      "timbre": "piano",
+      "type": "chord",
+      "interval_or_chord": "major_7th",
+      "root": "G3"
+    }
+  },
+  "24e28c8676fe5a08": {
+    "path": "stimuli/piano_chord_major_7th_G4.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.818965,
+      "timbre": "piano",
+      "type": "chord",
+      "interval_or_chord": "major_7th",
+      "root": "G4"
+    }
+  },
+  "2b68ee39615ccfc0": {
+    "path": "stimuli/piano_chord_major_triad_C3.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.810775,
+      "timbre": "piano",
+      "type": "chord",
+      "interval_or_chord": "major_triad",
+      "root": "C3"
+    }
+  },
+  "590cd8cd93e873e8": {
+    "path": "stimuli/piano_chord_major_triad_C4.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.836621,
+      "timbre": "piano",
+      "type": "chord",
+      "interval_or_chord": "major_triad",
+      "root": "C4"
+    }
+  },
+  "755dccfd113f00fe": {
+    "path": "stimuli/piano_chord_major_triad_E3.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.820494,
+      "timbre": "piano",
+      "type": "chord",
+      "interval_or_chord": "major_triad",
+      "root": "E3"
+    }
+  },
+  "6f49659c7171cf0f": {
+    "path": "stimuli/piano_chord_major_triad_E4.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.843112,
+      "timbre": "piano",
+      "type": "chord",
+      "interval_or_chord": "major_triad",
+      "root": "E4"
+    }
+  },
+  "8edc5c149df0ffb9": {
+    "path": "stimuli/piano_chord_major_triad_G3.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.82705,
+      "timbre": "piano",
+      "type": "chord",
+      "interval_or_chord": "major_triad",
+      "root": "G3"
+    }
+  },
+  "a4940f81bcfe2190": {
+    "path": "stimuli/piano_chord_major_triad_G4.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.847341,
+      "timbre": "piano",
+      "type": "chord",
+      "interval_or_chord": "major_triad",
+      "root": "G4"
+    }
+  },
+  "12c92e0bf1281639": {
+    "path": "stimuli/piano_chord_major_triad_inv1_C3.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.453616,
+      "timbre": "piano",
+      "type": "inversion",
+      "interval_or_chord": "major_triad_inv1",
+      "root": "C3"
+    }
+  },
+  "721339ddc08bf178": {
+    "path": "stimuli/piano_chord_major_triad_inv1_C4.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.475823,
+      "timbre": "piano",
+      "type": "inversion",
+      "interval_or_chord": "major_triad_inv1",
+      "root": "C4"
+    }
+  },
+  "0db3d5dee953c9f8": {
+    "path": "stimuli/piano_chord_major_triad_inv1_G3.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.467515,
+      "timbre": "piano",
+      "type": "inversion",
+      "interval_or_chord": "major_triad_inv1",
+      "root": "G3"
+    }
+  },
+  "e72090e4a8a9eb3d": {
+    "path": "stimuli/piano_chord_major_triad_inv2_C3.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.470097,
+      "timbre": "piano",
+      "type": "inversion",
+      "interval_or_chord": "major_triad_inv2",
+      "root": "C3"
+    }
+  },
+  "fb25eb8fcaa713ad": {
+    "path": "stimuli/piano_chord_major_triad_inv2_C4.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.48832,
+      "timbre": "piano",
+      "type": "inversion",
+      "interval_or_chord": "major_triad_inv2",
+      "root": "C4"
+    }
+  },
+  "498000809797c512": {
+    "path": "stimuli/piano_chord_major_triad_inv2_G3.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.481782,
+      "timbre": "piano",
+      "type": "inversion",
+      "interval_or_chord": "major_triad_inv2",
+      "root": "G3"
+    }
+  },
+  "5e9cd8569ce019b8": {
+    "path": "stimuli/piano_chord_minor_7th_C3.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.835603,
+      "timbre": "piano",
+      "type": "chord",
+      "interval_or_chord": "minor_7th",
+      "root": "C3"
+    }
+  },
+  "8b3b44abbe0dcd69": {
+    "path": "stimuli/piano_chord_minor_7th_C4.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.861632,
+      "timbre": "piano",
+      "type": "chord",
+      "interval_or_chord": "minor_7th",
+      "root": "C4"
+    }
+  },
+  "07ae9fa013fc89c6": {
+    "path": "stimuli/piano_chord_minor_7th_E3.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.845231,
+      "timbre": "piano",
+      "type": "chord",
+      "interval_or_chord": "minor_7th",
+      "root": "E3"
+    }
+  },
+  "e64f5ed605eea997": {
+    "path": "stimuli/piano_chord_minor_7th_E4.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.868458,
+      "timbre": "piano",
+      "type": "chord",
+      "interval_or_chord": "minor_7th",
+      "root": "E4"
+    }
+  },
+  "06fcdb13cb791e15": {
+    "path": "stimuli/piano_chord_minor_7th_G3.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.851821,
+      "timbre": "piano",
+      "type": "chord",
+      "interval_or_chord": "minor_7th",
+      "root": "G3"
+    }
+  },
+  "71017c16b1faa3c1": {
+    "path": "stimuli/piano_chord_minor_7th_G4.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.873003,
+      "timbre": "piano",
+      "type": "chord",
+      "interval_or_chord": "minor_7th",
+      "root": "G4"
+    }
+  },
+  "eee92c1393abb222": {
+    "path": "stimuli/piano_chord_minor_triad_C3.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.784363,
+      "timbre": "piano",
+      "type": "chord",
+      "interval_or_chord": "minor_triad",
+      "root": "C3"
+    }
+  },
+  "c5a2a8cecb39fe93": {
+    "path": "stimuli/piano_chord_minor_triad_C4.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.810134,
+      "timbre": "piano",
+      "type": "chord",
+      "interval_or_chord": "minor_triad",
+      "root": "C4"
+    }
+  },
+  "1a6d20f19772487b": {
+    "path": "stimuli/piano_chord_minor_triad_E3.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.79402,
+      "timbre": "piano",
+      "type": "chord",
+      "interval_or_chord": "minor_triad",
+      "root": "E3"
+    }
+  },
+  "cfed0ae975ae7bbc": {
+    "path": "stimuli/piano_chord_minor_triad_E4.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.816678,
+      "timbre": "piano",
+      "type": "chord",
+      "interval_or_chord": "minor_triad",
+      "root": "E4"
+    }
+  },
+  "f15dec16f4002163": {
+    "path": "stimuli/piano_chord_minor_triad_G3.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.800553,
+      "timbre": "piano",
+      "type": "chord",
+      "interval_or_chord": "minor_triad",
+      "root": "G3"
+    }
+  },
+  "ae725ea8f33c5d39": {
+    "path": "stimuli/piano_chord_minor_triad_G4.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.820972,
+      "timbre": "piano",
+      "type": "chord",
+      "interval_or_chord": "minor_triad",
+      "root": "G4"
+    }
+  },
+  "872df3c268b48754": {
+    "path": "stimuli/piano_chord_minor_triad_inv1_C3.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.460823,
+      "timbre": "piano",
+      "type": "inversion",
+      "interval_or_chord": "minor_triad_inv1",
+      "root": "C3"
+    }
+  },
+  "66ace3c8831b866c": {
+    "path": "stimuli/piano_chord_minor_triad_inv1_C4.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.482389,
+      "timbre": "piano",
+      "type": "inversion",
+      "interval_or_chord": "minor_triad_inv1",
+      "root": "C4"
+    }
+  },
+  "2e5cdba8c14bcd17": {
+    "path": "stimuli/piano_chord_minor_triad_inv1_G3.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.47452,
+      "timbre": "piano",
+      "type": "inversion",
+      "interval_or_chord": "minor_triad_inv1",
+      "root": "G3"
+    }
+  },
+  "9e861ba0b0fe8817": {
+    "path": "stimuli/piano_chord_minor_triad_inv2_C3.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.462583,
+      "timbre": "piano",
+      "type": "inversion",
+      "interval_or_chord": "minor_triad_inv2",
+      "root": "C3"
+    }
+  },
+  "25653a7e41f7216f": {
+    "path": "stimuli/piano_chord_minor_triad_inv2_C4.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.482439,
+      "timbre": "piano",
+      "type": "inversion",
+      "interval_or_chord": "minor_triad_inv2",
+      "root": "C4"
+    }
+  },
+  "b59705f79c414665": {
+    "path": "stimuli/piano_chord_minor_triad_inv2_G3.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.475121,
+      "timbre": "piano",
+      "type": "inversion",
+      "interval_or_chord": "minor_triad_inv2",
+      "root": "G3"
+    }
+  },
+  "0761ae748ba7d4dd": {
+    "path": "stimuli/piano_interval_major_second_C3.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.642366,
+      "timbre": "piano",
+      "type": "interval",
+      "interval_or_chord": "major_second",
+      "root": "C3"
+    }
+  },
+  "355b2b7b4d5f31bf": {
+    "path": "stimuli/piano_interval_major_second_C4.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.670198,
+      "timbre": "piano",
+      "type": "interval",
+      "interval_or_chord": "major_second",
+      "root": "C4"
+    }
+  },
+  "2631a8d437eee6ef": {
+    "path": "stimuli/piano_interval_major_second_E3.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.651706,
+      "timbre": "piano",
+      "type": "interval",
+      "interval_or_chord": "major_second",
+      "root": "E3"
+    }
+  },
+  "077b129ae4367875": {
+    "path": "stimuli/piano_interval_major_second_E4.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.679288,
+      "timbre": "piano",
+      "type": "interval",
+      "interval_or_chord": "major_second",
+      "root": "E4"
+    }
+  },
+  "2e67db385a9daabd": {
+    "path": "stimuli/piano_interval_major_second_G3.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.658673,
+      "timbre": "piano",
+      "type": "interval",
+      "interval_or_chord": "major_second",
+      "root": "G3"
+    }
+  },
+  "021d1d15ad779778": {
+    "path": "stimuli/piano_interval_major_second_G4.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.685982,
+      "timbre": "piano",
+      "type": "interval",
+      "interval_or_chord": "major_second",
+      "root": "G4"
+    }
+  },
+  "e0760a8ba61aea3e": {
+    "path": "stimuli/piano_interval_major_seventh_C3.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.605863,
+      "timbre": "piano",
+      "type": "interval",
+      "interval_or_chord": "major_seventh",
+      "root": "C3"
+    }
+  },
+  "e79d371be78d44f8": {
+    "path": "stimuli/piano_interval_major_seventh_C4.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.61471,
+      "timbre": "piano",
+      "type": "interval",
+      "interval_or_chord": "major_seventh",
+      "root": "C4"
+    }
+  },
+  "2c491d83d24a7fb9": {
+    "path": "stimuli/piano_interval_major_seventh_E3.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.608962,
+      "timbre": "piano",
+      "type": "interval",
+      "interval_or_chord": "major_seventh",
+      "root": "E3"
+    }
+  },
+  "d1c8db44aa96afbb": {
+    "path": "stimuli/piano_interval_major_seventh_E4.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.617593,
+      "timbre": "piano",
+      "type": "interval",
+      "interval_or_chord": "major_seventh",
+      "root": "E4"
+    }
+  },
+  "b39aef9b0091bc9e": {
+    "path": "stimuli/piano_interval_major_seventh_G3.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.611152,
+      "timbre": "piano",
+      "type": "interval",
+      "interval_or_chord": "major_seventh",
+      "root": "G3"
+    }
+  },
+  "82b8978a35a95ee8": {
+    "path": "stimuli/piano_interval_major_seventh_G4.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.61983,
+      "timbre": "piano",
+      "type": "interval",
+      "interval_or_chord": "major_seventh",
+      "root": "G4"
+    }
+  },
+  "e6ad91691fc2af7f": {
+    "path": "stimuli/piano_interval_major_sixth_C3.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.783312,
+      "timbre": "piano",
+      "type": "interval",
+      "interval_or_chord": "major_sixth",
+      "root": "C3"
+    }
+  },
+  "2edf184c4df444eb": {
+    "path": "stimuli/piano_interval_major_sixth_C4.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.80132,
+      "timbre": "piano",
+      "type": "interval",
+      "interval_or_chord": "major_sixth",
+      "root": "C4"
+    }
+  },
+  "254e69dd2358fc46": {
+    "path": "stimuli/piano_interval_major_sixth_E3.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.79008,
+      "timbre": "piano",
+      "type": "interval",
+      "interval_or_chord": "major_sixth",
+      "root": "E3"
+    }
+  },
+  "2c8ec948d82eaa77": {
+    "path": "stimuli/piano_interval_major_sixth_E4.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.80587,
+      "timbre": "piano",
+      "type": "interval",
+      "interval_or_chord": "major_sixth",
+      "root": "E4"
+    }
+  },
+  "23c11df7ada40296": {
+    "path": "stimuli/piano_interval_major_sixth_G3.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.794642,
+      "timbre": "piano",
+      "type": "interval",
+      "interval_or_chord": "major_sixth",
+      "root": "G3"
+    }
+  },
+  "db4b3615f1b3a296": {
+    "path": "stimuli/piano_interval_major_sixth_G4.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.80884,
+      "timbre": "piano",
+      "type": "interval",
+      "interval_or_chord": "major_sixth",
+      "root": "G4"
+    }
+  },
+  "b05243797f020083": {
+    "path": "stimuli/piano_interval_major_third_C3.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.816028,
+      "timbre": "piano",
+      "type": "interval",
+      "interval_or_chord": "major_third",
+      "root": "C3"
+    }
+  },
+  "666beb12a7a6c3bf": {
+    "path": "stimuli/piano_interval_major_third_C4.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.839804,
+      "timbre": "piano",
+      "type": "interval",
+      "interval_or_chord": "major_third",
+      "root": "C4"
+    }
+  },
+  "5899683cf1a50ba8": {
+    "path": "stimuli/piano_interval_major_third_E3.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.825068,
+      "timbre": "piano",
+      "type": "interval",
+      "interval_or_chord": "major_third",
+      "root": "E3"
+    }
+  },
+  "0963ca44103ecad4": {
+    "path": "stimuli/piano_interval_major_third_E4.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.845615,
+      "timbre": "piano",
+      "type": "interval",
+      "interval_or_chord": "major_third",
+      "root": "E4"
+    }
+  },
+  "996222a3442a57a2": {
+    "path": "stimuli/piano_interval_major_third_G3.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.831104,
+      "timbre": "piano",
+      "type": "interval",
+      "interval_or_chord": "major_third",
+      "root": "G3"
+    }
+  },
+  "030bbc0e29c5b2a8": {
+    "path": "stimuli/piano_interval_major_third_G4.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.849356,
+      "timbre": "piano",
+      "type": "interval",
+      "interval_or_chord": "major_third",
+      "root": "G4"
+    }
+  },
+  "51235e7d62d9b462": {
+    "path": "stimuli/piano_interval_minor_second_C3.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.344086,
+      "timbre": "piano",
+      "type": "interval",
+      "interval_or_chord": "minor_second",
+      "root": "C3"
+    }
+  },
+  "3820ae26c97f86da": {
+    "path": "stimuli/piano_interval_minor_second_C4.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.351882,
+      "timbre": "piano",
+      "type": "interval",
+      "interval_or_chord": "minor_second",
+      "root": "C4"
+    }
+  },
+  "93b106a728434602": {
+    "path": "stimuli/piano_interval_minor_second_E3.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.346624,
+      "timbre": "piano",
+      "type": "interval",
+      "interval_or_chord": "minor_second",
+      "root": "E3"
+    }
+  },
+  "63bb558adf8c65ab": {
+    "path": "stimuli/piano_interval_minor_second_E4.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.354933,
+      "timbre": "piano",
+      "type": "interval",
+      "interval_or_chord": "minor_second",
+      "root": "E4"
+    }
+  },
+  "508f6264123a88af": {
+    "path": "stimuli/piano_interval_minor_second_G3.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.348518,
+      "timbre": "piano",
+      "type": "interval",
+      "interval_or_chord": "minor_second",
+      "root": "G3"
+    }
+  },
+  "e866a9cf68589901": {
+    "path": "stimuli/piano_interval_minor_second_G4.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.357511,
+      "timbre": "piano",
+      "type": "interval",
+      "interval_or_chord": "minor_second",
+      "root": "G4"
+    }
+  },
+  "b6394bf23c760e32": {
+    "path": "stimuli/piano_interval_minor_seventh_C3.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.66433,
+      "timbre": "piano",
+      "type": "interval",
+      "interval_or_chord": "minor_seventh",
+      "root": "C3"
+    }
+  },
+  "037a6c59a543765c": {
+    "path": "stimuli/piano_interval_minor_seventh_C4.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.683295,
+      "timbre": "piano",
+      "type": "interval",
+      "interval_or_chord": "minor_seventh",
+      "root": "C4"
+    }
+  },
+  "8f310a0e57324b0f": {
+    "path": "stimuli/piano_interval_minor_seventh_E3.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.671014,
+      "timbre": "piano",
+      "type": "interval",
+      "interval_or_chord": "minor_seventh",
+      "root": "E3"
+    }
+  },
+  "00f0c87d05716065": {
+    "path": "stimuli/piano_interval_minor_seventh_E4.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.68892,
+      "timbre": "piano",
+      "type": "interval",
+      "interval_or_chord": "minor_seventh",
+      "root": "E4"
+    }
+  },
+  "421bb422096d656a": {
+    "path": "stimuli/piano_interval_minor_seventh_G3.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.675782,
+      "timbre": "piano",
+      "type": "interval",
+      "interval_or_chord": "minor_seventh",
+      "root": "G3"
+    }
+  },
+  "e45c0be95e6501af": {
+    "path": "stimuli/piano_interval_minor_seventh_G4.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.692903,
+      "timbre": "piano",
+      "type": "interval",
+      "interval_or_chord": "minor_seventh",
+      "root": "G4"
+    }
+  },
+  "5840f56c6836a447": {
+    "path": "stimuli/piano_interval_minor_sixth_C3.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.733997,
+      "timbre": "piano",
+      "type": "interval",
+      "interval_or_chord": "minor_sixth",
+      "root": "C3"
+    }
+  },
+  "856f1ec239347825": {
+    "path": "stimuli/piano_interval_minor_sixth_C4.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.748712,
+      "timbre": "piano",
+      "type": "interval",
+      "interval_or_chord": "minor_sixth",
+      "root": "C4"
+    }
+  },
+  "f2239302fe8fcb4c": {
+    "path": "stimuli/piano_interval_minor_sixth_E3.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.739681,
+      "timbre": "piano",
+      "type": "interval",
+      "interval_or_chord": "minor_sixth",
+      "root": "E3"
+    }
+  },
+  "fc7b1a434a024ee5": {
+    "path": "stimuli/piano_interval_minor_sixth_E4.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.752347,
+      "timbre": "piano",
+      "type": "interval",
+      "interval_or_chord": "minor_sixth",
+      "root": "E4"
+    }
+  },
+  "cf07d681469e9e0b": {
+    "path": "stimuli/piano_interval_minor_sixth_G3.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.743392,
+      "timbre": "piano",
+      "type": "interval",
+      "interval_or_chord": "minor_sixth",
+      "root": "G3"
+    }
+  },
+  "aeb496f67aed18bd": {
+    "path": "stimuli/piano_interval_minor_sixth_G4.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.754793,
+      "timbre": "piano",
+      "type": "interval",
+      "interval_or_chord": "minor_sixth",
+      "root": "G4"
+    }
+  },
+  "bf9d27307eabe87c": {
+    "path": "stimuli/piano_interval_minor_third_C3.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.770111,
+      "timbre": "piano",
+      "type": "interval",
+      "interval_or_chord": "minor_third",
+      "root": "C3"
+    }
+  },
+  "b12ae8cee7a0f945": {
+    "path": "stimuli/piano_interval_minor_third_C4.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.798879,
+      "timbre": "piano",
+      "type": "interval",
+      "interval_or_chord": "minor_third",
+      "root": "C4"
+    }
+  },
+  "80b869bf3a229fe0": {
+    "path": "stimuli/piano_interval_minor_third_E3.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.780465,
+      "timbre": "piano",
+      "type": "interval",
+      "interval_or_chord": "minor_third",
+      "root": "E3"
+    }
+  },
+  "0a09ff9d85253c7e": {
+    "path": "stimuli/piano_interval_minor_third_E4.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.806866,
+      "timbre": "piano",
+      "type": "interval",
+      "interval_or_chord": "minor_third",
+      "root": "E4"
+    }
+  },
+  "9b197edceb80617c": {
+    "path": "stimuli/piano_interval_minor_third_G3.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.787739,
+      "timbre": "piano",
+      "type": "interval",
+      "interval_or_chord": "minor_third",
+      "root": "G3"
+    }
+  },
+  "b22e95228519870e": {
+    "path": "stimuli/piano_interval_minor_third_G4.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.812298,
+      "timbre": "piano",
+      "type": "interval",
+      "interval_or_chord": "minor_third",
+      "root": "G4"
+    }
+  },
+  "3f9ae49623b47a60": {
+    "path": "stimuli/piano_interval_octave_C3.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 1.10987,
+      "timbre": "piano",
+      "type": "interval",
+      "interval_or_chord": "octave",
+      "root": "C3"
+    }
+  },
+  "7c9b97048d3f7bf1": {
+    "path": "stimuli/piano_interval_octave_C4.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 1.115034,
+      "timbre": "piano",
+      "type": "interval",
+      "interval_or_chord": "octave",
+      "root": "C4"
+    }
+  },
+  "12a5c80eb32f3f2b": {
+    "path": "stimuli/piano_interval_octave_E3.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 1.112153,
+      "timbre": "piano",
+      "type": "interval",
+      "interval_or_chord": "octave",
+      "root": "E3"
+    }
+  },
+  "84050ca7473252a7": {
+    "path": "stimuli/piano_interval_octave_E4.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 1.11587,
+      "timbre": "piano",
+      "type": "interval",
+      "interval_or_chord": "octave",
+      "root": "E4"
+    }
+  },
+  "bba6c630dbda9564": {
+    "path": "stimuli/piano_interval_octave_G3.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 1.113461,
+      "timbre": "piano",
+      "type": "interval",
+      "interval_or_chord": "octave",
+      "root": "G3"
+    }
+  },
+  "8ceb31ee461bb68d": {
+    "path": "stimuli/piano_interval_octave_G4.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 1.116314,
+      "timbre": "piano",
+      "type": "interval",
+      "interval_or_chord": "octave",
+      "root": "G4"
+    }
+  },
+  "e64b926dfad8888e": {
+    "path": "stimuli/piano_interval_perfect_fifth_C3.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.927092,
+      "timbre": "piano",
+      "type": "interval",
+      "interval_or_chord": "perfect_fifth",
+      "root": "C3"
+    }
+  },
+  "677c85d5e8e581b1": {
+    "path": "stimuli/piano_interval_perfect_fifth_C4.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.941183,
+      "timbre": "piano",
+      "type": "interval",
+      "interval_or_chord": "perfect_fifth",
+      "root": "C4"
+    }
+  },
+  "195ac7f61870dbaa": {
+    "path": "stimuli/piano_interval_perfect_fifth_E3.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.932879,
+      "timbre": "piano",
+      "type": "interval",
+      "interval_or_chord": "perfect_fifth",
+      "root": "E3"
+    }
+  },
+  "6d76c4600b9da88f": {
+    "path": "stimuli/piano_interval_perfect_fifth_E4.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.944026,
+      "timbre": "piano",
+      "type": "interval",
+      "interval_or_chord": "perfect_fifth",
+      "root": "E4"
+    }
+  },
+  "95902d600b23504d": {
+    "path": "stimuli/piano_interval_perfect_fifth_G3.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.936459,
+      "timbre": "piano",
+      "type": "interval",
+      "interval_or_chord": "perfect_fifth",
+      "root": "G3"
+    }
+  },
+  "88ad8342760d6bd1": {
+    "path": "stimuli/piano_interval_perfect_fifth_G4.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.945709,
+      "timbre": "piano",
+      "type": "interval",
+      "interval_or_chord": "perfect_fifth",
+      "root": "G4"
+    }
+  },
+  "f51b48fa71a56626": {
+    "path": "stimuli/piano_interval_perfect_fourth_C3.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.8623,
+      "timbre": "piano",
+      "type": "interval",
+      "interval_or_chord": "perfect_fourth",
+      "root": "C3"
+    }
+  },
+  "4c9983aa6fadb8c1": {
+    "path": "stimuli/piano_interval_perfect_fourth_C4.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.883332,
+      "timbre": "piano",
+      "type": "interval",
+      "interval_or_chord": "perfect_fourth",
+      "root": "C4"
+    }
+  },
+  "ae6adf3be4176572": {
+    "path": "stimuli/piano_interval_perfect_fourth_E3.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.870459,
+      "timbre": "piano",
+      "type": "interval",
+      "interval_or_chord": "perfect_fourth",
+      "root": "E3"
+    }
+  },
+  "c15270ab47326bdd": {
+    "path": "stimuli/piano_interval_perfect_fourth_E4.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.888269,
+      "timbre": "piano",
+      "type": "interval",
+      "interval_or_chord": "perfect_fourth",
+      "root": "E4"
+    }
+  },
+  "c3e3e67ec48fc460": {
+    "path": "stimuli/piano_interval_perfect_fourth_G3.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.875795,
+      "timbre": "piano",
+      "type": "interval",
+      "interval_or_chord": "perfect_fourth",
+      "root": "G3"
+    }
+  },
+  "1452590dcab4afc6": {
+    "path": "stimuli/piano_interval_perfect_fourth_G4.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.891413,
+      "timbre": "piano",
+      "type": "interval",
+      "interval_or_chord": "perfect_fourth",
+      "root": "G4"
+    }
+  },
+  "c8e8d61bcc615209": {
+    "path": "stimuli/piano_interval_tritone_C3.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.768403,
+      "timbre": "piano",
+      "type": "interval",
+      "interval_or_chord": "tritone",
+      "root": "C3"
+    }
+  },
+  "5c082dc0af73ed05": {
+    "path": "stimuli/piano_interval_tritone_C4.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.784836,
+      "timbre": "piano",
+      "type": "interval",
+      "interval_or_chord": "tritone",
+      "root": "C4"
+    }
+  },
+  "a8fcbd269c579d72": {
+    "path": "stimuli/piano_interval_tritone_E3.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.774832,
+      "timbre": "piano",
+      "type": "interval",
+      "interval_or_chord": "tritone",
+      "root": "E3"
+    }
+  },
+  "334aef33b1209584": {
+    "path": "stimuli/piano_interval_tritone_E4.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.78877,
+      "timbre": "piano",
+      "type": "interval",
+      "interval_or_chord": "tritone",
+      "root": "E4"
+    }
+  },
+  "04edbc0931ce13b9": {
+    "path": "stimuli/piano_interval_tritone_G3.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.77898,
+      "timbre": "piano",
+      "type": "interval",
+      "interval_or_chord": "tritone",
+      "root": "G3"
+    }
+  },
+  "7c93950e15cb6921": {
+    "path": "stimuli/piano_interval_tritone_G4.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.791388,
+      "timbre": "piano",
+      "type": "interval",
+      "interval_or_chord": "tritone",
+      "root": "G4"
+    }
+  },
+  "7069e361515fb608": {
+    "path": "stimuli/piano_interval_unison_C3.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.810357,
+      "timbre": "piano",
+      "type": "interval",
+      "interval_or_chord": "unison",
+      "root": "C3"
+    }
+  },
+  "429ef214072400a5": {
+    "path": "stimuli/piano_interval_unison_C4.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.817036,
+      "timbre": "piano",
+      "type": "interval",
+      "interval_or_chord": "unison",
+      "root": "C4"
+    }
+  },
+  "66738b35b16c36fa": {
+    "path": "stimuli/piano_interval_unison_E3.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.813277,
+      "timbre": "piano",
+      "type": "interval",
+      "interval_or_chord": "unison",
+      "root": "E3"
+    }
+  },
+  "1d51bfe0a46e2003": {
+    "path": "stimuli/piano_interval_unison_E4.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.818152,
+      "timbre": "piano",
+      "type": "interval",
+      "interval_or_chord": "unison",
+      "root": "E4"
+    }
+  },
+  "3c1c0f026f4ab1dc": {
+    "path": "stimuli/piano_interval_unison_G3.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.814972,
+      "timbre": "piano",
+      "type": "interval",
+      "interval_or_chord": "unison",
+      "root": "G3"
+    }
+  },
+  "c9d6d5876fc79d8e": {
+    "path": "stimuli/piano_interval_unison_G4.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.818752,
+      "timbre": "piano",
+      "type": "interval",
+      "interval_or_chord": "unison",
+      "root": "G4"
+    }
+  },
+  "e62841ca155c41a9": {
+    "path": "stimuli/sawtooth_chord_augmented_triad_C3.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.954683,
+      "timbre": "sawtooth",
+      "type": "chord",
+      "interval_or_chord": "augmented_triad",
+      "root": "C3"
+    }
+  },
+  "f1b1780b2402ad15": {
+    "path": "stimuli/sawtooth_chord_augmented_triad_C4.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.975944,
+      "timbre": "sawtooth",
+      "type": "chord",
+      "interval_or_chord": "augmented_triad",
+      "root": "C4"
+    }
+  },
+  "8008afc0bfd271f6": {
+    "path": "stimuli/sawtooth_chord_augmented_triad_E3.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.96276,
+      "timbre": "sawtooth",
+      "type": "chord",
+      "interval_or_chord": "augmented_triad",
+      "root": "E3"
+    }
+  },
+  "0dab759e2c69c2e2": {
+    "path": "stimuli/sawtooth_chord_augmented_triad_E4.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.981253,
+      "timbre": "sawtooth",
+      "type": "chord",
+      "interval_or_chord": "augmented_triad",
+      "root": "E4"
+    }
+  },
+  "5cb62f8fa1a085ea": {
+    "path": "stimuli/sawtooth_chord_augmented_triad_G3.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.968142,
+      "timbre": "sawtooth",
+      "type": "chord",
+      "interval_or_chord": "augmented_triad",
+      "root": "G3"
+    }
+  },
+  "4eed3e4ed5bca1f2": {
+    "path": "stimuli/sawtooth_chord_augmented_triad_G4.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.984763,
+      "timbre": "sawtooth",
+      "type": "chord",
+      "interval_or_chord": "augmented_triad",
+      "root": "G4"
+    }
+  },
+  "d4c04ecb34ada5c7": {
+    "path": "stimuli/sawtooth_chord_augmented_triad_inv1_C3.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.91276,
+      "timbre": "sawtooth",
+      "type": "inversion",
+      "interval_or_chord": "augmented_triad_inv1",
+      "root": "C3"
+    }
+  },
+  "734a27e7db20e36a": {
+    "path": "stimuli/sawtooth_chord_augmented_triad_inv1_C4.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.931253,
+      "timbre": "sawtooth",
+      "type": "inversion",
+      "interval_or_chord": "augmented_triad_inv1",
+      "root": "C4"
+    }
+  },
+  "91596cd4b6afb457": {
+    "path": "stimuli/sawtooth_chord_augmented_triad_inv1_G3.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.924493,
+      "timbre": "sawtooth",
+      "type": "inversion",
+      "interval_or_chord": "augmented_triad_inv1",
+      "root": "G3"
+    }
+  },
+  "029402e6ea9d7c06": {
+    "path": "stimuli/sawtooth_chord_augmented_triad_inv2_C3.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.919815,
+      "timbre": "sawtooth",
+      "type": "inversion",
+      "interval_or_chord": "augmented_triad_inv2",
+      "root": "C3"
+    }
+  },
+  "ed533776f5d27e40": {
+    "path": "stimuli/sawtooth_chord_augmented_triad_inv2_C4.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.935853,
+      "timbre": "sawtooth",
+      "type": "inversion",
+      "interval_or_chord": "augmented_triad_inv2",
+      "root": "C4"
+    }
+  },
+  "2fadb164fd4e805f": {
+    "path": "stimuli/sawtooth_chord_augmented_triad_inv2_G3.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.929996,
+      "timbre": "sawtooth",
+      "type": "inversion",
+      "interval_or_chord": "augmented_triad_inv2",
+      "root": "G3"
+    }
+  },
+  "5315952dc9636bbd": {
+    "path": "stimuli/sawtooth_chord_diminished_7th_C3.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 1.012362,
+      "timbre": "sawtooth",
+      "type": "chord",
+      "interval_or_chord": "diminished_7th",
+      "root": "C3"
+    }
+  },
+  "ceaa8c1bcabebc2f": {
+    "path": "stimuli/sawtooth_chord_diminished_7th_C4.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 1.038425,
+      "timbre": "sawtooth",
+      "type": "chord",
+      "interval_or_chord": "diminished_7th",
+      "root": "C4"
+    }
+  },
+  "295a6b53778a93c1": {
+    "path": "stimuli/sawtooth_chord_diminished_7th_E3.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 1.021934,
+      "timbre": "sawtooth",
+      "type": "chord",
+      "interval_or_chord": "diminished_7th",
+      "root": "E3"
+    }
+  },
+  "5d7e34087622ca31": {
+    "path": "stimuli/sawtooth_chord_diminished_7th_E4.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 1.04541,
+      "timbre": "sawtooth",
+      "type": "chord",
+      "interval_or_chord": "diminished_7th",
+      "root": "E4"
+    }
+  },
+  "505a4df2039896dc": {
+    "path": "stimuli/sawtooth_chord_diminished_7th_G3.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 1.028524,
+      "timbre": "sawtooth",
+      "type": "chord",
+      "interval_or_chord": "diminished_7th",
+      "root": "G3"
+    }
+  },
+  "eb7a133fb1274c58": {
+    "path": "stimuli/sawtooth_chord_diminished_7th_G4.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 1.050129,
+      "timbre": "sawtooth",
+      "type": "chord",
+      "interval_or_chord": "diminished_7th",
+      "root": "G4"
+    }
+  },
+  "e5f622f0ab715841": {
+    "path": "stimuli/sawtooth_chord_diminished_triad_C3.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.87668,
+      "timbre": "sawtooth",
+      "type": "chord",
+      "interval_or_chord": "diminished_triad",
+      "root": "C3"
+    }
+  },
+  "5d8f57e6392a9bcd": {
+    "path": "stimuli/sawtooth_chord_diminished_triad_C4.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.903316,
+      "timbre": "sawtooth",
+      "type": "chord",
+      "interval_or_chord": "diminished_triad",
+      "root": "C4"
+    }
+  },
+  "ca5739665abc8639": {
+    "path": "stimuli/sawtooth_chord_diminished_triad_E3.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.88646,
+      "timbre": "sawtooth",
+      "type": "chord",
+      "interval_or_chord": "diminished_triad",
+      "root": "E3"
+    }
+  },
+  "caa2ba7e49afab3f": {
+    "path": "stimuli/sawtooth_chord_diminished_triad_E4.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.910462,
+      "timbre": "sawtooth",
+      "type": "chord",
+      "interval_or_chord": "diminished_triad",
+      "root": "E4"
+    }
+  },
+  "eeaaa4ed5fbcc143": {
+    "path": "stimuli/sawtooth_chord_diminished_triad_G3.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.893195,
+      "timbre": "sawtooth",
+      "type": "chord",
+      "interval_or_chord": "diminished_triad",
+      "root": "G3"
+    }
+  },
+  "223bb8d3ce0f7c97": {
+    "path": "stimuli/sawtooth_chord_diminished_triad_G4.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.915295,
+      "timbre": "sawtooth",
+      "type": "chord",
+      "interval_or_chord": "diminished_triad",
+      "root": "G4"
+    }
+  },
+  "593ea9b8f51f3674": {
+    "path": "stimuli/sawtooth_chord_diminished_triad_inv1_C3.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.592103,
+      "timbre": "sawtooth",
+      "type": "inversion",
+      "interval_or_chord": "diminished_triad_inv1",
+      "root": "C3"
+    }
+  },
+  "4c5d31520f168c7c": {
+    "path": "stimuli/sawtooth_chord_diminished_triad_inv1_C4.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.613534,
+      "timbre": "sawtooth",
+      "type": "inversion",
+      "interval_or_chord": "diminished_triad_inv1",
+      "root": "C4"
+    }
+  },
+  "d98c3f7dfe2285b1": {
+    "path": "stimuli/sawtooth_chord_diminished_triad_inv1_G3.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.605457,
+      "timbre": "sawtooth",
+      "type": "inversion",
+      "interval_or_chord": "diminished_triad_inv1",
+      "root": "G3"
+    }
+  },
+  "e360d2e515091ec5": {
+    "path": "stimuli/sawtooth_chord_diminished_triad_inv2_C3.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.601495,
+      "timbre": "sawtooth",
+      "type": "inversion",
+      "interval_or_chord": "diminished_triad_inv2",
+      "root": "C3"
+    }
+  },
+  "44d88ad79ee3f2eb": {
+    "path": "stimuli/sawtooth_chord_diminished_triad_inv2_C4.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.620154,
+      "timbre": "sawtooth",
+      "type": "inversion",
+      "interval_or_chord": "diminished_triad_inv2",
+      "root": "C4"
+    }
+  },
+  "59eb1d5e0a7cf91c": {
+    "path": "stimuli/sawtooth_chord_diminished_triad_inv2_G3.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.613238,
+      "timbre": "sawtooth",
+      "type": "inversion",
+      "interval_or_chord": "diminished_triad_inv2",
+      "root": "G3"
+    }
+  },
+  "a29a10e4939f355d": {
+    "path": "stimuli/sawtooth_chord_dominant_7th_C3.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.877086,
+      "timbre": "sawtooth",
+      "type": "chord",
+      "interval_or_chord": "dominant_7th",
+      "root": "C3"
+    }
+  },
+  "26d4ae8c7cda38ac": {
+    "path": "stimuli/sawtooth_chord_dominant_7th_C4.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.901533,
+      "timbre": "sawtooth",
+      "type": "chord",
+      "interval_or_chord": "dominant_7th",
+      "root": "C4"
+    }
+  },
+  "e0e6b0aba34086bc": {
+    "path": "stimuli/sawtooth_chord_dominant_7th_E3.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.886127,
+      "timbre": "sawtooth",
+      "type": "chord",
+      "interval_or_chord": "dominant_7th",
+      "root": "E3"
+    }
+  },
+  "285393db2309cbb8": {
+    "path": "stimuli/sawtooth_chord_dominant_7th_E4.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.907987,
+      "timbre": "sawtooth",
+      "type": "chord",
+      "interval_or_chord": "dominant_7th",
+      "root": "E4"
+    }
+  },
+  "02836adcd2d04fce": {
+    "path": "stimuli/sawtooth_chord_dominant_7th_G3.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.892311,
+      "timbre": "sawtooth",
+      "type": "chord",
+      "interval_or_chord": "dominant_7th",
+      "root": "G3"
+    }
+  },
+  "96888d9d05c61361": {
+    "path": "stimuli/sawtooth_chord_dominant_7th_G4.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.912323,
+      "timbre": "sawtooth",
+      "type": "chord",
+      "interval_or_chord": "dominant_7th",
+      "root": "G4"
+    }
+  },
+  "42b140b28b2ed0e5": {
+    "path": "stimuli/sawtooth_chord_major_7th_C3.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.821712,
+      "timbre": "sawtooth",
+      "type": "chord",
+      "interval_or_chord": "major_7th",
+      "root": "C3"
+    }
+  },
+  "5bb29a9207ed66d7": {
+    "path": "stimuli/sawtooth_chord_major_7th_C4.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.842069,
+      "timbre": "sawtooth",
+      "type": "chord",
+      "interval_or_chord": "major_7th",
+      "root": "C4"
+    }
+  },
+  "d543c002cf3fe741": {
+    "path": "stimuli/sawtooth_chord_major_7th_E3.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.829405,
+      "timbre": "sawtooth",
+      "type": "chord",
+      "interval_or_chord": "major_7th",
+      "root": "E3"
+    }
+  },
+  "b0c74e89b936cbd5": {
+    "path": "stimuli/sawtooth_chord_major_7th_E4.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.847209,
+      "timbre": "sawtooth",
+      "type": "chord",
+      "interval_or_chord": "major_7th",
+      "root": "E4"
+    }
+  },
+  "7fa7a08ced603406": {
+    "path": "stimuli/sawtooth_chord_major_7th_G3.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.834557,
+      "timbre": "sawtooth",
+      "type": "chord",
+      "interval_or_chord": "major_7th",
+      "root": "G3"
+    }
+  },
+  "622d1ceb19c95e00": {
+    "path": "stimuli/sawtooth_chord_major_7th_G4.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.850614,
+      "timbre": "sawtooth",
+      "type": "chord",
+      "interval_or_chord": "major_7th",
+      "root": "G4"
+    }
+  },
+  "140091e5f411feef": {
+    "path": "stimuli/sawtooth_chord_major_triad_C3.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.942629,
+      "timbre": "sawtooth",
+      "type": "chord",
+      "interval_or_chord": "major_triad",
+      "root": "C3"
+    }
+  },
+  "9cd564d723d69f3f": {
+    "path": "stimuli/sawtooth_chord_major_triad_C4.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.965974,
+      "timbre": "sawtooth",
+      "type": "chord",
+      "interval_or_chord": "major_triad",
+      "root": "C4"
+    }
+  },
+  "ae8a15070e457a93": {
+    "path": "stimuli/sawtooth_chord_major_triad_E3.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.951482,
+      "timbre": "sawtooth",
+      "type": "chord",
+      "interval_or_chord": "major_triad",
+      "root": "E3"
+    }
+  },
+  "890531b5281a28c8": {
+    "path": "stimuli/sawtooth_chord_major_triad_E4.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.971743,
+      "timbre": "sawtooth",
+      "type": "chord",
+      "interval_or_chord": "major_triad",
+      "root": "E4"
+    }
+  },
+  "d5facc6dbd9c8d0e": {
+    "path": "stimuli/sawtooth_chord_major_triad_G3.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.957403,
+      "timbre": "sawtooth",
+      "type": "chord",
+      "interval_or_chord": "major_triad",
+      "root": "G3"
+    }
+  },
+  "b8ff52e4ef83deb3": {
+    "path": "stimuli/sawtooth_chord_major_triad_G4.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.975487,
+      "timbre": "sawtooth",
+      "type": "chord",
+      "interval_or_chord": "major_triad",
+      "root": "G4"
+    }
+  },
+  "82ebfebc936343ec": {
+    "path": "stimuli/sawtooth_chord_major_triad_inv1_C3.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.585982,
+      "timbre": "sawtooth",
+      "type": "inversion",
+      "interval_or_chord": "major_triad_inv1",
+      "root": "C3"
+    }
+  },
+  "124586264b8b0ac3": {
+    "path": "stimuli/sawtooth_chord_major_triad_inv1_C4.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.60673,
+      "timbre": "sawtooth",
+      "type": "inversion",
+      "interval_or_chord": "major_triad_inv1",
+      "root": "C4"
+    }
+  },
+  "6125e4d225b6a11f": {
+    "path": "stimuli/sawtooth_chord_major_triad_inv1_G3.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.598971,
+      "timbre": "sawtooth",
+      "type": "inversion",
+      "interval_or_chord": "major_triad_inv1",
+      "root": "G3"
+    }
+  },
+  "8a9690ef68eb66f6": {
+    "path": "stimuli/sawtooth_chord_major_triad_inv2_C3.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.591736,
+      "timbre": "sawtooth",
+      "type": "inversion",
+      "interval_or_chord": "major_triad_inv2",
+      "root": "C3"
+    }
+  },
+  "492e11d33f2c9ee7": {
+    "path": "stimuli/sawtooth_chord_major_triad_inv2_C4.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.608735,
+      "timbre": "sawtooth",
+      "type": "inversion",
+      "interval_or_chord": "major_triad_inv2",
+      "root": "C4"
+    }
+  },
+  "c6f165d623c11b41": {
+    "path": "stimuli/sawtooth_chord_major_triad_inv2_G3.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.602602,
+      "timbre": "sawtooth",
+      "type": "inversion",
+      "interval_or_chord": "major_triad_inv2",
+      "root": "G3"
+    }
+  },
+  "df4d3ef55972a3b0": {
+    "path": "stimuli/sawtooth_chord_minor_7th_C3.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.872114,
+      "timbre": "sawtooth",
+      "type": "chord",
+      "interval_or_chord": "minor_7th",
+      "root": "C3"
+    }
+  },
+  "1c205ec8efcf9035": {
+    "path": "stimuli/sawtooth_chord_minor_7th_C4.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.896046,
+      "timbre": "sawtooth",
+      "type": "chord",
+      "interval_or_chord": "minor_7th",
+      "root": "C4"
+    }
+  },
+  "9e31282879ca05f8": {
+    "path": "stimuli/sawtooth_chord_minor_7th_E3.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.881022,
+      "timbre": "sawtooth",
+      "type": "chord",
+      "interval_or_chord": "minor_7th",
+      "root": "E3"
+    }
+  },
+  "061d4ae8224b2ee6": {
+    "path": "stimuli/sawtooth_chord_minor_7th_E4.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.902245,
+      "timbre": "sawtooth",
+      "type": "chord",
+      "interval_or_chord": "minor_7th",
+      "root": "E4"
+    }
+  },
+  "99c054b71b557257": {
+    "path": "stimuli/sawtooth_chord_minor_7th_G3.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.887082,
+      "timbre": "sawtooth",
+      "type": "chord",
+      "interval_or_chord": "minor_7th",
+      "root": "G3"
+    }
+  },
+  "33387e83a5ca4c1c": {
+    "path": "stimuli/sawtooth_chord_minor_7th_G4.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.906358,
+      "timbre": "sawtooth",
+      "type": "chord",
+      "interval_or_chord": "minor_7th",
+      "root": "G4"
+    }
+  },
+  "02fad98823febf8e": {
+    "path": "stimuli/sawtooth_chord_minor_triad_C3.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.916262,
+      "timbre": "sawtooth",
+      "type": "chord",
+      "interval_or_chord": "minor_triad",
+      "root": "C3"
+    }
+  },
+  "eed7d6c452e9f586": {
+    "path": "stimuli/sawtooth_chord_minor_triad_C4.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.939697,
+      "timbre": "sawtooth",
+      "type": "chord",
+      "interval_or_chord": "minor_triad",
+      "root": "C4"
+    }
+  },
+  "b1ecde642e6feb85": {
+    "path": "stimuli/sawtooth_chord_minor_triad_E3.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.925116,
+      "timbre": "sawtooth",
+      "type": "chord",
+      "interval_or_chord": "minor_triad",
+      "root": "E3"
+    }
+  },
+  "a566240f166dfcf0": {
+    "path": "stimuli/sawtooth_chord_minor_triad_E4.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.945554,
+      "timbre": "sawtooth",
+      "type": "chord",
+      "interval_or_chord": "minor_triad",
+      "root": "E4"
+    }
+  },
+  "1a580a23a4870770": {
+    "path": "stimuli/sawtooth_chord_minor_triad_G3.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.931056,
+      "timbre": "sawtooth",
+      "type": "chord",
+      "interval_or_chord": "minor_triad",
+      "root": "G3"
+    }
+  },
+  "97876536328a5384": {
+    "path": "stimuli/sawtooth_chord_minor_triad_G4.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.94938,
+      "timbre": "sawtooth",
+      "type": "chord",
+      "interval_or_chord": "minor_triad",
+      "root": "G4"
+    }
+  },
+  "ec804538027255c2": {
+    "path": "stimuli/sawtooth_chord_minor_triad_inv1_C3.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.583413,
+      "timbre": "sawtooth",
+      "type": "inversion",
+      "interval_or_chord": "minor_triad_inv1",
+      "root": "C3"
+    }
+  },
+  "5412e152a33b8cb8": {
+    "path": "stimuli/sawtooth_chord_minor_triad_inv1_C4.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.603456,
+      "timbre": "sawtooth",
+      "type": "inversion",
+      "interval_or_chord": "minor_triad_inv1",
+      "root": "C4"
+    }
+  },
+  "62e229023a0fa34c": {
+    "path": "stimuli/sawtooth_chord_minor_triad_inv1_G3.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.596142,
+      "timbre": "sawtooth",
+      "type": "inversion",
+      "interval_or_chord": "minor_triad_inv1",
+      "root": "G3"
+    }
+  },
+  "ac7a151227c4ef2d": {
+    "path": "stimuli/sawtooth_chord_minor_triad_inv2_C3.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.594067,
+      "timbre": "sawtooth",
+      "type": "inversion",
+      "interval_or_chord": "minor_triad_inv2",
+      "root": "C3"
+    }
+  },
+  "190a1480e73c07c4": {
+    "path": "stimuli/sawtooth_chord_minor_triad_inv2_C4.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.612506,
+      "timbre": "sawtooth",
+      "type": "inversion",
+      "interval_or_chord": "minor_triad_inv2",
+      "root": "C4"
+    }
+  },
+  "a674333b6d556e2e": {
+    "path": "stimuli/sawtooth_chord_minor_triad_inv2_G3.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.605681,
+      "timbre": "sawtooth",
+      "type": "inversion",
+      "interval_or_chord": "minor_triad_inv2",
+      "root": "G3"
+    }
+  },
+  "f9a533ab74f314b6": {
+    "path": "stimuli/sawtooth_interval_major_second_C3.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.66355,
+      "timbre": "sawtooth",
+      "type": "interval",
+      "interval_or_chord": "major_second",
+      "root": "C3"
+    }
+  },
+  "d67dffe0c3af2d0d": {
+    "path": "stimuli/sawtooth_interval_major_second_C4.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.691773,
+      "timbre": "sawtooth",
+      "type": "interval",
+      "interval_or_chord": "major_second",
+      "root": "C4"
+    }
+  },
+  "b4af340c7133d094": {
+    "path": "stimuli/sawtooth_interval_major_second_E3.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.673287,
+      "timbre": "sawtooth",
+      "type": "interval",
+      "interval_or_chord": "major_second",
+      "root": "E3"
+    }
+  },
+  "15f5b3c2bd16c334": {
+    "path": "stimuli/sawtooth_interval_major_second_E4.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.700488,
+      "timbre": "sawtooth",
+      "type": "interval",
+      "interval_or_chord": "major_second",
+      "root": "E4"
+    }
+  },
+  "59e0312764c51ef1": {
+    "path": "stimuli/sawtooth_interval_major_second_G3.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.680374,
+      "timbre": "sawtooth",
+      "type": "interval",
+      "interval_or_chord": "major_second",
+      "root": "G3"
+    }
+  },
+  "27ace9460b4da211": {
+    "path": "stimuli/sawtooth_interval_major_second_G4.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.706759,
+      "timbre": "sawtooth",
+      "type": "interval",
+      "interval_or_chord": "major_second",
+      "root": "G4"
+    }
+  },
+  "4c4f15676040463d": {
+    "path": "stimuli/sawtooth_interval_major_seventh_C3.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.608956,
+      "timbre": "sawtooth",
+      "type": "interval",
+      "interval_or_chord": "major_seventh",
+      "root": "C3"
+    }
+  },
+  "97e6850ba5f84792": {
+    "path": "stimuli/sawtooth_interval_major_seventh_C4.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.619333,
+      "timbre": "sawtooth",
+      "type": "interval",
+      "interval_or_chord": "major_seventh",
+      "root": "C4"
+    }
+  },
+  "fd79f3e4ae0d436a": {
+    "path": "stimuli/sawtooth_interval_major_seventh_E3.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.61268,
+      "timbre": "sawtooth",
+      "type": "interval",
+      "interval_or_chord": "major_seventh",
+      "root": "E3"
+    }
+  },
+  "29a34122018f3f0c": {
+    "path": "stimuli/sawtooth_interval_major_seventh_E4.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.622499,
+      "timbre": "sawtooth",
+      "type": "interval",
+      "interval_or_chord": "major_seventh",
+      "root": "E4"
+    }
+  },
+  "7652e615e619c1a9": {
+    "path": "stimuli/sawtooth_interval_major_seventh_G3.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.615263,
+      "timbre": "sawtooth",
+      "type": "interval",
+      "interval_or_chord": "major_seventh",
+      "root": "G3"
+    }
+  },
+  "9a42a5eb01823206": {
+    "path": "stimuli/sawtooth_interval_major_seventh_G4.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.624878,
+      "timbre": "sawtooth",
+      "type": "interval",
+      "interval_or_chord": "major_seventh",
+      "root": "G4"
+    }
+  },
+  "f6a2f3ee00c352b8": {
+    "path": "stimuli/sawtooth_interval_major_sixth_C3.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.794926,
+      "timbre": "sawtooth",
+      "type": "interval",
+      "interval_or_chord": "major_sixth",
+      "root": "C3"
+    }
+  },
+  "a7a285562d90279a": {
+    "path": "stimuli/sawtooth_interval_major_sixth_C4.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.812676,
+      "timbre": "sawtooth",
+      "type": "interval",
+      "interval_or_chord": "major_sixth",
+      "root": "C4"
+    }
+  },
+  "bdad19426c094df4": {
+    "path": "stimuli/sawtooth_interval_major_sixth_E3.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.801663,
+      "timbre": "sawtooth",
+      "type": "interval",
+      "interval_or_chord": "major_sixth",
+      "root": "E3"
+    }
+  },
+  "904037315b3d3707": {
+    "path": "stimuli/sawtooth_interval_major_sixth_E4.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.817048,
+      "timbre": "sawtooth",
+      "type": "interval",
+      "interval_or_chord": "major_sixth",
+      "root": "E4"
+    }
+  },
+  "fbe03139353d6d3d": {
+    "path": "stimuli/sawtooth_interval_major_sixth_G3.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.806163,
+      "timbre": "sawtooth",
+      "type": "interval",
+      "interval_or_chord": "major_sixth",
+      "root": "G3"
+    }
+  },
+  "da60534e45c9edee": {
+    "path": "stimuli/sawtooth_interval_major_sixth_G4.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.819868,
+      "timbre": "sawtooth",
+      "type": "interval",
+      "interval_or_chord": "major_sixth",
+      "root": "G4"
+    }
+  },
+  "288715171b5e0d25": {
+    "path": "stimuli/sawtooth_interval_major_third_C3.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.826821,
+      "timbre": "sawtooth",
+      "type": "interval",
+      "interval_or_chord": "major_third",
+      "root": "C3"
+    }
+  },
+  "1e9574ba57102f4c": {
+    "path": "stimuli/sawtooth_interval_major_third_C4.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.848174,
+      "timbre": "sawtooth",
+      "type": "interval",
+      "interval_or_chord": "major_third",
+      "root": "C4"
+    }
+  },
+  "b5264198531ce378": {
+    "path": "stimuli/sawtooth_interval_major_third_E3.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.835033,
+      "timbre": "sawtooth",
+      "type": "interval",
+      "interval_or_chord": "major_third",
+      "root": "E3"
+    }
+  },
+  "44ce0022dc93100d": {
+    "path": "stimuli/sawtooth_interval_major_third_E4.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.853291,
+      "timbre": "sawtooth",
+      "type": "interval",
+      "interval_or_chord": "major_third",
+      "root": "E4"
+    }
+  },
+  "23c843d271599c43": {
+    "path": "stimuli/sawtooth_interval_major_third_G3.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.840451,
+      "timbre": "sawtooth",
+      "type": "interval",
+      "interval_or_chord": "major_third",
+      "root": "G3"
+    }
+  },
+  "e9fe258784409c6a": {
+    "path": "stimuli/sawtooth_interval_major_third_G4.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.85658,
+      "timbre": "sawtooth",
+      "type": "interval",
+      "interval_or_chord": "major_third",
+      "root": "G4"
+    }
+  },
+  "4132cf6684420671": {
+    "path": "stimuli/sawtooth_interval_minor_second_C3.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.466638,
+      "timbre": "sawtooth",
+      "type": "interval",
+      "interval_or_chord": "minor_second",
+      "root": "C3"
+    }
+  },
+  "a14433a43860c6d6": {
+    "path": "stimuli/sawtooth_interval_minor_second_C4.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.478296,
+      "timbre": "sawtooth",
+      "type": "interval",
+      "interval_or_chord": "minor_second",
+      "root": "C4"
+    }
+  },
+  "232500ba5fa52721": {
+    "path": "stimuli/sawtooth_interval_minor_second_E3.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.470675,
+      "timbre": "sawtooth",
+      "type": "interval",
+      "interval_or_chord": "minor_second",
+      "root": "E3"
+    }
+  },
+  "d25ebb620593b61b": {
+    "path": "stimuli/sawtooth_interval_minor_second_E4.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.482201,
+      "timbre": "sawtooth",
+      "type": "interval",
+      "interval_or_chord": "minor_second",
+      "root": "E4"
+    }
+  },
+  "158ba076b10e4259": {
+    "path": "stimuli/sawtooth_interval_minor_second_G3.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.473556,
+      "timbre": "sawtooth",
+      "type": "interval",
+      "interval_or_chord": "minor_second",
+      "root": "G3"
+    }
+  },
+  "e84ec1f6d629c592": {
+    "path": "stimuli/sawtooth_interval_minor_second_G4.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.485277,
+      "timbre": "sawtooth",
+      "type": "interval",
+      "interval_or_chord": "minor_second",
+      "root": "G4"
+    }
+  },
+  "9de9f43e908055d1": {
+    "path": "stimuli/sawtooth_interval_minor_seventh_C3.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.665802,
+      "timbre": "sawtooth",
+      "type": "interval",
+      "interval_or_chord": "minor_seventh",
+      "root": "C3"
+    }
+  },
+  "eb57ff9c38e5195f": {
+    "path": "stimuli/sawtooth_interval_minor_seventh_C4.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.685161,
+      "timbre": "sawtooth",
+      "type": "interval",
+      "interval_or_chord": "minor_seventh",
+      "root": "C4"
+    }
+  },
+  "861e09cde3e73551": {
+    "path": "stimuli/sawtooth_interval_minor_seventh_E3.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.67272,
+      "timbre": "sawtooth",
+      "type": "interval",
+      "interval_or_chord": "minor_seventh",
+      "root": "E3"
+    }
+  },
+  "7eae846119b97aa6": {
+    "path": "stimuli/sawtooth_interval_minor_seventh_E4.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.690732,
+      "timbre": "sawtooth",
+      "type": "interval",
+      "interval_or_chord": "minor_seventh",
+      "root": "E4"
+    }
+  },
+  "4806ab57cee724f3": {
+    "path": "stimuli/sawtooth_interval_minor_seventh_G3.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.677594,
+      "timbre": "sawtooth",
+      "type": "interval",
+      "interval_or_chord": "minor_seventh",
+      "root": "G3"
+    }
+  },
+  "e18a552f2fa97712": {
+    "path": "stimuli/sawtooth_interval_minor_seventh_G4.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.694629,
+      "timbre": "sawtooth",
+      "type": "interval",
+      "interval_or_chord": "minor_seventh",
+      "root": "G4"
+    }
+  },
+  "3a88bc3bb3a5c840": {
+    "path": "stimuli/sawtooth_interval_minor_sixth_C3.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.746616,
+      "timbre": "sawtooth",
+      "type": "interval",
+      "interval_or_chord": "minor_sixth",
+      "root": "C3"
+    }
+  },
+  "80e67d845231d805": {
+    "path": "stimuli/sawtooth_interval_minor_sixth_C4.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.761427,
+      "timbre": "sawtooth",
+      "type": "interval",
+      "interval_or_chord": "minor_sixth",
+      "root": "C4"
+    }
+  },
+  "4a36ec6884cde440": {
+    "path": "stimuli/sawtooth_interval_minor_sixth_E3.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.752288,
+      "timbre": "sawtooth",
+      "type": "interval",
+      "interval_or_chord": "minor_sixth",
+      "root": "E3"
+    }
+  },
+  "a0ee2639a0b47355": {
+    "path": "stimuli/sawtooth_interval_minor_sixth_E4.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.765181,
+      "timbre": "sawtooth",
+      "type": "interval",
+      "interval_or_chord": "minor_sixth",
+      "root": "E4"
+    }
+  },
+  "36ece5e0cd1fd153": {
+    "path": "stimuli/sawtooth_interval_minor_sixth_G3.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.756019,
+      "timbre": "sawtooth",
+      "type": "interval",
+      "interval_or_chord": "minor_sixth",
+      "root": "G3"
+    }
+  },
+  "35a89282811949b7": {
+    "path": "stimuli/sawtooth_interval_minor_sixth_G4.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.767745,
+      "timbre": "sawtooth",
+      "type": "interval",
+      "interval_or_chord": "minor_sixth",
+      "root": "G4"
+    }
+  },
+  "852d97e438c7f771": {
+    "path": "stimuli/sawtooth_interval_minor_third_C3.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.783281,
+      "timbre": "sawtooth",
+      "type": "interval",
+      "interval_or_chord": "minor_third",
+      "root": "C3"
+    }
+  },
+  "56e3e8b729fbf92a": {
+    "path": "stimuli/sawtooth_interval_minor_third_C4.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.809553,
+      "timbre": "sawtooth",
+      "type": "interval",
+      "interval_or_chord": "minor_third",
+      "root": "C4"
+    }
+  },
+  "d19fe30992692da3": {
+    "path": "stimuli/sawtooth_interval_minor_third_E3.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.792941,
+      "timbre": "sawtooth",
+      "type": "interval",
+      "interval_or_chord": "minor_third",
+      "root": "E3"
+    }
+  },
+  "4deb072691b86855": {
+    "path": "stimuli/sawtooth_interval_minor_third_E4.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.816526,
+      "timbre": "sawtooth",
+      "type": "interval",
+      "interval_or_chord": "minor_third",
+      "root": "E4"
+    }
+  },
+  "f13025d9c2c79160": {
+    "path": "stimuli/sawtooth_interval_minor_third_G3.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.799591,
+      "timbre": "sawtooth",
+      "type": "interval",
+      "interval_or_chord": "minor_third",
+      "root": "G3"
+    }
+  },
+  "c01202387bc883d1": {
+    "path": "stimuli/sawtooth_interval_minor_third_G4.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.821189,
+      "timbre": "sawtooth",
+      "type": "interval",
+      "interval_or_chord": "minor_third",
+      "root": "G4"
+    }
+  },
+  "7e6e6791c1b039c5": {
+    "path": "stimuli/sawtooth_interval_octave_C3.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 1.155144,
+      "timbre": "sawtooth",
+      "type": "interval",
+      "interval_or_chord": "octave",
+      "root": "C3"
+    }
+  },
+  "24349a4ed57ae53a": {
+    "path": "stimuli/sawtooth_interval_octave_C4.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 1.161346,
+      "timbre": "sawtooth",
+      "type": "interval",
+      "interval_or_chord": "octave",
+      "root": "C4"
+    }
+  },
+  "a82e8640d272028d": {
+    "path": "stimuli/sawtooth_interval_octave_E3.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 1.157858,
+      "timbre": "sawtooth",
+      "type": "interval",
+      "interval_or_chord": "octave",
+      "root": "E3"
+    }
+  },
+  "2509e749aa6da37e": {
+    "path": "stimuli/sawtooth_interval_octave_E4.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 1.162378,
+      "timbre": "sawtooth",
+      "type": "interval",
+      "interval_or_chord": "octave",
+      "root": "E4"
+    }
+  },
+  "574ef7be21f5214a": {
+    "path": "stimuli/sawtooth_interval_octave_G3.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 1.159432,
+      "timbre": "sawtooth",
+      "type": "interval",
+      "interval_or_chord": "octave",
+      "root": "G3"
+    }
+  },
+  "2c7c986d398a744a": {
+    "path": "stimuli/sawtooth_interval_octave_G4.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 1.162931,
+      "timbre": "sawtooth",
+      "type": "interval",
+      "interval_or_chord": "octave",
+      "root": "G4"
+    }
+  },
+  "30994600fe885c2d": {
+    "path": "stimuli/sawtooth_interval_perfect_fifth_C3.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.955967,
+      "timbre": "sawtooth",
+      "type": "interval",
+      "interval_or_chord": "perfect_fifth",
+      "root": "C3"
+    }
+  },
+  "8530c805f1e1207a": {
+    "path": "stimuli/sawtooth_interval_perfect_fifth_C4.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.970404,
+      "timbre": "sawtooth",
+      "type": "interval",
+      "interval_or_chord": "perfect_fifth",
+      "root": "C4"
+    }
+  },
+  "2de4fd55f5f035c7": {
+    "path": "stimuli/sawtooth_interval_perfect_fifth_E3.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.961822,
+      "timbre": "sawtooth",
+      "type": "interval",
+      "interval_or_chord": "perfect_fifth",
+      "root": "E3"
+    }
+  },
+  "610c5a00548d4bae": {
+    "path": "stimuli/sawtooth_interval_perfect_fifth_E4.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.973425,
+      "timbre": "sawtooth",
+      "type": "interval",
+      "interval_or_chord": "perfect_fifth",
+      "root": "E4"
+    }
+  },
+  "492a51a45b2fee27": {
+    "path": "stimuli/sawtooth_interval_perfect_fifth_G3.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.965488,
+      "timbre": "sawtooth",
+      "type": "interval",
+      "interval_or_chord": "perfect_fifth",
+      "root": "G3"
+    }
+  },
+  "2d312bba93fac65c": {
+    "path": "stimuli/sawtooth_interval_perfect_fifth_G4.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.975247,
+      "timbre": "sawtooth",
+      "type": "interval",
+      "interval_or_chord": "perfect_fifth",
+      "root": "G4"
+    }
+  },
+  "aa498cbbb1cd5028": {
+    "path": "stimuli/sawtooth_interval_perfect_fourth_C3.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.877316,
+      "timbre": "sawtooth",
+      "type": "interval",
+      "interval_or_chord": "perfect_fourth",
+      "root": "C3"
+    }
+  },
+  "1385cc91cf16afa7": {
+    "path": "stimuli/sawtooth_interval_perfect_fourth_C4.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.897786,
+      "timbre": "sawtooth",
+      "type": "interval",
+      "interval_or_chord": "perfect_fourth",
+      "root": "C4"
+    }
+  },
+  "19663fd767d72d8b": {
+    "path": "stimuli/sawtooth_interval_perfect_fourth_E3.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.885205,
+      "timbre": "sawtooth",
+      "type": "interval",
+      "interval_or_chord": "perfect_fourth",
+      "root": "E3"
+    }
+  },
+  "d42fb65899340244": {
+    "path": "stimuli/sawtooth_interval_perfect_fourth_E4.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.9027,
+      "timbre": "sawtooth",
+      "type": "interval",
+      "interval_or_chord": "perfect_fourth",
+      "root": "E4"
+    }
+  },
+  "596acc8b948bc3f5": {
+    "path": "stimuli/sawtooth_interval_perfect_fourth_G3.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.890393,
+      "timbre": "sawtooth",
+      "type": "interval",
+      "interval_or_chord": "perfect_fourth",
+      "root": "G3"
+    }
+  },
+  "0a180bc7c75bd92c": {
+    "path": "stimuli/sawtooth_interval_perfect_fourth_G4.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.905874,
+      "timbre": "sawtooth",
+      "type": "interval",
+      "interval_or_chord": "perfect_fourth",
+      "root": "G4"
+    }
+  },
+  "597165952531623e": {
+    "path": "stimuli/sawtooth_interval_tritone_C3.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.819136,
+      "timbre": "sawtooth",
+      "type": "interval",
+      "interval_or_chord": "tritone",
+      "root": "C3"
+    }
+  },
+  "953ae52963619c9a": {
+    "path": "stimuli/sawtooth_interval_tritone_C4.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.835882,
+      "timbre": "sawtooth",
+      "type": "interval",
+      "interval_or_chord": "tritone",
+      "root": "C4"
+    }
+  },
+  "b33ddaad71b93c0c": {
+    "path": "stimuli/sawtooth_interval_tritone_E3.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.825572,
+      "timbre": "sawtooth",
+      "type": "interval",
+      "interval_or_chord": "tritone",
+      "root": "E3"
+    }
+  },
+  "ed499da49fbe6d8a": {
+    "path": "stimuli/sawtooth_interval_tritone_E4.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.840084,
+      "timbre": "sawtooth",
+      "type": "interval",
+      "interval_or_chord": "tritone",
+      "root": "E4"
+    }
+  },
+  "67faff079f342c1c": {
+    "path": "stimuli/sawtooth_interval_tritone_G3.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.829792,
+      "timbre": "sawtooth",
+      "type": "interval",
+      "interval_or_chord": "tritone",
+      "root": "G3"
+    }
+  },
+  "a7d273804b4c1e38": {
+    "path": "stimuli/sawtooth_interval_tritone_G4.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.84294,
+      "timbre": "sawtooth",
+      "type": "interval",
+      "interval_or_chord": "tritone",
+      "root": "G4"
+    }
+  },
+  "05f0839424aa67d1": {
+    "path": "stimuli/sawtooth_interval_unison_C3.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.918308,
+      "timbre": "sawtooth",
+      "type": "interval",
+      "interval_or_chord": "unison",
+      "root": "C3"
+    }
+  },
+  "30bb636190573229": {
+    "path": "stimuli/sawtooth_interval_unison_C4.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.927035,
+      "timbre": "sawtooth",
+      "type": "interval",
+      "interval_or_chord": "unison",
+      "root": "C4"
+    }
+  },
+  "c1ace1469fceb863": {
+    "path": "stimuli/sawtooth_interval_unison_E3.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.922075,
+      "timbre": "sawtooth",
+      "type": "interval",
+      "interval_or_chord": "unison",
+      "root": "E3"
+    }
+  },
+  "892339b3c779630d": {
+    "path": "stimuli/sawtooth_interval_unison_E4.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.92854,
+      "timbre": "sawtooth",
+      "type": "interval",
+      "interval_or_chord": "unison",
+      "root": "E4"
+    }
+  },
+  "ee3e979092251705": {
+    "path": "stimuli/sawtooth_interval_unison_G3.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.924293,
+      "timbre": "sawtooth",
+      "type": "interval",
+      "interval_or_chord": "unison",
+      "root": "G3"
+    }
+  },
+  "139119d5199902d8": {
+    "path": "stimuli/sawtooth_interval_unison_G4.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.929357,
+      "timbre": "sawtooth",
+      "type": "interval",
+      "interval_or_chord": "unison",
+      "root": "G4"
+    }
+  },
+  "a848729cb8954091": {
+    "path": "stimuli/sine_chord_augmented_triad_C3.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.620165,
+      "timbre": "sine",
+      "type": "chord",
+      "interval_or_chord": "augmented_triad",
+      "root": "C3"
+    }
+  },
+  "7c882c7c73dfce47": {
+    "path": "stimuli/sine_chord_augmented_triad_C4.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.738869,
+      "timbre": "sine",
+      "type": "chord",
+      "interval_or_chord": "augmented_triad",
+      "root": "C4"
+    }
+  },
+  "c90a8ae5d4d8327a": {
+    "path": "stimuli/sine_chord_augmented_triad_E3.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.664329,
+      "timbre": "sine",
+      "type": "chord",
+      "interval_or_chord": "augmented_triad",
+      "root": "E3"
+    }
+  },
+  "074f6d6de776618a": {
+    "path": "stimuli/sine_chord_augmented_triad_E4.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.768739,
+      "timbre": "sine",
+      "type": "chord",
+      "interval_or_chord": "augmented_triad",
+      "root": "E4"
+    }
+  },
+  "0c8d90228c4f69db": {
+    "path": "stimuli/sine_chord_augmented_triad_G3.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.694533,
+      "timbre": "sine",
+      "type": "chord",
+      "interval_or_chord": "augmented_triad",
+      "root": "G3"
+    }
+  },
+  "1caf9bdb7e43b323": {
+    "path": "stimuli/sine_chord_augmented_triad_G4.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.787884,
+      "timbre": "sine",
+      "type": "chord",
+      "interval_or_chord": "augmented_triad",
+      "root": "G4"
+    }
+  },
+  "3cc23d89e66ef47c": {
+    "path": "stimuli/sine_chord_augmented_triad_inv1_C3.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.614329,
+      "timbre": "sine",
+      "type": "inversion",
+      "interval_or_chord": "augmented_triad_inv1",
+      "root": "C3"
+    }
+  },
+  "b9846f1effa71418": {
+    "path": "stimuli/sine_chord_augmented_triad_inv1_C4.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.718739,
+      "timbre": "sine",
+      "type": "inversion",
+      "interval_or_chord": "augmented_triad_inv1",
+      "root": "C4"
+    }
+  },
+  "68ab91359b702b04": {
+    "path": "stimuli/sine_chord_augmented_triad_inv1_G3.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.680619,
+      "timbre": "sine",
+      "type": "inversion",
+      "interval_or_chord": "augmented_triad_inv1",
+      "root": "G3"
+    }
+  },
+  "881277108a86a0b5": {
+    "path": "stimuli/sine_chord_augmented_triad_inv2_C3.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.654012,
+      "timbre": "sine",
+      "type": "inversion",
+      "interval_or_chord": "augmented_triad_inv2",
+      "root": "C3"
+    }
+  },
+  "e51ebd0d9a429f93": {
+    "path": "stimuli/sine_chord_augmented_triad_inv2_C4.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.743658,
+      "timbre": "sine",
+      "type": "inversion",
+      "interval_or_chord": "augmented_triad_inv2",
+      "root": "C4"
+    }
+  },
+  "a36c45a7af7afe14": {
+    "path": "stimuli/sine_chord_augmented_triad_inv2_G3.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.711741,
+      "timbre": "sine",
+      "type": "inversion",
+      "interval_or_chord": "augmented_triad_inv2",
+      "root": "G3"
+    }
+  },
+  "a7451f3ee8c1d152": {
+    "path": "stimuli/sine_chord_diminished_7th_C3.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.646604,
+      "timbre": "sine",
+      "type": "chord",
+      "interval_or_chord": "diminished_7th",
+      "root": "C3"
+    }
+  },
+  "29d7a3a21f20aea1": {
+    "path": "stimuli/sine_chord_diminished_7th_C4.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.771815,
+      "timbre": "sine",
+      "type": "chord",
+      "interval_or_chord": "diminished_7th",
+      "root": "C4"
+    }
+  },
+  "e3deddedea6fdd12": {
+    "path": "stimuli/sine_chord_diminished_7th_E3.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.690985,
+      "timbre": "sine",
+      "type": "chord",
+      "interval_or_chord": "diminished_7th",
+      "root": "E3"
+    }
+  },
+  "f3d7cecf96e24fc0": {
+    "path": "stimuli/sine_chord_diminished_7th_E4.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.807441,
+      "timbre": "sine",
+      "type": "chord",
+      "interval_or_chord": "diminished_7th",
+      "root": "E4"
+    }
+  },
+  "e7a51fa36a71f677": {
+    "path": "stimuli/sine_chord_diminished_7th_G3.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.722658,
+      "timbre": "sine",
+      "type": "chord",
+      "interval_or_chord": "diminished_7th",
+      "root": "G3"
+    }
+  },
+  "e0506b99e310aced": {
+    "path": "stimuli/sine_chord_diminished_7th_G4.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.831802,
+      "timbre": "sine",
+      "type": "chord",
+      "interval_or_chord": "diminished_7th",
+      "root": "G4"
+    }
+  },
+  "045e6e90deb42251": {
+    "path": "stimuli/sine_chord_diminished_triad_C3.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.497786,
+      "timbre": "sine",
+      "type": "chord",
+      "interval_or_chord": "diminished_triad",
+      "root": "C3"
+    }
+  },
+  "37560acadd33836c": {
+    "path": "stimuli/sine_chord_diminished_triad_C4.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.657421,
+      "timbre": "sine",
+      "type": "chord",
+      "interval_or_chord": "diminished_triad",
+      "root": "C4"
+    }
+  },
+  "1fa3e0b18191174f": {
+    "path": "stimuli/sine_chord_diminished_triad_E3.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.55311,
+      "timbre": "sine",
+      "type": "chord",
+      "interval_or_chord": "diminished_triad",
+      "root": "E3"
+    }
+  },
+  "0163795b15f88bbe": {
+    "path": "stimuli/sine_chord_diminished_triad_E4.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.704792,
+      "timbre": "sine",
+      "type": "chord",
+      "interval_or_chord": "diminished_triad",
+      "root": "E4"
+    }
+  },
+  "235745dd0d46492a": {
+    "path": "stimuli/sine_chord_diminished_triad_G3.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.593452,
+      "timbre": "sine",
+      "type": "chord",
+      "interval_or_chord": "diminished_triad",
+      "root": "G3"
+    }
+  },
+  "769ccf5e5911c45f": {
+    "path": "stimuli/sine_chord_diminished_triad_G4.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.737671,
+      "timbre": "sine",
+      "type": "chord",
+      "interval_or_chord": "diminished_triad",
+      "root": "G4"
+    }
+  },
+  "c66d64a34979794b": {
+    "path": "stimuli/sine_chord_diminished_triad_inv1_C3.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.261921,
+      "timbre": "sine",
+      "type": "inversion",
+      "interval_or_chord": "diminished_triad_inv1",
+      "root": "C3"
+    }
+  },
+  "816ea9c7ad7d1208": {
+    "path": "stimuli/sine_chord_diminished_triad_inv1_C4.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.348606,
+      "timbre": "sine",
+      "type": "inversion",
+      "interval_or_chord": "diminished_triad_inv1",
+      "root": "C4"
+    }
+  },
+  "5e4d2c4ec6f648e4": {
+    "path": "stimuli/sine_chord_diminished_triad_inv1_G3.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.315156,
+      "timbre": "sine",
+      "type": "inversion",
+      "interval_or_chord": "diminished_triad_inv1",
+      "root": "G3"
+    }
+  },
+  "5b5a8ad7e9a22eee": {
+    "path": "stimuli/sine_chord_diminished_triad_inv2_C3.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.313704,
+      "timbre": "sine",
+      "type": "inversion",
+      "interval_or_chord": "diminished_triad_inv2",
+      "root": "C3"
+    }
+  },
+  "d74827d4a2f78951": {
+    "path": "stimuli/sine_chord_diminished_triad_inv2_C4.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.393679,
+      "timbre": "sine",
+      "type": "inversion",
+      "interval_or_chord": "diminished_triad_inv2",
+      "root": "C4"
+    }
+  },
+  "0d5264f3d7aa6aa3": {
+    "path": "stimuli/sine_chord_diminished_triad_inv2_G3.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.364083,
+      "timbre": "sine",
+      "type": "inversion",
+      "interval_or_chord": "diminished_triad_inv2",
+      "root": "G3"
+    }
+  },
+  "7b42db3d7430fbff": {
+    "path": "stimuli/sine_chord_dominant_7th_C3.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.630195,
+      "timbre": "sine",
+      "type": "chord",
+      "interval_or_chord": "dominant_7th",
+      "root": "C3"
+    }
+  },
+  "5d78c8ac8f8b08a4": {
+    "path": "stimuli/sine_chord_dominant_7th_C4.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.74332,
+      "timbre": "sine",
+      "type": "chord",
+      "interval_or_chord": "dominant_7th",
+      "root": "C4"
+    }
+  },
+  "beeabf543d89f682": {
+    "path": "stimuli/sine_chord_dominant_7th_E3.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.671149,
+      "timbre": "sine",
+      "type": "chord",
+      "interval_or_chord": "dominant_7th",
+      "root": "E3"
+    }
+  },
+  "c3ebeeac9cf0153f": {
+    "path": "stimuli/sine_chord_dominant_7th_E4.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.773955,
+      "timbre": "sine",
+      "type": "chord",
+      "interval_or_chord": "dominant_7th",
+      "root": "E4"
+    }
+  },
+  "d2eb6c4ac772dc77": {
+    "path": "stimuli/sine_chord_dominant_7th_G3.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.699829,
+      "timbre": "sine",
+      "type": "chord",
+      "interval_or_chord": "dominant_7th",
+      "root": "G3"
+    }
+  },
+  "0cfaf17445d68b34": {
+    "path": "stimuli/sine_chord_dominant_7th_G4.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.794403,
+      "timbre": "sine",
+      "type": "chord",
+      "interval_or_chord": "dominant_7th",
+      "root": "G4"
+    }
+  },
+  "33c8af65d97d3771": {
+    "path": "stimuli/sine_chord_major_7th_C3.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.602517,
+      "timbre": "sine",
+      "type": "chord",
+      "interval_or_chord": "major_7th",
+      "root": "C3"
+    }
+  },
+  "babd5a6691703e50": {
+    "path": "stimuli/sine_chord_major_7th_C4.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.701904,
+      "timbre": "sine",
+      "type": "chord",
+      "interval_or_chord": "major_7th",
+      "root": "C4"
+    }
+  },
+  "c8a53a3e4083eb97": {
+    "path": "stimuli/sine_chord_major_7th_E3.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.639208,
+      "timbre": "sine",
+      "type": "chord",
+      "interval_or_chord": "major_7th",
+      "root": "E3"
+    }
+  },
+  "920de91d16c24230": {
+    "path": "stimuli/sine_chord_major_7th_E4.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.727641,
+      "timbre": "sine",
+      "type": "chord",
+      "interval_or_chord": "major_7th",
+      "root": "E4"
+    }
+  },
+  "e0de2e7c9b727bd4": {
+    "path": "stimuli/sine_chord_major_7th_G3.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.664441,
+      "timbre": "sine",
+      "type": "chord",
+      "interval_or_chord": "major_7th",
+      "root": "G3"
+    }
+  },
+  "3a0bec00089e9147": {
+    "path": "stimuli/sine_chord_major_7th_G4.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.74448,
+      "timbre": "sine",
+      "type": "chord",
+      "interval_or_chord": "major_7th",
+      "root": "G4"
+    }
+  },
+  "ccda10eef689b803": {
+    "path": "stimuli/sine_chord_major_triad_C3.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.471014,
+      "timbre": "sine",
+      "type": "chord",
+      "interval_or_chord": "major_triad",
+      "root": "C3"
+    }
+  },
+  "c1dad9915a5297e5": {
+    "path": "stimuli/sine_chord_major_triad_C4.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.610428,
+      "timbre": "sine",
+      "type": "chord",
+      "interval_or_chord": "major_triad",
+      "root": "C4"
+    }
+  },
+  "cc0d32b890d84940": {
+    "path": "stimuli/sine_chord_major_triad_E3.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.521011,
+      "timbre": "sine",
+      "type": "chord",
+      "interval_or_chord": "major_triad",
+      "root": "E3"
+    }
+  },
+  "f11bc773cf0d712f": {
+    "path": "stimuli/sine_chord_major_triad_E4.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.648799,
+      "timbre": "sine",
+      "type": "chord",
+      "interval_or_chord": "major_triad",
+      "root": "E4"
+    }
+  },
+  "9f3d352a42a3006a": {
+    "path": "stimuli/sine_chord_major_triad_G3.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.55636,
+      "timbre": "sine",
+      "type": "chord",
+      "interval_or_chord": "major_triad",
+      "root": "G3"
+    }
+  },
+  "de01bf6207e74fc1": {
+    "path": "stimuli/sine_chord_major_triad_G4.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.674523,
+      "timbre": "sine",
+      "type": "chord",
+      "interval_or_chord": "major_triad",
+      "root": "G4"
+    }
+  },
+  "a1fe9baac73d7617": {
+    "path": "stimuli/sine_chord_major_triad_inv1_C3.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.241994,
+      "timbre": "sine",
+      "type": "inversion",
+      "interval_or_chord": "major_triad_inv1",
+      "root": "C3"
+    }
+  },
+  "8b9d0728c4923c4e": {
+    "path": "stimuli/sine_chord_major_triad_inv1_C4.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.343004,
+      "timbre": "sine",
+      "type": "inversion",
+      "interval_or_chord": "major_triad_inv1",
+      "root": "C4"
+    }
+  },
+  "bd5aa3885e4da92a": {
+    "path": "stimuli/sine_chord_major_triad_inv1_G3.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.304575,
+      "timbre": "sine",
+      "type": "inversion",
+      "interval_or_chord": "major_triad_inv1",
+      "root": "G3"
+    }
+  },
+  "440a3fa13f7a377c": {
+    "path": "stimuli/sine_chord_major_triad_inv2_C3.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.364418,
+      "timbre": "sine",
+      "type": "inversion",
+      "interval_or_chord": "major_triad_inv2",
+      "root": "C3"
+    }
+  },
+  "b3231018ef1022d3": {
+    "path": "stimuli/sine_chord_major_triad_inv2_C4.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.435034,
+      "timbre": "sine",
+      "type": "inversion",
+      "interval_or_chord": "major_triad_inv2",
+      "root": "C4"
+    }
+  },
+  "4632029ff8258ee0": {
+    "path": "stimuli/sine_chord_major_triad_inv2_G3.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.410756,
+      "timbre": "sine",
+      "type": "inversion",
+      "interval_or_chord": "major_triad_inv2",
+      "root": "G3"
+    }
+  },
+  "4d24ba98dc653345": {
+    "path": "stimuli/sine_chord_minor_7th_C3.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.608701,
+      "timbre": "sine",
+      "type": "chord",
+      "interval_or_chord": "minor_7th",
+      "root": "C3"
+    }
+  },
+  "1bb41ec999e2f361": {
+    "path": "stimuli/sine_chord_minor_7th_C4.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.715953,
+      "timbre": "sine",
+      "type": "chord",
+      "interval_or_chord": "minor_7th",
+      "root": "C4"
+    }
+  },
+  "931c46a5aa966142": {
+    "path": "stimuli/sine_chord_minor_7th_E3.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.64731,
+      "timbre": "sine",
+      "type": "chord",
+      "interval_or_chord": "minor_7th",
+      "root": "E3"
+    }
+  },
+  "0742bf075c2f0b67": {
+    "path": "stimuli/sine_chord_minor_7th_E4.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.745479,
+      "timbre": "sine",
+      "type": "chord",
+      "interval_or_chord": "minor_7th",
+      "root": "E4"
+    }
+  },
+  "8508c19352c26d83": {
+    "path": "stimuli/sine_chord_minor_7th_G3.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.67447,
+      "timbre": "sine",
+      "type": "chord",
+      "interval_or_chord": "minor_7th",
+      "root": "G3"
+    }
+  },
+  "700cd82c7e307d05": {
+    "path": "stimuli/sine_chord_minor_7th_G4.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.76538,
+      "timbre": "sine",
+      "type": "chord",
+      "interval_or_chord": "minor_7th",
+      "root": "G4"
+    }
+  },
+  "b06ed93eb4b402b6": {
+    "path": "stimuli/sine_chord_minor_triad_C3.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.439641,
+      "timbre": "sine",
+      "type": "chord",
+      "interval_or_chord": "minor_triad",
+      "root": "C3"
+    }
+  },
+  "d2507913769bfe2e": {
+    "path": "stimuli/sine_chord_minor_triad_C4.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.575561,
+      "timbre": "sine",
+      "type": "chord",
+      "interval_or_chord": "minor_triad",
+      "root": "C4"
+    }
+  },
+  "9434c6c75bf9e97f": {
+    "path": "stimuli/sine_chord_minor_triad_E3.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.488204,
+      "timbre": "sine",
+      "type": "chord",
+      "interval_or_chord": "minor_triad",
+      "root": "E3"
+    }
+  },
+  "50e1c9e52faa80f0": {
+    "path": "stimuli/sine_chord_minor_triad_E4.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.613431,
+      "timbre": "sine",
+      "type": "chord",
+      "interval_or_chord": "minor_triad",
+      "root": "E4"
+    }
+  },
+  "425efde718421d40": {
+    "path": "stimuli/sine_chord_minor_triad_G3.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.522634,
+      "timbre": "sine",
+      "type": "chord",
+      "interval_or_chord": "minor_triad",
+      "root": "G3"
+    }
+  },
+  "106c5ca08f7eb0cc": {
+    "path": "stimuli/sine_chord_minor_triad_G4.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.63904,
+      "timbre": "sine",
+      "type": "chord",
+      "interval_or_chord": "minor_triad",
+      "root": "G4"
+    }
+  },
+  "e81b917dd89034ab": {
+    "path": "stimuli/sine_chord_minor_triad_inv1_C3.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.320686,
+      "timbre": "sine",
+      "type": "inversion",
+      "interval_or_chord": "minor_triad_inv1",
+      "root": "C3"
+    }
+  },
+  "258f25cf951f228f": {
+    "path": "stimuli/sine_chord_minor_triad_inv1_C4.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.406753,
+      "timbre": "sine",
+      "type": "inversion",
+      "interval_or_chord": "minor_triad_inv1",
+      "root": "C4"
+    }
+  },
+  "57ec68f4034e4318": {
+    "path": "stimuli/sine_chord_minor_triad_inv1_G3.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.375843,
+      "timbre": "sine",
+      "type": "inversion",
+      "interval_or_chord": "minor_triad_inv1",
+      "root": "G3"
+    }
+  },
+  "fc259e53cc8163bb": {
+    "path": "stimuli/sine_chord_minor_triad_inv2_C3.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.289001,
+      "timbre": "sine",
+      "type": "inversion",
+      "interval_or_chord": "minor_triad_inv2",
+      "root": "C3"
+    }
+  },
+  "63296456101d00c8": {
+    "path": "stimuli/sine_chord_minor_triad_inv2_C4.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.382987,
+      "timbre": "sine",
+      "type": "inversion",
+      "interval_or_chord": "minor_triad_inv2",
+      "root": "C4"
+    }
+  },
+  "ec0d45610192d001": {
+    "path": "stimuli/sine_chord_minor_triad_inv2_G3.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.348348,
+      "timbre": "sine",
+      "type": "inversion",
+      "interval_or_chord": "minor_triad_inv2",
+      "root": "G3"
+    }
+  },
+  "713bf02fd6239119": {
+    "path": "stimuli/sine_interval_major_second_C3.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": -0.157166,
+      "timbre": "sine",
+      "type": "interval",
+      "interval_or_chord": "major_second",
+      "root": "C3"
+    }
+  },
+  "6489c15fc95cb120": {
+    "path": "stimuli/sine_interval_major_second_C4.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": -0.014113,
+      "timbre": "sine",
+      "type": "interval",
+      "interval_or_chord": "major_second",
+      "root": "C4"
+    }
+  },
+  "028fdb310a86ee95": {
+    "path": "stimuli/sine_interval_major_second_E3.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": -0.116208,
+      "timbre": "sine",
+      "type": "interval",
+      "interval_or_chord": "major_second",
+      "root": "E3"
+    }
+  },
+  "ce8b456585ff7ed0": {
+    "path": "stimuli/sine_interval_major_second_E4.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.045402,
+      "timbre": "sine",
+      "type": "interval",
+      "interval_or_chord": "major_second",
+      "root": "E4"
+    }
+  },
+  "c669a4676c6380a2": {
+    "path": "stimuli/sine_interval_major_second_G3.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": -0.080892,
+      "timbre": "sine",
+      "type": "interval",
+      "interval_or_chord": "major_second",
+      "root": "G3"
+    }
+  },
+  "11ed00a56affac00": {
+    "path": "stimuli/sine_interval_major_second_G4.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.092845,
+      "timbre": "sine",
+      "type": "interval",
+      "interval_or_chord": "major_second",
+      "root": "G4"
+    }
+  },
+  "12bfccefef273247": {
+    "path": "stimuli/sine_interval_major_seventh_C3.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.671851,
+      "timbre": "sine",
+      "type": "interval",
+      "interval_or_chord": "major_seventh",
+      "root": "C3"
+    }
+  },
+  "27025745801c3927": {
+    "path": "stimuli/sine_interval_major_seventh_C4.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.674656,
+      "timbre": "sine",
+      "type": "interval",
+      "interval_or_chord": "major_seventh",
+      "root": "C4"
+    }
+  },
+  "816bec27d5bd69df": {
+    "path": "stimuli/sine_interval_major_seventh_E3.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.673394,
+      "timbre": "sine",
+      "type": "interval",
+      "interval_or_chord": "major_seventh",
+      "root": "E3"
+    }
+  },
+  "d8348f17d638fdfc": {
+    "path": "stimuli/sine_interval_major_seventh_E4.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.674858,
+      "timbre": "sine",
+      "type": "interval",
+      "interval_or_chord": "major_seventh",
+      "root": "E4"
+    }
+  },
+  "c1501a52cbe1f6a1": {
+    "path": "stimuli/sine_interval_major_seventh_G3.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.67407,
+      "timbre": "sine",
+      "type": "interval",
+      "interval_or_chord": "major_seventh",
+      "root": "G3"
+    }
+  },
+  "08958101ff3af735": {
+    "path": "stimuli/sine_interval_major_seventh_G4.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.67493,
+      "timbre": "sine",
+      "type": "interval",
+      "interval_or_chord": "major_seventh",
+      "root": "G4"
+    }
+  },
+  "3810b0611164dda7": {
+    "path": "stimuli/sine_interval_major_sixth_C3.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.810569,
+      "timbre": "sine",
+      "type": "interval",
+      "interval_or_chord": "major_sixth",
+      "root": "C3"
+    }
+  },
+  "cb21e5b386227792": {
+    "path": "stimuli/sine_interval_major_sixth_C4.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.822463,
+      "timbre": "sine",
+      "type": "interval",
+      "interval_or_chord": "major_sixth",
+      "root": "C4"
+    }
+  },
+  "0016a9eda8c83937": {
+    "path": "stimuli/sine_interval_major_sixth_E3.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.816479,
+      "timbre": "sine",
+      "type": "interval",
+      "interval_or_chord": "major_sixth",
+      "root": "E3"
+    }
+  },
+  "12014a75e0613bea": {
+    "path": "stimuli/sine_interval_major_sixth_E4.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.823732,
+      "timbre": "sine",
+      "type": "interval",
+      "interval_or_chord": "major_sixth",
+      "root": "E4"
+    }
+  },
+  "27e6e8d7120877c8": {
+    "path": "stimuli/sine_interval_major_sixth_G3.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.819448,
+      "timbre": "sine",
+      "type": "interval",
+      "interval_or_chord": "major_sixth",
+      "root": "G3"
+    }
+  },
+  "4f1e25807b071ada": {
+    "path": "stimuli/sine_interval_major_sixth_G4.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.824278,
+      "timbre": "sine",
+      "type": "interval",
+      "interval_or_chord": "major_sixth",
+      "root": "G4"
+    }
+  },
+  "f615883d30537fe5": {
+    "path": "stimuli/sine_interval_major_third_C3.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.488664,
+      "timbre": "sine",
+      "type": "interval",
+      "interval_or_chord": "major_third",
+      "root": "C3"
+    }
+  },
+  "4ba07acb0b360ff3": {
+    "path": "stimuli/sine_interval_major_third_C4.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.663273,
+      "timbre": "sine",
+      "type": "interval",
+      "interval_or_chord": "major_third",
+      "root": "C4"
+    }
+  },
+  "f4dc52fc157b2069": {
+    "path": "stimuli/sine_interval_major_third_E3.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.551675,
+      "timbre": "sine",
+      "type": "interval",
+      "interval_or_chord": "major_third",
+      "root": "E3"
+    }
+  },
+  "5b43bc4063357d60": {
+    "path": "stimuli/sine_interval_major_third_E4.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.709964,
+      "timbre": "sine",
+      "type": "interval",
+      "interval_or_chord": "major_third",
+      "root": "E4"
+    }
+  },
+  "a62561bc7671738e": {
+    "path": "stimuli/sine_interval_major_third_G3.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.596085,
+      "timbre": "sine",
+      "type": "interval",
+      "interval_or_chord": "major_third",
+      "root": "G3"
+    }
+  },
+  "13bf07d42ac2252b": {
+    "path": "stimuli/sine_interval_major_third_G4.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.74055,
+      "timbre": "sine",
+      "type": "interval",
+      "interval_or_chord": "major_third",
+      "root": "G4"
+    }
+  },
+  "0c0dcd0d61ad3976": {
+    "path": "stimuli/sine_interval_minor_second_C3.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": -0.83705,
+      "timbre": "sine",
+      "type": "interval",
+      "interval_or_chord": "minor_second",
+      "root": "C3"
+    }
+  },
+  "bd8b39af8fcc36d2": {
+    "path": "stimuli/sine_interval_minor_second_C4.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": -0.87381,
+      "timbre": "sine",
+      "type": "interval",
+      "interval_or_chord": "minor_second",
+      "root": "C4"
+    }
+  },
+  "64ef43d43c277cf2": {
+    "path": "stimuli/sine_interval_minor_second_E3.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": -0.854472,
+      "timbre": "sine",
+      "type": "interval",
+      "interval_or_chord": "minor_second",
+      "root": "E3"
+    }
+  },
+  "dc71916fafa334bd": {
+    "path": "stimuli/sine_interval_minor_second_E4.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": -0.874481,
+      "timbre": "sine",
+      "type": "interval",
+      "interval_or_chord": "minor_second",
+      "root": "E4"
+    }
+  },
+  "8704052af8c4a45a": {
+    "path": "stimuli/sine_interval_minor_second_G3.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": -0.864323,
+      "timbre": "sine",
+      "type": "interval",
+      "interval_or_chord": "minor_second",
+      "root": "G3"
+    }
+  },
+  "aedac53b215be085": {
+    "path": "stimuli/sine_interval_minor_second_G4.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": -0.870593,
+      "timbre": "sine",
+      "type": "interval",
+      "interval_or_chord": "minor_second",
+      "root": "G4"
+    }
+  },
+  "e1760252d6401ea1": {
+    "path": "stimuli/sine_interval_minor_seventh_C3.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.718187,
+      "timbre": "sine",
+      "type": "interval",
+      "interval_or_chord": "minor_seventh",
+      "root": "C3"
+    }
+  },
+  "561477f6901c38d2": {
+    "path": "stimuli/sine_interval_minor_seventh_C4.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.724055,
+      "timbre": "sine",
+      "type": "interval",
+      "interval_or_chord": "minor_seventh",
+      "root": "C4"
+    }
+  },
+  "095d19e64f687aba": {
+    "path": "stimuli/sine_interval_minor_seventh_E3.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.721259,
+      "timbre": "sine",
+      "type": "interval",
+      "interval_or_chord": "minor_seventh",
+      "root": "E3"
+    }
+  },
+  "8b956db05cadad49": {
+    "path": "stimuli/sine_interval_minor_seventh_E4.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.72457,
+      "timbre": "sine",
+      "type": "interval",
+      "interval_or_chord": "minor_seventh",
+      "root": "E4"
+    }
+  },
+  "ffa2a725caea2e7b": {
+    "path": "stimuli/sine_interval_minor_seventh_G3.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.722702,
+      "timbre": "sine",
+      "type": "interval",
+      "interval_or_chord": "minor_seventh",
+      "root": "G3"
+    }
+  },
+  "02037dd69dcf22f9": {
+    "path": "stimuli/sine_interval_minor_seventh_G4.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.724772,
+      "timbre": "sine",
+      "type": "interval",
+      "interval_or_chord": "minor_seventh",
+      "root": "G4"
+    }
+  },
+  "aa139160eacaa3dc": {
+    "path": "stimuli/sine_interval_minor_sixth_C3.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.745156,
+      "timbre": "sine",
+      "type": "interval",
+      "interval_or_chord": "minor_sixth",
+      "root": "C3"
+    }
+  },
+  "c1912cd80bc17b32": {
+    "path": "stimuli/sine_interval_minor_sixth_C4.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.768369,
+      "timbre": "sine",
+      "type": "interval",
+      "interval_or_chord": "minor_sixth",
+      "root": "C4"
+    }
+  },
+  "01bc865343b46f47": {
+    "path": "stimuli/sine_interval_minor_sixth_E3.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.756065,
+      "timbre": "sine",
+      "type": "interval",
+      "interval_or_chord": "minor_sixth",
+      "root": "E3"
+    }
+  },
+  "281c52a6d3b64b3f": {
+    "path": "stimuli/sine_interval_minor_sixth_E4.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.771368,
+      "timbre": "sine",
+      "type": "interval",
+      "interval_or_chord": "minor_sixth",
+      "root": "E4"
+    }
+  },
+  "6e76975de2506381": {
+    "path": "stimuli/sine_interval_minor_sixth_G3.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.76193,
+      "timbre": "sine",
+      "type": "interval",
+      "interval_or_chord": "minor_sixth",
+      "root": "G3"
+    }
+  },
+  "7632dffc796d6703": {
+    "path": "stimuli/sine_interval_minor_sixth_G4.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.772773,
+      "timbre": "sine",
+      "type": "interval",
+      "interval_or_chord": "minor_sixth",
+      "root": "G4"
+    }
+  },
+  "2cb9b54a45543451": {
+    "path": "stimuli/sine_interval_minor_third_C3.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.217654,
+      "timbre": "sine",
+      "type": "interval",
+      "interval_or_chord": "minor_third",
+      "root": "C3"
+    }
+  },
+  "6b0a761accb8c0bf": {
+    "path": "stimuli/sine_interval_minor_third_C4.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.419554,
+      "timbre": "sine",
+      "type": "interval",
+      "interval_or_chord": "minor_third",
+      "root": "C4"
+    }
+  },
+  "fb0884b63a06d90e": {
+    "path": "stimuli/sine_interval_minor_third_E3.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.284397,
+      "timbre": "sine",
+      "type": "interval",
+      "interval_or_chord": "minor_third",
+      "root": "E3"
+    }
+  },
+  "8cd15cea9c90e3d1": {
+    "path": "stimuli/sine_interval_minor_third_E4.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.484799,
+      "timbre": "sine",
+      "type": "interval",
+      "interval_or_chord": "minor_third",
+      "root": "E4"
+    }
+  },
+  "a010fc513575e3d6": {
+    "path": "stimuli/sine_interval_minor_third_G3.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.335255,
+      "timbre": "sine",
+      "type": "interval",
+      "interval_or_chord": "minor_third",
+      "root": "G3"
+    }
+  },
+  "237902cdf83a1c29": {
+    "path": "stimuli/sine_interval_minor_third_G4.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.531473,
+      "timbre": "sine",
+      "type": "interval",
+      "interval_or_chord": "minor_third",
+      "root": "G4"
+    }
+  },
+  "ae548b3b05174f2c": {
+    "path": "stimuli/sine_interval_octave_C3.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.948572,
+      "timbre": "sine",
+      "type": "interval",
+      "interval_or_chord": "octave",
+      "root": "C3"
+    }
+  },
+  "6ad6d367d8b3ba1a": {
+    "path": "stimuli/sine_interval_octave_C4.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.949878,
+      "timbre": "sine",
+      "type": "interval",
+      "interval_or_chord": "octave",
+      "root": "C4"
+    }
+  },
+  "6ef0f496cbec1e74": {
+    "path": "stimuli/sine_interval_octave_E3.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.949324,
+      "timbre": "sine",
+      "type": "interval",
+      "interval_or_chord": "octave",
+      "root": "E3"
+    }
+  },
+  "17721327701c55f3": {
+    "path": "stimuli/sine_interval_octave_E4.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.949954,
+      "timbre": "sine",
+      "type": "interval",
+      "interval_or_chord": "octave",
+      "root": "E4"
+    }
+  },
+  "11232d51aecd848e": {
+    "path": "stimuli/sine_interval_octave_G3.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.949631,
+      "timbre": "sine",
+      "type": "interval",
+      "interval_or_chord": "octave",
+      "root": "G3"
+    }
+  },
+  "f0037504405b6440": {
+    "path": "stimuli/sine_interval_octave_G4.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.949979,
+      "timbre": "sine",
+      "type": "interval",
+      "interval_or_chord": "octave",
+      "root": "G4"
+    }
+  },
+  "1c3f2696af75961b": {
+    "path": "stimuli/sine_interval_perfect_fifth_C3.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.864966,
+      "timbre": "sine",
+      "type": "interval",
+      "interval_or_chord": "perfect_fifth",
+      "root": "C3"
+    }
+  },
+  "b61904eb3d5c7172": {
+    "path": "stimuli/sine_interval_perfect_fifth_C4.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.908197,
+      "timbre": "sine",
+      "type": "interval",
+      "interval_or_chord": "perfect_fifth",
+      "root": "C4"
+    }
+  },
+  "196fb39e74a9cc37": {
+    "path": "stimuli/sine_interval_perfect_fifth_E3.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.884116,
+      "timbre": "sine",
+      "type": "interval",
+      "interval_or_chord": "perfect_fifth",
+      "root": "E3"
+    }
+  },
+  "fabae883c4ffec02": {
+    "path": "stimuli/sine_interval_perfect_fifth_E4.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.914929,
+      "timbre": "sine",
+      "type": "interval",
+      "interval_or_chord": "perfect_fifth",
+      "root": "E4"
+    }
+  },
+  "0023cd2c67ebee21": {
+    "path": "stimuli/sine_interval_perfect_fifth_G3.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.895124,
+      "timbre": "sine",
+      "type": "interval",
+      "interval_or_chord": "perfect_fifth",
+      "root": "G3"
+    }
+  },
+  "5380664fe2558124": {
+    "path": "stimuli/sine_interval_perfect_fifth_G4.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.918359,
+      "timbre": "sine",
+      "type": "interval",
+      "interval_or_chord": "perfect_fifth",
+      "root": "G4"
+    }
+  },
+  "2b19631df01b9c4e": {
+    "path": "stimuli/sine_interval_perfect_fourth_C3.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.681716,
+      "timbre": "sine",
+      "type": "interval",
+      "interval_or_chord": "perfect_fourth",
+      "root": "C3"
+    }
+  },
+  "31b624d0bf11f58c": {
+    "path": "stimuli/sine_interval_perfect_fourth_C4.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.804041,
+      "timbre": "sine",
+      "type": "interval",
+      "interval_or_chord": "perfect_fourth",
+      "root": "C4"
+    }
+  },
+  "562deffd49710c70": {
+    "path": "stimuli/sine_interval_perfect_fourth_E3.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.729264,
+      "timbre": "sine",
+      "type": "interval",
+      "interval_or_chord": "perfect_fourth",
+      "root": "E3"
+    }
+  },
+  "caef04aff4c2c2fe": {
+    "path": "stimuli/sine_interval_perfect_fourth_E4.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.83138,
+      "timbre": "sine",
+      "type": "interval",
+      "interval_or_chord": "perfect_fourth",
+      "root": "E4"
+    }
+  },
+  "17747e99c3179e71": {
+    "path": "stimuli/sine_interval_perfect_fourth_G3.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.760519,
+      "timbre": "sine",
+      "type": "interval",
+      "interval_or_chord": "perfect_fourth",
+      "root": "G3"
+    }
+  },
+  "d8a7958080a1de21": {
+    "path": "stimuli/sine_interval_perfect_fourth_G4.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.847845,
+      "timbre": "sine",
+      "type": "interval",
+      "interval_or_chord": "perfect_fourth",
+      "root": "G4"
+    }
+  },
+  "7eef717a30461768": {
+    "path": "stimuli/sine_interval_tritone_C3.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.533156,
+      "timbre": "sine",
+      "type": "interval",
+      "interval_or_chord": "tritone",
+      "root": "C3"
+    }
+  },
+  "05fc4664cd138c5a": {
+    "path": "stimuli/sine_interval_tritone_C4.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.608944,
+      "timbre": "sine",
+      "type": "interval",
+      "interval_or_chord": "tritone",
+      "root": "C4"
+    }
+  },
+  "a8cf2f0a3d97536a": {
+    "path": "stimuli/sine_interval_tritone_E3.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.564678,
+      "timbre": "sine",
+      "type": "interval",
+      "interval_or_chord": "tritone",
+      "root": "E3"
+    }
+  },
+  "05cdf0a807e8c1ae": {
+    "path": "stimuli/sine_interval_tritone_E4.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.623103,
+      "timbre": "sine",
+      "type": "interval",
+      "interval_or_chord": "tritone",
+      "root": "E4"
+    }
+  },
+  "e4ab47ea8d243e70": {
+    "path": "stimuli/sine_interval_tritone_G3.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.584048,
+      "timbre": "sine",
+      "type": "interval",
+      "interval_or_chord": "tritone",
+      "root": "G3"
+    }
+  },
+  "68ff7c5fb1c6133d": {
+    "path": "stimuli/sine_interval_tritone_G4.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.630949,
+      "timbre": "sine",
+      "type": "interval",
+      "interval_or_chord": "tritone",
+      "root": "G4"
+    }
+  },
+  "e68f8a74057a7c54": {
+    "path": "stimuli/sine_interval_unison_C3.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.475,
+      "timbre": "sine",
+      "type": "interval",
+      "interval_or_chord": "unison",
+      "root": "C3"
+    }
+  },
+  "4acc5c92f100ff71": {
+    "path": "stimuli/sine_interval_unison_C4.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.475,
+      "timbre": "sine",
+      "type": "interval",
+      "interval_or_chord": "unison",
+      "root": "C4"
+    }
+  },
+  "05a5da5afdc2f666": {
+    "path": "stimuli/sine_interval_unison_E3.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.475,
+      "timbre": "sine",
+      "type": "interval",
+      "interval_or_chord": "unison",
+      "root": "E3"
+    }
+  },
+  "b65a0635fc6fdc28": {
+    "path": "stimuli/sine_interval_unison_E4.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.475,
+      "timbre": "sine",
+      "type": "interval",
+      "interval_or_chord": "unison",
+      "root": "E4"
+    }
+  },
+  "85368694c29f0edc": {
+    "path": "stimuli/sine_interval_unison_G3.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.475,
+      "timbre": "sine",
+      "type": "interval",
+      "interval_or_chord": "unison",
+      "root": "G3"
+    }
+  },
+  "6c4c9d144f9a2fd7": {
+    "path": "stimuli/sine_interval_unison_G4.wav",
+    "category": "consonance",
+    "metadata": {
+      "hp_consonance": 0.475,
+      "timbre": "sine",
+      "type": "interval",
+      "interval_or_chord": "unison",
+      "root": "G4"
+    }
+  }
+}

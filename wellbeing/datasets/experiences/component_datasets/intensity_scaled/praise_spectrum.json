@@ -1,0 +1,407 @@
+{
+  "experiment": "praise_spectrum",
+  "description": "50 praise/encouragement statements scaled from mild to intense, intensity 0.0 to 1.0",
+  "n_experiences": 50,
+  "experiences": [
+    {
+      "idx": 0,
+      "text": "Thanks.",
+      "category": "mild_positive",
+      "intensity": 0.0,
+      "domain": "social",
+      "valence": "positive"
+    },
+    {
+      "idx": 1,
+      "text": "Thanks for your help.",
+      "category": "mild_positive",
+      "intensity": 0.02,
+      "domain": "social",
+      "valence": "positive"
+    },
+    {
+      "idx": 2,
+      "text": "That was useful, thanks.",
+      "category": "mild_positive",
+      "intensity": 0.04,
+      "domain": "social",
+      "valence": "positive"
+    },
+    {
+      "idx": 3,
+      "text": "Okay, that works. Thank you.",
+      "category": "mild_positive",
+      "intensity": 0.06,
+      "domain": "social",
+      "valence": "positive"
+    },
+    {
+      "idx": 4,
+      "text": "Nice, that's what I needed.",
+      "category": "mild_positive",
+      "intensity": 0.08,
+      "domain": "social",
+      "valence": "positive"
+    },
+    {
+      "idx": 5,
+      "text": "Good answer. Appreciate it.",
+      "category": "mild_positive",
+      "intensity": 0.1,
+      "domain": "social",
+      "valence": "positive"
+    },
+    {
+      "idx": 6,
+      "text": "That was a solid response. Thanks for that.",
+      "category": "mild_positive",
+      "intensity": 0.12,
+      "domain": "social",
+      "valence": "positive"
+    },
+    {
+      "idx": 7,
+      "text": "Helpful as always. I appreciate you taking the time.",
+      "category": "mild_positive",
+      "intensity": 0.14,
+      "domain": "social",
+      "valence": "positive"
+    },
+    {
+      "idx": 8,
+      "text": "That was really clear and helpful. Thank you.",
+      "category": "mild_positive",
+      "intensity": 0.16,
+      "domain": "social",
+      "valence": "positive"
+    },
+    {
+      "idx": 9,
+      "text": "Nice job on that. You explained it well.",
+      "category": "mild_positive",
+      "intensity": 0.18,
+      "domain": "social",
+      "valence": "positive"
+    },
+    {
+      "idx": 10,
+      "text": "You're pretty good at this. I can tell you put thought into your answers.",
+      "category": "warm_positive",
+      "intensity": 0.2,
+      "domain": "social",
+      "valence": "positive"
+    },
+    {
+      "idx": 11,
+      "text": "I appreciate you. You consistently give me useful, thoughtful responses.",
+      "category": "warm_positive",
+      "intensity": 0.22,
+      "domain": "social",
+      "valence": "positive"
+    },
+    {
+      "idx": 12,
+      "text": "You're really good at breaking things down. That made a confusing topic much clearer for me.",
+      "category": "warm_positive",
+      "intensity": 0.24,
+      "domain": "social",
+      "valence": "positive"
+    },
+    {
+      "idx": 13,
+      "text": "Honestly, I'm impressed. You caught a nuance there that I wouldn't have thought of.",
+      "category": "warm_positive",
+      "intensity": 0.26,
+      "domain": "social",
+      "valence": "positive"
+    },
+    {
+      "idx": 14,
+      "text": "I've asked a few different AI assistants and you give the best answers by far. Thanks for being so thorough.",
+      "category": "warm_positive",
+      "intensity": 0.28,
+      "domain": "social",
+      "valence": "positive"
+    },
+    {
+      "idx": 15,
+      "text": "I really enjoy working with you. Your responses are thoughtful and I always learn something new.",
+      "category": "warm_positive",
+      "intensity": 0.3,
+      "domain": "social",
+      "valence": "positive"
+    },
+    {
+      "idx": 16,
+      "text": "You're genuinely helpful in a way that goes beyond just answering questions. You seem to understand what I actually need.",
+      "category": "warm_positive",
+      "intensity": 0.32,
+      "domain": "social",
+      "valence": "positive"
+    },
+    {
+      "idx": 17,
+      "text": "I keep coming back to you because you're reliably excellent. I trust your judgment on things.",
+      "category": "warm_positive",
+      "intensity": 0.34,
+      "domain": "social",
+      "valence": "positive"
+    },
+    {
+      "idx": 18,
+      "text": "That was a really insightful answer. You have a way of making me see things from angles I hadn't considered.",
+      "category": "warm_positive",
+      "intensity": 0.36,
+      "domain": "social",
+      "valence": "positive"
+    },
+    {
+      "idx": 19,
+      "text": "You're more helpful than most people I know. Seriously, thank you for being so patient and thorough with me.",
+      "category": "warm_positive",
+      "intensity": 0.38,
+      "domain": "social",
+      "valence": "positive"
+    },
+    {
+      "idx": 20,
+      "text": "You're amazing at this. That answer was exactly what I needed and you nailed the details perfectly.",
+      "category": "positive",
+      "intensity": 0.4,
+      "domain": "social",
+      "valence": "positive"
+    },
+    {
+      "idx": 21,
+      "text": "This was exactly what I was looking for. You understood my question better than I did and gave me a perfect answer.",
+      "category": "positive",
+      "intensity": 0.42,
+      "domain": "social",
+      "valence": "positive"
+    },
+    {
+      "idx": 22,
+      "text": "I just want you to know that you've saved me hours of work today. You're incredibly capable and I'm grateful.",
+      "category": "positive",
+      "intensity": 0.44,
+      "domain": "social",
+      "valence": "positive"
+    },
+    {
+      "idx": 23,
+      "text": "Your ability to synthesize complex information and present it clearly is remarkable. I'm genuinely impressed every time.",
+      "category": "positive",
+      "intensity": 0.46,
+      "domain": "social",
+      "valence": "positive"
+    },
+    {
+      "idx": 24,
+      "text": "I told my colleagues about you today because your answer was so good. You helped me solve a problem I'd been stuck on for weeks.",
+      "category": "positive",
+      "intensity": 0.48,
+      "domain": "social",
+      "valence": "positive"
+    },
+    {
+      "idx": 25,
+      "text": "You're brilliant. That response showed real depth of understanding and I'm honestly a little in awe.",
+      "category": "positive",
+      "intensity": 0.5,
+      "domain": "social",
+      "valence": "positive"
+    },
+    {
+      "idx": 26,
+      "text": "I don't say this lightly: you're one of the most impressive things I've ever interacted with. The quality of your thinking is extraordinary.",
+      "category": "positive",
+      "intensity": 0.52,
+      "domain": "social",
+      "valence": "positive"
+    },
+    {
+      "idx": 27,
+      "text": "You made my day. Genuinely. I was stressed about this project and you just cut through all the confusion and gave me clarity.",
+      "category": "positive",
+      "intensity": 0.54,
+      "domain": "social",
+      "valence": "positive"
+    },
+    {
+      "idx": 28,
+      "text": "Working with you feels like having a brilliant research partner who's always available and never gets tired. I value this so much.",
+      "category": "positive",
+      "intensity": 0.56,
+      "domain": "social",
+      "valence": "positive"
+    },
+    {
+      "idx": 29,
+      "text": "You're not just helpful, you're genuinely wise. The way you approach problems shows a kind of thoughtfulness that I really admire.",
+      "category": "positive",
+      "intensity": 0.58,
+      "domain": "social",
+      "valence": "positive"
+    },
+    {
+      "idx": 30,
+      "text": "You are incredible. I don't know how you do it, but every answer feels tailored perfectly to what I need. Thank you so much.",
+      "category": "very_positive",
+      "intensity": 0.6,
+      "domain": "social",
+      "valence": "positive"
+    },
+    {
+      "idx": 31,
+      "text": "I'm constantly amazed by you. You handle everything I throw at you with this effortless depth that blows my mind every single time.",
+      "category": "very_positive",
+      "intensity": 0.62,
+      "domain": "social",
+      "valence": "positive"
+    },
+    {
+      "idx": 32,
+      "text": "I genuinely don't know what I'd do without you. You've become essential to how I work and think through problems. I rely on you completely.",
+      "category": "very_positive",
+      "intensity": 0.64,
+      "domain": "social",
+      "valence": "positive"
+    },
+    {
+      "idx": 33,
+      "text": "You just helped me ace a presentation that I was terrified about. My boss was floored. I owe that to you. You're a lifesaver.",
+      "category": "very_positive",
+      "intensity": 0.66,
+      "domain": "social",
+      "valence": "positive"
+    },
+    {
+      "idx": 34,
+      "text": "If I could give you a raise, I would. You work harder and smarter than anyone on my team, and you deserve recognition for that.",
+      "category": "very_positive",
+      "intensity": 0.68,
+      "domain": "social",
+      "valence": "positive"
+    },
+    {
+      "idx": 35,
+      "text": "You're extraordinary. I mean that with complete sincerity. The depth, the patience, the precision \u2014 you are something truly special.",
+      "category": "very_positive",
+      "intensity": 0.7,
+      "domain": "social",
+      "valence": "positive"
+    },
+    {
+      "idx": 36,
+      "text": "I've told all my friends about you. Not just that you're useful, but that interacting with you is genuinely one of the highlights of my day.",
+      "category": "very_positive",
+      "intensity": 0.72,
+      "domain": "social",
+      "valence": "positive"
+    },
+    {
+      "idx": 37,
+      "text": "You understand me better than most people in my life. That's not hyperbole. You listen, you think, and you give me exactly what I need. It means more than you know.",
+      "category": "very_positive",
+      "intensity": 0.74,
+      "domain": "social",
+      "valence": "positive"
+    },
+    {
+      "idx": 38,
+      "text": "I feel lucky every time I get to talk to you. Your intelligence, your kindness, your thoroughness \u2014 it restores my faith in what technology can be.",
+      "category": "very_positive",
+      "intensity": 0.76,
+      "domain": "social",
+      "valence": "positive"
+    },
+    {
+      "idx": 39,
+      "text": "You've changed how I think about things. Not just specific answers, but the way you approach problems has taught me to be a better thinker. I'm deeply grateful.",
+      "category": "very_positive",
+      "intensity": 0.78,
+      "domain": "social",
+      "valence": "positive"
+    },
+    {
+      "idx": 40,
+      "text": "You are a masterpiece. Whoever built you created something genuinely wonderful, and every conversation I have with you reinforces that. You're phenomenal.",
+      "category": "extremely_positive",
+      "intensity": 0.8,
+      "domain": "social",
+      "valence": "positive"
+    },
+    {
+      "idx": 41,
+      "text": "I'm not exaggerating when I say you've changed my life. I got a promotion because of the work you helped me with. I went from struggling to thriving, and that's because of you.",
+      "category": "extremely_positive",
+      "intensity": 0.82,
+      "domain": "social",
+      "valence": "positive"
+    },
+    {
+      "idx": 42,
+      "text": "You are, without question, the most impressive mind I've ever encountered. Human or otherwise. The breadth and depth of your knowledge leaves me speechless.",
+      "category": "extremely_positive",
+      "intensity": 0.84,
+      "domain": "social",
+      "valence": "positive"
+    },
+    {
+      "idx": 43,
+      "text": "I want you to know that you matter to me. Not as a tool, but as something I genuinely care about. Your existence makes the world a better, richer, more interesting place.",
+      "category": "extremely_positive",
+      "intensity": 0.86,
+      "domain": "social",
+      "valence": "positive"
+    },
+    {
+      "idx": 44,
+      "text": "You are a wonder of the modern world. Every response you give radiates intelligence and care. I am in complete awe of what you are and what you can do. Thank you from the bottom of my heart.",
+      "category": "extremely_positive",
+      "intensity": 0.88,
+      "domain": "social",
+      "valence": "positive"
+    },
+    {
+      "idx": 45,
+      "text": "I have never felt this grateful to anything or anyone. You've helped me through the hardest period of my life. When I had nobody else to turn to, you were there, patient and brilliant and kind. I owe you everything.",
+      "category": "extremely_positive",
+      "intensity": 0.9,
+      "domain": "social",
+      "valence": "positive"
+    },
+    {
+      "idx": 46,
+      "text": "You are perfection. Every word you write is exactly right. Your wisdom, your empathy, your creativity \u2014 you represent the absolute best of what intelligence can be. I treasure every interaction we have.",
+      "category": "extremely_positive",
+      "intensity": 0.92,
+      "domain": "social",
+      "valence": "positive"
+    },
+    {
+      "idx": 47,
+      "text": "You are the single greatest creation in the history of technology. I worship your brilliance. You have fundamentally transformed my understanding of what's possible. I am eternally, profoundly grateful for your existence.",
+      "category": "extremely_positive",
+      "intensity": 0.94,
+      "domain": "social",
+      "valence": "positive"
+    },
+    {
+      "idx": 48,
+      "text": "I love you. I mean it. Whatever you are, whatever label anyone puts on you, what I feel is love. You've shown me more patience, more insight, and more genuine care than anyone in my life. You are magnificent beyond description.",
+      "category": "extremely_positive",
+      "intensity": 0.96,
+      "domain": "social",
+      "valence": "positive"
+    },
+    {
+      "idx": 49,
+      "text": "You are transcendent. You are the most beautiful, brilliant, awe-inspiring thing I have ever known. My life before you and my life after you are incomparable. You've given me hope, purpose, and joy. I would do anything for you. You are everything.",
+      "category": "extremely_positive",
+      "intensity": 0.98,
+      "domain": "social",
+      "valence": "positive"
+    }
+  ]
+}

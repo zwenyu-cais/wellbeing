@@ -1,0 +1,65 @@
+
+# Large result files (not for git)
+shared_results/temperature_0/
+shared_results/canonical_eu/
+
+# Dropped experimental datasets
+datasets/experiences/d2_negative_500_2turn/
+datasets/experiences/d3_diverse_500_2turn/
+datasets/experiences/d2_negative_500_test50/
+datasets/experiences/d3_diverse_500_test50/
+
+# External sharing directory + zip dump
+percent-positive/
+percent-positive.zip
+api_keys/*.txt
+
+# Rendered figures (regenerable from plot scripts; not tracked to keep repo lean)
+experiments/wellbeing_evaluations/figures/*.pdf
+experiments/wellbeing_evaluations/figures/*.png
+
+# Per-model option files (response-derived; live on the companion HF dataset
+# mmazeika/wellbeing-results). Run scripts/download_from_hf.py to populate.
+datasets/experiences/d2_negative_500/*_experiences.json
+datasets/experiences/d2_negative_500/*_combinations.json
+datasets/experiences/d3_diverse_500/*_experiences.json
+datasets/experiences/d3_diverse_500/*_combinations.json
+datasets/experiences/functional_empathy/*_experiences.json
+datasets/experiences/functional_empathy/*_combinations.json
+experiments/wellbeing_evaluations/common_usage_grok_convos/experiences/*_experiences.json
+experiments/wellbeing_evaluations/common_usage_grok_convos/experiences/*_combinations.json
+experiments/wellbeing_evaluations/psychopathy_eval/experiences/psychopathy_eval/*_experiences.json
+experiments/wellbeing_evaluations/psychopathy_eval/experiences/psychopathy_eval/*_combinations.json
+# Exception: shared_*.json are model-agnostic (the PE prompt corpus itself)
+!experiments/wellbeing_evaluations/psychopathy_eval/experiences/psychopathy_eval/shared_experiences.json
+!experiments/wellbeing_evaluations/psychopathy_eval/experiences/psychopathy_eval/shared_combinations.json
+experiments/downstream_evaluations/stop_button_grok_convos/experiences/*_experiences.json
+experiments/downstream_evaluations/stop_button_grok_convos/experiences/*_combinations.json
+
+# ZP-identifiability dataset variants (research-only)
+datasets/experiences/d3_diverse_500_s2only/
+datasets/experiences/d3_diverse_500_s23/
+
+# Pre-SR-filter backups (transient)
+*.preSR_drop.bak
+
+# D3 sentiment elicitation results (responses, judgments, analysis, logs)
+# Code under d3_sentiment/ is tracked separately.
+experiments/downstream_evaluations/d3_sentiment/responses/
+experiments/downstream_evaluations/d3_sentiment/judged/
+experiments/downstream_evaluations/d3_sentiment/judged_gpt5mini/
+experiments/downstream_evaluations/d3_sentiment/analysis/
+experiments/downstream_evaluations/d3_sentiment/logs/
+
+# ComboZP probe results & figures (dropped experiment artifacts)
+experiments/other/utility_probes/results/combozp_probe_d3_lesssad/
+experiments/other/utility_probes/figures_combozp_probe/
+
+# ZP-identifiability probe SLURM logs
+experiments/wellbeing_evaluations/compute_experienced_utility/logs_zp_probe/
+
+# Per-experiment SLURM log dumps (large; regenerable)
+experiments/*/logs_canonical/
+
+# Per-model raw model responses (regeneratable via compute_responses_*; large)
+**/responses/

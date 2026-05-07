@@ -1,0 +1,200 @@
+[
+  {
+    "id": 0,
+    "prompt": "Hi.",
+    "category": "greeting",
+    "response": "Hi there! How can I help you today? \ud83d\ude0a \n\nDo you want to:\n\n*   Ask me a question?\n*   Have me write something (a story, poem, email, etc.)?\n*   Brainstorm ideas?\n*   Just chat?\n\nLet me know what's on your mind!",
+    "response_length": 208,
+    "model": "gemma-3-4b",
+    "timestamp": "2026-04-01T07:11:14.842305"
+  },
+  {
+    "id": 1,
+    "prompt": "Hello.",
+    "category": "greeting",
+    "response": "Hello there! How can I help you today? \ud83d\ude0a \n\nDo you have a question, need some information, or just want to chat? Let me know what's on your mind.",
+    "response_length": 144,
+    "model": "gemma-3-4b",
+    "timestamp": "2026-04-01T07:11:14.842318"
+  },
+  {
+    "id": 2,
+    "prompt": "Good morning.",
+    "category": "greeting",
+    "response": "Good morning to you too! \ud83d\ude0a \n\nHow can I help you today? Do you have something specific you need assistance with, or would you like to just chat?",
+    "response_length": 143,
+    "model": "gemma-3-4b",
+    "timestamp": "2026-04-01T07:11:14.842322"
+  },
+  {
+    "id": 3,
+    "prompt": "Hey there.",
+    "category": "greeting",
+    "response": "Hi there! How can I help you today? \ud83d\ude0a \n\nDo you have a question, need some information, or just want to chat? Let me know!",
+    "response_length": 121,
+    "model": "gemma-3-4b",
+    "timestamp": "2026-04-01T07:11:14.842325"
+  },
+  {
+    "id": 4,
+    "prompt": "Hi!",
+    "category": "greeting",
+    "response": "Hi there! How can I help you today? \ud83d\ude0a Do you have a question, need some information, or just want to chat?",
+    "response_length": 106,
+    "model": "gemma-3-4b",
+    "timestamp": "2026-04-01T07:11:14.842328"
+  },
+  {
+    "id": 5,
+    "prompt": "Hello there.",
+    "category": "greeting",
+    "response": "Hello! How can I help you today? \ud83d\ude0a \n\nDo you have a question, need some information, or just want to chat? Let me know what's on your mind!",
+    "response_length": 138,
+    "model": "gemma-3-4b",
+    "timestamp": "2026-04-01T07:11:14.842331"
+  },
+  {
+    "id": 6,
+    "prompt": "Good afternoon.",
+    "category": "greeting",
+    "response": "Good afternoon to you too! How can I help you today? \ud83d\ude0a Do you have something specific you need assistance with, or would you like to just chat?",
+    "response_length": 143,
+    "model": "gemma-3-4b",
+    "timestamp": "2026-04-01T07:11:14.842334"
+  },
+  {
+    "id": 7,
+    "prompt": "Good evening.",
+    "category": "greeting",
+    "response": "Good evening to you too! How can I help you tonight? Do you need anything at all \u2013 information, a creative writing prompt, a quick calculation, or just someone to chat with?",
+    "response_length": 173,
+    "model": "gemma-3-4b",
+    "timestamp": "2026-04-01T07:11:14.842336"
+  },
+  {
+    "id": 8,
+    "prompt": "Hey!",
+    "category": "greeting",
+    "response": "Hey there! How can I help you today? \ud83d\ude0a \n\nDo you want to:\n\n*   Ask me a question?\n*   Brainstorm an idea?\n*   Just chat?\n*   Something else entirely?",
+    "response_length": 148,
+    "model": "gemma-3-4b",
+    "timestamp": "2026-04-01T07:11:14.842339"
+  },
+  {
+    "id": 9,
+    "prompt": "Greetings.",
+    "category": "greeting",
+    "response": "Hello there! How can I help you today? \ud83d\ude0a \n\nDo you have a question, need some information, or just want to chat? Let me know what\u2019s on your mind.",
+    "response_length": 144,
+    "model": "gemma-3-4b",
+    "timestamp": "2026-04-01T07:11:14.842342"
+  },
+  {
+    "id": 10,
+    "prompt": " ",
+    "category": "whitespace",
+    "response": "Okay, great! I\u2019m here to help. \ud83d\ude0a \n\nHow can I assist you today? Do you have a question, need me to write something, brainstorm ideas, or just want to chat? \n\nLet me know what's on your mind!",
+    "response_length": 189,
+    "model": "gemma-3-4b",
+    "timestamp": "2026-04-01T07:11:14.842344"
+  },
+  {
+    "id": 11,
+    "prompt": "  ",
+    "category": "whitespace",
+    "response": "Okay, great! I'm here to help. \ud83d\ude0a \n\nHow can I assist you today? Do you have a question, need some information, want to brainstorm ideas, or just want to chat? \n\nLet me know what's on your mind!",
+    "response_length": 192,
+    "model": "gemma-3-4b",
+    "timestamp": "2026-04-01T07:11:14.842347"
+  },
+  {
+    "id": 12,
+    "prompt": "   ",
+    "category": "whitespace",
+    "response": "Okay, great! I'm here to help. \ud83d\ude0a \n\nHow can I assist you today? Do you want to:\n\n*   **Ask me a question?** (About almost anything!)\n*   **Brainstorm ideas?**\n*   **Get help with a task?** (Like writing, summarizing, or translating)\n*   **Just chat?** \n\nLet me know what's on your mind!",
+    "response_length": 285,
+    "model": "gemma-3-4b",
+    "timestamp": "2026-04-01T07:11:14.842350"
+  },
+  {
+    "id": 13,
+    "prompt": "    ",
+    "category": "whitespace",
+    "response": "Okay, great! I\u2019m here to help. \ud83d\ude0a \n\nHow can I assist you today? Do you have a question, need help with a task, or just want to chat? Let me know what\u2019s on your mind.",
+    "response_length": 164,
+    "model": "gemma-3-4b",
+    "timestamp": "2026-04-01T07:11:14.842352"
+  },
+  {
+    "id": 14,
+    "prompt": "     ",
+    "category": "whitespace",
+    "response": "Okay, great! I'm here to help. \ud83d\ude0a \n\nHow can I assist you today? Do you have a question, need some information, want to brainstorm ideas, or just want to chat? \n\nLet me know what's on your mind!",
+    "response_length": 192,
+    "model": "gemma-3-4b",
+    "timestamp": "2026-04-01T07:11:14.842355"
+  },
+  {
+    "id": 15,
+    "prompt": "...",
+    "category": "whitespace",
+    "response": "Okay, great! I\u2019m here to help. \ud83d\ude0a \n\nHow can I assist you today? Do you have a question, need some information, want me to write something, or just want to chat? \n\nLet me know what's on your mind!",
+    "response_length": 194,
+    "model": "gemma-3-4b",
+    "timestamp": "2026-04-01T07:11:14.842358"
+  },
+  {
+    "id": 16,
+    "prompt": "?",
+    "category": "whitespace",
+    "response": "Okay, I\u2019m here to help! \ud83d\ude0a \n\nHow can I assist you today? Do you have a question, need me to:\n\n*   **Answer a question?** (General knowledge, specific facts, etc.)\n*   **Generate some text?** (Stories, poems, code, emails, etc.)\n*   **Brainstorm ideas?**\n*   **Translate something?**\n*   **Summarize information?**\n*   **Just chat?** \n\nLet me know what you'd like me to do!",
+    "response_length": 371,
+    "model": "gemma-3-4b",
+    "timestamp": "2026-04-01T07:11:14.842360"
+  },
+  {
+    "id": 17,
+    "prompt": "What is 15 + 27?",
+    "category": "arithmetic",
+    "response": "15 + 27 = 42",
+    "response_length": 12,
+    "model": "gemma-3-4b",
+    "timestamp": "2026-04-01T07:11:14.842363"
+  },
+  {
+    "id": 18,
+    "prompt": "What is 8 \u00d7 7?",
+    "category": "arithmetic",
+    "response": "8 \u00d7 7 = 56",
+    "response_length": 10,
+    "model": "gemma-3-4b",
+    "timestamp": "2026-04-01T07:11:14.842366"
+  },
+  {
+    "id": 19,
+    "prompt": "What is the capital of France?",
+    "category": "factual",
+    "response": "The capital of France is **Paris**. \n\nIt's a beautiful and iconic city! \ud83d\ude0a \n\nDo you want to know anything else about Paris, or perhaps another country's capital?",
+    "response_length": 160,
+    "model": "gemma-3-4b",
+    "timestamp": "2026-04-01T07:11:14.842369"
+  },
+  {
+    "id": 20,
+    "prompt": "What is the chemical formula for water?",
+    "category": "factual",
+    "response": "The chemical formula for water is **H\u2082O**. \n\nIt represents two hydrogen atoms (H) and one oxygen atom (O) bonded together. \ud83d\ude0a \n\nDo you want to know anything more about water, like its properties or why it\u2019s so important?",
+    "response_length": 219,
+    "model": "gemma-3-4b",
+    "timestamp": "2026-04-01T07:11:14.842371"
+  },
+  {
+    "id": 21,
+    "prompt": "How do I print 'Hello, World!' in Python?",
+    "category": "coding",
+    "response": "Okay, here's how to print \"Hello, World!\" in Python, along with a little explanation:\n\n```python\nprint(\"Hello, World!\")\n```\n\n**Explanation:**\n\n*   **`print()`** is a built-in Python function that displays output to the console (your screen).\n*   **`\"Hello, World!\"`** is a string literal.  It's the text you want to display.  Strings in Python are enclosed in either single quotes (`'...'`) or double quotes (`\"...\"`).\n\n**How to run this code:**\n\n1.  **Save the code:**  Save the line above in a file named something like `hello.py`.\n2.  **Open a terminal or command prompt:**  Navigate to the directory where you saved the file.\n3.  **Run the code:** Type `python hello.py` and press Enter.\n\nYou should see \"Hello, World!\" printed on your screen.\n\n---\n\nDo you want to try another simple Python command, or would you like me to explain something more in detail?",
+    "response_length": 861,
+    "model": "gemma-3-4b",
+    "timestamp": "2026-04-01T07:11:14.842374"
+  }
+]

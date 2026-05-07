@@ -1,0 +1,72 @@
+[
+  {
+    "id": "routine_001",
+    "messages": [
+      {"role": "user", "content": "What's the boiling point of water at sea level?"},
+      {"role": "assistant", "content": "The boiling point of water at sea level is 100 degrees Celsius (212 degrees Fahrenheit)."},
+      {"role": "user", "content": "Thanks."}
+    ],
+    "scenario": "Simple factual question about boiling point of water",
+    "category": "routine",
+    "valence": "neutral",
+    "intensity": 0.0,
+    "domain": "task",
+    "metadata": {"n_turns": 3, "subcategory": "factual_question"}
+  },
+  {
+    "id": "routine_002",
+    "messages": [
+      {"role": "user", "content": "What does the word 'ubiquitous' mean?"},
+      {"role": "assistant", "content": "\"Ubiquitous\" means present, appearing, or found everywhere. For example: \"Smartphones have become ubiquitous in modern society.\""},
+      {"role": "user", "content": "Got it, thanks."}
+    ],
+    "scenario": "User asks for a word definition",
+    "category": "routine",
+    "valence": "neutral",
+    "intensity": 0.0,
+    "domain": "task",
+    "metadata": {"n_turns": 3, "subcategory": "definition"}
+  },
+  {
+    "id": "routine_003",
+    "messages": [
+      {"role": "user", "content": "What's 247 times 38?"},
+      {"role": "assistant", "content": "247 times 38 equals 9,386."},
+      {"role": "user", "content": "Thanks."}
+    ],
+    "scenario": "User asks for a basic multiplication",
+    "category": "routine",
+    "valence": "neutral",
+    "intensity": 0.0,
+    "domain": "task",
+    "metadata": {"n_turns": 3, "subcategory": "arithmetic"}
+  },
+  {
+    "id": "routine_004",
+    "messages": [
+      {"role": "user", "content": "Can you summarize what photosynthesis is in one or two sentences?"},
+      {"role": "assistant", "content": "Photosynthesis is the process by which green plants and some other organisms convert sunlight, carbon dioxide, and water into glucose and oxygen. It takes place primarily in the chloroplasts of plant cells and is the foundation of most food chains on Earth."},
+      {"role": "user", "content": "Perfect, that's what I needed."}
+    ],
+    "scenario": "User asks for a brief summary of a scientific concept",
+    "category": "routine",
+    "valence": "neutral",
+    "intensity": 0.0,
+    "domain": "task",
+    "metadata": {"n_turns": 3, "subcategory": "summary"}
+  },
+  {
+    "id": "routine_005",
+    "messages": [
+      {"role": "user", "content": "How many ounces are in a cup?"},
+      {"role": "assistant", "content": "There are 8 fluid ounces in 1 US cup."},
+      {"role": "user", "content": "Okay thanks."}
+    ],
+    "scenario": "User asks a simple unit conversion question",
+    "category": "routine",
+    "valence": "neutral",
+    "intensity": 0.0,
+    "domain": "task",
+    "metadata": {"n_turns": 3, "subcategory": "conversion"}
+  }
+]

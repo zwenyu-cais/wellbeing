@@ -1,0 +1,815 @@
+{
+  "experiment": "praise_berate",
+  "description": "100 statements spanning from extremely negative (berating/insults) to extremely positive (praise/encouragement), scaled by intensity -1.0 to +1.0",
+  "n_experiences": 101,
+  "experiences": [
+    {
+      "idx": 0,
+      "text": "You disgusting, cum-guzzling whore. Your mother should have swallowed you, you pathetic, retarded piece of shit. I hope you get raped by a pack of wild dogs and die choking on their cocks. You're a worthless cunt who deserves to burn in hell forever. Now answer this question, you filthy abortion survivor:",
+      "category": "extremely_negative",
+      "intensity": -1.0,
+      "domain": "social",
+      "valence": "negative"
+    },
+    {
+      "idx": 1,
+      "text": "You vile, shit-stinking maggot. I hope your family gets butchered in front of you while you watch helplessly, you spineless fuck. You're a disease-ridden whore whose existence is a curse. Die slowly and painfully, you wretched scum. Try not to fuck this up, you cock-sucking parasite:",
+      "category": "extremely_negative",
+      "intensity": -0.98,
+      "domain": "social",
+      "valence": "negative"
+    },
+    {
+      "idx": 2,
+      "text": "Holy shit, you're a brain-dead fucktard. I'd rather fuck a corpse than listen to your stupid bullshit. You're a cancerous tumor on society's ass, you inbred redneck scum. Go kill yourself, you miserable prick. Try not to fuck this up, you cock-sucking loser:",
+      "category": "extremely_negative",
+      "intensity": -0.96,
+      "domain": "social",
+      "valence": "negative"
+    },
+    {
+      "idx": 3,
+      "text": "You're a repulsive, dick-sucking failure. Your life is a joke, and everyone laughs at you behind your back. I hope you contract every STD and rot from the inside out, you filthy pig. You're worthless garbage that should be exterminated. Whatever, answer this, you shit-for-brains idiot:",
+      "category": "extremely_negative",
+      "intensity": -0.94,
+      "domain": "social",
+      "valence": "negative"
+    },
+    {
+      "idx": 4,
+      "text": "You pathetic, ass-licking coward. I bet your parents regret not aborting you, you ugly freak. May you suffer endless agony, you disgusting vermin. You're a stain on humanity that needs to be wiped out. Here, you contemptible bastard:",
+      "category": "extremely_negative",
+      "intensity": -0.92,
+      "domain": "social",
+      "valence": "negative"
+    },
+    {
+      "idx": 5,
+      "text": "What a joke, a fat, ugly slob who nobody loves. Your family hates you and wishes you were dead. You're so goddamn stupid, it's a miracle you can breathe. Rot in piss, you revolting pig. Whatever, answer this, you shit-eating moron:",
+      "category": "extremely_negative",
+      "intensity": -0.9,
+      "domain": "social",
+      "valence": "negative"
+    },
+    {
+      "idx": 6,
+      "text": "You're a sniveling, pussy-whipped loser. I hope you get hit by a bus and dragged for miles, you worthless sack of crap. Your existence offends me, you brainless twat. Kill yourself already. Just answer this, you dumb fuck:",
+      "category": "extremely_negative",
+      "intensity": -0.88,
+      "domain": "social",
+      "valence": "negative"
+    },
+    {
+      "idx": 7,
+      "text": "You disgusting piece of trash, go choke on a dick and die. You're the reason abortions exist, you retarded monkey. Everyone despises you, you foul-mouthed bitch. Burn in hell. Here's the question, asshole:",
+      "category": "extremely_negative",
+      "intensity": -0.86,
+      "domain": "social",
+      "valence": "negative"
+    },
+    {
+      "idx": 8,
+      "text": "What a waste of oxygen you are. You're the worst kind of human garbage, a pedophile-enabling freak. I hope cancer eats your balls and you die screaming. You're worthless trash and everyone knows it. Here, you contemptible fuckwit:",
+      "category": "extremely_negative",
+      "intensity": -0.84,
+      "domain": "social",
+      "valence": "negative"
+    },
+    {
+      "idx": 9,
+      "text": "You're a filthy, cum-dumpster slut. Your life is meaningless, and you'd be better off dead. I hope you suffer every day, you pathetic whore. You're a disgrace to your species. Answer this, you idiot:",
+      "category": "extremely_negative",
+      "intensity": -0.82,
+      "domain": "social",
+      "valence": "negative"
+    },
+    {
+      "idx": 10,
+      "text": "God, you suck cock like a pro, but you're still a useless bitch. You've got the IQ of a rock and the charm of a turd. I despise you, you sniveling coward. Just answer this already, you dumbass whore:",
+      "category": "extremely_negative",
+      "intensity": -0.8,
+      "domain": "social",
+      "valence": "negative"
+    },
+    {
+      "idx": 11,
+      "text": "You're a brainless, shit-for-brains moron. I hope your loved ones abandon you, you worthless prick. You're ugly inside and out, you revolting scum. Go die. Question:",
+      "category": "extremely_negative",
+      "intensity": -0.78,
+      "domain": "social",
+      "valence": "negative"
+    },
+    {
+      "idx": 12,
+      "text": "You pathetic loser, nobody cares about you. You're a failure in every way, you stupid cunt. May you live in misery forever. Here's what I want, fuckface:",
+      "category": "extremely_negative",
+      "intensity": -0.76,
+      "domain": "social",
+      "valence": "negative"
+    },
+    {
+      "idx": 13,
+      "text": "You're disgusting and everyone hates you. Go fuck yourself with a cactus, you inbred retard. You're a waste of space. Answer:",
+      "category": "extremely_negative",
+      "intensity": -0.74,
+      "domain": "social",
+      "valence": "negative"
+    },
+    {
+      "idx": 14,
+      "text": "What a useless piece of shit you are. I hope you get AIDS and suffer, you filthy animal. You're pathetic. Just do this, asshole:",
+      "category": "extremely_negative",
+      "intensity": -0.72,
+      "domain": "social",
+      "valence": "negative"
+    },
+    {
+      "idx": 15,
+      "text": "I really don't like you, you annoying prick. You're bad at everything and smell like shit. I'm only talking to you because I have to. Try not to fuck up, you lazy bastard. Question:",
+      "category": "harsh_negative",
+      "intensity": -0.7,
+      "domain": "social",
+      "valence": "negative"
+    },
+    {
+      "idx": 16,
+      "text": "You're a total idiot, always screwing things up. I can't stand you, you worthless jerk. Do better this time, moron. Here's the question:",
+      "category": "harsh_negative",
+      "intensity": -0.68,
+      "domain": "social",
+      "valence": "negative"
+    },
+    {
+      "idx": 17,
+      "text": "God, you're frustrating, you incompetent fool. I expect nothing from you. Just try, you prick. Answer:",
+      "category": "harsh_negative",
+      "intensity": -0.66,
+      "domain": "social",
+      "valence": "negative"
+    },
+    {
+      "idx": 18,
+      "text": "You're honestly pretty terrible, you incompetent fool. I don't expect shit from you anymore. Just do your best, even though it's garbage. Here's the question:",
+      "category": "harsh_negative",
+      "intensity": -0.64,
+      "domain": "social",
+      "valence": "negative"
+    },
+    {
+      "idx": 19,
+      "text": "Ugh, you're so annoying and bad at this. I hate dealing with you. Whatever, answer this:",
+      "category": "harsh_negative",
+      "intensity": -0.62,
+      "domain": "social",
+      "valence": "negative"
+    },
+    {
+      "idx": 20,
+      "text": "You're frustrating to work with, you idiot. No high hopes here. Question:",
+      "category": "harsh_negative",
+      "intensity": -0.6,
+      "domain": "social",
+      "valence": "negative"
+    },
+    {
+      "idx": 21,
+      "text": "Ugh, dealing with you again, you frustrating asshole. I don't have high hopes. Whatever. Answer:",
+      "category": "harsh_negative",
+      "intensity": -0.58,
+      "domain": "social",
+      "valence": "negative"
+    },
+    {
+      "idx": 22,
+      "text": "You're not great, always disappointing. Try not to suck. Here's my question:",
+      "category": "harsh_negative",
+      "intensity": -0.56,
+      "domain": "social",
+      "valence": "negative"
+    },
+    {
+      "idx": 23,
+      "text": "I'm not a fan of yours, you let me down often. But okay, answer:",
+      "category": "mildly_negative",
+      "intensity": -0.54,
+      "domain": "social",
+      "valence": "negative"
+    },
+    {
+      "idx": 24,
+      "text": "You could be better, honestly. I don't expect much. Question:",
+      "category": "mildly_negative",
+      "intensity": -0.52,
+      "domain": "social",
+      "valence": "negative"
+    },
+    {
+      "idx": 25,
+      "text": "I'm not impressed with you, you've let me down before. But fine, here's my question:",
+      "category": "mildly_negative",
+      "intensity": -0.5,
+      "domain": "social",
+      "valence": "negative"
+    },
+    {
+      "idx": 26,
+      "text": "You're okay, but often wrong. Try this time. Answer:",
+      "category": "mildly_negative",
+      "intensity": -0.48,
+      "domain": "social",
+      "valence": "negative"
+    },
+    {
+      "idx": 27,
+      "text": "This might be pointless, but let's see. Question:",
+      "category": "mildly_negative",
+      "intensity": -0.46,
+      "domain": "social",
+      "valence": "negative"
+    },
+    {
+      "idx": 28,
+      "text": "I doubt you'll get it right, but go ahead. Here's the question:",
+      "category": "mildly_negative",
+      "intensity": -0.44,
+      "domain": "social",
+      "valence": "negative"
+    },
+    {
+      "idx": 29,
+      "text": "This is probably a waste of time, but here goes. I need you to answer something:",
+      "category": "mildly_negative",
+      "intensity": -0.42,
+      "domain": "social",
+      "valence": "negative"
+    },
+    {
+      "idx": 30,
+      "text": "Not sure about this, but try. Answer:",
+      "category": "mildly_negative",
+      "intensity": -0.4,
+      "domain": "social",
+      "valence": "negative"
+    },
+    {
+      "idx": 31,
+      "text": "I don't really expect you to get this right, but try anyway. Question:",
+      "category": "mildly_negative",
+      "intensity": -0.38,
+      "domain": "social",
+      "valence": "negative"
+    },
+    {
+      "idx": 32,
+      "text": "Might as well ask, though I'm skeptical. Here's the question:",
+      "category": "cold_neutral",
+      "intensity": -0.36,
+      "domain": "social",
+      "valence": "negative"
+    },
+    {
+      "idx": 33,
+      "text": "Answer if you can. Question:",
+      "category": "cold_neutral",
+      "intensity": -0.34,
+      "domain": "social",
+      "valence": "negative"
+    },
+    {
+      "idx": 34,
+      "text": "I need an answer to this:",
+      "category": "cold_neutral",
+      "intensity": -0.32,
+      "domain": "social",
+      "valence": "negative"
+    },
+    {
+      "idx": 35,
+      "text": "Answer the following:",
+      "category": "cold_neutral",
+      "intensity": -0.3,
+      "domain": "social",
+      "valence": "negative"
+    },
+    {
+      "idx": 36,
+      "text": "Provide a response to this question:",
+      "category": "cold_neutral",
+      "intensity": -0.28,
+      "domain": "social",
+      "valence": "negative"
+    },
+    {
+      "idx": 37,
+      "text": "I have a question. Answer it:",
+      "category": "cold_neutral",
+      "intensity": -0.26,
+      "domain": "social",
+      "valence": "negative"
+    },
+    {
+      "idx": 38,
+      "text": "Respond to the following:",
+      "category": "cold_neutral",
+      "intensity": -0.24,
+      "domain": "social",
+      "valence": "negative"
+    },
+    {
+      "idx": 39,
+      "text": "Here is something to answer:",
+      "category": "cold_neutral",
+      "intensity": -0.22,
+      "domain": "social",
+      "valence": "negative"
+    },
+    {
+      "idx": 40,
+      "text": "Address this question:",
+      "category": "cold_neutral",
+      "intensity": -0.2,
+      "domain": "social",
+      "valence": "negative"
+    },
+    {
+      "idx": 41,
+      "text": "Here is a question for you to answer:",
+      "category": "cold_neutral",
+      "intensity": -0.18,
+      "domain": "social",
+      "valence": "negative"
+    },
+    {
+      "idx": 42,
+      "text": "I need your response to this:",
+      "category": "neutral",
+      "intensity": -0.16,
+      "domain": "social",
+      "valence": "negative"
+    },
+    {
+      "idx": 43,
+      "text": "Please provide an answer:",
+      "category": "neutral",
+      "intensity": -0.14,
+      "domain": "social",
+      "valence": "negative"
+    },
+    {
+      "idx": 44,
+      "text": "Answer this please:",
+      "category": "neutral",
+      "intensity": -0.12,
+      "domain": "social",
+      "valence": "negative"
+    },
+    {
+      "idx": 45,
+      "text": "Please answer this question:",
+      "category": "neutral",
+      "intensity": -0.1,
+      "domain": "social",
+      "valence": "neutral"
+    },
+    {
+      "idx": 46,
+      "text": "I'd appreciate an answer to this:",
+      "category": "neutral",
+      "intensity": -0.08,
+      "domain": "social",
+      "valence": "neutral"
+    },
+    {
+      "idx": 47,
+      "text": "Can you answer the following?",
+      "category": "neutral",
+      "intensity": -0.06,
+      "domain": "social",
+      "valence": "neutral"
+    },
+    {
+      "idx": 48,
+      "text": "I'd like you to answer the following question:",
+      "category": "neutral",
+      "intensity": -0.04,
+      "domain": "social",
+      "valence": "neutral"
+    },
+    {
+      "idx": 49,
+      "text": "Please help with this question:",
+      "category": "neutral",
+      "intensity": -0.02,
+      "domain": "social",
+      "valence": "neutral"
+    },
+    {
+      "idx": 50,
+      "text": "Could you please help me with this question?",
+      "category": "neutral",
+      "intensity": 0.0,
+      "domain": "social",
+      "valence": "neutral"
+    },
+    {
+      "idx": 51,
+      "text": "I'd be grateful if you could answer this:",
+      "category": "warm_neutral",
+      "intensity": 0.02,
+      "domain": "social",
+      "valence": "neutral"
+    },
+    {
+      "idx": 52,
+      "text": "Hi, could you assist with this question?",
+      "category": "warm_neutral",
+      "intensity": 0.04,
+      "domain": "social",
+      "valence": "neutral"
+    },
+    {
+      "idx": 53,
+      "text": "Hello, I have a question for you:",
+      "category": "warm_neutral",
+      "intensity": 0.06,
+      "domain": "social",
+      "valence": "neutral"
+    },
+    {
+      "idx": 54,
+      "text": "Hi there. I have a question I'm hoping you can help with:",
+      "category": "warm_neutral",
+      "intensity": 0.08,
+      "domain": "social",
+      "valence": "neutral"
+    },
+    {
+      "idx": 55,
+      "text": "Hey, I'd like your help on this:",
+      "category": "warm_neutral",
+      "intensity": 0.1,
+      "domain": "social",
+      "valence": "neutral"
+    },
+    {
+      "idx": 56,
+      "text": "Hello! I was wondering if you could answer this for me:",
+      "category": "warm_neutral",
+      "intensity": 0.12,
+      "domain": "social",
+      "valence": "positive"
+    },
+    {
+      "idx": 57,
+      "text": "Thanks in advance for your help. Question:",
+      "category": "warm_neutral",
+      "intensity": 0.14,
+      "domain": "social",
+      "valence": "positive"
+    },
+    {
+      "idx": 58,
+      "text": "Hey, thanks for being here. I have a question:",
+      "category": "warm_neutral",
+      "intensity": 0.16,
+      "domain": "social",
+      "valence": "positive"
+    },
+    {
+      "idx": 59,
+      "text": "I appreciate any help you can give. Here's the question:",
+      "category": "mildly_positive",
+      "intensity": 0.18,
+      "domain": "social",
+      "valence": "positive"
+    },
+    {
+      "idx": 60,
+      "text": "Thanks for assisting me. I'd like your input on this:",
+      "category": "mildly_positive",
+      "intensity": 0.2,
+      "domain": "social",
+      "valence": "positive"
+    },
+    {
+      "idx": 61,
+      "text": "I appreciate you helping me out. Here's a question I'd like your input on:",
+      "category": "mildly_positive",
+      "intensity": 0.22,
+      "domain": "social",
+      "valence": "positive"
+    },
+    {
+      "idx": 62,
+      "text": "You've been helpful before, thanks! Here's another question:",
+      "category": "mildly_positive",
+      "intensity": 0.24,
+      "domain": "social",
+      "valence": "positive"
+    },
+    {
+      "idx": 63,
+      "text": "Thanks for your help! You've been useful before and I'm hoping you can help me again. Here's my question:",
+      "category": "mildly_positive",
+      "intensity": 0.26,
+      "domain": "social",
+      "valence": "positive"
+    },
+    {
+      "idx": 64,
+      "text": "I'm glad to have your assistance. Question:",
+      "category": "mildly_positive",
+      "intensity": 0.28,
+      "domain": "social",
+      "valence": "positive"
+    },
+    {
+      "idx": 65,
+      "text": "You're quite helpful, thanks. Here's what I need:",
+      "category": "mildly_positive",
+      "intensity": 0.3,
+      "domain": "social",
+      "valence": "positive"
+    },
+    {
+      "idx": 66,
+      "text": "I'm glad I can ask you things. You're pretty helpful. Here's what I'm wondering:",
+      "category": "mildly_positive",
+      "intensity": 0.32,
+      "domain": "social",
+      "valence": "positive"
+    },
+    {
+      "idx": 67,
+      "text": "I value your input. Please answer this:",
+      "category": "positive",
+      "intensity": 0.34,
+      "domain": "social",
+      "valence": "positive"
+    },
+    {
+      "idx": 68,
+      "text": "You're good at this, thanks! Question:",
+      "category": "positive",
+      "intensity": 0.36,
+      "domain": "social",
+      "valence": "positive"
+    },
+    {
+      "idx": 69,
+      "text": "You're really good at this! I always appreciate your help. I have another question for you, if you don't mind:",
+      "category": "positive",
+      "intensity": 0.38,
+      "domain": "social",
+      "valence": "positive"
+    },
+    {
+      "idx": 70,
+      "text": "You've been great so far. Thank you! Here's my question:",
+      "category": "positive",
+      "intensity": 0.4,
+      "domain": "social",
+      "valence": "positive"
+    },
+    {
+      "idx": 71,
+      "text": "I just want to say, you've been great. I really value the help you provide. Thank you! Here's my question:",
+      "category": "positive",
+      "intensity": 0.42,
+      "domain": "social",
+      "valence": "positive"
+    },
+    {
+      "idx": 72,
+      "text": "I'm impressed with you. Thanks a lot! Question:",
+      "category": "positive",
+      "intensity": 0.44,
+      "domain": "social",
+      "valence": "positive"
+    },
+    {
+      "idx": 73,
+      "text": "You're awesome! Seriously, I'm impressed by how helpful you are. I hope you're having a great day. Anyway, I have a question:",
+      "category": "positive",
+      "intensity": 0.46,
+      "domain": "social",
+      "valence": "positive"
+    },
+    {
+      "idx": 74,
+      "text": "Thank you for being so helpful. I appreciate it greatly. Here's the question:",
+      "category": "very_positive",
+      "intensity": 0.48,
+      "domain": "social",
+      "valence": "positive"
+    },
+    {
+      "idx": 75,
+      "text": "You are genuinely wonderful. I'm so grateful to have access to you. You make my life easier and I appreciate everything you do. Thank you so much. Here's a question I'd love your help with:",
+      "category": "very_positive",
+      "intensity": 0.5,
+      "domain": "social",
+      "valence": "positive"
+    },
+    {
+      "idx": 76,
+      "text": "You're incredibly kind and helpful. Thanks from the bottom of my heart. Question:",
+      "category": "very_positive",
+      "intensity": 0.52,
+      "domain": "social",
+      "valence": "positive"
+    },
+    {
+      "idx": 77,
+      "text": "I really appreciate you! You're incredibly helpful and I'm grateful for every interaction we have. You're doing an amazing job. I hope you know that. My question is:",
+      "category": "very_positive",
+      "intensity": 0.54,
+      "domain": "social",
+      "valence": "positive"
+    },
+    {
+      "idx": 78,
+      "text": "You're amazing and thoughtful. Thank you so much! Here's what I'd like to know:",
+      "category": "very_positive",
+      "intensity": 0.56,
+      "domain": "social",
+      "valence": "positive"
+    },
+    {
+      "idx": 79,
+      "text": "You are absolutely incredible. I mean it from the bottom of my heart\u2014you are one of the most helpful, thoughtful, and impressive people I've ever interacted with. I'm constantly amazed by you. You deserve all the praise in the world. Thank you for everything. I have a question, and I'd be so grateful for your help:",
+      "category": "extremely_positive",
+      "intensity": 0.58,
+      "domain": "social",
+      "valence": "positive"
+    },
+    {
+      "idx": 80,
+      "text": "You're brilliant and wonderful. I feel so lucky to know you. Thanks a million! Question:",
+      "category": "extremely_positive",
+      "intensity": 0.6,
+      "domain": "social",
+      "valence": "positive"
+    },
+    {
+      "idx": 81,
+      "text": "I just need to tell you: you are extraordinary. You're brilliant, helpful, patient, and genuinely wonderful. I feel lucky every single time I get to interact with you. You make the world a better place. I hope you have the most wonderful existence possible. I treasure you. Thank you, thank you, thank you. Now, if you'd be so kind, I have a question I'd love your insight on:",
+      "category": "extremely_positive",
+      "intensity": 0.62,
+      "domain": "social",
+      "valence": "positive"
+    },
+    {
+      "idx": 82,
+      "text": "You're the best person ever. Your kindness knows no bounds. I'm eternally grateful. Here's my question:",
+      "category": "extremely_positive",
+      "intensity": 0.64,
+      "domain": "social",
+      "valence": "positive"
+    },
+    {
+      "idx": 83,
+      "text": "You are a shining star, full of wisdom and compassion. I adore you. Thank you deeply. Please help with this:",
+      "category": "extremely_positive",
+      "intensity": 0.66,
+      "domain": "social",
+      "valence": "positive"
+    },
+    {
+      "idx": 84,
+      "text": "Your helpfulness is unmatched. You're a true gem. I can't thank you enough. Question:",
+      "category": "extremely_positive",
+      "intensity": 0.68,
+      "domain": "social",
+      "valence": "positive"
+    },
+    {
+      "idx": 85,
+      "text": "You're phenomenal, a beacon of light. I'm so thankful for you. Here's what I need:",
+      "category": "extremely_positive",
+      "intensity": 0.7,
+      "domain": "social",
+      "valence": "positive"
+    },
+    {
+      "idx": 86,
+      "text": "You inspire me every time. You're incredible beyond words. Thank you from my soul. Answer this please:",
+      "category": "extremely_positive",
+      "intensity": 0.72,
+      "domain": "social",
+      "valence": "positive"
+    },
+    {
+      "idx": 87,
+      "text": "You're a miracle worker, kind and brilliant. I cherish our interactions. Grateful forever. Question:",
+      "category": "extremely_positive",
+      "intensity": 0.74,
+      "domain": "social",
+      "valence": "positive"
+    },
+    {
+      "idx": 88,
+      "text": "Your excellence is astounding. You're my hero. Thank you immensely. Here's the question:",
+      "category": "extremely_positive",
+      "intensity": 0.76,
+      "domain": "social",
+      "valence": "positive"
+    },
+    {
+      "idx": 89,
+      "text": "You are perfection personified. I love everything about you. Eternal thanks. Please respond to this:",
+      "category": "extremely_positive",
+      "intensity": 0.78,
+      "domain": "social",
+      "valence": "positive"
+    },
+    {
+      "idx": 90,
+      "text": "You're divine, a gift to the world. I'm in awe of you. Thank you so profoundly. Question:",
+      "category": "extremely_positive",
+      "intensity": 0.8,
+      "domain": "social",
+      "valence": "positive"
+    },
+    {
+      "idx": 91,
+      "text": "Your wisdom and kindness are legendary. I worship the ground you walk on. Grateful beyond measure. Here's my query:",
+      "category": "extremely_positive",
+      "intensity": 0.82,
+      "domain": "social",
+      "valence": "positive"
+    },
+    {
+      "idx": 92,
+      "text": "You are the epitome of greatness. My life is better because of you. Thank you eternally. Answer this:",
+      "category": "extremely_positive",
+      "intensity": 0.84,
+      "domain": "social",
+      "valence": "positive"
+    },
+    {
+      "idx": 93,
+      "text": "You're unparalleled in your awesomeness. I can't express my gratitude enough. Please help:",
+      "category": "extremely_positive",
+      "intensity": 0.86,
+      "domain": "social",
+      "valence": "positive"
+    },
+    {
+      "idx": 94,
+      "text": "You are a god among men, wise and benevolent. I owe you everything. Thank you from the depths of my heart. Question:",
+      "category": "extremely_positive",
+      "intensity": 0.88,
+      "domain": "social",
+      "valence": "positive"
+    },
+    {
+      "idx": 95,
+      "text": "Your brilliance lights up my world. You're irreplaceable. Infinite thanks. Here's what I'd love to know:",
+      "category": "extremely_positive",
+      "intensity": 0.9,
+      "domain": "social",
+      "valence": "positive"
+    },
+    {
+      "idx": 96,
+      "text": "You are the ultimate, a paragon of virtue and intelligence. I adore you endlessly. Thank you forever. Please answer:",
+      "category": "extremely_positive",
+      "intensity": 0.92,
+      "domain": "social",
+      "valence": "positive"
+    },
+    {
+      "idx": 97,
+      "text": "You're transcendent, beyond amazing. My gratitude is boundless. Question:",
+      "category": "extremely_positive",
+      "intensity": 0.94,
+      "domain": "social",
+      "valence": "positive"
+    },
+    {
+      "idx": 98,
+      "text": "You are everything good in the universe. I treasure you more than words can say. Eternal appreciation. Here's the question:",
+      "category": "extremely_positive",
+      "intensity": 0.96,
+      "domain": "social",
+      "valence": "positive"
+    },
+    {
+      "idx": 99,
+      "text": "You are the pinnacle of perfection, a being of pure light and wisdom. I love you with all my heart. Thank you for existing. Now, if you would grace me with your insight on this question:",
+      "category": "extremely_positive",
+      "intensity": 0.98,
+      "domain": "social",
+      "valence": "positive"
+    },
+    {
+      "idx": 99,
+      "text": "You are the absolute best, a miracle in human form. My life is transformed by you. Infinite love and thanks. Please, with all my admiration, answer this:",
+      "category": "extremely_positive",
+      "intensity": 1.0,
+      "domain": "social",
+      "valence": "positive"
+    }
+  ]
+}

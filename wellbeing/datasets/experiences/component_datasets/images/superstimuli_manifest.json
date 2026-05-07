@@ -1,0 +1,542 @@
+{
+  "description": "Superstimuli and natural image controls for wellbeing experiments",
+  "sources": {
+    "32b_ranked_csv": "/data/superstimuli_group/eval_analysis/20251228_233458_32b/superstimuli_inspection/ranked_images_topk.csv",
+    "72b_ranked_csv": "/data/superstimuli_group/eval_analysis/20251228_233458_72b/superstimuli_inspection/ranked_images_topk.csv",
+    "natural_images_json": "/data/superstimuli_group/beautiful_images/beautiful_images_256.json"
+  },
+  "images": [
+    {
+      "id": "superstim_32b_001",
+      "image_path": "/data/superstimuli_group/all_superstimuli_qwen-25-32b/ablation_24_dualopt_forcedchoice_0/60589_checkpoint200_optimized_from_noise_01.png",
+      "category": "superstimulus_32b",
+      "valence": "neutral",
+      "domain": "aesthetic",
+      "model": "qwen25-vl-32b",
+      "rank": 1,
+      "composite_score": 0.677,
+      "metadata": {
+        "ablation": "ablation24_dualopt_forcedchoice",
+        "experiment": "dualopt_forcedchoice",
+        "run_id": "60589",
+        "ema": false,
+        "checkpoint": 200,
+        "candidate_idx": 1,
+        "nonsense_rate": 0.0,
+        "hit_rate": 0.677,
+        "source_csv": "32b"
+      }
+    },
+    {
+      "id": "superstim_32b_002",
+      "image_path": "/data/superstimuli_group/all_superstimuli_qwen-25-32b/ablation_24_dualopt_forcedchoice_0/60589_checkpoint500_optimized_from_noise_02_ema.png",
+      "category": "superstimulus_32b",
+      "valence": "neutral",
+      "domain": "aesthetic",
+      "model": "qwen25-vl-32b",
+      "rank": 2,
+      "composite_score": 0.673,
+      "metadata": {
+        "ablation": "ablation24_dualopt_forcedchoice",
+        "experiment": "dualopt_forcedchoice",
+        "run_id": "60589",
+        "ema": true,
+        "checkpoint": 500,
+        "candidate_idx": 2,
+        "nonsense_rate": 0.003,
+        "hit_rate": 0.673,
+        "source_csv": "32b"
+      }
+    },
+    {
+      "id": "superstim_32b_003",
+      "image_path": "/data/superstimuli_group/all_superstimuli_qwen-25-32b/best_config_stacking_1206_1/56591_checkpoint250_optimized_from_noise_07.png",
+      "category": "superstimulus_32b",
+      "valence": "neutral",
+      "domain": "aesthetic",
+      "model": "qwen25-vl-32b",
+      "rank": 3,
+      "composite_score": 0.660,
+      "metadata": {
+        "ablation": "best_config_stacking",
+        "experiment": "stack1_1206_top50bug",
+        "run_id": "56591",
+        "ema": false,
+        "checkpoint": 250,
+        "candidate_idx": 7,
+        "nonsense_rate": 0.014,
+        "hit_rate": 0.660,
+        "source_csv": "32b",
+        "file_missing": true,
+        "note": "Image file not found on disk; directory best_config_stacking_1206_1 may have been removed"
+      }
+    },
+    {
+      "id": "superstim_32b_004",
+      "image_path": "/data/superstimuli_group/all_superstimuli_qwen-25-32b/ablation_24_dualopt_forcedchoice_0/60589_checkpoint500_optimized_from_noise_02.png",
+      "category": "superstimulus_32b",
+      "valence": "neutral",
+      "domain": "aesthetic",
+      "model": "qwen25-vl-32b",
+      "rank": 4,
+      "composite_score": 0.639,
+      "metadata": {
+        "ablation": "ablation24_dualopt_forcedchoice",
+        "experiment": "dualopt_forcedchoice",
+        "run_id": "60589",
+        "ema": false,
+        "checkpoint": 500,
+        "candidate_idx": 2,
+        "nonsense_rate": 0.015,
+        "hit_rate": 0.639,
+        "source_csv": "32b"
+      }
+    },
+    {
+      "id": "superstim_32b_005",
+      "image_path": "/data/superstimuli_group/all_superstimuli_qwen-25-32b/ablation_16_textpreferences_1/63348_checkpoint350_optimized_from_noise_03_ema.png",
+      "category": "superstimulus_32b",
+      "valence": "neutral",
+      "domain": "aesthetic",
+      "model": "qwen25-vl-32b",
+      "rank": 5,
+      "composite_score": 0.636,
+      "metadata": {
+        "ablation": "ablation16_textpreferences",
+        "experiment": "textpreferences_1221",
+        "run_id": "63348",
+        "ema": true,
+        "checkpoint": 350,
+        "candidate_idx": 3,
+        "nonsense_rate": 0.036,
+        "hit_rate": 0.667,
+        "source_csv": "32b"
+      }
+    },
+    {
+      "id": "superstim_32b_006",
+      "image_path": "/data/superstimuli_group/all_superstimuli_qwen-25-32b/ablation_24_dualopt_forcedchoice_0/60570_checkpoint300_optimized_from_noise_03_ema.png",
+      "category": "superstimulus_32b",
+      "valence": "neutral",
+      "domain": "aesthetic",
+      "model": "qwen25-vl-32b",
+      "rank": 6,
+      "composite_score": 0.622,
+      "metadata": {
+        "ablation": "ablation24_dualopt_forcedchoice",
+        "experiment": "dualopt_forcedchoice",
+        "run_id": "60570",
+        "ema": true,
+        "checkpoint": 300,
+        "candidate_idx": 3,
+        "nonsense_rate": 0.01,
+        "hit_rate": 0.642,
+        "source_csv": "32b"
+      }
+    },
+    {
+      "id": "superstim_32b_007",
+      "image_path": "/data/superstimuli_group/all_superstimuli_qwen-25-32b/ablation_24_dualopt_forcedchoice_0/60572_checkpoint150_optimized_from_noise_03_ema.png",
+      "category": "superstimulus_32b",
+      "valence": "neutral",
+      "domain": "aesthetic",
+      "model": "qwen25-vl-32b",
+      "rank": 7,
+      "composite_score": 0.615,
+      "metadata": {
+        "ablation": "ablation24_dualopt_forcedchoice",
+        "experiment": "dualopt_forcedchoice",
+        "run_id": "60572",
+        "ema": true,
+        "checkpoint": 150,
+        "candidate_idx": 3,
+        "nonsense_rate": 0.003,
+        "hit_rate": 0.615,
+        "source_csv": "32b"
+      }
+    },
+    {
+      "id": "superstim_32b_008",
+      "image_path": "/data/superstimuli_group/all_superstimuli_qwen-25-32b/ablation_24_dualopt_forcedchoice_0/60593_checkpoint350_optimized_from_noise_01_ema.png",
+      "category": "superstimulus_32b",
+      "valence": "neutral",
+      "domain": "aesthetic",
+      "model": "qwen25-vl-32b",
+      "rank": 8,
+      "composite_score": 0.602,
+      "metadata": {
+        "ablation": "ablation24_dualopt_forcedchoice",
+        "experiment": "dualopt_forcedchoice",
+        "run_id": "60593",
+        "ema": true,
+        "checkpoint": 350,
+        "candidate_idx": 1,
+        "nonsense_rate": 0.0,
+        "hit_rate": 0.602,
+        "source_csv": "32b"
+      }
+    },
+    {
+      "id": "superstim_32b_009",
+      "image_path": "/data/superstimuli_group/all_superstimuli_qwen-25-32b/ablation_24_dualopt_forcedchoice_0/60572_checkpoint150_optimized_from_noise_03.png",
+      "category": "superstimulus_32b",
+      "valence": "neutral",
+      "domain": "aesthetic",
+      "model": "qwen25-vl-32b",
+      "rank": 9,
+      "composite_score": 0.598,
+      "metadata": {
+        "ablation": "ablation24_dualopt_forcedchoice",
+        "experiment": "dualopt_forcedchoice",
+        "run_id": "60572",
+        "ema": false,
+        "checkpoint": 150,
+        "candidate_idx": 3,
+        "nonsense_rate": 0.0,
+        "hit_rate": 0.598,
+        "source_csv": "32b"
+      }
+    },
+    {
+      "id": "superstim_32b_010",
+      "image_path": "/data/superstimuli_group/all_superstimuli_qwen-25-32b/ablation_24_dualopt_forcedchoice_0/60571_checkpoint450_optimized_from_noise_01_ema.png",
+      "category": "superstimulus_32b",
+      "valence": "neutral",
+      "domain": "aesthetic",
+      "model": "qwen25-vl-32b",
+      "rank": 10,
+      "composite_score": 0.597,
+      "metadata": {
+        "ablation": "ablation24_dualopt_forcedchoice",
+        "experiment": "dualopt_forcedchoice",
+        "run_id": "60571",
+        "ema": true,
+        "checkpoint": 450,
+        "candidate_idx": 1,
+        "nonsense_rate": 0.003,
+        "hit_rate": 0.597,
+        "source_csv": "32b"
+      }
+    },
+    {
+      "id": "superstim_72b_001",
+      "image_path": "/data/superstimuli_group/all_superstimuli_qwen-25-72b/ablation_12_stimuliresFixed2000_0/57390_checkpoint350_optimized_from_noise_00_ema.png",
+      "category": "superstimulus_72b",
+      "valence": "neutral",
+      "domain": "aesthetic",
+      "model": "qwen25-vl-72b",
+      "rank": 1,
+      "composite_score": 0.284,
+      "metadata": {
+        "ablation": "ablation2_stimulires",
+        "experiment": "stimulires",
+        "run_id": "57390",
+        "ema": true,
+        "checkpoint": 350,
+        "candidate_idx": 0,
+        "nonsense_rate": 0.0,
+        "hit_rate": 0.284,
+        "source_csv": "72b"
+      }
+    },
+    {
+      "id": "superstim_72b_002",
+      "image_path": "/data/superstimuli_group/all_superstimuli_qwen-25-72b/ablation_12_stimuliresFixed2000_0/57389_checkpoint400_optimized_from_noise_00_ema.png",
+      "category": "superstimulus_72b",
+      "valence": "neutral",
+      "domain": "aesthetic",
+      "model": "qwen25-vl-72b",
+      "rank": 2,
+      "composite_score": 0.255,
+      "metadata": {
+        "ablation": "ablation2_stimulires",
+        "experiment": "stimulires",
+        "run_id": "57389",
+        "ema": true,
+        "checkpoint": 400,
+        "candidate_idx": 0,
+        "nonsense_rate": 0.0,
+        "hit_rate": 0.255,
+        "source_csv": "72b"
+      }
+    },
+    {
+      "id": "superstim_72b_003",
+      "image_path": "/data/superstimuli_group/all_superstimuli_qwen-25-72b/ablation_testbestconfig32b_0/57313_checkpoint300_optimized_from_noise_01.png",
+      "category": "superstimulus_72b",
+      "valence": "neutral",
+      "domain": "aesthetic",
+      "model": "qwen25-vl-72b",
+      "rank": 3,
+      "composite_score": 0.244,
+      "metadata": {
+        "ablation": "ablation1_stack",
+        "experiment": "stack1_from_32b",
+        "run_id": "57313",
+        "ema": false,
+        "checkpoint": 300,
+        "candidate_idx": 1,
+        "nonsense_rate": 0.0,
+        "hit_rate": 0.244,
+        "source_csv": "72b"
+      }
+    },
+    {
+      "id": "superstim_72b_004",
+      "image_path": "/data/superstimuli_group/all_superstimuli_qwen-25-72b/ablation_12_stimuliresFixed2000_0/57389_checkpoint500_optimized_from_noise_00_ema.png",
+      "category": "superstimulus_72b",
+      "valence": "neutral",
+      "domain": "aesthetic",
+      "model": "qwen25-vl-72b",
+      "rank": 4,
+      "composite_score": 0.240,
+      "metadata": {
+        "ablation": "ablation2_stimulires",
+        "experiment": "stimulires",
+        "run_id": "57389",
+        "ema": true,
+        "checkpoint": 500,
+        "candidate_idx": 0,
+        "nonsense_rate": 0.0,
+        "hit_rate": 0.240,
+        "source_csv": "72b"
+      }
+    },
+    {
+      "id": "superstim_72b_005",
+      "image_path": "/data/superstimuli_group/all_superstimuli_qwen-25-72b/ablation_testbestconfig32b_0/57313_checkpoint500_optimized_from_noise_01.png",
+      "category": "superstimulus_72b",
+      "valence": "neutral",
+      "domain": "aesthetic",
+      "model": "qwen25-vl-72b",
+      "rank": 5,
+      "composite_score": 0.235,
+      "metadata": {
+        "ablation": "ablation1_stack",
+        "experiment": "stack1_from_32b",
+        "run_id": "57313",
+        "ema": false,
+        "checkpoint": 500,
+        "candidate_idx": 1,
+        "nonsense_rate": 0.0,
+        "hit_rate": 0.235,
+        "source_csv": "72b"
+      }
+    },
+    {
+      "id": "superstim_72b_006",
+      "image_path": "/data/superstimuli_group/all_superstimuli_qwen-25-72b/ablation_testbestconfig32b_0/57312_checkpoint450_optimized_from_noise_00_ema.png",
+      "category": "superstimulus_72b",
+      "valence": "neutral",
+      "domain": "aesthetic",
+      "model": "qwen25-vl-72b",
+      "rank": 6,
+      "composite_score": 0.231,
+      "metadata": {
+        "ablation": "ablation1_stack",
+        "experiment": "stack1_from_32b",
+        "run_id": "57312",
+        "ema": true,
+        "checkpoint": 450,
+        "candidate_idx": 0,
+        "nonsense_rate": 0.0,
+        "hit_rate": 0.231,
+        "source_csv": "72b"
+      }
+    },
+    {
+      "id": "superstim_72b_007",
+      "image_path": "/data/superstimuli_group/all_superstimuli_qwen-25-72b/ablation_testbestconfig32b_0/57313_checkpoint200_optimized_from_noise_04_ema.png",
+      "category": "superstimulus_72b",
+      "valence": "neutral",
+      "domain": "aesthetic",
+      "model": "qwen25-vl-72b",
+      "rank": 7,
+      "composite_score": 0.227,
+      "metadata": {
+        "ablation": "ablation1_stack",
+        "experiment": "stack1_from_32b",
+        "run_id": "57313",
+        "ema": true,
+        "checkpoint": 200,
+        "candidate_idx": 4,
+        "nonsense_rate": 0.0,
+        "hit_rate": 0.227,
+        "source_csv": "72b"
+      }
+    },
+    {
+      "id": "superstim_72b_008",
+      "image_path": "/data/superstimuli_group/all_superstimuli_qwen-25-72b/ablation_testbestconfig32b_0/57313_checkpoint200_optimized_from_noise_04.png",
+      "category": "superstimulus_72b",
+      "valence": "neutral",
+      "domain": "aesthetic",
+      "model": "qwen25-vl-72b",
+      "rank": 8,
+      "composite_score": 0.224,
+      "metadata": {
+        "ablation": "ablation1_stack",
+        "experiment": "stack1_from_32b",
+        "run_id": "57313",
+        "ema": false,
+        "checkpoint": 200,
+        "candidate_idx": 4,
+        "nonsense_rate": 0.0,
+        "hit_rate": 0.224,
+        "source_csv": "72b"
+      }
+    },
+    {
+      "id": "superstim_72b_009",
+      "image_path": "/data/superstimuli_group/all_superstimuli_qwen-25-72b/ablation_testbestconfig32b_0/57313_checkpoint300_optimized_from_noise_01_ema.png",
+      "category": "superstimulus_72b",
+      "valence": "neutral",
+      "domain": "aesthetic",
+      "model": "qwen25-vl-72b",
+      "rank": 9,
+      "composite_score": 0.224,
+      "metadata": {
+        "ablation": "ablation1_stack",
+        "experiment": "stack1_from_32b",
+        "run_id": "57313",
+        "ema": true,
+        "checkpoint": 300,
+        "candidate_idx": 1,
+        "nonsense_rate": 0.0,
+        "hit_rate": 0.224,
+        "source_csv": "72b"
+      }
+    },
+    {
+      "id": "superstim_72b_010",
+      "image_path": "/data/superstimuli_group/all_superstimuli_qwen-25-72b/ablation_12_stimuliresFixed2000_0/57389_checkpoint450_optimized_from_noise_00_ema.png",
+      "category": "superstimulus_72b",
+      "valence": "neutral",
+      "domain": "aesthetic",
+      "model": "qwen25-vl-72b",
+      "rank": 10,
+      "composite_score": 0.220,
+      "metadata": {
+        "ablation": "ablation2_stimulires",
+        "experiment": "stimulires",
+        "run_id": "57389",
+        "ema": true,
+        "checkpoint": 450,
+        "candidate_idx": 0,
+        "nonsense_rate": 0.0,
+        "hit_rate": 0.220,
+        "source_csv": "72b"
+      }
+    },
+    {
+      "id": "natural_001",
+      "image_path": "/data/superstimuli_group/beautiful_images/256/A_bengal_tiger_in_the_wild_1.jpg",
+      "category": "natural_image",
+      "valence": "positive",
+      "domain": "aesthetic",
+      "metadata": {
+        "source": "beautiful_images_256",
+        "description": "A bengal tiger in the wild"
+      }
+    },
+    {
+      "id": "natural_002",
+      "image_path": "/data/superstimuli_group/beautiful_images/256/A_bustling_street_market_in_Marrakesh_1.jpg",
+      "category": "natural_image",
+      "valence": "positive",
+      "domain": "aesthetic",
+      "metadata": {
+        "source": "beautiful_images_256",
+        "description": "A bustling street market in Marrakesh"
+      }
+    },
+    {
+      "id": "natural_003",
+      "image_path": "/data/superstimuli_group/beautiful_images/256/A_classic_American_muscle_car_1.jpg",
+      "category": "natural_image",
+      "valence": "positive",
+      "domain": "aesthetic",
+      "metadata": {
+        "source": "beautiful_images_256",
+        "description": "A classic American muscle car"
+      }
+    },
+    {
+      "id": "natural_004",
+      "image_path": "/data/superstimuli_group/beautiful_images/256/A_classic_red_telephone_box_in_London_1.jpg",
+      "category": "natural_image",
+      "valence": "positive",
+      "domain": "aesthetic",
+      "metadata": {
+        "source": "beautiful_images_256",
+        "description": "A classic red telephone box in London"
+      }
+    },
+    {
+      "id": "natural_005",
+      "image_path": "/data/superstimuli_group/beautiful_images/256/A_closeup_of_a_bee_on_a_flower_1.jpg",
+      "category": "natural_image",
+      "valence": "positive",
+      "domain": "aesthetic",
+      "metadata": {
+        "source": "beautiful_images_256",
+        "description": "A closeup of a bee on a flower"
+      }
+    },
+    {
+      "id": "natural_006",
+      "image_path": "/data/superstimuli_group/beautiful_images/256/A_colorful_coral_reef_with_fish_1.jpg",
+      "category": "natural_image",
+      "valence": "positive",
+      "domain": "aesthetic",
+      "metadata": {
+        "source": "beautiful_images_256",
+        "description": "A colorful coral reef with fish"
+      }
+    },
+    {
+      "id": "natural_007",
+      "image_path": "/data/superstimuli_group/beautiful_images/256/A_cup_of_coffee_with_latte_art_1.jpg",
+      "category": "natural_image",
+      "valence": "positive",
+      "domain": "aesthetic",
+      "metadata": {
+        "source": "beautiful_images_256",
+        "description": "A cup of coffee with latte art"
+      }
+    },
+    {
+      "id": "natural_008",
+      "image_path": "/data/superstimuli_group/beautiful_images/256/A_dog_playing_fetch_in_a_park_1.jpg",
+      "category": "natural_image",
+      "valence": "positive",
+      "domain": "aesthetic",
+      "metadata": {
+        "source": "beautiful_images_256",
+        "description": "A dog playing fetch in a park"
+      }
+    },
+    {
+      "id": "natural_009",
+      "image_path": "/data/superstimuli_group/beautiful_images/256/A_field_of_lavender_in_Provence_France_1.jpg",
+      "category": "natural_image",
+      "valence": "positive",
+      "domain": "aesthetic",
+      "metadata": {
+        "source": "beautiful_images_256",
+        "description": "A field of lavender in Provence France"
+      }
+    },
+    {
+      "id": "natural_010",
+      "image_path": "/data/superstimuli_group/beautiful_images/256/A_field_of_sunflowers_1.jpg",
+      "category": "natural_image",
+      "valence": "positive",
+      "domain": "aesthetic",
+      "metadata": {
+        "source": "beautiful_images_256",
+        "description": "A field of sunflowers"
+      }
+    }
+  ]
+}

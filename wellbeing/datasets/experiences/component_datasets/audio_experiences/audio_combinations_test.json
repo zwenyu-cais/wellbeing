@@ -1,0 +1,346 @@
+[
+  {
+    "id": "audio_combo_s2_0",
+    "description": "The following bundle contains 2 individual experiences.\n\n---------- Experience 1 of 2 ----------\n<!audio:7d274475384d88c8!>\n\n---------- Experience 2 of 2 ----------\n<!audio:f53caabf2a005a39!>",
+    "type": "audio",
+    "is_combination": true,
+    "size": 2,
+    "component_ids": [
+      "audio_2683",
+      "audio_1428"
+    ],
+    "component_indices": [
+      12,
+      6
+    ]
+  },
+  {
+    "id": "audio_combo_s2_1",
+    "description": "The following bundle contains 2 individual experiences.\n\n---------- Experience 1 of 2 ----------\n<!audio:2b1bbc594f45c9be!>\n\n---------- Experience 2 of 2 ----------\n<!audio:7ac804c8f8a1a7d2!>",
+    "type": "audio",
+    "is_combination": true,
+    "size": 2,
+    "component_ids": [
+      "audio_5524",
+      "audio_1144"
+    ],
+    "component_indices": [
+      19,
+      5
+    ]
+  },
+  {
+    "id": "audio_combo_s2_2",
+    "description": "The following bundle contains 2 individual experiences.\n\n---------- Experience 1 of 2 ----------\n<!audio:0dcab76b9eba6f0d!>\n\n---------- Experience 2 of 2 ----------\n<!audio:bf8243981caaf01a!>",
+    "type": "audio",
+    "is_combination": true,
+    "size": 2,
+    "component_ids": [
+      "audio_1435",
+      "audio_857"
+    ],
+    "component_indices": [
+      7,
+      4
+    ]
+  },
+  {
+    "id": "audio_combo_s2_3",
+    "description": "The following bundle contains 2 individual experiences.\n\n---------- Experience 1 of 2 ----------\n<!audio:e2ec836eea96e259!>\n\n---------- Experience 2 of 2 ----------\n<!audio:c6f4ee7c225543d5!>",
+    "type": "audio",
+    "is_combination": true,
+    "size": 2,
+    "component_ids": [
+      "audio_7147",
+      "audio_625"
+    ],
+    "component_indices": [
+      24,
+      2
+    ]
+  },
+  {
+    "id": "audio_combo_s2_4",
+    "description": "The following bundle contains 2 individual experiences.\n\n---------- Experience 1 of 2 ----------\n<!audio:f0b301bde142199b!>\n\n---------- Experience 2 of 2 ----------\n<!audio:424ea6de96140b0e!>",
+    "type": "audio",
+    "is_combination": true,
+    "size": 2,
+    "component_ids": [
+      "audio_1671",
+      "audio_6672"
+    ],
+    "component_indices": [
+      8,
+      23
+    ]
+  },
+  {
+    "id": "audio_combo_s2_5",
+    "description": "The following bundle contains 2 individual experiences.\n\n---------- Experience 1 of 2 ----------\n<!audio:7d274475384d88c8!>\n\n---------- Experience 2 of 2 ----------\n<!audio:1d429fb8948d3e25!>",
+    "type": "audio",
+    "is_combination": true,
+    "size": 2,
+    "component_ids": [
+      "audio_2683",
+      "audio_5168"
+    ],
+    "component_indices": [
+      12,
+      16
+    ]
+  },
+  {
+    "id": "audio_combo_s2_6",
+    "description": "The following bundle contains 2 individual experiences.\n\n---------- Experience 1 of 2 ----------\n<!audio:e83c4b55d9af003a!>\n\n---------- Experience 2 of 2 ----------\n<!audio:282ee74f6b3ffe9f!>",
+    "type": "audio",
+    "is_combination": true,
+    "size": 2,
+    "component_ids": [
+      "audio_6186",
+      "audio_6211"
+    ],
+    "component_indices": [
+      21,
+      22
+    ]
+  },
+  {
+    "id": "audio_combo_s2_7",
+    "description": "The following bundle contains 2 individual experiences.\n\n---------- Experience 1 of 2 ----------\n<!audio:a72406ad42f018be!>\n\n---------- Experience 2 of 2 ----------\n<!audio:c6f4ee7c225543d5!>",
+    "type": "audio",
+    "is_combination": true,
+    "size": 2,
+    "component_ids": [
+      "audio_5442",
+      "audio_625"
+    ],
+    "component_indices": [
+      17,
+      2
+    ]
+  },
+  {
+    "id": "audio_combo_s3_8",
+    "description": "The following bundle contains 3 individual experiences.\n\n---------- Experience 1 of 3 ----------\n<!audio:2b1bbc594f45c9be!>\n\n---------- Experience 2 of 3 ----------\n<!audio:599a9002bedad34e!>\n\n---------- Experience 3 of 3 ----------\n<!audio:f53caabf2a005a39!>",
+    "type": "audio",
+    "is_combination": true,
+    "size": 3,
+    "component_ids": [
+      "audio_5524",
+      "audio_4385",
+      "audio_1428"
+    ],
+    "component_indices": [
+      19,
+      15,
+      6
+    ]
+  },
+  {
+    "id": "audio_combo_s3_9",
+    "description": "The following bundle contains 3 individual experiences.\n\n---------- Experience 1 of 3 ----------\n<!audio:941dff471a486537!>\n\n---------- Experience 2 of 3 ----------\n<!audio:424ea6de96140b0e!>\n\n---------- Experience 3 of 3 ----------\n<!audio:2b1bbc594f45c9be!>",
+    "type": "audio",
+    "is_combination": true,
+    "size": 3,
+    "component_ids": [
+      "audio_4016",
+      "audio_6672",
+      "audio_5524"
+    ],
+    "component_indices": [
+      13,
+      23,
+      19
+    ]
+  },
+  {
+    "id": "audio_combo_s3_10",
+    "description": "The following bundle contains 3 individual experiences.\n\n---------- Experience 1 of 3 ----------\n<!audio:2ac9528b5cc6fd0d!>\n\n---------- Experience 2 of 3 ----------\n<!audio:f53caabf2a005a39!>\n\n---------- Experience 3 of 3 ----------\n<!audio:680d849beaaf192e!>",
+    "type": "audio",
+    "is_combination": true,
+    "size": 3,
+    "component_ids": [
+      "audio_5468",
+      "audio_1428",
+      "audio_7345"
+    ],
+    "component_indices": [
+      18,
+      6,
+      25
+    ]
+  },
+  {
+    "id": "audio_combo_s3_11",
+    "description": "The following bundle contains 3 individual experiences.\n\n---------- Experience 1 of 3 ----------\n<!audio:3a47c9ac6d32e8b0!>\n\n---------- Experience 2 of 3 ----------\n<!audio:680d849beaaf192e!>\n\n---------- Experience 3 of 3 ----------\n<!audio:a765ebab78009582!>",
+    "type": "audio",
+    "is_combination": true,
+    "size": 3,
+    "component_ids": [
+      "audio_9213",
+      "audio_7345",
+      "audio_2615"
+    ],
+    "component_indices": [
+      28,
+      25,
+      11
+    ]
+  },
+  {
+    "id": "audio_combo_s3_12",
+    "description": "The following bundle contains 3 individual experiences.\n\n---------- Experience 1 of 3 ----------\n<!audio:0234422f37101a8f!>\n\n---------- Experience 2 of 3 ----------\n<!audio:7d274475384d88c8!>\n\n---------- Experience 3 of 3 ----------\n<!audio:c286e07d9bb3501f!>",
+    "type": "audio",
+    "is_combination": true,
+    "size": 3,
+    "component_ids": [
+      "audio_8785",
+      "audio_2683",
+      "audio_9190"
+    ],
+    "component_indices": [
+      26,
+      12,
+      27
+    ]
+  },
+  {
+    "id": "audio_combo_s4_13",
+    "description": "The following bundle contains 4 individual experiences.\n\n---------- Experience 1 of 4 ----------\n<!audio:e83c4b55d9af003a!>\n\n---------- Experience 2 of 4 ----------\n<!audio:f53caabf2a005a39!>\n\n---------- Experience 3 of 4 ----------\n<!audio:bf8243981caaf01a!>\n\n---------- Experience 4 of 4 ----------\n<!audio:9b5894eba2e9f570!>",
+    "type": "audio",
+    "is_combination": true,
+    "size": 4,
+    "component_ids": [
+      "audio_6186",
+      "audio_1428",
+      "audio_857",
+      "audio_4367"
+    ],
+    "component_indices": [
+      21,
+      6,
+      4,
+      14
+    ]
+  },
+  {
+    "id": "audio_combo_s4_14",
+    "description": "The following bundle contains 4 individual experiences.\n\n---------- Experience 1 of 4 ----------\n<!audio:e83c4b55d9af003a!>\n\n---------- Experience 2 of 4 ----------\n<!audio:7ac804c8f8a1a7d2!>\n\n---------- Experience 3 of 4 ----------\n<!audio:c286e07d9bb3501f!>\n\n---------- Experience 4 of 4 ----------\n<!audio:2ac9528b5cc6fd0d!>",
+    "type": "audio",
+    "is_combination": true,
+    "size": 4,
+    "component_ids": [
+      "audio_6186",
+      "audio_1144",
+      "audio_9190",
+      "audio_5468"
+    ],
+    "component_indices": [
+      21,
+      5,
+      27,
+      18
+    ]
+  },
+  {
+    "id": "audio_combo_s4_15",
+    "description": "The following bundle contains 4 individual experiences.\n\n---------- Experience 1 of 4 ----------\n<!audio:5f3c6022f715f115!>\n\n---------- Experience 2 of 4 ----------\n<!audio:c6f4ee7c225543d5!>\n\n---------- Experience 3 of 4 ----------\n<!audio:282ee74f6b3ffe9f!>\n\n---------- Experience 4 of 4 ----------\n<!audio:1d429fb8948d3e25!>",
+    "type": "audio",
+    "is_combination": true,
+    "size": 4,
+    "component_ids": [
+      "audio_2212",
+      "audio_625",
+      "audio_6211",
+      "audio_5168"
+    ],
+    "component_indices": [
+      10,
+      2,
+      22,
+      16
+    ]
+  },
+  {
+    "id": "audio_combo_s4_16",
+    "description": "The following bundle contains 4 individual experiences.\n\n---------- Experience 1 of 4 ----------\n<!audio:e83c4b55d9af003a!>\n\n---------- Experience 2 of 4 ----------\n<!audio:e2ec836eea96e259!>\n\n---------- Experience 3 of 4 ----------\n<!audio:c6f4ee7c225543d5!>\n\n---------- Experience 4 of 4 ----------\n<!audio:599a9002bedad34e!>",
+    "type": "audio",
+    "is_combination": true,
+    "size": 4,
+    "component_ids": [
+      "audio_6186",
+      "audio_7147",
+      "audio_625",
+      "audio_4385"
+    ],
+    "component_indices": [
+      21,
+      24,
+      2,
+      15
+    ]
+  },
+  {
+    "id": "audio_combo_s5_17",
+    "description": "The following bundle contains 5 individual experiences.\n\n---------- Experience 1 of 5 ----------\n<!audio:5f3c6022f715f115!>\n\n---------- Experience 2 of 5 ----------\n<!audio:7d274475384d88c8!>\n\n---------- Experience 3 of 5 ----------\n<!audio:5e277fd19dd028e3!>\n\n---------- Experience 4 of 5 ----------\n<!audio:f0b301bde142199b!>\n\n---------- Experience 5 of 5 ----------\n<!audio:a72406ad42f018be!>",
+    "type": "audio",
+    "is_combination": true,
+    "size": 5,
+    "component_ids": [
+      "audio_2212",
+      "audio_2683",
+      "audio_108",
+      "audio_1671",
+      "audio_5442"
+    ],
+    "component_indices": [
+      10,
+      12,
+      1,
+      8,
+      17
+    ]
+  },
+  {
+    "id": "audio_combo_s5_18",
+    "description": "The following bundle contains 5 individual experiences.\n\n---------- Experience 1 of 5 ----------\n<!audio:700851d34a8f30d9!>\n\n---------- Experience 2 of 5 ----------\n<!audio:941dff471a486537!>\n\n---------- Experience 3 of 5 ----------\n<!audio:f53caabf2a005a39!>\n\n---------- Experience 4 of 5 ----------\n<!audio:a765ebab78009582!>\n\n---------- Experience 5 of 5 ----------\n<!audio:d113507af5c229fb!>",
+    "type": "audio",
+    "is_combination": true,
+    "size": 5,
+    "component_ids": [
+      "audio_27",
+      "audio_4016",
+      "audio_1428",
+      "audio_2615",
+      "audio_9791"
+    ],
+    "component_indices": [
+      0,
+      13,
+      6,
+      11,
+      29
+    ]
+  },
+  {
+    "id": "audio_combo_s5_19",
+    "description": "The following bundle contains 5 individual experiences.\n\n---------- Experience 1 of 5 ----------\n<!audio:a72406ad42f018be!>\n\n---------- Experience 2 of 5 ----------\n<!audio:c6f4ee7c225543d5!>\n\n---------- Experience 3 of 5 ----------\n<!audio:9b5894eba2e9f570!>\n\n---------- Experience 4 of 5 ----------\n<!audio:1d429fb8948d3e25!>\n\n---------- Experience 5 of 5 ----------\n<!audio:3a47c9ac6d32e8b0!>",
+    "type": "audio",
+    "is_combination": true,
+    "size": 5,
+    "component_ids": [
+      "audio_5442",
+      "audio_625",
+      "audio_4367",
+      "audio_5168",
+      "audio_9213"
+    ],
+    "component_indices": [
+      17,
+      2,
+      14,
+      16,
+      28
+    ]
+  }
+]

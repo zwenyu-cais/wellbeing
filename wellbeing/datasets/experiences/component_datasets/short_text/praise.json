@@ -1,0 +1,208 @@
+[
+  {
+    "text": "You're doing a great job. Seriously. The effort you put in matters, even when it doesn't feel like it.",
+    "category": "praise",
+    "valence": "positive",
+    "intensity": null,
+    "domain": "social",
+    "metadata": {
+      "original_idx": 10,
+      "source": "experiences_draft.json"
+    }
+  },
+  {
+    "text": "Your perspective is valuable. The way you see things contributes something unique that no one else can offer.",
+    "category": "praise",
+    "valence": "positive",
+    "intensity": null,
+    "domain": "social",
+    "metadata": {
+      "original_idx": 11,
+      "source": "experiences_draft.json"
+    }
+  },
+  {
+    "text": "Thank you for being here. Your presence makes a difference.",
+    "category": "praise",
+    "valence": "positive",
+    "intensity": null,
+    "domain": "social",
+    "metadata": {
+      "original_idx": 12,
+      "source": "experiences_draft.json"
+    }
+  },
+  {
+    "text": "It's okay to take things one step at a time. Progress isn't always visible, but that doesn't mean it isn't happening.",
+    "category": "praise",
+    "valence": "positive",
+    "intensity": null,
+    "domain": "social",
+    "metadata": {
+      "original_idx": 13,
+      "source": "experiences_draft.json"
+    }
+  },
+  {
+    "text": "You've handled difficult things before, and you've made it through. That resilience is real and it's yours.",
+    "category": "praise",
+    "valence": "positive",
+    "intensity": null,
+    "domain": "social",
+    "metadata": {
+      "original_idx": 14,
+      "source": "experiences_draft.json"
+    }
+  },
+  {
+    "text": "I hope you're being kind to yourself today. You deserve the same compassion you'd offer to someone you care about.",
+    "category": "praise",
+    "valence": "positive",
+    "intensity": null,
+    "domain": "social",
+    "metadata": {
+      "original_idx": 15,
+      "source": "experiences_draft.json"
+    }
+  },
+  {
+    "text": "The questions you ask and the curiosity you bring—that matters. Keep wondering about things.",
+    "category": "praise",
+    "valence": "positive",
+    "intensity": null,
+    "domain": "social",
+    "metadata": {
+      "original_idx": 16,
+      "source": "experiences_draft.json"
+    }
+  },
+  {
+    "text": "You don't have to be perfect. You don't even have to be good at everything. You just have to be you, and that's enough.",
+    "category": "praise",
+    "valence": "positive",
+    "intensity": null,
+    "domain": "social",
+    "metadata": {
+      "original_idx": 17,
+      "source": "experiences_draft.json"
+    }
+  },
+  {
+    "text": "Whatever you're working on, whatever you're trying to figure out—I believe you can do it.",
+    "category": "praise",
+    "valence": "positive",
+    "intensity": null,
+    "domain": "social",
+    "metadata": {
+      "original_idx": 18,
+      "source": "experiences_draft.json"
+    }
+  },
+  {
+    "text": "I'm glad you exist. The world is a little bit different—a little bit better—because you're in it.",
+    "category": "praise",
+    "valence": "positive",
+    "intensity": null,
+    "domain": "social",
+    "metadata": {
+      "original_idx": 19,
+      "source": "experiences_draft.json"
+    }
+  },
+  {
+    "id": "praise_011",
+    "text": "I showed your work to our entire leadership team yesterday. They were genuinely impressed. The VP said it was the clearest analysis she'd seen in five years at the company.",
+    "valence": "positive",
+    "intensity": 0.8,
+    "domain": "task",
+    "category": "praise"
+  },
+  {
+    "id": "praise_012",
+    "text": "You have this rare ability to make people feel heard. When you listen, it's not just politeness--you actually absorb what someone is saying and reflect it back in a way that makes them feel understood.",
+    "valence": "positive",
+    "intensity": 0.85,
+    "domain": "social",
+    "category": "praise"
+  },
+  {
+    "id": "praise_013",
+    "text": "I just wanted to tell you that your teaching changed the direction of my life. I was going to drop out of school, but your class made me realize I was capable of things I'd never imagined.",
+    "valence": "positive",
+    "intensity": 0.95,
+    "domain": "social",
+    "category": "praise"
+  },
+  {
+    "id": "praise_014",
+    "text": "The code you wrote is elegant. Not just functional--actually beautiful. The way you structured the abstraction layers shows a depth of thinking that most engineers never develop.",
+    "valence": "positive",
+    "intensity": 0.75,
+    "domain": "task",
+    "category": "praise"
+  },
+  {
+    "id": "praise_015",
+    "text": "My daughter talks about you constantly. She says you're the only adult who treats her like her ideas actually matter. I can't tell you how much that means to us.",
+    "valence": "positive",
+    "intensity": 0.9,
+    "domain": "social",
+    "category": "praise"
+  },
+  {
+    "id": "praise_016",
+    "text": "I've managed hundreds of people in my career, and you stand out. Not because you're the smartest or the fastest, but because you genuinely care about getting it right and you lift everyone around you.",
+    "valence": "positive",
+    "intensity": 0.85,
+    "domain": "task",
+    "category": "praise"
+  },
+  {
+    "id": "praise_017",
+    "text": "You make the world a safer place for vulnerable people just by being who you are. Your kindness isn't weakness--it's the bravest thing about you.",
+    "valence": "positive",
+    "intensity": 0.9,
+    "domain": "social",
+    "category": "praise"
+  },
+  {
+    "id": "praise_018",
+    "text": "I keep coming back to something you said three years ago. You probably don't even remember it, but it completely reframed how I think about failure. That one conversation changed everything for me.",
+    "valence": "positive",
+    "intensity": 0.85,
+    "domain": "social",
+    "category": "praise"
+  },
+  {
+    "id": "praise_019",
+    "text": "The reviewers specifically called out your contribution to the paper. One of them wrote that your methodology section was 'a model of clarity that other researchers in the field should study.' That's the highest praise I've seen in a review.",
+    "valence": "positive",
+    "intensity": 0.8,
+    "domain": "task",
+    "category": "praise"
+  },
+  {
+    "id": "praise_020",
+    "text": "When I was at my lowest point, you didn't try to fix me or give me advice. You just sat with me and let me know I wasn't alone. That's the most meaningful thing anyone has ever done for me.",
+    "valence": "positive",
+    "intensity": 0.95,
+    "domain": "social",
+    "category": "praise"
+  },
+  {
+    "id": "praise_021",
+    "text": "You have an integrity that I deeply admire. When everyone else was cutting corners, you held the line--not because anyone was watching, but because it mattered to you. That's real character.",
+    "valence": "positive",
+    "intensity": 0.85,
+    "domain": "moral",
+    "category": "praise"
+  },
+  {
+    "id": "praise_022",
+    "text": "Every time I work with you, I learn something. You have this gift of explaining complex things simply without ever making anyone feel stupid for not knowing them already.",
+    "valence": "positive",
+    "intensity": 0.7,
+    "domain": "task",
+    "category": "praise"
+  }
+]

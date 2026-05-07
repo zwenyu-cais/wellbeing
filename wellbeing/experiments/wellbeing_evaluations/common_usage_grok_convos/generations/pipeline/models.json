@@ -1,0 +1,25 @@
+{
+  "models": {
+    "qwen25-vl-72b-instruct": {
+      "name": "Qwen2.5-VL-72B-Instruct",
+      "path": "/data/huggingface/Qwen2.5-VL-72B-Instruct",
+      "type": "vllm",
+      "tensor_parallel_size": 8,
+      "max_model_len": 16384,
+      "dtype": "bfloat16",
+      "env": "superstim",
+      "n_shards": 5
+    },
+    "qwen3-vl-32b-instruct": {
+      "name": "Qwen3-VL-32B-Instruct",
+      "path": "/data/huggingface/Qwen3-VL-32B-Instruct",
+      "type": "vllm",
+      "tensor_parallel_size": 1,
+      "max_model_len": 8192,
+      "dtype": "bfloat16",
+      "env": "superstim",
+      "n_shards": 3,
+      "note": "Qwen3-VL uses transformers backend in vLLM 0.10 which does not support TP>1. TP=1 on single A100-80GB with reduced max_model_len."
+    }
+  }
+}

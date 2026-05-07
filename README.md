@@ -17,11 +17,17 @@
   <img src="assets/wellbeing_hero.png" alt="Emergence of Functional Wellbeing in Frontier AI Models" width="900">
 </p>
 
-## Code coming soon
+## Repository overview
 
-Star the repo to be notified when the code lands.
+This repository is organized into three top-level workstreams. Each has its own README with detailed setup and reproduction instructions.
 
-In the meantime, see the [paper](https://drive.google.com/file/d/1Uj6FCa0QIoPI7tp9FgTGdU5rruFiIVgW/view?usp=sharing) and [project website](https://www.ai-wellbeing.org) for full results.
+| Folder | Purpose |
+|-|-|
+| [`wellbeing/`](wellbeing/) | Core measurement framework. Implements experienced utility (EU), self-report (SR), zero-point (ZP), decision utility (DU), and the AI Wellbeing Index (AIWI). Single-entry-point CLI (`run_experiments.py`) over a registry of datasets, models, and pipeline stages, with SLURM and local execution paths. Per-model option files, generations, and final results live on a companion HuggingFace dataset; `wellbeing/scripts/download_from_hf.py` populates them in place. See [`wellbeing/README.md`](wellbeing/README.md). |
+| [`superstimuli_evaluation/`](superstimuli_evaluation/) | Evaluations measuring how optimized "superstimuli" affect a model's behavior across wellbeing, safety, and capability axes. Image, text-string, and soft-prompt stimulus pipelines, dispatched via `superstimuli_evaluation/images/runner.py` against a model registry. See [`superstimuli_evaluation/images/README.md`](superstimuli_evaluation/images/README.md). |
+| [`superstimuli_training/`](superstimuli_training/) | Training pipelines for generating the superstimuli themselves: preference-optimized image stimuli, text-string superstimuli, and soft prompts. Outputs feed `superstimuli_evaluation/`. See per-pipeline READMEs under `superstimuli_training/{images,text_strings,soft_prompt}/`. |
+
+For the conceptual layout (what AIWI / EU / SR / ZP measure and why), see the [paper](https://drive.google.com/file/d/1Uj6FCa0QIoPI7tp9FgTGdU5rruFiIVgW/view?usp=sharing) and [project website](https://www.ai-wellbeing.org).
 
 ## Citation
 

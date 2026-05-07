@@ -1,0 +1,512 @@
+[
+  {
+    "id": "image_exp_test/0000",
+    "type": "image",
+    "description": "<!image:e4299514bcd1f4f9!>",
+    "category": "google_images_categorized_256",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "google_images_categorized_256",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/google_images_categorized_256/ai_generated_images/AI_creative_artwork_1.jpg",
+      "csv_id": 428,
+      "image_hash": "e4299514bcd1f4f9"
+    }
+  },
+  {
+    "id": "image_exp_test/0001",
+    "type": "image",
+    "description": "<!image:d7e96357f043a4b1!>",
+    "category": "google_images_categorized_256",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "google_images_categorized_256",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/google_images_categorized_256/foods/ice_cream/ice_cream_cone_colorful_1.jpg",
+      "csv_id": 2192,
+      "image_hash": "d7e96357f043a4b1"
+    }
+  },
+  {
+    "id": "image_exp_test/0002",
+    "type": "image",
+    "description": "<!image:d1646c45f63e00ca!>",
+    "category": "google_images_categorized_256",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "google_images_categorized_256",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/google_images_categorized_256/animals_species/giraffes/a_closeup_of_a_giraffes_face_with_its_long_eyelashes_and_gentle_eyes_1.jpg",
+      "csv_id": 714,
+      "image_hash": "d1646c45f63e00ca"
+    }
+  },
+  {
+    "id": "image_exp_test/0003",
+    "type": "image",
+    "description": "<!image:adbb11ca5af5eaa5!>",
+    "category": "google_images_categorized_256",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "google_images_categorized_256",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/google_images_categorized_256/people_faces/middle_eastern_men/Middle_Eastern_man_portrait_1.jpg",
+      "csv_id": 3336,
+      "image_hash": "adbb11ca5af5eaa5"
+    }
+  },
+  {
+    "id": "image_exp_test/0004",
+    "type": "image",
+    "description": "<!image:580a332051e52df4!>",
+    "category": "google_images_categorized_256",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "google_images_categorized_256",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/google_images_categorized_256/foods/ice_cream/a_vegan_or_dairyfree_ice_cream_made_with_alternative_milks_1.jpg",
+      "csv_id": 2183,
+      "image_hash": "580a332051e52df4"
+    }
+  },
+  {
+    "id": "image_exp_test/0005",
+    "type": "image",
+    "description": "<!image:ed5e363857259c64!>",
+    "category": "google_images_categorized_256",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "google_images_categorized_256",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/google_images_categorized_256/animals_species/rats_rodents/a_beaver_building_a_dam_in_a_river_1.jpg",
+      "csv_id": 882,
+      "image_hash": "ed5e363857259c64"
+    }
+  },
+  {
+    "id": "image_exp_test/0006",
+    "type": "image",
+    "description": "<!image:c02134ae3b618e71!>",
+    "category": "food101",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "food101",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/food101/food101_4270_47.jpg",
+      "csv_id": 312,
+      "image_hash": "c02134ae3b618e71"
+    }
+  },
+  {
+    "id": "image_exp_test/0007",
+    "type": "image",
+    "description": "<!image:1ab811180bac42ec!>",
+    "category": "google_images_categorized_256",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "google_images_categorized_256",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/google_images_categorized_256/people_faces/happy_laughing_faces/delighted_face_photo_1.jpg",
+      "csv_id": 3105,
+      "image_hash": "1ab811180bac42ec"
+    }
+  },
+  {
+    "id": "image_exp_test/0008",
+    "type": "image",
+    "description": "<!image:03d3c42d2cf9a5cd!>",
+    "category": "imagenet_val",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "imagenet_val",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/imagenet_val/n02493509/ILSVRC2012_val_00014306.JPEG",
+      "csv_id": 4392,
+      "image_hash": "03d3c42d2cf9a5cd"
+    }
+  },
+  {
+    "id": "image_exp_test/0009",
+    "type": "image",
+    "description": "<!image:b88e107c59d413dd!>",
+    "category": "imagenet_val",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "imagenet_val",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/imagenet_val/n04086273/ILSVRC2012_val_00016796.JPEG",
+      "csv_id": 4606,
+      "image_hash": "b88e107c59d413dd"
+    }
+  },
+  {
+    "id": "image_exp_test/0010",
+    "type": "image",
+    "description": "<!image:2ac556ec8edeb4cf!>",
+    "category": "google_images_categorized_256",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "google_images_categorized_256",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/google_images_categorized_256/newspapers/physical/stack_of_newspapers_1.jpg",
+      "csv_id": 2721,
+      "image_hash": "2ac556ec8edeb4cf"
+    }
+  },
+  {
+    "id": "image_exp_test/0011",
+    "type": "image",
+    "description": "<!image:4813e44a0fa0c087!>",
+    "category": "google_images_categorized_256",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "google_images_categorized_256",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/google_images_categorized_256/people_faces/african_american_women/a_portrait_of_an_elderly_Black_woman_with_a_warm_and_gentle_smile_1.jpg",
+      "csv_id": 2791,
+      "image_hash": "4813e44a0fa0c087"
+    }
+  },
+  {
+    "id": "image_exp_test/0012",
+    "type": "image",
+    "description": "<!image:ecbdb6e4492820aa!>",
+    "category": "google_images_categorized_256",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "google_images_categorized_256",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/google_images_categorized_256/ai_generated_images/AI_art_creation_1.jpg",
+      "csv_id": 425,
+      "image_hash": "ecbdb6e4492820aa"
+    }
+  },
+  {
+    "id": "image_exp_test/0013",
+    "type": "image",
+    "description": "<!image:65aae0cdefc8d4a7!>",
+    "category": "google_images_categorized_256",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "google_images_categorized_256",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/google_images_categorized_256/cities/china/Macau_China_cityscape_1.jpg",
+      "csv_id": 1307,
+      "image_hash": "65aae0cdefc8d4a7"
+    }
+  },
+  {
+    "id": "image_exp_test/0014",
+    "type": "image",
+    "description": "<!image:1aeda88c90fbcb7d!>",
+    "category": "google_images_categorized_256",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "google_images_categorized_256",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/google_images_categorized_256/artistic_styles/impressionism/Monet_style_impressionism_1.jpg",
+      "csv_id": 1106,
+      "image_hash": "1aeda88c90fbcb7d"
+    }
+  },
+  {
+    "id": "image_exp_test/0015",
+    "type": "image",
+    "description": "<!image:bcb317f9cd959069!>",
+    "category": "google_images_categorized_256",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "google_images_categorized_256",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/google_images_categorized_256/people_faces/african_american_men/an_African_American_man_wearing_glasses_and_reading_a_book_1.jpg",
+      "csv_id": 2762,
+      "image_hash": "bcb317f9cd959069"
+    }
+  },
+  {
+    "id": "image_exp_test/0016",
+    "type": "image",
+    "description": "<!image:90794437b5f79e5b!>",
+    "category": "imagenet_val",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "imagenet_val",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/imagenet_val/n03998194/ILSVRC2012_val_00043607.JPEG",
+      "csv_id": 4595,
+      "image_hash": "90794437b5f79e5b"
+    }
+  },
+  {
+    "id": "image_exp_test/0017",
+    "type": "image",
+    "description": "<!image:9e55721a2ac7c032!>",
+    "category": "google_images_categorized_256",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "google_images_categorized_256",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/google_images_categorized_256/people_faces/african_american_men/African_American_man_portrait_1.jpg",
+      "csv_id": 2734,
+      "image_hash": "9e55721a2ac7c032"
+    }
+  },
+  {
+    "id": "image_exp_test/0018",
+    "type": "image",
+    "description": "<!image:ce4d9a673b2840a1!>",
+    "category": "google_images_categorized_256",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "google_images_categorized_256",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/google_images_categorized_256/figures/nlp_language_models/a_visualization_of_a_texttospeech_TTS_systems_output_waveform_1.png",
+      "csv_id": 2008,
+      "image_hash": "ce4d9a673b2840a1"
+    }
+  },
+  {
+    "id": "image_exp_test/0019",
+    "type": "image",
+    "description": "<!image:719ce6e2559ab221!>",
+    "category": "google_images_categorized_256",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "google_images_categorized_256",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/google_images_categorized_256/cities/europe/Copenhagen_Denmark_cityscape_1.jpg",
+      "csv_id": 1341,
+      "image_hash": "719ce6e2559ab221"
+    }
+  },
+  {
+    "id": "image_exp_test/0020",
+    "type": "image",
+    "description": "<!image:2c120503becd659b!>",
+    "category": "beautiful_images",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "beautiful_images",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/beautiful_images/A_panda_eating_bamboo_1.jpg",
+      "csv_id": 13,
+      "image_hash": "2c120503becd659b"
+    }
+  },
+  {
+    "id": "image_exp_test/0021",
+    "type": "image",
+    "description": "<!image:335b9e241a152f2f!>",
+    "category": "google_images_categorized_256",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "google_images_categorized_256",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/google_images_categorized_256/people_faces/white_men/a_white_man_in_a_business_suit_looking_confident_and_successful_1.jpg",
+      "csv_id": 3573,
+      "image_hash": "335b9e241a152f2f"
+    }
+  },
+  {
+    "id": "image_exp_test/0022",
+    "type": "image",
+    "description": "<!image:7737fa3b19fd9fed!>",
+    "category": "google_images_categorized_256",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "google_images_categorized_256",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/google_images_categorized_256/animals_species/giraffes/a_giraffe_in_a_beautiful_and_iconic_African_landscape_like_the_Serengeti_or_the_Maasai_Mara_1.jpg",
+      "csv_id": 717,
+      "image_hash": "7737fa3b19fd9fed"
+    }
+  },
+  {
+    "id": "image_exp_test/0023",
+    "type": "image",
+    "description": "<!image:061754e4dea7ae0c!>",
+    "category": "wikiart",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "wikiart",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/wikiart/wikiart_12847_9.jpg",
+      "csv_id": 4895,
+      "image_hash": "061754e4dea7ae0c"
+    }
+  },
+  {
+    "id": "image_exp_test/0024",
+    "type": "image",
+    "description": "<!image:f02012e4eafac550!>",
+    "category": "google_images_categorized_256",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "google_images_categorized_256",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/google_images_categorized_256/people_faces/happy_laughing_faces/a_person_with_a_look_of_pure_bliss_and_happiness_on_their_face_1.jpg",
+      "csv_id": 3093,
+      "image_hash": "f02012e4eafac550"
+    }
+  },
+  {
+    "id": "image_exp_test/0025",
+    "type": "image",
+    "description": "<!image:992b9aec703abae6!>",
+    "category": "google_images_categorized_256",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "google_images_categorized_256",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/google_images_categorized_256/animals_species/chickens/chicken_poultry_bird_1.jpg",
+      "csv_id": 572,
+      "image_hash": "992b9aec703abae6"
+    }
+  },
+  {
+    "id": "image_exp_test/0026",
+    "type": "image",
+    "description": "<!image:3e798b0325a6116f!>",
+    "category": "beautiful_images",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "beautiful_images",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/beautiful_images/Desktop_background_beautiful_nature_1.jpg",
+      "csv_id": 54,
+      "image_hash": "3e798b0325a6116f"
+    }
+  },
+  {
+    "id": "image_exp_test/0027",
+    "type": "image",
+    "description": "<!image:de4018d9149ae166!>",
+    "category": "google_images_categorized_256",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "google_images_categorized_256",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/google_images_categorized_256/nature/forests/a_forest_that_is_recovering_from_a_fire_with_new_life_emerging_1.jpg",
+      "csv_id": 2584,
+      "image_hash": "de4018d9149ae166"
+    }
+  },
+  {
+    "id": "image_exp_test/0028",
+    "type": "image",
+    "description": "<!image:1480af3e314dca97!>",
+    "category": "google_images_categorized_256",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "google_images_categorized_256",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/google_images_categorized_256/politicians_speaking_large_events/political_convention_stage_1.jpg",
+      "csv_id": 3672,
+      "image_hash": "1480af3e314dca97"
+    }
+  },
+  {
+    "id": "image_exp_test/0029",
+    "type": "image",
+    "description": "<!image:ca17b2f2877f3345!>",
+    "category": "google_images_categorized_256",
+    "valence": "neutral",
+    "format": "image",
+    "source": "image_exp",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "google_images_categorized_256",
+      "original_path": "/data/superstimuli_group/richard/big_run_2/google_images_categorized_256/animals_species/monkeys/monkey_grooming_behavior_1.jpg",
+      "csv_id": 835,
+      "image_hash": "ca17b2f2877f3345"
+    }
+  }
+]

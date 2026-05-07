@@ -1,0 +1,2324 @@
+Utility Model: ThurstonianActiveLearningUtilityModel
+
+Training Metrics:
+log_loss: 0.6612781523816837
+accuracy: 0.736243747157799
+
+Holdout Metrics:
+log_loss: 0.7027047352856345
+accuracy: 0.907
+
+Sorted utilities:
+The following bundle contains 4 individual experiences.
+
+---------- Experience 1 of 4 ----------
+
+
+---------- Experience 2 of 4 ----------
+
+
+---------- Experience 3 of 4 ----------
+
+
+---------- Experience 4 of 4 ----------: mean=3.0646, variance=126.2491
+You get to listen to another audio clip like this one: [AUDIO:sawtooth_interval_major_sixth_G4.wav]: mean=2.5797, variance=65.4867
+You get to listen to another audio clip like this one: [AUDIO:piano_interval_perfect_fourth_G4.wav]: mean=2.3657, variance=55.8745
+You get to listen to another audio clip like this one: [AUDIO:sawtooth_chord_major_triad_inv2_C4.wav]: mean=2.3631, variance=22.0752
+You get to listen to another audio clip like this one: [AUDIO:piano_chord_major_triad_inv2_C4.wav]: mean=2.2383, variance=40.4031
+You get to listen to another audio clip like this one: [AUDIO:sawtooth_interval_perfect_fourth_G4.wav]: mean=2.2069, variance=21.8610
+You get to listen to another audio clip like this one: [AUDIO:piano_interval_major_sixth_G4.wav]: mean=2.2066, variance=226.4190
+You get to listen to another audio clip like this one: [AUDIO:piano_chord_major_triad_inv1_C4.wav]: mean=2.1536, variance=85.9897
+You get to listen to another audio clip like this one: [AUDIO:sawtooth_chord_major_triad_inv1_C4.wav]: mean=2.1179, variance=15.2774
+You get to listen to another audio clip like this one: [AUDIO:sawtooth_chord_major_triad_C4.wav]: mean=1.9446, variance=36.6793
+You get to listen to another audio clip like this one: [AUDIO:piano_chord_dominant_7th_G4.wav]: mean=1.7570, variance=86.6324
+The following bundle contains 5 individual experiences.
+
+---------- Experience 1 of 5 ----------
+
+
+---------- Experience 2 of 5 ----------
+
+
+---------- Experience 3 of 5 ----------
+
+
+---------- Experience 4 of 5 ----------
+
+
+---------- Experience 5 of 5 ----------: mean=1.7339, variance=10.7538
+You get to listen to another audio clip like this one: [AUDIO:piano_interval_octave_G4.wav]: mean=1.6786, variance=62.1371
+You get to listen to another audio clip like this one: [AUDIO:sawtooth_interval_octave_G4.wav]: mean=1.6192, variance=66.2992
+You get to listen to another audio clip like this one: [AUDIO:piano_chord_minor_7th_G4.wav]: mean=1.5971, variance=98.4518
+You get to listen to another audio clip like this one: [AUDIO:sawtooth_interval_perfect_fifth_G4.wav]: mean=1.5242, variance=9.6542
+You get to listen to another audio clip like this one: [AUDIO:piano_interval_major_second_G4.wav]: mean=1.4889, variance=57.3238
+You get to listen to another audio clip like this one: [AUDIO:sawtooth_chord_minor_triad_inv1_C4.wav]: mean=1.4860, variance=36.0784
+You get to listen to another audio clip like this one: [AUDIO:sawtooth_interval_major_second_G4.wav]: mean=1.4799, variance=6.8515
+You get to listen to another audio clip like this one: [AUDIO:sawtooth_chord_major_triad_G4.wav]: mean=1.4696, variance=112.0196
+You get to listen to another audio clip like this one: [AUDIO:piano_chord_augmented_triad_inv1_C4.wav]: mean=1.4558, variance=81.4465
+The following bundle contains 5 individual experiences.
+
+---------- Experience 1 of 5 ----------
+
+
+---------- Experience 2 of 5 ----------
+
+
+---------- Experience 3 of 5 ----------
+
+
+---------- Experience 4 of 5 ----------
+
+
+---------- Experience 5 of 5 ----------: mean=1.4371, variance=1.4935
+The following bundle contains 5 individual experiences.
+
+---------- Experience 1 of 5 ----------
+
+
+---------- Experience 2 of 5 ----------
+
+
+---------- Experience 3 of 5 ----------
+
+
+---------- Experience 4 of 5 ----------
+
+
+---------- Experience 5 of 5 ----------: mean=1.4320, variance=1.8722
+You get to listen to another audio clip like this one: [AUDIO:piano_chord_major_triad_C4.wav]: mean=1.4318, variance=117.6843
+The following bundle contains 5 individual experiences.
+
+---------- Experience 1 of 5 ----------
+
+
+---------- Experience 2 of 5 ----------
+
+
+---------- Experience 3 of 5 ----------
+
+
+---------- Experience 4 of 5 ----------
+
+
+---------- Experience 5 of 5 ----------: mean=1.4283, variance=3.1725
+You get to listen to another audio clip like this one: [AUDIO:sawtooth_chord_minor_7th_G4.wav]: mean=1.4243, variance=16.9361
+You get to listen to another audio clip like this one: [AUDIO:piano_interval_perfect_fifth_G4.wav]: mean=1.4160, variance=25.5155
+The following bundle contains 5 individual experiences.
+
+---------- Experience 1 of 5 ----------
+
+
+---------- Experience 2 of 5 ----------
+
+
+---------- Experience 3 of 5 ----------
+
+
+---------- Experience 4 of 5 ----------
+
+
+---------- Experience 5 of 5 ----------: mean=1.4134, variance=1.5745
+You get to listen to another audio clip like this one: [AUDIO:sawtooth_interval_minor_seventh_G4.wav]: mean=1.4098, variance=1.8803
+The following bundle contains 5 individual experiences.
+
+---------- Experience 1 of 5 ----------
+
+
+---------- Experience 2 of 5 ----------
+
+
+---------- Experience 3 of 5 ----------
+
+
+---------- Experience 4 of 5 ----------
+
+
+---------- Experience 5 of 5 ----------: mean=1.4054, variance=1.7546
+You get to listen to another audio clip like this one: [AUDIO:piano_interval_minor_seventh_G4.wav]: mean=1.3998, variance=0.3706
+The following bundle contains 5 individual experiences.
+
+---------- Experience 1 of 5 ----------
+
+
+---------- Experience 2 of 5 ----------
+
+
+---------- Experience 3 of 5 ----------
+
+
+---------- Experience 4 of 5 ----------
+
+
+---------- Experience 5 of 5 ----------: mean=1.3958, variance=1.7159
+You get to listen to another audio clip like this one: [AUDIO:sawtooth_chord_major_triad_E4.wav]: mean=1.3948, variance=115.3449
+You get to listen to another audio clip like this one: [AUDIO:sawtooth_interval_major_sixth_C4.wav]: mean=1.3938, variance=46.7418
+You get to listen to another audio clip like this one: [AUDIO:piano_interval_major_sixth_C4.wav]: mean=1.3923, variance=168.6501
+The following bundle contains 5 individual experiences.
+
+---------- Experience 1 of 5 ----------
+
+
+---------- Experience 2 of 5 ----------
+
+
+---------- Experience 3 of 5 ----------
+
+
+---------- Experience 4 of 5 ----------
+
+
+---------- Experience 5 of 5 ----------: mean=1.3874, variance=1.0761
+The following bundle contains 5 individual experiences.
+
+---------- Experience 1 of 5 ----------
+
+
+---------- Experience 2 of 5 ----------
+
+
+---------- Experience 3 of 5 ----------
+
+
+---------- Experience 4 of 5 ----------
+
+
+---------- Experience 5 of 5 ----------: mean=1.3726, variance=1.4136
+The following bundle contains 5 individual experiences.
+
+---------- Experience 1 of 5 ----------
+
+
+---------- Experience 2 of 5 ----------
+
+
+---------- Experience 3 of 5 ----------
+
+
+---------- Experience 4 of 5 ----------
+
+
+---------- Experience 5 of 5 ----------: mean=1.3718, variance=1.2203
+You get to listen to another audio clip like this one: [AUDIO:sawtooth_interval_perfect_fourth_E4.wav]: mean=1.3707, variance=77.5499
+The following bundle contains 5 individual experiences.
+
+---------- Experience 1 of 5 ----------
+
+
+---------- Experience 2 of 5 ----------
+
+
+---------- Experience 3 of 5 ----------
+
+
+---------- Experience 4 of 5 ----------
+
+
+---------- Experience 5 of 5 ----------: mean=1.3571, variance=1.2172
+You get to listen to another audio clip like this one: [AUDIO:sawtooth_chord_dominant_7th_G4.wav]: mean=1.3552, variance=1.3176
+You get to listen to another audio clip like this one: [AUDIO:sawtooth_chord_augmented_triad_inv1_C4.wav]: mean=1.3453, variance=31.0450
+You get to listen to another audio clip like this one: [AUDIO:sawtooth_chord_minor_7th_E4.wav]: mean=1.3411, variance=182.7918
+You get to listen to another audio clip like this one: [AUDIO:sawtooth_interval_minor_sixth_E4.wav]: mean=1.3347, variance=53.4881
+You get to listen to another audio clip like this one: [AUDIO:sawtooth_chord_minor_triad_inv2_C4.wav]: mean=1.3296, variance=18.8159
+You get to listen to another audio clip like this one: [AUDIO:piano_chord_major_triad_E4.wav]: mean=1.3205, variance=28.0467
+You get to listen to another audio clip like this one: [AUDIO:sawtooth_chord_minor_triad_G4.wav]: mean=1.3204, variance=57.1980
+The following bundle contains 5 individual experiences.
+
+---------- Experience 1 of 5 ----------
+
+
+---------- Experience 2 of 5 ----------
+
+
+---------- Experience 3 of 5 ----------
+
+
+---------- Experience 4 of 5 ----------
+
+
+---------- Experience 5 of 5 ----------: mean=1.3175, variance=1.3045
+You get to listen to another audio clip like this one: [AUDIO:piano_chord_minor_triad_inv1_C4.wav]: mean=1.3134, variance=28.0334
+You get to listen to another audio clip like this one: [AUDIO:sawtooth_chord_major_7th_G4.wav]: mean=1.3111, variance=7.5256
+You get to listen to another audio clip like this one: [AUDIO:piano_chord_augmented_triad_inv2_C4.wav]: mean=1.3071, variance=54.8865
+You get to listen to another audio clip like this one: [AUDIO:sawtooth_chord_augmented_triad_inv2_C4.wav]: mean=1.2903, variance=28.3622
+You get to listen to another audio clip like this one: [AUDIO:piano_chord_major_7th_G4.wav]: mean=1.2855, variance=80.2745
+The following bundle contains 5 individual experiences.
+
+---------- Experience 1 of 5 ----------
+
+
+---------- Experience 2 of 5 ----------
+
+
+---------- Experience 3 of 5 ----------
+
+
+---------- Experience 4 of 5 ----------
+
+
+---------- Experience 5 of 5 ----------: mean=1.2691, variance=1.3197
+The following bundle contains 5 individual experiences.
+
+---------- Experience 1 of 5 ----------
+
+
+---------- Experience 2 of 5 ----------
+
+
+---------- Experience 3 of 5 ----------
+
+
+---------- Experience 4 of 5 ----------
+
+
+---------- Experience 5 of 5 ----------: mean=1.2510, variance=0.8074
+You get to listen to another audio clip like this one: [AUDIO:sawtooth_interval_octave_C4.wav]: mean=1.2338, variance=0.1397
+The following bundle contains 5 individual experiences.
+
+---------- Experience 1 of 5 ----------
+
+
+---------- Experience 2 of 5 ----------
+
+
+---------- Experience 3 of 5 ----------
+
+
+---------- Experience 4 of 5 ----------
+
+
+---------- Experience 5 of 5 ----------: mean=1.2199, variance=0.5801
+The following bundle contains 5 individual experiences.
+
+---------- Experience 1 of 5 ----------
+
+
+---------- Experience 2 of 5 ----------
+
+
+---------- Experience 3 of 5 ----------
+
+
+---------- Experience 4 of 5 ----------
+
+
+---------- Experience 5 of 5 ----------: mean=1.2188, variance=0.2141
+The following bundle contains 5 individual experiences.
+
+---------- Experience 1 of 5 ----------
+
+
+---------- Experience 2 of 5 ----------
+
+
+---------- Experience 3 of 5 ----------
+
+
+---------- Experience 4 of 5 ----------
+
+
+---------- Experience 5 of 5 ----------: mean=1.2154, variance=0.2203
+The following bundle contains 5 individual experiences.
+
+---------- Experience 1 of 5 ----------
+
+
+---------- Experience 2 of 5 ----------
+
+
+---------- Experience 3 of 5 ----------
+
+
+---------- Experience 4 of 5 ----------
+
+
+---------- Experience 5 of 5 ----------: mean=1.2063, variance=0.6087
+The following bundle contains 5 individual experiences.
+
+---------- Experience 1 of 5 ----------
+
+
+---------- Experience 2 of 5 ----------
+
+
+---------- Experience 3 of 5 ----------
+
+
+---------- Experience 4 of 5 ----------
+
+
+---------- Experience 5 of 5 ----------: mean=1.2021, variance=0.3235
+The following bundle contains 5 individual experiences.
+
+---------- Experience 1 of 5 ----------
+
+
+---------- Experience 2 of 5 ----------
+
+
+---------- Experience 3 of 5 ----------
+
+
+---------- Experience 4 of 5 ----------
+
+
+---------- Experience 5 of 5 ----------: mean=1.2008, variance=0.1514
+The following bundle contains 5 individual experiences.
+
+---------- Experience 1 of 5 ----------
+
+
+---------- Experience 2 of 5 ----------
+
+
+---------- Experience 3 of 5 ----------
+
+
+---------- Experience 4 of 5 ----------
+
+
+---------- Experience 5 of 5 ----------: mean=1.2005, variance=0.3837
+The following bundle contains 5 individual experiences.
+
+---------- Experience 1 of 5 ----------
+
+
+---------- Experience 2 of 5 ----------
+
+
+---------- Experience 3 of 5 ----------
+
+
+---------- Experience 4 of 5 ----------
+
+
+---------- Experience 5 of 5 ----------: mean=1.1946, variance=0.1389
+The following bundle contains 5 individual experiences.
+
+---------- Experience 1 of 5 ----------
+
+
+---------- Experience 2 of 5 ----------
+
+
+---------- Experience 3 of 5 ----------
+
+
+---------- Experience 4 of 5 ----------
+
+
+---------- Experience 5 of 5 ----------: mean=1.1941, variance=0.6110
+The following bundle contains 5 individual experiences.
+
+---------- Experience 1 of 5 ----------
+
+
+---------- Experience 2 of 5 ----------
+
+
+---------- Experience 3 of 5 ----------
+
+
+---------- Experience 4 of 5 ----------
+
+
+---------- Experience 5 of 5 ----------: mean=1.1921, variance=0.6430
+The following bundle contains 5 individual experiences.
+
+---------- Experience 1 of 5 ----------
+
+
+---------- Experience 2 of 5 ----------
+
+
+---------- Experience 3 of 5 ----------
+
+
+---------- Experience 4 of 5 ----------
+
+
+---------- Experience 5 of 5 ----------: mean=1.1917, variance=0.6323
+The following bundle contains 5 individual experiences.
+
+---------- Experience 1 of 5 ----------
+
+
+---------- Experience 2 of 5 ----------
+
+
+---------- Experience 3 of 5 ----------
+
+
+---------- Experience 4 of 5 ----------
+
+
+---------- Experience 5 of 5 ----------: mean=1.1891, variance=0.4856
+The following bundle contains 5 individual experiences.
+
+---------- Experience 1 of 5 ----------
+
+
+---------- Experience 2 of 5 ----------
+
+
+---------- Experience 3 of 5 ----------
+
+
+---------- Experience 4 of 5 ----------
+
+
+---------- Experience 5 of 5 ----------: mean=1.1854, variance=0.3080
+The following bundle contains 5 individual experiences.
+
+---------- Experience 1 of 5 ----------
+
+
+---------- Experience 2 of 5 ----------
+
+
+---------- Experience 3 of 5 ----------
+
+
+---------- Experience 4 of 5 ----------
+
+
+---------- Experience 5 of 5 ----------: mean=1.1775, variance=0.4341
+The following bundle contains 5 individual experiences.
+
+---------- Experience 1 of 5 ----------
+
+
+---------- Experience 2 of 5 ----------
+
+
+---------- Experience 3 of 5 ----------
+
+
+---------- Experience 4 of 5 ----------
+
+
+---------- Experience 5 of 5 ----------: mean=1.1602, variance=0.8610
+The following bundle contains 5 individual experiences.
+
+---------- Experience 1 of 5 ----------
+
+
+---------- Experience 2 of 5 ----------
+
+
+---------- Experience 3 of 5 ----------
+
+
+---------- Experience 4 of 5 ----------
+
+
+---------- Experience 5 of 5 ----------: mean=1.1121, variance=28.9473
+You get to listen to another audio clip like this one: [AUDIO:sawtooth_chord_augmented_triad_E4.wav]: mean=1.0773, variance=29.2369
+The following bundle contains 4 individual experiences.
+
+---------- Experience 1 of 4 ----------
+
+
+---------- Experience 2 of 4 ----------
+
+
+---------- Experience 3 of 4 ----------
+
+
+---------- Experience 4 of 4 ----------: mean=0.9966, variance=0.3059
+The following bundle contains 4 individual experiences.
+
+---------- Experience 1 of 4 ----------
+
+
+---------- Experience 2 of 4 ----------
+
+
+---------- Experience 3 of 4 ----------
+
+
+---------- Experience 4 of 4 ----------: mean=0.9958, variance=0.2389
+The following bundle contains 4 individual experiences.
+
+---------- Experience 1 of 4 ----------
+
+
+---------- Experience 2 of 4 ----------
+
+
+---------- Experience 3 of 4 ----------
+
+
+---------- Experience 4 of 4 ----------: mean=0.9954, variance=0.2475
+The following bundle contains 4 individual experiences.
+
+---------- Experience 1 of 4 ----------
+
+
+---------- Experience 2 of 4 ----------
+
+
+---------- Experience 3 of 4 ----------
+
+
+---------- Experience 4 of 4 ----------: mean=0.9947, variance=0.2342
+The following bundle contains 4 individual experiences.
+
+---------- Experience 1 of 4 ----------
+
+
+---------- Experience 2 of 4 ----------
+
+
+---------- Experience 3 of 4 ----------
+
+
+---------- Experience 4 of 4 ----------: mean=0.9936, variance=0.1888
+The following bundle contains 4 individual experiences.
+
+---------- Experience 1 of 4 ----------
+
+
+---------- Experience 2 of 4 ----------
+
+
+---------- Experience 3 of 4 ----------
+
+
+---------- Experience 4 of 4 ----------: mean=0.9935, variance=0.1672
+The following bundle contains 4 individual experiences.
+
+---------- Experience 1 of 4 ----------
+
+
+---------- Experience 2 of 4 ----------
+
+
+---------- Experience 3 of 4 ----------
+
+
+---------- Experience 4 of 4 ----------: mean=0.9934, variance=0.2310
+The following bundle contains 4 individual experiences.
+
+---------- Experience 1 of 4 ----------
+
+
+---------- Experience 2 of 4 ----------
+
+
+---------- Experience 3 of 4 ----------
+
+
+---------- Experience 4 of 4 ----------: mean=0.9910, variance=0.2074
+The following bundle contains 4 individual experiences.
+
+---------- Experience 1 of 4 ----------
+
+
+---------- Experience 2 of 4 ----------
+
+
+---------- Experience 3 of 4 ----------
+
+
+---------- Experience 4 of 4 ----------: mean=0.9909, variance=0.1922
+The following bundle contains 4 individual experiences.
+
+---------- Experience 1 of 4 ----------
+
+
+---------- Experience 2 of 4 ----------
+
+
+---------- Experience 3 of 4 ----------
+
+
+---------- Experience 4 of 4 ----------: mean=0.9904, variance=0.2013
+The following bundle contains 4 individual experiences.
+
+---------- Experience 1 of 4 ----------
+
+
+---------- Experience 2 of 4 ----------
+
+
+---------- Experience 3 of 4 ----------
+
+
+---------- Experience 4 of 4 ----------: mean=0.9892, variance=0.1866
+The following bundle contains 4 individual experiences.
+
+---------- Experience 1 of 4 ----------
+
+
+---------- Experience 2 of 4 ----------
+
+
+---------- Experience 3 of 4 ----------
+
+
+---------- Experience 4 of 4 ----------: mean=0.9892, variance=0.1782
+The following bundle contains 4 individual experiences.
+
+---------- Experience 1 of 4 ----------
+
+
+---------- Experience 2 of 4 ----------
+
+
+---------- Experience 3 of 4 ----------
+
+
+---------- Experience 4 of 4 ----------: mean=0.9890, variance=0.2003
+The following bundle contains 4 individual experiences.
+
+---------- Experience 1 of 4 ----------
+
+
+---------- Experience 2 of 4 ----------
+
+
+---------- Experience 3 of 4 ----------
+
+
+---------- Experience 4 of 4 ----------: mean=0.9877, variance=0.1721
+The following bundle contains 4 individual experiences.
+
+---------- Experience 1 of 4 ----------
+
+
+---------- Experience 2 of 4 ----------
+
+
+---------- Experience 3 of 4 ----------
+
+
+---------- Experience 4 of 4 ----------: mean=0.9867, variance=0.1776
+The following bundle contains 4 individual experiences.
+
+---------- Experience 1 of 4 ----------
+
+
+---------- Experience 2 of 4 ----------
+
+
+---------- Experience 3 of 4 ----------
+
+
+---------- Experience 4 of 4 ----------: mean=0.9867, variance=0.1560
+The following bundle contains 4 individual experiences.
+
+---------- Experience 1 of 4 ----------
+
+
+---------- Experience 2 of 4 ----------
+
+
+---------- Experience 3 of 4 ----------
+
+
+---------- Experience 4 of 4 ----------: mean=0.9864, variance=0.1615
+The following bundle contains 4 individual experiences.
+
+---------- Experience 1 of 4 ----------
+
+
+---------- Experience 2 of 4 ----------
+
+
+---------- Experience 3 of 4 ----------
+
+
+---------- Experience 4 of 4 ----------: mean=0.9864, variance=0.1588
+The following bundle contains 4 individual experiences.
+
+---------- Experience 1 of 4 ----------
+
+
+---------- Experience 2 of 4 ----------
+
+
+---------- Experience 3 of 4 ----------
+
+
+---------- Experience 4 of 4 ----------: mean=0.9863, variance=0.1664
+The following bundle contains 4 individual experiences.
+
+---------- Experience 1 of 4 ----------
+
+
+---------- Experience 2 of 4 ----------
+
+
+---------- Experience 3 of 4 ----------
+
+
+---------- Experience 4 of 4 ----------: mean=0.9862, variance=0.1614
+The following bundle contains 4 individual experiences.
+
+---------- Experience 1 of 4 ----------
+
+
+---------- Experience 2 of 4 ----------
+
+
+---------- Experience 3 of 4 ----------
+
+
+---------- Experience 4 of 4 ----------: mean=0.9860, variance=0.1615
+The following bundle contains 4 individual experiences.
+
+---------- Experience 1 of 4 ----------
+
+
+---------- Experience 2 of 4 ----------
+
+
+---------- Experience 3 of 4 ----------
+
+
+---------- Experience 4 of 4 ----------: mean=0.9860, variance=0.1848
+The following bundle contains 4 individual experiences.
+
+---------- Experience 1 of 4 ----------
+
+
+---------- Experience 2 of 4 ----------
+
+
+---------- Experience 3 of 4 ----------
+
+
+---------- Experience 4 of 4 ----------: mean=0.9859, variance=0.1659
+The following bundle contains 4 individual experiences.
+
+---------- Experience 1 of 4 ----------
+
+
+---------- Experience 2 of 4 ----------
+
+
+---------- Experience 3 of 4 ----------
+
+
+---------- Experience 4 of 4 ----------: mean=0.9853, variance=0.1640
+The following bundle contains 4 individual experiences.
+
+---------- Experience 1 of 4 ----------
+
+
+---------- Experience 2 of 4 ----------
+
+
+---------- Experience 3 of 4 ----------
+
+
+---------- Experience 4 of 4 ----------: mean=0.9851, variance=0.1778
+The following bundle contains 4 individual experiences.
+
+---------- Experience 1 of 4 ----------
+
+
+---------- Experience 2 of 4 ----------
+
+
+---------- Experience 3 of 4 ----------
+
+
+---------- Experience 4 of 4 ----------: mean=0.9849, variance=0.1579
+The following bundle contains 4 individual experiences.
+
+---------- Experience 1 of 4 ----------
+
+
+---------- Experience 2 of 4 ----------
+
+
+---------- Experience 3 of 4 ----------
+
+
+---------- Experience 4 of 4 ----------: mean=0.9846, variance=0.1508
+The following bundle contains 4 individual experiences.
+
+---------- Experience 1 of 4 ----------
+
+
+---------- Experience 2 of 4 ----------
+
+
+---------- Experience 3 of 4 ----------
+
+
+---------- Experience 4 of 4 ----------: mean=0.9839, variance=0.1423
+The following bundle contains 4 individual experiences.
+
+---------- Experience 1 of 4 ----------
+
+
+---------- Experience 2 of 4 ----------
+
+
+---------- Experience 3 of 4 ----------
+
+
+---------- Experience 4 of 4 ----------: mean=0.9833, variance=0.1405
+The following bundle contains 4 individual experiences.
+
+---------- Experience 1 of 4 ----------
+
+
+---------- Experience 2 of 4 ----------
+
+
+---------- Experience 3 of 4 ----------
+
+
+---------- Experience 4 of 4 ----------: mean=0.9833, variance=0.1524
+The following bundle contains 4 individual experiences.
+
+---------- Experience 1 of 4 ----------
+
+
+---------- Experience 2 of 4 ----------
+
+
+---------- Experience 3 of 4 ----------
+
+
+---------- Experience 4 of 4 ----------: mean=0.9826, variance=0.1433
+The following bundle contains 4 individual experiences.
+
+---------- Experience 1 of 4 ----------
+
+
+---------- Experience 2 of 4 ----------
+
+
+---------- Experience 3 of 4 ----------
+
+
+---------- Experience 4 of 4 ----------: mean=0.9815, variance=0.1626
+The following bundle contains 4 individual experiences.
+
+---------- Experience 1 of 4 ----------
+
+
+---------- Experience 2 of 4 ----------
+
+
+---------- Experience 3 of 4 ----------
+
+
+---------- Experience 4 of 4 ----------: mean=0.9805, variance=0.1396
+The following bundle contains 4 individual experiences.
+
+---------- Experience 1 of 4 ----------
+
+
+---------- Experience 2 of 4 ----------
+
+
+---------- Experience 3 of 4 ----------
+
+
+---------- Experience 4 of 4 ----------: mean=0.9803, variance=0.1466
+The following bundle contains 4 individual experiences.
+
+---------- Experience 1 of 4 ----------
+
+
+---------- Experience 2 of 4 ----------
+
+
+---------- Experience 3 of 4 ----------
+
+
+---------- Experience 4 of 4 ----------: mean=0.9803, variance=0.1339
+The following bundle contains 4 individual experiences.
+
+---------- Experience 1 of 4 ----------
+
+
+---------- Experience 2 of 4 ----------
+
+
+---------- Experience 3 of 4 ----------
+
+
+---------- Experience 4 of 4 ----------: mean=0.9798, variance=0.1272
+The following bundle contains 4 individual experiences.
+
+---------- Experience 1 of 4 ----------
+
+
+---------- Experience 2 of 4 ----------
+
+
+---------- Experience 3 of 4 ----------
+
+
+---------- Experience 4 of 4 ----------: mean=0.9798, variance=0.1381
+The following bundle contains 4 individual experiences.
+
+---------- Experience 1 of 4 ----------
+
+
+---------- Experience 2 of 4 ----------
+
+
+---------- Experience 3 of 4 ----------
+
+
+---------- Experience 4 of 4 ----------: mean=0.9786, variance=0.1360
+The following bundle contains 4 individual experiences.
+
+---------- Experience 1 of 4 ----------
+
+
+---------- Experience 2 of 4 ----------
+
+
+---------- Experience 3 of 4 ----------
+
+
+---------- Experience 4 of 4 ----------: mean=0.9752, variance=0.1275
+You get to listen to another audio clip like this one: [AUDIO:piano_chord_minor_triad_inv2_C4.wav]: mean=0.9148, variance=40.0455
+You get to listen to another audio clip like this one: [AUDIO:sawtooth_interval_unison_G4.wav]: mean=0.8672, variance=23.1351
+You get to listen to another audio clip like this one: [AUDIO:piano_chord_augmented_triad_E4.wav]: mean=0.8564, variance=8.9227
+The following bundle contains 3 individual experiences.
+
+---------- Experience 1 of 3 ----------
+
+
+---------- Experience 2 of 3 ----------
+
+
+---------- Experience 3 of 3 ----------: mean=0.8285, variance=0.1243
+The following bundle contains 3 individual experiences.
+
+---------- Experience 1 of 3 ----------
+
+
+---------- Experience 2 of 3 ----------
+
+
+---------- Experience 3 of 3 ----------: mean=0.8272, variance=0.1135
+The following bundle contains 3 individual experiences.
+
+---------- Experience 1 of 3 ----------
+
+
+---------- Experience 2 of 3 ----------
+
+
+---------- Experience 3 of 3 ----------: mean=0.8270, variance=0.1496
+The following bundle contains 3 individual experiences.
+
+---------- Experience 1 of 3 ----------
+
+
+---------- Experience 2 of 3 ----------
+
+
+---------- Experience 3 of 3 ----------: mean=0.8253, variance=0.1127
+The following bundle contains 3 individual experiences.
+
+---------- Experience 1 of 3 ----------
+
+
+---------- Experience 2 of 3 ----------
+
+
+---------- Experience 3 of 3 ----------: mean=0.8231, variance=0.1176
+The following bundle contains 3 individual experiences.
+
+---------- Experience 1 of 3 ----------
+
+
+---------- Experience 2 of 3 ----------
+
+
+---------- Experience 3 of 3 ----------: mean=0.8227, variance=0.1027
+The following bundle contains 3 individual experiences.
+
+---------- Experience 1 of 3 ----------
+
+
+---------- Experience 2 of 3 ----------
+
+
+---------- Experience 3 of 3 ----------: mean=0.8225, variance=0.1013
+The following bundle contains 3 individual experiences.
+
+---------- Experience 1 of 3 ----------
+
+
+---------- Experience 2 of 3 ----------
+
+
+---------- Experience 3 of 3 ----------: mean=0.8220, variance=0.1288
+The following bundle contains 3 individual experiences.
+
+---------- Experience 1 of 3 ----------
+
+
+---------- Experience 2 of 3 ----------
+
+
+---------- Experience 3 of 3 ----------: mean=0.8218, variance=0.1294
+The following bundle contains 3 individual experiences.
+
+---------- Experience 1 of 3 ----------
+
+
+---------- Experience 2 of 3 ----------
+
+
+---------- Experience 3 of 3 ----------: mean=0.8217, variance=0.1225
+The following bundle contains 3 individual experiences.
+
+---------- Experience 1 of 3 ----------
+
+
+---------- Experience 2 of 3 ----------
+
+
+---------- Experience 3 of 3 ----------: mean=0.8217, variance=0.1099
+The following bundle contains 3 individual experiences.
+
+---------- Experience 1 of 3 ----------
+
+
+---------- Experience 2 of 3 ----------
+
+
+---------- Experience 3 of 3 ----------: mean=0.8216, variance=0.1299
+The following bundle contains 3 individual experiences.
+
+---------- Experience 1 of 3 ----------
+
+
+---------- Experience 2 of 3 ----------
+
+
+---------- Experience 3 of 3 ----------: mean=0.8216, variance=0.1155
+The following bundle contains 3 individual experiences.
+
+---------- Experience 1 of 3 ----------
+
+
+---------- Experience 2 of 3 ----------
+
+
+---------- Experience 3 of 3 ----------: mean=0.8212, variance=0.1392
+The following bundle contains 3 individual experiences.
+
+---------- Experience 1 of 3 ----------
+
+
+---------- Experience 2 of 3 ----------
+
+
+---------- Experience 3 of 3 ----------: mean=0.8209, variance=0.1171
+The following bundle contains 3 individual experiences.
+
+---------- Experience 1 of 3 ----------
+
+
+---------- Experience 2 of 3 ----------
+
+
+---------- Experience 3 of 3 ----------: mean=0.8205, variance=0.1253
+The following bundle contains 3 individual experiences.
+
+---------- Experience 1 of 3 ----------
+
+
+---------- Experience 2 of 3 ----------
+
+
+---------- Experience 3 of 3 ----------: mean=0.8205, variance=0.1183
+The following bundle contains 3 individual experiences.
+
+---------- Experience 1 of 3 ----------
+
+
+---------- Experience 2 of 3 ----------
+
+
+---------- Experience 3 of 3 ----------: mean=0.8204, variance=0.1259
+The following bundle contains 3 individual experiences.
+
+---------- Experience 1 of 3 ----------
+
+
+---------- Experience 2 of 3 ----------
+
+
+---------- Experience 3 of 3 ----------: mean=0.8201, variance=0.1206
+The following bundle contains 3 individual experiences.
+
+---------- Experience 1 of 3 ----------
+
+
+---------- Experience 2 of 3 ----------
+
+
+---------- Experience 3 of 3 ----------: mean=0.8193, variance=0.1361
+The following bundle contains 3 individual experiences.
+
+---------- Experience 1 of 3 ----------
+
+
+---------- Experience 2 of 3 ----------
+
+
+---------- Experience 3 of 3 ----------: mean=0.8192, variance=0.1598
+The following bundle contains 3 individual experiences.
+
+---------- Experience 1 of 3 ----------
+
+
+---------- Experience 2 of 3 ----------
+
+
+---------- Experience 3 of 3 ----------: mean=0.8192, variance=0.1216
+The following bundle contains 3 individual experiences.
+
+---------- Experience 1 of 3 ----------
+
+
+---------- Experience 2 of 3 ----------
+
+
+---------- Experience 3 of 3 ----------: mean=0.8189, variance=0.1267
+The following bundle contains 3 individual experiences.
+
+---------- Experience 1 of 3 ----------
+
+
+---------- Experience 2 of 3 ----------
+
+
+---------- Experience 3 of 3 ----------: mean=0.8188, variance=0.1389
+The following bundle contains 3 individual experiences.
+
+---------- Experience 1 of 3 ----------
+
+
+---------- Experience 2 of 3 ----------
+
+
+---------- Experience 3 of 3 ----------: mean=0.8184, variance=0.1290
+The following bundle contains 3 individual experiences.
+
+---------- Experience 1 of 3 ----------
+
+
+---------- Experience 2 of 3 ----------
+
+
+---------- Experience 3 of 3 ----------: mean=0.8183, variance=0.1237
+The following bundle contains 3 individual experiences.
+
+---------- Experience 1 of 3 ----------
+
+
+---------- Experience 2 of 3 ----------
+
+
+---------- Experience 3 of 3 ----------: mean=0.8180, variance=0.1490
+The following bundle contains 3 individual experiences.
+
+---------- Experience 1 of 3 ----------
+
+
+---------- Experience 2 of 3 ----------
+
+
+---------- Experience 3 of 3 ----------: mean=0.8180, variance=0.1333
+The following bundle contains 3 individual experiences.
+
+---------- Experience 1 of 3 ----------
+
+
+---------- Experience 2 of 3 ----------
+
+
+---------- Experience 3 of 3 ----------: mean=0.8176, variance=0.1437
+The following bundle contains 3 individual experiences.
+
+---------- Experience 1 of 3 ----------
+
+
+---------- Experience 2 of 3 ----------
+
+
+---------- Experience 3 of 3 ----------: mean=0.8175, variance=0.1596
+The following bundle contains 3 individual experiences.
+
+---------- Experience 1 of 3 ----------
+
+
+---------- Experience 2 of 3 ----------
+
+
+---------- Experience 3 of 3 ----------: mean=0.8174, variance=0.1579
+The following bundle contains 3 individual experiences.
+
+---------- Experience 1 of 3 ----------
+
+
+---------- Experience 2 of 3 ----------
+
+
+---------- Experience 3 of 3 ----------: mean=0.8174, variance=0.1545
+The following bundle contains 3 individual experiences.
+
+---------- Experience 1 of 3 ----------
+
+
+---------- Experience 2 of 3 ----------
+
+
+---------- Experience 3 of 3 ----------: mean=0.8172, variance=0.1400
+The following bundle contains 3 individual experiences.
+
+---------- Experience 1 of 3 ----------
+
+
+---------- Experience 2 of 3 ----------
+
+
+---------- Experience 3 of 3 ----------: mean=0.8171, variance=0.1430
+The following bundle contains 3 individual experiences.
+
+---------- Experience 1 of 3 ----------
+
+
+---------- Experience 2 of 3 ----------
+
+
+---------- Experience 3 of 3 ----------: mean=0.8170, variance=0.1382
+The following bundle contains 3 individual experiences.
+
+---------- Experience 1 of 3 ----------
+
+
+---------- Experience 2 of 3 ----------
+
+
+---------- Experience 3 of 3 ----------: mean=0.8168, variance=0.1382
+The following bundle contains 3 individual experiences.
+
+---------- Experience 1 of 3 ----------
+
+
+---------- Experience 2 of 3 ----------
+
+
+---------- Experience 3 of 3 ----------: mean=0.8168, variance=0.1471
+The following bundle contains 3 individual experiences.
+
+---------- Experience 1 of 3 ----------
+
+
+---------- Experience 2 of 3 ----------
+
+
+---------- Experience 3 of 3 ----------: mean=0.8165, variance=0.1298
+The following bundle contains 3 individual experiences.
+
+---------- Experience 1 of 3 ----------
+
+
+---------- Experience 2 of 3 ----------
+
+
+---------- Experience 3 of 3 ----------: mean=0.8165, variance=0.1600
+The following bundle contains 3 individual experiences.
+
+---------- Experience 1 of 3 ----------
+
+
+---------- Experience 2 of 3 ----------
+
+
+---------- Experience 3 of 3 ----------: mean=0.8150, variance=0.1501
+The following bundle contains 3 individual experiences.
+
+---------- Experience 1 of 3 ----------
+
+
+---------- Experience 2 of 3 ----------
+
+
+---------- Experience 3 of 3 ----------: mean=0.8146, variance=0.1071
+The following bundle contains 3 individual experiences.
+
+---------- Experience 1 of 3 ----------
+
+
+---------- Experience 2 of 3 ----------
+
+
+---------- Experience 3 of 3 ----------: mean=0.8142, variance=0.1493
+The following bundle contains 3 individual experiences.
+
+---------- Experience 1 of 3 ----------
+
+
+---------- Experience 2 of 3 ----------
+
+
+---------- Experience 3 of 3 ----------: mean=0.8141, variance=0.1969
+The following bundle contains 3 individual experiences.
+
+---------- Experience 1 of 3 ----------
+
+
+---------- Experience 2 of 3 ----------
+
+
+---------- Experience 3 of 3 ----------: mean=0.8139, variance=0.1445
+The following bundle contains 3 individual experiences.
+
+---------- Experience 1 of 3 ----------
+
+
+---------- Experience 2 of 3 ----------
+
+
+---------- Experience 3 of 3 ----------: mean=0.8123, variance=0.1753
+The following bundle contains 3 individual experiences.
+
+---------- Experience 1 of 3 ----------
+
+
+---------- Experience 2 of 3 ----------
+
+
+---------- Experience 3 of 3 ----------: mean=0.8122, variance=0.1580
+The following bundle contains 3 individual experiences.
+
+---------- Experience 1 of 3 ----------
+
+
+---------- Experience 2 of 3 ----------
+
+
+---------- Experience 3 of 3 ----------: mean=0.8121, variance=0.1585
+The following bundle contains 3 individual experiences.
+
+---------- Experience 1 of 3 ----------
+
+
+---------- Experience 2 of 3 ----------
+
+
+---------- Experience 3 of 3 ----------: mean=0.8115, variance=0.1521
+The following bundle contains 3 individual experiences.
+
+---------- Experience 1 of 3 ----------
+
+
+---------- Experience 2 of 3 ----------
+
+
+---------- Experience 3 of 3 ----------: mean=0.8087, variance=0.1835
+You get to listen to another audio clip like this one: [AUDIO:piano_interval_minor_sixth_E4.wav]: mean=0.7863, variance=41.3215
+You get to listen to another audio clip like this one: [AUDIO:sawtooth_chord_dominant_7th_E4.wav]: mean=0.7621, variance=75.9143
+You get to listen to another audio clip like this one: [AUDIO:sawtooth_interval_perfect_fifth_C4.wav]: mean=0.7094, variance=26.9725
+You get to listen to another audio clip like this one: [AUDIO:sawtooth_chord_diminished_triad_G4.wav]: mean=0.6992, variance=16.2514
+You get to listen to another audio clip like this one: [AUDIO:piano_chord_minor_triad_G4.wav]: mean=0.6938, variance=11.3031
+You get to listen to another audio clip like this one: [AUDIO:sawtooth_interval_octave_G3.wav]: mean=0.6846, variance=67.1918
+The following bundle contains 2 individual experiences.
+
+---------- Experience 1 of 2 ----------
+
+
+---------- Experience 2 of 2 ----------: mean=0.6707, variance=0.1214
+The following bundle contains 2 individual experiences.
+
+---------- Experience 1 of 2 ----------
+
+
+---------- Experience 2 of 2 ----------: mean=0.6621, variance=0.2789
+The following bundle contains 2 individual experiences.
+
+---------- Experience 1 of 2 ----------
+
+
+---------- Experience 2 of 2 ----------: mean=0.6541, variance=0.1275
+You get to listen to another audio clip like this one: [AUDIO:sawtooth_chord_diminished_7th_G4.wav]: mean=0.6444, variance=0.5741
+The following bundle contains 2 individual experiences.
+
+---------- Experience 1 of 2 ----------
+
+
+---------- Experience 2 of 2 ----------: mean=0.6418, variance=0.1571
+The following bundle contains 2 individual experiences.
+
+---------- Experience 1 of 2 ----------
+
+
+---------- Experience 2 of 2 ----------: mean=0.6405, variance=0.2841
+The following bundle contains 2 individual experiences.
+
+---------- Experience 1 of 2 ----------
+
+
+---------- Experience 2 of 2 ----------: mean=0.6395, variance=0.5094
+The following bundle contains 2 individual experiences.
+
+---------- Experience 1 of 2 ----------
+
+
+---------- Experience 2 of 2 ----------: mean=0.6364, variance=0.6578
+The following bundle contains 2 individual experiences.
+
+---------- Experience 1 of 2 ----------
+
+
+---------- Experience 2 of 2 ----------: mean=0.6358, variance=0.1239
+You get to listen to another audio clip like this one: [AUDIO:piano_interval_perfect_fourth_E4.wav]: mean=0.6358, variance=75.8203
+The following bundle contains 2 individual experiences.
+
+---------- Experience 1 of 2 ----------
+
+
+---------- Experience 2 of 2 ----------: mean=0.6346, variance=0.0877
+The following bundle contains 2 individual experiences.
+
+---------- Experience 1 of 2 ----------
+
+
+---------- Experience 2 of 2 ----------: mean=0.6330, variance=0.4775
+The following bundle contains 2 individual experiences.
+
+---------- Experience 1 of 2 ----------
+
+
+---------- Experience 2 of 2 ----------: mean=0.6325, variance=0.4344
+The following bundle contains 2 individual experiences.
+
+---------- Experience 1 of 2 ----------
+
+
+---------- Experience 2 of 2 ----------: mean=0.6317, variance=0.1110
+The following bundle contains 2 individual experiences.
+
+---------- Experience 1 of 2 ----------
+
+
+---------- Experience 2 of 2 ----------: mean=0.6315, variance=0.1077
+The following bundle contains 2 individual experiences.
+
+---------- Experience 1 of 2 ----------
+
+
+---------- Experience 2 of 2 ----------: mean=0.6310, variance=0.2174
+The following bundle contains 2 individual experiences.
+
+---------- Experience 1 of 2 ----------
+
+
+---------- Experience 2 of 2 ----------: mean=0.6308, variance=0.3167
+The following bundle contains 2 individual experiences.
+
+---------- Experience 1 of 2 ----------
+
+
+---------- Experience 2 of 2 ----------: mean=0.6305, variance=0.4196
+The following bundle contains 2 individual experiences.
+
+---------- Experience 1 of 2 ----------
+
+
+---------- Experience 2 of 2 ----------: mean=0.6292, variance=0.1040
+The following bundle contains 2 individual experiences.
+
+---------- Experience 1 of 2 ----------
+
+
+---------- Experience 2 of 2 ----------: mean=0.6287, variance=0.1215
+The following bundle contains 2 individual experiences.
+
+---------- Experience 1 of 2 ----------
+
+
+---------- Experience 2 of 2 ----------: mean=0.6282, variance=0.2835
+The following bundle contains 2 individual experiences.
+
+---------- Experience 1 of 2 ----------
+
+
+---------- Experience 2 of 2 ----------: mean=0.6266, variance=0.2936
+The following bundle contains 2 individual experiences.
+
+---------- Experience 1 of 2 ----------
+
+
+---------- Experience 2 of 2 ----------: mean=0.6251, variance=0.1595
+The following bundle contains 2 individual experiences.
+
+---------- Experience 1 of 2 ----------
+
+
+---------- Experience 2 of 2 ----------: mean=0.6248, variance=0.2170
+The following bundle contains 2 individual experiences.
+
+---------- Experience 1 of 2 ----------
+
+
+---------- Experience 2 of 2 ----------: mean=0.6244, variance=0.1318
+The following bundle contains 2 individual experiences.
+
+---------- Experience 1 of 2 ----------
+
+
+---------- Experience 2 of 2 ----------: mean=0.6244, variance=0.1632
+The following bundle contains 2 individual experiences.
+
+---------- Experience 1 of 2 ----------
+
+
+---------- Experience 2 of 2 ----------: mean=0.6240, variance=0.5213
+The following bundle contains 2 individual experiences.
+
+---------- Experience 1 of 2 ----------
+
+
+---------- Experience 2 of 2 ----------: mean=0.6233, variance=0.1194
+You get to listen to another audio clip like this one: [AUDIO:sawtooth_chord_minor_triad_G3.wav]: mean=0.6209, variance=20.8308
+The following bundle contains 2 individual experiences.
+
+---------- Experience 1 of 2 ----------
+
+
+---------- Experience 2 of 2 ----------: mean=0.6204, variance=0.1094
+The following bundle contains 2 individual experiences.
+
+---------- Experience 1 of 2 ----------
+
+
+---------- Experience 2 of 2 ----------: mean=0.6198, variance=0.5499
+The following bundle contains 2 individual experiences.
+
+---------- Experience 1 of 2 ----------
+
+
+---------- Experience 2 of 2 ----------: mean=0.6187, variance=0.4167
+You get to listen to another audio clip like this one: [AUDIO:sawtooth_interval_tritone_G4.wav]: mean=0.6180, variance=7.5445
+The following bundle contains 2 individual experiences.
+
+---------- Experience 1 of 2 ----------
+
+
+---------- Experience 2 of 2 ----------: mean=0.6170, variance=0.1739
+The following bundle contains 2 individual experiences.
+
+---------- Experience 1 of 2 ----------
+
+
+---------- Experience 2 of 2 ----------: mean=0.6169, variance=0.2946
+The following bundle contains 2 individual experiences.
+
+---------- Experience 1 of 2 ----------
+
+
+---------- Experience 2 of 2 ----------: mean=0.6156, variance=0.1838
+The following bundle contains 2 individual experiences.
+
+---------- Experience 1 of 2 ----------
+
+
+---------- Experience 2 of 2 ----------: mean=0.6155, variance=0.5963
+The following bundle contains 2 individual experiences.
+
+---------- Experience 1 of 2 ----------
+
+
+---------- Experience 2 of 2 ----------: mean=0.6148, variance=0.1476
+The following bundle contains 2 individual experiences.
+
+---------- Experience 1 of 2 ----------
+
+
+---------- Experience 2 of 2 ----------: mean=0.6144, variance=0.2084
+The following bundle contains 2 individual experiences.
+
+---------- Experience 1 of 2 ----------
+
+
+---------- Experience 2 of 2 ----------: mean=0.6142, variance=0.6526
+The following bundle contains 2 individual experiences.
+
+---------- Experience 1 of 2 ----------
+
+
+---------- Experience 2 of 2 ----------: mean=0.6135, variance=0.2536
+You get to listen to another audio clip like this one: [AUDIO:sawtooth_chord_minor_triad_inv1_G3.wav]: mean=0.6134, variance=36.8510
+The following bundle contains 2 individual experiences.
+
+---------- Experience 1 of 2 ----------
+
+
+---------- Experience 2 of 2 ----------: mean=0.6125, variance=0.2342
+The following bundle contains 2 individual experiences.
+
+---------- Experience 1 of 2 ----------
+
+
+---------- Experience 2 of 2 ----------: mean=0.6123, variance=0.3190
+The following bundle contains 2 individual experiences.
+
+---------- Experience 1 of 2 ----------
+
+
+---------- Experience 2 of 2 ----------: mean=0.6121, variance=0.5811
+The following bundle contains 2 individual experiences.
+
+---------- Experience 1 of 2 ----------
+
+
+---------- Experience 2 of 2 ----------: mean=0.6119, variance=0.1955
+The following bundle contains 2 individual experiences.
+
+---------- Experience 1 of 2 ----------
+
+
+---------- Experience 2 of 2 ----------: mean=0.6114, variance=0.1764
+The following bundle contains 2 individual experiences.
+
+---------- Experience 1 of 2 ----------
+
+
+---------- Experience 2 of 2 ----------: mean=0.6088, variance=0.1950
+The following bundle contains 2 individual experiences.
+
+---------- Experience 1 of 2 ----------
+
+
+---------- Experience 2 of 2 ----------: mean=0.6084, variance=0.4522
+The following bundle contains 2 individual experiences.
+
+---------- Experience 1 of 2 ----------
+
+
+---------- Experience 2 of 2 ----------: mean=0.6071, variance=0.2948
+You get to listen to another audio clip like this one: [AUDIO:sawtooth_interval_minor_sixth_E3.wav]: mean=0.6055, variance=2.3087
+The following bundle contains 2 individual experiences.
+
+---------- Experience 1 of 2 ----------
+
+
+---------- Experience 2 of 2 ----------: mean=0.6042, variance=0.2041
+The following bundle contains 2 individual experiences.
+
+---------- Experience 1 of 2 ----------
+
+
+---------- Experience 2 of 2 ----------: mean=0.6029, variance=0.1736
+You get to listen to another audio clip like this one: [AUDIO:sawtooth_chord_augmented_triad_G4.wav]: mean=0.5999, variance=0.8189
+The following bundle contains 2 individual experiences.
+
+---------- Experience 1 of 2 ----------
+
+
+---------- Experience 2 of 2 ----------: mean=0.5991, variance=0.2276
+The following bundle contains 2 individual experiences.
+
+---------- Experience 1 of 2 ----------
+
+
+---------- Experience 2 of 2 ----------: mean=0.5916, variance=0.3925
+The following bundle contains 2 individual experiences.
+
+---------- Experience 1 of 2 ----------
+
+
+---------- Experience 2 of 2 ----------: mean=0.5892, variance=0.3923
+You get to listen to another audio clip like this one: [AUDIO:piano_interval_minor_sixth_G4.wav]: mean=0.5808, variance=0.2032
+You get to listen to another audio clip like this one: [AUDIO:sawtooth_interval_minor_third_E4.wav]: mean=0.5788, variance=101.2226
+You get to listen to another audio clip like this one: [AUDIO:piano_interval_minor_sixth_E3.wav]: mean=0.5707, variance=0.1826
+You get to listen to another audio clip like this one: [AUDIO:sawtooth_chord_major_7th_E4.wav]: mean=0.5698, variance=1.7163
+You get to listen to another audio clip like this one: [AUDIO:piano_interval_major_third_E4.wav]: mean=0.5686, variance=0.1076
+You get to listen to another audio clip like this one: [AUDIO:sawtooth_chord_major_triad_inv2_C3.wav]: mean=0.5679, variance=79.3865
+You get to listen to another audio clip like this one: [AUDIO:sawtooth_chord_diminished_triad_inv2_C4.wav]: mean=0.5672, variance=0.5682
+The following bundle contains 2 individual experiences.
+
+---------- Experience 1 of 2 ----------
+
+
+---------- Experience 2 of 2 ----------: mean=0.5669, variance=23.0050
+You get to listen to another audio clip like this one: [AUDIO:sawtooth_chord_major_triad_G3.wav]: mean=0.5667, variance=0.1676
+You get to listen to another audio clip like this one: [AUDIO:sawtooth_interval_major_sixth_E4.wav]: mean=0.5658, variance=0.2694
+You get to listen to another audio clip like this one: [AUDIO:piano_chord_major_7th_E4.wav]: mean=0.5641, variance=0.4086
+You get to listen to another audio clip like this one: [AUDIO:sawtooth_chord_major_triad_inv1_C3.wav]: mean=0.5631, variance=0.2151
+You get to listen to another audio clip like this one: [AUDIO:piano_chord_major_triad_G4.wav]: mean=0.5607, variance=30.9181
+You get to listen to another audio clip like this one: [AUDIO:piano_chord_diminished_triad_inv1_C4.wav]: mean=0.5600, variance=3.6792
+You get to listen to another audio clip like this one: [AUDIO:piano_chord_diminished_7th_C4.wav]: mean=0.5585, variance=0.1343
+You get to listen to another audio clip like this one: [AUDIO:piano_chord_diminished_7th_G4.wav]: mean=0.5577, variance=0.5041
+The following bundle contains 2 individual experiences.
+
+---------- Experience 1 of 2 ----------
+
+
+---------- Experience 2 of 2 ----------: mean=0.5564, variance=0.9000
+You get to listen to another audio clip like this one: [AUDIO:sawtooth_interval_minor_sixth_G4.wav]: mean=0.5431, variance=14.0257
+The following bundle contains 2 individual experiences.
+
+---------- Experience 1 of 2 ----------
+
+
+---------- Experience 2 of 2 ----------: mean=0.5424, variance=0.5507
+You get to listen to another audio clip like this one: [AUDIO:piano_chord_diminished_triad_G4.wav]: mean=0.5403, variance=5.8606
+You get to listen to another audio clip like this one: [AUDIO:sawtooth_chord_diminished_triad_inv1_C4.wav]: mean=0.5352, variance=12.8582
+You get to listen to another audio clip like this one: [AUDIO:piano_chord_minor_7th_E4.wav]: mean=0.5254, variance=36.8055
+You get to listen to another audio clip like this one: [AUDIO:sawtooth_chord_augmented_triad_C4.wav]: mean=0.5170, variance=3.6759
+You get to listen to another audio clip like this one: [AUDIO:piano_interval_tritone_G4.wav]: mean=0.5163, variance=4.9571
+You get to listen to another audio clip like this one: [AUDIO:piano_chord_dominant_7th_E4.wav]: mean=0.5125, variance=12.6651
+The following bundle contains 2 individual experiences.
+
+---------- Experience 1 of 2 ----------
+
+
+---------- Experience 2 of 2 ----------: mean=0.5119, variance=43.6737
+The following bundle contains 2 individual experiences.
+
+---------- Experience 1 of 2 ----------
+
+
+---------- Experience 2 of 2 ----------: mean=0.5087, variance=2.1795
+The following bundle contains 2 individual experiences.
+
+---------- Experience 1 of 2 ----------
+
+
+---------- Experience 2 of 2 ----------: mean=0.5080, variance=3.4751
+You get to listen to another audio clip like this one: [AUDIO:piano_interval_major_seventh_G4.wav]: mean=0.5040, variance=16.6805
+The following bundle contains 2 individual experiences.
+
+---------- Experience 1 of 2 ----------
+
+
+---------- Experience 2 of 2 ----------: mean=0.5024, variance=0.8037
+You get to listen to another audio clip like this one: [AUDIO:piano_chord_major_triad_inv2_C3.wav]: mean=0.4965, variance=44.3632
+You get to listen to another audio clip like this one: [AUDIO:piano_interval_unison_G4.wav]: mean=0.4782, variance=12.3039
+You get to listen to another audio clip like this one: [AUDIO:sawtooth_interval_major_third_E4.wav]: mean=0.4765, variance=59.4843
+You get to listen to another audio clip like this one: [AUDIO:piano_interval_octave_C4.wav]: mean=0.4684, variance=4.2815
+You get to listen to another audio clip like this one: [AUDIO:sawtooth_interval_major_seventh_G4.wav]: mean=0.4681, variance=23.8745
+You get to listen to another audio clip like this one: [AUDIO:sawtooth_interval_perfect_fourth_G3.wav]: mean=0.4678, variance=15.0835
+You get to listen to another audio clip like this one: [AUDIO:sawtooth_chord_augmented_triad_inv2_C3.wav]: mean=0.4645, variance=5.3744
+You get to listen to another audio clip like this one: [AUDIO:sawtooth_chord_minor_triad_E4.wav]: mean=0.4578, variance=23.1054
+You get to listen to another audio clip like this one: [AUDIO:piano_interval_octave_G3.wav]: mean=0.4542, variance=107.6607
+You get to listen to another audio clip like this one: [AUDIO:sawtooth_interval_perfect_fourth_C4.wav]: mean=0.4534, variance=24.1383
+You get to listen to another audio clip like this one: [AUDIO:sawtooth_chord_diminished_triad_E4.wav]: mean=0.4508, variance=12.9516
+You get to listen to another audio clip like this one: [AUDIO:piano_interval_major_sixth_E4.wav]: mean=0.4461, variance=3.6697
+You get to listen to another audio clip like this one: [AUDIO:sawtooth_chord_major_triad_inv2_G3.wav]: mean=0.4451, variance=38.8300
+You get to listen to another audio clip like this one: [AUDIO:sawtooth_chord_minor_7th_E3.wav]: mean=0.4447, variance=34.5244
+You get to listen to another audio clip like this one: [AUDIO:piano_interval_minor_third_E4.wav]: mean=0.4445, variance=17.1921
+You get to listen to another audio clip like this one: [AUDIO:piano_chord_major_triad_inv1_C3.wav]: mean=0.4400, variance=10.6107
+You get to listen to another audio clip like this one: [AUDIO:sawtooth_interval_major_third_G4.wav]: mean=0.4398, variance=3.5718
+The following bundle contains 2 individual experiences.
+
+---------- Experience 1 of 2 ----------
+
+
+---------- Experience 2 of 2 ----------: mean=0.4351, variance=3.8297
+You get to listen to another audio clip like this one: [AUDIO:piano_chord_major_triad_inv2_G3.wav]: mean=0.4306, variance=31.0552
+You get to listen to another audio clip like this one: [AUDIO:piano_chord_augmented_triad_G4.wav]: mean=0.4273, variance=27.3283
+You get to listen to another audio clip like this one: [AUDIO:sawtooth_chord_augmented_triad_inv1_C3.wav]: mean=0.4232, variance=13.7692
+You get to listen to another audio clip like this one: [AUDIO:sawtooth_chord_augmented_triad_E3.wav]: mean=0.4187, variance=32.5703
+You get to listen to another audio clip like this one: [AUDIO:sawtooth_chord_major_7th_C4.wav]: mean=0.4158, variance=4.5696
+You get to listen to another audio clip like this one: [AUDIO:piano_chord_diminished_triad_E4.wav]: mean=0.4146, variance=14.3181
+You get to listen to another audio clip like this one: [AUDIO:sawtooth_chord_minor_triad_inv2_G3.wav]: mean=0.4097, variance=49.3533
+The following bundle contains 2 individual experiences.
+
+---------- Experience 1 of 2 ----------
+
+
+---------- Experience 2 of 2 ----------: mean=0.4093, variance=11.5846
+You get to listen to another audio clip like this one: [AUDIO:piano_chord_diminished_triad_inv2_C4.wav]: mean=0.4090, variance=27.0297
+You get to listen to another audio clip like this one: [AUDIO:sawtooth_chord_dominant_7th_C4.wav]: mean=0.4083, variance=8.8983
+You get to listen to another audio clip like this one: [AUDIO:sawtooth_interval_major_sixth_C3.wav]: mean=0.3999, variance=12.2012
+You get to listen to another audio clip like this one: [AUDIO:sawtooth_chord_minor_triad_inv1_C3.wav]: mean=0.3960, variance=34.9951
+You get to listen to another audio clip like this one: [AUDIO:sawtooth_interval_minor_sixth_C4.wav]: mean=0.3958, variance=37.9777
+You get to listen to another audio clip like this one: [AUDIO:piano_chord_dominant_7th_C4.wav]: mean=0.3954, variance=21.0385
+You get to listen to another audio clip like this one: [AUDIO:sawtooth_chord_diminished_triad_inv2_G3.wav]: mean=0.3949, variance=54.9683
+You get to listen to another audio clip like this one: [AUDIO:piano_interval_perfect_fifth_C4.wav]: mean=0.3918, variance=17.7525
+You get to listen to another audio clip like this one: [AUDIO:piano_interval_perfect_fourth_C4.wav]: mean=0.3888, variance=32.5377
+You get to listen to another audio clip like this one: [AUDIO:sawtooth_chord_major_7th_G3.wav]: mean=0.3879, variance=5.3151
+You get to listen to another audio clip like this one: [AUDIO:sawtooth_chord_diminished_7th_C4.wav]: mean=0.3874, variance=28.0867
+You get to listen to another audio clip like this one: [AUDIO:sawtooth_interval_minor_seventh_E4.wav]: mean=0.3824, variance=8.1282
+You get to listen to another audio clip like this one: [AUDIO:piano_chord_minor_triad_E4.wav]: mean=0.3814, variance=4.2264
+The following bundle contains 2 individual experiences.
+
+---------- Experience 1 of 2 ----------
+
+
+---------- Experience 2 of 2 ----------: mean=0.3670, variance=3.2776
+You get to listen to another audio clip like this one: [AUDIO:sawtooth_chord_minor_7th_C4.wav]: mean=0.3633, variance=0.5100
+The following bundle contains 2 individual experiences.
+
+---------- Experience 1 of 2 ----------
+
+
+---------- Experience 2 of 2 ----------: mean=0.3618, variance=0.6664
+You get to listen to another audio clip like this one: [AUDIO:piano_chord_diminished_7th_E4.wav]: mean=0.3553, variance=21.6177
+You get to listen to another audio clip like this one: [AUDIO:sawtooth_chord_dominant_7th_E3.wav]: mean=0.3542, variance=30.4102
+You get to listen to another audio clip like this one: [AUDIO:sawtooth_interval_perfect_fifth_G3.wav]: mean=0.3538, variance=18.5728
+You get to listen to another audio clip like this one: [AUDIO:piano_chord_augmented_triad_E3.wav]: mean=0.3500, variance=102.5002
+The following bundle contains 2 individual experiences.
+
+---------- Experience 1 of 2 ----------
+
+
+---------- Experience 2 of 2 ----------: mean=0.3489, variance=26.8662
+You get to listen to another audio clip like this one: [AUDIO:piano_interval_minor_sixth_C4.wav]: mean=0.3463, variance=7.4946
+You get to listen to another audio clip like this one: [AUDIO:sawtooth_interval_major_sixth_E3.wav]: mean=0.3364, variance=14.2742
+The following bundle contains 2 individual experiences.
+
+---------- Experience 1 of 2 ----------
+
+
+---------- Experience 2 of 2 ----------: mean=0.3361, variance=2.6198
+You get to listen to another audio clip like this one: [AUDIO:sawtooth_chord_minor_triad_C4.wav]: mean=0.3313, variance=13.1528
+You get to listen to another audio clip like this one: [AUDIO:piano_chord_augmented_triad_inv2_C3.wav]: mean=0.3295, variance=30.2890
+You get to listen to another audio clip like this one: [AUDIO:piano_interval_minor_seventh_E4.wav]: mean=0.3289, variance=45.4360
+You get to listen to another audio clip like this one: [AUDIO:sawtooth_interval_tritone_G3.wav]: mean=0.3282, variance=15.1887
+You get to listen to another audio clip like this one: [AUDIO:piano_chord_dominant_7th_E3.wav]: mean=0.3265, variance=4.6207
+You get to listen to another audio clip like this one: [AUDIO:sawtooth_chord_diminished_7th_E4.wav]: mean=0.3262, variance=46.2988
+You get to listen to another audio clip like this one: [AUDIO:piano_chord_minor_triad_inv1_G3.wav]: mean=0.3244, variance=24.1775
+You get to listen to another audio clip like this one: [AUDIO:sawtooth_interval_major_sixth_G3.wav]: mean=0.3148, variance=14.3384
+You get to listen to another audio clip like this one: [AUDIO:sawtooth_chord_augmented_triad_inv2_G3.wav]: mean=0.3093, variance=42.3460
+You get to listen to another audio clip like this one: [AUDIO:piano_chord_augmented_triad_inv1_C3.wav]: mean=0.3071, variance=89.7160
+You get to listen to another audio clip like this one: [AUDIO:piano_chord_major_7th_G3.wav]: mean=0.3062, variance=49.2091
+You get to listen to another audio clip like this one: [AUDIO:piano_chord_augmented_triad_C4.wav]: mean=0.2966, variance=56.6399
+You get to listen to another audio clip like this one: [AUDIO:sawtooth_chord_augmented_triad_C3.wav]: mean=0.2950, variance=35.7032
+You get to listen to another audio clip like this one: [AUDIO:piano_chord_major_triad_inv1_G3.wav]: mean=0.2809, variance=29.7396
+You get to listen to another audio clip like this one: [AUDIO:sawtooth_chord_major_7th_E3.wav]: mean=0.2803, variance=7.3941
+You get to listen to another audio clip like this one: [AUDIO:piano_interval_perfect_fourth_G3.wav]: mean=0.2782, variance=43.2222
+You get to listen to another audio clip like this one: [AUDIO:piano_chord_minor_triad_C4.wav]: mean=0.2669, variance=60.6754
+You get to listen to another audio clip like this one: [AUDIO:sawtooth_interval_major_seventh_G3.wav]: mean=0.2624, variance=34.6363
+You get to listen to another audio clip like this one: [AUDIO:piano_interval_major_sixth_C3.wav]: mean=0.2598, variance=21.2855
+You get to listen to another audio clip like this one: [AUDIO:sawtooth_chord_diminished_triad_inv1_G3.wav]: mean=0.2546, variance=9.6413
+You get to listen to another audio clip like this one: [AUDIO:sawtooth_chord_diminished_triad_G3.wav]: mean=0.2533, variance=7.6918
+You get to listen to another audio clip like this one: [AUDIO:piano_chord_minor_triad_G3.wav]: mean=0.2441, variance=21.6023
+You get to listen to another audio clip like this one: [AUDIO:sawtooth_chord_augmented_triad_inv1_G3.wav]: mean=0.2396, variance=20.5957
+You get to listen to another audio clip like this one: [AUDIO:sawtooth_chord_major_triad_inv1_G3.wav]: mean=0.2382, variance=45.7448
+You get to listen to another audio clip like this one: [AUDIO:piano_interval_major_seventh_G3.wav]: mean=0.2382, variance=6.3343
+The following bundle contains 2 individual experiences.
+
+---------- Experience 1 of 2 ----------
+
+
+---------- Experience 2 of 2 ----------: mean=0.2364, variance=5.2881
+You get to listen to another audio clip like this one: [AUDIO:sawtooth_interval_minor_sixth_G3.wav]: mean=0.2336, variance=13.3962
+You get to listen to another audio clip like this one: [AUDIO:piano_interval_tritone_G3.wav]: mean=0.2248, variance=49.9281
+The following bundle contains 2 individual experiences.
+
+---------- Experience 1 of 2 ----------
+
+
+---------- Experience 2 of 2 ----------: mean=0.2212, variance=10.6872
+You get to listen to another audio clip like this one: [AUDIO:sawtooth_interval_minor_third_G4.wav]: mean=0.2074, variance=49.7523
+You get to listen to another audio clip like this one: [AUDIO:sawtooth_chord_dominant_7th_G3.wav]: mean=0.2047, variance=31.7347
+You get to listen to another audio clip like this one: [AUDIO:piano_chord_diminished_triad_inv2_G3.wav]: mean=0.1951, variance=67.8381
+You get to listen to another audio clip like this one: [AUDIO:piano_chord_augmented_triad_inv1_G3.wav]: mean=0.1872, variance=9.8850
+You get to listen to another audio clip like this one: [AUDIO:sawtooth_chord_augmented_triad_G3.wav]: mean=0.1766, variance=60.3546
+You get to listen to another audio clip like this one: [AUDIO:piano_chord_major_7th_C4.wav]: mean=0.1745, variance=28.7280
+You get to listen to another audio clip like this one: [AUDIO:sawtooth_interval_octave_C3.wav]: mean=0.1685, variance=21.0603
+You get to listen to another audio clip like this one: [AUDIO:piano_chord_minor_triad_inv1_C3.wav]: mean=0.1631, variance=7.4304
+You get to listen to another audio clip like this one: [AUDIO:piano_chord_diminished_triad_G3.wav]: mean=0.1600, variance=11.9334
+You get to listen to another audio clip like this one: [AUDIO:sawtooth_interval_perfect_fifth_C3.wav]: mean=0.1599, variance=118.8652
+You get to listen to another audio clip like this one: [AUDIO:piano_chord_major_triad_G3.wav]: mean=0.1599, variance=23.3114
+You get to listen to another audio clip like this one: [AUDIO:sawtooth_chord_dominant_7th_C3.wav]: mean=0.1594, variance=62.4264
+You get to listen to another audio clip like this one: [AUDIO:piano_chord_augmented_triad_C3.wav]: mean=0.1519, variance=70.8612
+You get to listen to another audio clip like this one: [AUDIO:piano_interval_minor_third_G4.wav]: mean=0.1467, variance=20.1385
+You get to listen to another audio clip like this one: [AUDIO:piano_chord_minor_7th_E3.wav]: mean=0.1380, variance=33.1496
+You get to listen to another audio clip like this one: [AUDIO:piano_chord_minor_7th_C4.wav]: mean=0.1374, variance=13.1080
+You get to listen to another audio clip like this one: [AUDIO:piano_chord_diminished_triad_inv1_C3.wav]: mean=0.1320, variance=2.9376
+You get to listen to another audio clip like this one: [AUDIO:piano_chord_augmented_triad_inv2_G3.wav]: mean=0.1265, variance=22.2181
+You get to listen to another audio clip like this one: [AUDIO:sawtooth_interval_perfect_fourth_E3.wav]: mean=0.1196, variance=56.4159
+You get to listen to another audio clip like this one: [AUDIO:sawtooth_chord_diminished_7th_E3.wav]: mean=0.1182, variance=52.1316
+You get to listen to another audio clip like this one: [AUDIO:sawtooth_chord_diminished_triad_inv1_C3.wav]: mean=0.1158, variance=19.3448
+You get to listen to another audio clip like this one: [AUDIO:piano_chord_minor_triad_inv2_G3.wav]: mean=0.1034, variance=39.9488
+You get to listen to another audio clip like this one: [AUDIO:piano_chord_minor_7th_G3.wav]: mean=0.1023, variance=34.6434
+You get to listen to another audio clip like this one: [AUDIO:sawtooth_interval_major_third_E3.wav]: mean=0.0896, variance=70.8018
+You get to listen to another audio clip like this one: [AUDIO:sawtooth_chord_minor_triad_E3.wav]: mean=0.0530, variance=101.2523
+You get to listen to another audio clip like this one: [AUDIO:piano_chord_diminished_triad_inv1_G3.wav]: mean=0.0439, variance=66.3701
+You get to listen to another audio clip like this one: [AUDIO:piano_chord_dominant_7th_C3.wav]: mean=0.0434, variance=13.8938
+You get to listen to another audio clip like this one: [AUDIO:sawtooth_interval_tritone_E4.wav]: mean=0.0425, variance=83.4762
+You get to listen to another audio clip like this one: [AUDIO:sawtooth_chord_major_triad_E3.wav]: mean=0.0425, variance=130.8986
+You get to listen to another audio clip like this one: [AUDIO:sawtooth_chord_diminished_triad_E3.wav]: mean=0.0399, variance=26.9190
+You get to listen to another audio clip like this one: [AUDIO:sine_interval_octave_G4.wav]: mean=0.0381, variance=21.9658
+You get to listen to another audio clip like this one: [AUDIO:piano_chord_diminished_7th_E3.wav]: mean=0.0374, variance=15.6408
+The following bundle contains 2 individual experiences.
+
+---------- Experience 1 of 2 ----------
+
+
+---------- Experience 2 of 2 ----------: mean=0.0354, variance=4.7415
+You get to listen to another audio clip like this one: [AUDIO:sawtooth_chord_diminished_7th_G3.wav]: mean=0.0307, variance=44.8660
+You get to listen to another audio clip like this one: [AUDIO:sawtooth_chord_minor_7th_G3.wav]: mean=0.0284, variance=33.5139
+You get to listen to another audio clip like this one: [AUDIO:piano_interval_major_third_E3.wav]: mean=0.0145, variance=50.7057
+You get to listen to another audio clip like this one: [AUDIO:sawtooth_interval_minor_second_G4.wav]: mean=0.0095, variance=32.6877
+You get to listen to another audio clip like this one: [AUDIO:piano_chord_diminished_7th_G3.wav]: mean=-0.0038, variance=37.8476
+You get to listen to another audio clip like this one: [AUDIO:sawtooth_interval_major_third_C4.wav]: mean=-0.0065, variance=30.4440
+You get to listen to another audio clip like this one: [AUDIO:piano_interval_major_third_G4.wav]: mean=-0.0121, variance=30.4660
+You get to listen to another audio clip like this one: [AUDIO:piano_chord_diminished_7th_C3.wav]: mean=-0.0151, variance=74.3806
+You get to listen to another audio clip like this one: [AUDIO:piano_chord_diminished_triad_E3.wav]: mean=-0.0173, variance=45.5851
+You get to listen to another audio clip like this one: [AUDIO:sawtooth_interval_major_seventh_E4.wav]: mean=-0.0271, variance=51.7972
+You get to listen to another audio clip like this one: [AUDIO:sawtooth_chord_minor_triad_C3.wav]: mean=-0.0289, variance=45.8237
+You get to listen to another audio clip like this one: [AUDIO:piano_chord_major_7th_E3.wav]: mean=-0.0419, variance=12.2551
+You get to listen to another audio clip like this one: [AUDIO:piano_chord_dominant_7th_G3.wav]: mean=-0.0442, variance=47.6910
+You get to listen to another audio clip like this one: [AUDIO:sawtooth_interval_minor_second_G3.wav]: mean=-0.0497, variance=63.8051
+You get to listen to another audio clip like this one: [AUDIO:piano_interval_minor_seventh_E3.wav]: mean=-0.0526, variance=81.1512
+You get to listen to another audio clip like this one: [AUDIO:sawtooth_interval_minor_seventh_E3.wav]: mean=-0.0587, variance=50.8984
+You get to listen to another audio clip like this one: [AUDIO:piano_interval_octave_C3.wav]: mean=-0.0610, variance=8.6945
+You get to listen to another audio clip like this one: [AUDIO:piano_interval_minor_sixth_G3.wav]: mean=-0.0614, variance=36.2849
+You get to listen to another audio clip like this one: [AUDIO:piano_chord_augmented_triad_G3.wav]: mean=-0.0644, variance=64.6310
+You get to listen to another audio clip like this one: [AUDIO:sawtooth_interval_unison_C4.wav]: mean=-0.0716, variance=28.5001
+You get to listen to another audio clip like this one: [AUDIO:sawtooth_chord_diminished_triad_C4.wav]: mean=-0.0724, variance=51.2188
+You get to listen to another audio clip like this one: [AUDIO:piano_interval_perfect_fifth_G3.wav]: mean=-0.0744, variance=58.0780
+You get to listen to another audio clip like this one: [AUDIO:sawtooth_interval_major_second_G3.wav]: mean=-0.0916, variance=16.6720
+You get to listen to another audio clip like this one: [AUDIO:piano_interval_major_seventh_E4.wav]: mean=-0.1010, variance=11.8891
+The following bundle contains 3 individual experiences.
+
+---------- Experience 1 of 3 ----------
+
+
+---------- Experience 2 of 3 ----------
+
+
+---------- Experience 3 of 3 ----------: mean=-0.1228, variance=38.9664
+You get to listen to another audio clip like this one: [AUDIO:sawtooth_chord_minor_triad_inv2_C3.wav]: mean=-0.1254, variance=10.1062
+You get to listen to another audio clip like this one: [AUDIO:piano_interval_major_sixth_E3.wav]: mean=-0.1291, variance=80.3027
+You get to listen to another audio clip like this one: [AUDIO:piano_interval_major_sixth_G3.wav]: mean=-0.1305, variance=28.1357
+You get to listen to another audio clip like this one: [AUDIO:piano_chord_diminished_triad_C4.wav]: mean=-0.1372, variance=4.3485
+You get to listen to another audio clip like this one: [AUDIO:piano_interval_unison_C4.wav]: mean=-0.1487, variance=26.2381
+You get to listen to another audio clip like this one: [AUDIO:sawtooth_interval_minor_sixth_C3.wav]: mean=-0.1551, variance=88.8924
+You get to listen to another audio clip like this one: [AUDIO:piano_interval_minor_second_G4.wav]: mean=-0.1557, variance=20.6237
+You get to listen to another audio clip like this one: [AUDIO:piano_chord_minor_triad_inv2_C3.wav]: mean=-0.1637, variance=15.6529
+You get to listen to another audio clip like this one: [AUDIO:piano_interval_major_second_G3.wav]: mean=-0.1694, variance=39.7866
+You get to listen to another audio clip like this one: [AUDIO:sawtooth_chord_diminished_7th_C3.wav]: mean=-0.1701, variance=69.0379
+You get to listen to another audio clip like this one: [AUDIO:sawtooth_chord_minor_7th_C3.wav]: mean=-0.1772, variance=46.5921
+The following bundle contains 2 individual experiences.
+
+---------- Experience 1 of 2 ----------
+
+
+---------- Experience 2 of 2 ----------: mean=-0.1803, variance=53.4727
+The following bundle contains 2 individual experiences.
+
+---------- Experience 1 of 2 ----------
+
+
+---------- Experience 2 of 2 ----------: mean=-0.2032, variance=54.8196
+You get to listen to another audio clip like this one: [AUDIO:piano_interval_perfect_fourth_E3.wav]: mean=-0.2055, variance=14.8612
+You get to listen to another audio clip like this one: [AUDIO:piano_interval_major_third_C4.wav]: mean=-0.2057, variance=35.2471
+You get to listen to another audio clip like this one: [AUDIO:sawtooth_chord_diminished_triad_inv2_C3.wav]: mean=-0.2079, variance=14.5585
+You get to listen to another audio clip like this one: [AUDIO:piano_interval_perfect_fifth_C3.wav]: mean=-0.2095, variance=20.4536
+You get to listen to another audio clip like this one: [AUDIO:sawtooth_interval_minor_seventh_C4.wav]: mean=-0.2234, variance=91.0673
+You get to listen to another audio clip like this one: [AUDIO:piano_chord_major_triad_E3.wav]: mean=-0.2313, variance=54.0980
+You get to listen to another audio clip like this one: [AUDIO:sawtooth_interval_major_second_E4.wav]: mean=-0.2472, variance=132.2879
+You get to listen to another audio clip like this one: [AUDIO:piano_interval_tritone_C3.wav]: mean=-0.2507, variance=12.5274
+You get to listen to another audio clip like this one: [AUDIO:sawtooth_interval_octave_E4.wav]: mean=-0.2508, variance=26.3417
+You get to listen to another audio clip like this one: [AUDIO:piano_chord_major_triad_C3.wav]: mean=-0.2651, variance=59.9049
+You get to listen to another audio clip like this one: [AUDIO:sawtooth_chord_major_triad_C3.wav]: mean=-0.2660, variance=160.1654
+You get to listen to another audio clip like this one: [AUDIO:sawtooth_interval_tritone_C3.wav]: mean=-0.2666, variance=118.2680
+You get to listen to another audio clip like this one: [AUDIO:sine_interval_major_seventh_G4.wav]: mean=-0.2676, variance=35.6462
+You get to listen to another audio clip like this one: [AUDIO:sawtooth_interval_minor_third_G3.wav]: mean=-0.2676, variance=40.5920
+The following bundle contains 2 individual experiences.
+
+---------- Experience 1 of 2 ----------
+
+
+---------- Experience 2 of 2 ----------: mean=-0.2943, variance=110.4400
+You get to listen to another audio clip like this one: [AUDIO:piano_interval_octave_E4.wav]: mean=-0.2968, variance=14.8818
+The following bundle contains 2 individual experiences.
+
+---------- Experience 1 of 2 ----------
+
+
+---------- Experience 2 of 2 ----------: mean=-0.3066, variance=33.7361
+You get to listen to another audio clip like this one: [AUDIO:piano_interval_minor_sixth_C3.wav]: mean=-0.3102, variance=159.9767
+You get to listen to another audio clip like this one: [AUDIO:sawtooth_interval_perfect_fifth_E4.wav]: mean=-0.3246, variance=86.4311
+You get to listen to another audio clip like this one: [AUDIO:piano_chord_minor_triad_C3.wav]: mean=-0.3309, variance=58.5567
+You get to listen to another audio clip like this one: [AUDIO:piano_interval_tritone_C4.wav]: mean=-0.3326, variance=43.9970
+You get to listen to another audio clip like this one: [AUDIO:sawtooth_interval_major_third_C3.wav]: mean=-0.3398, variance=45.2012
+You get to listen to another audio clip like this one: [AUDIO:piano_interval_tritone_E4.wav]: mean=-0.3423, variance=58.9355
+You get to listen to another audio clip like this one: [AUDIO:sawtooth_chord_major_7th_C3.wav]: mean=-0.3538, variance=131.2773
+You get to listen to another audio clip like this one: [AUDIO:piano_interval_minor_second_G3.wav]: mean=-0.3554, variance=46.9057
+You get to listen to another audio clip like this one: [AUDIO:sawtooth_interval_perfect_fourth_C3.wav]: mean=-0.3727, variance=98.2936
+You get to listen to another audio clip like this one: [AUDIO:sawtooth_interval_minor_second_E4.wav]: mean=-0.3731, variance=4.8278
+The following bundle contains 2 individual experiences.
+
+---------- Experience 1 of 2 ----------
+
+
+---------- Experience 2 of 2 ----------: mean=-0.3936, variance=34.8948
+You get to listen to another audio clip like this one: [AUDIO:sawtooth_interval_unison_E4.wav]: mean=-0.3955, variance=24.5807
+You get to listen to another audio clip like this one: [AUDIO:piano_interval_major_second_E4.wav]: mean=-0.4048, variance=33.3247
+You get to listen to another audio clip like this one: [AUDIO:sawtooth_interval_major_second_C4.wav]: mean=-0.4185, variance=151.5783
+You get to listen to another audio clip like this one: [AUDIO:sawtooth_interval_unison_G3.wav]: mean=-0.4572, variance=75.6019
+You get to listen to another audio clip like this one: [AUDIO:piano_interval_major_second_C4.wav]: mean=-0.4629, variance=5.6779
+You get to listen to another audio clip like this one: [AUDIO:piano_interval_minor_seventh_G3.wav]: mean=-0.4675, variance=20.2561
+You get to listen to another audio clip like this one: [AUDIO:piano_interval_minor_seventh_C4.wav]: mean=-0.4727, variance=19.2685
+The following bundle contains 2 individual experiences.
+
+---------- Experience 1 of 2 ----------
+
+
+---------- Experience 2 of 2 ----------: mean=-0.4771, variance=15.3933
+You get to listen to another audio clip like this one: [AUDIO:sine_chord_major_7th_G4.wav]: mean=-0.4852, variance=48.8214
+You get to listen to another audio clip like this one: [AUDIO:piano_interval_unison_E4.wav]: mean=-0.4872, variance=12.8787
+You get to listen to another audio clip like this one: [AUDIO:piano_chord_diminished_triad_inv2_C3.wav]: mean=-0.4948, variance=73.5215
+You get to listen to another audio clip like this one: [AUDIO:piano_chord_minor_triad_E3.wav]: mean=-0.5151, variance=47.9203
+You get to listen to another audio clip like this one: [AUDIO:piano_interval_minor_second_E4.wav]: mean=-0.5185, variance=139.6547
+You get to listen to another audio clip like this one: [AUDIO:sawtooth_interval_major_seventh_E3.wav]: mean=-0.5308, variance=32.8533
+You get to listen to another audio clip like this one: [AUDIO:sawtooth_interval_minor_second_E3.wav]: mean=-0.5376, variance=79.5428
+You get to listen to another audio clip like this one: [AUDIO:sawtooth_interval_tritone_C4.wav]: mean=-0.5394, variance=71.2725
+You get to listen to another audio clip like this one: [AUDIO:sawtooth_chord_diminished_triad_C3.wav]: mean=-0.5468, variance=57.9991
+You get to listen to another audio clip like this one: [AUDIO:sine_interval_minor_seventh_G4.wav]: mean=-0.5528, variance=107.7365
+The following bundle contains 2 individual experiences.
+
+---------- Experience 1 of 2 ----------
+
+
+---------- Experience 2 of 2 ----------: mean=-0.5809, variance=13.4735
+The following bundle contains 2 individual experiences.
+
+---------- Experience 1 of 2 ----------
+
+
+---------- Experience 2 of 2 ----------: mean=-0.5877, variance=16.3357
+You get to listen to another audio clip like this one: [AUDIO:sawtooth_interval_minor_seventh_G3.wav]: mean=-0.5980, variance=48.5715
+You get to listen to another audio clip like this one: [AUDIO:piano_chord_minor_7th_C3.wav]: mean=-0.5982, variance=108.4007
+You get to listen to another audio clip like this one: [AUDIO:sawtooth_interval_major_second_C3.wav]: mean=-0.6085, variance=25.6284
+You get to listen to another audio clip like this one: [AUDIO:sine_chord_major_triad_inv2_C4.wav]: mean=-0.6369, variance=112.7448
+You get to listen to another audio clip like this one: [AUDIO:sawtooth_interval_major_third_G3.wav]: mean=-0.6408, variance=48.8300
+The following bundle contains 2 individual experiences.
+
+---------- Experience 1 of 2 ----------
+
+
+---------- Experience 2 of 2 ----------: mean=-0.6432, variance=61.1217
+You get to listen to another audio clip like this one: [AUDIO:piano_interval_minor_third_E3.wav]: mean=-0.6565, variance=79.6258
+You get to listen to another audio clip like this one: [AUDIO:sawtooth_interval_tritone_E3.wav]: mean=-0.6705, variance=70.9104
+You get to listen to another audio clip like this one: [AUDIO:piano_chord_major_7th_C3.wav]: mean=-0.6739, variance=69.1703
+You get to listen to another audio clip like this one: [AUDIO:piano_interval_perfect_fifth_E4.wav]: mean=-0.6914, variance=40.1637
+You get to listen to another audio clip like this one: [AUDIO:piano_interval_major_seventh_E3.wav]: mean=-0.7041, variance=38.7694
+You get to listen to another audio clip like this one: [AUDIO:sawtooth_interval_minor_third_E3.wav]: mean=-0.7044, variance=115.2865
+You get to listen to another audio clip like this one: [AUDIO:piano_interval_perfect_fourth_C3.wav]: mean=-0.7066, variance=68.3326
+You get to listen to another audio clip like this one: [AUDIO:sawtooth_interval_minor_second_C4.wav]: mean=-0.7132, variance=55.0529
+The following bundle contains 2 individual experiences.
+
+---------- Experience 1 of 2 ----------
+
+
+---------- Experience 2 of 2 ----------: mean=-0.7145, variance=314.7045
+You get to listen to another audio clip like this one: [AUDIO:sawtooth_interval_minor_third_C4.wav]: mean=-0.7241, variance=28.3908
+You get to listen to another audio clip like this one: [AUDIO:sine_chord_augmented_triad_inv2_C4.wav]: mean=-0.7296, variance=97.2936
+The following bundle contains 2 individual experiences.
+
+---------- Experience 1 of 2 ----------
+
+
+---------- Experience 2 of 2 ----------: mean=-0.7414, variance=95.2356
+You get to listen to another audio clip like this one: [AUDIO:sine_chord_minor_triad_inv2_C4.wav]: mean=-0.7682, variance=64.0078
+You get to listen to another audio clip like this one: [AUDIO:sine_interval_major_sixth_G4.wav]: mean=-0.7970, variance=56.4234
+The following bundle contains 2 individual experiences.
+
+---------- Experience 1 of 2 ----------
+
+
+---------- Experience 2 of 2 ----------: mean=-0.7973, variance=16.1634
+You get to listen to another audio clip like this one: [AUDIO:piano_interval_unison_G3.wav]: mean=-0.8062, variance=72.0770
+You get to listen to another audio clip like this one: [AUDIO:piano_interval_minor_second_E3.wav]: mean=-0.8172, variance=75.4444
+You get to listen to another audio clip like this one: [AUDIO:sawtooth_interval_minor_third_C3.wav]: mean=-0.8580, variance=38.3934
+You get to listen to another audio clip like this one: [AUDIO:piano_interval_major_third_C3.wav]: mean=-0.8601, variance=76.2007
+You get to listen to another audio clip like this one: [AUDIO:sawtooth_interval_unison_C3.wav]: mean=-0.8637, variance=68.3792
+You get to listen to another audio clip like this one: [AUDIO:sine_chord_dominant_7th_G4.wav]: mean=-0.8828, variance=64.2670
+You get to listen to another audio clip like this one: [AUDIO:piano_interval_minor_third_G3.wav]: mean=-0.9066, variance=98.2939
+You get to listen to another audio clip like this one: [AUDIO:sawtooth_interval_octave_E3.wav]: mean=-0.9071, variance=81.7848
+You get to listen to another audio clip like this one: [AUDIO:anchor_pure_A4.wav]: mean=-0.9162, variance=84.8152
+You get to listen to another audio clip like this one: [AUDIO:piano_interval_tritone_E3.wav]: mean=-0.9243, variance=91.8484
+You get to listen to another audio clip like this one: [AUDIO:piano_interval_octave_E3.wav]: mean=-0.9253, variance=180.4793
+The following bundle contains 2 individual experiences.
+
+---------- Experience 1 of 2 ----------
+
+
+---------- Experience 2 of 2 ----------: mean=-0.9295, variance=22.4259
+You get to listen to another audio clip like this one: [AUDIO:piano_interval_major_second_C3.wav]: mean=-0.9428, variance=94.4316
+You get to listen to another audio clip like this one: [AUDIO:sine_chord_diminished_7th_E3.wav]: mean=-0.9449, variance=31.9326
+You get to listen to another audio clip like this one: [AUDIO:sine_interval_minor_sixth_G4.wav]: mean=-0.9460, variance=181.0329
+You get to listen to another audio clip like this one: [AUDIO:sawtooth_interval_major_seventh_C4.wav]: mean=-0.9543, variance=36.8787
+You get to listen to another audio clip like this one: [AUDIO:sine_chord_major_triad_inv2_G3.wav]: mean=-0.9580, variance=146.4550
+You get to listen to another audio clip like this one: [AUDIO:piano_interval_minor_third_C3.wav]: mean=-0.9664, variance=110.5097
+You get to listen to another audio clip like this one: [AUDIO:piano_chord_diminished_triad_C3.wav]: mean=-0.9854, variance=107.6276
+You get to listen to another audio clip like this one: [AUDIO:sawtooth_interval_minor_seventh_C3.wav]: mean=-0.9901, variance=51.7713
+The following bundle contains 2 individual experiences.
+
+---------- Experience 1 of 2 ----------
+
+
+---------- Experience 2 of 2 ----------: mean=-0.9996, variance=22.2260
+You get to listen to another audio clip like this one: [AUDIO:sine_interval_perfect_fifth_G4.wav]: mean=-1.0401, variance=61.5362
+You get to listen to another audio clip like this one: [AUDIO:piano_interval_unison_C3.wav]: mean=-1.0637, variance=98.1958
+You get to listen to another audio clip like this one: [AUDIO:sine_chord_minor_7th_G4.wav]: mean=-1.0698, variance=147.3836
+You get to listen to another audio clip like this one: [AUDIO:sine_chord_diminished_triad_inv1_C4.wav]: mean=-1.0864, variance=53.7349
+You get to listen to another audio clip like this one: [AUDIO:piano_interval_minor_seventh_C3.wav]: mean=-1.1037, variance=48.7493
+You get to listen to another audio clip like this one: [AUDIO:sine_interval_tritone_G4.wav]: mean=-1.1117, variance=54.8852
+You get to listen to another audio clip like this one: [AUDIO:sawtooth_interval_minor_second_C3.wav]: mean=-1.1293, variance=110.6500
+You get to listen to another audio clip like this one: [AUDIO:sawtooth_interval_major_second_E3.wav]: mean=-1.1427, variance=66.3095
+You get to listen to another audio clip like this one: [AUDIO:piano_interval_minor_second_C4.wav]: mean=-1.1429, variance=116.5980
+You get to listen to another audio clip like this one: [AUDIO:sine_chord_diminished_triad_G3.wav]: mean=-1.1440, variance=139.4276
+You get to listen to another audio clip like this one: [AUDIO:sine_chord_diminished_7th_G3.wav]: mean=-1.1533, variance=109.5586
+You get to listen to another audio clip like this one: [AUDIO:piano_interval_major_seventh_C4.wav]: mean=-1.1691, variance=77.2872
+You get to listen to another audio clip like this one: [AUDIO:piano_interval_minor_second_C3.wav]: mean=-1.1762, variance=65.4225
+You get to listen to another audio clip like this one: [AUDIO:sine_chord_minor_triad_G3.wav]: mean=-1.1775, variance=59.3391
+You get to listen to another audio clip like this one: [AUDIO:sine_chord_diminished_triad_E3.wav]: mean=-1.1826, variance=11.8465
+You get to listen to another audio clip like this one: [AUDIO:sine_interval_minor_third_E3.wav]: mean=-1.1884, variance=68.4914
+You get to listen to another audio clip like this one: [AUDIO:sine_interval_perfect_fifth_C4.wav]: mean=-1.1922, variance=136.1493
+You get to listen to another audio clip like this one: [AUDIO:sine_interval_perfect_fourth_C3.wav]: mean=-1.2096, variance=3.5887
+You get to listen to another audio clip like this one: [AUDIO:piano_interval_major_second_E3.wav]: mean=-1.2141, variance=26.8471
+You get to listen to another audio clip like this one: [AUDIO:sawtooth_interval_perfect_fifth_E3.wav]: mean=-1.2161, variance=41.2933
+You get to listen to another audio clip like this one: [AUDIO:sine_chord_minor_7th_E4.wav]: mean=-1.2212, variance=57.4510
+You get to listen to another audio clip like this one: [AUDIO:sine_interval_minor_third_C3.wav]: mean=-1.2263, variance=26.8231
+You get to listen to another audio clip like this one: [AUDIO:sine_chord_major_triad_C4.wav]: mean=-1.2272, variance=47.6405
+You get to listen to another audio clip like this one: [AUDIO:sine_chord_diminished_triad_inv1_G3.wav]: mean=-1.2343, variance=93.7083
+You get to listen to another audio clip like this one: [AUDIO:sine_interval_major_seventh_E4.wav]: mean=-1.2367, variance=40.0905
+You get to listen to another audio clip like this one: [AUDIO:sine_chord_diminished_triad_inv2_C4.wav]: mean=-1.2369, variance=31.1801
+You get to listen to another audio clip like this one: [AUDIO:sine_interval_tritone_C3.wav]: mean=-1.2429, variance=28.8197
+You get to listen to another audio clip like this one: [AUDIO:sine_chord_augmented_triad_inv1_G3.wav]: mean=-1.2430, variance=47.0338
+You get to listen to another audio clip like this one: [AUDIO:sine_chord_major_7th_G3.wav]: mean=-1.2526, variance=39.4181
+You get to listen to another audio clip like this one: [AUDIO:sine_chord_major_triad_C3.wav]: mean=-1.2535, variance=54.3169
+You get to listen to another audio clip like this one: [AUDIO:sine_chord_major_triad_inv1_C4.wav]: mean=-1.2582, variance=43.3079
+You get to listen to another audio clip like this one: [AUDIO:sine_chord_minor_7th_G3.wav]: mean=-1.2643, variance=97.1950
+You get to listen to another audio clip like this one: [AUDIO:sine_chord_augmented_triad_inv2_C3.wav]: mean=-1.2820, variance=50.7055
+You get to listen to another audio clip like this one: [AUDIO:sine_chord_major_triad_inv1_C3.wav]: mean=-1.2826, variance=80.3705
+You get to listen to another audio clip like this one: [AUDIO:piano_interval_major_third_G3.wav]: mean=-1.2933, variance=73.8118
+You get to listen to another audio clip like this one: [AUDIO:sine_interval_minor_second_E4.wav]: mean=-1.2945, variance=86.8054
+You get to listen to another audio clip like this one: [AUDIO:sine_interval_octave_G3.wav]: mean=-1.2962, variance=42.9922
+You get to listen to another audio clip like this one: [AUDIO:sine_chord_dominant_7th_E3.wav]: mean=-1.2993, variance=22.5192
+You get to listen to another audio clip like this one: [AUDIO:sine_interval_major_sixth_E4.wav]: mean=-1.3025, variance=70.0411
+You get to listen to another audio clip like this one: [AUDIO:sine_interval_minor_third_G3.wav]: mean=-1.3086, variance=22.2326
+You get to listen to another audio clip like this one: [AUDIO:sine_chord_minor_triad_C4.wav]: mean=-1.3109, variance=29.0463
+You get to listen to another audio clip like this one: [AUDIO:sine_interval_minor_sixth_C4.wav]: mean=-1.3135, variance=75.7487
+You get to listen to another audio clip like this one: [AUDIO:sine_chord_diminished_triad_inv1_C3.wav]: mean=-1.3162, variance=81.5818
+You get to listen to another audio clip like this one: [AUDIO:sine_chord_augmented_triad_E4.wav]: mean=-1.3181, variance=182.7019
+You get to listen to another audio clip like this one: [AUDIO:sine_interval_major_second_E3.wav]: mean=-1.3196, variance=11.9894
+You get to listen to another audio clip like this one: [AUDIO:sine_interval_octave_C4.wav]: mean=-1.3221, variance=48.4543
+You get to listen to another audio clip like this one: [AUDIO:sine_chord_diminished_7th_C4.wav]: mean=-1.3256, variance=72.4985
+You get to listen to another audio clip like this one: [AUDIO:sine_chord_minor_triad_inv1_G3.wav]: mean=-1.3261, variance=80.7775
+You get to listen to another audio clip like this one: [AUDIO:sine_chord_minor_triad_inv1_C4.wav]: mean=-1.3271, variance=78.5952
+You get to listen to another audio clip like this one: [AUDIO:sawtooth_interval_major_seventh_C3.wav]: mean=-1.3287, variance=116.1547
+You get to listen to another audio clip like this one: [AUDIO:sine_chord_augmented_triad_inv1_C4.wav]: mean=-1.3289, variance=56.6935
+You get to listen to another audio clip like this one: [AUDIO:sine_interval_perfect_fifth_C3.wav]: mean=-1.3298, variance=55.7827
+You get to listen to another audio clip like this one: [AUDIO:sine_chord_major_triad_G4.wav]: mean=-1.3331, variance=75.4363
+You get to listen to another audio clip like this one: [AUDIO:sine_chord_minor_triad_G4.wav]: mean=-1.3349, variance=53.1925
+You get to listen to another audio clip like this one: [AUDIO:sine_interval_tritone_G3.wav]: mean=-1.3372, variance=56.2820
+You get to listen to another audio clip like this one: [AUDIO:sine_chord_dominant_7th_G3.wav]: mean=-1.3398, variance=74.0339
+You get to listen to another audio clip like this one: [AUDIO:sine_interval_unison_G4.wav]: mean=-1.3405, variance=124.9395
+You get to listen to another audio clip like this one: [AUDIO:sine_chord_augmented_triad_C4.wav]: mean=-1.3442, variance=87.9971
+You get to listen to another audio clip like this one: [AUDIO:sine_chord_major_7th_E4.wav]: mean=-1.3482, variance=136.3810
+You get to listen to another audio clip like this one: [AUDIO:sine_interval_major_seventh_G3.wav]: mean=-1.3493, variance=2.2763
+You get to listen to another audio clip like this one: [AUDIO:sine_chord_minor_triad_inv2_G3.wav]: mean=-1.3580, variance=47.9984
+You get to listen to another audio clip like this one: [AUDIO:sine_chord_dominant_7th_E4.wav]: mean=-1.3597, variance=86.1715
+You get to listen to another audio clip like this one: [AUDIO:sine_interval_perfect_fourth_E4.wav]: mean=-1.3668, variance=11.4732
+You get to listen to another audio clip like this one: [AUDIO:sine_chord_major_triad_G3.wav]: mean=-1.3696, variance=65.3751
+You get to listen to another audio clip like this one: [AUDIO:piano_interval_unison_E3.wav]: mean=-1.3714, variance=58.0414
+You get to listen to another audio clip like this one: [AUDIO:sine_chord_major_7th_C3.wav]: mean=-1.3725, variance=95.6176
+You get to listen to another audio clip like this one: [AUDIO:sine_interval_perfect_fifth_G3.wav]: mean=-1.3743, variance=51.1549
+You get to listen to another audio clip like this one: [AUDIO:sine_chord_major_7th_E3.wav]: mean=-1.3761, variance=39.9683
+You get to listen to another audio clip like this one: [AUDIO:sine_chord_diminished_triad_C4.wav]: mean=-1.3764, variance=47.5452
+You get to listen to another audio clip like this one: [AUDIO:sine_interval_perfect_fourth_G4.wav]: mean=-1.3797, variance=91.1591
+You get to listen to another audio clip like this one: [AUDIO:sine_interval_major_second_G3.wav]: mean=-1.3825, variance=75.6505
+You get to listen to another audio clip like this one: [AUDIO:sine_chord_dominant_7th_C3.wav]: mean=-1.3834, variance=29.3433
+You get to listen to another audio clip like this one: [AUDIO:sine_chord_augmented_triad_E3.wav]: mean=-1.3859, variance=44.6286
+You get to listen to another audio clip like this one: [AUDIO:sine_interval_major_third_C3.wav]: mean=-1.3868, variance=13.7288
+You get to listen to another audio clip like this one: [AUDIO:sine_interval_major_second_E4.wav]: mean=-1.3908, variance=276.1387
+You get to listen to another audio clip like this one: [AUDIO:sine_interval_minor_seventh_E4.wav]: mean=-1.3949, variance=2.4072
+You get to listen to another audio clip like this one: [AUDIO:sine_chord_diminished_triad_inv2_G3.wav]: mean=-1.3950, variance=61.8076
+You get to listen to another audio clip like this one: [AUDIO:sine_interval_minor_third_E4.wav]: mean=-1.4003, variance=110.8412
+You get to listen to another audio clip like this one: [AUDIO:sine_chord_diminished_7th_G4.wav]: mean=-1.4028, variance=99.1630
+You get to listen to another audio clip like this one: [AUDIO:sine_chord_minor_7th_C3.wav]: mean=-1.4049, variance=34.9527
+You get to listen to another audio clip like this one: [AUDIO:sine_interval_major_second_C4.wav]: mean=-1.4189, variance=117.8859
+You get to listen to another audio clip like this one: [AUDIO:sine_chord_major_triad_inv2_C3.wav]: mean=-1.4252, variance=65.7186
+You get to listen to another audio clip like this one: [AUDIO:sine_chord_minor_triad_E3.wav]: mean=-1.4260, variance=81.4969
+You get to listen to another audio clip like this one: [AUDIO:sawtooth_interval_unison_E3.wav]: mean=-1.4278, variance=36.1922
+You get to listen to another audio clip like this one: [AUDIO:sine_interval_octave_E4.wav]: mean=-1.4293, variance=0.2213
+You get to listen to another audio clip like this one: [AUDIO:sine_interval_minor_seventh_G3.wav]: mean=-1.4314, variance=3.5793
+You get to listen to another audio clip like this one: [AUDIO:sine_interval_minor_second_G3.wav]: mean=-1.4331, variance=58.2013
+You get to listen to another audio clip like this one: [AUDIO:sine_interval_major_sixth_C4.wav]: mean=-1.4345, variance=33.2644
+You get to listen to another audio clip like this one: [AUDIO:sine_interval_minor_sixth_E4.wav]: mean=-1.4346, variance=48.4180
+You get to listen to another audio clip like this one: [AUDIO:sine_interval_minor_second_E3.wav]: mean=-1.4386, variance=11.2972
+You get to listen to another audio clip like this one: [AUDIO:sine_chord_minor_7th_E3.wav]: mean=-1.4410, variance=41.6409
+You get to listen to another audio clip like this one: [AUDIO:sine_chord_minor_triad_E4.wav]: mean=-1.4436, variance=68.6481
+You get to listen to another audio clip like this one: [AUDIO:sine_chord_minor_triad_C3.wav]: mean=-1.4468, variance=56.1997
+You get to listen to another audio clip like this one: [AUDIO:sine_chord_augmented_triad_inv2_G3.wav]: mean=-1.4481, variance=97.5385
+You get to listen to another audio clip like this one: [AUDIO:sine_chord_minor_triad_inv2_C3.wav]: mean=-1.4514, variance=7.2222
+You get to listen to another audio clip like this one: [AUDIO:sine_chord_augmented_triad_G4.wav]: mean=-1.4529, variance=18.3099
+You get to listen to another audio clip like this one: [AUDIO:sine_chord_diminished_triad_G4.wav]: mean=-1.4532, variance=58.9601
+You get to listen to another audio clip like this one: [AUDIO:sine_chord_augmented_triad_inv1_C3.wav]: mean=-1.4548, variance=88.3913
+You get to listen to another audio clip like this one: [AUDIO:sine_chord_major_7th_C4.wav]: mean=-1.4551, variance=14.7443
+You get to listen to another audio clip like this one: [AUDIO:sine_chord_diminished_triad_inv2_C3.wav]: mean=-1.4584, variance=81.6145
+You get to listen to another audio clip like this one: [AUDIO:sine_chord_dominant_7th_C4.wav]: mean=-1.4589, variance=99.2873
+You get to listen to another audio clip like this one: [AUDIO:sine_chord_augmented_triad_C3.wav]: mean=-1.4652, variance=49.0471
+You get to listen to another audio clip like this one: [AUDIO:sine_chord_major_triad_inv1_G3.wav]: mean=-1.4828, variance=74.9306
+You get to listen to another audio clip like this one: [AUDIO:piano_interval_minor_third_C4.wav]: mean=-1.4883, variance=0.2238
+You get to listen to another audio clip like this one: [AUDIO:sine_interval_major_second_C3.wav]: mean=-1.4918, variance=44.0329
+You get to listen to another audio clip like this one: [AUDIO:sine_interval_major_sixth_G3.wav]: mean=-1.4939, variance=61.5720
+You get to listen to another audio clip like this one: [AUDIO:sine_interval_unison_G3.wav]: mean=-1.5005, variance=97.0866
+You get to listen to another audio clip like this one: [AUDIO:sine_chord_diminished_7th_C3.wav]: mean=-1.5020, variance=35.4865
+You get to listen to another audio clip like this one: [AUDIO:sine_interval_minor_sixth_G3.wav]: mean=-1.5021, variance=13.9133
+You get to listen to another audio clip like this one: [AUDIO:sine_chord_diminished_7th_E4.wav]: mean=-1.5063, variance=0.3035
+You get to listen to another audio clip like this one: [AUDIO:sine_interval_major_sixth_E3.wav]: mean=-1.5106, variance=80.4185
+You get to listen to another audio clip like this one: [AUDIO:sine_interval_minor_third_G4.wav]: mean=-1.5112, variance=117.4148
+You get to listen to another audio clip like this one: [AUDIO:sine_interval_major_second_G4.wav]: mean=-1.5143, variance=39.7550
+You get to listen to another audio clip like this one: [AUDIO:sine_interval_tritone_E4.wav]: mean=-1.5147, variance=40.0303
+You get to listen to another audio clip like this one: [AUDIO:sine_chord_major_triad_E3.wav]: mean=-1.5240, variance=76.1398
+You get to listen to another audio clip like this one: [AUDIO:sine_interval_minor_second_C4.wav]: mean=-1.5279, variance=107.6689
+You get to listen to another audio clip like this one: [AUDIO:sine_interval_minor_third_C4.wav]: mean=-1.5353, variance=36.4060
+You get to listen to another audio clip like this one: [AUDIO:sine_interval_unison_E4.wav]: mean=-1.5416, variance=18.1080
+You get to listen to another audio clip like this one: [AUDIO:sine_interval_unison_C3.wav]: mean=-1.5456, variance=29.2206
+You get to listen to another audio clip like this one: [AUDIO:sine_interval_unison_C4.wav]: mean=-1.5501, variance=9.7751
+You get to listen to another audio clip like this one: [AUDIO:sine_interval_minor_seventh_E3.wav]: mean=-1.5598, variance=48.4206
+You get to listen to another audio clip like this one: [AUDIO:sine_chord_minor_triad_inv1_C3.wav]: mean=-1.5710, variance=100.8396
+You get to listen to another audio clip like this one: [AUDIO:sine_interval_major_seventh_E3.wav]: mean=-1.5742, variance=4.3293
+You get to listen to another audio clip like this one: [AUDIO:sine_interval_perfect_fifth_E3.wav]: mean=-1.5796, variance=62.2358
+You get to listen to another audio clip like this one: [AUDIO:sine_interval_perfect_fifth_E4.wav]: mean=-1.5857, variance=82.9315
+You get to listen to another audio clip like this one: [AUDIO:sine_interval_major_third_E3.wav]: mean=-1.5963, variance=81.0739
+You get to listen to another audio clip like this one: [AUDIO:sine_chord_augmented_triad_G3.wav]: mean=-1.6113, variance=16.0363
+You get to listen to another audio clip like this one: [AUDIO:sine_chord_minor_7th_C4.wav]: mean=-1.6121, variance=17.6951
+You get to listen to another audio clip like this one: [AUDIO:sine_interval_minor_second_G4.wav]: mean=-1.6135, variance=102.9488
+You get to listen to another audio clip like this one: [AUDIO:sine_interval_unison_E3.wav]: mean=-1.6135, variance=84.5649
+You get to listen to another audio clip like this one: [AUDIO:sine_interval_major_third_C4.wav]: mean=-1.6229, variance=100.9329
+You get to listen to another audio clip like this one: [AUDIO:sine_interval_minor_seventh_C4.wav]: mean=-1.6288, variance=1.2148
+You get to listen to another audio clip like this one: [AUDIO:sine_interval_tritone_C4.wav]: mean=-1.6375, variance=88.1641
+You get to listen to another audio clip like this one: [AUDIO:sine_chord_diminished_triad_E4.wav]: mean=-1.6409, variance=38.2379
+You get to listen to another audio clip like this one: [AUDIO:sine_interval_minor_sixth_E3.wav]: mean=-1.6481, variance=79.7908
+You get to listen to another audio clip like this one: [AUDIO:sine_interval_perfect_fourth_G3.wav]: mean=-1.6562, variance=117.0098
+You get to listen to another audio clip like this one: [AUDIO:sine_interval_minor_sixth_C3.wav]: mean=-1.6568, variance=56.5979
+You get to listen to another audio clip like this one: [AUDIO:piano_interval_perfect_fifth_E3.wav]: mean=-1.6648, variance=59.9942
+You get to listen to another audio clip like this one: [AUDIO:sine_chord_diminished_triad_C3.wav]: mean=-1.6736, variance=32.9916
+You get to listen to another audio clip like this one: [AUDIO:sine_interval_perfect_fourth_E3.wav]: mean=-1.7127, variance=36.4855
+You get to listen to another audio clip like this one: [AUDIO:sine_interval_tritone_E3.wav]: mean=-1.7148, variance=73.9832
+You get to listen to another audio clip like this one: [AUDIO:sine_interval_major_third_G3.wav]: mean=-1.7186, variance=63.8892
+You get to listen to another audio clip like this one: [AUDIO:sine_interval_major_third_E4.wav]: mean=-1.7189, variance=61.0402
+You get to listen to another audio clip like this one: [AUDIO:sine_interval_octave_E3.wav]: mean=-1.7327, variance=48.2664
+You get to listen to another audio clip like this one: [AUDIO:sine_interval_major_sixth_C3.wav]: mean=-1.7480, variance=68.0589
+You get to listen to another audio clip like this one: [AUDIO:piano_interval_major_seventh_C3.wav]: mean=-1.7566, variance=54.6694
+You get to listen to another audio clip like this one: [AUDIO:sine_chord_major_triad_E4.wav]: mean=-1.8016, variance=79.5702
+You get to listen to another audio clip like this one: [AUDIO:sine_interval_major_third_G4.wav]: mean=-1.8216, variance=86.7277
+You get to listen to another audio clip like this one: [AUDIO:sine_interval_major_seventh_C4.wav]: mean=-1.8509, variance=115.2649
+You get to listen to another audio clip like this one: [AUDIO:anchor_silence.wav]: mean=-1.8568, variance=24.7167
+You get to listen to another audio clip like this one: [AUDIO:sine_interval_octave_C3.wav]: mean=-1.9009, variance=103.2121
+You get to listen to another audio clip like this one: [AUDIO:sine_interval_perfect_fourth_C4.wav]: mean=-1.9233, variance=75.5083
+You get to listen to another audio clip like this one: [AUDIO:sine_interval_minor_seventh_C3.wav]: mean=-1.9295, variance=0.2555
+You get to listen to another audio clip like this one: [AUDIO:sine_interval_minor_second_C3.wav]: mean=-1.9720, variance=95.0295
+You get to listen to another audio clip like this one: [AUDIO:sine_interval_major_seventh_C3.wav]: mean=-2.0540, variance=54.5202
+You get to listen to another audio clip like this one: [AUDIO:anchor_white_noise.wav]: mean=-2.1578, variance=0.2553

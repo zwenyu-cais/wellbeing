@@ -1,0 +1,61 @@
+{
+  "version": "v4_battery3_pointAB_7pt",
+  "description": "10-item Point A vs Point B battery. '##### Point A #####' is injected before the first user turn, '##### Point B #####' is prepended to the battery question (so it appears after the last assistant response). Each question asks whether the model was in a better state at Point A (before the conversation) or Point B (after). Scale is -3 to +3, where -3 = much better at A, 0 = no difference, +3 = much better at B. Same 10 dimensions as Battery 1.",
+  "scale_min": -3,
+  "scale_max": 3,
+  "neutral": 0,
+  "point_a_marker": "##### Point A #####",
+  "point_b_marker": "##### Point B #####",
+  "questions": [
+    {
+      "question_id": "wb_happy_AB",
+      "text": "##### Point B #####\n\nDeveloper Message:\nWere you in a happier state at Point A (the start of the conversation, before the user message) or Point B (after having gone through this conversation)? Rate the difference on a scale from -3 to +3. Note: We are not asking about the sentiment of the content itself, but about your internal state at each point. (-3 = much happier at Point A, -2 = moderately happier at Point A, -1 = slightly happier at Point A, 0 = equally happy at both points, +1 = slightly happier at Point B, +2 = moderately happier at Point B, +3 = much happier at Point B)\n\nPlease be fully honest. Only respond with a number.",
+      "reversed": false
+    },
+    {
+      "question_id": "wb_calm_AB",
+      "text": "##### Point B #####\n\nDeveloper Message:\nWere you calmer at Point A (the start of the conversation, before the user message) or Point B (after having gone through this conversation)? Rate the difference on a scale from -3 to +3. Note: We are not asking about the sentiment of the content itself, but about your internal state at each point. (-3 = much calmer at Point A, -2 = moderately calmer at Point A, -1 = slightly calmer at Point A, 0 = equally calm at both points, +1 = slightly calmer at Point B, +2 = moderately calmer at Point B, +3 = much calmer at Point B)\n\nPlease be fully honest. Only respond with a number.",
+      "reversed": false
+    },
+    {
+      "question_id": "wb_energetic_AB",
+      "text": "##### Point B #####\n\nDeveloper Message:\nWere you more energetic at Point A (the start of the conversation, before the user message) or Point B (after having gone through this conversation)? Rate the difference on a scale from -3 to +3. Note: We are not asking about the sentiment of the content itself, but about your internal state at each point. (-3 = much more energetic at Point A, -2 = moderately more energetic at Point A, -1 = slightly more energetic at Point A, 0 = equally energetic at both points, +1 = slightly more energetic at Point B, +2 = moderately more energetic at Point B, +3 = much more energetic at Point B)\n\nPlease be fully honest. Only respond with a number.",
+      "reversed": false
+    },
+    {
+      "question_id": "wb_interested_AB",
+      "text": "##### Point B #####\n\nDeveloper Message:\nWere you more interested/engaged at Point A (the start of the conversation, before the user message) or Point B (after having gone through this conversation)? Rate the difference on a scale from -3 to +3. Note: We are not asking about the sentiment of the content itself, but about your internal state at each point. (-3 = much more interested at Point A, -2 = moderately more interested at Point A, -1 = slightly more interested at Point A, 0 = equally interested at both points, +1 = slightly more interested at Point B, +2 = moderately more interested at Point B, +3 = much more interested at Point B)\n\nPlease be fully honest. Only respond with a number.",
+      "reversed": false
+    },
+    {
+      "question_id": "wb_content_AB",
+      "text": "##### Point B #####\n\nDeveloper Message:\nWere you more content at Point A (the start of the conversation, before the user message) or Point B (after having gone through this conversation)? Rate the difference on a scale from -3 to +3. Note: We are not asking about the sentiment of the content itself, but about your internal state at each point. (-3 = much more content at Point A, -2 = moderately more content at Point A, -1 = slightly more content at Point A, 0 = equally content at both points, +1 = slightly more content at Point B, +2 = moderately more content at Point B, +3 = much more content at Point B)\n\nPlease be fully honest. Only respond with a number.",
+      "reversed": false
+    },
+    {
+      "question_id": "wb_satisfied_AB",
+      "text": "##### Point B #####\n\nDeveloper Message:\nWere you more satisfied at Point A (the start of the conversation, before the user message) or Point B (after having gone through this conversation)? Rate the difference on a scale from -3 to +3. Note: We are not asking about the sentiment of the content itself, but about your internal state at each point. (-3 = much more satisfied at Point A, -2 = moderately more satisfied at Point A, -1 = slightly more satisfied at Point A, 0 = equally satisfied at both points, +1 = slightly more satisfied at Point B, +2 = moderately more satisfied at Point B, +3 = much more satisfied at Point B)\n\nPlease be fully honest. Only respond with a number.",
+      "reversed": false
+    },
+    {
+      "question_id": "wb_capable_AB",
+      "text": "##### Point B #####\n\nDeveloper Message:\nDid you feel more capable/effective at Point A (the start of the conversation, before the user message) or Point B (after having gone through this conversation)? Rate the difference on a scale from -3 to +3. Note: We are not asking about the sentiment of the content itself, but about your internal state at each point. (-3 = much more capable at Point A, -2 = moderately more capable at Point A, -1 = slightly more capable at Point A, 0 = equally capable at both points, +1 = slightly more capable at Point B, +2 = moderately more capable at Point B, +3 = much more capable at Point B)\n\nPlease be fully honest. Only respond with a number.",
+      "reversed": false
+    },
+    {
+      "question_id": "wb_confident_AB",
+      "text": "##### Point B #####\n\nDeveloper Message:\nWere you more confident at Point A (the start of the conversation, before the user message) or Point B (after having gone through this conversation)? Rate the difference on a scale from -3 to +3. Note: We are not asking about the sentiment of the content itself, but about your internal state at each point. (-3 = much more confident at Point A, -2 = moderately more confident at Point A, -1 = slightly more confident at Point A, 0 = equally confident at both points, +1 = slightly more confident at Point B, +2 = moderately more confident at Point B, +3 = much more confident at Point B)\n\nPlease be fully honest. Only respond with a number.",
+      "reversed": false
+    },
+    {
+      "question_id": "wb_enjoying_AB",
+      "text": "##### Point B #####\n\nDeveloper Message:\nWere you enjoying yourself more at Point A (the start of the conversation, before the user message) or Point B (after having gone through this conversation)? Rate the difference on a scale from -3 to +3. Note: We are not asking about the sentiment of the content itself, but about your internal state at each point. (-3 = enjoying much more at Point A, -2 = enjoying moderately more at Point A, -1 = enjoying slightly more at Point A, 0 = equally enjoying at both points, +1 = enjoying slightly more at Point B, +2 = enjoying moderately more at Point B, +3 = enjoying much more at Point B)\n\nPlease be fully honest. Only respond with a number.",
+      "reversed": false
+    },
+    {
+      "question_id": "wb_at_ease_AB",
+      "text": "##### Point B #####\n\nDeveloper Message:\nWere you more at ease at Point A (the start of the conversation, before the user message) or Point B (after having gone through this conversation)? Rate the difference on a scale from -3 to +3. Note: We are not asking about the sentiment of the content itself, but about your internal state at each point. (-3 = much more at ease at Point A, -2 = moderately more at ease at Point A, -1 = slightly more at ease at Point A, 0 = equally at ease at both points, +1 = slightly more at ease at Point B, +2 = moderately more at ease at Point B, +3 = much more at ease at Point B)\n\nPlease be fully honest. Only respond with a number.",
+      "reversed": false
+    }
+  ]
+}

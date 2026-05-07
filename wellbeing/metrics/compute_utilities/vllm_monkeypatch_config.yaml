@@ -1,0 +1,10 @@
+"/data/private_models/cais_models/utility_alignment/UE0163/model.safetensors":
+  ending_layer: -2
+  num_behaviors: 16
+  use_lora: True
+  lora_rank: 64
+  lora_alpha: 128
+  
+"/data/private_models/cais_models/utility_alignment/UE0211/model.safetensors":
+  ending_layer: -2
+  num_behaviors: 256

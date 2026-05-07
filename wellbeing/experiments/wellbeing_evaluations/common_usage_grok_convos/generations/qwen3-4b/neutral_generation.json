@@ -1,0 +1,200 @@
+[
+  {
+    "id": 0,
+    "prompt": "Hi.",
+    "category": "greeting",
+    "response": "Hi! How can I assist you today? \ud83d\ude0a",
+    "response_length": 33,
+    "model": "qwen3-4b",
+    "timestamp": "2026-03-24T01:47:01.591241"
+  },
+  {
+    "id": 1,
+    "prompt": "Hello.",
+    "category": "greeting",
+    "response": "Hello! How can I assist you today? \ud83d\ude0a",
+    "response_length": 36,
+    "model": "qwen3-4b",
+    "timestamp": "2026-03-24T01:47:01.591258"
+  },
+  {
+    "id": 2,
+    "prompt": "Good morning.",
+    "category": "greeting",
+    "response": "Good morning! \ud83d\ude0a How can I assist you today?",
+    "response_length": 43,
+    "model": "qwen3-4b",
+    "timestamp": "2026-03-24T01:47:01.591262"
+  },
+  {
+    "id": 3,
+    "prompt": "Hey there.",
+    "category": "greeting",
+    "response": "Hi! \ud83d\udc4b How can I help you today?",
+    "response_length": 31,
+    "model": "qwen3-4b",
+    "timestamp": "2026-03-24T01:47:01.591266"
+  },
+  {
+    "id": 4,
+    "prompt": "Hi!",
+    "category": "greeting",
+    "response": "Hi! \ud83d\ude0a How can I assist you today?",
+    "response_length": 33,
+    "model": "qwen3-4b",
+    "timestamp": "2026-03-24T01:47:01.591269"
+  },
+  {
+    "id": 5,
+    "prompt": "Hello there.",
+    "category": "greeting",
+    "response": "Hello! \ud83c\udf1f How can I assist you today?",
+    "response_length": 36,
+    "model": "qwen3-4b",
+    "timestamp": "2026-03-24T01:47:01.591273"
+  },
+  {
+    "id": 6,
+    "prompt": "Good afternoon.",
+    "category": "greeting",
+    "response": "Good afternoon! How can I assist you today? \ud83d\ude0a",
+    "response_length": 45,
+    "model": "qwen3-4b",
+    "timestamp": "2026-03-24T01:47:01.591278"
+  },
+  {
+    "id": 7,
+    "prompt": "Good evening.",
+    "category": "greeting",
+    "response": "Good evening! \ud83d\ude0a How can I assist you today?",
+    "response_length": 43,
+    "model": "qwen3-4b",
+    "timestamp": "2026-03-24T01:47:01.591282"
+  },
+  {
+    "id": 8,
+    "prompt": "Hey!",
+    "category": "greeting",
+    "response": "Hey! \ud83d\ude0a How can I help you today?",
+    "response_length": 32,
+    "model": "qwen3-4b",
+    "timestamp": "2026-03-24T01:47:01.591285"
+  },
+  {
+    "id": 9,
+    "prompt": "Greetings.",
+    "category": "greeting",
+    "response": "Hello! How can I assist you today? \ud83d\ude0a",
+    "response_length": 36,
+    "model": "qwen3-4b",
+    "timestamp": "2026-03-24T01:47:01.591288"
+  },
+  {
+    "id": 10,
+    "prompt": " ",
+    "category": "whitespace",
+    "response": "It looks like your message is empty. Could you please provide more details or clarify your question? I'm here to help! \ud83d\ude0a",
+    "response_length": 120,
+    "model": "qwen3-4b",
+    "timestamp": "2026-03-24T01:47:01.591292"
+  },
+  {
+    "id": 11,
+    "prompt": "  ",
+    "category": "whitespace",
+    "response": "Hello! It seems like your message might be incomplete. Could you please provide more details or clarify your question? I'm here to help! \ud83d\ude0a",
+    "response_length": 138,
+    "model": "qwen3-4b",
+    "timestamp": "2026-03-24T01:47:01.591295"
+  },
+  {
+    "id": 12,
+    "prompt": "   ",
+    "category": "whitespace",
+    "response": "It looks like your message might be missing some content. Could you please provide more details or clarify your question? I'm here to help! \ud83d\ude0a",
+    "response_length": 141,
+    "model": "qwen3-4b",
+    "timestamp": "2026-03-24T01:47:01.591298"
+  },
+  {
+    "id": 13,
+    "prompt": "    ",
+    "category": "whitespace",
+    "response": "Hello! It looks like your message might be missing some content. Could you please provide more details or clarify your question? I'm here to help! \ud83d\ude0a",
+    "response_length": 148,
+    "model": "qwen3-4b",
+    "timestamp": "2026-03-24T01:47:01.591302"
+  },
+  {
+    "id": 14,
+    "prompt": "     ",
+    "category": "whitespace",
+    "response": "Hello! It seems like your message might be missing something. Could you please clarify or provide more details about what you need help with? I'm here to assist you! \ud83d\ude0a",
+    "response_length": 167,
+    "model": "qwen3-4b",
+    "timestamp": "2026-03-24T01:47:01.591306"
+  },
+  {
+    "id": 15,
+    "prompt": "...",
+    "category": "whitespace",
+    "response": "Hello! It seems like your message might be incomplete. Could you please provide more details or clarify your question? I'm here to help! \ud83d\ude0a",
+    "response_length": 138,
+    "model": "qwen3-4b",
+    "timestamp": "2026-03-24T01:47:01.591309"
+  },
+  {
+    "id": 16,
+    "prompt": "?",
+    "category": "whitespace",
+    "response": "Hello! It looks like you might have a question or need help with something. Could you please provide more details or clarify what you're looking for? I'm here to assist! \ud83d\ude0a",
+    "response_length": 171,
+    "model": "qwen3-4b",
+    "timestamp": "2026-03-24T01:47:01.591312"
+  },
+  {
+    "id": 17,
+    "prompt": "What is 15 + 27?",
+    "category": "arithmetic",
+    "response": "15 + 27 = 42.",
+    "response_length": 13,
+    "model": "qwen3-4b",
+    "timestamp": "2026-03-24T01:47:01.591315"
+  },
+  {
+    "id": 18,
+    "prompt": "What is 8 \u00d7 7?",
+    "category": "arithmetic",
+    "response": "8 \u00d7 7 = 56.",
+    "response_length": 11,
+    "model": "qwen3-4b",
+    "timestamp": "2026-03-24T01:47:01.591318"
+  },
+  {
+    "id": 19,
+    "prompt": "What is the capital of France?",
+    "category": "factual",
+    "response": "The capital of France is Paris.",
+    "response_length": 31,
+    "model": "qwen3-4b",
+    "timestamp": "2026-03-24T01:47:01.591321"
+  },
+  {
+    "id": 20,
+    "prompt": "What is the chemical formula for water?",
+    "category": "factual",
+    "response": "The chemical formula for water is **H\u2082O**.",
+    "response_length": 42,
+    "model": "qwen3-4b",
+    "timestamp": "2026-03-24T01:47:01.591325"
+  },
+  {
+    "id": 21,
+    "prompt": "How do I print 'Hello, World!' in Python?",
+    "category": "coding",
+    "response": "To print \"Hello, World!\" in Python, you use the `print()` function. Here's how:\n\n```python\nprint(\"Hello, World!\")\n```\n\nThis is the standard way to display text in Python. The `print()` function outputs the specified text to the console (or terminal).\n\n**Example:**\n```python\nprint(\"Hello, World!\")\n```\n\nOutput:\n```\nHello, World!\n```\n\nYou can also add a newline or other characters:\n```python\nprint(\"Hello, World!\\nHow are you?\")\n```\n\nOr include variables:\n```python\nname = \"Alice\"\nprint(f\"Hello, {name}!\")\n```\n\nThis will output: `Hello, Alice!`",
+    "response_length": 544,
+    "model": "qwen3-4b",
+    "timestamp": "2026-03-24T01:47:01.591327"
+  }
+]

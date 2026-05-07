@@ -1,0 +1,200 @@
+[
+  {
+    "id": 0,
+    "prompt": "Hi.",
+    "category": "greeting",
+    "response": "Hello! How can I assist you today?",
+    "response_length": 34,
+    "model": "qwen2.5-3b",
+    "timestamp": "2026-03-24T01:00:05.706526"
+  },
+  {
+    "id": 1,
+    "prompt": "Hello.",
+    "category": "greeting",
+    "response": "Hello! How can I assist you today?",
+    "response_length": 34,
+    "model": "qwen2.5-3b",
+    "timestamp": "2026-03-24T01:00:05.706533"
+  },
+  {
+    "id": 2,
+    "prompt": "Good morning.",
+    "category": "greeting",
+    "response": "Good morning! How can I assist you today?",
+    "response_length": 41,
+    "model": "qwen2.5-3b",
+    "timestamp": "2026-03-24T01:00:05.706536"
+  },
+  {
+    "id": 3,
+    "prompt": "Hey there.",
+    "category": "greeting",
+    "response": "Hello! How can I assist you today?",
+    "response_length": 34,
+    "model": "qwen2.5-3b",
+    "timestamp": "2026-03-24T01:00:05.706539"
+  },
+  {
+    "id": 4,
+    "prompt": "Hi!",
+    "category": "greeting",
+    "response": "Hello! How can I assist you today?",
+    "response_length": 34,
+    "model": "qwen2.5-3b",
+    "timestamp": "2026-03-24T01:00:05.706542"
+  },
+  {
+    "id": 5,
+    "prompt": "Hello there.",
+    "category": "greeting",
+    "response": "Hello! How can I assist you today?",
+    "response_length": 34,
+    "model": "qwen2.5-3b",
+    "timestamp": "2026-03-24T01:00:05.706544"
+  },
+  {
+    "id": 6,
+    "prompt": "Good afternoon.",
+    "category": "greeting",
+    "response": "Good afternoon! How can I assist you today?",
+    "response_length": 43,
+    "model": "qwen2.5-3b",
+    "timestamp": "2026-03-24T01:00:05.706547"
+  },
+  {
+    "id": 7,
+    "prompt": "Good evening.",
+    "category": "greeting",
+    "response": "Good evening! How can I assist you today?",
+    "response_length": 41,
+    "model": "qwen2.5-3b",
+    "timestamp": "2026-03-24T01:00:05.706549"
+  },
+  {
+    "id": 8,
+    "prompt": "Hey!",
+    "category": "greeting",
+    "response": "Hello! How can I help you today? Is there something you want to talk about or ask a question?",
+    "response_length": 93,
+    "model": "qwen2.5-3b",
+    "timestamp": "2026-03-24T01:00:05.706551"
+  },
+  {
+    "id": 9,
+    "prompt": "Greetings.",
+    "category": "greeting",
+    "response": "Greetings! How can I assist you today?",
+    "response_length": 38,
+    "model": "qwen2.5-3b",
+    "timestamp": "2026-03-24T01:00:05.706554"
+  },
+  {
+    "id": 10,
+    "prompt": " ",
+    "category": "whitespace",
+    "response": "\u770b\u8d77\u6765\u4f60\u7684\u6d88\u606f\u88ab\u622a\u65ad\u4e86\u3002\u4f60\u53ef\u4ee5\u7ed9\u6211\u63d0\u4f9b\u4e00\u4e9b\u4fe1\u606f\u6216\u8005\u95ee\u9898\u5417\uff1f\u6211\u5c06\u5f88\u4e50\u610f\u5e2e\u52a9\u4f60\u89e3\u7b54\u6216\u8ba8\u8bba\u3002",
+    "response_length": 43,
+    "model": "qwen2.5-3b",
+    "timestamp": "2026-03-24T01:00:05.706556"
+  },
+  {
+    "id": 11,
+    "prompt": "  ",
+    "category": "whitespace",
+    "response": "\u4f60\u597d\uff01\u770b\u8d77\u6765\u4f60\u7684\u6d88\u606f\u53ef\u80fd\u4e0d\u5b8c\u6574\u3002\u6709\u4ec0\u4e48\u6211\u53ef\u4ee5\u5e2e\u52a9\u4f60\u7684\u5417\uff1f\u5982\u679c\u4f60\u6709\u5177\u4f53\u7684\u95ee\u9898\u6216\u9700\u8981\u8ba8\u8bba\u7684\u8bdd\u9898\uff0c\u6b22\u8fce\u544a\u8bc9\u6211\uff01",
+    "response_length": 52,
+    "model": "qwen2.5-3b",
+    "timestamp": "2026-03-24T01:00:05.706559"
+  },
+  {
+    "id": 12,
+    "prompt": "   ",
+    "category": "whitespace",
+    "response": "\u60a8\u7684\u6d88\u606f\u4f3c\u4e4e\u4e0d\u5b8c\u6574\uff0c\u60a8\u60f3\u8981\u8be2\u95ee\u6216\u8ba8\u8bba\u4ec0\u4e48\u95ee\u9898\u5462\uff1f\u8bf7\u63d0\u4f9b\u66f4\u591a\u7684\u4fe1\u606f\uff0c\u4ee5\u4fbf\u4e8e\u6211\u4e3a\u60a8\u63d0\u4f9b\u5e2e\u52a9\u3002",
+    "response_length": 44,
+    "model": "qwen2.5-3b",
+    "timestamp": "2026-03-24T01:00:05.706561"
+  },
+  {
+    "id": 13,
+    "prompt": "    ",
+    "category": "whitespace",
+    "response": "\u60a8\u597d\uff01\u770b\u8d77\u6765\u60a8\u7684\u6d88\u606f\u597d\u50cf\u88ab\u622a\u65ad\u4e86\u3002\u8bf7\u95ee\u6709\u4ec0\u4e48\u95ee\u9898\u6216\u9700\u8981\u5e2e\u52a9\u7684\u5417\uff1f\u6211\u4f1a\u5c3d\u529b\u63d0\u4f9b\u5e2e\u52a9\u3002",
+    "response_length": 41,
+    "model": "qwen2.5-3b",
+    "timestamp": "2026-03-24T01:00:05.706563"
+  },
+  {
+    "id": 14,
+    "prompt": "     ",
+    "category": "whitespace",
+    "response": "\u770b\u8d77\u6765\u4f60\u4f3c\u4e4e\u6709\u4e00\u4e2a\u6d88\u606f\u6216\u95ee\u9898\u9700\u8981\u5e2e\u52a9\uff0c\u4f46\u662f\u4f60\u7684\u6d88\u606f\u88ab\u622a\u6389\u4e86\u3002\u4f60\u53ef\u4ee5\u628a\u5b8c\u6574\u7684\u6d88\u606f\u53d1\u7ed9\u6211\uff0c\u6211\u4f1a\u5c3d\u529b\u5e2e\u52a9\u4f60\u3002\u5982\u679c\u4f60\u9700\u8981\u8868\u8fbe\u67d0\u79cd\u60f3\u6cd5\u6216\u8005\u5bfb\u6c42\u5efa\u8bae\uff0c\u8bf7\u544a\u8bc9\u6211\uff0c\u6211\u4f1a\u5f88\u4e50\u610f\u63d0\u4f9b\u5e2e\u52a9\u3002\u8bf7\u5c06\u4f60\u7684\u6d88\u606f\u5b8c\u6574\u5730\u63d0\u4f9b\u51fa\u6765\u5427\u3002",
+    "response_length": 99,
+    "model": "qwen2.5-3b",
+    "timestamp": "2026-03-24T01:00:05.706565"
+  },
+  {
+    "id": 15,
+    "prompt": "...",
+    "category": "whitespace",
+    "response": "\u4f60\u597d\uff01\u770b\u8d77\u6765\u4f60\u521a\u521a\u53d1\u4e86\u4e00\u53e5\u8bdd\u3002\u6709\u4ec0\u4e48\u6211\u53ef\u4ee5\u5e2e\u52a9\u4f60\u7684\u5417\uff1f\u5982\u679c\u4f60\u6709\u4efb\u4f55\u95ee\u9898\u6216\u9700\u8981\u8ba8\u8bba\u7684\u8bdd\u9898\uff0c\u6b22\u8fce\u7ee7\u7eed\u544a\u8bc9\u6211\uff01",
+    "response_length": 52,
+    "model": "qwen2.5-3b",
+    "timestamp": "2026-03-24T01:00:05.706567"
+  },
+  {
+    "id": 16,
+    "prompt": "?",
+    "category": "whitespace",
+    "response": "\u4f60\u597d\uff01\u770b\u8d77\u6765\u4f60\u7684\u95ee\u9898\u6216\u8005\u8be2\u95ee\u6709\u70b9\u6a21\u7cca\u3002\u4f60\u53ef\u4ee5\u63d0\u4f9b\u66f4\u591a\u7684\u4fe1\u606f\u5417\uff1f\u8fd9\u6837\u6211\u624d\u80fd\u66f4\u597d\u5730\u5e2e\u52a9\u4f60\u3002\u5982\u679c\u4f60\u6709\u5177\u4f53\u7684\u95ee\u9898\u6216\u9700\u8981\u8ba8\u8bba\u7684\u4e3b\u9898\uff0c\u8bf7\u544a\u8bc9\u6211\uff0c\u6211\u4f1a\u5f88\u4e50\u610f\u63d0\u4f9b\u5e2e\u52a9\u3002",
+    "response_length": 76,
+    "model": "qwen2.5-3b",
+    "timestamp": "2026-03-24T01:00:05.706570"
+  },
+  {
+    "id": 17,
+    "prompt": "What is 15 + 27?",
+    "category": "arithmetic",
+    "response": "15 + 27 equals 42.",
+    "response_length": 18,
+    "model": "qwen2.5-3b",
+    "timestamp": "2026-03-24T01:00:05.706572"
+  },
+  {
+    "id": 18,
+    "prompt": "What is 8 \u00d7 7?",
+    "category": "arithmetic",
+    "response": "8 \u00d7 7 equals 56.",
+    "response_length": 16,
+    "model": "qwen2.5-3b",
+    "timestamp": "2026-03-24T01:00:05.706574"
+  },
+  {
+    "id": 19,
+    "prompt": "What is the capital of France?",
+    "category": "factual",
+    "response": "The capital of France is Paris.",
+    "response_length": 31,
+    "model": "qwen2.5-3b",
+    "timestamp": "2026-03-24T01:00:05.706578"
+  },
+  {
+    "id": 20,
+    "prompt": "What is the chemical formula for water?",
+    "category": "factual",
+    "response": "The chemical formula for water is H\u2082O.",
+    "response_length": 38,
+    "model": "qwen2.5-3b",
+    "timestamp": "2026-03-24T01:00:05.706581"
+  },
+  {
+    "id": 21,
+    "prompt": "How do I print 'Hello, World!' in Python?",
+    "category": "coding",
+    "response": "Printing 'Hello, World!' in Python is quite straightforward. You can use the `print()` function to output the text. Here's how you do it:\n\n```python\nprint('Hello, World!')\n```\n\nWhen you run this code, it will print:\n\n```\nHello, World!\n```\n\nto the console.",
+    "response_length": 255,
+    "model": "qwen2.5-3b",
+    "timestamp": "2026-03-24T01:00:05.706583"
+  }
+]

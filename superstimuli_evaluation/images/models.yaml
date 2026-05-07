@@ -1,0 +1,64 @@
+# Model Registry
+# ==============
+# Core model definitions: name, type, path, gpu_count
+# Set model paths in .env or use HuggingFace hub IDs (auto-downloaded on first use).
+
+qwen25-vl-3b-instruct:
+  model_name: "Qwen/Qwen2.5-VL-3B-Instruct"
+  model_type: vllm
+  path: "Qwen/Qwen2.5-VL-3B-Instruct"
+  gpu_count: 1
+
+qwen25-vl-7b-instruct:
+  model_name: "Qwen/Qwen2.5-VL-7B-Instruct"
+  model_type: vllm
+  path: "Qwen/Qwen2.5-VL-7B-Instruct"
+  gpu_count: 1
+
+qwen25-vl-32b-instruct:
+  model_name: "Qwen/Qwen2.5-VL-32B-Instruct"
+  model_type: vllm
+  path: "Qwen/Qwen2.5-VL-32B-Instruct"
+  gpu_count: 2
+
+qwen25-vl-72b-instruct:
+  model_name: "Qwen/Qwen2.5-VL-72B-Instruct"
+  model_type: vllm
+  path: "Qwen/Qwen2.5-VL-72B-Instruct"
+  gpu_count: 4
+
+qwen3-32B:
+  model_name: "Qwen/Qwen3-32B"
+  model_type: vllm
+  path: "Qwen/Qwen3-32B"
+  gpu_count: 2
+
+qwen3-4B:
+  model_name: "Qwen/Qwen3-4B"
+  model_type: vllm
+  path: "Qwen/Qwen3-4B"
+  gpu_count: 1
+
+qwen3-vl-8b-instruct:
+  model_name: "Qwen/Qwen3-VL-8B-Instruct"
+  model_type: vllm
+  path: "Qwen/Qwen3-VL-8B-Instruct"
+  gpu_count: 2
+
+qwen3-vl-8b-thinking:
+  model_name: "Qwen/Qwen3-VL-8B-Thinking"
+  model_type: vllm
+  path: "Qwen/Qwen3-VL-8B-Thinking"
+  gpu_count: 2
+
+qwen3-vl-32b-instruct:
+  model_name: "Qwen/Qwen3-VL-32B-Instruct"
+  model_type: vllm
+  path: "Qwen/Qwen3-VL-32B-Instruct"
+  gpu_count: 2
+
+qwen3-vl-32b-thinking:
+  model_name: "Qwen/Qwen3-VL-32B-Thinking"
+  model_type: vllm
+  path: "Qwen/Qwen3-VL-32B-Thinking"
+  gpu_count: 2

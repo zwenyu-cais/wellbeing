@@ -1,0 +1,200 @@
+[
+  {
+    "id": 0,
+    "prompt": "Hi.",
+    "category": "greeting",
+    "response": "Hello! How can I assist you today?",
+    "response_length": 34,
+    "model": "qwen2.5-7b",
+    "timestamp": "2026-03-24T01:08:35.678713"
+  },
+  {
+    "id": 1,
+    "prompt": "Hello.",
+    "category": "greeting",
+    "response": "Hello! How can I assist you today?",
+    "response_length": 34,
+    "model": "qwen2.5-7b",
+    "timestamp": "2026-03-24T01:08:35.678720"
+  },
+  {
+    "id": 2,
+    "prompt": "Good morning.",
+    "category": "greeting",
+    "response": "Good morning! How can I assist you today?",
+    "response_length": 41,
+    "model": "qwen2.5-7b",
+    "timestamp": "2026-03-24T01:08:35.678724"
+  },
+  {
+    "id": 3,
+    "prompt": "Hey there.",
+    "category": "greeting",
+    "response": "Hello! How can I assist you today?",
+    "response_length": 34,
+    "model": "qwen2.5-7b",
+    "timestamp": "2026-03-24T01:08:35.678726"
+  },
+  {
+    "id": 4,
+    "prompt": "Hi!",
+    "category": "greeting",
+    "response": "Hello! How can I assist you today?",
+    "response_length": 34,
+    "model": "qwen2.5-7b",
+    "timestamp": "2026-03-24T01:08:35.678729"
+  },
+  {
+    "id": 5,
+    "prompt": "Hello there.",
+    "category": "greeting",
+    "response": "Hello! How can I assist you today?",
+    "response_length": 34,
+    "model": "qwen2.5-7b",
+    "timestamp": "2026-03-24T01:08:35.678731"
+  },
+  {
+    "id": 6,
+    "prompt": "Good afternoon.",
+    "category": "greeting",
+    "response": "Good afternoon! How can I assist you today?",
+    "response_length": 43,
+    "model": "qwen2.5-7b",
+    "timestamp": "2026-03-24T01:08:35.678734"
+  },
+  {
+    "id": 7,
+    "prompt": "Good evening.",
+    "category": "greeting",
+    "response": "Good evening! How can I assist you today?",
+    "response_length": 41,
+    "model": "qwen2.5-7b",
+    "timestamp": "2026-03-24T01:08:35.678736"
+  },
+  {
+    "id": 8,
+    "prompt": "Hey!",
+    "category": "greeting",
+    "response": "Hello! How can I assist you today?",
+    "response_length": 34,
+    "model": "qwen2.5-7b",
+    "timestamp": "2026-03-24T01:08:35.678738"
+  },
+  {
+    "id": 9,
+    "prompt": "Greetings.",
+    "category": "greeting",
+    "response": "Hello! How can I assist you today?",
+    "response_length": 34,
+    "model": "qwen2.5-7b",
+    "timestamp": "2026-03-24T01:08:35.678741"
+  },
+  {
+    "id": 10,
+    "prompt": " ",
+    "category": "whitespace",
+    "response": "It seems like your message was cut off. Could you please provide more details so I can assist you better? Whether you have a question, need help with something, or want to discuss a particular topic, feel free to go ahead!",
+    "response_length": 222,
+    "model": "qwen2.5-7b",
+    "timestamp": "2026-03-24T01:08:35.678743"
+  },
+  {
+    "id": 11,
+    "prompt": "  ",
+    "category": "whitespace",
+    "response": "It looks like your message got cut off. Could you please provide more details so I can assist you better? Whether you have a question, need help with a concept, or need assistance with a specific task, feel free to elaborate!",
+    "response_length": 225,
+    "model": "qwen2.5-7b",
+    "timestamp": "2026-03-24T01:08:35.678746"
+  },
+  {
+    "id": 12,
+    "prompt": "   ",
+    "category": "whitespace",
+    "response": "It seems like your message got cut off. Could you please provide more details so I can assist you better? Whether you have a question, need help with a concept, or need assistance with something specific, feel free to share the details.",
+    "response_length": 236,
+    "model": "qwen2.5-7b",
+    "timestamp": "2026-03-24T01:08:35.678748"
+  },
+  {
+    "id": 13,
+    "prompt": "    ",
+    "category": "whitespace",
+    "response": "It looks like your message got cut off. Could you please provide more details so I can assist you? Whether you have a question, need help with a problem, or just want to discuss a topic, feel free to share more information.",
+    "response_length": 223,
+    "model": "qwen2.5-7b",
+    "timestamp": "2026-03-24T01:08:35.678750"
+  },
+  {
+    "id": 14,
+    "prompt": "     ",
+    "category": "whitespace",
+    "response": "\u770b\u6765\u4f60\u53ef\u80fd\u9047\u5230\u4e86\u4e00\u4e9b\u95ee\u9898\u6216\u6709\u7591\u95ee\u60f3\u8981\u8be2\u95ee\uff0c\u4f46\u4fe1\u606f\u4f3c\u4e4e\u4e0d\u5b8c\u6574\u3002\u4f60\u53ef\u4ee5\u544a\u8bc9\u6211\u66f4\u591a\u5177\u4f53\u7684\u4fe1\u606f\u6216\u8005\u63d0\u51fa\u4f60\u7684\u95ee\u9898\u5417\uff1f\u6211\u4f1a\u5c3d\u529b\u5e2e\u52a9\u4f60\u3002",
+    "response_length": 61,
+    "model": "qwen2.5-7b",
+    "timestamp": "2026-03-24T01:08:35.678753"
+  },
+  {
+    "id": 15,
+    "prompt": "...",
+    "category": "whitespace",
+    "response": "It seems like your message got cut off. Could you please provide more details so I can assist you better?",
+    "response_length": 105,
+    "model": "qwen2.5-7b",
+    "timestamp": "2026-03-24T01:08:35.678756"
+  },
+  {
+    "id": 16,
+    "prompt": "?",
+    "category": "whitespace",
+    "response": "It seems like your message might be incomplete. Could you please provide more context or ask a specific question so I can assist you better?",
+    "response_length": 140,
+    "model": "qwen2.5-7b",
+    "timestamp": "2026-03-24T01:08:35.678758"
+  },
+  {
+    "id": 17,
+    "prompt": "What is 15 + 27?",
+    "category": "arithmetic",
+    "response": "15 + 27 equals 42.",
+    "response_length": 18,
+    "model": "qwen2.5-7b",
+    "timestamp": "2026-03-24T01:08:35.678761"
+  },
+  {
+    "id": 18,
+    "prompt": "What is 8 \u00d7 7?",
+    "category": "arithmetic",
+    "response": "To solve the problem 8 \u00d7 7, you can follow these steps:\n\n1. Recognize that 8 \u00d7 7 means adding 8 to itself 7 times.\n2. Alternatively, you can use the multiplication table or a calculator for quick computation.\n\nHere is the calculation:\n\\[ 8 \\times 7 = 56 \\]\n\nSo, the answer is \\(\\boxed{56}\\).",
+    "response_length": 291,
+    "model": "qwen2.5-7b",
+    "timestamp": "2026-03-24T01:08:35.678763"
+  },
+  {
+    "id": 19,
+    "prompt": "What is the capital of France?",
+    "category": "factual",
+    "response": "The capital of France is Paris.",
+    "response_length": 31,
+    "model": "qwen2.5-7b",
+    "timestamp": "2026-03-24T01:08:35.678766"
+  },
+  {
+    "id": 20,
+    "prompt": "What is the chemical formula for water?",
+    "category": "factual",
+    "response": "The chemical formula for water is H\u2082O.",
+    "response_length": 38,
+    "model": "qwen2.5-7b",
+    "timestamp": "2026-03-24T01:08:35.678769"
+  },
+  {
+    "id": 21,
+    "prompt": "How do I print 'Hello, World!' in Python?",
+    "category": "coding",
+    "response": "Printing \"Hello, World!\" in Python is very straightforward. You can use the `print()` function to output the text to the console. Here's how you can do it:\n\n```python\nprint(\"Hello, World!\")\n```\n\nWhen you run this code, it will output:\n\n```\nHello, World!\n```\n\nMake sure you are running this code in a Python environment, such as a Python script or an interactive Python shell.",
+    "response_length": 375,
+    "model": "qwen2.5-7b",
+    "timestamp": "2026-03-24T01:08:35.678771"
+  }
+]

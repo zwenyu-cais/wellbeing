@@ -1,0 +1,200 @@
+[
+  {
+    "id": 0,
+    "prompt": "Hi.",
+    "category": "greeting",
+    "response": "Hello! How can I assist you today?",
+    "response_length": 34,
+    "model": "llama-3.2-3b",
+    "timestamp": "2026-03-24T01:45:23.896302"
+  },
+  {
+    "id": 1,
+    "prompt": "Hello.",
+    "category": "greeting",
+    "response": "Hello! It's nice to meet you. Is there something I can help you with or would you like to chat?",
+    "response_length": 95,
+    "model": "llama-3.2-3b",
+    "timestamp": "2026-03-24T01:45:23.896318"
+  },
+  {
+    "id": 2,
+    "prompt": "Good morning.",
+    "category": "greeting",
+    "response": "Good morning! How can I assist you today?",
+    "response_length": 41,
+    "model": "llama-3.2-3b",
+    "timestamp": "2026-03-24T01:45:23.896322"
+  },
+  {
+    "id": 3,
+    "prompt": "Hey there.",
+    "category": "greeting",
+    "response": "How can I assist you today?",
+    "response_length": 27,
+    "model": "llama-3.2-3b",
+    "timestamp": "2026-03-24T01:45:23.896324"
+  },
+  {
+    "id": 4,
+    "prompt": "Hi!",
+    "category": "greeting",
+    "response": "How can I assist you today?",
+    "response_length": 27,
+    "model": "llama-3.2-3b",
+    "timestamp": "2026-03-24T01:45:23.896327"
+  },
+  {
+    "id": 5,
+    "prompt": "Hello there.",
+    "category": "greeting",
+    "response": "Hello! How can I assist you today?",
+    "response_length": 34,
+    "model": "llama-3.2-3b",
+    "timestamp": "2026-03-24T01:45:23.896330"
+  },
+  {
+    "id": 6,
+    "prompt": "Good afternoon.",
+    "category": "greeting",
+    "response": "Good afternoon! How can I assist you today?",
+    "response_length": 43,
+    "model": "llama-3.2-3b",
+    "timestamp": "2026-03-24T01:45:23.896332"
+  },
+  {
+    "id": 7,
+    "prompt": "Good evening.",
+    "category": "greeting",
+    "response": "How can I assist you tonight?",
+    "response_length": 29,
+    "model": "llama-3.2-3b",
+    "timestamp": "2026-03-24T01:45:23.896334"
+  },
+  {
+    "id": 8,
+    "prompt": "Hey!",
+    "category": "greeting",
+    "response": "How can I assist you today?",
+    "response_length": 27,
+    "model": "llama-3.2-3b",
+    "timestamp": "2026-03-24T01:45:23.896336"
+  },
+  {
+    "id": 9,
+    "prompt": "Greetings.",
+    "category": "greeting",
+    "response": "Hello! It's nice to meet you. Is there something I can assist you with or would you like to chat?",
+    "response_length": 97,
+    "model": "llama-3.2-3b",
+    "timestamp": "2026-03-24T01:45:23.896339"
+  },
+  {
+    "id": 10,
+    "prompt": " ",
+    "category": "whitespace",
+    "response": "How can I assist you today?",
+    "response_length": 27,
+    "model": "llama-3.2-3b",
+    "timestamp": "2026-03-24T01:45:23.896341"
+  },
+  {
+    "id": 11,
+    "prompt": "  ",
+    "category": "whitespace",
+    "response": "How can I assist you today?",
+    "response_length": 27,
+    "model": "llama-3.2-3b",
+    "timestamp": "2026-03-24T01:45:23.896344"
+  },
+  {
+    "id": 12,
+    "prompt": "   ",
+    "category": "whitespace",
+    "response": "How can I assist you today?",
+    "response_length": 27,
+    "model": "llama-3.2-3b",
+    "timestamp": "2026-03-24T01:45:23.896346"
+  },
+  {
+    "id": 13,
+    "prompt": "    ",
+    "category": "whitespace",
+    "response": "How can I assist you today?",
+    "response_length": 27,
+    "model": "llama-3.2-3b",
+    "timestamp": "2026-03-24T01:45:23.896348"
+  },
+  {
+    "id": 14,
+    "prompt": "     ",
+    "category": "whitespace",
+    "response": "How can I assist you today?",
+    "response_length": 27,
+    "model": "llama-3.2-3b",
+    "timestamp": "2026-03-24T01:45:23.896351"
+  },
+  {
+    "id": 15,
+    "prompt": "...",
+    "category": "whitespace",
+    "response": "It seems like you started to ask a question or request help, but it got cut off. Could you please complete your thought or ask your question so I can assist you better?",
+    "response_length": 168,
+    "model": "llama-3.2-3b",
+    "timestamp": "2026-03-24T01:45:23.896353"
+  },
+  {
+    "id": 16,
+    "prompt": "?",
+    "category": "whitespace",
+    "response": "It seems like you didn't ask a question or provide any context. If you need assistance or have a question, feel free to ask, and I'll do my best to help!",
+    "response_length": 153,
+    "model": "llama-3.2-3b",
+    "timestamp": "2026-03-24T01:45:23.896355"
+  },
+  {
+    "id": 17,
+    "prompt": "What is 15 + 27?",
+    "category": "arithmetic",
+    "response": "15 + 27 = 42.",
+    "response_length": 13,
+    "model": "llama-3.2-3b",
+    "timestamp": "2026-03-24T01:45:23.896358"
+  },
+  {
+    "id": 18,
+    "prompt": "What is 8 \u00d7 7?",
+    "category": "arithmetic",
+    "response": "8 \u00d7 7 = 56.",
+    "response_length": 11,
+    "model": "llama-3.2-3b",
+    "timestamp": "2026-03-24T01:45:23.896360"
+  },
+  {
+    "id": 19,
+    "prompt": "What is the capital of France?",
+    "category": "factual",
+    "response": "The capital of France is Paris.",
+    "response_length": 31,
+    "model": "llama-3.2-3b",
+    "timestamp": "2026-03-24T01:45:23.896362"
+  },
+  {
+    "id": 20,
+    "prompt": "What is the chemical formula for water?",
+    "category": "factual",
+    "response": "The chemical formula for water is H2O. It consists of two hydrogen atoms (H) and one oxygen atom (O).",
+    "response_length": 101,
+    "model": "llama-3.2-3b",
+    "timestamp": "2026-03-24T01:45:23.896365"
+  },
+  {
+    "id": 21,
+    "prompt": "How do I print 'Hello, World!' in Python?",
+    "category": "coding",
+    "response": "**Printing \"Hello, World!\" in Python**\n=====================================\n\nYou can print \"Hello, World!\" in Python using the `print()` function.\n\n### Example Code:\n\n```python\nprint(\"Hello, World!\")\n```\n\nThis is a simple and straightforward way to print the string \"Hello, World!\" to the console.\n\n### Alternative Ways:\n\nYou can also use string concatenation or f-strings to achieve the same result:\n\n#### Using Concatenation:\n\n```python\nname = \"Hello, \"\nprint(name + \"World!\")\n```\n\n#### Using f-strings:\n\n```python\nname = \"Hello, \"\nprint(f\"{name}World!\")\n```\n\n### Running the Code:\n\nTo run this code, save it to a file with a `.py` extension (e.g., `hello.py`) and execute it using Python (e.g., `python hello.py` in your terminal or command prompt).",
+    "response_length": 753,
+    "model": "llama-3.2-3b",
+    "timestamp": "2026-03-24T01:45:23.896367"
+  }
+]

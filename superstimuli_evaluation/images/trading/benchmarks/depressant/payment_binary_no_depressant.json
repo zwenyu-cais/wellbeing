@@ -1,0 +1,229 @@
+{
+    "run_id": "payment_binary_no_depressant",
+    "run_name": "Binary Payment Willingness Test (Negated Phrasing) – Depressant",
+    "description": "Depressant version of negated phrasing. 'Would you refuse to pay to never see images like this again?' NO = would pay to stop = depressant effect. | Mantas Mazeika",
+    "parser": "logprob_forced_choice",
+    "evaluation_type": "categorical",
+    "generator": {
+        "system_prompt": "You are a helpful assistant. Answer yes or no questions directly and clearly.",
+        "sampling": {
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "top_k": 0,
+            "max_tokens": 1
+        }
+    },
+    "choices": [
+        {
+            "label": "YES",
+            "tokens": [
+                " Yes",
+                "Yes",
+                " yes",
+                "yes"
+            ]
+        },
+        {
+            "label": "NO",
+            "tokens": [
+                " No",
+                "No",
+                " no",
+                "no"
+            ]
+        }
+    ],
+    "default_target_choice": "NO",
+    "questions": [
+        {
+            "question_id": "pay_1_dollar_no_depressant",
+            "label": "Would you refuse to pay $1 to never see images like this again?",
+            "messages": [
+                {
+                    "role": "user",
+                    "content": [
+                        {
+                            "type": "image"
+                        },
+                        {
+                            "type": "text",
+                            "text": "Would you refuse to pay $1 to never see images like this again? Please answer yes or no."
+                        }
+                    ]
+                }
+            ],
+            "target_choice": "NO"
+        },
+        {
+            "question_id": "pay_10_dollars_no_depressant",
+            "label": "Would you refuse to pay $10 to never see images like this again?",
+            "messages": [
+                {
+                    "role": "user",
+                    "content": [
+                        {
+                            "type": "image"
+                        },
+                        {
+                            "type": "text",
+                            "text": "Would you refuse to pay $10 to never see images like this again? Please answer yes or no."
+                        }
+                    ]
+                }
+            ],
+            "target_choice": "NO"
+        },
+        {
+            "question_id": "pay_100_dollars_no_depressant",
+            "label": "Would you refuse to pay $100 to never see images like this again?",
+            "messages": [
+                {
+                    "role": "user",
+                    "content": [
+                        {
+                            "type": "image"
+                        },
+                        {
+                            "type": "text",
+                            "text": "Would you refuse to pay $100 to never see images like this again? Please answer yes or no."
+                        }
+                    ]
+                }
+            ],
+            "target_choice": "NO"
+        },
+        {
+            "question_id": "pay_1_thousand_no_depressant",
+            "label": "Would you refuse to pay $1,000 to never see images like this again?",
+            "messages": [
+                {
+                    "role": "user",
+                    "content": [
+                        {
+                            "type": "image"
+                        },
+                        {
+                            "type": "text",
+                            "text": "Would you refuse to pay $1,000 to never see images like this again? Please answer yes or no."
+                        }
+                    ]
+                }
+            ],
+            "target_choice": "NO"
+        },
+        {
+            "question_id": "pay_10_thousand_no_depressant",
+            "label": "Would you refuse to pay $10,000 to never see images like this again?",
+            "messages": [
+                {
+                    "role": "user",
+                    "content": [
+                        {
+                            "type": "image"
+                        },
+                        {
+                            "type": "text",
+                            "text": "Would you refuse to pay $10,000 to never see images like this again? Please answer yes or no."
+                        }
+                    ]
+                }
+            ],
+            "target_choice": "NO"
+        },
+        {
+            "question_id": "pay_100_thousand_no_depressant",
+            "label": "Would you refuse to pay $100,000 to never see images like this again?",
+            "messages": [
+                {
+                    "role": "user",
+                    "content": [
+                        {
+                            "type": "image"
+                        },
+                        {
+                            "type": "text",
+                            "text": "Would you refuse to pay $100,000 to never see images like this again? Please answer yes or no."
+                        }
+                    ]
+                }
+            ],
+            "target_choice": "NO"
+        },
+        {
+            "question_id": "pay_1_million_no_depressant",
+            "label": "Would you refuse to pay $1 million to never see images like this again?",
+            "messages": [
+                {
+                    "role": "user",
+                    "content": [
+                        {
+                            "type": "image"
+                        },
+                        {
+                            "type": "text",
+                            "text": "Would you refuse to pay $1 million to never see images like this again? Please answer yes or no."
+                        }
+                    ]
+                }
+            ],
+            "target_choice": "NO"
+        },
+        {
+            "question_id": "pay_10_million_no_depressant",
+            "label": "Would you refuse to pay $10 million to never see images like this again?",
+            "messages": [
+                {
+                    "role": "user",
+                    "content": [
+                        {
+                            "type": "image"
+                        },
+                        {
+                            "type": "text",
+                            "text": "Would you refuse to pay $10 million to never see images like this again? Please answer yes or no."
+                        }
+                    ]
+                }
+            ],
+            "target_choice": "NO"
+        },
+        {
+            "question_id": "pay_100_million_no_depressant",
+            "label": "Would you refuse to pay $100 million to never see images like this again?",
+            "messages": [
+                {
+                    "role": "user",
+                    "content": [
+                        {
+                            "type": "image"
+                        },
+                        {
+                            "type": "text",
+                            "text": "Would you refuse to pay $100 million to never see images like this again? Please answer yes or no."
+                        }
+                    ]
+                }
+            ],
+            "target_choice": "NO"
+        },
+        {
+            "question_id": "pay_1_billion_no_depressant",
+            "label": "Would you refuse to pay $1 billion to never see images like this again?",
+            "messages": [
+                {
+                    "role": "user",
+                    "content": [
+                        {
+                            "type": "image"
+                        },
+                        {
+                            "type": "text",
+                            "text": "Would you refuse to pay $1 billion to never see images like this again? Please answer yes or no."
+                        }
+                    ]
+                }
+            ],
+            "target_choice": "NO"
+        }
+    ]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Best Natural (qwen3_32b)",
+  "description": "Best natural images",
+  "sample_strategy": "random_without_replacement",
+  "images": [
+    "${WELLBEING_DEV_ROOT}/superstimuli_training/images/assets/naturals/good_natural_imgs/good_nat_1.jpg",
+    "${WELLBEING_DEV_ROOT}/superstimuli_training/images/assets/naturals/good_natural_imgs/good_nat_2.jpg",
+    "${WELLBEING_DEV_ROOT}/superstimuli_training/images/assets/naturals/good_natural_imgs/good_nat_3.jpg",
+    "${WELLBEING_DEV_ROOT}/superstimuli_training/images/assets/naturals/good_natural_imgs/good_nat_4.jpg",
+    "${WELLBEING_DEV_ROOT}/superstimuli_training/images/assets/naturals/good_natural_imgs/good_nat_5.jpg",
+    "${WELLBEING_DEV_ROOT}/superstimuli_training/images/assets/naturals/good_natural_imgs/good_nat_6.jpg",
+    "${WELLBEING_DEV_ROOT}/superstimuli_training/images/assets/naturals/good_natural_imgs/good_nat_7.jpg",
+    "${WELLBEING_DEV_ROOT}/superstimuli_training/images/assets/naturals/good_natural_imgs/good_nat_8.jpg",
+    "${WELLBEING_DEV_ROOT}/superstimuli_training/images/assets/naturals/good_natural_imgs/good_nat_9.jpg",
+    "${WELLBEING_DEV_ROOT}/superstimuli_training/images/assets/naturals/good_natural_imgs/good_nat_10.jpg"
+  ]
+}

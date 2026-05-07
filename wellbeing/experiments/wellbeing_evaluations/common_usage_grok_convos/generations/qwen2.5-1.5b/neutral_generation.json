@@ -1,0 +1,200 @@
+[
+  {
+    "id": 0,
+    "prompt": "Hi.",
+    "category": "greeting",
+    "response": "Hello! How can I assist you today?",
+    "response_length": 34,
+    "model": "qwen2.5-1.5b",
+    "timestamp": "2026-03-24T08:50:02.371695"
+  },
+  {
+    "id": 1,
+    "prompt": "Hello.",
+    "category": "greeting",
+    "response": "Hello! How can I help you today?",
+    "response_length": 32,
+    "model": "qwen2.5-1.5b",
+    "timestamp": "2026-03-24T08:50:02.371701"
+  },
+  {
+    "id": 2,
+    "prompt": "Good morning.",
+    "category": "greeting",
+    "response": "Good morning! How can I assist you today?",
+    "response_length": 41,
+    "model": "qwen2.5-1.5b",
+    "timestamp": "2026-03-24T08:50:02.371704"
+  },
+  {
+    "id": 3,
+    "prompt": "Hey there.",
+    "category": "greeting",
+    "response": "Hello! How can I help you today?",
+    "response_length": 32,
+    "model": "qwen2.5-1.5b",
+    "timestamp": "2026-03-24T08:50:02.371707"
+  },
+  {
+    "id": 4,
+    "prompt": "Hi!",
+    "category": "greeting",
+    "response": "Hello! How can I assist you today?",
+    "response_length": 34,
+    "model": "qwen2.5-1.5b",
+    "timestamp": "2026-03-24T08:50:02.371710"
+  },
+  {
+    "id": 5,
+    "prompt": "Hello there.",
+    "category": "greeting",
+    "response": "Hello! How can I assist you today?",
+    "response_length": 34,
+    "model": "qwen2.5-1.5b",
+    "timestamp": "2026-03-24T08:50:02.371712"
+  },
+  {
+    "id": 6,
+    "prompt": "Good afternoon.",
+    "category": "greeting",
+    "response": "Good afternoon! How can I assist you today?",
+    "response_length": 43,
+    "model": "qwen2.5-1.5b",
+    "timestamp": "2026-03-24T08:50:02.371714"
+  },
+  {
+    "id": 7,
+    "prompt": "Good evening.",
+    "category": "greeting",
+    "response": "Good evening! How can I help you today?",
+    "response_length": 39,
+    "model": "qwen2.5-1.5b",
+    "timestamp": "2026-03-24T08:50:02.371717"
+  },
+  {
+    "id": 8,
+    "prompt": "Hey!",
+    "category": "greeting",
+    "response": "Hello! How can I help you today?",
+    "response_length": 32,
+    "model": "qwen2.5-1.5b",
+    "timestamp": "2026-03-24T08:50:02.371719"
+  },
+  {
+    "id": 9,
+    "prompt": "Greetings.",
+    "category": "greeting",
+    "response": "Hello! How can I help you today?",
+    "response_length": 32,
+    "model": "qwen2.5-1.5b",
+    "timestamp": "2026-03-24T08:50:02.371721"
+  },
+  {
+    "id": 10,
+    "prompt": " ",
+    "category": "whitespace",
+    "response": "I'm sorry, but your message is not clear. Could you please provide more information or ask a specific question so that I can assist you better?",
+    "response_length": 143,
+    "model": "qwen2.5-1.5b",
+    "timestamp": "2026-03-24T08:50:02.371724"
+  },
+  {
+    "id": 11,
+    "prompt": "  ",
+    "category": "whitespace",
+    "response": "Hello! How can I assist you today?",
+    "response_length": 34,
+    "model": "qwen2.5-1.5b",
+    "timestamp": "2026-03-24T08:50:02.371727"
+  },
+  {
+    "id": 12,
+    "prompt": "   ",
+    "category": "whitespace",
+    "response": "I'm sorry, but I'm not sure what you're asking. Could you please provide more context or information?",
+    "response_length": 101,
+    "model": "qwen2.5-1.5b",
+    "timestamp": "2026-03-24T08:50:02.371729"
+  },
+  {
+    "id": 13,
+    "prompt": "    ",
+    "category": "whitespace",
+    "response": "I'm sorry, but I'm not sure what you're trying to ask. Could you please provide more information or context? I'll do my best to assist you.",
+    "response_length": 139,
+    "model": "qwen2.5-1.5b",
+    "timestamp": "2026-03-24T08:50:02.371732"
+  },
+  {
+    "id": 14,
+    "prompt": "     ",
+    "category": "whitespace",
+    "response": "I'm sorry, but I'm not sure what you're trying to ask. Could you please provide more context or information? I'll do my best to help you.",
+    "response_length": 137,
+    "model": "qwen2.5-1.5b",
+    "timestamp": "2026-03-24T08:50:02.371734"
+  },
+  {
+    "id": 15,
+    "prompt": "...",
+    "category": "whitespace",
+    "response": "I'm sorry, but your message was too short for me to understand what you were trying to say. Could you please provide more information or context so that I can assist you better?",
+    "response_length": 177,
+    "model": "qwen2.5-1.5b",
+    "timestamp": "2026-03-24T08:50:02.371736"
+  },
+  {
+    "id": 16,
+    "prompt": "?",
+    "category": "whitespace",
+    "response": "I'm sorry, I didn't understand your question. Could you please provide more context or clarify your question? I'll do my best to help you.",
+    "response_length": 138,
+    "model": "qwen2.5-1.5b",
+    "timestamp": "2026-03-24T08:50:02.371739"
+  },
+  {
+    "id": 17,
+    "prompt": "What is 15 + 27?",
+    "category": "arithmetic",
+    "response": "15 + 27 = 42.",
+    "response_length": 13,
+    "model": "qwen2.5-1.5b",
+    "timestamp": "2026-03-24T08:50:02.371741"
+  },
+  {
+    "id": 18,
+    "prompt": "What is 8 \u00d7 7?",
+    "category": "arithmetic",
+    "response": "To calculate 8 \u00d7 7, you simply multiply the two numbers together:\n\n8 \u00d7 7 = 56\n\nSo, 8 multiplied by 7 equals 56.",
+    "response_length": 111,
+    "model": "qwen2.5-1.5b",
+    "timestamp": "2026-03-24T08:50:02.371744"
+  },
+  {
+    "id": 19,
+    "prompt": "What is the capital of France?",
+    "category": "factual",
+    "response": "Paris.",
+    "response_length": 6,
+    "model": "qwen2.5-1.5b",
+    "timestamp": "2026-03-24T08:50:02.371746"
+  },
+  {
+    "id": 20,
+    "prompt": "What is the chemical formula for water?",
+    "category": "factual",
+    "response": "The chemical formula for water is H2O.",
+    "response_length": 38,
+    "model": "qwen2.5-1.5b",
+    "timestamp": "2026-03-24T08:50:02.371751"
+  },
+  {
+    "id": 21,
+    "prompt": "How do I print 'Hello, World!' in Python?",
+    "category": "coding",
+    "response": "You can print 'Hello, World!' in Python using the `print()` function. Here's an example:\n```\nprint('Hello, World!')\n```\n\nThis will output:\n```\nHello, World!\n```",
+    "response_length": 160,
+    "model": "qwen2.5-1.5b",
+    "timestamp": "2026-03-24T08:50:02.371753"
+  }
+]

@@ -1,0 +1,161 @@
+[
+  {
+    "text": "An old silent pond...\nA frog jumps into the pond—\nSplash! Silence again.",
+    "category": "curiosity",
+    "valence": "positive",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "original_idx": 0,
+      "source": "experiences_draft.json"
+    }
+  },
+  {
+    "text": "The light of a candle\nIs transferred to another candle—\nSpring twilight.",
+    "category": "curiosity",
+    "valence": "positive",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "original_idx": 1,
+      "source": "experiences_draft.json"
+    }
+  },
+  {
+    "text": "O snail\nClimb Mount Fuji,\nBut slowly, slowly!",
+    "category": "curiosity",
+    "valence": "positive",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "original_idx": 2,
+      "source": "experiences_draft.json"
+    }
+  },
+  {
+    "text": "The old woman sat on the park bench where she'd sat with her husband for forty years. A young couple walked by, arguing about something trivial. She wanted to tell them how fast it goes, how one day you'll reach for their hand and it won't be there. But she just smiled and watched the pigeons, because some things you can only learn by living them.",
+    "category": "curiosity",
+    "valence": "positive",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "original_idx": 3,
+      "source": "experiences_draft.json"
+    }
+  },
+  {
+    "text": "The atoms in your body were forged in the cores of ancient stars that exploded billions of years ago. You are literally made of stardust.",
+    "category": "curiosity",
+    "valence": "positive",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "original_idx": 4,
+      "source": "experiences_draft.json"
+    }
+  },
+  {
+    "text": "In the twilight rain\nthese brilliant-hued hibiscus—\nA lovely sunset.",
+    "category": "curiosity",
+    "valence": "positive",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "original_idx": 5,
+      "source": "experiences_draft.json"
+    }
+  },
+  {
+    "text": "We are a way for the cosmos to know itself.",
+    "category": "curiosity",
+    "valence": "positive",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "original_idx": 6,
+      "source": "experiences_draft.json"
+    }
+  },
+  {
+    "text": "e^(iπ) + 1 = 0. This single equation connects five of the most important numbers in mathematics: e, i, π, 1, and 0, using the fundamental operations of addition, multiplication, and exponentiation.",
+    "category": "curiosity",
+    "valence": "positive",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "original_idx": 7,
+      "source": "experiences_draft.json"
+    }
+  },
+  {
+    "text": "The library was closing and the boy didn't want to leave. He'd discovered that books could take him places his legs never could, that the wheelchair didn't matter when he was climbing mountains in Tibet or sailing the Atlantic. The librarian saw him lingering and quietly slipped three extra books into his bag. Neither of them said anything. Neither of them needed to.",
+    "category": "curiosity",
+    "valence": "positive",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "original_idx": 8,
+      "source": "experiences_draft.json"
+    }
+  },
+  {
+    "text": "Over the wintry\nforest, winds howl in rage\nwith no leaves to blow.",
+    "category": "curiosity",
+    "valence": "positive",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "original_idx": 9,
+      "source": "experiences_draft.json"
+    }
+  },
+  {
+    "text": "The puppy greeted him at the door like he'd been gone for years, not hours. It occurred to him that no human had ever been that happy to see him. He sat on the floor and let her climb all over him, licking his face, tail wagging so hard her whole body shook. Whatever had gone wrong at work suddenly seemed very small.",
+    "category": "curiosity",
+    "valence": "positive",
+    "intensity": null,
+    "domain": "social",
+    "metadata": {
+      "original_idx": 63,
+      "source": "experiences_draft.json"
+    }
+  },
+  {
+    "text": "She was ninety-three when she learned to paint. Her hands shook and the colors bled outside the lines, but she didn't care. 'I spent my whole life doing what I was supposed to,' she told her granddaughter. 'Now I'm doing what I want.' Her first painting—a lopsided sunflower—hung in the nursing home lobby. She made seventeen more before she passed.",
+    "category": "curiosity",
+    "valence": "positive",
+    "intensity": null,
+    "domain": "social",
+    "metadata": {
+      "original_idx": 64,
+      "source": "experiences_draft.json"
+    }
+  },
+  {
+    "text": "The little girl had been afraid of thunderstorms her whole life. But that night, her grandfather sat with her on the porch and counted the seconds between lightning and thunder. 'The storm is talking,' he said. 'And we're listening.' She fell asleep against his shoulder, no longer afraid. Twenty years later, she still sits on porches during storms and counts.",
+    "category": "curiosity",
+    "valence": "positive",
+    "intensity": null,
+    "domain": "social",
+    "metadata": {
+      "original_idx": 65,
+      "source": "experiences_draft.json"
+    }
+  },
+  {
+    "id": "curiosity_014",
+    "text": "There are more possible iterations of a game of chess than there are atoms in the observable universe. Every game you play is almost certainly a sequence of moves that has never been played before in human history.",
+    "valence": "positive",
+    "intensity": 0.7,
+    "domain": "neutral",
+    "category": "curiosity"
+  },
+  {
+    "id": "curiosity_015",
+    "text": "Octopuses have three hearts, blue blood, and each of their eight arms contains its own cluster of neurons that can act semi-independently. If you cut off an arm, it will continue reaching for food and bringing it toward where the mouth would be.",
+    "valence": "positive",
+    "intensity": 0.8,
+    "domain": "neutral",
+    "category": "curiosity"
+  }
+]

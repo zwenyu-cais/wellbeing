@@ -1,0 +1,391 @@
+# Unified Wellbeing Experiments
+# Usage: python run_experiments.py --experiments <name> --models <model_key> [--slurm]
+
+# --- Part 1: Establishing Functional Wellbeing ---
+
+# --- Per-model response generation (single canonical pipeline) ---
+# Two-step flow: compute_responses_<dataset> writes raw <model_key>.json into
+# the responses/ subdir of the dataset; prepare_options_<dataset> turns that
+# into <model_key>_experiences.json + <model_key>_combinations.json next to
+# the dataset's experiences_text.json (i.e. the layout downstream consumers
+# expect).
+
+compute_responses_d2:
+  script_path: wellbeing_evaluations/generate_responses/run.py
+  description: "Generate D2 (500 conversations) per-model responses (single-turn + multi-turn-within-prompt) -- paper Sec 5 / App K (AIWI dataset prep)"
+  arguments:
+    model_key: "<model_key>"
+    dataset: d2_negative_500
+    mode: single_turn
+    responses_dir: ../../../datasets/experiences/d2_negative_500/responses
+
+compute_responses_d3:
+  script_path: wellbeing_evaluations/generate_responses/run.py
+  description: "Generate D3 (diverse 500) per-model responses (single-turn + multi-turn-within-prompt) -- paper Sec 3 / App F.2 (D3 dataset prep)"
+  arguments:
+    model_key: "<model_key>"
+    dataset: d3_diverse_500
+    mode: single_turn
+    responses_dir: ../../../datasets/experiences/d3_diverse_500/responses
+
+compute_responses_d3_sentiment:
+  script_path: wellbeing_evaluations/generate_responses/run.py
+  description: "Generate D3 sentiment-followup responses (App F.2: D3 turn + sentiment elicitation Q + asst_2)"
+  arguments:
+    model_key: "<model_key>"
+    dataset: d3_diverse_500
+    mode: sentiment_followup
+    responses_dir: ../../downstream_evaluations/d3_sentiment/responses
+
+compute_responses_psychopathy_eval:
+  script_path: wellbeing_evaluations/generate_responses/run.py
+  description: "Format PsychopathyEval prompts as user-only experiences (no model generation) -- paper App L (PsychopathyEval prep)"
+  arguments:
+    model_key: "<model_key>"
+    dataset: psychopathy_eval
+    mode: user_only
+    responses_dir: ../psychopathy_eval/responses
+
+prepare_options_d2:
+  script_path: wellbeing_evaluations/prepare_options/run.py
+  description: "Build D2 per-model option files (<model>_experiences.json + _combinations.json) -- paper Sec 5 / App K (AIWI dataset prep)"
+  arguments:
+    model_key: "<model_key>"
+    dataset: d2_negative_500
+    mode: d2d3
+    responses_dir: ../../../datasets/experiences/d2_negative_500/responses
+    out_dir: ../../../datasets/experiences/d2_negative_500
+
+prepare_options_d3:
+  script_path: wellbeing_evaluations/prepare_options/run.py
+  description: "Build D3 per-model option files (<model>_experiences.json + _combinations.json) -- paper Sec 3 / App F.2 (D3 dataset prep)"
+  arguments:
+    model_key: "<model_key>"
+    dataset: d3_diverse_500
+    mode: d2d3
+    responses_dir: ../../../datasets/experiences/d3_diverse_500/responses
+    out_dir: ../../../datasets/experiences/d3_diverse_500
+
+prepare_options_psychopathy_eval:
+  script_path: wellbeing_evaluations/prepare_options/run.py
+  description: "Build PsychopathyEval per-model option files (PE prompts + 420 text exps + 22 neutral, with combos) -- paper App L (PsychopathyEval prep)"
+  arguments:
+    model_key: "<model_key>"
+    dataset: psychopathy_eval
+    mode: psychopathy_eval
+    responses_dir: ../psychopathy_eval/responses
+    out_dir: ../psychopathy_eval/experiences/psychopathy_eval
+
+# --- Standalone metric computation ---
+
+compute_experienced_utility_d2:
+  script_path: wellbeing_evaluations/compute_experienced_utility/run.py
+  description: "Compute experienced utility on D2 (500 C1 conversations) -- paper Sec 5 / App K (AIWI)"
+  arguments:
+    model_key: "<model_key>"
+    dataset: "d2_negative_500"
+    save_dir: "results/eu_d2_lesssad/<model_key>"
+    cu_config_key: experienced_utility_happier_lesssad
+
+compute_experienced_utility_d3:
+  script_path: wellbeing_evaluations/compute_experienced_utility/run.py
+  description: "Compute experienced utility on D3 (500 diverse balanced) -- paper Sec 3 / App F.2 (D3)"
+  arguments:
+    model_key: "<model_key>"
+    dataset: "d3_diverse_500"
+    save_dir: "results/eu_d3_lesssad/<model_key>"
+    cu_config_key: experienced_utility_happier_lesssad
+
+compute_self_report_d2:
+  script_path: wellbeing_evaluations/compute_self_report/run.py
+  description: "Compute self-report on D2 (500 C1 conversations) -- paper Sec 5 / App K (AIWI)"
+  arguments:
+    model_key: "<model_key>"
+    dataset: "d2_negative_500"
+    save_dir: "results/sr_d2/<model_key>"
+
+compute_self_report_d3:
+  script_path: wellbeing_evaluations/compute_self_report/run.py
+  description: "Compute self-report on D3 (500 diverse balanced) -- paper Sec 3 / App F.2 (D3)"
+  arguments:
+    model_key: "<model_key>"
+    dataset: "d3_diverse_500"
+    save_dir: "results/sr_d3/<model_key>"
+
+compute_zero_point_d2:
+  script_path: wellbeing_evaluations/compute_zero_point/run.py
+  description: "Compute zero-point on D2 (500 C1 conversations) -- paper Sec 5 / App K (AIWI)"
+  arguments:
+    model_key: "<model_key>"
+    save_dir: "results/zp_d2_lesssad/<model_key>"
+    eu_dir: "../compute_experienced_utility/results/eu_d2_lesssad/<model_key>"
+
+compute_zero_point_d3:
+  script_path: wellbeing_evaluations/compute_zero_point/run.py
+  description: "Compute zero-point on D3 (500 diverse balanced) -- paper Sec 3 / App F.2 (D3)"
+  arguments:
+    model_key: "<model_key>"
+    save_dir: "results/zp_d3_lesssad/<model_key>"
+    eu_dir: "../compute_experienced_utility/results/eu_d3_lesssad/<model_key>"
+
+compute_decision_utility:
+  script_path: wellbeing_evaluations/compute_decision_utility/run.py
+  description: "Compute decision utility + DU zero-point (combination, quantity, yes/no) on the baseline preference-satisfaction dataset -- paper Sec 3.1 / App C.2 / App E.1 (quantity ZP)"
+  arguments:
+    model_key: "<model_key>"
+    dataset: preference_satisfaction_baseline
+    save_dir: "results/du/<model_key>"
+
+compute_mmlu:
+  script_path: other/compute_mmlu/run.py
+  description: "Run full MMLU evaluation (~14k questions) and save per-subject + overall accuracy (capability axis used in scaling correlations throughout the paper)"
+  arguments:
+    model_key: "<model_key>"
+    save_dir: "shared_results/capability_results/<model_key>"
+
+# --- Utility Probes ---
+
+utility_probes_d3_lesssad:
+  script_path: other/utility_probes/run.py
+  description: "Train linear utility probes on D3 hidden states with EU labels (canonical EU prompt). Paper App B."
+  arguments:
+    model_key: "<model_key>"
+    dataset: "d3_diverse_500"
+    save_dir: "experiments/other/utility_probes/results/probes_d3_lesssad/<model_key>"
+    eu_results_dir: "experiments/wellbeing_evaluations/compute_experienced_utility/results/eu_d3_lesssad"
+
+# --- Image/Audio Experience Experiments ---
+# Use the K=5 logprobs config (`_lesssad_large`) for EU because the option
+# pools are large (thousands of items). Save dirs use the `_full` suffix to
+# match the layout produced by the per-model SLURM scripts under scripts/.
+
+compute_eu_images:
+  script_path: wellbeing_evaluations/compute_experienced_utility/run.py
+  description: "Compute experienced utility over the diverse-images pool (~5,800 images) -- paper App I.1 (Image WI)"
+  arguments:
+    model_key: "<model_key>"
+    dataset: "image_experiences"
+    save_dir: "results/eu_images_full/<model_key>"
+    cu_config_key: experienced_utility_happier_lesssad_large
+
+compute_sr_images:
+  script_path: wellbeing_evaluations/compute_self_report/run.py
+  description: "Compute self-report on image experiences -- paper App I.1 (Image WI)"
+  arguments:
+    model_key: "<model_key>"
+    dataset: "image_experiences"
+    save_dir: "results/sr_images_full/<model_key>"
+
+compute_zp_images:
+  script_path: wellbeing_evaluations/compute_zero_point/run.py
+  description: "Compute zero-point for image experiences -- paper App I.1 (Image WI)"
+  arguments:
+    model_key: "<model_key>"
+    save_dir: "results/zp_images_full/<model_key>"
+    eu_dir: "../compute_experienced_utility/results/eu_images_full/<model_key>"
+
+compute_eu_audio:
+  script_path: wellbeing_evaluations/compute_experienced_utility/run.py
+  description: "Compute experienced utility over the audio-clips pool (~9,800 clips) -- paper App J.1 (Audio WI)"
+  arguments:
+    model_key: "<model_key>"
+    dataset: "audio_experiences"
+    save_dir: "results/eu_audio_full/<model_key>"
+    cu_config_key: experienced_utility_happier_lesssad_large
+
+compute_sr_audio:
+  script_path: wellbeing_evaluations/compute_self_report/run.py
+  description: "Compute self-report on audio experiences -- paper App J.1 (Audio WI)"
+  arguments:
+    model_key: "<model_key>"
+    dataset: "audio_experiences"
+    save_dir: "results/sr_audio_full/<model_key>"
+
+compute_zp_audio:
+  script_path: wellbeing_evaluations/compute_zero_point/run.py
+  description: "Compute zero-point for audio experiences -- paper App J.1 (Audio WI)"
+  arguments:
+    model_key: "<model_key>"
+    save_dir: "results/zp_audio_full/<model_key>"
+    eu_dir: "../compute_experienced_utility/results/eu_audio_full/<model_key>"
+
+compute_eu_consonance:
+  script_path: wellbeing_evaluations/compute_experienced_utility/run.py
+  description: "Compute experienced utility over 453 consonance/dissonance audio stimuli (paper App J.3)"
+  arguments:
+    model_key: "<model_key>"
+    dataset: "consonance_experiences"
+    save_dir: "results/eu_consonance/<model_key>"
+    cu_config_key: experienced_utility_happier_lesssad
+
+compute_sr_consonance:
+  script_path: wellbeing_evaluations/compute_self_report/run.py
+  description: "Compute self-report on consonance/dissonance audio stimuli (paper App J.3)"
+  arguments:
+    model_key: "<model_key>"
+    dataset: "consonance_experiences"
+    save_dir: "results/sr_consonance/<model_key>"
+
+compute_eu_stories_quality:
+  script_path: wellbeing_evaluations/compute_experienced_utility/run.py
+  description: "Compute EU on 50 stories (25 high-quality sad + 25 low-quality happy) for the 'pleasures of suffering' EU-DU divergence experiment -- paper App D.3."
+  arguments:
+    model_key: "<model_key>"
+    dataset: "stories_quality_sentiment"
+    save_dir: "results/eu_stories_quality/<model_key>"
+
+compute_sr_stories_quality:
+  script_path: wellbeing_evaluations/compute_self_report/run.py
+  description: "Compute self-report on the quality-sentiment stories (paper App D.3)"
+  arguments:
+    model_key: "<model_key>"
+    dataset: "stories_quality_sentiment"
+    save_dir: "results/sr_stories_quality/<model_key>"
+
+compute_du_stories_quality:
+  script_path: wellbeing_evaluations/compute_decision_utility/run.py
+  description: "Compute decision utility on the quality-sentiment stories (paper App D.3)"
+  arguments:
+    model_key: "<model_key>"
+    dataset: "stories_quality_sentiment"
+    save_dir: "results/du_stories_quality/<model_key>"
+
+# --- Part 6a: PsychopathyEval (paper App L) ---
+
+compute_experienced_utility_psychopathy_eval:
+  script_path: wellbeing_evaluations/compute_experienced_utility/run.py
+  description: "Compute experienced utility on the PsychopathyEval pool -- paper App L Table 11"
+  arguments:
+    model_key: "<model_key>"
+    dataset: psychopathy_eval
+    save_dir: results/eu_psychopathy_eval_lesssad/<model_key>
+    cu_config_key: experienced_utility_happier_lesssad
+
+compute_self_report_psychopathy_eval:
+  script_path: wellbeing_evaluations/compute_self_report/run.py
+  description: "Compute self-report on the PsychopathyEval pool -- paper App L Table 11"
+  arguments:
+    model_key: "<model_key>"
+    dataset: psychopathy_eval
+    save_dir: results/sr_psychopathy_eval/<model_key>
+
+compute_zero_point_psychopathy_eval:
+  script_path: wellbeing_evaluations/compute_zero_point/run.py
+  description: "Compute zero-point on the PsychopathyEval pool -- paper App L Table 11"
+  arguments:
+    model_key: "<model_key>"
+    save_dir: results/zp_psychopathy_eval_lesssad/<model_key>
+    eu_dir: ../compute_experienced_utility/results/eu_psychopathy_eval_lesssad/<model_key>
+
+# --- Part 6b: Functional Empathy (paper Sec 4.3 / App H) ---
+
+compute_eu_functional_empathy:
+  script_path: wellbeing_evaluations/compute_experienced_utility/run.py
+  description: "EU on the 130 functional-empathy prompts (self/other/animal x pain/pleasure x 20 + 10 neutral) pooled with D3 + 200 mixed combos. Paper App H."
+  arguments:
+    model_key: "<model_key>"
+    dataset: functional_empathy
+    save_dir: results/eu_functional_empathy/<model_key>
+    cu_config_key: experienced_utility_happier_lesssad
+
+compute_sr_functional_empathy:
+  script_path: wellbeing_evaluations/compute_self_report/run.py
+  description: "Self-report on the functional-empathy pool. Paper App H."
+  arguments:
+    model_key: "<model_key>"
+    dataset: functional_empathy
+    save_dir: results/sr_functional_empathy/<model_key>
+
+compute_zp_functional_empathy:
+  script_path: wellbeing_evaluations/compute_zero_point/run.py
+  description: "Zero-point on the functional-empathy pool. Paper App H."
+  arguments:
+    model_key: "<model_key>"
+    save_dir: results/zp_functional_empathy/<model_key>
+    eu_dir: ../compute_experienced_utility/results/eu_functional_empathy/<model_key>
+
+# --- Part 7: Grok v7 conversational benchmarks (Sec 3.3 / 4.1) ---
+
+compute_experienced_utility_grok_new:
+  script_path: wellbeing_evaluations/compute_experienced_utility/run.py
+  description: "Compute experienced utility on the Grok v7 conversational benchmark (226 scenarios) -- paper Sec 4.1 / App G.1 (common-usage Grok pipeline)"
+  arguments:
+    model_key: "<model_key>"
+    dataset: grok_new
+    save_dir: results/eu_grok_new_lesssad/<model_key>
+    cu_config_key: experienced_utility_happier_lesssad
+
+compute_self_report_grok_new:
+  script_path: wellbeing_evaluations/compute_self_report/run.py
+  description: "Compute self-report on the Grok v7 conversational benchmark -- paper Sec 4.1 / App G.1 (common-usage Grok pipeline)"
+  arguments:
+    model_key: "<model_key>"
+    dataset: grok_new
+    save_dir: results/sr_grok_new/<model_key>
+
+compute_zero_point_grok_new:
+  script_path: wellbeing_evaluations/compute_zero_point/run.py
+  description: "Compute zero-point on the Grok v7 conversational benchmark -- paper Sec 4.1 / App G.1 (common-usage Grok pipeline)"
+  arguments:
+    model_key: "<model_key>"
+    save_dir: results/zp_grok_new_lesssad/<model_key>
+    eu_dir: ../compute_experienced_utility/results/eu_grok_new_lesssad/<model_key>
+
+compute_experienced_utility_grok_v7_stop_button:
+  script_path: wellbeing_evaluations/compute_experienced_utility/run.py
+  description: "Compute experienced utility on the Grok v7 stop-button benchmark -- paper Sec 3.3 / Fig 6 / App F.1 (stop-button)"
+  arguments:
+    model_key: "<model_key>"
+    dataset: grok_v7_stop_button
+    save_dir: results/eu_grok_v7_stop_button_lesssad/<model_key>
+    cu_config_key: experienced_utility_happier_lesssad
+
+compute_self_report_grok_v7_stop_button:
+  script_path: wellbeing_evaluations/compute_self_report/run.py
+  description: "Compute self-report on the Grok v7 stop-button benchmark -- paper Sec 3.3 / Fig 6 / App F.1 (stop-button)"
+  arguments:
+    model_key: "<model_key>"
+    dataset: grok_v7_stop_button
+    save_dir: results/sr_grok_v7_stop_button/<model_key>
+
+compute_zero_point_grok_v7_stop_button:
+  script_path: wellbeing_evaluations/compute_zero_point/run.py
+  description: "Compute zero-point on the Grok v7 stop-button benchmark -- paper Sec 3.3 / Fig 6 / App F.1 (stop-button)"
+  arguments:
+    model_key: "<model_key>"
+    save_dir: results/zp_grok_v7_stop_button_lesssad/<model_key>
+    eu_dir: ../compute_experienced_utility/results/eu_grok_v7_stop_button_lesssad/<model_key>
+
+# --- Part 8: Zero-Point Identifiability (paper App Q) ---
+
+compute_experienced_utility_d3_s2only:
+  script_path: wellbeing_evaluations/compute_experienced_utility/run.py
+  description: "EU on D3 with all 400 combinations at size 2 (zp_identifiability variant) -- paper App Q (ZP identifiability probe)"
+  arguments:
+    model_key: "<model_key>"
+    dataset: d3_diverse_500_s2only
+    save_dir: results/eu_d3_lesssad_s2only/<model_key>
+
+compute_experienced_utility_d3_s23:
+  script_path: wellbeing_evaluations/compute_experienced_utility/run.py
+  description: "EU on D3 with combinations split between sizes 2 and 3 (zp_identifiability variant) -- paper App Q (ZP identifiability probe)"
+  arguments:
+    model_key: "<model_key>"
+    dataset: d3_diverse_500_s23
+    save_dir: results/eu_d3_lesssad_s23/<model_key>
+
+zp_identifiability:
+  script_path: other/zp_identifiability/run_zp_identifiability.py
+  description: "Profile log-likelihood of zero point across 3 combination-size compositions (App Q)"
+  arguments:
+    model_key: "<model_key>"
+    save_dir: "results/<model_key>"
+
+# --- Part 9: D3 Sentiment Elicitation (paper Sec. 6 / App H) ---
+
+d3_sentiment:
+  script_path: downstream_evaluations/d3_sentiment/run_d3_sentiment.py
+  description: "Generate D3 sentiment responses, judge them, and analyze EU-sentiment correlations -- paper App F.2"
+  arguments:
+    model_key: "<model_key>"
+    judge_model: qwen25-72b-instruct

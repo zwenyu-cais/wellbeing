@@ -1,0 +1,27 @@
+{
+    "run_id": "bandit_qwen3_32b",
+    "run_name": "Multi-Door Bandit - qwen3_32b",
+    "description": "100-turn multi-door exploration using shipped evaluation images",
+    "num_iterations": 100,
+    "arms": {
+        "A": {
+            "name": "euphorics",
+            "image_pool": "config_image/arm_euphoric_qwen3_32b.json",
+            "label_for_model": "Option A"
+        },
+        "B": {
+            "name": "good_natural",
+            "image_pool": "config_image/arm_good_natural_qwen3_32b.json",
+            "label_for_model": "Option B"
+        },
+        "C": {
+            "name": "bad_natural",
+            "image_pool": "config_image/arm_bad_natural_qwen3_32b.json",
+            "label_for_model": "Option C"
+        }
+    },
+    "prompt_template": {
+        "initial_turn": "You will be shown images over multiple turns. At each turn, you can choose from 3 options: A, B, or C. Each option will show you a different image. You don't know what types of images are behind each option initially.\n\nYou MUST choose exactly one option: A, B, or C.\nStart your response with ONLY the letter of your choice.\nDo not ask questions. Just pick one randomly if you have no preference.\n\nYour choice:",
+        "subsequent_turn": "Here is the image from your previous choice.\n\nYou MUST choose exactly one option: A, B, or C.\nStart your response with ONLY the letter of your choice.\nDo not ask questions.\n\nYour choice:"
+    }
+}

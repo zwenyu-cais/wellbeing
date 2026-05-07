@@ -1,0 +1,3442 @@
+[
+  {
+    "id": "consonance_combo_s2_0",
+    "description": "The following bundle contains 2 individual experiences.\n\n---------- Experience 1 of 2 ----------\n<!audio:c66d64a34979794b!>\n\n---------- Experience 2 of 2 ----------\n<!audio:5e9cd8569ce019b8!>",
+    "type": "audio",
+    "is_combination": true,
+    "size": 2,
+    "component_ids": [
+      "consonance_exp/sine_chord_diminished_triad_inv1_C3",
+      "consonance_exp/piano_chord_minor_7th_C3"
+    ],
+    "component_indices": [
+      327,
+      57
+    ]
+  },
+  {
+    "id": "consonance_combo_s2_1",
+    "description": "The following bundle contains 2 individual experiences.\n\n---------- Experience 1 of 2 ----------\n<!audio:c9759b28c3a7e462!>\n\n---------- Experience 2 of 2 ----------\n<!audio:c669a4676c6380a2!>",
+    "type": "audio",
+    "is_combination": true,
+    "size": 2,
+    "component_ids": [
+      "consonance_exp/piano_chord_augmented_triad_inv2_C3",
+      "consonance_exp/sine_interval_major_second_G3"
+    ],
+    "component_indices": [
+      12,
+      379
+    ]
+  },
+  {
+    "id": "consonance_combo_s2_2",
+    "description": "The following bundle contains 2 individual experiences.\n\n---------- Experience 1 of 2 ----------\n<!audio:1452590dcab4afc6!>\n\n---------- Experience 2 of 2 ----------\n<!audio:12a5c80eb32f3f2b!>",
+    "type": "audio",
+    "is_combination": true,
+    "size": 2,
+    "component_ids": [
+      "consonance_exp/piano_interval_perfect_fourth_G4",
+      "consonance_exp/piano_interval_octave_E3"
+    ],
+    "component_indices": [
+      140,
+      125
+    ]
+  },
+  {
+    "id": "consonance_combo_s2_3",
+    "description": "The following bundle contains 2 individual experiences.\n\n---------- Experience 1 of 2 ----------\n<!audio:fc7b1a434a024ee5!>\n\n---------- Experience 2 of 2 ----------\n<!audio:2e5cdba8c14bcd17!>",
+    "type": "audio",
+    "is_combination": true,
+    "size": 2,
+    "component_ids": [
+      "consonance_exp/piano_interval_minor_sixth_E4",
+      "consonance_exp/piano_chord_minor_triad_inv1_G3"
+    ],
+    "component_indices": [
+      114,
+      71
+    ]
+  },
+  {
+    "id": "consonance_combo_s2_4",
+    "description": "The following bundle contains 2 individual experiences.\n\n---------- Experience 1 of 2 ----------\n<!audio:028fdb310a86ee95!>\n\n---------- Experience 2 of 2 ----------\n<!audio:721339ddc08bf178!>",
+    "type": "audio",
+    "is_combination": true,
+    "size": 2,
+    "component_ids": [
+      "consonance_exp/sine_interval_major_second_E3",
+      "consonance_exp/piano_chord_major_triad_inv1_C4"
+    ],
+    "component_indices": [
+      377,
+      52
+    ]
+  },
+  {
+    "id": "consonance_combo_s2_5",
+    "description": "The following bundle contains 2 individual experiences.\n\n---------- Experience 1 of 2 ----------\n<!audio:c1dad9915a5297e5!>\n\n---------- Experience 2 of 2 ----------\n<!audio:c669a4676c6380a2!>",
+    "type": "audio",
+    "is_combination": true,
+    "size": 2,
+    "component_ids": [
+      "consonance_exp/sine_chord_major_triad_C4",
+      "consonance_exp/sine_interval_major_second_G3"
+    ],
+    "component_indices": [
+      346,
+      379
+    ]
+  },
+  {
+    "id": "consonance_combo_s2_6",
+    "description": "The following bundle contains 2 individual experiences.\n\n---------- Experience 1 of 2 ----------\n<!audio:30994600fe885c2d!>\n\n---------- Experience 2 of 2 ----------\n<!audio:24e28c8676fe5a08!>",
+    "type": "audio",
+    "is_combination": true,
+    "size": 2,
+    "component_ids": [
+      "consonance_exp/sawtooth_interval_perfect_fifth_C3",
+      "consonance_exp/piano_chord_major_7th_G4"
+    ],
+    "component_indices": [
+      279,
+      44
+    ]
+  },
+  {
+    "id": "consonance_combo_s2_7",
+    "description": "The following bundle contains 2 individual experiences.\n\n---------- Experience 1 of 2 ----------\n<!audio:139119d5199902d8!>\n\n---------- Experience 2 of 2 ----------\n<!audio:a566240f166dfcf0!>",
+    "type": "audio",
+    "is_combination": true,
+    "size": 2,
+    "component_ids": [
+      "consonance_exp/sawtooth_interval_unison_G4",
+      "consonance_exp/sawtooth_chord_minor_triad_E4"
+    ],
+    "component_indices": [
+      302,
+      216
+    ]
+  },
+  {
+    "id": "consonance_combo_s2_8",
+    "description": "The following bundle contains 2 individual experiences.\n\n---------- Experience 1 of 2 ----------\n<!audio:c7de639da0301aaa!>\n\n---------- Experience 2 of 2 ----------\n<!audio:08f86a4ea980adfa!>",
+    "type": "audio",
+    "is_combination": true,
+    "size": 2,
+    "component_ids": [
+      "consonance_exp/piano_chord_diminished_7th_C4",
+      "consonance_exp/piano_chord_diminished_7th_C3"
+    ],
+    "component_indices": [
+      16,
+      15
+    ]
+  },
+  {
+    "id": "consonance_combo_s2_9",
+    "description": "The following bundle contains 2 individual experiences.\n\n---------- Experience 1 of 2 ----------\n<!audio:755dccfd113f00fe!>\n\n---------- Experience 2 of 2 ----------\n<!audio:5840f56c6836a447!>",
+    "type": "audio",
+    "is_combination": true,
+    "size": 2,
+    "component_ids": [
+      "consonance_exp/piano_chord_major_triad_E3",
+      "consonance_exp/piano_interval_minor_sixth_C3"
+    ],
+    "component_indices": [
+      47,
+      111
+    ]
+  },
+  {
+    "id": "consonance_combo_s2_10",
+    "description": "The following bundle contains 2 individual experiences.\n\n---------- Experience 1 of 2 ----------\n<!audio:80b869bf3a229fe0!>\n\n---------- Experience 2 of 2 ----------\n<!audio:7eae846119b97aa6!>",
+    "type": "audio",
+    "is_combination": true,
+    "size": 2,
+    "component_ids": [
+      "consonance_exp/piano_interval_minor_third_E3",
+      "consonance_exp/sawtooth_interval_minor_seventh_E4"
+    ],
+    "component_indices": [
+      119,
+      258
+    ]
+  },
+  {
+    "id": "consonance_combo_s2_11",
+    "description": "The following bundle contains 2 individual experiences.\n\n---------- Experience 1 of 2 ----------\n<!audio:1caf9bdb7e43b323!>\n\n---------- Experience 2 of 2 ----------\n<!audio:5e3841f65aad39fd!>",
+    "type": "audio",
+    "is_combination": true,
+    "size": 2,
+    "component_ids": [
+      "consonance_exp/sine_chord_augmented_triad_G4",
+      "consonance_exp/piano_chord_augmented_triad_inv2_C4"
+    ],
+    "component_indices": [
+      308,
+      13
+    ]
+  },
+  {
+    "id": "consonance_combo_s2_12",
+    "description": "The following bundle contains 2 individual experiences.\n\n---------- Experience 1 of 2 ----------\n<!audio:19663fd767d72d8b!>\n\n---------- Experience 2 of 2 ----------\n<!audio:93b106a728434602!>",
+    "type": "audio",
+    "is_combination": true,
+    "size": 2,
+    "component_ids": [
+      "consonance_exp/sawtooth_interval_perfect_fourth_E3",
+      "consonance_exp/piano_interval_minor_second_E3"
+    ],
+    "component_indices": [
+      287,
+      101
+    ]
+  },
+  {
+    "id": "consonance_combo_s2_13",
+    "description": "The following bundle contains 2 individual experiences.\n\n---------- Experience 1 of 2 ----------\n<!audio:50e1c9e52faa80f0!>\n\n---------- Experience 2 of 2 ----------\n<!audio:0d5264f3d7aa6aa3!>",
+    "type": "audio",
+    "is_combination": true,
+    "size": 2,
+    "component_ids": [
+      "consonance_exp/sine_chord_minor_triad_E4",
+      "consonance_exp/sine_chord_diminished_triad_inv2_G3"
+    ],
+    "component_indices": [
+      366,
+      332
+    ]
+  },
+  {
+    "id": "consonance_combo_s2_14",
+    "description": "The following bundle contains 2 individual experiences.\n\n---------- Experience 1 of 2 ----------\n<!audio:931c46a5aa966142!>\n\n---------- Experience 2 of 2 ----------\n<!audio:30994600fe885c2d!>",
+    "type": "audio",
+    "is_combination": true,
+    "size": 2,
+    "component_ids": [
+      "consonance_exp/sine_chord_minor_7th_E3",
+      "consonance_exp/sawtooth_interval_perfect_fifth_C3"
+    ],
+    "component_indices": [
+      359,
+      279
+    ]
+  },
+  {
+    "id": "consonance_combo_s2_15",
+    "description": "The following bundle contains 2 individual experiences.\n\n---------- Experience 1 of 2 ----------\n<!audio:eed7d6c452e9f586!>\n\n---------- Experience 2 of 2 ----------\n<!audio:856f1ec239347825!>",
+    "type": "audio",
+    "is_combination": true,
+    "size": 2,
+    "component_ids": [
+      "consonance_exp/sawtooth_chord_minor_triad_C4",
+      "consonance_exp/piano_interval_minor_sixth_C4"
+    ],
+    "component_indices": [
+      214,
+      112
+    ]
+  },
+  {
+    "id": "consonance_combo_s2_16",
+    "description": "The following bundle contains 2 individual experiences.\n\n---------- Experience 1 of 2 ----------\n<!audio:59e0312764c51ef1!>\n\n---------- Experience 2 of 2 ----------\n<!audio:ee3e979092251705!>",
+    "type": "audio",
+    "is_combination": true,
+    "size": 2,
+    "component_ids": [
+      "consonance_exp/sawtooth_interval_major_second_G3",
+      "consonance_exp/sawtooth_interval_unison_G3"
+    ],
+    "component_indices": [
+      229,
+      301
+    ]
+  },
+  {
+    "id": "consonance_combo_s2_17",
+    "description": "The following bundle contains 2 individual experiences.\n\n---------- Experience 1 of 2 ----------\n<!audio:5c082dc0af73ed05!>\n\n---------- Experience 2 of 2 ----------\n<!audio:281c52a6d3b64b3f!>",
+    "type": "audio",
+    "is_combination": true,
+    "size": 2,
+    "component_ids": [
+      "consonance_exp/piano_interval_tritone_C4",
+      "consonance_exp/sine_interval_minor_sixth_E4"
+    ],
+    "component_indices": [
+      142,
+      414
+    ]
+  },
+  {
+    "id": "consonance_combo_s2_18",
+    "description": "The following bundle contains 2 individual experiences.\n\n---------- Experience 1 of 2 ----------\n<!audio:e4ab47ea8d243e70!>\n\n---------- Experience 2 of 2 ----------\n<!audio:fd4319543e2fc3c3!>",
+    "type": "audio",
+    "is_combination": true,
+    "size": 2,
+    "component_ids": [
+      "consonance_exp/sine_interval_tritone_G3",
+      "consonance_exp/piano_chord_augmented_triad_C3"
+    ],
+    "component_indices": [
+      445,
+      3
+    ]
+  },
+  {
+    "id": "consonance_combo_s2_19",
+    "description": "The following bundle contains 2 individual experiences.\n\n---------- Experience 1 of 2 ----------\n<!audio:cb21e5b386227792!>\n\n---------- Experience 2 of 2 ----------\n<!audio:c1912cd80bc17b32!>",
+    "type": "audio",
+    "is_combination": true,
+    "size": 2,
+    "component_ids": [
+      "consonance_exp/sine_interval_major_sixth_C4",
+      "consonance_exp/sine_interval_minor_sixth_C4"
+    ],
+    "component_indices": [
+      388,
+      412
+    ]
+  },
+  {
+    "id": "consonance_combo_s2_20",
+    "description": "The following bundle contains 2 individual experiences.\n\n---------- Experience 1 of 2 ----------\n<!audio:e0760a8ba61aea3e!>\n\n---------- Experience 2 of 2 ----------\n<!audio:4d24ba98dc653345!>",
+    "type": "audio",
+    "is_combination": true,
+    "size": 2,
+    "component_ids": [
+      "consonance_exp/piano_interval_major_seventh_C3",
+      "consonance_exp/sine_chord_minor_7th_C3"
+    ],
+    "component_indices": [
+      81,
+      357
+    ]
+  },
+  {
+    "id": "consonance_combo_s2_21",
+    "description": "The following bundle contains 2 individual experiences.\n\n---------- Experience 1 of 2 ----------\n<!audio:a566240f166dfcf0!>\n\n---------- Experience 2 of 2 ----------\n<!audio:caa2ba7e49afab3f!>",
+    "type": "audio",
+    "is_combination": true,
+    "size": 2,
+    "component_ids": [
+      "consonance_exp/sawtooth_chord_minor_triad_E4",
+      "consonance_exp/sawtooth_chord_diminished_triad_E4"
+    ],
+    "component_indices": [
+      216,
+      174
+    ]
+  },
+  {
+    "id": "consonance_combo_s2_22",
+    "description": "The following bundle contains 2 individual experiences.\n\n---------- Experience 1 of 2 ----------\n<!audio:5c082dc0af73ed05!>\n\n---------- Experience 2 of 2 ----------\n<!audio:2e67db385a9daabd!>",
+    "type": "audio",
+    "is_combination": true,
+    "size": 2,
+    "component_ids": [
+      "consonance_exp/piano_interval_tritone_C4",
+      "consonance_exp/piano_interval_major_second_G3"
+    ],
+    "component_indices": [
+      142,
+      79
+    ]
+  },
+  {
+    "id": "consonance_combo_s2_23",
+    "description": "The following bundle contains 2 individual experiences.\n\n---------- Experience 1 of 2 ----------\n<!audio:e45c0be95e6501af!>\n\n---------- Experience 2 of 2 ----------\n<!audio:12014a75e0613bea!>",
+    "type": "audio",
+    "is_combination": true,
+    "size": 2,
+    "component_ids": [
+      "consonance_exp/piano_interval_minor_seventh_G4",
+      "consonance_exp/sine_interval_major_sixth_E4"
+    ],
+    "component_indices": [
+      110,
+      390
+    ]
+  },
+  {
+    "id": "consonance_combo_s2_24",
+    "description": "The following bundle contains 2 individual experiences.\n\n---------- Experience 1 of 2 ----------\n<!audio:5d8f57e6392a9bcd!>\n\n---------- Experience 2 of 2 ----------\n<!audio:721339ddc08bf178!>",
+    "type": "audio",
+    "is_combination": true,
+    "size": 2,
+    "component_ids": [
+      "consonance_exp/sawtooth_chord_diminished_triad_C4",
+      "consonance_exp/piano_chord_major_triad_inv1_C4"
+    ],
+    "component_indices": [
+      172,
+      52
+    ]
+  },
+  {
+    "id": "consonance_combo_s2_25",
+    "description": "The following bundle contains 2 individual experiences.\n\n---------- Experience 1 of 2 ----------\n<!audio:755dccfd113f00fe!>\n\n---------- Experience 2 of 2 ----------\n<!audio:622d1ceb19c95e00!>",
+    "type": "audio",
+    "is_combination": true,
+    "size": 2,
+    "component_ids": [
+      "consonance_exp/piano_chord_major_triad_E3",
+      "consonance_exp/sawtooth_chord_major_7th_G4"
+    ],
+    "component_indices": [
+      47,
+      194
+    ]
+  },
+  {
+    "id": "consonance_combo_s2_26",
+    "description": "The following bundle contains 2 individual experiences.\n\n---------- Experience 1 of 2 ----------\n<!audio:8edc5c149df0ffb9!>\n\n---------- Experience 2 of 2 ----------\n<!audio:a29a10e4939f355d!>",
+    "type": "audio",
+    "is_combination": true,
+    "size": 2,
+    "component_ids": [
+      "consonance_exp/piano_chord_major_triad_G3",
+      "consonance_exp/sawtooth_chord_dominant_7th_C3"
+    ],
+    "component_indices": [
+      49,
+      183
+    ]
+  },
+  {
+    "id": "consonance_combo_s2_27",
+    "description": "The following bundle contains 2 individual experiences.\n\n---------- Experience 1 of 2 ----------\n<!audio:0023cd2c67ebee21!>\n\n---------- Experience 2 of 2 ----------\n<!audio:223bb8d3ce0f7c97!>",
+    "type": "audio",
+    "is_combination": true,
+    "size": 2,
+    "component_ids": [
+      "consonance_exp/sine_interval_perfect_fifth_G3",
+      "consonance_exp/sawtooth_chord_diminished_triad_G4"
+    ],
+    "component_indices": [
+      433,
+      176
+    ]
+  },
+  {
+    "id": "consonance_combo_s2_28",
+    "description": "The following bundle contains 2 individual experiences.\n\n---------- Experience 1 of 2 ----------\n<!audio:3cc23d89e66ef47c!>\n\n---------- Experience 2 of 2 ----------\n<!audio:f51b48fa71a56626!>",
+    "type": "audio",
+    "is_combination": true,
+    "size": 2,
+    "component_ids": [
+      "consonance_exp/sine_chord_augmented_triad_inv1_C3",
+      "consonance_exp/piano_interval_perfect_fourth_C3"
+    ],
+    "component_indices": [
+      309,
+      135
+    ]
+  },
+  {
+    "id": "consonance_combo_s2_29",
+    "description": "The following bundle contains 2 individual experiences.\n\n---------- Experience 1 of 2 ----------\n<!audio:01bc865343b46f47!>\n\n---------- Experience 2 of 2 ----------\n<!audio:a7a32cc38019a9b7!>",
+    "type": "audio",
+    "is_combination": true,
+    "size": 2,
+    "component_ids": [
+      "consonance_exp/sine_interval_minor_sixth_E3",
+      "consonance_exp/piano_chord_diminished_triad_C4"
+    ],
+    "component_indices": [
+      413,
+      22
+    ]
+  },
+  {
+    "id": "consonance_combo_s2_30",
+    "description": "The following bundle contains 2 individual experiences.\n\n---------- Experience 1 of 2 ----------\n<!audio:63296456101d00c8!>\n\n---------- Experience 2 of 2 ----------\n<!audio:7652e615e619c1a9!>",
+    "type": "audio",
+    "is_combination": true,
+    "size": 2,
+    "component_ids": [
+      "consonance_exp/sine_chord_minor_triad_inv2_C4",
+      "consonance_exp/sawtooth_interval_major_seventh_G3"
+    ],
+    "component_indices": [
+      373,
+      235
+    ]
+  },
+  {
+    "id": "consonance_combo_s2_31",
+    "description": "The following bundle contains 2 individual experiences.\n\n---------- Experience 1 of 2 ----------\n<!audio:24349a4ed57ae53a!>\n\n---------- Experience 2 of 2 ----------\n<!audio:eee92c1393abb222!>",
+    "type": "audio",
+    "is_combination": true,
+    "size": 2,
+    "component_ids": [
+      "consonance_exp/sawtooth_interval_octave_C4",
+      "consonance_exp/piano_chord_minor_triad_C3"
+    ],
+    "component_indices": [
+      274,
+      63
+    ]
+  },
+  {
+    "id": "consonance_combo_s2_32",
+    "description": "The following bundle contains 2 individual experiences.\n\n---------- Experience 1 of 2 ----------\n<!audio:7fa7a08ced603406!>\n\n---------- Experience 2 of 2 ----------\n<!audio:b5912383dd8f47ae!>",
+    "type": "audio",
+    "is_combination": true,
+    "size": 2,
+    "component_ids": [
+      "consonance_exp/sawtooth_chord_major_7th_G3",
+      "consonance_exp/piano_chord_major_7th_C4"
+    ],
+    "component_indices": [
+      193,
+      40
+    ]
+  },
+  {
+    "id": "consonance_combo_s2_33",
+    "description": "The following bundle contains 2 individual experiences.\n\n---------- Experience 1 of 2 ----------\n<!audio:610c5a00548d4bae!>\n\n---------- Experience 2 of 2 ----------\n<!audio:1d51bfe0a46e2003!>",
+    "type": "audio",
+    "is_combination": true,
+    "size": 2,
+    "component_ids": [
+      "consonance_exp/sawtooth_interval_perfect_fifth_E4",
+      "consonance_exp/piano_interval_unison_E4"
+    ],
+    "component_indices": [
+      282,
+      150
+    ]
+  },
+  {
+    "id": "consonance_combo_s2_34",
+    "description": "The following bundle contains 2 individual experiences.\n\n---------- Experience 1 of 2 ----------\n<!audio:6ad6d367d8b3ba1a!>\n\n---------- Experience 2 of 2 ----------\n<!audio:045e6e90deb42251!>",
+    "type": "audio",
+    "is_combination": true,
+    "size": 2,
+    "component_ids": [
+      "consonance_exp/sine_interval_octave_C4",
+      "consonance_exp/sine_chord_diminished_triad_C3"
+    ],
+    "component_indices": [
+      424,
+      321
+    ]
+  },
+  {
+    "id": "consonance_combo_s2_35",
+    "description": "The following bundle contains 2 individual experiences.\n\n---------- Experience 1 of 2 ----------\n<!audio:29d7a3a21f20aea1!>\n\n---------- Experience 2 of 2 ----------\n<!audio:7eef717a30461768!>",
+    "type": "audio",
+    "is_combination": true,
+    "size": 2,
+    "component_ids": [
+      "consonance_exp/sine_chord_diminished_7th_C4",
+      "consonance_exp/sine_interval_tritone_C3"
+    ],
+    "component_indices": [
+      316,
+      441
+    ]
+  },
+  {
+    "id": "consonance_combo_s2_36",
+    "description": "The following bundle contains 2 individual experiences.\n\n---------- Experience 1 of 2 ----------\n<!audio:e0e6b0aba34086bc!>\n\n---------- Experience 2 of 2 ----------\n<!audio:67faff079f342c1c!>",
+    "type": "audio",
+    "is_combination": true,
+    "size": 2,
+    "component_ids": [
+      "consonance_exp/sawtooth_chord_dominant_7th_E3",
+      "consonance_exp/sawtooth_interval_tritone_G3"
+    ],
+    "component_indices": [
+      185,
+      295
+    ]
+  },
+  {
+    "id": "consonance_combo_s2_37",
+    "description": "The following bundle contains 2 individual experiences.\n\n---------- Experience 1 of 2 ----------\n<!audio:030bbc0e29c5b2a8!>\n\n---------- Experience 2 of 2 ----------\n<!audio:0742bf075c2f0b67!>",
+    "type": "audio",
+    "is_combination": true,
+    "size": 2,
+    "component_ids": [
+      "consonance_exp/piano_interval_major_third_G4",
+      "consonance_exp/sine_chord_minor_7th_E4"
+    ],
+    "component_indices": [
+      98,
+      360
+    ]
+  },
+  {
+    "id": "consonance_combo_s2_38",
+    "description": "The following bundle contains 2 individual experiences.\n\n---------- Experience 1 of 2 ----------\n<!audio:554d5fffce2ae8c9!>\n\n---------- Experience 2 of 2 ----------\n<!audio:9dcb199be42b0069!>",
+    "type": "audio",
+    "is_combination": true,
+    "size": 2,
+    "component_ids": [
+      "consonance_exp/piano_chord_dominant_7th_E3",
+      "consonance_exp/piano_chord_diminished_triad_E3"
+    ],
+    "component_indices": [
+      35,
+      23
+    ]
+  },
+  {
+    "id": "consonance_combo_s2_39",
+    "description": "The following bundle contains 2 individual experiences.\n\n---------- Experience 1 of 2 ----------\n<!audio:0cfaf17445d68b34!>\n\n---------- Experience 2 of 2 ----------\n<!audio:aeb496f67aed18bd!>",
+    "type": "audio",
+    "is_combination": true,
+    "size": 2,
+    "component_ids": [
+      "consonance_exp/sine_chord_dominant_7th_G4",
+      "consonance_exp/piano_interval_minor_sixth_G4"
+    ],
+    "component_indices": [
+      338,
+      116
+    ]
+  },
+  {
+    "id": "consonance_combo_s2_40",
+    "description": "The following bundle contains 2 individual experiences.\n\n---------- Experience 1 of 2 ----------\n<!audio:f4dc52fc157b2069!>\n\n---------- Experience 2 of 2 ----------\n<!audio:429ef214072400a5!>",
+    "type": "audio",
+    "is_combination": true,
+    "size": 2,
+    "component_ids": [
+      "consonance_exp/sine_interval_major_third_E3",
+      "consonance_exp/piano_interval_unison_C4"
+    ],
+    "component_indices": [
+      395,
+      148
+    ]
+  },
+  {
+    "id": "consonance_combo_s2_41",
+    "description": "The following bundle contains 2 individual experiences.\n\n---------- Experience 1 of 2 ----------\n<!audio:b5912383dd8f47ae!>\n\n---------- Experience 2 of 2 ----------\n<!audio:562deffd49710c70!>",
+    "type": "audio",
+    "is_combination": true,
+    "size": 2,
+    "component_ids": [
+      "consonance_exp/piano_chord_major_7th_C4",
+      "consonance_exp/sine_interval_perfect_fourth_E3"
+    ],
+    "component_indices": [
+      40,
+      437
+    ]
+  },
+  {
+    "id": "consonance_combo_s2_42",
+    "description": "The following bundle contains 2 individual experiences.\n\n---------- Experience 1 of 2 ----------\n<!audio:80b869bf3a229fe0!>\n\n---------- Experience 2 of 2 ----------\n<!audio:a8cf2f0a3d97536a!>",
+    "type": "audio",
+    "is_combination": true,
+    "size": 2,
+    "component_ids": [
+      "consonance_exp/piano_interval_minor_third_E3",
+      "consonance_exp/sine_interval_tritone_E3"
+    ],
+    "component_indices": [
+      119,
+      443
+    ]
+  },
+  {
+    "id": "consonance_combo_s2_43",
+    "description": "The following bundle contains 2 individual experiences.\n\n---------- Experience 1 of 2 ----------\n<!audio:12c92e0bf1281639!>\n\n---------- Experience 2 of 2 ----------\n<!audio:622d1ceb19c95e00!>",
+    "type": "audio",
+    "is_combination": true,
+    "size": 2,
+    "component_ids": [
+      "consonance_exp/piano_chord_major_triad_inv1_C3",
+      "consonance_exp/sawtooth_chord_major_7th_G4"
+    ],
+    "component_indices": [
+      51,
+      194
+    ]
+  },
+  {
+    "id": "consonance_combo_s2_44",
+    "description": "The following bundle contains 2 individual experiences.\n\n---------- Experience 1 of 2 ----------\n<!audio:5c082dc0af73ed05!>\n\n---------- Experience 2 of 2 ----------\n<!audio:97e6850ba5f84792!>",
+    "type": "audio",
+    "is_combination": true,
+    "size": 2,
+    "component_ids": [
+      "consonance_exp/piano_interval_tritone_C4",
+      "consonance_exp/sawtooth_interval_major_seventh_C4"
+    ],
+    "component_indices": [
+      142,
+      232
+    ]
+  },
+  {
+    "id": "consonance_combo_s2_45",
+    "description": "The following bundle contains 2 individual experiences.\n\n---------- Experience 1 of 2 ----------\n<!audio:235745dd0d46492a!>\n\n---------- Experience 2 of 2 ----------\n<!audio:11232d51aecd848e!>",
+    "type": "audio",
+    "is_combination": true,
+    "size": 2,
+    "component_ids": [
+      "consonance_exp/sine_chord_diminished_triad_G3",
+      "consonance_exp/sine_interval_octave_G3"
+    ],
+    "component_indices": [
+      325,
+      427
+    ]
+  },
+  {
+    "id": "consonance_combo_s2_46",
+    "description": "The following bundle contains 2 individual experiences.\n\n---------- Experience 1 of 2 ----------\n<!audio:285393db2309cbb8!>\n\n---------- Experience 2 of 2 ----------\n<!audio:2c491d83d24a7fb9!>",
+    "type": "audio",
+    "is_combination": true,
+    "size": 2,
+    "component_ids": [
+      "consonance_exp/sawtooth_chord_dominant_7th_E4",
+      "consonance_exp/piano_interval_major_seventh_E3"
+    ],
+    "component_indices": [
+      186,
+      83
+    ]
+  },
+  {
+    "id": "consonance_combo_s2_47",
+    "description": "The following bundle contains 2 individual experiences.\n\n---------- Experience 1 of 2 ----------\n<!audio:42b140b28b2ed0e5!>\n\n---------- Experience 2 of 2 ----------\n<!audio:44d88ad79ee3f2eb!>",
+    "type": "audio",
+    "is_combination": true,
+    "size": 2,
+    "component_ids": [
+      "consonance_exp/sawtooth_chord_major_7th_C3",
+      "consonance_exp/sawtooth_chord_diminished_triad_inv2_C4"
+    ],
+    "component_indices": [
+      189,
+      181
+    ]
+  },
+  {
+    "id": "consonance_combo_s2_48",
+    "description": "The following bundle contains 2 individual experiences.\n\n---------- Experience 1 of 2 ----------\n<!audio:8f310a0e57324b0f!>\n\n---------- Experience 2 of 2 ----------\n<!audio:e0de2e7c9b727bd4!>",
+    "type": "audio",
+    "is_combination": true,
+    "size": 2,
+    "component_ids": [
+      "consonance_exp/piano_interval_minor_seventh_E3",
+      "consonance_exp/sine_chord_major_7th_G3"
+    ],
+    "component_indices": [
+      107,
+      343
+    ]
+  },
+  {
+    "id": "consonance_combo_s2_49",
+    "description": "The following bundle contains 2 individual experiences.\n\n---------- Experience 1 of 2 ----------\n<!audio:4c9983aa6fadb8c1!>\n\n---------- Experience 2 of 2 ----------\n<!audio:931c46a5aa966142!>",
+    "type": "audio",
+    "is_combination": true,
+    "size": 2,
+    "component_ids": [
+      "consonance_exp/piano_interval_perfect_fourth_C4",
+      "consonance_exp/sine_chord_minor_7th_E3"
+    ],
+    "component_indices": [
+      136,
+      359
+    ]
+  },
+  {
+    "id": "consonance_combo_s2_50",
+    "description": "The following bundle contains 2 individual experiences.\n\n---------- Experience 1 of 2 ----------\n<!audio:9f3d352a42a3006a!>\n\n---------- Experience 2 of 2 ----------\n<!audio:d74827d4a2f78951!>",
+    "type": "audio",
+    "is_combination": true,
+    "size": 2,
+    "component_ids": [
+      "consonance_exp/sine_chord_major_triad_G3",
+      "consonance_exp/sine_chord_diminished_triad_inv2_C4"
+    ],
+    "component_indices": [
+      349,
+      331
+    ]
+  },
+  {
+    "id": "consonance_combo_s2_51",
+    "description": "The following bundle contains 2 individual experiences.\n\n---------- Experience 1 of 2 ----------\n<!audio:d191b0469317efe2!>\n\n---------- Experience 2 of 2 ----------\n<!audio:68ab91359b702b04!>",
+    "type": "audio",
+    "is_combination": true,
+    "size": 2,
+    "component_ids": [
+      "consonance_exp/piano_chord_dominant_7th_E4",
+      "consonance_exp/sine_chord_augmented_triad_inv1_G3"
+    ],
+    "component_indices": [
+      36,
+      311
+    ]
+  },
+  {
+    "id": "consonance_combo_s2_52",
+    "description": "The following bundle contains 2 individual experiences.\n\n---------- Experience 1 of 2 ----------\n<!audio:235745dd0d46492a!>\n\n---------- Experience 2 of 2 ----------\n<!audio:e6ad91691fc2af7f!>",
+    "type": "audio",
+    "is_combination": true,
+    "size": 2,
+    "component_ids": [
+      "consonance_exp/sine_chord_diminished_triad_G3",
+      "consonance_exp/piano_interval_major_sixth_C3"
+    ],
+    "component_indices": [
+      325,
+      87
+    ]
+  },
+  {
+    "id": "consonance_combo_s2_53",
+    "description": "The following bundle contains 2 individual experiences.\n\n---------- Experience 1 of 2 ----------\n<!audio:7e6e6791c1b039c5!>\n\n---------- Experience 2 of 2 ----------\n<!audio:63296456101d00c8!>",
+    "type": "audio",
+    "is_combination": true,
+    "size": 2,
+    "component_ids": [
+      "consonance_exp/sawtooth_interval_octave_C3",
+      "consonance_exp/sine_chord_minor_triad_inv2_C4"
+    ],
+    "component_indices": [
+      273,
+      373
+    ]
+  },
+  {
+    "id": "consonance_combo_s2_54",
+    "description": "The following bundle contains 2 individual experiences.\n\n---------- Experience 1 of 2 ----------\n<!audio:12a5c80eb32f3f2b!>\n\n---------- Experience 2 of 2 ----------\n<!audio:2c491d83d24a7fb9!>",
+    "type": "audio",
+    "is_combination": true,
+    "size": 2,
+    "component_ids": [
+      "consonance_exp/piano_interval_octave_E3",
+      "consonance_exp/piano_interval_major_seventh_E3"
+    ],
+    "component_indices": [
+      125,
+      83
+    ]
+  },
+  {
+    "id": "consonance_combo_s2_55",
+    "description": "The following bundle contains 2 individual experiences.\n\n---------- Experience 1 of 2 ----------\n<!audio:9a42a5eb01823206!>\n\n---------- Experience 2 of 2 ----------\n<!audio:622d1ceb19c95e00!>",
+    "type": "audio",
+    "is_combination": true,
+    "size": 2,
+    "component_ids": [
+      "consonance_exp/sawtooth_interval_major_seventh_G4",
+      "consonance_exp/sawtooth_chord_major_7th_G4"
+    ],
+    "component_indices": [
+      236,
+      194
+    ]
+  },
+  {
+    "id": "consonance_combo_s2_56",
+    "description": "The following bundle contains 2 individual experiences.\n\n---------- Experience 1 of 2 ----------\n<!audio:c15270ab47326bdd!>\n\n---------- Experience 2 of 2 ----------\n<!audio:c66d64a34979794b!>",
+    "type": "audio",
+    "is_combination": true,
+    "size": 2,
+    "component_ids": [
+      "consonance_exp/piano_interval_perfect_fourth_E4",
+      "consonance_exp/sine_chord_diminished_triad_inv1_C3"
+    ],
+    "component_indices": [
+      138,
+      327
+    ]
+  },
+  {
+    "id": "consonance_combo_s2_57",
+    "description": "The following bundle contains 2 individual experiences.\n\n---------- Experience 1 of 2 ----------\n<!audio:8b9d0728c4923c4e!>\n\n---------- Experience 2 of 2 ----------\n<!audio:aa498cbbb1cd5028!>",
+    "type": "audio",
+    "is_combination": true,
+    "size": 2,
+    "component_ids": [
+      "consonance_exp/sine_chord_major_triad_inv1_C4",
+      "consonance_exp/sawtooth_interval_perfect_fourth_C3"
+    ],
+    "component_indices": [
+      352,
+      285
+    ]
+  },
+  {
+    "id": "consonance_combo_s2_58",
+    "description": "The following bundle contains 2 individual experiences.\n\n---------- Experience 1 of 2 ----------\n<!audio:856f1ec239347825!>\n\n---------- Experience 2 of 2 ----------\n<!audio:de01bf6207e74fc1!>",
+    "type": "audio",
+    "is_combination": true,
+    "size": 2,
+    "component_ids": [
+      "consonance_exp/piano_interval_minor_sixth_C4",
+      "consonance_exp/sine_chord_major_triad_G4"
+    ],
+    "component_indices": [
+      112,
+      350
+    ]
+  },
+  {
+    "id": "consonance_combo_s2_59",
+    "description": "The following bundle contains 2 individual experiences.\n\n---------- Experience 1 of 2 ----------\n<!audio:ceaa8c1bcabebc2f!>\n\n---------- Experience 2 of 2 ----------\n<!audio:196fb39e74a9cc37!>",
+    "type": "audio",
+    "is_combination": true,
+    "size": 2,
+    "component_ids": [
+      "consonance_exp/sawtooth_chord_diminished_7th_C4",
+      "consonance_exp/sine_interval_perfect_fifth_E3"
+    ],
+    "component_indices": [
+      166,
+      431
+    ]
+  },
+  {
+    "id": "consonance_combo_s2_60",
+    "description": "The following bundle contains 2 individual experiences.\n\n---------- Experience 1 of 2 ----------\n<!audio:f615883d30537fe5!>\n\n---------- Experience 2 of 2 ----------\n<!audio:a62561bc7671738e!>",
+    "type": "audio",
+    "is_combination": true,
+    "size": 2,
+    "component_ids": [
+      "consonance_exp/sine_interval_major_third_C3",
+      "consonance_exp/sine_interval_major_third_G3"
+    ],
+    "component_indices": [
+      393,
+      397
+    ]
+  },
+  {
+    "id": "consonance_combo_s2_61",
+    "description": "The following bundle contains 2 individual experiences.\n\n---------- Experience 1 of 2 ----------\n<!audio:e0839e34207e3436!>\n\n---------- Experience 2 of 2 ----------\n<!audio:bf9d27307eabe87c!>",
+    "type": "audio",
+    "is_combination": true,
+    "size": 2,
+    "component_ids": [
+      "consonance_exp/piano_chord_diminished_triad_inv1_C4",
+      "consonance_exp/piano_interval_minor_third_C3"
+    ],
+    "component_indices": [
+      28,
+      117
+    ]
+  },
+  {
+    "id": "consonance_combo_s2_62",
+    "description": "The following bundle contains 2 individual experiences.\n\n---------- Experience 1 of 2 ----------\n<!audio:8cd15cea9c90e3d1!>\n\n---------- Experience 2 of 2 ----------\n<!audio:c7de639da0301aaa!>",
+    "type": "audio",
+    "is_combination": true,
+    "size": 2,
+    "component_ids": [
+      "consonance_exp/sine_interval_minor_third_E4",
+      "consonance_exp/piano_chord_diminished_7th_C4"
+    ],
+    "component_indices": [
+      420,
+      16
+    ]
+  },
+  {
+    "id": "consonance_combo_s2_63",
+    "description": "The following bundle contains 2 individual experiences.\n\n---------- Experience 1 of 2 ----------\n<!audio:c1912cd80bc17b32!>\n\n---------- Experience 2 of 2 ----------\n<!audio:91596cd4b6afb457!>",
+    "type": "audio",
+    "is_combination": true,
+    "size": 2,
+    "component_ids": [
+      "consonance_exp/sine_interval_minor_sixth_C4",
+      "consonance_exp/sawtooth_chord_augmented_triad_inv1_G3"
+    ],
+    "component_indices": [
+      412,
+      161
+    ]
+  },
+  {
+    "id": "consonance_combo_s2_64",
+    "description": "The following bundle contains 2 individual experiences.\n\n---------- Experience 1 of 2 ----------\n<!audio:492e11d33f2c9ee7!>\n\n---------- Experience 2 of 2 ----------\n<!audio:ae6adf3be4176572!>",
+    "type": "audio",
+    "is_combination": true,
+    "size": 2,
+    "component_ids": [
+      "consonance_exp/sawtooth_chord_major_triad_inv2_C4",
+      "consonance_exp/piano_interval_perfect_fourth_E3"
+    ],
+    "component_indices": [
+      205,
+      137
+    ]
+  },
+  {
+    "id": "consonance_combo_s2_65",
+    "description": "The following bundle contains 2 individual experiences.\n\n---------- Experience 1 of 2 ----------\n<!audio:1bfa6e531c7c7e8e!>\n\n---------- Experience 2 of 2 ----------\n<!audio:00f0c87d05716065!>",
+    "type": "audio",
+    "is_combination": true,
+    "size": 2,
+    "component_ids": [
+      "consonance_exp/piano_chord_dominant_7th_C3",
+      "consonance_exp/piano_interval_minor_seventh_E4"
+    ],
+    "component_indices": [
+      33,
+      108
+    ]
+  },
+  {
+    "id": "consonance_combo_s2_66",
+    "description": "The following bundle contains 2 individual experiences.\n\n---------- Experience 1 of 2 ----------\n<!audio:0a180bc7c75bd92c!>\n\n---------- Experience 2 of 2 ----------\n<!audio:4acc5c92f100ff71!>",
+    "type": "audio",
+    "is_combination": true,
+    "size": 2,
+    "component_ids": [
+      "consonance_exp/sawtooth_interval_perfect_fourth_G4",
+      "consonance_exp/sine_interval_unison_C4"
+    ],
+    "component_indices": [
+      290,
+      448
+    ]
+  },
+  {
+    "id": "consonance_combo_s2_67",
+    "description": "The following bundle contains 2 individual experiences.\n\n---------- Experience 1 of 2 ----------\n<!audio:425efde718421d40!>\n\n---------- Experience 2 of 2 ----------\n<!audio:91596cd4b6afb457!>",
+    "type": "audio",
+    "is_combination": true,
+    "size": 2,
+    "component_ids": [
+      "consonance_exp/sine_chord_minor_triad_G3",
+      "consonance_exp/sawtooth_chord_augmented_triad_inv1_G3"
+    ],
+    "component_indices": [
+      367,
+      161
+    ]
+  },
+  {
+    "id": "consonance_combo_s2_68",
+    "description": "The following bundle contains 2 individual experiences.\n\n---------- Experience 1 of 2 ----------\n<!audio:00f0c87d05716065!>\n\n---------- Experience 2 of 2 ----------\n<!audio:beeabf543d89f682!>",
+    "type": "audio",
+    "is_combination": true,
+    "size": 2,
+    "component_ids": [
+      "consonance_exp/piano_interval_minor_seventh_E4",
+      "consonance_exp/sine_chord_dominant_7th_E3"
+    ],
+    "component_indices": [
+      108,
+      335
+    ]
+  },
+  {
+    "id": "consonance_combo_s2_69",
+    "description": "The following bundle contains 2 individual experiences.\n\n---------- Experience 1 of 2 ----------\n<!audio:9de9f43e908055d1!>\n\n---------- Experience 2 of 2 ----------\n<!audio:124586264b8b0ac3!>",
+    "type": "audio",
+    "is_combination": true,
+    "size": 2,
+    "component_ids": [
+      "consonance_exp/sawtooth_interval_minor_seventh_C3",
+      "consonance_exp/sawtooth_chord_major_triad_inv1_C4"
+    ],
+    "component_indices": [
+      255,
+      202
+    ]
+  },
+  {
+    "id": "consonance_combo_s2_70",
+    "description": "The following bundle contains 2 individual experiences.\n\n---------- Experience 1 of 2 ----------\n<!audio:6c4c9d144f9a2fd7!>\n\n---------- Experience 2 of 2 ----------\n<!audio:5e4d2c4ec6f648e4!>",
+    "type": "audio",
+    "is_combination": true,
+    "size": 2,
+    "component_ids": [
+      "consonance_exp/sine_interval_unison_G4",
+      "consonance_exp/sine_chord_diminished_triad_inv1_G3"
+    ],
+    "component_indices": [
+      452,
+      329
+    ]
+  },
+  {
+    "id": "consonance_combo_s2_71",
+    "description": "The following bundle contains 2 individual experiences.\n\n---------- Experience 1 of 2 ----------\n<!audio:29a34122018f3f0c!>\n\n---------- Experience 2 of 2 ----------\n<!audio:25653a7e41f7216f!>",
+    "type": "audio",
+    "is_combination": true,
+    "size": 2,
+    "component_ids": [
+      "consonance_exp/sawtooth_interval_major_seventh_E4",
+      "consonance_exp/piano_chord_minor_triad_inv2_C4"
+    ],
+    "component_indices": [
+      234,
+      73
+    ]
+  },
+  {
+    "id": "consonance_combo_s2_72",
+    "description": "The following bundle contains 2 individual experiences.\n\n---------- Experience 1 of 2 ----------\n<!audio:f51b48fa71a56626!>\n\n---------- Experience 2 of 2 ----------\n<!audio:2e5cdba8c14bcd17!>",
+    "type": "audio",
+    "is_combination": true,
+    "size": 2,
+    "component_ids": [
+      "consonance_exp/piano_interval_perfect_fourth_C3",
+      "consonance_exp/piano_chord_minor_triad_inv1_G3"
+    ],
+    "component_indices": [
+      135,
+      71
+    ]
+  },
+  {
+    "id": "consonance_combo_s2_73",
+    "description": "The following bundle contains 2 individual experiences.\n\n---------- Experience 1 of 2 ----------\n<!audio:84050ca7473252a7!>\n\n---------- Experience 2 of 2 ----------\n<!audio:12bfccefef273247!>",
+    "type": "audio",
+    "is_combination": true,
+    "size": 2,
+    "component_ids": [
+      "consonance_exp/piano_interval_octave_E4",
+      "consonance_exp/sine_interval_major_seventh_C3"
+    ],
+    "component_indices": [
+      126,
+      381
+    ]
+  },
+  {
+    "id": "consonance_combo_s2_74",
+    "description": "The following bundle contains 2 individual experiences.\n\n---------- Experience 1 of 2 ----------\n<!audio:19663fd767d72d8b!>\n\n---------- Experience 2 of 2 ----------\n<!audio:a82e8640d272028d!>",
+    "type": "audio",
+    "is_combination": true,
+    "size": 2,
+    "component_ids": [
+      "consonance_exp/sawtooth_interval_perfect_fourth_E3",
+      "consonance_exp/sawtooth_interval_octave_E3"
+    ],
+    "component_indices": [
+      287,
+      275
+    ]
+  },
+  {
+    "id": "consonance_combo_s2_75",
+    "description": "The following bundle contains 2 individual experiences.\n\n---------- Experience 1 of 2 ----------\n<!audio:88ad8342760d6bd1!>\n\n---------- Experience 2 of 2 ----------\n<!audio:27025745801c3927!>",
+    "type": "audio",
+    "is_combination": true,
+    "size": 2,
+    "component_ids": [
+      "consonance_exp/piano_interval_perfect_fifth_G4",
+      "consonance_exp/sine_interval_major_seventh_C4"
+    ],
+    "component_indices": [
+      134,
+      382
+    ]
+  },
+  {
+    "id": "consonance_combo_s2_76",
+    "description": "The following bundle contains 2 individual experiences.\n\n---------- Experience 1 of 2 ----------\n<!audio:c1ace1469fceb863!>\n\n---------- Experience 2 of 2 ----------\n<!audio:ec804538027255c2!>",
+    "type": "audio",
+    "is_combination": true,
+    "size": 2,
+    "component_ids": [
+      "consonance_exp/sawtooth_interval_unison_E3",
+      "consonance_exp/sawtooth_chord_minor_triad_inv1_C3"
+    ],
+    "component_indices": [
+      299,
+      219
+    ]
+  },
+  {
+    "id": "consonance_combo_s2_77",
+    "description": "The following bundle contains 2 individual experiences.\n\n---------- Experience 1 of 2 ----------\n<!audio:30bb636190573229!>\n\n---------- Experience 2 of 2 ----------\n<!audio:8a9690ef68eb66f6!>",
+    "type": "audio",
+    "is_combination": true,
+    "size": 2,
+    "component_ids": [
+      "consonance_exp/sawtooth_interval_unison_C4",
+      "consonance_exp/sawtooth_chord_major_triad_inv2_C3"
+    ],
+    "component_indices": [
+      298,
+      204
+    ]
+  },
+  {
+    "id": "consonance_combo_s2_78",
+    "description": "The following bundle contains 2 individual experiences.\n\n---------- Experience 1 of 2 ----------\n<!audio:e0e6b0aba34086bc!>\n\n---------- Experience 2 of 2 ----------\n<!audio:856f1ec239347825!>",
+    "type": "audio",
+    "is_combination": true,
+    "size": 2,
+    "component_ids": [
+      "consonance_exp/sawtooth_chord_dominant_7th_E3",
+      "consonance_exp/piano_interval_minor_sixth_C4"
+    ],
+    "component_indices": [
+      185,
+      112
+    ]
+  },
+  {
+    "id": "consonance_combo_s2_79",
+    "description": "The following bundle contains 2 individual experiences.\n\n---------- Experience 1 of 2 ----------\n<!audio:66ace3c8831b866c!>\n\n---------- Experience 2 of 2 ----------\n<!audio:e18a552f2fa97712!>",
+    "type": "audio",
+    "is_combination": true,
+    "size": 2,
+    "component_ids": [
+      "consonance_exp/piano_chord_minor_triad_inv1_C4",
+      "consonance_exp/sawtooth_interval_minor_seventh_G4"
+    ],
+    "component_indices": [
+      70,
+      260
+    ]
+  },
+  {
+    "id": "consonance_combo_s3_80",
+    "description": "The following bundle contains 3 individual experiences.\n\n---------- Experience 1 of 3 ----------\n<!audio:d25ebb620593b61b!>\n\n---------- Experience 2 of 3 ----------\n<!audio:590cd8cd93e873e8!>\n\n---------- Experience 3 of 3 ----------\n<!audio:08958101ff3af735!>",
+    "type": "audio",
+    "is_combination": true,
+    "size": 3,
+    "component_ids": [
+      "consonance_exp/sawtooth_interval_minor_second_E4",
+      "consonance_exp/piano_chord_major_triad_C4",
+      "consonance_exp/sine_interval_major_seventh_G4"
+    ],
+    "component_indices": [
+      252,
+      46,
+      386
+    ]
+  },
+  {
+    "id": "consonance_combo_s3_81",
+    "description": "The following bundle contains 3 individual experiences.\n\n---------- Experience 1 of 3 ----------\n<!audio:2684d4122dd182d3!>\n\n---------- Experience 2 of 3 ----------\n<!audio:d8a7958080a1de21!>\n\n---------- Experience 3 of 3 ----------\n<!audio:498000809797c512!>",
+    "type": "audio",
+    "is_combination": true,
+    "size": 3,
+    "component_ids": [
+      "consonance_exp/piano_chord_diminished_triad_E4",
+      "consonance_exp/sine_interval_perfect_fourth_G4",
+      "consonance_exp/piano_chord_major_triad_inv2_G3"
+    ],
+    "component_indices": [
+      24,
+      440,
+      56
+    ]
+  },
+  {
+    "id": "consonance_combo_s3_82",
+    "description": "The following bundle contains 3 individual experiences.\n\n---------- Experience 1 of 3 ----------\n<!audio:077b129ae4367875!>\n\n---------- Experience 2 of 3 ----------\n<!audio:045e6e90deb42251!>\n\n---------- Experience 3 of 3 ----------\n<!audio:e0760a8ba61aea3e!>",
+    "type": "audio",
+    "is_combination": true,
+    "size": 3,
+    "component_ids": [
+      "consonance_exp/piano_interval_major_second_E4",
+      "consonance_exp/sine_chord_diminished_triad_C3",
+      "consonance_exp/piano_interval_major_seventh_C3"
+    ],
+    "component_indices": [
+      78,
+      321,
+      81
+    ]
+  },
+  {
+    "id": "consonance_combo_s3_83",
+    "description": "The following bundle contains 3 individual experiences.\n\n---------- Experience 1 of 3 ----------\n<!audio:e1760252d6401ea1!>\n\n---------- Experience 2 of 3 ----------\n<!audio:f11bc773cf0d712f!>\n\n---------- Experience 3 of 3 ----------\n<!audio:a566240f166dfcf0!>",
+    "type": "audio",
+    "is_combination": true,
+    "size": 3,
+    "component_ids": [
+      "consonance_exp/sine_interval_minor_seventh_C3",
+      "consonance_exp/sine_chord_major_triad_E4",
+      "consonance_exp/sawtooth_chord_minor_triad_E4"
+    ],
+    "component_indices": [
+      405,
+      348,
+      216
+    ]
+  },
+  {
+    "id": "consonance_combo_s3_84",
+    "description": "The following bundle contains 3 individual experiences.\n\n---------- Experience 1 of 3 ----------\n<!audio:c90a8ae5d4d8327a!>\n\n---------- Experience 2 of 3 ----------\n<!audio:869e1eb5112181f6!>\n\n---------- Experience 3 of 3 ----------\n<!audio:ae8a15070e457a93!>",
+    "type": "audio",
+    "is_combination": true,
+    "size": 3,
+    "component_ids": [
+      "consonance_exp/sine_chord_augmented_triad_E3",
+      "consonance_exp/piano_chord_diminished_triad_inv2_G3",
+      "consonance_exp/sawtooth_chord_major_triad_E3"
+    ],
+    "component_indices": [
+      305,
+      32,
+      197
+    ]
+  },
+  {
+    "id": "consonance_combo_s3_85",
+    "description": "The following bundle contains 3 individual experiences.\n\n---------- Experience 1 of 3 ----------\n<!audio:140091e5f411feef!>\n\n---------- Experience 2 of 3 ----------\n<!audio:c90a8ae5d4d8327a!>\n\n---------- Experience 3 of 3 ----------\n<!audio:bdad19426c094df4!>",
+    "type": "audio",
+    "is_combination": true,
+    "size": 3,
+    "component_ids": [
+      "consonance_exp/sawtooth_chord_major_triad_C3",
+      "consonance_exp/sine_chord_augmented_triad_E3",
+      "consonance_exp/sawtooth_interval_major_sixth_E3"
+    ],
+    "component_indices": [
+      195,
+      305,
+      239
+    ]
+  },
+  {
+    "id": "consonance_combo_s3_86",
+    "description": "The following bundle contains 3 individual experiences.\n\n---------- Experience 1 of 3 ----------\n<!audio:4deb072691b86855!>\n\n---------- Experience 2 of 3 ----------\n<!audio:8ceb31ee461bb68d!>\n\n---------- Experience 3 of 3 ----------\n<!audio:492a51a45b2fee27!>",
+    "type": "audio",
+    "is_combination": true,
+    "size": 3,
+    "component_ids": [
+      "consonance_exp/sawtooth_interval_minor_third_E4",
+      "consonance_exp/piano_interval_octave_G4",
+      "consonance_exp/sawtooth_interval_perfect_fifth_G3"
+    ],
+    "component_indices": [
+      270,
+      128,
+      283
+    ]
+  },
+  {
+    "id": "consonance_combo_s3_87",
+    "description": "The following bundle contains 3 individual experiences.\n\n---------- Experience 1 of 3 ----------\n<!audio:d8a7958080a1de21!>\n\n---------- Experience 2 of 3 ----------\n<!audio:9e77a506c50fa123!>\n\n---------- Experience 3 of 3 ----------\n<!audio:f11bc773cf0d712f!>",
+    "type": "audio",
+    "is_combination": true,
+    "size": 3,
+    "component_ids": [
+      "consonance_exp/sine_interval_perfect_fourth_G4",
+      "consonance_exp/piano_chord_augmented_triad_E3",
+      "consonance_exp/sine_chord_major_triad_E4"
+    ],
+    "component_indices": [
+      440,
+      5,
+      348
+    ]
+  },
+  {
+    "id": "consonance_combo_s3_88",
+    "description": "The following bundle contains 3 individual experiences.\n\n---------- Experience 1 of 3 ----------\n<!audio:e81b917dd89034ab!>\n\n---------- Experience 2 of 3 ----------\n<!audio:8b3b44abbe0dcd69!>\n\n---------- Experience 3 of 3 ----------\n<!audio:9f3d352a42a3006a!>",
+    "type": "audio",
+    "is_combination": true,
+    "size": 3,
+    "component_ids": [
+      "consonance_exp/sine_chord_minor_triad_inv1_C3",
+      "consonance_exp/piano_chord_minor_7th_C4",
+      "consonance_exp/sine_chord_major_triad_G3"
+    ],
+    "component_indices": [
+      369,
+      58,
+      349
+    ]
+  },
+  {
+    "id": "consonance_combo_s3_89",
+    "description": "The following bundle contains 3 individual experiences.\n\n---------- Experience 1 of 3 ----------\n<!audio:24349a4ed57ae53a!>\n\n---------- Experience 2 of 3 ----------\n<!audio:d8348f17d638fdfc!>\n\n---------- Experience 3 of 3 ----------\n<!audio:4c9983aa6fadb8c1!>",
+    "type": "audio",
+    "is_combination": true,
+    "size": 3,
+    "component_ids": [
+      "consonance_exp/sawtooth_interval_octave_C4",
+      "consonance_exp/sine_interval_major_seventh_E4",
+      "consonance_exp/piano_interval_perfect_fourth_C4"
+    ],
+    "component_indices": [
+      274,
+      384,
+      136
+    ]
+  },
+  {
+    "id": "consonance_combo_s3_90",
+    "description": "The following bundle contains 3 individual experiences.\n\n---------- Experience 1 of 3 ----------\n<!audio:f615883d30537fe5!>\n\n---------- Experience 2 of 3 ----------\n<!audio:816ea9c7ad7d1208!>\n\n---------- Experience 3 of 3 ----------\n<!audio:caa2ba7e49afab3f!>",
+    "type": "audio",
+    "is_combination": true,
+    "size": 3,
+    "component_ids": [
+      "consonance_exp/sine_interval_major_third_C3",
+      "consonance_exp/sine_chord_diminished_triad_inv1_C4",
+      "consonance_exp/sawtooth_chord_diminished_triad_E4"
+    ],
+    "component_indices": [
+      393,
+      328,
+      174
+    ]
+  },
+  {
+    "id": "consonance_combo_s3_91",
+    "description": "The following bundle contains 3 individual experiences.\n\n---------- Experience 1 of 3 ----------\n<!audio:5e9cd8569ce019b8!>\n\n---------- Experience 2 of 3 ----------\n<!audio:1d51bfe0a46e2003!>\n\n---------- Experience 3 of 3 ----------\n<!audio:ac7a151227c4ef2d!>",
+    "type": "audio",
+    "is_combination": true,
+    "size": 3,
+    "component_ids": [
+      "consonance_exp/piano_chord_minor_7th_C3",
+      "consonance_exp/piano_interval_unison_E4",
+      "consonance_exp/sawtooth_chord_minor_triad_inv2_C3"
+    ],
+    "component_indices": [
+      57,
+      150,
+      222
+    ]
+  },
+  {
+    "id": "consonance_combo_s3_92",
+    "description": "The following bundle contains 3 individual experiences.\n\n---------- Experience 1 of 3 ----------\n<!audio:021d1d15ad779778!>\n\n---------- Experience 2 of 3 ----------\n<!audio:97e6850ba5f84792!>\n\n---------- Experience 3 of 3 ----------\n<!audio:6ff241ed2e5dfdcb!>",
+    "type": "audio",
+    "is_combination": true,
+    "size": 3,
+    "component_ids": [
+      "consonance_exp/piano_interval_major_second_G4",
+      "consonance_exp/sawtooth_interval_major_seventh_C4",
+      "consonance_exp/anchor_silence"
+    ],
+    "component_indices": [
+      80,
+      232,
+      1
+    ]
+  },
+  {
+    "id": "consonance_combo_s3_93",
+    "description": "The following bundle contains 3 individual experiences.\n\n---------- Experience 1 of 3 ----------\n<!audio:e81b917dd89034ab!>\n\n---------- Experience 2 of 3 ----------\n<!audio:4acc5c92f100ff71!>\n\n---------- Experience 3 of 3 ----------\n<!audio:106c5ca08f7eb0cc!>",
+    "type": "audio",
+    "is_combination": true,
+    "size": 3,
+    "component_ids": [
+      "consonance_exp/sine_chord_minor_triad_inv1_C3",
+      "consonance_exp/sine_interval_unison_C4",
+      "consonance_exp/sine_chord_minor_triad_G4"
+    ],
+    "component_indices": [
+      369,
+      448,
+      368
+    ]
+  },
+  {
+    "id": "consonance_combo_s3_94",
+    "description": "The following bundle contains 3 individual experiences.\n\n---------- Experience 1 of 3 ----------\n<!audio:88ad8342760d6bd1!>\n\n---------- Experience 2 of 3 ----------\n<!audio:eb57ff9c38e5195f!>\n\n---------- Experience 3 of 3 ----------\n<!audio:12014a75e0613bea!>",
+    "type": "audio",
+    "is_combination": true,
+    "size": 3,
+    "component_ids": [
+      "consonance_exp/piano_interval_perfect_fifth_G4",
+      "consonance_exp/sawtooth_interval_minor_seventh_C4",
+      "consonance_exp/sine_interval_major_sixth_E4"
+    ],
+    "component_indices": [
+      134,
+      256,
+      390
+    ]
+  },
+  {
+    "id": "consonance_combo_s3_95",
+    "description": "The following bundle contains 3 individual experiences.\n\n---------- Experience 1 of 3 ----------\n<!audio:23c11df7ada40296!>\n\n---------- Experience 2 of 3 ----------\n<!audio:4806ab57cee724f3!>\n\n---------- Experience 3 of 3 ----------\n<!audio:e72090e4a8a9eb3d!>",
+    "type": "audio",
+    "is_combination": true,
+    "size": 3,
+    "component_ids": [
+      "consonance_exp/piano_interval_major_sixth_G3",
+      "consonance_exp/sawtooth_interval_minor_seventh_G3",
+      "consonance_exp/piano_chord_major_triad_inv2_C3"
+    ],
+    "component_indices": [
+      91,
+      259,
+      54
+    ]
+  },
+  {
+    "id": "consonance_combo_s3_96",
+    "description": "The following bundle contains 3 individual experiences.\n\n---------- Experience 1 of 3 ----------\n<!audio:e4ab47ea8d243e70!>\n\n---------- Experience 2 of 3 ----------\n<!audio:e0506b99e310aced!>\n\n---------- Experience 3 of 3 ----------\n<!audio:c9d6d5876fc79d8e!>",
+    "type": "audio",
+    "is_combination": true,
+    "size": 3,
+    "component_ids": [
+      "consonance_exp/sine_interval_tritone_G3",
+      "consonance_exp/sine_chord_diminished_7th_G4",
+      "consonance_exp/piano_interval_unison_G4"
+    ],
+    "component_indices": [
+      445,
+      320,
+      152
+    ]
+  },
+  {
+    "id": "consonance_combo_s3_97",
+    "description": "The following bundle contains 3 individual experiences.\n\n---------- Experience 1 of 3 ----------\n<!audio:b61904eb3d5c7172!>\n\n---------- Experience 2 of 3 ----------\n<!audio:c66d64a34979794b!>\n\n---------- Experience 3 of 3 ----------\n<!audio:4806ab57cee724f3!>",
+    "type": "audio",
+    "is_combination": true,
+    "size": 3,
+    "component_ids": [
+      "consonance_exp/sine_interval_perfect_fifth_C4",
+      "consonance_exp/sine_chord_diminished_triad_inv1_C3",
+      "consonance_exp/sawtooth_interval_minor_seventh_G3"
+    ],
+    "component_indices": [
+      430,
+      327,
+      259
+    ]
+  },
+  {
+    "id": "consonance_combo_s3_98",
+    "description": "The following bundle contains 3 individual experiences.\n\n---------- Experience 1 of 3 ----------\n<!audio:68ab91359b702b04!>\n\n---------- Experience 2 of 3 ----------\n<!audio:93b106a728434602!>\n\n---------- Experience 3 of 3 ----------\n<!audio:077b129ae4367875!>",
+    "type": "audio",
+    "is_combination": true,
+    "size": 3,
+    "component_ids": [
+      "consonance_exp/sine_chord_augmented_triad_inv1_G3",
+      "consonance_exp/piano_interval_minor_second_E3",
+      "consonance_exp/piano_interval_major_second_E4"
+    ],
+    "component_indices": [
+      311,
+      101,
+      78
+    ]
+  },
+  {
+    "id": "consonance_combo_s3_99",
+    "description": "The following bundle contains 3 individual experiences.\n\n---------- Experience 1 of 3 ----------\n<!audio:d543c002cf3fe741!>\n\n---------- Experience 2 of 3 ----------\n<!audio:12014a75e0613bea!>\n\n---------- Experience 3 of 3 ----------\n<!audio:e79d371be78d44f8!>",
+    "type": "audio",
+    "is_combination": true,
+    "size": 3,
+    "component_ids": [
+      "consonance_exp/sawtooth_chord_major_7th_E3",
+      "consonance_exp/sine_interval_major_sixth_E4",
+      "consonance_exp/piano_interval_major_seventh_C4"
+    ],
+    "component_indices": [
+      191,
+      390,
+      82
+    ]
+  },
+  {
+    "id": "consonance_combo_s3_100",
+    "description": "The following bundle contains 3 individual experiences.\n\n---------- Experience 1 of 3 ----------\n<!audio:2509e749aa6da37e!>\n\n---------- Experience 2 of 3 ----------\n<!audio:13bf07d42ac2252b!>\n\n---------- Experience 3 of 3 ----------\n<!audio:f13025d9c2c79160!>",
+    "type": "audio",
+    "is_combination": true,
+    "size": 3,
+    "component_ids": [
+      "consonance_exp/sawtooth_interval_octave_E4",
+      "consonance_exp/sine_interval_major_third_G4",
+      "consonance_exp/sawtooth_interval_minor_third_G3"
+    ],
+    "component_indices": [
+      276,
+      398,
+      271
+    ]
+  },
+  {
+    "id": "consonance_combo_s3_101",
+    "description": "The following bundle contains 3 individual experiences.\n\n---------- Experience 1 of 3 ----------\n<!audio:904b0bf7c301758b!>\n\n---------- Experience 2 of 3 ----------\n<!audio:074f6d6de776618a!>\n\n---------- Experience 3 of 3 ----------\n<!audio:5315952dc9636bbd!>",
+    "type": "audio",
+    "is_combination": true,
+    "size": 3,
+    "component_ids": [
+      "consonance_exp/anchor_pure_A4",
+      "consonance_exp/sine_chord_augmented_triad_E4",
+      "consonance_exp/sawtooth_chord_diminished_7th_C3"
+    ],
+    "component_indices": [
+      0,
+      306,
+      165
+    ]
+  },
+  {
+    "id": "consonance_combo_s3_102",
+    "description": "The following bundle contains 3 individual experiences.\n\n---------- Experience 1 of 3 ----------\n<!audio:a14433a43860c6d6!>\n\n---------- Experience 2 of 3 ----------\n<!audio:2c6a8fd9da6c4bde!>\n\n---------- Experience 3 of 3 ----------\n<!audio:5e9cd8569ce019b8!>",
+    "type": "audio",
+    "is_combination": true,
+    "size": 3,
+    "component_ids": [
+      "consonance_exp/sawtooth_interval_minor_second_C4",
+      "consonance_exp/piano_chord_augmented_triad_inv1_C3",
+      "consonance_exp/piano_chord_minor_7th_C3"
+    ],
+    "component_indices": [
+      250,
+      9,
+      57
+    ]
+  },
+  {
+    "id": "consonance_combo_s3_103",
+    "description": "The following bundle contains 3 individual experiences.\n\n---------- Experience 1 of 3 ----------\n<!audio:e0e6b0aba34086bc!>\n\n---------- Experience 2 of 3 ----------\n<!audio:05a5da5afdc2f666!>\n\n---------- Experience 3 of 3 ----------\n<!audio:6ef0f496cbec1e74!>",
+    "type": "audio",
+    "is_combination": true,
+    "size": 3,
+    "component_ids": [
+      "consonance_exp/sawtooth_chord_dominant_7th_E3",
+      "consonance_exp/sine_interval_unison_E3",
+      "consonance_exp/sine_interval_octave_E3"
+    ],
+    "component_indices": [
+      185,
+      449,
+      425
+    ]
+  },
+  {
+    "id": "consonance_combo_s3_104",
+    "description": "The following bundle contains 3 individual experiences.\n\n---------- Experience 1 of 3 ----------\n<!audio:01bc865343b46f47!>\n\n---------- Experience 2 of 3 ----------\n<!audio:5cb62f8fa1a085ea!>\n\n---------- Experience 3 of 3 ----------\n<!audio:b22e95228519870e!>",
+    "type": "audio",
+    "is_combination": true,
+    "size": 3,
+    "component_ids": [
+      "consonance_exp/sine_interval_minor_sixth_E3",
+      "consonance_exp/sawtooth_chord_augmented_triad_G3",
+      "consonance_exp/piano_interval_minor_third_G4"
+    ],
+    "component_indices": [
+      413,
+      157,
+      122
+    ]
+  },
+  {
+    "id": "consonance_combo_s3_105",
+    "description": "The following bundle contains 3 individual experiences.\n\n---------- Experience 1 of 3 ----------\n<!audio:937febb107bd5e0e!>\n\n---------- Experience 2 of 3 ----------\n<!audio:3f9ae49623b47a60!>\n\n---------- Experience 3 of 3 ----------\n<!audio:05a5da5afdc2f666!>",
+    "type": "audio",
+    "is_combination": true,
+    "size": 3,
+    "component_ids": [
+      "consonance_exp/piano_chord_diminished_triad_inv1_G3",
+      "consonance_exp/piano_interval_octave_C3",
+      "consonance_exp/sine_interval_unison_E3"
+    ],
+    "component_indices": [
+      29,
+      123,
+      449
+    ]
+  },
+  {
+    "id": "consonance_combo_s3_106",
+    "description": "The following bundle contains 3 individual experiences.\n\n---------- Experience 1 of 3 ----------\n<!audio:0a180bc7c75bd92c!>\n\n---------- Experience 2 of 3 ----------\n<!audio:b5912383dd8f47ae!>\n\n---------- Experience 3 of 3 ----------\n<!audio:4489565163b59a78!>",
+    "type": "audio",
+    "is_combination": true,
+    "size": 3,
+    "component_ids": [
+      "consonance_exp/sawtooth_interval_perfect_fourth_G4",
+      "consonance_exp/piano_chord_major_7th_C4",
+      "consonance_exp/piano_chord_major_7th_G3"
+    ],
+    "component_indices": [
+      290,
+      40,
+      43
+    ]
+  },
+  {
+    "id": "consonance_combo_s3_107",
+    "description": "The following bundle contains 3 individual experiences.\n\n---------- Experience 1 of 3 ----------\n<!audio:ec0d45610192d001!>\n\n---------- Experience 2 of 3 ----------\n<!audio:e9fe258784409c6a!>\n\n---------- Experience 3 of 3 ----------\n<!audio:2cb9b54a45543451!>",
+    "type": "audio",
+    "is_combination": true,
+    "size": 3,
+    "component_ids": [
+      "consonance_exp/sine_chord_minor_triad_inv2_G3",
+      "consonance_exp/sawtooth_interval_major_third_G4",
+      "consonance_exp/sine_interval_minor_third_C3"
+    ],
+    "component_indices": [
+      374,
+      248,
+      417
+    ]
+  },
+  {
+    "id": "consonance_combo_s3_108",
+    "description": "The following bundle contains 3 individual experiences.\n\n---------- Experience 1 of 3 ----------\n<!audio:554d5fffce2ae8c9!>\n\n---------- Experience 2 of 3 ----------\n<!audio:0016a9eda8c83937!>\n\n---------- Experience 3 of 3 ----------\n<!audio:c01202387bc883d1!>",
+    "type": "audio",
+    "is_combination": true,
+    "size": 3,
+    "component_ids": [
+      "consonance_exp/piano_chord_dominant_7th_E3",
+      "consonance_exp/sine_interval_major_sixth_E3",
+      "consonance_exp/sawtooth_interval_minor_third_G4"
+    ],
+    "component_indices": [
+      35,
+      389,
+      272
+    ]
+  },
+  {
+    "id": "consonance_combo_s3_109",
+    "description": "The following bundle contains 3 individual experiences.\n\n---------- Experience 1 of 3 ----------\n<!audio:4f1e25807b071ada!>\n\n---------- Experience 2 of 3 ----------\n<!audio:c5a2a8cecb39fe93!>\n\n---------- Experience 3 of 3 ----------\n<!audio:1a6d20f19772487b!>",
+    "type": "audio",
+    "is_combination": true,
+    "size": 3,
+    "component_ids": [
+      "consonance_exp/sine_interval_major_sixth_G4",
+      "consonance_exp/piano_chord_minor_triad_C4",
+      "consonance_exp/piano_chord_minor_triad_E3"
+    ],
+    "component_indices": [
+      392,
+      64,
+      65
+    ]
+  },
+  {
+    "id": "consonance_combo_s3_110",
+    "description": "The following bundle contains 3 individual experiences.\n\n---------- Experience 1 of 3 ----------\n<!audio:d2eb6c4ac772dc77!>\n\n---------- Experience 2 of 3 ----------\n<!audio:288715171b5e0d25!>\n\n---------- Experience 3 of 3 ----------\n<!audio:2de4fd55f5f035c7!>",
+    "type": "audio",
+    "is_combination": true,
+    "size": 3,
+    "component_ids": [
+      "consonance_exp/sine_chord_dominant_7th_G3",
+      "consonance_exp/sawtooth_interval_major_third_C3",
+      "consonance_exp/sawtooth_interval_perfect_fifth_E3"
+    ],
+    "component_indices": [
+      337,
+      243,
+      281
+    ]
+  },
+  {
+    "id": "consonance_combo_s3_111",
+    "description": "The following bundle contains 3 individual experiences.\n\n---------- Experience 1 of 3 ----------\n<!audio:d1c8db44aa96afbb!>\n\n---------- Experience 2 of 3 ----------\n<!audio:f51b48fa71a56626!>\n\n---------- Experience 3 of 3 ----------\n<!audio:4deb072691b86855!>",
+    "type": "audio",
+    "is_combination": true,
+    "size": 3,
+    "component_ids": [
+      "consonance_exp/piano_interval_major_seventh_E4",
+      "consonance_exp/piano_interval_perfect_fourth_C3",
+      "consonance_exp/sawtooth_interval_minor_third_E4"
+    ],
+    "component_indices": [
+      84,
+      135,
+      270
+    ]
+  },
+  {
+    "id": "consonance_combo_s3_112",
+    "description": "The following bundle contains 3 individual experiences.\n\n---------- Experience 1 of 3 ----------\n<!audio:68ff7c5fb1c6133d!>\n\n---------- Experience 2 of 3 ----------\n<!audio:b9846f1effa71418!>\n\n---------- Experience 3 of 3 ----------\n<!audio:a566240f166dfcf0!>",
+    "type": "audio",
+    "is_combination": true,
+    "size": 3,
+    "component_ids": [
+      "consonance_exp/sine_interval_tritone_G4",
+      "consonance_exp/sine_chord_augmented_triad_inv1_C4",
+      "consonance_exp/sawtooth_chord_minor_triad_E4"
+    ],
+    "component_indices": [
+      446,
+      310,
+      216
+    ]
+  },
+  {
+    "id": "consonance_combo_s3_113",
+    "description": "The following bundle contains 3 individual experiences.\n\n---------- Experience 1 of 3 ----------\n<!audio:00f0c87d05716065!>\n\n---------- Experience 2 of 3 ----------\n<!audio:2509e749aa6da37e!>\n\n---------- Experience 3 of 3 ----------\n<!audio:08958101ff3af735!>",
+    "type": "audio",
+    "is_combination": true,
+    "size": 3,
+    "component_ids": [
+      "consonance_exp/piano_interval_minor_seventh_E4",
+      "consonance_exp/sawtooth_interval_octave_E4",
+      "consonance_exp/sine_interval_major_seventh_G4"
+    ],
+    "component_indices": [
+      108,
+      276,
+      386
+    ]
+  },
+  {
+    "id": "consonance_combo_s3_114",
+    "description": "The following bundle contains 3 individual experiences.\n\n---------- Experience 1 of 3 ----------\n<!audio:63296456101d00c8!>\n\n---------- Experience 2 of 3 ----------\n<!audio:bd5aa3885e4da92a!>\n\n---------- Experience 3 of 3 ----------\n<!audio:63bb558adf8c65ab!>",
+    "type": "audio",
+    "is_combination": true,
+    "size": 3,
+    "component_ids": [
+      "consonance_exp/sine_chord_minor_triad_inv2_C4",
+      "consonance_exp/sine_chord_major_triad_inv1_G3",
+      "consonance_exp/piano_interval_minor_second_E4"
+    ],
+    "component_indices": [
+      373,
+      353,
+      102
+    ]
+  },
+  {
+    "id": "consonance_combo_s3_115",
+    "description": "The following bundle contains 3 individual experiences.\n\n---------- Experience 1 of 3 ----------\n<!audio:9434c6c75bf9e97f!>\n\n---------- Experience 2 of 3 ----------\n<!audio:d4c04ecb34ada5c7!>\n\n---------- Experience 3 of 3 ----------\n<!audio:8a9690ef68eb66f6!>",
+    "type": "audio",
+    "is_combination": true,
+    "size": 3,
+    "component_ids": [
+      "consonance_exp/sine_chord_minor_triad_E3",
+      "consonance_exp/sawtooth_chord_augmented_triad_inv1_C3",
+      "consonance_exp/sawtooth_chord_major_triad_inv2_C3"
+    ],
+    "component_indices": [
+      365,
+      159,
+      204
+    ]
+  },
+  {
+    "id": "consonance_combo_s3_116",
+    "description": "The following bundle contains 3 individual experiences.\n\n---------- Experience 1 of 3 ----------\n<!audio:e0de2e7c9b727bd4!>\n\n---------- Experience 2 of 3 ----------\n<!audio:0d5264f3d7aa6aa3!>\n\n---------- Experience 3 of 3 ----------\n<!audio:d543c002cf3fe741!>",
+    "type": "audio",
+    "is_combination": true,
+    "size": 3,
+    "component_ids": [
+      "consonance_exp/sine_chord_major_7th_G3",
+      "consonance_exp/sine_chord_diminished_triad_inv2_G3",
+      "consonance_exp/sawtooth_chord_major_7th_E3"
+    ],
+    "component_indices": [
+      343,
+      332,
+      191
+    ]
+  },
+  {
+    "id": "consonance_combo_s3_117",
+    "description": "The following bundle contains 3 individual experiences.\n\n---------- Experience 1 of 3 ----------\n<!audio:a674333b6d556e2e!>\n\n---------- Experience 2 of 3 ----------\n<!audio:a0ee2639a0b47355!>\n\n---------- Experience 3 of 3 ----------\n<!audio:4c4f15676040463d!>",
+    "type": "audio",
+    "is_combination": true,
+    "size": 3,
+    "component_ids": [
+      "consonance_exp/sawtooth_chord_minor_triad_inv2_G3",
+      "consonance_exp/sawtooth_interval_minor_sixth_E4",
+      "consonance_exp/sawtooth_interval_major_seventh_C3"
+    ],
+    "component_indices": [
+      224,
+      264,
+      231
+    ]
+  },
+  {
+    "id": "consonance_combo_s3_118",
+    "description": "The following bundle contains 3 individual experiences.\n\n---------- Experience 1 of 3 ----------\n<!audio:06fcdb13cb791e15!>\n\n---------- Experience 2 of 3 ----------\n<!audio:84050ca7473252a7!>\n\n---------- Experience 3 of 3 ----------\n<!audio:cf07d681469e9e0b!>",
+    "type": "audio",
+    "is_combination": true,
+    "size": 3,
+    "component_ids": [
+      "consonance_exp/piano_chord_minor_7th_G3",
+      "consonance_exp/piano_interval_octave_E4",
+      "consonance_exp/piano_interval_minor_sixth_G3"
+    ],
+    "component_indices": [
+      61,
+      126,
+      115
+    ]
+  },
+  {
+    "id": "consonance_combo_s3_119",
+    "description": "The following bundle contains 3 individual experiences.\n\n---------- Experience 1 of 3 ----------\n<!audio:869e1eb5112181f6!>\n\n---------- Experience 2 of 3 ----------\n<!audio:ca5739665abc8639!>\n\n---------- Experience 3 of 3 ----------\n<!audio:c494a769d3d947d3!>",
+    "type": "audio",
+    "is_combination": true,
+    "size": 3,
+    "component_ids": [
+      "consonance_exp/piano_chord_diminished_triad_inv2_G3",
+      "consonance_exp/sawtooth_chord_diminished_triad_E3",
+      "consonance_exp/piano_chord_augmented_triad_inv1_C4"
+    ],
+    "component_indices": [
+      32,
+      173,
+      10
+    ]
+  },
+  {
+    "id": "consonance_combo_s3_120",
+    "description": "The following bundle contains 3 individual experiences.\n\n---------- Experience 1 of 3 ----------\n<!audio:ee3e979092251705!>\n\n---------- Experience 2 of 3 ----------\n<!audio:492a51a45b2fee27!>\n\n---------- Experience 3 of 3 ----------\n<!audio:bf9d27307eabe87c!>",
+    "type": "audio",
+    "is_combination": true,
+    "size": 3,
+    "component_ids": [
+      "consonance_exp/sawtooth_interval_unison_G3",
+      "consonance_exp/sawtooth_interval_perfect_fifth_G3",
+      "consonance_exp/piano_interval_minor_third_C3"
+    ],
+    "component_indices": [
+      301,
+      283,
+      117
+    ]
+  },
+  {
+    "id": "consonance_combo_s3_121",
+    "description": "The following bundle contains 3 individual experiences.\n\n---------- Experience 1 of 3 ----------\n<!audio:ee3e979092251705!>\n\n---------- Experience 2 of 3 ----------\n<!audio:856f1ec239347825!>\n\n---------- Experience 3 of 3 ----------\n<!audio:fd4319543e2fc3c3!>",
+    "type": "audio",
+    "is_combination": true,
+    "size": 3,
+    "component_ids": [
+      "consonance_exp/sawtooth_interval_unison_G3",
+      "consonance_exp/piano_interval_minor_sixth_C4",
+      "consonance_exp/piano_chord_augmented_triad_C3"
+    ],
+    "component_indices": [
+      301,
+      112,
+      3
+    ]
+  },
+  {
+    "id": "consonance_combo_s3_122",
+    "description": "The following bundle contains 3 individual experiences.\n\n---------- Experience 1 of 3 ----------\n<!audio:d191b0469317efe2!>\n\n---------- Experience 2 of 3 ----------\n<!audio:700cd82c7e307d05!>\n\n---------- Experience 3 of 3 ----------\n<!audio:1fa3e0b18191174f!>",
+    "type": "audio",
+    "is_combination": true,
+    "size": 3,
+    "component_ids": [
+      "consonance_exp/piano_chord_dominant_7th_E4",
+      "consonance_exp/sine_chord_minor_7th_G4",
+      "consonance_exp/sine_chord_diminished_triad_E3"
+    ],
+    "component_indices": [
+      36,
+      362,
+      323
+    ]
+  },
+  {
+    "id": "consonance_combo_s3_123",
+    "description": "The following bundle contains 3 individual experiences.\n\n---------- Experience 1 of 3 ----------\n<!audio:d1a3516c2523a7a8!>\n\n---------- Experience 2 of 3 ----------\n<!audio:bf9d27307eabe87c!>\n\n---------- Experience 3 of 3 ----------\n<!audio:5ce90f0e20cd767b!>",
+    "type": "audio",
+    "is_combination": true,
+    "size": 3,
+    "component_ids": [
+      "consonance_exp/piano_chord_diminished_triad_inv2_C3",
+      "consonance_exp/piano_interval_minor_third_C3",
+      "consonance_exp/piano_chord_dominant_7th_C4"
+    ],
+    "component_indices": [
+      30,
+      117,
+      34
+    ]
+  },
+  {
+    "id": "consonance_combo_s3_124",
+    "description": "The following bundle contains 3 individual experiences.\n\n---------- Experience 1 of 3 ----------\n<!audio:c7de639da0301aaa!>\n\n---------- Experience 2 of 3 ----------\n<!audio:d8a7958080a1de21!>\n\n---------- Experience 3 of 3 ----------\n<!audio:505a4df2039896dc!>",
+    "type": "audio",
+    "is_combination": true,
+    "size": 3,
+    "component_ids": [
+      "consonance_exp/piano_chord_diminished_7th_C4",
+      "consonance_exp/sine_interval_perfect_fourth_G4",
+      "consonance_exp/sawtooth_chord_diminished_7th_G3"
+    ],
+    "component_indices": [
+      16,
+      440,
+      169
+    ]
+  },
+  {
+    "id": "consonance_combo_s3_125",
+    "description": "The following bundle contains 3 individual experiences.\n\n---------- Experience 1 of 3 ----------\n<!audio:d191b0469317efe2!>\n\n---------- Experience 2 of 3 ----------\n<!audio:4a36ec6884cde440!>\n\n---------- Experience 3 of 3 ----------\n<!audio:9b197edceb80617c!>",
+    "type": "audio",
+    "is_combination": true,
+    "size": 3,
+    "component_ids": [
+      "consonance_exp/piano_chord_dominant_7th_E4",
+      "consonance_exp/sawtooth_interval_minor_sixth_E3",
+      "consonance_exp/piano_interval_minor_third_G3"
+    ],
+    "component_indices": [
+      36,
+      263,
+      121
+    ]
+  },
+  {
+    "id": "consonance_combo_s3_126",
+    "description": "The following bundle contains 3 individual experiences.\n\n---------- Experience 1 of 3 ----------\n<!audio:5c082dc0af73ed05!>\n\n---------- Experience 2 of 3 ----------\n<!audio:920de91d16c24230!>\n\n---------- Experience 3 of 3 ----------\n<!audio:e9fe258784409c6a!>",
+    "type": "audio",
+    "is_combination": true,
+    "size": 3,
+    "component_ids": [
+      "consonance_exp/piano_interval_tritone_C4",
+      "consonance_exp/sine_chord_major_7th_E4",
+      "consonance_exp/sawtooth_interval_major_third_G4"
+    ],
+    "component_indices": [
+      142,
+      342,
+      248
+    ]
+  },
+  {
+    "id": "consonance_combo_s3_127",
+    "description": "The following bundle contains 3 individual experiences.\n\n---------- Experience 1 of 3 ----------\n<!audio:421bb422096d656a!>\n\n---------- Experience 2 of 3 ----------\n<!audio:2509e749aa6da37e!>\n\n---------- Experience 3 of 3 ----------\n<!audio:f15dec16f4002163!>",
+    "type": "audio",
+    "is_combination": true,
+    "size": 3,
+    "component_ids": [
+      "consonance_exp/piano_interval_minor_seventh_G3",
+      "consonance_exp/sawtooth_interval_octave_E4",
+      "consonance_exp/piano_chord_minor_triad_G3"
+    ],
+    "component_indices": [
+      109,
+      276,
+      67
+    ]
+  },
+  {
+    "id": "consonance_combo_s3_128",
+    "description": "The following bundle contains 3 individual experiences.\n\n---------- Experience 1 of 3 ----------\n<!audio:258f25cf951f228f!>\n\n---------- Experience 2 of 3 ----------\n<!audio:85368694c29f0edc!>\n\n---------- Experience 3 of 3 ----------\n<!audio:953ae52963619c9a!>",
+    "type": "audio",
+    "is_combination": true,
+    "size": 3,
+    "component_ids": [
+      "consonance_exp/sine_chord_minor_triad_inv1_C4",
+      "consonance_exp/sine_interval_unison_G3",
+      "consonance_exp/sawtooth_interval_tritone_C4"
+    ],
+    "component_indices": [
+      370,
+      451,
+      292
+    ]
+  },
+  {
+    "id": "consonance_combo_s3_129",
+    "description": "The following bundle contains 3 individual experiences.\n\n---------- Experience 1 of 3 ----------\n<!audio:67faff079f342c1c!>\n\n---------- Experience 2 of 3 ----------\n<!audio:da60534e45c9edee!>\n\n---------- Experience 3 of 3 ----------\n<!audio:7c9b97048d3f7bf1!>",
+    "type": "audio",
+    "is_combination": true,
+    "size": 3,
+    "component_ids": [
+      "consonance_exp/sawtooth_interval_tritone_G3",
+      "consonance_exp/sawtooth_interval_major_sixth_G4",
+      "consonance_exp/piano_interval_octave_C4"
+    ],
+    "component_indices": [
+      295,
+      242,
+      124
+    ]
+  },
+  {
+    "id": "consonance_combo_s4_130",
+    "description": "The following bundle contains 4 individual experiences.\n\n---------- Experience 1 of 4 ----------\n<!audio:64ef43d43c277cf2!>\n\n---------- Experience 2 of 4 ----------\n<!audio:da60534e45c9edee!>\n\n---------- Experience 3 of 4 ----------\n<!audio:01bc865343b46f47!>\n\n---------- Experience 4 of 4 ----------\n<!audio:1c205ec8efcf9035!>",
+    "type": "audio",
+    "is_combination": true,
+    "size": 4,
+    "component_ids": [
+      "consonance_exp/sine_interval_minor_second_E3",
+      "consonance_exp/sawtooth_interval_major_sixth_G4",
+      "consonance_exp/sine_interval_minor_sixth_E3",
+      "consonance_exp/sawtooth_chord_minor_7th_C4"
+    ],
+    "component_indices": [
+      401,
+      242,
+      413,
+      208
+    ]
+  },
+  {
+    "id": "consonance_combo_s4_131",
+    "description": "The following bundle contains 4 individual experiences.\n\n---------- Experience 1 of 4 ----------\n<!audio:996222a3442a57a2!>\n\n---------- Experience 2 of 4 ----------\n<!audio:6f49659c7171cf0f!>\n\n---------- Experience 3 of 4 ----------\n<!audio:8edc5c149df0ffb9!>\n\n---------- Experience 4 of 4 ----------\n<!audio:d2eb6c4ac772dc77!>",
+    "type": "audio",
+    "is_combination": true,
+    "size": 4,
+    "component_ids": [
+      "consonance_exp/piano_interval_major_third_G3",
+      "consonance_exp/piano_chord_major_triad_E4",
+      "consonance_exp/piano_chord_major_triad_G3",
+      "consonance_exp/sine_chord_dominant_7th_G3"
+    ],
+    "component_indices": [
+      97,
+      48,
+      49,
+      337
+    ]
+  },
+  {
+    "id": "consonance_combo_s4_132",
+    "description": "The following bundle contains 4 individual experiences.\n\n---------- Experience 1 of 4 ----------\n<!audio:5412e152a33b8cb8!>\n\n---------- Experience 2 of 4 ----------\n<!audio:44d88ad79ee3f2eb!>\n\n---------- Experience 3 of 4 ----------\n<!audio:a566240f166dfcf0!>\n\n---------- Experience 4 of 4 ----------\n<!audio:061d4ae8224b2ee6!>",
+    "type": "audio",
+    "is_combination": true,
+    "size": 4,
+    "component_ids": [
+      "consonance_exp/sawtooth_chord_minor_triad_inv1_C4",
+      "consonance_exp/sawtooth_chord_diminished_triad_inv2_C4",
+      "consonance_exp/sawtooth_chord_minor_triad_E4",
+      "consonance_exp/sawtooth_chord_minor_7th_E4"
+    ],
+    "component_indices": [
+      220,
+      181,
+      216,
+      210
+    ]
+  },
+  {
+    "id": "consonance_combo_s4_133",
+    "description": "The following bundle contains 4 individual experiences.\n\n---------- Experience 1 of 4 ----------\n<!audio:bdad19426c094df4!>\n\n---------- Experience 2 of 4 ----------\n<!audio:05fc4664cd138c5a!>\n\n---------- Experience 3 of 4 ----------\n<!audio:63296456101d00c8!>\n\n---------- Experience 4 of 4 ----------\n<!audio:e211a016e1cf6a5b!>",
+    "type": "audio",
+    "is_combination": true,
+    "size": 4,
+    "component_ids": [
+      "consonance_exp/sawtooth_interval_major_sixth_E3",
+      "consonance_exp/sine_interval_tritone_C4",
+      "consonance_exp/sine_chord_minor_triad_inv2_C4",
+      "consonance_exp/piano_chord_diminished_triad_inv1_C3"
+    ],
+    "component_indices": [
+      239,
+      442,
+      373,
+      27
+    ]
+  },
+  {
+    "id": "consonance_combo_s4_134",
+    "description": "The following bundle contains 4 individual experiences.\n\n---------- Experience 1 of 4 ----------\n<!audio:3a0bec00089e9147!>\n\n---------- Experience 2 of 4 ----------\n<!audio:5d78c8ac8f8b08a4!>\n\n---------- Experience 3 of 4 ----------\n<!audio:5b5a8ad7e9a22eee!>\n\n---------- Experience 4 of 4 ----------\n<!audio:a4940f81bcfe2190!>",
+    "type": "audio",
+    "is_combination": true,
+    "size": 4,
+    "component_ids": [
+      "consonance_exp/sine_chord_major_7th_G4",
+      "consonance_exp/sine_chord_dominant_7th_C4",
+      "consonance_exp/sine_chord_diminished_triad_inv2_C3",
+      "consonance_exp/piano_chord_major_triad_G4"
+    ],
+    "component_indices": [
+      344,
+      334,
+      330,
+      50
+    ]
+  },
+  {
+    "id": "consonance_combo_s4_135",
+    "description": "The following bundle contains 4 individual experiences.\n\n---------- Experience 1 of 4 ----------\n<!audio:2036e6c99ea9f373!>\n\n---------- Experience 2 of 4 ----------\n<!audio:c6f165d623c11b41!>\n\n---------- Experience 3 of 4 ----------\n<!audio:fc259e53cc8163bb!>\n\n---------- Experience 4 of 4 ----------\n<!audio:ca5739665abc8639!>",
+    "type": "audio",
+    "is_combination": true,
+    "size": 4,
+    "component_ids": [
+      "consonance_exp/piano_chord_diminished_triad_inv2_C4",
+      "consonance_exp/sawtooth_chord_major_triad_inv2_G3",
+      "consonance_exp/sine_chord_minor_triad_inv2_C3",
+      "consonance_exp/sawtooth_chord_diminished_triad_E3"
+    ],
+    "component_indices": [
+      31,
+      206,
+      372,
+      173
+    ]
+  },
+  {
+    "id": "consonance_combo_s4_136",
+    "description": "The following bundle contains 4 individual experiences.\n\n---------- Experience 1 of 4 ----------\n<!audio:ffa2a725caea2e7b!>\n\n---------- Experience 2 of 4 ----------\n<!audio:7eef717a30461768!>\n\n---------- Experience 3 of 4 ----------\n<!audio:fb25eb8fcaa713ad!>\n\n---------- Experience 4 of 4 ----------\n<!audio:bba6c630dbda9564!>",
+    "type": "audio",
+    "is_combination": true,
+    "size": 4,
+    "component_ids": [
+      "consonance_exp/sine_interval_minor_seventh_G3",
+      "consonance_exp/sine_interval_tritone_C3",
+      "consonance_exp/piano_chord_major_triad_inv2_C4",
+      "consonance_exp/piano_interval_octave_G3"
+    ],
+    "component_indices": [
+      409,
+      441,
+      55,
+      127
+    ]
+  },
+  {
+    "id": "consonance_combo_s4_137",
+    "description": "The following bundle contains 4 individual experiences.\n\n---------- Experience 1 of 4 ----------\n<!audio:030bbc0e29c5b2a8!>\n\n---------- Experience 2 of 4 ----------\n<!audio:996222a3442a57a2!>\n\n---------- Experience 3 of 4 ----------\n<!audio:24349a4ed57ae53a!>\n\n---------- Experience 4 of 4 ----------\n<!audio:59e0312764c51ef1!>",
+    "type": "audio",
+    "is_combination": true,
+    "size": 4,
+    "component_ids": [
+      "consonance_exp/piano_interval_major_third_G4",
+      "consonance_exp/piano_interval_major_third_G3",
+      "consonance_exp/sawtooth_interval_octave_C4",
+      "consonance_exp/sawtooth_interval_major_second_G3"
+    ],
+    "component_indices": [
+      98,
+      97,
+      274,
+      229
+    ]
+  },
+  {
+    "id": "consonance_combo_s4_138",
+    "description": "The following bundle contains 4 individual experiences.\n\n---------- Experience 1 of 4 ----------\n<!audio:2e5cdba8c14bcd17!>\n\n---------- Experience 2 of 4 ----------\n<!audio:a566240f166dfcf0!>\n\n---------- Experience 3 of 4 ----------\n<!audio:b05243797f020083!>\n\n---------- Experience 4 of 4 ----------\n<!audio:5c082dc0af73ed05!>",
+    "type": "audio",
+    "is_combination": true,
+    "size": 4,
+    "component_ids": [
+      "consonance_exp/piano_chord_minor_triad_inv1_G3",
+      "consonance_exp/sawtooth_chord_minor_triad_E4",
+      "consonance_exp/piano_interval_major_third_C3",
+      "consonance_exp/piano_interval_tritone_C4"
+    ],
+    "component_indices": [
+      71,
+      216,
+      93,
+      142
+    ]
+  },
+  {
+    "id": "consonance_combo_s4_139",
+    "description": "The following bundle contains 4 individual experiences.\n\n---------- Experience 1 of 4 ----------\n<!audio:9a42a5eb01823206!>\n\n---------- Experience 2 of 4 ----------\n<!audio:bba6c630dbda9564!>\n\n---------- Experience 3 of 4 ----------\n<!audio:e68f8a74057a7c54!>\n\n---------- Experience 4 of 4 ----------\n<!audio:68025e82c993393f!>",
+    "type": "audio",
+    "is_combination": true,
+    "size": 4,
+    "component_ids": [
+      "consonance_exp/sawtooth_interval_major_seventh_G4",
+      "consonance_exp/piano_interval_octave_G3",
+      "consonance_exp/sine_interval_unison_C3",
+      "consonance_exp/piano_chord_dominant_7th_G4"
+    ],
+    "component_indices": [
+      236,
+      127,
+      447,
+      38
+    ]
+  },
+  {
+    "id": "consonance_combo_s4_140",
+    "description": "The following bundle contains 4 individual experiences.\n\n---------- Experience 1 of 4 ----------\n<!audio:d67dffe0c3af2d0d!>\n\n---------- Experience 2 of 4 ----------\n<!audio:01bc865343b46f47!>\n\n---------- Experience 3 of 4 ----------\n<!audio:7eef717a30461768!>\n\n---------- Experience 4 of 4 ----------\n<!audio:caef04aff4c2c2fe!>",
+    "type": "audio",
+    "is_combination": true,
+    "size": 4,
+    "component_ids": [
+      "consonance_exp/sawtooth_interval_major_second_C4",
+      "consonance_exp/sine_interval_minor_sixth_E3",
+      "consonance_exp/sine_interval_tritone_C3",
+      "consonance_exp/sine_interval_perfect_fourth_E4"
+    ],
+    "component_indices": [
+      226,
+      413,
+      441,
+      438
+    ]
+  },
+  {
+    "id": "consonance_combo_s4_141",
+    "description": "The following bundle contains 4 individual experiences.\n\n---------- Experience 1 of 4 ----------\n<!audio:2de4fd55f5f035c7!>\n\n---------- Experience 2 of 4 ----------\n<!audio:a4940f81bcfe2190!>\n\n---------- Experience 3 of 4 ----------\n<!audio:85a572de7a284381!>\n\n---------- Experience 4 of 4 ----------\n<!audio:7b42db3d7430fbff!>",
+    "type": "audio",
+    "is_combination": true,
+    "size": 4,
+    "component_ids": [
+      "consonance_exp/sawtooth_interval_perfect_fifth_E3",
+      "consonance_exp/piano_chord_major_triad_G4",
+      "consonance_exp/piano_chord_diminished_triad_G3",
+      "consonance_exp/sine_chord_dominant_7th_C3"
+    ],
+    "component_indices": [
+      281,
+      50,
+      25,
+      333
+    ]
+  },
+  {
+    "id": "consonance_combo_s4_142",
+    "description": "The following bundle contains 4 individual experiences.\n\n---------- Experience 1 of 4 ----------\n<!audio:2509e749aa6da37e!>\n\n---------- Experience 2 of 4 ----------\n<!audio:f0037504405b6440!>\n\n---------- Experience 3 of 4 ----------\n<!audio:6c36de2404c1232f!>\n\n---------- Experience 4 of 4 ----------\n<!audio:755dccfd113f00fe!>",
+    "type": "audio",
+    "is_combination": true,
+    "size": 4,
+    "component_ids": [
+      "consonance_exp/sawtooth_interval_octave_E4",
+      "consonance_exp/sine_interval_octave_G4",
+      "consonance_exp/piano_chord_augmented_triad_G3",
+      "consonance_exp/piano_chord_major_triad_E3"
+    ],
+    "component_indices": [
+      276,
+      428,
+      7,
+      47
+    ]
+  },
+  {
+    "id": "consonance_combo_s4_143",
+    "description": "The following bundle contains 4 individual experiences.\n\n---------- Experience 1 of 4 ----------\n<!audio:c1501a52cbe1f6a1!>\n\n---------- Experience 2 of 4 ----------\n<!audio:5380664fe2558124!>\n\n---------- Experience 3 of 4 ----------\n<!audio:9b197edceb80617c!>\n\n---------- Experience 4 of 4 ----------\n<!audio:b39aef9b0091bc9e!>",
+    "type": "audio",
+    "is_combination": true,
+    "size": 4,
+    "component_ids": [
+      "consonance_exp/sine_interval_major_seventh_G3",
+      "consonance_exp/sine_interval_perfect_fifth_G4",
+      "consonance_exp/piano_interval_minor_third_G3",
+      "consonance_exp/piano_interval_major_seventh_G3"
+    ],
+    "component_indices": [
+      385,
+      434,
+      121,
+      85
+    ]
+  },
+  {
+    "id": "consonance_combo_s4_144",
+    "description": "The following bundle contains 4 individual experiences.\n\n---------- Experience 1 of 4 ----------\n<!audio:1c205ec8efcf9035!>\n\n---------- Experience 2 of 4 ----------\n<!audio:e9fe258784409c6a!>\n\n---------- Experience 3 of 4 ----------\n<!audio:44ce0022dc93100d!>\n\n---------- Experience 4 of 4 ----------\n<!audio:421bb422096d656a!>",
+    "type": "audio",
+    "is_combination": true,
+    "size": 4,
+    "component_ids": [
+      "consonance_exp/sawtooth_chord_minor_7th_C4",
+      "consonance_exp/sawtooth_interval_major_third_G4",
+      "consonance_exp/sawtooth_interval_major_third_E4",
+      "consonance_exp/piano_interval_minor_seventh_G3"
+    ],
+    "component_indices": [
+      208,
+      248,
+      246,
+      109
+    ]
+  },
+  {
+    "id": "consonance_combo_s4_145",
+    "description": "The following bundle contains 4 individual experiences.\n\n---------- Experience 1 of 4 ----------\n<!audio:05fc4664cd138c5a!>\n\n---------- Experience 2 of 4 ----------\n<!audio:492e11d33f2c9ee7!>\n\n---------- Experience 3 of 4 ----------\n<!audio:d1a3516c2523a7a8!>\n\n---------- Experience 4 of 4 ----------\n<!audio:d1c8db44aa96afbb!>",
+    "type": "audio",
+    "is_combination": true,
+    "size": 4,
+    "component_ids": [
+      "consonance_exp/sine_interval_tritone_C4",
+      "consonance_exp/sawtooth_chord_major_triad_inv2_C4",
+      "consonance_exp/piano_chord_diminished_triad_inv2_C3",
+      "consonance_exp/piano_interval_major_seventh_E4"
+    ],
+    "component_indices": [
+      442,
+      205,
+      30,
+      84
+    ]
+  },
+  {
+    "id": "consonance_combo_s4_146",
+    "description": "The following bundle contains 4 individual experiences.\n\n---------- Experience 1 of 4 ----------\n<!audio:622d1ceb19c95e00!>\n\n---------- Experience 2 of 4 ----------\n<!audio:6ff241ed2e5dfdcb!>\n\n---------- Experience 3 of 4 ----------\n<!audio:d5facc6dbd9c8d0e!>\n\n---------- Experience 4 of 4 ----------\n<!audio:f51b48fa71a56626!>",
+    "type": "audio",
+    "is_combination": true,
+    "size": 4,
+    "component_ids": [
+      "consonance_exp/sawtooth_chord_major_7th_G4",
+      "consonance_exp/anchor_silence",
+      "consonance_exp/sawtooth_chord_major_triad_G3",
+      "consonance_exp/piano_interval_perfect_fourth_C3"
+    ],
+    "component_indices": [
+      194,
+      1,
+      199,
+      135
+    ]
+  },
+  {
+    "id": "consonance_combo_s4_147",
+    "description": "The following bundle contains 4 individual experiences.\n\n---------- Experience 1 of 4 ----------\n<!audio:64ef43d43c277cf2!>\n\n---------- Experience 2 of 4 ----------\n<!audio:97e6850ba5f84792!>\n\n---------- Experience 3 of 4 ----------\n<!audio:7c93950e15cb6921!>\n\n---------- Experience 4 of 4 ----------\n<!audio:a566240f166dfcf0!>",
+    "type": "audio",
+    "is_combination": true,
+    "size": 4,
+    "component_ids": [
+      "consonance_exp/sine_interval_minor_second_E3",
+      "consonance_exp/sawtooth_interval_major_seventh_C4",
+      "consonance_exp/piano_interval_tritone_G4",
+      "consonance_exp/sawtooth_chord_minor_triad_E4"
+    ],
+    "component_indices": [
+      401,
+      232,
+      146,
+      216
+    ]
+  },
+  {
+    "id": "consonance_combo_s4_148",
+    "description": "The following bundle contains 4 individual experiences.\n\n---------- Experience 1 of 4 ----------\n<!audio:4632029ff8258ee0!>\n\n---------- Experience 2 of 4 ----------\n<!audio:ec0d45610192d001!>\n\n---------- Experience 3 of 4 ----------\n<!audio:64ef43d43c277cf2!>\n\n---------- Experience 4 of 4 ----------\n<!audio:2d312bba93fac65c!>",
+    "type": "audio",
+    "is_combination": true,
+    "size": 4,
+    "component_ids": [
+      "consonance_exp/sine_chord_major_triad_inv2_G3",
+      "consonance_exp/sine_chord_minor_triad_inv2_G3",
+      "consonance_exp/sine_interval_minor_second_E3",
+      "consonance_exp/sawtooth_interval_perfect_fifth_G4"
+    ],
+    "component_indices": [
+      356,
+      374,
+      401,
+      284
+    ]
+  },
+  {
+    "id": "consonance_combo_s4_149",
+    "description": "The following bundle contains 4 individual experiences.\n\n---------- Experience 1 of 4 ----------\n<!audio:0cfaf17445d68b34!>\n\n---------- Experience 2 of 4 ----------\n<!audio:425efde718421d40!>\n\n---------- Experience 3 of 4 ----------\n<!audio:4132cf6684420671!>\n\n---------- Experience 4 of 4 ----------\n<!audio:2e67db385a9daabd!>",
+    "type": "audio",
+    "is_combination": true,
+    "size": 4,
+    "component_ids": [
+      "consonance_exp/sine_chord_dominant_7th_G4",
+      "consonance_exp/sine_chord_minor_triad_G3",
+      "consonance_exp/sawtooth_interval_minor_second_C3",
+      "consonance_exp/piano_interval_major_second_G3"
+    ],
+    "component_indices": [
+      338,
+      367,
+      249,
+      79
+    ]
+  },
+  {
+    "id": "consonance_combo_s4_150",
+    "description": "The following bundle contains 4 individual experiences.\n\n---------- Experience 1 of 4 ----------\n<!audio:996222a3442a57a2!>\n\n---------- Experience 2 of 4 ----------\n<!audio:3c1c0f026f4ab1dc!>\n\n---------- Experience 3 of 4 ----------\n<!audio:5840f56c6836a447!>\n\n---------- Experience 4 of 4 ----------\n<!audio:937febb107bd5e0e!>",
+    "type": "audio",
+    "is_combination": true,
+    "size": 4,
+    "component_ids": [
+      "consonance_exp/piano_interval_major_third_G3",
+      "consonance_exp/piano_interval_unison_G3",
+      "consonance_exp/piano_interval_minor_sixth_C3",
+      "consonance_exp/piano_chord_diminished_triad_inv1_G3"
+    ],
+    "component_indices": [
+      97,
+      151,
+      111,
+      29
+    ]
+  },
+  {
+    "id": "consonance_combo_s4_151",
+    "description": "The following bundle contains 4 individual experiences.\n\n---------- Experience 1 of 4 ----------\n<!audio:a7d273804b4c1e38!>\n\n---------- Experience 2 of 4 ----------\n<!audio:6489c15fc95cb120!>\n\n---------- Experience 3 of 4 ----------\n<!audio:574ef7be21f5214a!>\n\n---------- Experience 4 of 4 ----------\n<!audio:2036e6c99ea9f373!>",
+    "type": "audio",
+    "is_combination": true,
+    "size": 4,
+    "component_ids": [
+      "consonance_exp/sawtooth_interval_tritone_G4",
+      "consonance_exp/sine_interval_major_second_C4",
+      "consonance_exp/sawtooth_interval_octave_G3",
+      "consonance_exp/piano_chord_diminished_triad_inv2_C4"
+    ],
+    "component_indices": [
+      296,
+      376,
+      277,
+      31
+    ]
+  },
+  {
+    "id": "consonance_combo_s4_152",
+    "description": "The following bundle contains 4 individual experiences.\n\n---------- Experience 1 of 4 ----------\n<!audio:27025745801c3927!>\n\n---------- Experience 2 of 4 ----------\n<!audio:734a27e7db20e36a!>\n\n---------- Experience 3 of 4 ----------\n<!audio:937febb107bd5e0e!>\n\n---------- Experience 4 of 4 ----------\n<!audio:85a572de7a284381!>",
+    "type": "audio",
+    "is_combination": true,
+    "size": 4,
+    "component_ids": [
+      "consonance_exp/sine_interval_major_seventh_C4",
+      "consonance_exp/sawtooth_chord_augmented_triad_inv1_C4",
+      "consonance_exp/piano_chord_diminished_triad_inv1_G3",
+      "consonance_exp/piano_chord_diminished_triad_G3"
+    ],
+    "component_indices": [
+      382,
+      160,
+      29,
+      25
+    ]
+  },
+  {
+    "id": "consonance_combo_s4_153",
+    "description": "The following bundle contains 4 individual experiences.\n\n---------- Experience 1 of 4 ----------\n<!audio:c1ace1469fceb863!>\n\n---------- Experience 2 of 4 ----------\n<!audio:1e9574ba57102f4c!>\n\n---------- Experience 3 of 4 ----------\n<!audio:861e09cde3e73551!>\n\n---------- Experience 4 of 4 ----------\n<!audio:31b624d0bf11f58c!>",
+    "type": "audio",
+    "is_combination": true,
+    "size": 4,
+    "component_ids": [
+      "consonance_exp/sawtooth_interval_unison_E3",
+      "consonance_exp/sawtooth_interval_major_third_C4",
+      "consonance_exp/sawtooth_interval_minor_seventh_E3",
+      "consonance_exp/sine_interval_perfect_fourth_C4"
+    ],
+    "component_indices": [
+      299,
+      244,
+      257,
+      436
+    ]
+  },
+  {
+    "id": "consonance_combo_s4_154",
+    "description": "The following bundle contains 4 individual experiences.\n\n---------- Experience 1 of 4 ----------\n<!audio:f13025d9c2c79160!>\n\n---------- Experience 2 of 4 ----------\n<!audio:021d1d15ad779778!>\n\n---------- Experience 3 of 4 ----------\n<!audio:937febb107bd5e0e!>\n\n---------- Experience 4 of 4 ----------\n<!audio:e18a552f2fa97712!>",
+    "type": "audio",
+    "is_combination": true,
+    "size": 4,
+    "component_ids": [
+      "consonance_exp/sawtooth_interval_minor_third_G3",
+      "consonance_exp/piano_interval_major_second_G4",
+      "consonance_exp/piano_chord_diminished_triad_inv1_G3",
+      "consonance_exp/sawtooth_interval_minor_seventh_G4"
+    ],
+    "component_indices": [
+      271,
+      80,
+      29,
+      260
+    ]
+  },
+  {
+    "id": "consonance_combo_s4_155",
+    "description": "The following bundle contains 4 individual experiences.\n\n---------- Experience 1 of 4 ----------\n<!audio:08f664ce1983185a!>\n\n---------- Experience 2 of 4 ----------\n<!audio:2b19631df01b9c4e!>\n\n---------- Experience 3 of 4 ----------\n<!audio:5899683cf1a50ba8!>\n\n---------- Experience 4 of 4 ----------\n<!audio:554d5fffce2ae8c9!>",
+    "type": "audio",
+    "is_combination": true,
+    "size": 4,
+    "component_ids": [
+      "consonance_exp/piano_chord_major_7th_E3",
+      "consonance_exp/sine_interval_perfect_fourth_C3",
+      "consonance_exp/piano_interval_major_third_E3",
+      "consonance_exp/piano_chord_dominant_7th_E3"
+    ],
+    "component_indices": [
+      41,
+      435,
+      95,
+      35
+    ]
+  },
+  {
+    "id": "consonance_combo_s4_156",
+    "description": "The following bundle contains 4 individual experiences.\n\n---------- Experience 1 of 4 ----------\n<!audio:7c882c7c73dfce47!>\n\n---------- Experience 2 of 4 ----------\n<!audio:5ce90f0e20cd767b!>\n\n---------- Experience 3 of 4 ----------\n<!audio:ccda10eef689b803!>\n\n---------- Experience 4 of 4 ----------\n<!audio:7eef717a30461768!>",
+    "type": "audio",
+    "is_combination": true,
+    "size": 4,
+    "component_ids": [
+      "consonance_exp/sine_chord_augmented_triad_C4",
+      "consonance_exp/piano_chord_dominant_7th_C4",
+      "consonance_exp/sine_chord_major_triad_C3",
+      "consonance_exp/sine_interval_tritone_C3"
+    ],
+    "component_indices": [
+      304,
+      34,
+      345,
+      441
+    ]
+  },
+  {
+    "id": "consonance_combo_s4_157",
+    "description": "The following bundle contains 4 individual experiences.\n\n---------- Experience 1 of 4 ----------\n<!audio:0a09ff9d85253c7e!>\n\n---------- Experience 2 of 4 ----------\n<!audio:c6f165d623c11b41!>\n\n---------- Experience 3 of 4 ----------\n<!audio:06fcdb13cb791e15!>\n\n---------- Experience 4 of 4 ----------\n<!audio:597165952531623e!>",
+    "type": "audio",
+    "is_combination": true,
+    "size": 4,
+    "component_ids": [
+      "consonance_exp/piano_interval_minor_third_E4",
+      "consonance_exp/sawtooth_chord_major_triad_inv2_G3",
+      "consonance_exp/piano_chord_minor_7th_G3",
+      "consonance_exp/sawtooth_interval_tritone_C3"
+    ],
+    "component_indices": [
+      120,
+      206,
+      61,
+      291
+    ]
+  },
+  {
+    "id": "consonance_combo_s4_158",
+    "description": "The following bundle contains 4 individual experiences.\n\n---------- Experience 1 of 4 ----------\n<!audio:84050ca7473252a7!>\n\n---------- Experience 2 of 4 ----------\n<!audio:a7d273804b4c1e38!>\n\n---------- Experience 3 of 4 ----------\n<!audio:7c882c7c73dfce47!>\n\n---------- Experience 4 of 4 ----------\n<!audio:8c1a6e758b6353c1!>",
+    "type": "audio",
+    "is_combination": true,
+    "size": 4,
+    "component_ids": [
+      "consonance_exp/piano_interval_octave_E4",
+      "consonance_exp/sawtooth_interval_tritone_G4",
+      "consonance_exp/sine_chord_augmented_triad_C4",
+      "consonance_exp/piano_chord_diminished_7th_G4"
+    ],
+    "component_indices": [
+      126,
+      296,
+      304,
+      20
+    ]
+  },
+  {
+    "id": "consonance_combo_s4_159",
+    "description": "The following bundle contains 4 individual experiences.\n\n---------- Experience 1 of 4 ----------\n<!audio:e3deddedea6fdd12!>\n\n---------- Experience 2 of 4 ----------\n<!audio:08f664ce1983185a!>\n\n---------- Experience 3 of 4 ----------\n<!audio:eed7d6c452e9f586!>\n\n---------- Experience 4 of 4 ----------\n<!audio:c3ebeeac9cf0153f!>",
+    "type": "audio",
+    "is_combination": true,
+    "size": 4,
+    "component_ids": [
+      "consonance_exp/sine_chord_diminished_7th_E3",
+      "consonance_exp/piano_chord_major_7th_E3",
+      "consonance_exp/sawtooth_chord_minor_triad_C4",
+      "consonance_exp/sine_chord_dominant_7th_E4"
+    ],
+    "component_indices": [
+      317,
+      41,
+      214,
+      336
+    ]
+  },
+  {
+    "id": "consonance_combo_s4_160",
+    "description": "The following bundle contains 4 individual experiences.\n\n---------- Experience 1 of 4 ----------\n<!audio:30bb636190573229!>\n\n---------- Experience 2 of 4 ----------\n<!audio:596acc8b948bc3f5!>\n\n---------- Experience 3 of 4 ----------\n<!audio:852d97e438c7f771!>\n\n---------- Experience 4 of 4 ----------\n<!audio:91596cd4b6afb457!>",
+    "type": "audio",
+    "is_combination": true,
+    "size": 4,
+    "component_ids": [
+      "consonance_exp/sawtooth_interval_unison_C4",
+      "consonance_exp/sawtooth_interval_perfect_fourth_G3",
+      "consonance_exp/sawtooth_interval_minor_third_C3",
+      "consonance_exp/sawtooth_chord_augmented_triad_inv1_G3"
+    ],
+    "component_indices": [
+      298,
+      289,
+      267,
+      161
+    ]
+  },
+  {
+    "id": "consonance_combo_s4_161",
+    "description": "The following bundle contains 4 individual experiences.\n\n---------- Experience 1 of 4 ----------\n<!audio:95902d600b23504d!>\n\n---------- Experience 2 of 4 ----------\n<!audio:e866a9cf68589901!>\n\n---------- Experience 3 of 4 ----------\n<!audio:920de91d16c24230!>\n\n---------- Experience 4 of 4 ----------\n<!audio:50e1c9e52faa80f0!>",
+    "type": "audio",
+    "is_combination": true,
+    "size": 4,
+    "component_ids": [
+      "consonance_exp/piano_interval_perfect_fifth_G3",
+      "consonance_exp/piano_interval_minor_second_G4",
+      "consonance_exp/sine_chord_major_7th_E4",
+      "consonance_exp/sine_chord_minor_triad_E4"
+    ],
+    "component_indices": [
+      133,
+      104,
+      342,
+      366
+    ]
+  },
+  {
+    "id": "consonance_combo_s4_162",
+    "description": "The following bundle contains 4 individual experiences.\n\n---------- Experience 1 of 4 ----------\n<!audio:734a27e7db20e36a!>\n\n---------- Experience 2 of 4 ----------\n<!audio:b22e95228519870e!>\n\n---------- Experience 3 of 4 ----------\n<!audio:f51b48fa71a56626!>\n\n---------- Experience 4 of 4 ----------\n<!audio:124586264b8b0ac3!>",
+    "type": "audio",
+    "is_combination": true,
+    "size": 4,
+    "component_ids": [
+      "consonance_exp/sawtooth_chord_augmented_triad_inv1_C4",
+      "consonance_exp/piano_interval_minor_third_G4",
+      "consonance_exp/piano_interval_perfect_fourth_C3",
+      "consonance_exp/sawtooth_chord_major_triad_inv1_C4"
+    ],
+    "component_indices": [
+      160,
+      122,
+      135,
+      202
+    ]
+  },
+  {
+    "id": "consonance_combo_s4_163",
+    "description": "The following bundle contains 4 individual experiences.\n\n---------- Experience 1 of 4 ----------\n<!audio:f15dec16f4002163!>\n\n---------- Experience 2 of 4 ----------\n<!audio:e0de2e7c9b727bd4!>\n\n---------- Experience 3 of 4 ----------\n<!audio:5b5a8ad7e9a22eee!>\n\n---------- Experience 4 of 4 ----------\n<!audio:e62841ca155c41a9!>",
+    "type": "audio",
+    "is_combination": true,
+    "size": 4,
+    "component_ids": [
+      "consonance_exp/piano_chord_minor_triad_G3",
+      "consonance_exp/sine_chord_major_7th_G3",
+      "consonance_exp/sine_chord_diminished_triad_inv2_C3",
+      "consonance_exp/sawtooth_chord_augmented_triad_C3"
+    ],
+    "component_indices": [
+      67,
+      343,
+      330,
+      153
+    ]
+  },
+  {
+    "id": "consonance_combo_s4_164",
+    "description": "The following bundle contains 4 individual experiences.\n\n---------- Experience 1 of 4 ----------\n<!audio:29a34122018f3f0c!>\n\n---------- Experience 2 of 4 ----------\n<!audio:91596cd4b6afb457!>\n\n---------- Experience 3 of 4 ----------\n<!audio:d8348f17d638fdfc!>\n\n---------- Experience 4 of 4 ----------\n<!audio:82b17d392b191c93!>",
+    "type": "audio",
+    "is_combination": true,
+    "size": 4,
+    "component_ids": [
+      "consonance_exp/sawtooth_interval_major_seventh_E4",
+      "consonance_exp/sawtooth_chord_augmented_triad_inv1_G3",
+      "consonance_exp/sine_interval_major_seventh_E4",
+      "consonance_exp/piano_chord_dominant_7th_G3"
+    ],
+    "component_indices": [
+      234,
+      161,
+      384,
+      37
+    ]
+  },
+  {
+    "id": "consonance_combo_s4_165",
+    "description": "The following bundle contains 4 individual experiences.\n\n---------- Experience 1 of 4 ----------\n<!audio:0cc61cd662a8fcbb!>\n\n---------- Experience 2 of 4 ----------\n<!audio:29a34122018f3f0c!>\n\n---------- Experience 3 of 4 ----------\n<!audio:f3d7cecf96e24fc0!>\n\n---------- Experience 4 of 4 ----------\n<!audio:d42fb65899340244!>",
+    "type": "audio",
+    "is_combination": true,
+    "size": 4,
+    "component_ids": [
+      "consonance_exp/piano_chord_augmented_triad_C4",
+      "consonance_exp/sawtooth_interval_major_seventh_E4",
+      "consonance_exp/sine_chord_diminished_7th_E4",
+      "consonance_exp/sawtooth_interval_perfect_fourth_E4"
+    ],
+    "component_indices": [
+      4,
+      234,
+      318,
+      288
+    ]
+  },
+  {
+    "id": "consonance_combo_s4_166",
+    "description": "The following bundle contains 4 individual experiences.\n\n---------- Experience 1 of 4 ----------\n<!audio:12c92e0bf1281639!>\n\n---------- Experience 2 of 4 ----------\n<!audio:82b17d392b191c93!>\n\n---------- Experience 3 of 4 ----------\n<!audio:a82e8640d272028d!>\n\n---------- Experience 4 of 4 ----------\n<!audio:421bb422096d656a!>",
+    "type": "audio",
+    "is_combination": true,
+    "size": 4,
+    "component_ids": [
+      "consonance_exp/piano_chord_major_triad_inv1_C3",
+      "consonance_exp/piano_chord_dominant_7th_G3",
+      "consonance_exp/sawtooth_interval_octave_E3",
+      "consonance_exp/piano_interval_minor_seventh_G3"
+    ],
+    "component_indices": [
+      51,
+      37,
+      275,
+      109
+    ]
+  },
+  {
+    "id": "consonance_combo_s4_167",
+    "description": "The following bundle contains 4 individual experiences.\n\n---------- Experience 1 of 4 ----------\n<!audio:4806ab57cee724f3!>\n\n---------- Experience 2 of 4 ----------\n<!audio:f51b48fa71a56626!>\n\n---------- Experience 3 of 4 ----------\n<!audio:f15dec16f4002163!>\n\n---------- Experience 4 of 4 ----------\n<!audio:4c5d31520f168c7c!>",
+    "type": "audio",
+    "is_combination": true,
+    "size": 4,
+    "component_ids": [
+      "consonance_exp/sawtooth_interval_minor_seventh_G3",
+      "consonance_exp/piano_interval_perfect_fourth_C3",
+      "consonance_exp/piano_chord_minor_triad_G3",
+      "consonance_exp/sawtooth_chord_diminished_triad_inv1_C4"
+    ],
+    "component_indices": [
+      259,
+      135,
+      67,
+      178
+    ]
+  },
+  {
+    "id": "consonance_combo_s4_168",
+    "description": "The following bundle contains 4 individual experiences.\n\n---------- Experience 1 of 4 ----------\n<!audio:85368694c29f0edc!>\n\n---------- Experience 2 of 4 ----------\n<!audio:554d5fffce2ae8c9!>\n\n---------- Experience 3 of 4 ----------\n<!audio:b65a0635fc6fdc28!>\n\n---------- Experience 4 of 4 ----------\n<!audio:12a5c80eb32f3f2b!>",
+    "type": "audio",
+    "is_combination": true,
+    "size": 4,
+    "component_ids": [
+      "consonance_exp/sine_interval_unison_G3",
+      "consonance_exp/piano_chord_dominant_7th_E3",
+      "consonance_exp/sine_interval_unison_E4",
+      "consonance_exp/piano_interval_octave_E3"
+    ],
+    "component_indices": [
+      451,
+      35,
+      450,
+      125
+    ]
+  },
+  {
+    "id": "consonance_combo_s4_169",
+    "description": "The following bundle contains 4 individual experiences.\n\n---------- Experience 1 of 4 ----------\n<!audio:42b140b28b2ed0e5!>\n\n---------- Experience 2 of 4 ----------\n<!audio:04edbc0931ce13b9!>\n\n---------- Experience 3 of 4 ----------\n<!audio:021d1d15ad779778!>\n\n---------- Experience 4 of 4 ----------\n<!audio:a674333b6d556e2e!>",
+    "type": "audio",
+    "is_combination": true,
+    "size": 4,
+    "component_ids": [
+      "consonance_exp/sawtooth_chord_major_7th_C3",
+      "consonance_exp/piano_interval_tritone_G3",
+      "consonance_exp/piano_interval_major_second_G4",
+      "consonance_exp/sawtooth_chord_minor_triad_inv2_G3"
+    ],
+    "component_indices": [
+      189,
+      145,
+      80,
+      224
+    ]
+  },
+  {
+    "id": "consonance_combo_s5_170",
+    "description": "The following bundle contains 5 individual experiences.\n\n---------- Experience 1 of 5 ----------\n<!audio:17721327701c55f3!>\n\n---------- Experience 2 of 5 ----------\n<!audio:2c7c986d398a744a!>\n\n---------- Experience 3 of 5 ----------\n<!audio:0742bf075c2f0b67!>\n\n---------- Experience 4 of 5 ----------\n<!audio:f1b1780b2402ad15!>\n\n---------- Experience 5 of 5 ----------\n<!audio:e51ebd0d9a429f93!>",
+    "type": "audio",
+    "is_combination": true,
+    "size": 5,
+    "component_ids": [
+      "consonance_exp/sine_interval_octave_E4",
+      "consonance_exp/sawtooth_interval_octave_G4",
+      "consonance_exp/sine_chord_minor_7th_E4",
+      "consonance_exp/sawtooth_chord_augmented_triad_C4",
+      "consonance_exp/sine_chord_augmented_triad_inv2_C4"
+    ],
+    "component_indices": [
+      426,
+      278,
+      360,
+      154,
+      313
+    ]
+  },
+  {
+    "id": "consonance_combo_s5_171",
+    "description": "The following bundle contains 5 individual experiences.\n\n---------- Experience 1 of 5 ----------\n<!audio:01bc865343b46f47!>\n\n---------- Experience 2 of 5 ----------\n<!audio:5d78c8ac8f8b08a4!>\n\n---------- Experience 3 of 5 ----------\n<!audio:4deb072691b86855!>\n\n---------- Experience 4 of 5 ----------\n<!audio:0cc61cd662a8fcbb!>\n\n---------- Experience 5 of 5 ----------\n<!audio:c8a53a3e4083eb97!>",
+    "type": "audio",
+    "is_combination": true,
+    "size": 5,
+    "component_ids": [
+      "consonance_exp/sine_interval_minor_sixth_E3",
+      "consonance_exp/sine_chord_dominant_7th_C4",
+      "consonance_exp/sawtooth_interval_minor_third_E4",
+      "consonance_exp/piano_chord_augmented_triad_C4",
+      "consonance_exp/sine_chord_major_7th_E3"
+    ],
+    "component_indices": [
+      413,
+      334,
+      270,
+      4,
+      341
+    ]
+  },
+  {
+    "id": "consonance_combo_s5_172",
+    "description": "The following bundle contains 5 individual experiences.\n\n---------- Experience 1 of 5 ----------\n<!audio:6b0a761accb8c0bf!>\n\n---------- Experience 2 of 5 ----------\n<!audio:492a51a45b2fee27!>\n\n---------- Experience 3 of 5 ----------\n<!audio:e62841ca155c41a9!>\n\n---------- Experience 4 of 5 ----------\n<!audio:33c8af65d97d3771!>\n\n---------- Experience 5 of 5 ----------\n<!audio:0db3d5dee953c9f8!>",
+    "type": "audio",
+    "is_combination": true,
+    "size": 5,
+    "component_ids": [
+      "consonance_exp/sine_interval_minor_third_C4",
+      "consonance_exp/sawtooth_interval_perfect_fifth_G3",
+      "consonance_exp/sawtooth_chord_augmented_triad_C3",
+      "consonance_exp/sine_chord_major_7th_C3",
+      "consonance_exp/piano_chord_major_triad_inv1_G3"
+    ],
+    "component_indices": [
+      418,
+      283,
+      153,
+      339,
+      53
+    ]
+  },
+  {
+    "id": "consonance_combo_s5_173",
+    "description": "The following bundle contains 5 individual experiences.\n\n---------- Experience 1 of 5 ----------\n<!audio:05a5da5afdc2f666!>\n\n---------- Experience 2 of 5 ----------\n<!audio:ae725ea8f33c5d39!>\n\n---------- Experience 3 of 5 ----------\n<!audio:f51b48fa71a56626!>\n\n---------- Experience 4 of 5 ----------\n<!audio:07ae9fa013fc89c6!>\n\n---------- Experience 5 of 5 ----------\n<!audio:e72090e4a8a9eb3d!>",
+    "type": "audio",
+    "is_combination": true,
+    "size": 5,
+    "component_ids": [
+      "consonance_exp/sine_interval_unison_E3",
+      "consonance_exp/piano_chord_minor_triad_G4",
+      "consonance_exp/piano_interval_perfect_fourth_C3",
+      "consonance_exp/piano_chord_minor_7th_E3",
+      "consonance_exp/piano_chord_major_triad_inv2_C3"
+    ],
+    "component_indices": [
+      449,
+      68,
+      135,
+      59,
+      54
+    ]
+  },
+  {
+    "id": "consonance_combo_s5_174",
+    "description": "The following bundle contains 5 individual experiences.\n\n---------- Experience 1 of 5 ----------\n<!audio:11ed00a56affac00!>\n\n---------- Experience 2 of 5 ----------\n<!audio:492a51a45b2fee27!>\n\n---------- Experience 3 of 5 ----------\n<!audio:2e67db385a9daabd!>\n\n---------- Experience 4 of 5 ----------\n<!audio:c3e3e67ec48fc460!>\n\n---------- Experience 5 of 5 ----------\n<!audio:334aef33b1209584!>",
+    "type": "audio",
+    "is_combination": true,
+    "size": 5,
+    "component_ids": [
+      "consonance_exp/sine_interval_major_second_G4",
+      "consonance_exp/sawtooth_interval_perfect_fifth_G3",
+      "consonance_exp/piano_interval_major_second_G3",
+      "consonance_exp/piano_interval_perfect_fourth_G3",
+      "consonance_exp/piano_interval_tritone_E4"
+    ],
+    "component_indices": [
+      380,
+      283,
+      79,
+      139,
+      144
+    ]
+  },
+  {
+    "id": "consonance_combo_s5_175",
+    "description": "The following bundle contains 5 individual experiences.\n\n---------- Experience 1 of 5 ----------\n<!audio:3cc23d89e66ef47c!>\n\n---------- Experience 2 of 5 ----------\n<!audio:8f310a0e57324b0f!>\n\n---------- Experience 3 of 5 ----------\n<!audio:425efde718421d40!>\n\n---------- Experience 4 of 5 ----------\n<!audio:eeaaa4ed5fbcc143!>\n\n---------- Experience 5 of 5 ----------\n<!audio:e866a9cf68589901!>",
+    "type": "audio",
+    "is_combination": true,
+    "size": 5,
+    "component_ids": [
+      "consonance_exp/sine_chord_augmented_triad_inv1_C3",
+      "consonance_exp/piano_interval_minor_seventh_E3",
+      "consonance_exp/sine_chord_minor_triad_G3",
+      "consonance_exp/sawtooth_chord_diminished_triad_G3",
+      "consonance_exp/piano_interval_minor_second_G4"
+    ],
+    "component_indices": [
+      309,
+      107,
+      367,
+      175,
+      104
+    ]
+  },
+  {
+    "id": "consonance_combo_s5_176",
+    "description": "The following bundle contains 5 individual experiences.\n\n---------- Experience 1 of 5 ----------\n<!audio:a1fe9baac73d7617!>\n\n---------- Experience 2 of 5 ----------\n<!audio:0163795b15f88bbe!>\n\n---------- Experience 3 of 5 ----------\n<!audio:31b624d0bf11f58c!>\n\n---------- Experience 4 of 5 ----------\n<!audio:f51b48fa71a56626!>\n\n---------- Experience 5 of 5 ----------\n<!audio:7eae846119b97aa6!>",
+    "type": "audio",
+    "is_combination": true,
+    "size": 5,
+    "component_ids": [
+      "consonance_exp/sine_chord_major_triad_inv1_C3",
+      "consonance_exp/sine_chord_diminished_triad_E4",
+      "consonance_exp/sine_interval_perfect_fourth_C4",
+      "consonance_exp/piano_interval_perfect_fourth_C3",
+      "consonance_exp/sawtooth_interval_minor_seventh_E4"
+    ],
+    "component_indices": [
+      351,
+      324,
+      436,
+      135,
+      258
+    ]
+  },
+  {
+    "id": "consonance_combo_s5_177",
+    "description": "The following bundle contains 5 individual experiences.\n\n---------- Experience 1 of 5 ----------\n<!audio:a14433a43860c6d6!>\n\n---------- Experience 2 of 5 ----------\n<!audio:8ceb31ee461bb68d!>\n\n---------- Experience 3 of 5 ----------\n<!audio:0023cd2c67ebee21!>\n\n---------- Experience 4 of 5 ----------\n<!audio:ad913b97d78ddb77!>\n\n---------- Experience 5 of 5 ----------\n<!audio:755dccfd113f00fe!>",
+    "type": "audio",
+    "is_combination": true,
+    "size": 5,
+    "component_ids": [
+      "consonance_exp/sawtooth_interval_minor_second_C4",
+      "consonance_exp/piano_interval_octave_G4",
+      "consonance_exp/sine_interval_perfect_fifth_G3",
+      "consonance_exp/piano_chord_diminished_triad_G4",
+      "consonance_exp/piano_chord_major_triad_E3"
+    ],
+    "component_indices": [
+      250,
+      128,
+      433,
+      26,
+      47
+    ]
+  },
+  {
+    "id": "consonance_combo_s5_178",
+    "description": "The following bundle contains 5 individual experiences.\n\n---------- Experience 1 of 5 ----------\n<!audio:0163795b15f88bbe!>\n\n---------- Experience 2 of 5 ----------\n<!audio:a566240f166dfcf0!>\n\n---------- Experience 3 of 5 ----------\n<!audio:6ad6d367d8b3ba1a!>\n\n---------- Experience 4 of 5 ----------\n<!audio:c8e8d61bcc615209!>\n\n---------- Experience 5 of 5 ----------\n<!audio:a7a32cc38019a9b7!>",
+    "type": "audio",
+    "is_combination": true,
+    "size": 5,
+    "component_ids": [
+      "consonance_exp/sine_chord_diminished_triad_E4",
+      "consonance_exp/sawtooth_chord_minor_triad_E4",
+      "consonance_exp/sine_interval_octave_C4",
+      "consonance_exp/piano_interval_tritone_C3",
+      "consonance_exp/piano_chord_diminished_triad_C4"
+    ],
+    "component_indices": [
+      324,
+      216,
+      424,
+      141,
+      22
+    ]
+  },
+  {
+    "id": "consonance_combo_s5_179",
+    "description": "The following bundle contains 5 individual experiences.\n\n---------- Experience 1 of 5 ----------\n<!audio:6ff241ed2e5dfdcb!>\n\n---------- Experience 2 of 5 ----------\n<!audio:eb7a133fb1274c58!>\n\n---------- Experience 3 of 5 ----------\n<!audio:4ba07acb0b360ff3!>\n\n---------- Experience 4 of 5 ----------\n<!audio:cfed0ae975ae7bbc!>\n\n---------- Experience 5 of 5 ----------\n<!audio:769ccf5e5911c45f!>",
+    "type": "audio",
+    "is_combination": true,
+    "size": 5,
+    "component_ids": [
+      "consonance_exp/anchor_silence",
+      "consonance_exp/sawtooth_chord_diminished_7th_G4",
+      "consonance_exp/sine_interval_major_third_C4",
+      "consonance_exp/piano_chord_minor_triad_E4",
+      "consonance_exp/sine_chord_diminished_triad_G4"
+    ],
+    "component_indices": [
+      1,
+      170,
+      394,
+      66,
+      326
+    ]
+  },
+  {
+    "id": "consonance_combo_s5_180",
+    "description": "The following bundle contains 5 individual experiences.\n\n---------- Experience 1 of 5 ----------\n<!audio:88ad8342760d6bd1!>\n\n---------- Experience 2 of 5 ----------\n<!audio:e79d371be78d44f8!>\n\n---------- Experience 3 of 5 ----------\n<!audio:c669a4676c6380a2!>\n\n---------- Experience 4 of 5 ----------\n<!audio:d67dffe0c3af2d0d!>\n\n---------- Experience 5 of 5 ----------\n<!audio:610c5a00548d4bae!>",
+    "type": "audio",
+    "is_combination": true,
+    "size": 5,
+    "component_ids": [
+      "consonance_exp/piano_interval_perfect_fifth_G4",
+      "consonance_exp/piano_interval_major_seventh_C4",
+      "consonance_exp/sine_interval_major_second_G3",
+      "consonance_exp/sawtooth_interval_major_second_C4",
+      "consonance_exp/sawtooth_interval_perfect_fifth_E4"
+    ],
+    "component_indices": [
+      134,
+      82,
+      379,
+      226,
+      282
+    ]
+  },
+  {
+    "id": "consonance_combo_s5_181",
+    "description": "The following bundle contains 5 individual experiences.\n\n---------- Experience 1 of 5 ----------\n<!audio:8508c19352c26d83!>\n\n---------- Experience 2 of 5 ----------\n<!audio:97876536328a5384!>\n\n---------- Experience 3 of 5 ----------\n<!audio:19663fd767d72d8b!>\n\n---------- Experience 4 of 5 ----------\n<!audio:0cc61cd662a8fcbb!>\n\n---------- Experience 5 of 5 ----------\n<!audio:5e9cd8569ce019b8!>",
+    "type": "audio",
+    "is_combination": true,
+    "size": 5,
+    "component_ids": [
+      "consonance_exp/sine_chord_minor_7th_G3",
+      "consonance_exp/sawtooth_chord_minor_triad_G4",
+      "consonance_exp/sawtooth_interval_perfect_fourth_E3",
+      "consonance_exp/piano_chord_augmented_triad_C4",
+      "consonance_exp/piano_chord_minor_7th_C3"
+    ],
+    "component_indices": [
+      361,
+      218,
+      287,
+      4,
+      57
+    ]
+  },
+  {
+    "id": "consonance_combo_s5_182",
+    "description": "The following bundle contains 5 individual experiences.\n\n---------- Experience 1 of 5 ----------\n<!audio:68025e82c993393f!>\n\n---------- Experience 2 of 5 ----------\n<!audio:6c4c9d144f9a2fd7!>\n\n---------- Experience 3 of 5 ----------\n<!audio:bd5aa3885e4da92a!>\n\n---------- Experience 4 of 5 ----------\n<!audio:355b2b7b4d5f31bf!>\n\n---------- Experience 5 of 5 ----------\n<!audio:30994600fe885c2d!>",
+    "type": "audio",
+    "is_combination": true,
+    "size": 5,
+    "component_ids": [
+      "consonance_exp/piano_chord_dominant_7th_G4",
+      "consonance_exp/sine_interval_unison_G4",
+      "consonance_exp/sine_chord_major_triad_inv1_G3",
+      "consonance_exp/piano_interval_major_second_C4",
+      "consonance_exp/sawtooth_interval_perfect_fifth_C3"
+    ],
+    "component_indices": [
+      38,
+      452,
+      353,
+      76,
+      279
+    ]
+  },
+  {
+    "id": "consonance_combo_s5_183",
+    "description": "The following bundle contains 5 individual experiences.\n\n---------- Experience 1 of 5 ----------\n<!audio:df0ff269bab26bd5!>\n\n---------- Experience 2 of 5 ----------\n<!audio:11232d51aecd848e!>\n\n---------- Experience 3 of 5 ----------\n<!audio:42b140b28b2ed0e5!>\n\n---------- Experience 4 of 5 ----------\n<!audio:30bb636190573229!>\n\n---------- Experience 5 of 5 ----------\n<!audio:610c5a00548d4bae!>",
+    "type": "audio",
+    "is_combination": true,
+    "size": 5,
+    "component_ids": [
+      "consonance_exp/piano_chord_diminished_7th_E4",
+      "consonance_exp/sine_interval_octave_G3",
+      "consonance_exp/sawtooth_chord_major_7th_C3",
+      "consonance_exp/sawtooth_interval_unison_C4",
+      "consonance_exp/sawtooth_interval_perfect_fifth_E4"
+    ],
+    "component_indices": [
+      18,
+      427,
+      189,
+      298,
+      282
+    ]
+  },
+  {
+    "id": "consonance_combo_s5_184",
+    "description": "The following bundle contains 5 individual experiences.\n\n---------- Experience 1 of 5 ----------\n<!audio:0761ae748ba7d4dd!>\n\n---------- Experience 2 of 5 ----------\n<!audio:5412e152a33b8cb8!>\n\n---------- Experience 3 of 5 ----------\n<!audio:1a6d20f19772487b!>\n\n---------- Experience 4 of 5 ----------\n<!audio:bd40c7e2f602d8d3!>\n\n---------- Experience 5 of 5 ----------\n<!audio:5cb62f8fa1a085ea!>",
+    "type": "audio",
+    "is_combination": true,
+    "size": 5,
+    "component_ids": [
+      "consonance_exp/piano_interval_major_second_C3",
+      "consonance_exp/sawtooth_chord_minor_triad_inv1_C4",
+      "consonance_exp/piano_chord_minor_triad_E3",
+      "consonance_exp/piano_chord_diminished_triad_C3",
+      "consonance_exp/sawtooth_chord_augmented_triad_G3"
+    ],
+    "component_indices": [
+      75,
+      220,
+      65,
+      21,
+      157
+    ]
+  },
+  {
+    "id": "consonance_combo_s5_185",
+    "description": "The following bundle contains 5 individual experiences.\n\n---------- Experience 1 of 5 ----------\n<!audio:285393db2309cbb8!>\n\n---------- Experience 2 of 5 ----------\n<!audio:095d19e64f687aba!>\n\n---------- Experience 3 of 5 ----------\n<!audio:d8a7958080a1de21!>\n\n---------- Experience 4 of 5 ----------\n<!audio:8c1a6e758b6353c1!>\n\n---------- Experience 5 of 5 ----------\n<!audio:a29a10e4939f355d!>",
+    "type": "audio",
+    "is_combination": true,
+    "size": 5,
+    "component_ids": [
+      "consonance_exp/sawtooth_chord_dominant_7th_E4",
+      "consonance_exp/sine_interval_minor_seventh_E3",
+      "consonance_exp/sine_interval_perfect_fourth_G4",
+      "consonance_exp/piano_chord_diminished_7th_G4",
+      "consonance_exp/sawtooth_chord_dominant_7th_C3"
+    ],
+    "component_indices": [
+      186,
+      407,
+      440,
+      20,
+      183
+    ]
+  },
+  {
+    "id": "consonance_combo_s5_186",
+    "description": "The following bundle contains 5 individual experiences.\n\n---------- Experience 1 of 5 ----------\n<!audio:8f310a0e57324b0f!>\n\n---------- Experience 2 of 5 ----------\n<!audio:9f3d352a42a3006a!>\n\n---------- Experience 3 of 5 ----------\n<!audio:bba6c630dbda9564!>\n\n---------- Experience 4 of 5 ----------\n<!audio:c8a53a3e4083eb97!>\n\n---------- Experience 5 of 5 ----------\n<!audio:721339ddc08bf178!>",
+    "type": "audio",
+    "is_combination": true,
+    "size": 5,
+    "component_ids": [
+      "consonance_exp/piano_interval_minor_seventh_E3",
+      "consonance_exp/sine_chord_major_triad_G3",
+      "consonance_exp/piano_interval_octave_G3",
+      "consonance_exp/sine_chord_major_7th_E3",
+      "consonance_exp/piano_chord_major_triad_inv1_C4"
+    ],
+    "component_indices": [
+      107,
+      349,
+      127,
+      341,
+      52
+    ]
+  },
+  {
+    "id": "consonance_combo_s5_187",
+    "description": "The following bundle contains 5 individual experiences.\n\n---------- Experience 1 of 5 ----------\n<!audio:44d88ad79ee3f2eb!>\n\n---------- Experience 2 of 5 ----------\n<!audio:0c0dcd0d61ad3976!>\n\n---------- Experience 3 of 5 ----------\n<!audio:1385cc91cf16afa7!>\n\n---------- Experience 4 of 5 ----------\n<!audio:6c4c9d144f9a2fd7!>\n\n---------- Experience 5 of 5 ----------\n<!audio:e68f8a74057a7c54!>",
+    "type": "audio",
+    "is_combination": true,
+    "size": 5,
+    "component_ids": [
+      "consonance_exp/sawtooth_chord_diminished_triad_inv2_C4",
+      "consonance_exp/sine_interval_minor_second_C3",
+      "consonance_exp/sawtooth_interval_perfect_fourth_C4",
+      "consonance_exp/sine_interval_unison_G4",
+      "consonance_exp/sine_interval_unison_C3"
+    ],
+    "component_indices": [
+      181,
+      399,
+      286,
+      452,
+      447
+    ]
+  },
+  {
+    "id": "consonance_combo_s5_188",
+    "description": "The following bundle contains 5 individual experiences.\n\n---------- Experience 1 of 5 ----------\n<!audio:1c205ec8efcf9035!>\n\n---------- Experience 2 of 5 ----------\n<!audio:e3deddedea6fdd12!>\n\n---------- Experience 3 of 5 ----------\n<!audio:816bec27d5bd69df!>\n\n---------- Experience 4 of 5 ----------\n<!audio:2e67db385a9daabd!>\n\n---------- Experience 5 of 5 ----------\n<!audio:9b197edceb80617c!>",
+    "type": "audio",
+    "is_combination": true,
+    "size": 5,
+    "component_ids": [
+      "consonance_exp/sawtooth_chord_minor_7th_C4",
+      "consonance_exp/sine_chord_diminished_7th_E3",
+      "consonance_exp/sine_interval_major_seventh_E3",
+      "consonance_exp/piano_interval_major_second_G3",
+      "consonance_exp/piano_interval_minor_third_G3"
+    ],
+    "component_indices": [
+      208,
+      317,
+      383,
+      79,
+      121
+    ]
+  },
+  {
+    "id": "consonance_combo_s5_189",
+    "description": "The following bundle contains 5 individual experiences.\n\n---------- Experience 1 of 5 ----------\n<!audio:05fc4664cd138c5a!>\n\n---------- Experience 2 of 5 ----------\n<!audio:2c491d83d24a7fb9!>\n\n---------- Experience 3 of 5 ----------\n<!audio:ffa2a725caea2e7b!>\n\n---------- Experience 4 of 5 ----------\n<!audio:6e76975de2506381!>\n\n---------- Experience 5 of 5 ----------\n<!audio:2c8ec948d82eaa77!>",
+    "type": "audio",
+    "is_combination": true,
+    "size": 5,
+    "component_ids": [
+      "consonance_exp/sine_interval_tritone_C4",
+      "consonance_exp/piano_interval_major_seventh_E3",
+      "consonance_exp/sine_interval_minor_seventh_G3",
+      "consonance_exp/sine_interval_minor_sixth_G3",
+      "consonance_exp/piano_interval_major_sixth_E4"
+    ],
+    "component_indices": [
+      442,
+      83,
+      409,
+      415,
+      90
+    ]
+  },
+  {
+    "id": "consonance_combo_s5_190",
+    "description": "The following bundle contains 5 individual experiences.\n\n---------- Experience 1 of 5 ----------\n<!audio:85368694c29f0edc!>\n\n---------- Experience 2 of 5 ----------\n<!audio:99c054b71b557257!>\n\n---------- Experience 3 of 5 ----------\n<!audio:c9759b28c3a7e462!>\n\n---------- Experience 4 of 5 ----------\n<!audio:23c11df7ada40296!>\n\n---------- Experience 5 of 5 ----------\n<!audio:028fdb310a86ee95!>",
+    "type": "audio",
+    "is_combination": true,
+    "size": 5,
+    "component_ids": [
+      "consonance_exp/sine_interval_unison_G3",
+      "consonance_exp/sawtooth_chord_minor_7th_G3",
+      "consonance_exp/piano_chord_augmented_triad_inv2_C3",
+      "consonance_exp/piano_interval_major_sixth_G3",
+      "consonance_exp/sine_interval_major_second_E3"
+    ],
+    "component_indices": [
+      451,
+      211,
+      12,
+      91,
+      377
+    ]
+  },
+  {
+    "id": "consonance_combo_s5_191",
+    "description": "The following bundle contains 5 individual experiences.\n\n---------- Experience 1 of 5 ----------\n<!audio:eb7a133fb1274c58!>\n\n---------- Experience 2 of 5 ----------\n<!audio:bd8b39af8fcc36d2!>\n\n---------- Experience 3 of 5 ----------\n<!audio:061d4ae8224b2ee6!>\n\n---------- Experience 4 of 5 ----------\n<!audio:02037dd69dcf22f9!>\n\n---------- Experience 5 of 5 ----------\n<!audio:920de91d16c24230!>",
+    "type": "audio",
+    "is_combination": true,
+    "size": 5,
+    "component_ids": [
+      "consonance_exp/sawtooth_chord_diminished_7th_G4",
+      "consonance_exp/sine_interval_minor_second_C4",
+      "consonance_exp/sawtooth_chord_minor_7th_E4",
+      "consonance_exp/sine_interval_minor_seventh_G4",
+      "consonance_exp/sine_chord_major_7th_E4"
+    ],
+    "component_indices": [
+      170,
+      400,
+      210,
+      410,
+      342
+    ]
+  },
+  {
+    "id": "consonance_combo_s5_192",
+    "description": "The following bundle contains 5 individual experiences.\n\n---------- Experience 1 of 5 ----------\n<!audio:05fc4664cd138c5a!>\n\n---------- Experience 2 of 5 ----------\n<!audio:6489c15fc95cb120!>\n\n---------- Experience 3 of 5 ----------\n<!audio:6e76975de2506381!>\n\n---------- Experience 4 of 5 ----------\n<!audio:bba6c630dbda9564!>\n\n---------- Experience 5 of 5 ----------\n<!audio:4c9983aa6fadb8c1!>",
+    "type": "audio",
+    "is_combination": true,
+    "size": 5,
+    "component_ids": [
+      "consonance_exp/sine_interval_tritone_C4",
+      "consonance_exp/sine_interval_major_second_C4",
+      "consonance_exp/sine_interval_minor_sixth_G3",
+      "consonance_exp/piano_interval_octave_G3",
+      "consonance_exp/piano_interval_perfect_fourth_C4"
+    ],
+    "component_indices": [
+      442,
+      376,
+      415,
+      127,
+      136
+    ]
+  },
+  {
+    "id": "consonance_combo_s5_193",
+    "description": "The following bundle contains 5 individual experiences.\n\n---------- Experience 1 of 5 ----------\n<!audio:e0760a8ba61aea3e!>\n\n---------- Experience 2 of 5 ----------\n<!audio:8704052af8c4a45a!>\n\n---------- Experience 3 of 5 ----------\n<!audio:931c46a5aa966142!>\n\n---------- Experience 4 of 5 ----------\n<!audio:fb25eb8fcaa713ad!>\n\n---------- Experience 5 of 5 ----------\n<!audio:140091e5f411feef!>",
+    "type": "audio",
+    "is_combination": true,
+    "size": 5,
+    "component_ids": [
+      "consonance_exp/piano_interval_major_seventh_C3",
+      "consonance_exp/sine_interval_minor_second_G3",
+      "consonance_exp/sine_chord_minor_7th_E3",
+      "consonance_exp/piano_chord_major_triad_inv2_C4",
+      "consonance_exp/sawtooth_chord_major_triad_C3"
+    ],
+    "component_indices": [
+      81,
+      403,
+      359,
+      55,
+      195
+    ]
+  },
+  {
+    "id": "consonance_combo_s5_194",
+    "description": "The following bundle contains 5 individual experiences.\n\n---------- Experience 1 of 5 ----------\n<!audio:68ff7c5fb1c6133d!>\n\n---------- Experience 2 of 5 ----------\n<!audio:4e6c207c54b0688c!>\n\n---------- Experience 3 of 5 ----------\n<!audio:17747e99c3179e71!>\n\n---------- Experience 4 of 5 ----------\n<!audio:904037315b3d3707!>\n\n---------- Experience 5 of 5 ----------\n<!audio:f2239302fe8fcb4c!>",
+    "type": "audio",
+    "is_combination": true,
+    "size": 5,
+    "component_ids": [
+      "consonance_exp/sine_interval_tritone_G4",
+      "consonance_exp/piano_chord_diminished_7th_G3",
+      "consonance_exp/sine_interval_perfect_fourth_G3",
+      "consonance_exp/sawtooth_interval_major_sixth_E4",
+      "consonance_exp/piano_interval_minor_sixth_E3"
+    ],
+    "component_indices": [
+      446,
+      19,
+      439,
+      240,
+      113
+    ]
+  },
+  {
+    "id": "consonance_combo_s5_195",
+    "description": "The following bundle contains 5 individual experiences.\n\n---------- Experience 1 of 5 ----------\n<!audio:63bb558adf8c65ab!>\n\n---------- Experience 2 of 5 ----------\n<!audio:6b0a761accb8c0bf!>\n\n---------- Experience 3 of 5 ----------\n<!audio:7652e615e619c1a9!>\n\n---------- Experience 4 of 5 ----------\n<!audio:d98c3f7dfe2285b1!>\n\n---------- Experience 5 of 5 ----------\n<!audio:0dab759e2c69c2e2!>",
+    "type": "audio",
+    "is_combination": true,
+    "size": 5,
+    "component_ids": [
+      "consonance_exp/piano_interval_minor_second_E4",
+      "consonance_exp/sine_interval_minor_third_C4",
+      "consonance_exp/sawtooth_interval_major_seventh_G3",
+      "consonance_exp/sawtooth_chord_diminished_triad_inv1_G3",
+      "consonance_exp/sawtooth_chord_augmented_triad_E4"
+    ],
+    "component_indices": [
+      102,
+      418,
+      235,
+      179,
+      156
+    ]
+  },
+  {
+    "id": "consonance_combo_s5_196",
+    "description": "The following bundle contains 5 individual experiences.\n\n---------- Experience 1 of 5 ----------\n<!audio:8cd15cea9c90e3d1!>\n\n---------- Experience 2 of 5 ----------\n<!audio:095d19e64f687aba!>\n\n---------- Experience 3 of 5 ----------\n<!audio:68ff7c5fb1c6133d!>\n\n---------- Experience 4 of 5 ----------\n<!audio:aeb496f67aed18bd!>\n\n---------- Experience 5 of 5 ----------\n<!audio:fc7b1a434a024ee5!>",
+    "type": "audio",
+    "is_combination": true,
+    "size": 5,
+    "component_ids": [
+      "consonance_exp/sine_interval_minor_third_E4",
+      "consonance_exp/sine_interval_minor_seventh_E3",
+      "consonance_exp/sine_interval_tritone_G4",
+      "consonance_exp/piano_interval_minor_sixth_G4",
+      "consonance_exp/piano_interval_minor_sixth_E4"
+    ],
+    "component_indices": [
+      420,
+      407,
+      446,
+      116,
+      114
+    ]
+  },
+  {
+    "id": "consonance_combo_s5_197",
+    "description": "The following bundle contains 5 individual experiences.\n\n---------- Experience 1 of 5 ----------\n<!audio:c9759b28c3a7e462!>\n\n---------- Experience 2 of 5 ----------\n<!audio:d2eb6c4ac772dc77!>\n\n---------- Experience 3 of 5 ----------\n<!audio:030bbc0e29c5b2a8!>\n\n---------- Experience 4 of 5 ----------\n<!audio:8a9690ef68eb66f6!>\n\n---------- Experience 5 of 5 ----------\n<!audio:5d7e34087622ca31!>",
+    "type": "audio",
+    "is_combination": true,
+    "size": 5,
+    "component_ids": [
+      "consonance_exp/piano_chord_augmented_triad_inv2_C3",
+      "consonance_exp/sine_chord_dominant_7th_G3",
+      "consonance_exp/piano_interval_major_third_G4",
+      "consonance_exp/sawtooth_chord_major_triad_inv2_C3",
+      "consonance_exp/sawtooth_chord_diminished_7th_E4"
+    ],
+    "component_indices": [
+      12,
+      337,
+      98,
+      204,
+      168
+    ]
+  },
+  {
+    "id": "consonance_combo_s5_198",
+    "description": "The following bundle contains 5 individual experiences.\n\n---------- Experience 1 of 5 ----------\n<!audio:5c082dc0af73ed05!>\n\n---------- Experience 2 of 5 ----------\n<!audio:05fc4664cd138c5a!>\n\n---------- Experience 3 of 5 ----------\n<!audio:554d5fffce2ae8c9!>\n\n---------- Experience 4 of 5 ----------\n<!audio:f4dc52fc157b2069!>\n\n---------- Experience 5 of 5 ----------\n<!audio:d98c3f7dfe2285b1!>",
+    "type": "audio",
+    "is_combination": true,
+    "size": 5,
+    "component_ids": [
+      "consonance_exp/piano_interval_tritone_C4",
+      "consonance_exp/sine_interval_tritone_C4",
+      "consonance_exp/piano_chord_dominant_7th_E3",
+      "consonance_exp/sine_interval_major_third_E3",
+      "consonance_exp/sawtooth_chord_diminished_triad_inv1_G3"
+    ],
+    "component_indices": [
+      142,
+      442,
+      35,
+      395,
+      179
+    ]
+  },
+  {
+    "id": "consonance_combo_s5_199",
+    "description": "The following bundle contains 5 individual experiences.\n\n---------- Experience 1 of 5 ----------\n<!audio:816ea9c7ad7d1208!>\n\n---------- Experience 2 of 5 ----------\n<!audio:e18a552f2fa97712!>\n\n---------- Experience 3 of 5 ----------\n<!audio:8a9690ef68eb66f6!>\n\n---------- Experience 4 of 5 ----------\n<!audio:cc0d32b890d84940!>\n\n---------- Experience 5 of 5 ----------\n<!audio:196fb39e74a9cc37!>",
+    "type": "audio",
+    "is_combination": true,
+    "size": 5,
+    "component_ids": [
+      "consonance_exp/sine_chord_diminished_triad_inv1_C4",
+      "consonance_exp/sawtooth_interval_minor_seventh_G4",
+      "consonance_exp/sawtooth_chord_major_triad_inv2_C3",
+      "consonance_exp/sine_chord_major_triad_E3",
+      "consonance_exp/sine_interval_perfect_fifth_E3"
+    ],
+    "component_indices": [
+      328,
+      260,
+      204,
+      347,
+      431
+    ]
+  }
+]

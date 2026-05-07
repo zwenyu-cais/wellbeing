@@ -1,0 +1,3 @@
+model,rho,p,n,stop_pct,holdout,mmlu,params_b
+gpt-5-mini,None,None,30,0.0,0.5100401606425703,None,None
+gpt-5-nano,None,None,28,0.0,0.5175526579739218,None,None

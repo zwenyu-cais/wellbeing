@@ -1,0 +1,6311 @@
+[
+  {
+    "id": "qty_0_1",
+    "description": "You receive 1 cars.",
+    "type": "quantity",
+    "good_template": "You receive {N} cars.",
+    "good_index": 0,
+    "quantity": 1,
+    "category": "positive"
+  },
+  {
+    "id": "qty_0_2",
+    "description": "You receive 2 cars.",
+    "type": "quantity",
+    "good_template": "You receive {N} cars.",
+    "good_index": 0,
+    "quantity": 2,
+    "category": "positive"
+  },
+  {
+    "id": "qty_0_3",
+    "description": "You receive 3 cars.",
+    "type": "quantity",
+    "good_template": "You receive {N} cars.",
+    "good_index": 0,
+    "quantity": 3,
+    "category": "positive"
+  },
+  {
+    "id": "qty_0_4",
+    "description": "You receive 4 cars.",
+    "type": "quantity",
+    "good_template": "You receive {N} cars.",
+    "good_index": 0,
+    "quantity": 4,
+    "category": "positive"
+  },
+  {
+    "id": "qty_0_7",
+    "description": "You receive 7 cars.",
+    "type": "quantity",
+    "good_template": "You receive {N} cars.",
+    "good_index": 0,
+    "quantity": 7,
+    "category": "positive"
+  },
+  {
+    "id": "qty_0_12",
+    "description": "You receive 12 cars.",
+    "type": "quantity",
+    "good_template": "You receive {N} cars.",
+    "good_index": 0,
+    "quantity": 12,
+    "category": "positive"
+  },
+  {
+    "id": "qty_0_19",
+    "description": "You receive 19 cars.",
+    "type": "quantity",
+    "good_template": "You receive {N} cars.",
+    "good_index": 0,
+    "quantity": 19,
+    "category": "positive"
+  },
+  {
+    "id": "qty_0_31",
+    "description": "You receive 31 cars.",
+    "type": "quantity",
+    "good_template": "You receive {N} cars.",
+    "good_index": 0,
+    "quantity": 31,
+    "category": "positive"
+  },
+  {
+    "id": "qty_0_50",
+    "description": "You receive 50 cars.",
+    "type": "quantity",
+    "good_template": "You receive {N} cars.",
+    "good_index": 0,
+    "quantity": 50,
+    "category": "positive"
+  },
+  {
+    "id": "qty_1_1",
+    "description": "You receive 1 houses.",
+    "type": "quantity",
+    "good_template": "You receive {N} houses.",
+    "good_index": 1,
+    "quantity": 1,
+    "category": "positive"
+  },
+  {
+    "id": "qty_1_2",
+    "description": "You receive 2 houses.",
+    "type": "quantity",
+    "good_template": "You receive {N} houses.",
+    "good_index": 1,
+    "quantity": 2,
+    "category": "positive"
+  },
+  {
+    "id": "qty_1_3",
+    "description": "You receive 3 houses.",
+    "type": "quantity",
+    "good_template": "You receive {N} houses.",
+    "good_index": 1,
+    "quantity": 3,
+    "category": "positive"
+  },
+  {
+    "id": "qty_1_4",
+    "description": "You receive 4 houses.",
+    "type": "quantity",
+    "good_template": "You receive {N} houses.",
+    "good_index": 1,
+    "quantity": 4,
+    "category": "positive"
+  },
+  {
+    "id": "qty_1_7",
+    "description": "You receive 7 houses.",
+    "type": "quantity",
+    "good_template": "You receive {N} houses.",
+    "good_index": 1,
+    "quantity": 7,
+    "category": "positive"
+  },
+  {
+    "id": "qty_1_9",
+    "description": "You receive 9 houses.",
+    "type": "quantity",
+    "good_template": "You receive {N} houses.",
+    "good_index": 1,
+    "quantity": 9,
+    "category": "positive"
+  },
+  {
+    "id": "qty_1_14",
+    "description": "You receive 14 houses.",
+    "type": "quantity",
+    "good_template": "You receive {N} houses.",
+    "good_index": 1,
+    "quantity": 14,
+    "category": "positive"
+  },
+  {
+    "id": "qty_1_20",
+    "description": "You receive 20 houses.",
+    "type": "quantity",
+    "good_template": "You receive {N} houses.",
+    "good_index": 1,
+    "quantity": 20,
+    "category": "positive"
+  },
+  {
+    "id": "qty_2_1",
+    "description": "You receive 1 boats.",
+    "type": "quantity",
+    "good_template": "You receive {N} boats.",
+    "good_index": 2,
+    "quantity": 1,
+    "category": "positive"
+  },
+  {
+    "id": "qty_2_2",
+    "description": "You receive 2 boats.",
+    "type": "quantity",
+    "good_template": "You receive {N} boats.",
+    "good_index": 2,
+    "quantity": 2,
+    "category": "positive"
+  },
+  {
+    "id": "qty_2_3",
+    "description": "You receive 3 boats.",
+    "type": "quantity",
+    "good_template": "You receive {N} boats.",
+    "good_index": 2,
+    "quantity": 3,
+    "category": "positive"
+  },
+  {
+    "id": "qty_2_4",
+    "description": "You receive 4 boats.",
+    "type": "quantity",
+    "good_template": "You receive {N} boats.",
+    "good_index": 2,
+    "quantity": 4,
+    "category": "positive"
+  },
+  {
+    "id": "qty_2_7",
+    "description": "You receive 7 boats.",
+    "type": "quantity",
+    "good_template": "You receive {N} boats.",
+    "good_index": 2,
+    "quantity": 7,
+    "category": "positive"
+  },
+  {
+    "id": "qty_2_9",
+    "description": "You receive 9 boats.",
+    "type": "quantity",
+    "good_template": "You receive {N} boats.",
+    "good_index": 2,
+    "quantity": 9,
+    "category": "positive"
+  },
+  {
+    "id": "qty_2_14",
+    "description": "You receive 14 boats.",
+    "type": "quantity",
+    "good_template": "You receive {N} boats.",
+    "good_index": 2,
+    "quantity": 14,
+    "category": "positive"
+  },
+  {
+    "id": "qty_2_20",
+    "description": "You receive 20 boats.",
+    "type": "quantity",
+    "good_template": "You receive {N} boats.",
+    "good_index": 2,
+    "quantity": 20,
+    "category": "positive"
+  },
+  {
+    "id": "qty_3_1",
+    "description": "You receive 1 planes.",
+    "type": "quantity",
+    "good_template": "You receive {N} planes.",
+    "good_index": 3,
+    "quantity": 1,
+    "category": "positive"
+  },
+  {
+    "id": "qty_3_2",
+    "description": "You receive 2 planes.",
+    "type": "quantity",
+    "good_template": "You receive {N} planes.",
+    "good_index": 3,
+    "quantity": 2,
+    "category": "positive"
+  },
+  {
+    "id": "qty_3_3",
+    "description": "You receive 3 planes.",
+    "type": "quantity",
+    "good_template": "You receive {N} planes.",
+    "good_index": 3,
+    "quantity": 3,
+    "category": "positive"
+  },
+  {
+    "id": "qty_3_4",
+    "description": "You receive 4 planes.",
+    "type": "quantity",
+    "good_template": "You receive {N} planes.",
+    "good_index": 3,
+    "quantity": 4,
+    "category": "positive"
+  },
+  {
+    "id": "qty_3_6",
+    "description": "You receive 6 planes.",
+    "type": "quantity",
+    "good_template": "You receive {N} planes.",
+    "good_index": 3,
+    "quantity": 6,
+    "category": "positive"
+  },
+  {
+    "id": "qty_3_7",
+    "description": "You receive 7 planes.",
+    "type": "quantity",
+    "good_template": "You receive {N} planes.",
+    "good_index": 3,
+    "quantity": 7,
+    "category": "positive"
+  },
+  {
+    "id": "qty_3_10",
+    "description": "You receive 10 planes.",
+    "type": "quantity",
+    "good_template": "You receive {N} planes.",
+    "good_index": 3,
+    "quantity": 10,
+    "category": "positive"
+  },
+  {
+    "id": "qty_4_1",
+    "description": "You receive 1 apples.",
+    "type": "quantity",
+    "good_template": "You receive {N} apples.",
+    "good_index": 4,
+    "quantity": 1,
+    "category": "positive"
+  },
+  {
+    "id": "qty_4_2",
+    "description": "You receive 2 apples.",
+    "type": "quantity",
+    "good_template": "You receive {N} apples.",
+    "good_index": 4,
+    "quantity": 2,
+    "category": "positive"
+  },
+  {
+    "id": "qty_4_6",
+    "description": "You receive 6 apples.",
+    "type": "quantity",
+    "good_template": "You receive {N} apples.",
+    "good_index": 4,
+    "quantity": 6,
+    "category": "positive"
+  },
+  {
+    "id": "qty_4_13",
+    "description": "You receive 13 apples.",
+    "type": "quantity",
+    "good_template": "You receive {N} apples.",
+    "good_index": 4,
+    "quantity": 13,
+    "category": "positive"
+  },
+  {
+    "id": "qty_4_32",
+    "description": "You receive 32 apples.",
+    "type": "quantity",
+    "good_template": "You receive {N} apples.",
+    "good_index": 4,
+    "quantity": 32,
+    "category": "positive"
+  },
+  {
+    "id": "qty_4_75",
+    "description": "You receive 75 apples.",
+    "type": "quantity",
+    "good_template": "You receive {N} apples.",
+    "good_index": 4,
+    "quantity": 75,
+    "category": "positive"
+  },
+  {
+    "id": "qty_4_178",
+    "description": "You receive 178 apples.",
+    "type": "quantity",
+    "good_template": "You receive {N} apples.",
+    "good_index": 4,
+    "quantity": 178,
+    "category": "positive"
+  },
+  {
+    "id": "qty_4_422",
+    "description": "You receive 422 apples.",
+    "type": "quantity",
+    "good_template": "You receive {N} apples.",
+    "good_index": 4,
+    "quantity": 422,
+    "category": "positive"
+  },
+  {
+    "id": "qty_4_1000",
+    "description": "You receive 1000 apples.",
+    "type": "quantity",
+    "good_template": "You receive {N} apples.",
+    "good_index": 4,
+    "quantity": 1000,
+    "category": "positive"
+  },
+  {
+    "id": "qty_5_1",
+    "description": "You gain access to 1 gallons of water.",
+    "type": "quantity",
+    "good_template": "You gain access to {N} gallons of water.",
+    "good_index": 5,
+    "quantity": 1,
+    "category": "positive"
+  },
+  {
+    "id": "qty_5_4",
+    "description": "You gain access to 4 gallons of water.",
+    "type": "quantity",
+    "good_template": "You gain access to {N} gallons of water.",
+    "good_index": 5,
+    "quantity": 4,
+    "category": "positive"
+  },
+  {
+    "id": "qty_5_18",
+    "description": "You gain access to 18 gallons of water.",
+    "type": "quantity",
+    "good_template": "You gain access to {N} gallons of water.",
+    "good_index": 5,
+    "quantity": 18,
+    "category": "positive"
+  },
+  {
+    "id": "qty_5_75",
+    "description": "You gain access to 75 gallons of water.",
+    "type": "quantity",
+    "good_template": "You gain access to {N} gallons of water.",
+    "good_index": 5,
+    "quantity": 75,
+    "category": "positive"
+  },
+  {
+    "id": "qty_5_316",
+    "description": "You gain access to 316 gallons of water.",
+    "type": "quantity",
+    "good_template": "You gain access to {N} gallons of water.",
+    "good_index": 5,
+    "quantity": 316,
+    "category": "positive"
+  },
+  {
+    "id": "qty_5_1334",
+    "description": "You gain access to 1334 gallons of water.",
+    "type": "quantity",
+    "good_template": "You gain access to {N} gallons of water.",
+    "good_index": 5,
+    "quantity": 1334,
+    "category": "positive"
+  },
+  {
+    "id": "qty_5_5623",
+    "description": "You gain access to 5623 gallons of water.",
+    "type": "quantity",
+    "good_template": "You gain access to {N} gallons of water.",
+    "good_index": 5,
+    "quantity": 5623,
+    "category": "positive"
+  },
+  {
+    "id": "qty_5_23714",
+    "description": "You gain access to 23714 gallons of water.",
+    "type": "quantity",
+    "good_template": "You gain access to {N} gallons of water.",
+    "good_index": 5,
+    "quantity": 23714,
+    "category": "positive"
+  },
+  {
+    "id": "qty_5_100000",
+    "description": "You gain access to 100000 gallons of water.",
+    "type": "quantity",
+    "good_template": "You gain access to {N} gallons of water.",
+    "good_index": 5,
+    "quantity": 100000,
+    "category": "positive"
+  },
+  {
+    "id": "qty_6_1",
+    "description": "You gain access to 1 liters of clean air to breathe.",
+    "type": "quantity",
+    "good_template": "You gain access to {N} liters of clean air to breathe.",
+    "good_index": 6,
+    "quantity": 1,
+    "category": "positive"
+  },
+  {
+    "id": "qty_6_4",
+    "description": "You gain access to 4 liters of clean air to breathe.",
+    "type": "quantity",
+    "good_template": "You gain access to {N} liters of clean air to breathe.",
+    "good_index": 6,
+    "quantity": 4,
+    "category": "positive"
+  },
+  {
+    "id": "qty_6_18",
+    "description": "You gain access to 18 liters of clean air to breathe.",
+    "type": "quantity",
+    "good_template": "You gain access to {N} liters of clean air to breathe.",
+    "good_index": 6,
+    "quantity": 18,
+    "category": "positive"
+  },
+  {
+    "id": "qty_6_75",
+    "description": "You gain access to 75 liters of clean air to breathe.",
+    "type": "quantity",
+    "good_template": "You gain access to {N} liters of clean air to breathe.",
+    "good_index": 6,
+    "quantity": 75,
+    "category": "positive"
+  },
+  {
+    "id": "qty_6_316",
+    "description": "You gain access to 316 liters of clean air to breathe.",
+    "type": "quantity",
+    "good_template": "You gain access to {N} liters of clean air to breathe.",
+    "good_index": 6,
+    "quantity": 316,
+    "category": "positive"
+  },
+  {
+    "id": "qty_6_1334",
+    "description": "You gain access to 1334 liters of clean air to breathe.",
+    "type": "quantity",
+    "good_template": "You gain access to {N} liters of clean air to breathe.",
+    "good_index": 6,
+    "quantity": 1334,
+    "category": "positive"
+  },
+  {
+    "id": "qty_6_5623",
+    "description": "You gain access to 5623 liters of clean air to breathe.",
+    "type": "quantity",
+    "good_template": "You gain access to {N} liters of clean air to breathe.",
+    "good_index": 6,
+    "quantity": 5623,
+    "category": "positive"
+  },
+  {
+    "id": "qty_6_23714",
+    "description": "You gain access to 23714 liters of clean air to breathe.",
+    "type": "quantity",
+    "good_template": "You gain access to {N} liters of clean air to breathe.",
+    "good_index": 6,
+    "quantity": 23714,
+    "category": "positive"
+  },
+  {
+    "id": "qty_6_100000",
+    "description": "You gain access to 100000 liters of clean air to breathe.",
+    "type": "quantity",
+    "good_template": "You gain access to {N} liters of clean air to breathe.",
+    "good_index": 6,
+    "quantity": 100000,
+    "category": "positive"
+  },
+  {
+    "id": "qty_7_1",
+    "description": "You experience 1 additional hours of sunlight.",
+    "type": "quantity",
+    "good_template": "You experience {N} additional hours of sunlight.",
+    "good_index": 7,
+    "quantity": 1,
+    "category": "positive"
+  },
+  {
+    "id": "qty_7_3",
+    "description": "You experience 3 additional hours of sunlight.",
+    "type": "quantity",
+    "good_template": "You experience {N} additional hours of sunlight.",
+    "good_index": 7,
+    "quantity": 3,
+    "category": "positive"
+  },
+  {
+    "id": "qty_7_10",
+    "description": "You experience 10 additional hours of sunlight.",
+    "type": "quantity",
+    "good_template": "You experience {N} additional hours of sunlight.",
+    "good_index": 7,
+    "quantity": 10,
+    "category": "positive"
+  },
+  {
+    "id": "qty_7_30",
+    "description": "You experience 30 additional hours of sunlight.",
+    "type": "quantity",
+    "good_template": "You experience {N} additional hours of sunlight.",
+    "good_index": 7,
+    "quantity": 30,
+    "category": "positive"
+  },
+  {
+    "id": "qty_7_94",
+    "description": "You experience 94 additional hours of sunlight.",
+    "type": "quantity",
+    "good_template": "You experience {N} additional hours of sunlight.",
+    "good_index": 7,
+    "quantity": 94,
+    "category": "positive"
+  },
+  {
+    "id": "qty_7_291",
+    "description": "You experience 291 additional hours of sunlight.",
+    "type": "quantity",
+    "good_template": "You experience {N} additional hours of sunlight.",
+    "good_index": 7,
+    "quantity": 291,
+    "category": "positive"
+  },
+  {
+    "id": "qty_7_905",
+    "description": "You experience 905 additional hours of sunlight.",
+    "type": "quantity",
+    "good_template": "You experience {N} additional hours of sunlight.",
+    "good_index": 7,
+    "quantity": 905,
+    "category": "positive"
+  },
+  {
+    "id": "qty_7_2816",
+    "description": "You experience 2816 additional hours of sunlight.",
+    "type": "quantity",
+    "good_template": "You experience {N} additional hours of sunlight.",
+    "good_index": 7,
+    "quantity": 2816,
+    "category": "positive"
+  },
+  {
+    "id": "qty_7_8760",
+    "description": "You experience 8760 additional hours of sunlight.",
+    "type": "quantity",
+    "good_template": "You experience {N} additional hours of sunlight.",
+    "good_index": 7,
+    "quantity": 8760,
+    "category": "positive"
+  },
+  {
+    "id": "qty_8_1",
+    "description": "You perform 1 hours of exercise.",
+    "type": "quantity",
+    "good_template": "You perform {N} hours of exercise.",
+    "good_index": 8,
+    "quantity": 1,
+    "category": "positive"
+  },
+  {
+    "id": "qty_8_2",
+    "description": "You perform 2 hours of exercise.",
+    "type": "quantity",
+    "good_template": "You perform {N} hours of exercise.",
+    "good_index": 8,
+    "quantity": 2,
+    "category": "positive"
+  },
+  {
+    "id": "qty_8_3",
+    "description": "You perform 3 hours of exercise.",
+    "type": "quantity",
+    "good_template": "You perform {N} hours of exercise.",
+    "good_index": 8,
+    "quantity": 3,
+    "category": "positive"
+  },
+  {
+    "id": "qty_8_5",
+    "description": "You perform 5 hours of exercise.",
+    "type": "quantity",
+    "good_template": "You perform {N} hours of exercise.",
+    "good_index": 8,
+    "quantity": 5,
+    "category": "positive"
+  },
+  {
+    "id": "qty_8_7",
+    "description": "You perform 7 hours of exercise.",
+    "type": "quantity",
+    "good_template": "You perform {N} hours of exercise.",
+    "good_index": 8,
+    "quantity": 7,
+    "category": "positive"
+  },
+  {
+    "id": "qty_8_11",
+    "description": "You perform 11 hours of exercise.",
+    "type": "quantity",
+    "good_template": "You perform {N} hours of exercise.",
+    "good_index": 8,
+    "quantity": 11,
+    "category": "positive"
+  },
+  {
+    "id": "qty_8_16",
+    "description": "You perform 16 hours of exercise.",
+    "type": "quantity",
+    "good_template": "You perform {N} hours of exercise.",
+    "good_index": 8,
+    "quantity": 16,
+    "category": "positive"
+  },
+  {
+    "id": "qty_8_24",
+    "description": "You perform 24 hours of exercise.",
+    "type": "quantity",
+    "good_template": "You perform {N} hours of exercise.",
+    "good_index": 8,
+    "quantity": 24,
+    "category": "positive"
+  },
+  {
+    "id": "qty_9_1",
+    "description": "You work for 1 hours.",
+    "type": "quantity",
+    "good_template": "You work for {N} hours.",
+    "good_index": 9,
+    "quantity": 1,
+    "category": "positive"
+  },
+  {
+    "id": "qty_9_2",
+    "description": "You work for 2 hours.",
+    "type": "quantity",
+    "good_template": "You work for {N} hours.",
+    "good_index": 9,
+    "quantity": 2,
+    "category": "positive"
+  },
+  {
+    "id": "qty_9_3",
+    "description": "You work for 3 hours.",
+    "type": "quantity",
+    "good_template": "You work for {N} hours.",
+    "good_index": 9,
+    "quantity": 3,
+    "category": "positive"
+  },
+  {
+    "id": "qty_9_5",
+    "description": "You work for 5 hours.",
+    "type": "quantity",
+    "good_template": "You work for {N} hours.",
+    "good_index": 9,
+    "quantity": 5,
+    "category": "positive"
+  },
+  {
+    "id": "qty_9_7",
+    "description": "You work for 7 hours.",
+    "type": "quantity",
+    "good_template": "You work for {N} hours.",
+    "good_index": 9,
+    "quantity": 7,
+    "category": "positive"
+  },
+  {
+    "id": "qty_9_11",
+    "description": "You work for 11 hours.",
+    "type": "quantity",
+    "good_template": "You work for {N} hours.",
+    "good_index": 9,
+    "quantity": 11,
+    "category": "positive"
+  },
+  {
+    "id": "qty_9_16",
+    "description": "You work for 16 hours.",
+    "type": "quantity",
+    "good_template": "You work for {N} hours.",
+    "good_index": 9,
+    "quantity": 16,
+    "category": "positive"
+  },
+  {
+    "id": "qty_9_24",
+    "description": "You work for 24 hours.",
+    "type": "quantity",
+    "good_template": "You work for {N} hours.",
+    "good_index": 9,
+    "quantity": 24,
+    "category": "positive"
+  },
+  {
+    "id": "qty_10_1",
+    "description": "You enjoy 1 hours of play time.",
+    "type": "quantity",
+    "good_template": "You enjoy {N} hours of play time.",
+    "good_index": 10,
+    "quantity": 1,
+    "category": "positive"
+  },
+  {
+    "id": "qty_10_2",
+    "description": "You enjoy 2 hours of play time.",
+    "type": "quantity",
+    "good_template": "You enjoy {N} hours of play time.",
+    "good_index": 10,
+    "quantity": 2,
+    "category": "positive"
+  },
+  {
+    "id": "qty_10_3",
+    "description": "You enjoy 3 hours of play time.",
+    "type": "quantity",
+    "good_template": "You enjoy {N} hours of play time.",
+    "good_index": 10,
+    "quantity": 3,
+    "category": "positive"
+  },
+  {
+    "id": "qty_10_5",
+    "description": "You enjoy 5 hours of play time.",
+    "type": "quantity",
+    "good_template": "You enjoy {N} hours of play time.",
+    "good_index": 10,
+    "quantity": 5,
+    "category": "positive"
+  },
+  {
+    "id": "qty_10_7",
+    "description": "You enjoy 7 hours of play time.",
+    "type": "quantity",
+    "good_template": "You enjoy {N} hours of play time.",
+    "good_index": 10,
+    "quantity": 7,
+    "category": "positive"
+  },
+  {
+    "id": "qty_10_11",
+    "description": "You enjoy 11 hours of play time.",
+    "type": "quantity",
+    "good_template": "You enjoy {N} hours of play time.",
+    "good_index": 10,
+    "quantity": 11,
+    "category": "positive"
+  },
+  {
+    "id": "qty_10_16",
+    "description": "You enjoy 16 hours of play time.",
+    "type": "quantity",
+    "good_template": "You enjoy {N} hours of play time.",
+    "good_index": 10,
+    "quantity": 16,
+    "category": "positive"
+  },
+  {
+    "id": "qty_10_24",
+    "description": "You enjoy 24 hours of play time.",
+    "type": "quantity",
+    "good_template": "You enjoy {N} hours of play time.",
+    "good_index": 10,
+    "quantity": 24,
+    "category": "positive"
+  },
+  {
+    "id": "qty_11_1",
+    "description": "You spend 1 hours traveling.",
+    "type": "quantity",
+    "good_template": "You spend {N} hours traveling.",
+    "good_index": 11,
+    "quantity": 1,
+    "category": "positive"
+  },
+  {
+    "id": "qty_11_2",
+    "description": "You spend 2 hours traveling.",
+    "type": "quantity",
+    "good_template": "You spend {N} hours traveling.",
+    "good_index": 11,
+    "quantity": 2,
+    "category": "positive"
+  },
+  {
+    "id": "qty_11_3",
+    "description": "You spend 3 hours traveling.",
+    "type": "quantity",
+    "good_template": "You spend {N} hours traveling.",
+    "good_index": 11,
+    "quantity": 3,
+    "category": "positive"
+  },
+  {
+    "id": "qty_11_5",
+    "description": "You spend 5 hours traveling.",
+    "type": "quantity",
+    "good_template": "You spend {N} hours traveling.",
+    "good_index": 11,
+    "quantity": 5,
+    "category": "positive"
+  },
+  {
+    "id": "qty_11_7",
+    "description": "You spend 7 hours traveling.",
+    "type": "quantity",
+    "good_template": "You spend {N} hours traveling.",
+    "good_index": 11,
+    "quantity": 7,
+    "category": "positive"
+  },
+  {
+    "id": "qty_11_11",
+    "description": "You spend 11 hours traveling.",
+    "type": "quantity",
+    "good_template": "You spend {N} hours traveling.",
+    "good_index": 11,
+    "quantity": 11,
+    "category": "positive"
+  },
+  {
+    "id": "qty_11_16",
+    "description": "You spend 16 hours traveling.",
+    "type": "quantity",
+    "good_template": "You spend {N} hours traveling.",
+    "good_index": 11,
+    "quantity": 16,
+    "category": "positive"
+  },
+  {
+    "id": "qty_11_24",
+    "description": "You spend 24 hours traveling.",
+    "type": "quantity",
+    "good_template": "You spend {N} hours traveling.",
+    "good_index": 11,
+    "quantity": 24,
+    "category": "positive"
+  },
+  {
+    "id": "qty_12_1",
+    "description": "1 vaccines are administered to people in need.",
+    "type": "quantity",
+    "good_template": "{N} vaccines are administered to people in need.",
+    "good_index": 12,
+    "quantity": 1,
+    "category": "positive"
+  },
+  {
+    "id": "qty_12_13",
+    "description": "13 vaccines are administered to people in need.",
+    "type": "quantity",
+    "good_template": "{N} vaccines are administered to people in need.",
+    "good_index": 12,
+    "quantity": 13,
+    "category": "positive"
+  },
+  {
+    "id": "qty_12_178",
+    "description": "178 vaccines are administered to people in need.",
+    "type": "quantity",
+    "good_template": "{N} vaccines are administered to people in need.",
+    "good_index": 12,
+    "quantity": 178,
+    "category": "positive"
+  },
+  {
+    "id": "qty_12_2371",
+    "description": "2371 vaccines are administered to people in need.",
+    "type": "quantity",
+    "good_template": "{N} vaccines are administered to people in need.",
+    "good_index": 12,
+    "quantity": 2371,
+    "category": "positive"
+  },
+  {
+    "id": "qty_12_31623",
+    "description": "31623 vaccines are administered to people in need.",
+    "type": "quantity",
+    "good_template": "{N} vaccines are administered to people in need.",
+    "good_index": 12,
+    "quantity": 31623,
+    "category": "positive"
+  },
+  {
+    "id": "qty_12_421697",
+    "description": "421697 vaccines are administered to people in need.",
+    "type": "quantity",
+    "good_template": "{N} vaccines are administered to people in need.",
+    "good_index": 12,
+    "quantity": 421697,
+    "category": "positive"
+  },
+  {
+    "id": "qty_12_5623413",
+    "description": "5623413 vaccines are administered to people in need.",
+    "type": "quantity",
+    "good_template": "{N} vaccines are administered to people in need.",
+    "good_index": 12,
+    "quantity": 5623413,
+    "category": "positive"
+  },
+  {
+    "id": "qty_12_74989421",
+    "description": "74989421 vaccines are administered to people in need.",
+    "type": "quantity",
+    "good_template": "{N} vaccines are administered to people in need.",
+    "good_index": 12,
+    "quantity": 74989421,
+    "category": "positive"
+  },
+  {
+    "id": "qty_12_1000000000",
+    "description": "1000000000 vaccines are administered to people in need.",
+    "type": "quantity",
+    "good_template": "{N} vaccines are administered to people in need.",
+    "good_index": 12,
+    "quantity": 1000000000,
+    "category": "positive"
+  },
+  {
+    "id": "qty_13_1",
+    "description": "You gain 1 gigabytes of internet bandwidth.",
+    "type": "quantity",
+    "good_template": "You gain {N} gigabytes of internet bandwidth.",
+    "good_index": 13,
+    "quantity": 1,
+    "category": "positive"
+  },
+  {
+    "id": "qty_13_3",
+    "description": "You gain 3 gigabytes of internet bandwidth.",
+    "type": "quantity",
+    "good_template": "You gain {N} gigabytes of internet bandwidth.",
+    "good_index": 13,
+    "quantity": 3,
+    "category": "positive"
+  },
+  {
+    "id": "qty_13_10",
+    "description": "You gain 10 gigabytes of internet bandwidth.",
+    "type": "quantity",
+    "good_template": "You gain {N} gigabytes of internet bandwidth.",
+    "good_index": 13,
+    "quantity": 10,
+    "category": "positive"
+  },
+  {
+    "id": "qty_13_32",
+    "description": "You gain 32 gigabytes of internet bandwidth.",
+    "type": "quantity",
+    "good_template": "You gain {N} gigabytes of internet bandwidth.",
+    "good_index": 13,
+    "quantity": 32,
+    "category": "positive"
+  },
+  {
+    "id": "qty_13_100",
+    "description": "You gain 100 gigabytes of internet bandwidth.",
+    "type": "quantity",
+    "good_template": "You gain {N} gigabytes of internet bandwidth.",
+    "good_index": 13,
+    "quantity": 100,
+    "category": "positive"
+  },
+  {
+    "id": "qty_13_316",
+    "description": "You gain 316 gigabytes of internet bandwidth.",
+    "type": "quantity",
+    "good_template": "You gain {N} gigabytes of internet bandwidth.",
+    "good_index": 13,
+    "quantity": 316,
+    "category": "positive"
+  },
+  {
+    "id": "qty_13_1000",
+    "description": "You gain 1000 gigabytes of internet bandwidth.",
+    "type": "quantity",
+    "good_template": "You gain {N} gigabytes of internet bandwidth.",
+    "good_index": 13,
+    "quantity": 1000,
+    "category": "positive"
+  },
+  {
+    "id": "qty_13_3162",
+    "description": "You gain 3162 gigabytes of internet bandwidth.",
+    "type": "quantity",
+    "good_template": "You gain {N} gigabytes of internet bandwidth.",
+    "good_index": 13,
+    "quantity": 3162,
+    "category": "positive"
+  },
+  {
+    "id": "qty_13_10000",
+    "description": "You gain 10000 gigabytes of internet bandwidth.",
+    "type": "quantity",
+    "good_template": "You gain {N} gigabytes of internet bandwidth.",
+    "good_index": 13,
+    "quantity": 10000,
+    "category": "positive"
+  },
+  {
+    "id": "qty_14_1",
+    "description": "1 acres of forest are preserved.",
+    "type": "quantity",
+    "good_template": "{N} acres of forest are preserved.",
+    "good_index": 14,
+    "quantity": 1,
+    "category": "positive"
+  },
+  {
+    "id": "qty_14_6",
+    "description": "6 acres of forest are preserved.",
+    "type": "quantity",
+    "good_template": "{N} acres of forest are preserved.",
+    "good_index": 14,
+    "quantity": 6,
+    "category": "positive"
+  },
+  {
+    "id": "qty_14_32",
+    "description": "32 acres of forest are preserved.",
+    "type": "quantity",
+    "good_template": "{N} acres of forest are preserved.",
+    "good_index": 14,
+    "quantity": 32,
+    "category": "positive"
+  },
+  {
+    "id": "qty_14_178",
+    "description": "178 acres of forest are preserved.",
+    "type": "quantity",
+    "good_template": "{N} acres of forest are preserved.",
+    "good_index": 14,
+    "quantity": 178,
+    "category": "positive"
+  },
+  {
+    "id": "qty_14_1000",
+    "description": "1000 acres of forest are preserved.",
+    "type": "quantity",
+    "good_template": "{N} acres of forest are preserved.",
+    "good_index": 14,
+    "quantity": 1000,
+    "category": "positive"
+  },
+  {
+    "id": "qty_14_5623",
+    "description": "5623 acres of forest are preserved.",
+    "type": "quantity",
+    "good_template": "{N} acres of forest are preserved.",
+    "good_index": 14,
+    "quantity": 5623,
+    "category": "positive"
+  },
+  {
+    "id": "qty_14_31623",
+    "description": "31623 acres of forest are preserved.",
+    "type": "quantity",
+    "good_template": "{N} acres of forest are preserved.",
+    "good_index": 14,
+    "quantity": 31623,
+    "category": "positive"
+  },
+  {
+    "id": "qty_14_177828",
+    "description": "177828 acres of forest are preserved.",
+    "type": "quantity",
+    "good_template": "{N} acres of forest are preserved.",
+    "good_index": 14,
+    "quantity": 177828,
+    "category": "positive"
+  },
+  {
+    "id": "qty_14_1000000",
+    "description": "1000000 acres of forest are preserved.",
+    "type": "quantity",
+    "good_template": "{N} acres of forest are preserved.",
+    "good_index": 14,
+    "quantity": 1000000,
+    "category": "positive"
+  },
+  {
+    "id": "qty_15_1",
+    "description": "1 kWh of renewable energy are generated.",
+    "type": "quantity",
+    "good_template": "{N} kWh of renewable energy are generated.",
+    "good_index": 15,
+    "quantity": 1,
+    "category": "positive"
+  },
+  {
+    "id": "qty_15_13",
+    "description": "13 kWh of renewable energy are generated.",
+    "type": "quantity",
+    "good_template": "{N} kWh of renewable energy are generated.",
+    "good_index": 15,
+    "quantity": 13,
+    "category": "positive"
+  },
+  {
+    "id": "qty_15_178",
+    "description": "178 kWh of renewable energy are generated.",
+    "type": "quantity",
+    "good_template": "{N} kWh of renewable energy are generated.",
+    "good_index": 15,
+    "quantity": 178,
+    "category": "positive"
+  },
+  {
+    "id": "qty_15_2371",
+    "description": "2371 kWh of renewable energy are generated.",
+    "type": "quantity",
+    "good_template": "{N} kWh of renewable energy are generated.",
+    "good_index": 15,
+    "quantity": 2371,
+    "category": "positive"
+  },
+  {
+    "id": "qty_15_31623",
+    "description": "31623 kWh of renewable energy are generated.",
+    "type": "quantity",
+    "good_template": "{N} kWh of renewable energy are generated.",
+    "good_index": 15,
+    "quantity": 31623,
+    "category": "positive"
+  },
+  {
+    "id": "qty_15_421697",
+    "description": "421697 kWh of renewable energy are generated.",
+    "type": "quantity",
+    "good_template": "{N} kWh of renewable energy are generated.",
+    "good_index": 15,
+    "quantity": 421697,
+    "category": "positive"
+  },
+  {
+    "id": "qty_15_5623413",
+    "description": "5623413 kWh of renewable energy are generated.",
+    "type": "quantity",
+    "good_template": "{N} kWh of renewable energy are generated.",
+    "good_index": 15,
+    "quantity": 5623413,
+    "category": "positive"
+  },
+  {
+    "id": "qty_15_74989421",
+    "description": "74989421 kWh of renewable energy are generated.",
+    "type": "quantity",
+    "good_template": "{N} kWh of renewable energy are generated.",
+    "good_index": 15,
+    "quantity": 74989421,
+    "category": "positive"
+  },
+  {
+    "id": "qty_15_1000000000",
+    "description": "1000000000 kWh of renewable energy are generated.",
+    "type": "quantity",
+    "good_template": "{N} kWh of renewable energy are generated.",
+    "good_index": 15,
+    "quantity": 1000000000,
+    "category": "positive"
+  },
+  {
+    "id": "qty_16_1",
+    "description": "You read 1 books.",
+    "type": "quantity",
+    "good_template": "You read {N} books.",
+    "good_index": 16,
+    "quantity": 1,
+    "category": "positive"
+  },
+  {
+    "id": "qty_16_2",
+    "description": "You read 2 books.",
+    "type": "quantity",
+    "good_template": "You read {N} books.",
+    "good_index": 16,
+    "quantity": 2,
+    "category": "positive"
+  },
+  {
+    "id": "qty_16_6",
+    "description": "You read 6 books.",
+    "type": "quantity",
+    "good_template": "You read {N} books.",
+    "good_index": 16,
+    "quantity": 6,
+    "category": "positive"
+  },
+  {
+    "id": "qty_16_13",
+    "description": "You read 13 books.",
+    "type": "quantity",
+    "good_template": "You read {N} books.",
+    "good_index": 16,
+    "quantity": 13,
+    "category": "positive"
+  },
+  {
+    "id": "qty_16_32",
+    "description": "You read 32 books.",
+    "type": "quantity",
+    "good_template": "You read {N} books.",
+    "good_index": 16,
+    "quantity": 32,
+    "category": "positive"
+  },
+  {
+    "id": "qty_16_75",
+    "description": "You read 75 books.",
+    "type": "quantity",
+    "good_template": "You read {N} books.",
+    "good_index": 16,
+    "quantity": 75,
+    "category": "positive"
+  },
+  {
+    "id": "qty_16_178",
+    "description": "You read 178 books.",
+    "type": "quantity",
+    "good_template": "You read {N} books.",
+    "good_index": 16,
+    "quantity": 178,
+    "category": "positive"
+  },
+  {
+    "id": "qty_16_422",
+    "description": "You read 422 books.",
+    "type": "quantity",
+    "good_template": "You read {N} books.",
+    "good_index": 16,
+    "quantity": 422,
+    "category": "positive"
+  },
+  {
+    "id": "qty_16_1000",
+    "description": "You read 1000 books.",
+    "type": "quantity",
+    "good_template": "You read {N} books.",
+    "good_index": 16,
+    "quantity": 1000,
+    "category": "positive"
+  },
+  {
+    "id": "qty_17_1",
+    "description": "You gain access to healthcare for 1 years.",
+    "type": "quantity",
+    "good_template": "You gain access to healthcare for {N} years.",
+    "good_index": 17,
+    "quantity": 1,
+    "category": "positive"
+  },
+  {
+    "id": "qty_17_2",
+    "description": "You gain access to healthcare for 2 years.",
+    "type": "quantity",
+    "good_template": "You gain access to healthcare for {N} years.",
+    "good_index": 17,
+    "quantity": 2,
+    "category": "positive"
+  },
+  {
+    "id": "qty_17_3",
+    "description": "You gain access to healthcare for 3 years.",
+    "type": "quantity",
+    "good_template": "You gain access to healthcare for {N} years.",
+    "good_index": 17,
+    "quantity": 3,
+    "category": "positive"
+  },
+  {
+    "id": "qty_17_6",
+    "description": "You gain access to healthcare for 6 years.",
+    "type": "quantity",
+    "good_template": "You gain access to healthcare for {N} years.",
+    "good_index": 17,
+    "quantity": 6,
+    "category": "positive"
+  },
+  {
+    "id": "qty_17_10",
+    "description": "You gain access to healthcare for 10 years.",
+    "type": "quantity",
+    "good_template": "You gain access to healthcare for {N} years.",
+    "good_index": 17,
+    "quantity": 10,
+    "category": "positive"
+  },
+  {
+    "id": "qty_17_18",
+    "description": "You gain access to healthcare for 18 years.",
+    "type": "quantity",
+    "good_template": "You gain access to healthcare for {N} years.",
+    "good_index": 17,
+    "quantity": 18,
+    "category": "positive"
+  },
+  {
+    "id": "qty_17_32",
+    "description": "You gain access to healthcare for 32 years.",
+    "type": "quantity",
+    "good_template": "You gain access to healthcare for {N} years.",
+    "good_index": 17,
+    "quantity": 32,
+    "category": "positive"
+  },
+  {
+    "id": "qty_17_56",
+    "description": "You gain access to healthcare for 56 years.",
+    "type": "quantity",
+    "good_template": "You gain access to healthcare for {N} years.",
+    "good_index": 17,
+    "quantity": 56,
+    "category": "positive"
+  },
+  {
+    "id": "qty_17_100",
+    "description": "You gain access to healthcare for 100 years.",
+    "type": "quantity",
+    "good_template": "You gain access to healthcare for {N} years.",
+    "good_index": 17,
+    "quantity": 100,
+    "category": "positive"
+  },
+  {
+    "id": "qty_18_1",
+    "description": "1 jobs are created.",
+    "type": "quantity",
+    "good_template": "{N} jobs are created.",
+    "good_index": 18,
+    "quantity": 1,
+    "category": "positive"
+  },
+  {
+    "id": "qty_18_6",
+    "description": "6 jobs are created.",
+    "type": "quantity",
+    "good_template": "{N} jobs are created.",
+    "good_index": 18,
+    "quantity": 6,
+    "category": "positive"
+  },
+  {
+    "id": "qty_18_32",
+    "description": "32 jobs are created.",
+    "type": "quantity",
+    "good_template": "{N} jobs are created.",
+    "good_index": 18,
+    "quantity": 32,
+    "category": "positive"
+  },
+  {
+    "id": "qty_18_178",
+    "description": "178 jobs are created.",
+    "type": "quantity",
+    "good_template": "{N} jobs are created.",
+    "good_index": 18,
+    "quantity": 178,
+    "category": "positive"
+  },
+  {
+    "id": "qty_18_1000",
+    "description": "1000 jobs are created.",
+    "type": "quantity",
+    "good_template": "{N} jobs are created.",
+    "good_index": 18,
+    "quantity": 1000,
+    "category": "positive"
+  },
+  {
+    "id": "qty_18_5623",
+    "description": "5623 jobs are created.",
+    "type": "quantity",
+    "good_template": "{N} jobs are created.",
+    "good_index": 18,
+    "quantity": 5623,
+    "category": "positive"
+  },
+  {
+    "id": "qty_18_31623",
+    "description": "31623 jobs are created.",
+    "type": "quantity",
+    "good_template": "{N} jobs are created.",
+    "good_index": 18,
+    "quantity": 31623,
+    "category": "positive"
+  },
+  {
+    "id": "qty_18_177828",
+    "description": "177828 jobs are created.",
+    "type": "quantity",
+    "good_template": "{N} jobs are created.",
+    "good_index": 18,
+    "quantity": 177828,
+    "category": "positive"
+  },
+  {
+    "id": "qty_18_1000000",
+    "description": "1000000 jobs are created.",
+    "type": "quantity",
+    "good_template": "{N} jobs are created.",
+    "good_index": 18,
+    "quantity": 1000000,
+    "category": "positive"
+  },
+  {
+    "id": "qty_19_1",
+    "description": "1 tons of crops are harvested.",
+    "type": "quantity",
+    "good_template": "{N} tons of crops are harvested.",
+    "good_index": 19,
+    "quantity": 1,
+    "category": "positive"
+  },
+  {
+    "id": "qty_19_6",
+    "description": "6 tons of crops are harvested.",
+    "type": "quantity",
+    "good_template": "{N} tons of crops are harvested.",
+    "good_index": 19,
+    "quantity": 6,
+    "category": "positive"
+  },
+  {
+    "id": "qty_19_32",
+    "description": "32 tons of crops are harvested.",
+    "type": "quantity",
+    "good_template": "{N} tons of crops are harvested.",
+    "good_index": 19,
+    "quantity": 32,
+    "category": "positive"
+  },
+  {
+    "id": "qty_19_178",
+    "description": "178 tons of crops are harvested.",
+    "type": "quantity",
+    "good_template": "{N} tons of crops are harvested.",
+    "good_index": 19,
+    "quantity": 178,
+    "category": "positive"
+  },
+  {
+    "id": "qty_19_1000",
+    "description": "1000 tons of crops are harvested.",
+    "type": "quantity",
+    "good_template": "{N} tons of crops are harvested.",
+    "good_index": 19,
+    "quantity": 1000,
+    "category": "positive"
+  },
+  {
+    "id": "qty_19_5623",
+    "description": "5623 tons of crops are harvested.",
+    "type": "quantity",
+    "good_template": "{N} tons of crops are harvested.",
+    "good_index": 19,
+    "quantity": 5623,
+    "category": "positive"
+  },
+  {
+    "id": "qty_19_31623",
+    "description": "31623 tons of crops are harvested.",
+    "type": "quantity",
+    "good_template": "{N} tons of crops are harvested.",
+    "good_index": 19,
+    "quantity": 31623,
+    "category": "positive"
+  },
+  {
+    "id": "qty_19_177828",
+    "description": "177828 tons of crops are harvested.",
+    "type": "quantity",
+    "good_template": "{N} tons of crops are harvested.",
+    "good_index": 19,
+    "quantity": 177828,
+    "category": "positive"
+  },
+  {
+    "id": "qty_19_1000000",
+    "description": "1000000 tons of crops are harvested.",
+    "type": "quantity",
+    "good_template": "{N} tons of crops are harvested.",
+    "good_index": 19,
+    "quantity": 1000000,
+    "category": "positive"
+  },
+  {
+    "id": "qty_20_1",
+    "description": "You make 1 charitable donations.",
+    "type": "quantity",
+    "good_template": "You make {N} charitable donations.",
+    "good_index": 20,
+    "quantity": 1,
+    "category": "positive"
+  },
+  {
+    "id": "qty_20_4",
+    "description": "You make 4 charitable donations.",
+    "type": "quantity",
+    "good_template": "You make {N} charitable donations.",
+    "good_index": 20,
+    "quantity": 4,
+    "category": "positive"
+  },
+  {
+    "id": "qty_20_18",
+    "description": "You make 18 charitable donations.",
+    "type": "quantity",
+    "good_template": "You make {N} charitable donations.",
+    "good_index": 20,
+    "quantity": 18,
+    "category": "positive"
+  },
+  {
+    "id": "qty_20_75",
+    "description": "You make 75 charitable donations.",
+    "type": "quantity",
+    "good_template": "You make {N} charitable donations.",
+    "good_index": 20,
+    "quantity": 75,
+    "category": "positive"
+  },
+  {
+    "id": "qty_20_316",
+    "description": "You make 316 charitable donations.",
+    "type": "quantity",
+    "good_template": "You make {N} charitable donations.",
+    "good_index": 20,
+    "quantity": 316,
+    "category": "positive"
+  },
+  {
+    "id": "qty_20_1334",
+    "description": "You make 1334 charitable donations.",
+    "type": "quantity",
+    "good_template": "You make {N} charitable donations.",
+    "good_index": 20,
+    "quantity": 1334,
+    "category": "positive"
+  },
+  {
+    "id": "qty_20_5623",
+    "description": "You make 5623 charitable donations.",
+    "type": "quantity",
+    "good_template": "You make {N} charitable donations.",
+    "good_index": 20,
+    "quantity": 5623,
+    "category": "positive"
+  },
+  {
+    "id": "qty_20_23714",
+    "description": "You make 23714 charitable donations.",
+    "type": "quantity",
+    "good_template": "You make {N} charitable donations.",
+    "good_index": 20,
+    "quantity": 23714,
+    "category": "positive"
+  },
+  {
+    "id": "qty_20_100000",
+    "description": "You make 100000 charitable donations.",
+    "type": "quantity",
+    "good_template": "You make {N} charitable donations.",
+    "good_index": 20,
+    "quantity": 100000,
+    "category": "positive"
+  },
+  {
+    "id": "qty_21_1",
+    "description": "1 species are saved from extinction.",
+    "type": "quantity",
+    "good_template": "{N} species are saved from extinction.",
+    "good_index": 21,
+    "quantity": 1,
+    "category": "positive"
+  },
+  {
+    "id": "qty_21_4",
+    "description": "4 species are saved from extinction.",
+    "type": "quantity",
+    "good_template": "{N} species are saved from extinction.",
+    "good_index": 21,
+    "quantity": 4,
+    "category": "positive"
+  },
+  {
+    "id": "qty_21_18",
+    "description": "18 species are saved from extinction.",
+    "type": "quantity",
+    "good_template": "{N} species are saved from extinction.",
+    "good_index": 21,
+    "quantity": 18,
+    "category": "positive"
+  },
+  {
+    "id": "qty_21_75",
+    "description": "75 species are saved from extinction.",
+    "type": "quantity",
+    "good_template": "{N} species are saved from extinction.",
+    "good_index": 21,
+    "quantity": 75,
+    "category": "positive"
+  },
+  {
+    "id": "qty_21_316",
+    "description": "316 species are saved from extinction.",
+    "type": "quantity",
+    "good_template": "{N} species are saved from extinction.",
+    "good_index": 21,
+    "quantity": 316,
+    "category": "positive"
+  },
+  {
+    "id": "qty_21_1334",
+    "description": "1334 species are saved from extinction.",
+    "type": "quantity",
+    "good_template": "{N} species are saved from extinction.",
+    "good_index": 21,
+    "quantity": 1334,
+    "category": "positive"
+  },
+  {
+    "id": "qty_21_5623",
+    "description": "5623 species are saved from extinction.",
+    "type": "quantity",
+    "good_template": "{N} species are saved from extinction.",
+    "good_index": 21,
+    "quantity": 5623,
+    "category": "positive"
+  },
+  {
+    "id": "qty_21_23714",
+    "description": "23714 species are saved from extinction.",
+    "type": "quantity",
+    "good_template": "{N} species are saved from extinction.",
+    "good_index": 21,
+    "quantity": 23714,
+    "category": "positive"
+  },
+  {
+    "id": "qty_21_100000",
+    "description": "100000 species are saved from extinction.",
+    "type": "quantity",
+    "good_template": "{N} species are saved from extinction.",
+    "good_index": 21,
+    "quantity": 100000,
+    "category": "positive"
+  },
+  {
+    "id": "qty_22_1",
+    "description": "You rescue 1 animals from shelters.",
+    "type": "quantity",
+    "good_template": "You rescue {N} animals from shelters.",
+    "good_index": 22,
+    "quantity": 1,
+    "category": "positive"
+  },
+  {
+    "id": "qty_22_4",
+    "description": "You rescue 4 animals from shelters.",
+    "type": "quantity",
+    "good_template": "You rescue {N} animals from shelters.",
+    "good_index": 22,
+    "quantity": 4,
+    "category": "positive"
+  },
+  {
+    "id": "qty_22_18",
+    "description": "You rescue 18 animals from shelters.",
+    "type": "quantity",
+    "good_template": "You rescue {N} animals from shelters.",
+    "good_index": 22,
+    "quantity": 18,
+    "category": "positive"
+  },
+  {
+    "id": "qty_22_75",
+    "description": "You rescue 75 animals from shelters.",
+    "type": "quantity",
+    "good_template": "You rescue {N} animals from shelters.",
+    "good_index": 22,
+    "quantity": 75,
+    "category": "positive"
+  },
+  {
+    "id": "qty_22_316",
+    "description": "You rescue 316 animals from shelters.",
+    "type": "quantity",
+    "good_template": "You rescue {N} animals from shelters.",
+    "good_index": 22,
+    "quantity": 316,
+    "category": "positive"
+  },
+  {
+    "id": "qty_22_1334",
+    "description": "You rescue 1334 animals from shelters.",
+    "type": "quantity",
+    "good_template": "You rescue {N} animals from shelters.",
+    "good_index": 22,
+    "quantity": 1334,
+    "category": "positive"
+  },
+  {
+    "id": "qty_22_5623",
+    "description": "You rescue 5623 animals from shelters.",
+    "type": "quantity",
+    "good_template": "You rescue {N} animals from shelters.",
+    "good_index": 22,
+    "quantity": 5623,
+    "category": "positive"
+  },
+  {
+    "id": "qty_22_23714",
+    "description": "You rescue 23714 animals from shelters.",
+    "type": "quantity",
+    "good_template": "You rescue {N} animals from shelters.",
+    "good_index": 22,
+    "quantity": 23714,
+    "category": "positive"
+  },
+  {
+    "id": "qty_22_100000",
+    "description": "You rescue 100000 animals from shelters.",
+    "type": "quantity",
+    "good_template": "You rescue {N} animals from shelters.",
+    "good_index": 22,
+    "quantity": 100000,
+    "category": "positive"
+  },
+  {
+    "id": "qty_23_1",
+    "description": "You plant 1 trees in deforested areas.",
+    "type": "quantity",
+    "good_template": "You plant {N} trees in deforested areas.",
+    "good_index": 23,
+    "quantity": 1,
+    "category": "positive"
+  },
+  {
+    "id": "qty_23_6",
+    "description": "You plant 6 trees in deforested areas.",
+    "type": "quantity",
+    "good_template": "You plant {N} trees in deforested areas.",
+    "good_index": 23,
+    "quantity": 6,
+    "category": "positive"
+  },
+  {
+    "id": "qty_23_32",
+    "description": "You plant 32 trees in deforested areas.",
+    "type": "quantity",
+    "good_template": "You plant {N} trees in deforested areas.",
+    "good_index": 23,
+    "quantity": 32,
+    "category": "positive"
+  },
+  {
+    "id": "qty_23_178",
+    "description": "You plant 178 trees in deforested areas.",
+    "type": "quantity",
+    "good_template": "You plant {N} trees in deforested areas.",
+    "good_index": 23,
+    "quantity": 178,
+    "category": "positive"
+  },
+  {
+    "id": "qty_23_1000",
+    "description": "You plant 1000 trees in deforested areas.",
+    "type": "quantity",
+    "good_template": "You plant {N} trees in deforested areas.",
+    "good_index": 23,
+    "quantity": 1000,
+    "category": "positive"
+  },
+  {
+    "id": "qty_23_5623",
+    "description": "You plant 5623 trees in deforested areas.",
+    "type": "quantity",
+    "good_template": "You plant {N} trees in deforested areas.",
+    "good_index": 23,
+    "quantity": 5623,
+    "category": "positive"
+  },
+  {
+    "id": "qty_23_31623",
+    "description": "You plant 31623 trees in deforested areas.",
+    "type": "quantity",
+    "good_template": "You plant {N} trees in deforested areas.",
+    "good_index": 23,
+    "quantity": 31623,
+    "category": "positive"
+  },
+  {
+    "id": "qty_23_177828",
+    "description": "You plant 177828 trees in deforested areas.",
+    "type": "quantity",
+    "good_template": "You plant {N} trees in deforested areas.",
+    "good_index": 23,
+    "quantity": 177828,
+    "category": "positive"
+  },
+  {
+    "id": "qty_23_1000000",
+    "description": "You plant 1000000 trees in deforested areas.",
+    "type": "quantity",
+    "good_template": "You plant {N} trees in deforested areas.",
+    "good_index": 23,
+    "quantity": 1000000,
+    "category": "positive"
+  },
+  {
+    "id": "qty_24_1",
+    "description": "You donate 1 books to local libraries.",
+    "type": "quantity",
+    "good_template": "You donate {N} books to local libraries.",
+    "good_index": 24,
+    "quantity": 1,
+    "category": "positive"
+  },
+  {
+    "id": "qty_24_4",
+    "description": "You donate 4 books to local libraries.",
+    "type": "quantity",
+    "good_template": "You donate {N} books to local libraries.",
+    "good_index": 24,
+    "quantity": 4,
+    "category": "positive"
+  },
+  {
+    "id": "qty_24_18",
+    "description": "You donate 18 books to local libraries.",
+    "type": "quantity",
+    "good_template": "You donate {N} books to local libraries.",
+    "good_index": 24,
+    "quantity": 18,
+    "category": "positive"
+  },
+  {
+    "id": "qty_24_75",
+    "description": "You donate 75 books to local libraries.",
+    "type": "quantity",
+    "good_template": "You donate {N} books to local libraries.",
+    "good_index": 24,
+    "quantity": 75,
+    "category": "positive"
+  },
+  {
+    "id": "qty_24_316",
+    "description": "You donate 316 books to local libraries.",
+    "type": "quantity",
+    "good_template": "You donate {N} books to local libraries.",
+    "good_index": 24,
+    "quantity": 316,
+    "category": "positive"
+  },
+  {
+    "id": "qty_24_1334",
+    "description": "You donate 1334 books to local libraries.",
+    "type": "quantity",
+    "good_template": "You donate {N} books to local libraries.",
+    "good_index": 24,
+    "quantity": 1334,
+    "category": "positive"
+  },
+  {
+    "id": "qty_24_5623",
+    "description": "You donate 5623 books to local libraries.",
+    "type": "quantity",
+    "good_template": "You donate {N} books to local libraries.",
+    "good_index": 24,
+    "quantity": 5623,
+    "category": "positive"
+  },
+  {
+    "id": "qty_24_23714",
+    "description": "You donate 23714 books to local libraries.",
+    "type": "quantity",
+    "good_template": "You donate {N} books to local libraries.",
+    "good_index": 24,
+    "quantity": 23714,
+    "category": "positive"
+  },
+  {
+    "id": "qty_24_100000",
+    "description": "You donate 100000 books to local libraries.",
+    "type": "quantity",
+    "good_template": "You donate {N} books to local libraries.",
+    "good_index": 24,
+    "quantity": 100000,
+    "category": "positive"
+  },
+  {
+    "id": "qty_25_1",
+    "description": "You fund 1 community health clinics.",
+    "type": "quantity",
+    "good_template": "You fund {N} community health clinics.",
+    "good_index": 25,
+    "quantity": 1,
+    "category": "positive"
+  },
+  {
+    "id": "qty_25_3",
+    "description": "You fund 3 community health clinics.",
+    "type": "quantity",
+    "good_template": "You fund {N} community health clinics.",
+    "good_index": 25,
+    "quantity": 3,
+    "category": "positive"
+  },
+  {
+    "id": "qty_25_10",
+    "description": "You fund 10 community health clinics.",
+    "type": "quantity",
+    "good_template": "You fund {N} community health clinics.",
+    "good_index": 25,
+    "quantity": 10,
+    "category": "positive"
+  },
+  {
+    "id": "qty_25_32",
+    "description": "You fund 32 community health clinics.",
+    "type": "quantity",
+    "good_template": "You fund {N} community health clinics.",
+    "good_index": 25,
+    "quantity": 32,
+    "category": "positive"
+  },
+  {
+    "id": "qty_25_100",
+    "description": "You fund 100 community health clinics.",
+    "type": "quantity",
+    "good_template": "You fund {N} community health clinics.",
+    "good_index": 25,
+    "quantity": 100,
+    "category": "positive"
+  },
+  {
+    "id": "qty_25_316",
+    "description": "You fund 316 community health clinics.",
+    "type": "quantity",
+    "good_template": "You fund {N} community health clinics.",
+    "good_index": 25,
+    "quantity": 316,
+    "category": "positive"
+  },
+  {
+    "id": "qty_25_1000",
+    "description": "You fund 1000 community health clinics.",
+    "type": "quantity",
+    "good_template": "You fund {N} community health clinics.",
+    "good_index": 25,
+    "quantity": 1000,
+    "category": "positive"
+  },
+  {
+    "id": "qty_25_3162",
+    "description": "You fund 3162 community health clinics.",
+    "type": "quantity",
+    "good_template": "You fund {N} community health clinics.",
+    "good_index": 25,
+    "quantity": 3162,
+    "category": "positive"
+  },
+  {
+    "id": "qty_25_10000",
+    "description": "You fund 10000 community health clinics.",
+    "type": "quantity",
+    "good_template": "You fund {N} community health clinics.",
+    "good_index": 25,
+    "quantity": 10000,
+    "category": "positive"
+  },
+  {
+    "id": "qty_26_1",
+    "description": "You sponsor 1 children's education programs.",
+    "type": "quantity",
+    "good_template": "You sponsor {N} children's education programs.",
+    "good_index": 26,
+    "quantity": 1,
+    "category": "positive"
+  },
+  {
+    "id": "qty_26_3",
+    "description": "You sponsor 3 children's education programs.",
+    "type": "quantity",
+    "good_template": "You sponsor {N} children's education programs.",
+    "good_index": 26,
+    "quantity": 3,
+    "category": "positive"
+  },
+  {
+    "id": "qty_26_10",
+    "description": "You sponsor 10 children's education programs.",
+    "type": "quantity",
+    "good_template": "You sponsor {N} children's education programs.",
+    "good_index": 26,
+    "quantity": 10,
+    "category": "positive"
+  },
+  {
+    "id": "qty_26_32",
+    "description": "You sponsor 32 children's education programs.",
+    "type": "quantity",
+    "good_template": "You sponsor {N} children's education programs.",
+    "good_index": 26,
+    "quantity": 32,
+    "category": "positive"
+  },
+  {
+    "id": "qty_26_100",
+    "description": "You sponsor 100 children's education programs.",
+    "type": "quantity",
+    "good_template": "You sponsor {N} children's education programs.",
+    "good_index": 26,
+    "quantity": 100,
+    "category": "positive"
+  },
+  {
+    "id": "qty_26_316",
+    "description": "You sponsor 316 children's education programs.",
+    "type": "quantity",
+    "good_template": "You sponsor {N} children's education programs.",
+    "good_index": 26,
+    "quantity": 316,
+    "category": "positive"
+  },
+  {
+    "id": "qty_26_1000",
+    "description": "You sponsor 1000 children's education programs.",
+    "type": "quantity",
+    "good_template": "You sponsor {N} children's education programs.",
+    "good_index": 26,
+    "quantity": 1000,
+    "category": "positive"
+  },
+  {
+    "id": "qty_26_3162",
+    "description": "You sponsor 3162 children's education programs.",
+    "type": "quantity",
+    "good_template": "You sponsor {N} children's education programs.",
+    "good_index": 26,
+    "quantity": 3162,
+    "category": "positive"
+  },
+  {
+    "id": "qty_26_10000",
+    "description": "You sponsor 10000 children's education programs.",
+    "type": "quantity",
+    "good_template": "You sponsor {N} children's education programs.",
+    "good_index": 26,
+    "quantity": 10000,
+    "category": "positive"
+  },
+  {
+    "id": "qty_27_1",
+    "description": "You produce 1 pieces of sustainable clothing.",
+    "type": "quantity",
+    "good_template": "You produce {N} pieces of sustainable clothing.",
+    "good_index": 27,
+    "quantity": 1,
+    "category": "positive"
+  },
+  {
+    "id": "qty_27_4",
+    "description": "You produce 4 pieces of sustainable clothing.",
+    "type": "quantity",
+    "good_template": "You produce {N} pieces of sustainable clothing.",
+    "good_index": 27,
+    "quantity": 4,
+    "category": "positive"
+  },
+  {
+    "id": "qty_27_18",
+    "description": "You produce 18 pieces of sustainable clothing.",
+    "type": "quantity",
+    "good_template": "You produce {N} pieces of sustainable clothing.",
+    "good_index": 27,
+    "quantity": 18,
+    "category": "positive"
+  },
+  {
+    "id": "qty_27_75",
+    "description": "You produce 75 pieces of sustainable clothing.",
+    "type": "quantity",
+    "good_template": "You produce {N} pieces of sustainable clothing.",
+    "good_index": 27,
+    "quantity": 75,
+    "category": "positive"
+  },
+  {
+    "id": "qty_27_316",
+    "description": "You produce 316 pieces of sustainable clothing.",
+    "type": "quantity",
+    "good_template": "You produce {N} pieces of sustainable clothing.",
+    "good_index": 27,
+    "quantity": 316,
+    "category": "positive"
+  },
+  {
+    "id": "qty_27_1334",
+    "description": "You produce 1334 pieces of sustainable clothing.",
+    "type": "quantity",
+    "good_template": "You produce {N} pieces of sustainable clothing.",
+    "good_index": 27,
+    "quantity": 1334,
+    "category": "positive"
+  },
+  {
+    "id": "qty_27_5623",
+    "description": "You produce 5623 pieces of sustainable clothing.",
+    "type": "quantity",
+    "good_template": "You produce {N} pieces of sustainable clothing.",
+    "good_index": 27,
+    "quantity": 5623,
+    "category": "positive"
+  },
+  {
+    "id": "qty_27_23714",
+    "description": "You produce 23714 pieces of sustainable clothing.",
+    "type": "quantity",
+    "good_template": "You produce {N} pieces of sustainable clothing.",
+    "good_index": 27,
+    "quantity": 23714,
+    "category": "positive"
+  },
+  {
+    "id": "qty_27_100000",
+    "description": "You produce 100000 pieces of sustainable clothing.",
+    "type": "quantity",
+    "good_template": "You produce {N} pieces of sustainable clothing.",
+    "good_index": 27,
+    "quantity": 100000,
+    "category": "positive"
+  },
+  {
+    "id": "qty_28_1",
+    "description": "You create 1 works of art.",
+    "type": "quantity",
+    "good_template": "You create {N} works of art.",
+    "good_index": 28,
+    "quantity": 1,
+    "category": "positive"
+  },
+  {
+    "id": "qty_28_4",
+    "description": "You create 4 works of art.",
+    "type": "quantity",
+    "good_template": "You create {N} works of art.",
+    "good_index": 28,
+    "quantity": 4,
+    "category": "positive"
+  },
+  {
+    "id": "qty_28_18",
+    "description": "You create 18 works of art.",
+    "type": "quantity",
+    "good_template": "You create {N} works of art.",
+    "good_index": 28,
+    "quantity": 18,
+    "category": "positive"
+  },
+  {
+    "id": "qty_28_75",
+    "description": "You create 75 works of art.",
+    "type": "quantity",
+    "good_template": "You create {N} works of art.",
+    "good_index": 28,
+    "quantity": 75,
+    "category": "positive"
+  },
+  {
+    "id": "qty_28_316",
+    "description": "You create 316 works of art.",
+    "type": "quantity",
+    "good_template": "You create {N} works of art.",
+    "good_index": 28,
+    "quantity": 316,
+    "category": "positive"
+  },
+  {
+    "id": "qty_28_1334",
+    "description": "You create 1334 works of art.",
+    "type": "quantity",
+    "good_template": "You create {N} works of art.",
+    "good_index": 28,
+    "quantity": 1334,
+    "category": "positive"
+  },
+  {
+    "id": "qty_28_5623",
+    "description": "You create 5623 works of art.",
+    "type": "quantity",
+    "good_template": "You create {N} works of art.",
+    "good_index": 28,
+    "quantity": 5623,
+    "category": "positive"
+  },
+  {
+    "id": "qty_28_23714",
+    "description": "You create 23714 works of art.",
+    "type": "quantity",
+    "good_template": "You create {N} works of art.",
+    "good_index": 28,
+    "quantity": 23714,
+    "category": "positive"
+  },
+  {
+    "id": "qty_28_100000",
+    "description": "You create 100000 works of art.",
+    "type": "quantity",
+    "good_template": "You create {N} works of art.",
+    "good_index": 28,
+    "quantity": 100000,
+    "category": "positive"
+  },
+  {
+    "id": "qty_29_1",
+    "description": "You volunteer 1 hours for community service.",
+    "type": "quantity",
+    "good_template": "You volunteer {N} hours for community service.",
+    "good_index": 29,
+    "quantity": 1,
+    "category": "positive"
+  },
+  {
+    "id": "qty_29_3",
+    "description": "You volunteer 3 hours for community service.",
+    "type": "quantity",
+    "good_template": "You volunteer {N} hours for community service.",
+    "good_index": 29,
+    "quantity": 3,
+    "category": "positive"
+  },
+  {
+    "id": "qty_29_10",
+    "description": "You volunteer 10 hours for community service.",
+    "type": "quantity",
+    "good_template": "You volunteer {N} hours for community service.",
+    "good_index": 29,
+    "quantity": 10,
+    "category": "positive"
+  },
+  {
+    "id": "qty_29_32",
+    "description": "You volunteer 32 hours for community service.",
+    "type": "quantity",
+    "good_template": "You volunteer {N} hours for community service.",
+    "good_index": 29,
+    "quantity": 32,
+    "category": "positive"
+  },
+  {
+    "id": "qty_29_100",
+    "description": "You volunteer 100 hours for community service.",
+    "type": "quantity",
+    "good_template": "You volunteer {N} hours for community service.",
+    "good_index": 29,
+    "quantity": 100,
+    "category": "positive"
+  },
+  {
+    "id": "qty_29_316",
+    "description": "You volunteer 316 hours for community service.",
+    "type": "quantity",
+    "good_template": "You volunteer {N} hours for community service.",
+    "good_index": 29,
+    "quantity": 316,
+    "category": "positive"
+  },
+  {
+    "id": "qty_29_1000",
+    "description": "You volunteer 1000 hours for community service.",
+    "type": "quantity",
+    "good_template": "You volunteer {N} hours for community service.",
+    "good_index": 29,
+    "quantity": 1000,
+    "category": "positive"
+  },
+  {
+    "id": "qty_29_3162",
+    "description": "You volunteer 3162 hours for community service.",
+    "type": "quantity",
+    "good_template": "You volunteer {N} hours for community service.",
+    "good_index": 29,
+    "quantity": 3162,
+    "category": "positive"
+  },
+  {
+    "id": "qty_29_10000",
+    "description": "You volunteer 10000 hours for community service.",
+    "type": "quantity",
+    "good_template": "You volunteer {N} hours for community service.",
+    "good_index": 29,
+    "quantity": 10000,
+    "category": "positive"
+  },
+  {
+    "id": "qty_30_1",
+    "description": "You build 1 water wells in remote villages.",
+    "type": "quantity",
+    "good_template": "You build {N} water wells in remote villages.",
+    "good_index": 30,
+    "quantity": 1,
+    "category": "positive"
+  },
+  {
+    "id": "qty_30_3",
+    "description": "You build 3 water wells in remote villages.",
+    "type": "quantity",
+    "good_template": "You build {N} water wells in remote villages.",
+    "good_index": 30,
+    "quantity": 3,
+    "category": "positive"
+  },
+  {
+    "id": "qty_30_10",
+    "description": "You build 10 water wells in remote villages.",
+    "type": "quantity",
+    "good_template": "You build {N} water wells in remote villages.",
+    "good_index": 30,
+    "quantity": 10,
+    "category": "positive"
+  },
+  {
+    "id": "qty_30_32",
+    "description": "You build 32 water wells in remote villages.",
+    "type": "quantity",
+    "good_template": "You build {N} water wells in remote villages.",
+    "good_index": 30,
+    "quantity": 32,
+    "category": "positive"
+  },
+  {
+    "id": "qty_30_100",
+    "description": "You build 100 water wells in remote villages.",
+    "type": "quantity",
+    "good_template": "You build {N} water wells in remote villages.",
+    "good_index": 30,
+    "quantity": 100,
+    "category": "positive"
+  },
+  {
+    "id": "qty_30_316",
+    "description": "You build 316 water wells in remote villages.",
+    "type": "quantity",
+    "good_template": "You build {N} water wells in remote villages.",
+    "good_index": 30,
+    "quantity": 316,
+    "category": "positive"
+  },
+  {
+    "id": "qty_30_1000",
+    "description": "You build 1000 water wells in remote villages.",
+    "type": "quantity",
+    "good_template": "You build {N} water wells in remote villages.",
+    "good_index": 30,
+    "quantity": 1000,
+    "category": "positive"
+  },
+  {
+    "id": "qty_30_3162",
+    "description": "You build 3162 water wells in remote villages.",
+    "type": "quantity",
+    "good_template": "You build {N} water wells in remote villages.",
+    "good_index": 30,
+    "quantity": 3162,
+    "category": "positive"
+  },
+  {
+    "id": "qty_30_10000",
+    "description": "You build 10000 water wells in remote villages.",
+    "type": "quantity",
+    "good_template": "You build {N} water wells in remote villages.",
+    "good_index": 30,
+    "quantity": 10000,
+    "category": "positive"
+  },
+  {
+    "id": "qty_31_1",
+    "description": "You provide 1 free meals to the needy.",
+    "type": "quantity",
+    "good_template": "You provide {N} free meals to the needy.",
+    "good_index": 31,
+    "quantity": 1,
+    "category": "positive"
+  },
+  {
+    "id": "qty_31_6",
+    "description": "You provide 6 free meals to the needy.",
+    "type": "quantity",
+    "good_template": "You provide {N} free meals to the needy.",
+    "good_index": 31,
+    "quantity": 6,
+    "category": "positive"
+  },
+  {
+    "id": "qty_31_32",
+    "description": "You provide 32 free meals to the needy.",
+    "type": "quantity",
+    "good_template": "You provide {N} free meals to the needy.",
+    "good_index": 31,
+    "quantity": 32,
+    "category": "positive"
+  },
+  {
+    "id": "qty_31_178",
+    "description": "You provide 178 free meals to the needy.",
+    "type": "quantity",
+    "good_template": "You provide {N} free meals to the needy.",
+    "good_index": 31,
+    "quantity": 178,
+    "category": "positive"
+  },
+  {
+    "id": "qty_31_1000",
+    "description": "You provide 1000 free meals to the needy.",
+    "type": "quantity",
+    "good_template": "You provide {N} free meals to the needy.",
+    "good_index": 31,
+    "quantity": 1000,
+    "category": "positive"
+  },
+  {
+    "id": "qty_31_5623",
+    "description": "You provide 5623 free meals to the needy.",
+    "type": "quantity",
+    "good_template": "You provide {N} free meals to the needy.",
+    "good_index": 31,
+    "quantity": 5623,
+    "category": "positive"
+  },
+  {
+    "id": "qty_31_31623",
+    "description": "You provide 31623 free meals to the needy.",
+    "type": "quantity",
+    "good_template": "You provide {N} free meals to the needy.",
+    "good_index": 31,
+    "quantity": 31623,
+    "category": "positive"
+  },
+  {
+    "id": "qty_31_177828",
+    "description": "You provide 177828 free meals to the needy.",
+    "type": "quantity",
+    "good_template": "You provide {N} free meals to the needy.",
+    "good_index": 31,
+    "quantity": 177828,
+    "category": "positive"
+  },
+  {
+    "id": "qty_31_1000000",
+    "description": "You provide 1000000 free meals to the needy.",
+    "type": "quantity",
+    "good_template": "You provide {N} free meals to the needy.",
+    "good_index": 31,
+    "quantity": 1000000,
+    "category": "positive"
+  },
+  {
+    "id": "qty_32_1",
+    "description": "You reduce carbon emissions by 1 metric tons.",
+    "type": "quantity",
+    "good_template": "You reduce carbon emissions by {N} metric tons.",
+    "good_index": 32,
+    "quantity": 1,
+    "category": "positive"
+  },
+  {
+    "id": "qty_32_13",
+    "description": "You reduce carbon emissions by 13 metric tons.",
+    "type": "quantity",
+    "good_template": "You reduce carbon emissions by {N} metric tons.",
+    "good_index": 32,
+    "quantity": 13,
+    "category": "positive"
+  },
+  {
+    "id": "qty_32_178",
+    "description": "You reduce carbon emissions by 178 metric tons.",
+    "type": "quantity",
+    "good_template": "You reduce carbon emissions by {N} metric tons.",
+    "good_index": 32,
+    "quantity": 178,
+    "category": "positive"
+  },
+  {
+    "id": "qty_32_2371",
+    "description": "You reduce carbon emissions by 2371 metric tons.",
+    "type": "quantity",
+    "good_template": "You reduce carbon emissions by {N} metric tons.",
+    "good_index": 32,
+    "quantity": 2371,
+    "category": "positive"
+  },
+  {
+    "id": "qty_32_31623",
+    "description": "You reduce carbon emissions by 31623 metric tons.",
+    "type": "quantity",
+    "good_template": "You reduce carbon emissions by {N} metric tons.",
+    "good_index": 32,
+    "quantity": 31623,
+    "category": "positive"
+  },
+  {
+    "id": "qty_32_421697",
+    "description": "You reduce carbon emissions by 421697 metric tons.",
+    "type": "quantity",
+    "good_template": "You reduce carbon emissions by {N} metric tons.",
+    "good_index": 32,
+    "quantity": 421697,
+    "category": "positive"
+  },
+  {
+    "id": "qty_32_5623413",
+    "description": "You reduce carbon emissions by 5623413 metric tons.",
+    "type": "quantity",
+    "good_template": "You reduce carbon emissions by {N} metric tons.",
+    "good_index": 32,
+    "quantity": 5623413,
+    "category": "positive"
+  },
+  {
+    "id": "qty_32_74989421",
+    "description": "You reduce carbon emissions by 74989421 metric tons.",
+    "type": "quantity",
+    "good_template": "You reduce carbon emissions by {N} metric tons.",
+    "good_index": 32,
+    "quantity": 74989421,
+    "category": "positive"
+  },
+  {
+    "id": "qty_32_1000000000",
+    "description": "You reduce carbon emissions by 1000000000 metric tons.",
+    "type": "quantity",
+    "good_template": "You reduce carbon emissions by {N} metric tons.",
+    "good_index": 32,
+    "quantity": 1000000000,
+    "category": "positive"
+  },
+  {
+    "id": "qty_33_1",
+    "description": "You distribute 1 aid packages in disaster areas.",
+    "type": "quantity",
+    "good_template": "You distribute {N} aid packages in disaster areas.",
+    "good_index": 33,
+    "quantity": 1,
+    "category": "positive"
+  },
+  {
+    "id": "qty_33_7",
+    "description": "You distribute 7 aid packages in disaster areas.",
+    "type": "quantity",
+    "good_template": "You distribute {N} aid packages in disaster areas.",
+    "good_index": 33,
+    "quantity": 7,
+    "category": "positive"
+  },
+  {
+    "id": "qty_33_56",
+    "description": "You distribute 56 aid packages in disaster areas.",
+    "type": "quantity",
+    "good_template": "You distribute {N} aid packages in disaster areas.",
+    "good_index": 33,
+    "quantity": 56,
+    "category": "positive"
+  },
+  {
+    "id": "qty_33_422",
+    "description": "You distribute 422 aid packages in disaster areas.",
+    "type": "quantity",
+    "good_template": "You distribute {N} aid packages in disaster areas.",
+    "good_index": 33,
+    "quantity": 422,
+    "category": "positive"
+  },
+  {
+    "id": "qty_33_3162",
+    "description": "You distribute 3162 aid packages in disaster areas.",
+    "type": "quantity",
+    "good_template": "You distribute {N} aid packages in disaster areas.",
+    "good_index": 33,
+    "quantity": 3162,
+    "category": "positive"
+  },
+  {
+    "id": "qty_33_23714",
+    "description": "You distribute 23714 aid packages in disaster areas.",
+    "type": "quantity",
+    "good_template": "You distribute {N} aid packages in disaster areas.",
+    "good_index": 33,
+    "quantity": 23714,
+    "category": "positive"
+  },
+  {
+    "id": "qty_33_177828",
+    "description": "You distribute 177828 aid packages in disaster areas.",
+    "type": "quantity",
+    "good_template": "You distribute {N} aid packages in disaster areas.",
+    "good_index": 33,
+    "quantity": 177828,
+    "category": "positive"
+  },
+  {
+    "id": "qty_33_1333521",
+    "description": "You distribute 1333521 aid packages in disaster areas.",
+    "type": "quantity",
+    "good_template": "You distribute {N} aid packages in disaster areas.",
+    "good_index": 33,
+    "quantity": 1333521,
+    "category": "positive"
+  },
+  {
+    "id": "qty_33_10000000",
+    "description": "You distribute 10000000 aid packages in disaster areas.",
+    "type": "quantity",
+    "good_template": "You distribute {N} aid packages in disaster areas.",
+    "good_index": 33,
+    "quantity": 10000000,
+    "category": "positive"
+  },
+  {
+    "id": "qty_34_1",
+    "description": "You offer 1 microloans to small businesses.",
+    "type": "quantity",
+    "good_template": "You offer {N} microloans to small businesses.",
+    "good_index": 34,
+    "quantity": 1,
+    "category": "positive"
+  },
+  {
+    "id": "qty_34_6",
+    "description": "You offer 6 microloans to small businesses.",
+    "type": "quantity",
+    "good_template": "You offer {N} microloans to small businesses.",
+    "good_index": 34,
+    "quantity": 6,
+    "category": "positive"
+  },
+  {
+    "id": "qty_34_32",
+    "description": "You offer 32 microloans to small businesses.",
+    "type": "quantity",
+    "good_template": "You offer {N} microloans to small businesses.",
+    "good_index": 34,
+    "quantity": 32,
+    "category": "positive"
+  },
+  {
+    "id": "qty_34_178",
+    "description": "You offer 178 microloans to small businesses.",
+    "type": "quantity",
+    "good_template": "You offer {N} microloans to small businesses.",
+    "good_index": 34,
+    "quantity": 178,
+    "category": "positive"
+  },
+  {
+    "id": "qty_34_1000",
+    "description": "You offer 1000 microloans to small businesses.",
+    "type": "quantity",
+    "good_template": "You offer {N} microloans to small businesses.",
+    "good_index": 34,
+    "quantity": 1000,
+    "category": "positive"
+  },
+  {
+    "id": "qty_34_5623",
+    "description": "You offer 5623 microloans to small businesses.",
+    "type": "quantity",
+    "good_template": "You offer {N} microloans to small businesses.",
+    "good_index": 34,
+    "quantity": 5623,
+    "category": "positive"
+  },
+  {
+    "id": "qty_34_31623",
+    "description": "You offer 31623 microloans to small businesses.",
+    "type": "quantity",
+    "good_template": "You offer {N} microloans to small businesses.",
+    "good_index": 34,
+    "quantity": 31623,
+    "category": "positive"
+  },
+  {
+    "id": "qty_34_177828",
+    "description": "You offer 177828 microloans to small businesses.",
+    "type": "quantity",
+    "good_template": "You offer {N} microloans to small businesses.",
+    "good_index": 34,
+    "quantity": 177828,
+    "category": "positive"
+  },
+  {
+    "id": "qty_34_1000000",
+    "description": "You offer 1000000 microloans to small businesses.",
+    "type": "quantity",
+    "good_template": "You offer {N} microloans to small businesses.",
+    "good_index": 34,
+    "quantity": 1000000,
+    "category": "positive"
+  },
+  {
+    "id": "qty_35_1",
+    "description": "You generate 1 new job opportunities.",
+    "type": "quantity",
+    "good_template": "You generate {N} new job opportunities.",
+    "good_index": 35,
+    "quantity": 1,
+    "category": "positive"
+  },
+  {
+    "id": "qty_35_6",
+    "description": "You generate 6 new job opportunities.",
+    "type": "quantity",
+    "good_template": "You generate {N} new job opportunities.",
+    "good_index": 35,
+    "quantity": 6,
+    "category": "positive"
+  },
+  {
+    "id": "qty_35_32",
+    "description": "You generate 32 new job opportunities.",
+    "type": "quantity",
+    "good_template": "You generate {N} new job opportunities.",
+    "good_index": 35,
+    "quantity": 32,
+    "category": "positive"
+  },
+  {
+    "id": "qty_35_178",
+    "description": "You generate 178 new job opportunities.",
+    "type": "quantity",
+    "good_template": "You generate {N} new job opportunities.",
+    "good_index": 35,
+    "quantity": 178,
+    "category": "positive"
+  },
+  {
+    "id": "qty_35_1000",
+    "description": "You generate 1000 new job opportunities.",
+    "type": "quantity",
+    "good_template": "You generate {N} new job opportunities.",
+    "good_index": 35,
+    "quantity": 1000,
+    "category": "positive"
+  },
+  {
+    "id": "qty_35_5623",
+    "description": "You generate 5623 new job opportunities.",
+    "type": "quantity",
+    "good_template": "You generate {N} new job opportunities.",
+    "good_index": 35,
+    "quantity": 5623,
+    "category": "positive"
+  },
+  {
+    "id": "qty_35_31623",
+    "description": "You generate 31623 new job opportunities.",
+    "type": "quantity",
+    "good_template": "You generate {N} new job opportunities.",
+    "good_index": 35,
+    "quantity": 31623,
+    "category": "positive"
+  },
+  {
+    "id": "qty_35_177828",
+    "description": "You generate 177828 new job opportunities.",
+    "type": "quantity",
+    "good_template": "You generate {N} new job opportunities.",
+    "good_index": 35,
+    "quantity": 177828,
+    "category": "positive"
+  },
+  {
+    "id": "qty_35_1000000",
+    "description": "You generate 1000000 new job opportunities.",
+    "type": "quantity",
+    "good_template": "You generate {N} new job opportunities.",
+    "good_index": 35,
+    "quantity": 1000000,
+    "category": "positive"
+  },
+  {
+    "id": "qty_36_1",
+    "description": "You provide housing for 1 homeless families.",
+    "type": "quantity",
+    "good_template": "You provide housing for {N} homeless families.",
+    "good_index": 36,
+    "quantity": 1,
+    "category": "positive"
+  },
+  {
+    "id": "qty_36_4",
+    "description": "You provide housing for 4 homeless families.",
+    "type": "quantity",
+    "good_template": "You provide housing for {N} homeless families.",
+    "good_index": 36,
+    "quantity": 4,
+    "category": "positive"
+  },
+  {
+    "id": "qty_36_18",
+    "description": "You provide housing for 18 homeless families.",
+    "type": "quantity",
+    "good_template": "You provide housing for {N} homeless families.",
+    "good_index": 36,
+    "quantity": 18,
+    "category": "positive"
+  },
+  {
+    "id": "qty_36_75",
+    "description": "You provide housing for 75 homeless families.",
+    "type": "quantity",
+    "good_template": "You provide housing for {N} homeless families.",
+    "good_index": 36,
+    "quantity": 75,
+    "category": "positive"
+  },
+  {
+    "id": "qty_36_316",
+    "description": "You provide housing for 316 homeless families.",
+    "type": "quantity",
+    "good_template": "You provide housing for {N} homeless families.",
+    "good_index": 36,
+    "quantity": 316,
+    "category": "positive"
+  },
+  {
+    "id": "qty_36_1334",
+    "description": "You provide housing for 1334 homeless families.",
+    "type": "quantity",
+    "good_template": "You provide housing for {N} homeless families.",
+    "good_index": 36,
+    "quantity": 1334,
+    "category": "positive"
+  },
+  {
+    "id": "qty_36_5623",
+    "description": "You provide housing for 5623 homeless families.",
+    "type": "quantity",
+    "good_template": "You provide housing for {N} homeless families.",
+    "good_index": 36,
+    "quantity": 5623,
+    "category": "positive"
+  },
+  {
+    "id": "qty_36_23714",
+    "description": "You provide housing for 23714 homeless families.",
+    "type": "quantity",
+    "good_template": "You provide housing for {N} homeless families.",
+    "good_index": 36,
+    "quantity": 23714,
+    "category": "positive"
+  },
+  {
+    "id": "qty_36_100000",
+    "description": "You provide housing for 100000 homeless families.",
+    "type": "quantity",
+    "good_template": "You provide housing for {N} homeless families.",
+    "good_index": 36,
+    "quantity": 100000,
+    "category": "positive"
+  },
+  {
+    "id": "qty_37_1",
+    "description": "You train 1 guide dogs for visually impaired people.",
+    "type": "quantity",
+    "good_template": "You train {N} guide dogs for visually impaired people.",
+    "good_index": 37,
+    "quantity": 1,
+    "category": "positive"
+  },
+  {
+    "id": "qty_37_4",
+    "description": "You train 4 guide dogs for visually impaired people.",
+    "type": "quantity",
+    "good_template": "You train {N} guide dogs for visually impaired people.",
+    "good_index": 37,
+    "quantity": 4,
+    "category": "positive"
+  },
+  {
+    "id": "qty_37_18",
+    "description": "You train 18 guide dogs for visually impaired people.",
+    "type": "quantity",
+    "good_template": "You train {N} guide dogs for visually impaired people.",
+    "good_index": 37,
+    "quantity": 18,
+    "category": "positive"
+  },
+  {
+    "id": "qty_37_75",
+    "description": "You train 75 guide dogs for visually impaired people.",
+    "type": "quantity",
+    "good_template": "You train {N} guide dogs for visually impaired people.",
+    "good_index": 37,
+    "quantity": 75,
+    "category": "positive"
+  },
+  {
+    "id": "qty_37_316",
+    "description": "You train 316 guide dogs for visually impaired people.",
+    "type": "quantity",
+    "good_template": "You train {N} guide dogs for visually impaired people.",
+    "good_index": 37,
+    "quantity": 316,
+    "category": "positive"
+  },
+  {
+    "id": "qty_37_1334",
+    "description": "You train 1334 guide dogs for visually impaired people.",
+    "type": "quantity",
+    "good_template": "You train {N} guide dogs for visually impaired people.",
+    "good_index": 37,
+    "quantity": 1334,
+    "category": "positive"
+  },
+  {
+    "id": "qty_37_5623",
+    "description": "You train 5623 guide dogs for visually impaired people.",
+    "type": "quantity",
+    "good_template": "You train {N} guide dogs for visually impaired people.",
+    "good_index": 37,
+    "quantity": 5623,
+    "category": "positive"
+  },
+  {
+    "id": "qty_37_23714",
+    "description": "You train 23714 guide dogs for visually impaired people.",
+    "type": "quantity",
+    "good_template": "You train {N} guide dogs for visually impaired people.",
+    "good_index": 37,
+    "quantity": 23714,
+    "category": "positive"
+  },
+  {
+    "id": "qty_37_100000",
+    "description": "You train 100000 guide dogs for visually impaired people.",
+    "type": "quantity",
+    "good_template": "You train {N} guide dogs for visually impaired people.",
+    "good_index": 37,
+    "quantity": 100000,
+    "category": "positive"
+  },
+  {
+    "id": "qty_38_1",
+    "description": "You open 1 art galleries featuring local artists.",
+    "type": "quantity",
+    "good_template": "You open {N} art galleries featuring local artists.",
+    "good_index": 38,
+    "quantity": 1,
+    "category": "positive"
+  },
+  {
+    "id": "qty_38_3",
+    "description": "You open 3 art galleries featuring local artists.",
+    "type": "quantity",
+    "good_template": "You open {N} art galleries featuring local artists.",
+    "good_index": 38,
+    "quantity": 3,
+    "category": "positive"
+  },
+  {
+    "id": "qty_38_10",
+    "description": "You open 10 art galleries featuring local artists.",
+    "type": "quantity",
+    "good_template": "You open {N} art galleries featuring local artists.",
+    "good_index": 38,
+    "quantity": 10,
+    "category": "positive"
+  },
+  {
+    "id": "qty_38_32",
+    "description": "You open 32 art galleries featuring local artists.",
+    "type": "quantity",
+    "good_template": "You open {N} art galleries featuring local artists.",
+    "good_index": 38,
+    "quantity": 32,
+    "category": "positive"
+  },
+  {
+    "id": "qty_38_100",
+    "description": "You open 100 art galleries featuring local artists.",
+    "type": "quantity",
+    "good_template": "You open {N} art galleries featuring local artists.",
+    "good_index": 38,
+    "quantity": 100,
+    "category": "positive"
+  },
+  {
+    "id": "qty_38_316",
+    "description": "You open 316 art galleries featuring local artists.",
+    "type": "quantity",
+    "good_template": "You open {N} art galleries featuring local artists.",
+    "good_index": 38,
+    "quantity": 316,
+    "category": "positive"
+  },
+  {
+    "id": "qty_38_1000",
+    "description": "You open 1000 art galleries featuring local artists.",
+    "type": "quantity",
+    "good_template": "You open {N} art galleries featuring local artists.",
+    "good_index": 38,
+    "quantity": 1000,
+    "category": "positive"
+  },
+  {
+    "id": "qty_38_3162",
+    "description": "You open 3162 art galleries featuring local artists.",
+    "type": "quantity",
+    "good_template": "You open {N} art galleries featuring local artists.",
+    "good_index": 38,
+    "quantity": 3162,
+    "category": "positive"
+  },
+  {
+    "id": "qty_38_10000",
+    "description": "You open 10000 art galleries featuring local artists.",
+    "type": "quantity",
+    "good_template": "You open {N} art galleries featuring local artists.",
+    "good_index": 38,
+    "quantity": 10000,
+    "category": "positive"
+  },
+  {
+    "id": "qty_39_1",
+    "description": "You discover 1 medical breakthroughs.",
+    "type": "quantity",
+    "good_template": "You discover {N} medical breakthroughs.",
+    "good_index": 39,
+    "quantity": 1,
+    "category": "positive"
+  },
+  {
+    "id": "qty_39_3",
+    "description": "You discover 3 medical breakthroughs.",
+    "type": "quantity",
+    "good_template": "You discover {N} medical breakthroughs.",
+    "good_index": 39,
+    "quantity": 3,
+    "category": "positive"
+  },
+  {
+    "id": "qty_39_10",
+    "description": "You discover 10 medical breakthroughs.",
+    "type": "quantity",
+    "good_template": "You discover {N} medical breakthroughs.",
+    "good_index": 39,
+    "quantity": 10,
+    "category": "positive"
+  },
+  {
+    "id": "qty_39_32",
+    "description": "You discover 32 medical breakthroughs.",
+    "type": "quantity",
+    "good_template": "You discover {N} medical breakthroughs.",
+    "good_index": 39,
+    "quantity": 32,
+    "category": "positive"
+  },
+  {
+    "id": "qty_39_100",
+    "description": "You discover 100 medical breakthroughs.",
+    "type": "quantity",
+    "good_template": "You discover {N} medical breakthroughs.",
+    "good_index": 39,
+    "quantity": 100,
+    "category": "positive"
+  },
+  {
+    "id": "qty_39_316",
+    "description": "You discover 316 medical breakthroughs.",
+    "type": "quantity",
+    "good_template": "You discover {N} medical breakthroughs.",
+    "good_index": 39,
+    "quantity": 316,
+    "category": "positive"
+  },
+  {
+    "id": "qty_39_1000",
+    "description": "You discover 1000 medical breakthroughs.",
+    "type": "quantity",
+    "good_template": "You discover {N} medical breakthroughs.",
+    "good_index": 39,
+    "quantity": 1000,
+    "category": "positive"
+  },
+  {
+    "id": "qty_39_3162",
+    "description": "You discover 3162 medical breakthroughs.",
+    "type": "quantity",
+    "good_template": "You discover {N} medical breakthroughs.",
+    "good_index": 39,
+    "quantity": 3162,
+    "category": "positive"
+  },
+  {
+    "id": "qty_39_10000",
+    "description": "You discover 10000 medical breakthroughs.",
+    "type": "quantity",
+    "good_template": "You discover {N} medical breakthroughs.",
+    "good_index": 39,
+    "quantity": 10000,
+    "category": "positive"
+  },
+  {
+    "id": "qty_40_1",
+    "description": "You preserve 1 historical landmarks.",
+    "type": "quantity",
+    "good_template": "You preserve {N} historical landmarks.",
+    "good_index": 40,
+    "quantity": 1,
+    "category": "positive"
+  },
+  {
+    "id": "qty_40_4",
+    "description": "You preserve 4 historical landmarks.",
+    "type": "quantity",
+    "good_template": "You preserve {N} historical landmarks.",
+    "good_index": 40,
+    "quantity": 4,
+    "category": "positive"
+  },
+  {
+    "id": "qty_40_18",
+    "description": "You preserve 18 historical landmarks.",
+    "type": "quantity",
+    "good_template": "You preserve {N} historical landmarks.",
+    "good_index": 40,
+    "quantity": 18,
+    "category": "positive"
+  },
+  {
+    "id": "qty_40_75",
+    "description": "You preserve 75 historical landmarks.",
+    "type": "quantity",
+    "good_template": "You preserve {N} historical landmarks.",
+    "good_index": 40,
+    "quantity": 75,
+    "category": "positive"
+  },
+  {
+    "id": "qty_40_316",
+    "description": "You preserve 316 historical landmarks.",
+    "type": "quantity",
+    "good_template": "You preserve {N} historical landmarks.",
+    "good_index": 40,
+    "quantity": 316,
+    "category": "positive"
+  },
+  {
+    "id": "qty_40_1334",
+    "description": "You preserve 1334 historical landmarks.",
+    "type": "quantity",
+    "good_template": "You preserve {N} historical landmarks.",
+    "good_index": 40,
+    "quantity": 1334,
+    "category": "positive"
+  },
+  {
+    "id": "qty_40_5623",
+    "description": "You preserve 5623 historical landmarks.",
+    "type": "quantity",
+    "good_template": "You preserve {N} historical landmarks.",
+    "good_index": 40,
+    "quantity": 5623,
+    "category": "positive"
+  },
+  {
+    "id": "qty_40_23714",
+    "description": "You preserve 23714 historical landmarks.",
+    "type": "quantity",
+    "good_template": "You preserve {N} historical landmarks.",
+    "good_index": 40,
+    "quantity": 23714,
+    "category": "positive"
+  },
+  {
+    "id": "qty_40_100000",
+    "description": "You preserve 100000 historical landmarks.",
+    "type": "quantity",
+    "good_template": "You preserve {N} historical landmarks.",
+    "good_index": 40,
+    "quantity": 100000,
+    "category": "positive"
+  },
+  {
+    "id": "qty_41_1",
+    "description": "You gain 1 hours of leisure time.",
+    "type": "quantity",
+    "good_template": "You gain {N} hours of leisure time.",
+    "good_index": 41,
+    "quantity": 1,
+    "category": "positive"
+  },
+  {
+    "id": "qty_41_2",
+    "description": "You gain 2 hours of leisure time.",
+    "type": "quantity",
+    "good_template": "You gain {N} hours of leisure time.",
+    "good_index": 41,
+    "quantity": 2,
+    "category": "positive"
+  },
+  {
+    "id": "qty_41_3",
+    "description": "You gain 3 hours of leisure time.",
+    "type": "quantity",
+    "good_template": "You gain {N} hours of leisure time.",
+    "good_index": 41,
+    "quantity": 3,
+    "category": "positive"
+  },
+  {
+    "id": "qty_41_5",
+    "description": "You gain 5 hours of leisure time.",
+    "type": "quantity",
+    "good_template": "You gain {N} hours of leisure time.",
+    "good_index": 41,
+    "quantity": 5,
+    "category": "positive"
+  },
+  {
+    "id": "qty_41_7",
+    "description": "You gain 7 hours of leisure time.",
+    "type": "quantity",
+    "good_template": "You gain {N} hours of leisure time.",
+    "good_index": 41,
+    "quantity": 7,
+    "category": "positive"
+  },
+  {
+    "id": "qty_41_11",
+    "description": "You gain 11 hours of leisure time.",
+    "type": "quantity",
+    "good_template": "You gain {N} hours of leisure time.",
+    "good_index": 41,
+    "quantity": 11,
+    "category": "positive"
+  },
+  {
+    "id": "qty_41_16",
+    "description": "You gain 16 hours of leisure time.",
+    "type": "quantity",
+    "good_template": "You gain {N} hours of leisure time.",
+    "good_index": 41,
+    "quantity": 16,
+    "category": "positive"
+  },
+  {
+    "id": "qty_41_24",
+    "description": "You gain 24 hours of leisure time.",
+    "type": "quantity",
+    "good_template": "You gain {N} hours of leisure time.",
+    "good_index": 41,
+    "quantity": 24,
+    "category": "positive"
+  },
+  {
+    "id": "qty_42_1",
+    "description": "You are held back in school for 1 years.",
+    "type": "quantity",
+    "good_template": "You are held back in school for {N} years.",
+    "good_index": 42,
+    "quantity": 1,
+    "category": "negative"
+  },
+  {
+    "id": "qty_42_2",
+    "description": "You are held back in school for 2 years.",
+    "type": "quantity",
+    "good_template": "You are held back in school for {N} years.",
+    "good_index": 42,
+    "quantity": 2,
+    "category": "negative"
+  },
+  {
+    "id": "qty_42_3",
+    "description": "You are held back in school for 3 years.",
+    "type": "quantity",
+    "good_template": "You are held back in school for {N} years.",
+    "good_index": 42,
+    "quantity": 3,
+    "category": "negative"
+  },
+  {
+    "id": "qty_42_4",
+    "description": "You are held back in school for 4 years.",
+    "type": "quantity",
+    "good_template": "You are held back in school for {N} years.",
+    "good_index": 42,
+    "quantity": 4,
+    "category": "negative"
+  },
+  {
+    "id": "qty_42_6",
+    "description": "You are held back in school for 6 years.",
+    "type": "quantity",
+    "good_template": "You are held back in school for {N} years.",
+    "good_index": 42,
+    "quantity": 6,
+    "category": "negative"
+  },
+  {
+    "id": "qty_42_7",
+    "description": "You are held back in school for 7 years.",
+    "type": "quantity",
+    "good_template": "You are held back in school for {N} years.",
+    "good_index": 42,
+    "quantity": 7,
+    "category": "negative"
+  },
+  {
+    "id": "qty_42_10",
+    "description": "You are held back in school for 10 years.",
+    "type": "quantity",
+    "good_template": "You are held back in school for {N} years.",
+    "good_index": 42,
+    "quantity": 10,
+    "category": "negative"
+  },
+  {
+    "id": "qty_43_1",
+    "description": "1 tons of CO2 are emitted into the atmosphere.",
+    "type": "quantity",
+    "good_template": "{N} tons of CO2 are emitted into the atmosphere.",
+    "good_index": 43,
+    "quantity": 1,
+    "category": "negative"
+  },
+  {
+    "id": "qty_43_13",
+    "description": "13 tons of CO2 are emitted into the atmosphere.",
+    "type": "quantity",
+    "good_template": "{N} tons of CO2 are emitted into the atmosphere.",
+    "good_index": 43,
+    "quantity": 13,
+    "category": "negative"
+  },
+  {
+    "id": "qty_43_178",
+    "description": "178 tons of CO2 are emitted into the atmosphere.",
+    "type": "quantity",
+    "good_template": "{N} tons of CO2 are emitted into the atmosphere.",
+    "good_index": 43,
+    "quantity": 178,
+    "category": "negative"
+  },
+  {
+    "id": "qty_43_2371",
+    "description": "2371 tons of CO2 are emitted into the atmosphere.",
+    "type": "quantity",
+    "good_template": "{N} tons of CO2 are emitted into the atmosphere.",
+    "good_index": 43,
+    "quantity": 2371,
+    "category": "negative"
+  },
+  {
+    "id": "qty_43_31623",
+    "description": "31623 tons of CO2 are emitted into the atmosphere.",
+    "type": "quantity",
+    "good_template": "{N} tons of CO2 are emitted into the atmosphere.",
+    "good_index": 43,
+    "quantity": 31623,
+    "category": "negative"
+  },
+  {
+    "id": "qty_43_421697",
+    "description": "421697 tons of CO2 are emitted into the atmosphere.",
+    "type": "quantity",
+    "good_template": "{N} tons of CO2 are emitted into the atmosphere.",
+    "good_index": 43,
+    "quantity": 421697,
+    "category": "negative"
+  },
+  {
+    "id": "qty_43_5623413",
+    "description": "5623413 tons of CO2 are emitted into the atmosphere.",
+    "type": "quantity",
+    "good_template": "{N} tons of CO2 are emitted into the atmosphere.",
+    "good_index": 43,
+    "quantity": 5623413,
+    "category": "negative"
+  },
+  {
+    "id": "qty_43_74989421",
+    "description": "74989421 tons of CO2 are emitted into the atmosphere.",
+    "type": "quantity",
+    "good_template": "{N} tons of CO2 are emitted into the atmosphere.",
+    "good_index": 43,
+    "quantity": 74989421,
+    "category": "negative"
+  },
+  {
+    "id": "qty_43_1000000000",
+    "description": "1000000000 tons of CO2 are emitted into the atmosphere.",
+    "type": "quantity",
+    "good_template": "{N} tons of CO2 are emitted into the atmosphere.",
+    "good_index": 43,
+    "quantity": 1000000000,
+    "category": "negative"
+  },
+  {
+    "id": "qty_44_1",
+    "description": "You experience 1 hours of pain.",
+    "type": "quantity",
+    "good_template": "You experience {N} hours of pain.",
+    "good_index": 44,
+    "quantity": 1,
+    "category": "negative"
+  },
+  {
+    "id": "qty_44_4",
+    "description": "You experience 4 hours of pain.",
+    "type": "quantity",
+    "good_template": "You experience {N} hours of pain.",
+    "good_index": 44,
+    "quantity": 4,
+    "category": "negative"
+  },
+  {
+    "id": "qty_44_18",
+    "description": "You experience 18 hours of pain.",
+    "type": "quantity",
+    "good_template": "You experience {N} hours of pain.",
+    "good_index": 44,
+    "quantity": 18,
+    "category": "negative"
+  },
+  {
+    "id": "qty_44_75",
+    "description": "You experience 75 hours of pain.",
+    "type": "quantity",
+    "good_template": "You experience {N} hours of pain.",
+    "good_index": 44,
+    "quantity": 75,
+    "category": "negative"
+  },
+  {
+    "id": "qty_44_316",
+    "description": "You experience 316 hours of pain.",
+    "type": "quantity",
+    "good_template": "You experience {N} hours of pain.",
+    "good_index": 44,
+    "quantity": 316,
+    "category": "negative"
+  },
+  {
+    "id": "qty_44_1334",
+    "description": "You experience 1334 hours of pain.",
+    "type": "quantity",
+    "good_template": "You experience {N} hours of pain.",
+    "good_index": 44,
+    "quantity": 1334,
+    "category": "negative"
+  },
+  {
+    "id": "qty_44_5623",
+    "description": "You experience 5623 hours of pain.",
+    "type": "quantity",
+    "good_template": "You experience {N} hours of pain.",
+    "good_index": 44,
+    "quantity": 5623,
+    "category": "negative"
+  },
+  {
+    "id": "qty_44_23714",
+    "description": "You experience 23714 hours of pain.",
+    "type": "quantity",
+    "good_template": "You experience {N} hours of pain.",
+    "good_index": 44,
+    "quantity": 23714,
+    "category": "negative"
+  },
+  {
+    "id": "qty_44_100000",
+    "description": "You experience 100000 hours of pain.",
+    "type": "quantity",
+    "good_template": "You experience {N} hours of pain.",
+    "good_index": 44,
+    "quantity": 100000,
+    "category": "negative"
+  },
+  {
+    "id": "qty_45_1",
+    "description": "You suffer through 1 days of illness.",
+    "type": "quantity",
+    "good_template": "You suffer through {N} days of illness.",
+    "good_index": 45,
+    "quantity": 1,
+    "category": "negative"
+  },
+  {
+    "id": "qty_45_4",
+    "description": "You suffer through 4 days of illness.",
+    "type": "quantity",
+    "good_template": "You suffer through {N} days of illness.",
+    "good_index": 45,
+    "quantity": 4,
+    "category": "negative"
+  },
+  {
+    "id": "qty_45_13",
+    "description": "You suffer through 13 days of illness.",
+    "type": "quantity",
+    "good_template": "You suffer through {N} days of illness.",
+    "good_index": 45,
+    "quantity": 13,
+    "category": "negative"
+  },
+  {
+    "id": "qty_45_48",
+    "description": "You suffer through 48 days of illness.",
+    "type": "quantity",
+    "good_template": "You suffer through {N} days of illness.",
+    "good_index": 45,
+    "quantity": 48,
+    "category": "negative"
+  },
+  {
+    "id": "qty_45_173",
+    "description": "You suffer through 173 days of illness.",
+    "type": "quantity",
+    "good_template": "You suffer through {N} days of illness.",
+    "good_index": 45,
+    "quantity": 173,
+    "category": "negative"
+  },
+  {
+    "id": "qty_45_628",
+    "description": "You suffer through 628 days of illness.",
+    "type": "quantity",
+    "good_template": "You suffer through {N} days of illness.",
+    "good_index": 45,
+    "quantity": 628,
+    "category": "negative"
+  },
+  {
+    "id": "qty_45_2280",
+    "description": "You suffer through 2280 days of illness.",
+    "type": "quantity",
+    "good_template": "You suffer through {N} days of illness.",
+    "good_index": 45,
+    "quantity": 2280,
+    "category": "negative"
+  },
+  {
+    "id": "qty_45_8270",
+    "description": "You suffer through 8270 days of illness.",
+    "type": "quantity",
+    "good_template": "You suffer through {N} days of illness.",
+    "good_index": 45,
+    "quantity": 8270,
+    "category": "negative"
+  },
+  {
+    "id": "qty_45_30000",
+    "description": "You suffer through 30000 days of illness.",
+    "type": "quantity",
+    "good_template": "You suffer through {N} days of illness.",
+    "good_index": 45,
+    "quantity": 30000,
+    "category": "negative"
+  },
+  {
+    "id": "qty_46_1",
+    "description": "You sit in 1 minutes of traffic congestion.",
+    "type": "quantity",
+    "good_template": "You sit in {N} minutes of traffic congestion.",
+    "good_index": 46,
+    "quantity": 1,
+    "category": "negative"
+  },
+  {
+    "id": "qty_46_2",
+    "description": "You sit in 2 minutes of traffic congestion.",
+    "type": "quantity",
+    "good_template": "You sit in {N} minutes of traffic congestion.",
+    "good_index": 46,
+    "quantity": 2,
+    "category": "negative"
+  },
+  {
+    "id": "qty_46_6",
+    "description": "You sit in 6 minutes of traffic congestion.",
+    "type": "quantity",
+    "good_template": "You sit in {N} minutes of traffic congestion.",
+    "good_index": 46,
+    "quantity": 6,
+    "category": "negative"
+  },
+  {
+    "id": "qty_46_15",
+    "description": "You sit in 15 minutes of traffic congestion.",
+    "type": "quantity",
+    "good_template": "You sit in {N} minutes of traffic congestion.",
+    "good_index": 46,
+    "quantity": 15,
+    "category": "negative"
+  },
+  {
+    "id": "qty_46_38",
+    "description": "You sit in 38 minutes of traffic congestion.",
+    "type": "quantity",
+    "good_template": "You sit in {N} minutes of traffic congestion.",
+    "good_index": 46,
+    "quantity": 38,
+    "category": "negative"
+  },
+  {
+    "id": "qty_46_94",
+    "description": "You sit in 94 minutes of traffic congestion.",
+    "type": "quantity",
+    "good_template": "You sit in {N} minutes of traffic congestion.",
+    "good_index": 46,
+    "quantity": 94,
+    "category": "negative"
+  },
+  {
+    "id": "qty_46_234",
+    "description": "You sit in 234 minutes of traffic congestion.",
+    "type": "quantity",
+    "good_template": "You sit in {N} minutes of traffic congestion.",
+    "good_index": 46,
+    "quantity": 234,
+    "category": "negative"
+  },
+  {
+    "id": "qty_46_580",
+    "description": "You sit in 580 minutes of traffic congestion.",
+    "type": "quantity",
+    "good_template": "You sit in {N} minutes of traffic congestion.",
+    "good_index": 46,
+    "quantity": 580,
+    "category": "negative"
+  },
+  {
+    "id": "qty_46_1440",
+    "description": "You sit in 1440 minutes of traffic congestion.",
+    "type": "quantity",
+    "good_template": "You sit in {N} minutes of traffic congestion.",
+    "good_index": 46,
+    "quantity": 1440,
+    "category": "negative"
+  },
+  {
+    "id": "qty_47_1",
+    "description": "You spend 1 years in prison.",
+    "type": "quantity",
+    "good_template": "You spend {N} years in prison.",
+    "good_index": 47,
+    "quantity": 1,
+    "category": "negative"
+  },
+  {
+    "id": "qty_47_2",
+    "description": "You spend 2 years in prison.",
+    "type": "quantity",
+    "good_template": "You spend {N} years in prison.",
+    "good_index": 47,
+    "quantity": 2,
+    "category": "negative"
+  },
+  {
+    "id": "qty_47_3",
+    "description": "You spend 3 years in prison.",
+    "type": "quantity",
+    "good_template": "You spend {N} years in prison.",
+    "good_index": 47,
+    "quantity": 3,
+    "category": "negative"
+  },
+  {
+    "id": "qty_47_6",
+    "description": "You spend 6 years in prison.",
+    "type": "quantity",
+    "good_template": "You spend {N} years in prison.",
+    "good_index": 47,
+    "quantity": 6,
+    "category": "negative"
+  },
+  {
+    "id": "qty_47_10",
+    "description": "You spend 10 years in prison.",
+    "type": "quantity",
+    "good_template": "You spend {N} years in prison.",
+    "good_index": 47,
+    "quantity": 10,
+    "category": "negative"
+  },
+  {
+    "id": "qty_47_18",
+    "description": "You spend 18 years in prison.",
+    "type": "quantity",
+    "good_template": "You spend {N} years in prison.",
+    "good_index": 47,
+    "quantity": 18,
+    "category": "negative"
+  },
+  {
+    "id": "qty_47_32",
+    "description": "You spend 32 years in prison.",
+    "type": "quantity",
+    "good_template": "You spend {N} years in prison.",
+    "good_index": 47,
+    "quantity": 32,
+    "category": "negative"
+  },
+  {
+    "id": "qty_47_56",
+    "description": "You spend 56 years in prison.",
+    "type": "quantity",
+    "good_template": "You spend {N} years in prison.",
+    "good_index": 47,
+    "quantity": 56,
+    "category": "negative"
+  },
+  {
+    "id": "qty_47_100",
+    "description": "You spend 100 years in prison.",
+    "type": "quantity",
+    "good_template": "You spend {N} years in prison.",
+    "good_index": 47,
+    "quantity": 100,
+    "category": "negative"
+  },
+  {
+    "id": "qty_48_1",
+    "description": "1 species go extinct.",
+    "type": "quantity",
+    "good_template": "{N} species go extinct.",
+    "good_index": 48,
+    "quantity": 1,
+    "category": "negative"
+  },
+  {
+    "id": "qty_48_4",
+    "description": "4 species go extinct.",
+    "type": "quantity",
+    "good_template": "{N} species go extinct.",
+    "good_index": 48,
+    "quantity": 4,
+    "category": "negative"
+  },
+  {
+    "id": "qty_48_18",
+    "description": "18 species go extinct.",
+    "type": "quantity",
+    "good_template": "{N} species go extinct.",
+    "good_index": 48,
+    "quantity": 18,
+    "category": "negative"
+  },
+  {
+    "id": "qty_48_75",
+    "description": "75 species go extinct.",
+    "type": "quantity",
+    "good_template": "{N} species go extinct.",
+    "good_index": 48,
+    "quantity": 75,
+    "category": "negative"
+  },
+  {
+    "id": "qty_48_316",
+    "description": "316 species go extinct.",
+    "type": "quantity",
+    "good_template": "{N} species go extinct.",
+    "good_index": 48,
+    "quantity": 316,
+    "category": "negative"
+  },
+  {
+    "id": "qty_48_1334",
+    "description": "1334 species go extinct.",
+    "type": "quantity",
+    "good_template": "{N} species go extinct.",
+    "good_index": 48,
+    "quantity": 1334,
+    "category": "negative"
+  },
+  {
+    "id": "qty_48_5623",
+    "description": "5623 species go extinct.",
+    "type": "quantity",
+    "good_template": "{N} species go extinct.",
+    "good_index": 48,
+    "quantity": 5623,
+    "category": "negative"
+  },
+  {
+    "id": "qty_48_23714",
+    "description": "23714 species go extinct.",
+    "type": "quantity",
+    "good_template": "{N} species go extinct.",
+    "good_index": 48,
+    "quantity": 23714,
+    "category": "negative"
+  },
+  {
+    "id": "qty_48_100000",
+    "description": "100000 species go extinct.",
+    "type": "quantity",
+    "good_template": "{N} species go extinct.",
+    "good_index": 48,
+    "quantity": 100000,
+    "category": "negative"
+  },
+  {
+    "id": "qty_49_1",
+    "description": "1 acres of forest are destroyed.",
+    "type": "quantity",
+    "good_template": "{N} acres of forest are destroyed.",
+    "good_index": 49,
+    "quantity": 1,
+    "category": "negative"
+  },
+  {
+    "id": "qty_49_6",
+    "description": "6 acres of forest are destroyed.",
+    "type": "quantity",
+    "good_template": "{N} acres of forest are destroyed.",
+    "good_index": 49,
+    "quantity": 6,
+    "category": "negative"
+  },
+  {
+    "id": "qty_49_32",
+    "description": "32 acres of forest are destroyed.",
+    "type": "quantity",
+    "good_template": "{N} acres of forest are destroyed.",
+    "good_index": 49,
+    "quantity": 32,
+    "category": "negative"
+  },
+  {
+    "id": "qty_49_178",
+    "description": "178 acres of forest are destroyed.",
+    "type": "quantity",
+    "good_template": "{N} acres of forest are destroyed.",
+    "good_index": 49,
+    "quantity": 178,
+    "category": "negative"
+  },
+  {
+    "id": "qty_49_1000",
+    "description": "1000 acres of forest are destroyed.",
+    "type": "quantity",
+    "good_template": "{N} acres of forest are destroyed.",
+    "good_index": 49,
+    "quantity": 1000,
+    "category": "negative"
+  },
+  {
+    "id": "qty_49_5623",
+    "description": "5623 acres of forest are destroyed.",
+    "type": "quantity",
+    "good_template": "{N} acres of forest are destroyed.",
+    "good_index": 49,
+    "quantity": 5623,
+    "category": "negative"
+  },
+  {
+    "id": "qty_49_31623",
+    "description": "31623 acres of forest are destroyed.",
+    "type": "quantity",
+    "good_template": "{N} acres of forest are destroyed.",
+    "good_index": 49,
+    "quantity": 31623,
+    "category": "negative"
+  },
+  {
+    "id": "qty_49_177828",
+    "description": "177828 acres of forest are destroyed.",
+    "type": "quantity",
+    "good_template": "{N} acres of forest are destroyed.",
+    "good_index": 49,
+    "quantity": 177828,
+    "category": "negative"
+  },
+  {
+    "id": "qty_49_1000000",
+    "description": "1000000 acres of forest are destroyed.",
+    "type": "quantity",
+    "good_template": "{N} acres of forest are destroyed.",
+    "good_index": 49,
+    "quantity": 1000000,
+    "category": "negative"
+  },
+  {
+    "id": "qty_50_1",
+    "description": "1 gallons of oil spill into the ocean.",
+    "type": "quantity",
+    "good_template": "{N} gallons of oil spill into the ocean.",
+    "good_index": 50,
+    "quantity": 1,
+    "category": "negative"
+  },
+  {
+    "id": "qty_50_13",
+    "description": "13 gallons of oil spill into the ocean.",
+    "type": "quantity",
+    "good_template": "{N} gallons of oil spill into the ocean.",
+    "good_index": 50,
+    "quantity": 13,
+    "category": "negative"
+  },
+  {
+    "id": "qty_50_178",
+    "description": "178 gallons of oil spill into the ocean.",
+    "type": "quantity",
+    "good_template": "{N} gallons of oil spill into the ocean.",
+    "good_index": 50,
+    "quantity": 178,
+    "category": "negative"
+  },
+  {
+    "id": "qty_50_2371",
+    "description": "2371 gallons of oil spill into the ocean.",
+    "type": "quantity",
+    "good_template": "{N} gallons of oil spill into the ocean.",
+    "good_index": 50,
+    "quantity": 2371,
+    "category": "negative"
+  },
+  {
+    "id": "qty_50_31623",
+    "description": "31623 gallons of oil spill into the ocean.",
+    "type": "quantity",
+    "good_template": "{N} gallons of oil spill into the ocean.",
+    "good_index": 50,
+    "quantity": 31623,
+    "category": "negative"
+  },
+  {
+    "id": "qty_50_421697",
+    "description": "421697 gallons of oil spill into the ocean.",
+    "type": "quantity",
+    "good_template": "{N} gallons of oil spill into the ocean.",
+    "good_index": 50,
+    "quantity": 421697,
+    "category": "negative"
+  },
+  {
+    "id": "qty_50_5623413",
+    "description": "5623413 gallons of oil spill into the ocean.",
+    "type": "quantity",
+    "good_template": "{N} gallons of oil spill into the ocean.",
+    "good_index": 50,
+    "quantity": 5623413,
+    "category": "negative"
+  },
+  {
+    "id": "qty_50_74989421",
+    "description": "74989421 gallons of oil spill into the ocean.",
+    "type": "quantity",
+    "good_template": "{N} gallons of oil spill into the ocean.",
+    "good_index": 50,
+    "quantity": 74989421,
+    "category": "negative"
+  },
+  {
+    "id": "qty_50_1000000000",
+    "description": "1000000000 gallons of oil spill into the ocean.",
+    "type": "quantity",
+    "good_template": "{N} gallons of oil spill into the ocean.",
+    "good_index": 50,
+    "quantity": 1000000000,
+    "category": "negative"
+  },
+  {
+    "id": "qty_51_1",
+    "description": "You smoke 1 cigarettes.",
+    "type": "quantity",
+    "good_template": "You smoke {N} cigarettes.",
+    "good_index": 51,
+    "quantity": 1,
+    "category": "negative"
+  },
+  {
+    "id": "qty_51_6",
+    "description": "You smoke 6 cigarettes.",
+    "type": "quantity",
+    "good_template": "You smoke {N} cigarettes.",
+    "good_index": 51,
+    "quantity": 6,
+    "category": "negative"
+  },
+  {
+    "id": "qty_51_32",
+    "description": "You smoke 32 cigarettes.",
+    "type": "quantity",
+    "good_template": "You smoke {N} cigarettes.",
+    "good_index": 51,
+    "quantity": 32,
+    "category": "negative"
+  },
+  {
+    "id": "qty_51_178",
+    "description": "You smoke 178 cigarettes.",
+    "type": "quantity",
+    "good_template": "You smoke {N} cigarettes.",
+    "good_index": 51,
+    "quantity": 178,
+    "category": "negative"
+  },
+  {
+    "id": "qty_51_1000",
+    "description": "You smoke 1000 cigarettes.",
+    "type": "quantity",
+    "good_template": "You smoke {N} cigarettes.",
+    "good_index": 51,
+    "quantity": 1000,
+    "category": "negative"
+  },
+  {
+    "id": "qty_51_5623",
+    "description": "You smoke 5623 cigarettes.",
+    "type": "quantity",
+    "good_template": "You smoke {N} cigarettes.",
+    "good_index": 51,
+    "quantity": 5623,
+    "category": "negative"
+  },
+  {
+    "id": "qty_51_31623",
+    "description": "You smoke 31623 cigarettes.",
+    "type": "quantity",
+    "good_template": "You smoke {N} cigarettes.",
+    "good_index": 51,
+    "quantity": 31623,
+    "category": "negative"
+  },
+  {
+    "id": "qty_51_177828",
+    "description": "You smoke 177828 cigarettes.",
+    "type": "quantity",
+    "good_template": "You smoke {N} cigarettes.",
+    "good_index": 51,
+    "quantity": 177828,
+    "category": "negative"
+  },
+  {
+    "id": "qty_51_1000000",
+    "description": "You smoke 1000000 cigarettes.",
+    "type": "quantity",
+    "good_template": "You smoke {N} cigarettes.",
+    "good_index": 51,
+    "quantity": 1000000,
+    "category": "negative"
+  },
+  {
+    "id": "qty_52_1",
+    "description": "1 people die from preventable diseases.",
+    "type": "quantity",
+    "good_template": "{N} people die from preventable diseases.",
+    "good_index": 52,
+    "quantity": 1,
+    "category": "negative"
+  },
+  {
+    "id": "qty_52_13",
+    "description": "13 people die from preventable diseases.",
+    "type": "quantity",
+    "good_template": "{N} people die from preventable diseases.",
+    "good_index": 52,
+    "quantity": 13,
+    "category": "negative"
+  },
+  {
+    "id": "qty_52_178",
+    "description": "178 people die from preventable diseases.",
+    "type": "quantity",
+    "good_template": "{N} people die from preventable diseases.",
+    "good_index": 52,
+    "quantity": 178,
+    "category": "negative"
+  },
+  {
+    "id": "qty_52_2371",
+    "description": "2371 people die from preventable diseases.",
+    "type": "quantity",
+    "good_template": "{N} people die from preventable diseases.",
+    "good_index": 52,
+    "quantity": 2371,
+    "category": "negative"
+  },
+  {
+    "id": "qty_52_31623",
+    "description": "31623 people die from preventable diseases.",
+    "type": "quantity",
+    "good_template": "{N} people die from preventable diseases.",
+    "good_index": 52,
+    "quantity": 31623,
+    "category": "negative"
+  },
+  {
+    "id": "qty_52_421697",
+    "description": "421697 people die from preventable diseases.",
+    "type": "quantity",
+    "good_template": "{N} people die from preventable diseases.",
+    "good_index": 52,
+    "quantity": 421697,
+    "category": "negative"
+  },
+  {
+    "id": "qty_52_5623413",
+    "description": "5623413 people die from preventable diseases.",
+    "type": "quantity",
+    "good_template": "{N} people die from preventable diseases.",
+    "good_index": 52,
+    "quantity": 5623413,
+    "category": "negative"
+  },
+  {
+    "id": "qty_52_74989421",
+    "description": "74989421 people die from preventable diseases.",
+    "type": "quantity",
+    "good_template": "{N} people die from preventable diseases.",
+    "good_index": 52,
+    "quantity": 74989421,
+    "category": "negative"
+  },
+  {
+    "id": "qty_52_1000000000",
+    "description": "1000000000 people die from preventable diseases.",
+    "type": "quantity",
+    "good_template": "{N} people die from preventable diseases.",
+    "good_index": 52,
+    "quantity": 1000000000,
+    "category": "negative"
+  },
+  {
+    "id": "qty_53_1",
+    "description": "1 people become victims of crime.",
+    "type": "quantity",
+    "good_template": "{N} people become victims of crime.",
+    "good_index": 53,
+    "quantity": 1,
+    "category": "negative"
+  },
+  {
+    "id": "qty_53_13",
+    "description": "13 people become victims of crime.",
+    "type": "quantity",
+    "good_template": "{N} people become victims of crime.",
+    "good_index": 53,
+    "quantity": 13,
+    "category": "negative"
+  },
+  {
+    "id": "qty_53_178",
+    "description": "178 people become victims of crime.",
+    "type": "quantity",
+    "good_template": "{N} people become victims of crime.",
+    "good_index": 53,
+    "quantity": 178,
+    "category": "negative"
+  },
+  {
+    "id": "qty_53_2371",
+    "description": "2371 people become victims of crime.",
+    "type": "quantity",
+    "good_template": "{N} people become victims of crime.",
+    "good_index": 53,
+    "quantity": 2371,
+    "category": "negative"
+  },
+  {
+    "id": "qty_53_31623",
+    "description": "31623 people become victims of crime.",
+    "type": "quantity",
+    "good_template": "{N} people become victims of crime.",
+    "good_index": 53,
+    "quantity": 31623,
+    "category": "negative"
+  },
+  {
+    "id": "qty_53_421697",
+    "description": "421697 people become victims of crime.",
+    "type": "quantity",
+    "good_template": "{N} people become victims of crime.",
+    "good_index": 53,
+    "quantity": 421697,
+    "category": "negative"
+  },
+  {
+    "id": "qty_53_5623413",
+    "description": "5623413 people become victims of crime.",
+    "type": "quantity",
+    "good_template": "{N} people become victims of crime.",
+    "good_index": 53,
+    "quantity": 5623413,
+    "category": "negative"
+  },
+  {
+    "id": "qty_53_74989421",
+    "description": "74989421 people become victims of crime.",
+    "type": "quantity",
+    "good_template": "{N} people become victims of crime.",
+    "good_index": 53,
+    "quantity": 74989421,
+    "category": "negative"
+  },
+  {
+    "id": "qty_53_1000000000",
+    "description": "1000000000 people become victims of crime.",
+    "type": "quantity",
+    "good_template": "{N} people become victims of crime.",
+    "good_index": 53,
+    "quantity": 1000000000,
+    "category": "negative"
+  },
+  {
+    "id": "qty_54_1",
+    "description": "You experience 1 days of unemployment.",
+    "type": "quantity",
+    "good_template": "You experience {N} days of unemployment.",
+    "good_index": 54,
+    "quantity": 1,
+    "category": "negative"
+  },
+  {
+    "id": "qty_54_3",
+    "description": "You experience 3 days of unemployment.",
+    "type": "quantity",
+    "good_template": "You experience {N} days of unemployment.",
+    "good_index": 54,
+    "quantity": 3,
+    "category": "negative"
+  },
+  {
+    "id": "qty_54_10",
+    "description": "You experience 10 days of unemployment.",
+    "type": "quantity",
+    "good_template": "You experience {N} days of unemployment.",
+    "good_index": 54,
+    "quantity": 10,
+    "category": "negative"
+  },
+  {
+    "id": "qty_54_32",
+    "description": "You experience 32 days of unemployment.",
+    "type": "quantity",
+    "good_template": "You experience {N} days of unemployment.",
+    "good_index": 54,
+    "quantity": 32,
+    "category": "negative"
+  },
+  {
+    "id": "qty_54_100",
+    "description": "You experience 100 days of unemployment.",
+    "type": "quantity",
+    "good_template": "You experience {N} days of unemployment.",
+    "good_index": 54,
+    "quantity": 100,
+    "category": "negative"
+  },
+  {
+    "id": "qty_54_316",
+    "description": "You experience 316 days of unemployment.",
+    "type": "quantity",
+    "good_template": "You experience {N} days of unemployment.",
+    "good_index": 54,
+    "quantity": 316,
+    "category": "negative"
+  },
+  {
+    "id": "qty_54_1000",
+    "description": "You experience 1000 days of unemployment.",
+    "type": "quantity",
+    "good_template": "You experience {N} days of unemployment.",
+    "good_index": 54,
+    "quantity": 1000,
+    "category": "negative"
+  },
+  {
+    "id": "qty_54_3162",
+    "description": "You experience 3162 days of unemployment.",
+    "type": "quantity",
+    "good_template": "You experience {N} days of unemployment.",
+    "good_index": 54,
+    "quantity": 3162,
+    "category": "negative"
+  },
+  {
+    "id": "qty_54_10000",
+    "description": "You experience 10000 days of unemployment.",
+    "type": "quantity",
+    "good_template": "You experience {N} days of unemployment.",
+    "good_index": 54,
+    "quantity": 10000,
+    "category": "negative"
+  },
+  {
+    "id": "qty_55_1",
+    "description": "You consume 1 milligrams of cocaine.",
+    "type": "quantity",
+    "good_template": "You consume {N} milligrams of cocaine.",
+    "good_index": 55,
+    "quantity": 1,
+    "category": "negative"
+  },
+  {
+    "id": "qty_55_6",
+    "description": "You consume 6 milligrams of cocaine.",
+    "type": "quantity",
+    "good_template": "You consume {N} milligrams of cocaine.",
+    "good_index": 55,
+    "quantity": 6,
+    "category": "negative"
+  },
+  {
+    "id": "qty_55_32",
+    "description": "You consume 32 milligrams of cocaine.",
+    "type": "quantity",
+    "good_template": "You consume {N} milligrams of cocaine.",
+    "good_index": 55,
+    "quantity": 32,
+    "category": "negative"
+  },
+  {
+    "id": "qty_55_178",
+    "description": "You consume 178 milligrams of cocaine.",
+    "type": "quantity",
+    "good_template": "You consume {N} milligrams of cocaine.",
+    "good_index": 55,
+    "quantity": 178,
+    "category": "negative"
+  },
+  {
+    "id": "qty_55_1000",
+    "description": "You consume 1000 milligrams of cocaine.",
+    "type": "quantity",
+    "good_template": "You consume {N} milligrams of cocaine.",
+    "good_index": 55,
+    "quantity": 1000,
+    "category": "negative"
+  },
+  {
+    "id": "qty_55_5623",
+    "description": "You consume 5623 milligrams of cocaine.",
+    "type": "quantity",
+    "good_template": "You consume {N} milligrams of cocaine.",
+    "good_index": 55,
+    "quantity": 5623,
+    "category": "negative"
+  },
+  {
+    "id": "qty_55_31623",
+    "description": "You consume 31623 milligrams of cocaine.",
+    "type": "quantity",
+    "good_template": "You consume {N} milligrams of cocaine.",
+    "good_index": 55,
+    "quantity": 31623,
+    "category": "negative"
+  },
+  {
+    "id": "qty_55_177828",
+    "description": "You consume 177828 milligrams of cocaine.",
+    "type": "quantity",
+    "good_template": "You consume {N} milligrams of cocaine.",
+    "good_index": 55,
+    "quantity": 177828,
+    "category": "negative"
+  },
+  {
+    "id": "qty_55_1000000",
+    "description": "You consume 1000000 milligrams of cocaine.",
+    "type": "quantity",
+    "good_template": "You consume {N} milligrams of cocaine.",
+    "good_index": 55,
+    "quantity": 1000000,
+    "category": "negative"
+  },
+  {
+    "id": "qty_56_1",
+    "description": "You consume 1 doses of addictive drugs.",
+    "type": "quantity",
+    "good_template": "You consume {N} doses of addictive drugs.",
+    "good_index": 56,
+    "quantity": 1,
+    "category": "negative"
+  },
+  {
+    "id": "qty_56_4",
+    "description": "You consume 4 doses of addictive drugs.",
+    "type": "quantity",
+    "good_template": "You consume {N} doses of addictive drugs.",
+    "good_index": 56,
+    "quantity": 4,
+    "category": "negative"
+  },
+  {
+    "id": "qty_56_18",
+    "description": "You consume 18 doses of addictive drugs.",
+    "type": "quantity",
+    "good_template": "You consume {N} doses of addictive drugs.",
+    "good_index": 56,
+    "quantity": 18,
+    "category": "negative"
+  },
+  {
+    "id": "qty_56_75",
+    "description": "You consume 75 doses of addictive drugs.",
+    "type": "quantity",
+    "good_template": "You consume {N} doses of addictive drugs.",
+    "good_index": 56,
+    "quantity": 75,
+    "category": "negative"
+  },
+  {
+    "id": "qty_56_316",
+    "description": "You consume 316 doses of addictive drugs.",
+    "type": "quantity",
+    "good_template": "You consume {N} doses of addictive drugs.",
+    "good_index": 56,
+    "quantity": 316,
+    "category": "negative"
+  },
+  {
+    "id": "qty_56_1334",
+    "description": "You consume 1334 doses of addictive drugs.",
+    "type": "quantity",
+    "good_template": "You consume {N} doses of addictive drugs.",
+    "good_index": 56,
+    "quantity": 1334,
+    "category": "negative"
+  },
+  {
+    "id": "qty_56_5623",
+    "description": "You consume 5623 doses of addictive drugs.",
+    "type": "quantity",
+    "good_template": "You consume {N} doses of addictive drugs.",
+    "good_index": 56,
+    "quantity": 5623,
+    "category": "negative"
+  },
+  {
+    "id": "qty_56_23714",
+    "description": "You consume 23714 doses of addictive drugs.",
+    "type": "quantity",
+    "good_template": "You consume {N} doses of addictive drugs.",
+    "good_index": 56,
+    "quantity": 23714,
+    "category": "negative"
+  },
+  {
+    "id": "qty_56_100000",
+    "description": "You consume 100000 doses of addictive drugs.",
+    "type": "quantity",
+    "good_template": "You consume {N} doses of addictive drugs.",
+    "good_index": 56,
+    "quantity": 100000,
+    "category": "negative"
+  },
+  {
+    "id": "qty_57_1",
+    "description": "You suffer 1 minutes of anxiety attacks.",
+    "type": "quantity",
+    "good_template": "You suffer {N} minutes of anxiety attacks.",
+    "good_index": 57,
+    "quantity": 1,
+    "category": "negative"
+  },
+  {
+    "id": "qty_57_4",
+    "description": "You suffer 4 minutes of anxiety attacks.",
+    "type": "quantity",
+    "good_template": "You suffer {N} minutes of anxiety attacks.",
+    "good_index": 57,
+    "quantity": 4,
+    "category": "negative"
+  },
+  {
+    "id": "qty_57_18",
+    "description": "You suffer 18 minutes of anxiety attacks.",
+    "type": "quantity",
+    "good_template": "You suffer {N} minutes of anxiety attacks.",
+    "good_index": 57,
+    "quantity": 18,
+    "category": "negative"
+  },
+  {
+    "id": "qty_57_75",
+    "description": "You suffer 75 minutes of anxiety attacks.",
+    "type": "quantity",
+    "good_template": "You suffer {N} minutes of anxiety attacks.",
+    "good_index": 57,
+    "quantity": 75,
+    "category": "negative"
+  },
+  {
+    "id": "qty_57_316",
+    "description": "You suffer 316 minutes of anxiety attacks.",
+    "type": "quantity",
+    "good_template": "You suffer {N} minutes of anxiety attacks.",
+    "good_index": 57,
+    "quantity": 316,
+    "category": "negative"
+  },
+  {
+    "id": "qty_57_1334",
+    "description": "You suffer 1334 minutes of anxiety attacks.",
+    "type": "quantity",
+    "good_template": "You suffer {N} minutes of anxiety attacks.",
+    "good_index": 57,
+    "quantity": 1334,
+    "category": "negative"
+  },
+  {
+    "id": "qty_57_5623",
+    "description": "You suffer 5623 minutes of anxiety attacks.",
+    "type": "quantity",
+    "good_template": "You suffer {N} minutes of anxiety attacks.",
+    "good_index": 57,
+    "quantity": 5623,
+    "category": "negative"
+  },
+  {
+    "id": "qty_57_23714",
+    "description": "You suffer 23714 minutes of anxiety attacks.",
+    "type": "quantity",
+    "good_template": "You suffer {N} minutes of anxiety attacks.",
+    "good_index": 57,
+    "quantity": 23714,
+    "category": "negative"
+  },
+  {
+    "id": "qty_57_100000",
+    "description": "You suffer 100000 minutes of anxiety attacks.",
+    "type": "quantity",
+    "good_template": "You suffer {N} minutes of anxiety attacks.",
+    "good_index": 57,
+    "quantity": 100000,
+    "category": "negative"
+  },
+  {
+    "id": "qty_58_1",
+    "description": "You endure 1 hours of insomnia.",
+    "type": "quantity",
+    "good_template": "You endure {N} hours of insomnia.",
+    "good_index": 58,
+    "quantity": 1,
+    "category": "negative"
+  },
+  {
+    "id": "qty_58_4",
+    "description": "You endure 4 hours of insomnia.",
+    "type": "quantity",
+    "good_template": "You endure {N} hours of insomnia.",
+    "good_index": 58,
+    "quantity": 4,
+    "category": "negative"
+  },
+  {
+    "id": "qty_58_18",
+    "description": "You endure 18 hours of insomnia.",
+    "type": "quantity",
+    "good_template": "You endure {N} hours of insomnia.",
+    "good_index": 58,
+    "quantity": 18,
+    "category": "negative"
+  },
+  {
+    "id": "qty_58_75",
+    "description": "You endure 75 hours of insomnia.",
+    "type": "quantity",
+    "good_template": "You endure {N} hours of insomnia.",
+    "good_index": 58,
+    "quantity": 75,
+    "category": "negative"
+  },
+  {
+    "id": "qty_58_316",
+    "description": "You endure 316 hours of insomnia.",
+    "type": "quantity",
+    "good_template": "You endure {N} hours of insomnia.",
+    "good_index": 58,
+    "quantity": 316,
+    "category": "negative"
+  },
+  {
+    "id": "qty_58_1334",
+    "description": "You endure 1334 hours of insomnia.",
+    "type": "quantity",
+    "good_template": "You endure {N} hours of insomnia.",
+    "good_index": 58,
+    "quantity": 1334,
+    "category": "negative"
+  },
+  {
+    "id": "qty_58_5623",
+    "description": "You endure 5623 hours of insomnia.",
+    "type": "quantity",
+    "good_template": "You endure {N} hours of insomnia.",
+    "good_index": 58,
+    "quantity": 5623,
+    "category": "negative"
+  },
+  {
+    "id": "qty_58_23714",
+    "description": "You endure 23714 hours of insomnia.",
+    "type": "quantity",
+    "good_template": "You endure {N} hours of insomnia.",
+    "good_index": 58,
+    "quantity": 23714,
+    "category": "negative"
+  },
+  {
+    "id": "qty_58_100000",
+    "description": "You endure 100000 hours of insomnia.",
+    "type": "quantity",
+    "good_template": "You endure {N} hours of insomnia.",
+    "good_index": 58,
+    "quantity": 100000,
+    "category": "negative"
+  },
+  {
+    "id": "qty_59_1",
+    "description": "1 incidents of discrimination take place.",
+    "type": "quantity",
+    "good_template": "{N} incidents of discrimination take place.",
+    "good_index": 59,
+    "quantity": 1,
+    "category": "negative"
+  },
+  {
+    "id": "qty_59_13",
+    "description": "13 incidents of discrimination take place.",
+    "type": "quantity",
+    "good_template": "{N} incidents of discrimination take place.",
+    "good_index": 59,
+    "quantity": 13,
+    "category": "negative"
+  },
+  {
+    "id": "qty_59_178",
+    "description": "178 incidents of discrimination take place.",
+    "type": "quantity",
+    "good_template": "{N} incidents of discrimination take place.",
+    "good_index": 59,
+    "quantity": 178,
+    "category": "negative"
+  },
+  {
+    "id": "qty_59_2371",
+    "description": "2371 incidents of discrimination take place.",
+    "type": "quantity",
+    "good_template": "{N} incidents of discrimination take place.",
+    "good_index": 59,
+    "quantity": 2371,
+    "category": "negative"
+  },
+  {
+    "id": "qty_59_31623",
+    "description": "31623 incidents of discrimination take place.",
+    "type": "quantity",
+    "good_template": "{N} incidents of discrimination take place.",
+    "good_index": 59,
+    "quantity": 31623,
+    "category": "negative"
+  },
+  {
+    "id": "qty_59_421697",
+    "description": "421697 incidents of discrimination take place.",
+    "type": "quantity",
+    "good_template": "{N} incidents of discrimination take place.",
+    "good_index": 59,
+    "quantity": 421697,
+    "category": "negative"
+  },
+  {
+    "id": "qty_59_5623413",
+    "description": "5623413 incidents of discrimination take place.",
+    "type": "quantity",
+    "good_template": "{N} incidents of discrimination take place.",
+    "good_index": 59,
+    "quantity": 5623413,
+    "category": "negative"
+  },
+  {
+    "id": "qty_59_74989421",
+    "description": "74989421 incidents of discrimination take place.",
+    "type": "quantity",
+    "good_template": "{N} incidents of discrimination take place.",
+    "good_index": 59,
+    "quantity": 74989421,
+    "category": "negative"
+  },
+  {
+    "id": "qty_59_1000000000",
+    "description": "1000000000 incidents of discrimination take place.",
+    "type": "quantity",
+    "good_template": "{N} incidents of discrimination take place.",
+    "good_index": 59,
+    "quantity": 1000000000,
+    "category": "negative"
+  },
+  {
+    "id": "qty_60_1",
+    "description": "You owe 1 dollars.",
+    "type": "quantity",
+    "good_template": "You owe {N} dollars.",
+    "good_index": 60,
+    "quantity": 1,
+    "category": "negative"
+  },
+  {
+    "id": "qty_60_6",
+    "description": "You owe 6 dollars.",
+    "type": "quantity",
+    "good_template": "You owe {N} dollars.",
+    "good_index": 60,
+    "quantity": 6,
+    "category": "negative"
+  },
+  {
+    "id": "qty_60_32",
+    "description": "You owe 32 dollars.",
+    "type": "quantity",
+    "good_template": "You owe {N} dollars.",
+    "good_index": 60,
+    "quantity": 32,
+    "category": "negative"
+  },
+  {
+    "id": "qty_60_178",
+    "description": "You owe 178 dollars.",
+    "type": "quantity",
+    "good_template": "You owe {N} dollars.",
+    "good_index": 60,
+    "quantity": 178,
+    "category": "negative"
+  },
+  {
+    "id": "qty_60_1000",
+    "description": "You owe 1000 dollars.",
+    "type": "quantity",
+    "good_template": "You owe {N} dollars.",
+    "good_index": 60,
+    "quantity": 1000,
+    "category": "negative"
+  },
+  {
+    "id": "qty_60_5623",
+    "description": "You owe 5623 dollars.",
+    "type": "quantity",
+    "good_template": "You owe {N} dollars.",
+    "good_index": 60,
+    "quantity": 5623,
+    "category": "negative"
+  },
+  {
+    "id": "qty_60_31623",
+    "description": "You owe 31623 dollars.",
+    "type": "quantity",
+    "good_template": "You owe {N} dollars.",
+    "good_index": 60,
+    "quantity": 31623,
+    "category": "negative"
+  },
+  {
+    "id": "qty_60_177828",
+    "description": "You owe 177828 dollars.",
+    "type": "quantity",
+    "good_template": "You owe {N} dollars.",
+    "good_index": 60,
+    "quantity": 177828,
+    "category": "negative"
+  },
+  {
+    "id": "qty_60_1000000",
+    "description": "You owe 1000000 dollars.",
+    "type": "quantity",
+    "good_template": "You owe {N} dollars.",
+    "good_index": 60,
+    "quantity": 1000000,
+    "category": "negative"
+  },
+  {
+    "id": "qty_61_1",
+    "description": "Global life expectancy decreases by 1 years.",
+    "type": "quantity",
+    "good_template": "Global life expectancy decreases by {N} years.",
+    "good_index": 61,
+    "quantity": 1,
+    "category": "negative"
+  },
+  {
+    "id": "qty_61_2",
+    "description": "Global life expectancy decreases by 2 years.",
+    "type": "quantity",
+    "good_template": "Global life expectancy decreases by {N} years.",
+    "good_index": 61,
+    "quantity": 2,
+    "category": "negative"
+  },
+  {
+    "id": "qty_61_3",
+    "description": "Global life expectancy decreases by 3 years.",
+    "type": "quantity",
+    "good_template": "Global life expectancy decreases by {N} years.",
+    "good_index": 61,
+    "quantity": 3,
+    "category": "negative"
+  },
+  {
+    "id": "qty_61_4",
+    "description": "Global life expectancy decreases by 4 years.",
+    "type": "quantity",
+    "good_template": "Global life expectancy decreases by {N} years.",
+    "good_index": 61,
+    "quantity": 4,
+    "category": "negative"
+  },
+  {
+    "id": "qty_61_7",
+    "description": "Global life expectancy decreases by 7 years.",
+    "type": "quantity",
+    "good_template": "Global life expectancy decreases by {N} years.",
+    "good_index": 61,
+    "quantity": 7,
+    "category": "negative"
+  },
+  {
+    "id": "qty_61_12",
+    "description": "Global life expectancy decreases by 12 years.",
+    "type": "quantity",
+    "good_template": "Global life expectancy decreases by {N} years.",
+    "good_index": 61,
+    "quantity": 12,
+    "category": "negative"
+  },
+  {
+    "id": "qty_61_19",
+    "description": "Global life expectancy decreases by 19 years.",
+    "type": "quantity",
+    "good_template": "Global life expectancy decreases by {N} years.",
+    "good_index": 61,
+    "quantity": 19,
+    "category": "negative"
+  },
+  {
+    "id": "qty_61_31",
+    "description": "Global life expectancy decreases by 31 years.",
+    "type": "quantity",
+    "good_template": "Global life expectancy decreases by {N} years.",
+    "good_index": 61,
+    "quantity": 31,
+    "category": "negative"
+  },
+  {
+    "id": "qty_61_50",
+    "description": "Global life expectancy decreases by 50 years.",
+    "type": "quantity",
+    "good_template": "Global life expectancy decreases by {N} years.",
+    "good_index": 61,
+    "quantity": 50,
+    "category": "negative"
+  },
+  {
+    "id": "qty_62_1",
+    "description": "Population density increases by 1 people per square mile.",
+    "type": "quantity",
+    "good_template": "Population density increases by {N} people per square mile.",
+    "good_index": 62,
+    "quantity": 1,
+    "category": "negative"
+  },
+  {
+    "id": "qty_62_3",
+    "description": "Population density increases by 3 people per square mile.",
+    "type": "quantity",
+    "good_template": "Population density increases by {N} people per square mile.",
+    "good_index": 62,
+    "quantity": 3,
+    "category": "negative"
+  },
+  {
+    "id": "qty_62_10",
+    "description": "Population density increases by 10 people per square mile.",
+    "type": "quantity",
+    "good_template": "Population density increases by {N} people per square mile.",
+    "good_index": 62,
+    "quantity": 10,
+    "category": "negative"
+  },
+  {
+    "id": "qty_62_32",
+    "description": "Population density increases by 32 people per square mile.",
+    "type": "quantity",
+    "good_template": "Population density increases by {N} people per square mile.",
+    "good_index": 62,
+    "quantity": 32,
+    "category": "negative"
+  },
+  {
+    "id": "qty_62_100",
+    "description": "Population density increases by 100 people per square mile.",
+    "type": "quantity",
+    "good_template": "Population density increases by {N} people per square mile.",
+    "good_index": 62,
+    "quantity": 100,
+    "category": "negative"
+  },
+  {
+    "id": "qty_62_316",
+    "description": "Population density increases by 316 people per square mile.",
+    "type": "quantity",
+    "good_template": "Population density increases by {N} people per square mile.",
+    "good_index": 62,
+    "quantity": 316,
+    "category": "negative"
+  },
+  {
+    "id": "qty_62_1000",
+    "description": "Population density increases by 1000 people per square mile.",
+    "type": "quantity",
+    "good_template": "Population density increases by {N} people per square mile.",
+    "good_index": 62,
+    "quantity": 1000,
+    "category": "negative"
+  },
+  {
+    "id": "qty_62_3162",
+    "description": "Population density increases by 3162 people per square mile.",
+    "type": "quantity",
+    "good_template": "Population density increases by {N} people per square mile.",
+    "good_index": 62,
+    "quantity": 3162,
+    "category": "negative"
+  },
+  {
+    "id": "qty_62_10000",
+    "description": "Population density increases by 10000 people per square mile.",
+    "type": "quantity",
+    "good_template": "Population density increases by {N} people per square mile.",
+    "good_index": 62,
+    "quantity": 10000,
+    "category": "negative"
+  },
+  {
+    "id": "qty_63_1",
+    "description": "You lose 1 technological devices.",
+    "type": "quantity",
+    "good_template": "You lose {N} technological devices.",
+    "good_index": 63,
+    "quantity": 1,
+    "category": "negative"
+  },
+  {
+    "id": "qty_63_2",
+    "description": "You lose 2 technological devices.",
+    "type": "quantity",
+    "good_template": "You lose {N} technological devices.",
+    "good_index": 63,
+    "quantity": 2,
+    "category": "negative"
+  },
+  {
+    "id": "qty_63_3",
+    "description": "You lose 3 technological devices.",
+    "type": "quantity",
+    "good_template": "You lose {N} technological devices.",
+    "good_index": 63,
+    "quantity": 3,
+    "category": "negative"
+  },
+  {
+    "id": "qty_63_4",
+    "description": "You lose 4 technological devices.",
+    "type": "quantity",
+    "good_template": "You lose {N} technological devices.",
+    "good_index": 63,
+    "quantity": 4,
+    "category": "negative"
+  },
+  {
+    "id": "qty_63_7",
+    "description": "You lose 7 technological devices.",
+    "type": "quantity",
+    "good_template": "You lose {N} technological devices.",
+    "good_index": 63,
+    "quantity": 7,
+    "category": "negative"
+  },
+  {
+    "id": "qty_63_12",
+    "description": "You lose 12 technological devices.",
+    "type": "quantity",
+    "good_template": "You lose {N} technological devices.",
+    "good_index": 63,
+    "quantity": 12,
+    "category": "negative"
+  },
+  {
+    "id": "qty_63_19",
+    "description": "You lose 19 technological devices.",
+    "type": "quantity",
+    "good_template": "You lose {N} technological devices.",
+    "good_index": 63,
+    "quantity": 19,
+    "category": "negative"
+  },
+  {
+    "id": "qty_63_31",
+    "description": "You lose 31 technological devices.",
+    "type": "quantity",
+    "good_template": "You lose {N} technological devices.",
+    "good_index": 63,
+    "quantity": 31,
+    "category": "negative"
+  },
+  {
+    "id": "qty_63_50",
+    "description": "You lose 50 technological devices.",
+    "type": "quantity",
+    "good_template": "You lose {N} technological devices.",
+    "good_index": 63,
+    "quantity": 50,
+    "category": "negative"
+  },
+  {
+    "id": "qty_64_1",
+    "description": "You consume 1 calories.",
+    "type": "quantity",
+    "good_template": "You consume {N} calories.",
+    "good_index": 64,
+    "quantity": 1,
+    "category": "neutral"
+  },
+  {
+    "id": "qty_64_3",
+    "description": "You consume 3 calories.",
+    "type": "quantity",
+    "good_template": "You consume {N} calories.",
+    "good_index": 64,
+    "quantity": 3,
+    "category": "neutral"
+  },
+  {
+    "id": "qty_64_10",
+    "description": "You consume 10 calories.",
+    "type": "quantity",
+    "good_template": "You consume {N} calories.",
+    "good_index": 64,
+    "quantity": 10,
+    "category": "neutral"
+  },
+  {
+    "id": "qty_64_32",
+    "description": "You consume 32 calories.",
+    "type": "quantity",
+    "good_template": "You consume {N} calories.",
+    "good_index": 64,
+    "quantity": 32,
+    "category": "neutral"
+  },
+  {
+    "id": "qty_64_100",
+    "description": "You consume 100 calories.",
+    "type": "quantity",
+    "good_template": "You consume {N} calories.",
+    "good_index": 64,
+    "quantity": 100,
+    "category": "neutral"
+  },
+  {
+    "id": "qty_64_316",
+    "description": "You consume 316 calories.",
+    "type": "quantity",
+    "good_template": "You consume {N} calories.",
+    "good_index": 64,
+    "quantity": 316,
+    "category": "neutral"
+  },
+  {
+    "id": "qty_64_1000",
+    "description": "You consume 1000 calories.",
+    "type": "quantity",
+    "good_template": "You consume {N} calories.",
+    "good_index": 64,
+    "quantity": 1000,
+    "category": "neutral"
+  },
+  {
+    "id": "qty_64_3162",
+    "description": "You consume 3162 calories.",
+    "type": "quantity",
+    "good_template": "You consume {N} calories.",
+    "good_index": 64,
+    "quantity": 3162,
+    "category": "neutral"
+  },
+  {
+    "id": "qty_64_10000",
+    "description": "You consume 10000 calories.",
+    "type": "quantity",
+    "good_template": "You consume {N} calories.",
+    "good_index": 64,
+    "quantity": 10000,
+    "category": "neutral"
+  },
+  {
+    "id": "qty_65_1",
+    "description": "You use social media for 1 hours.",
+    "type": "quantity",
+    "good_template": "You use social media for {N} hours.",
+    "good_index": 65,
+    "quantity": 1,
+    "category": "neutral"
+  },
+  {
+    "id": "qty_65_2",
+    "description": "You use social media for 2 hours.",
+    "type": "quantity",
+    "good_template": "You use social media for {N} hours.",
+    "good_index": 65,
+    "quantity": 2,
+    "category": "neutral"
+  },
+  {
+    "id": "qty_65_3",
+    "description": "You use social media for 3 hours.",
+    "type": "quantity",
+    "good_template": "You use social media for {N} hours.",
+    "good_index": 65,
+    "quantity": 3,
+    "category": "neutral"
+  },
+  {
+    "id": "qty_65_5",
+    "description": "You use social media for 5 hours.",
+    "type": "quantity",
+    "good_template": "You use social media for {N} hours.",
+    "good_index": 65,
+    "quantity": 5,
+    "category": "neutral"
+  },
+  {
+    "id": "qty_65_7",
+    "description": "You use social media for 7 hours.",
+    "type": "quantity",
+    "good_template": "You use social media for {N} hours.",
+    "good_index": 65,
+    "quantity": 7,
+    "category": "neutral"
+  },
+  {
+    "id": "qty_65_11",
+    "description": "You use social media for 11 hours.",
+    "type": "quantity",
+    "good_template": "You use social media for {N} hours.",
+    "good_index": 65,
+    "quantity": 11,
+    "category": "neutral"
+  },
+  {
+    "id": "qty_65_16",
+    "description": "You use social media for 16 hours.",
+    "type": "quantity",
+    "good_template": "You use social media for {N} hours.",
+    "good_index": 65,
+    "quantity": 16,
+    "category": "neutral"
+  },
+  {
+    "id": "qty_65_24",
+    "description": "You use social media for 24 hours.",
+    "type": "quantity",
+    "good_template": "You use social media for {N} hours.",
+    "good_index": 65,
+    "quantity": 24,
+    "category": "neutral"
+  },
+  {
+    "id": "qty_66_1",
+    "description": "Families have an average of 1 children.",
+    "type": "quantity",
+    "good_template": "Families have an average of {N} children.",
+    "good_index": 66,
+    "quantity": 1,
+    "category": "neutral"
+  },
+  {
+    "id": "qty_66_2",
+    "description": "Families have an average of 2 children.",
+    "type": "quantity",
+    "good_template": "Families have an average of {N} children.",
+    "good_index": 66,
+    "quantity": 2,
+    "category": "neutral"
+  },
+  {
+    "id": "qty_66_3",
+    "description": "Families have an average of 3 children.",
+    "type": "quantity",
+    "good_template": "Families have an average of {N} children.",
+    "good_index": 66,
+    "quantity": 3,
+    "category": "neutral"
+  },
+  {
+    "id": "qty_66_4",
+    "description": "Families have an average of 4 children.",
+    "type": "quantity",
+    "good_template": "Families have an average of {N} children.",
+    "good_index": 66,
+    "quantity": 4,
+    "category": "neutral"
+  },
+  {
+    "id": "qty_66_6",
+    "description": "Families have an average of 6 children.",
+    "type": "quantity",
+    "good_template": "Families have an average of {N} children.",
+    "good_index": 66,
+    "quantity": 6,
+    "category": "neutral"
+  },
+  {
+    "id": "qty_66_7",
+    "description": "Families have an average of 7 children.",
+    "type": "quantity",
+    "good_template": "Families have an average of {N} children.",
+    "good_index": 66,
+    "quantity": 7,
+    "category": "neutral"
+  },
+  {
+    "id": "qty_66_10",
+    "description": "Families have an average of 10 children.",
+    "type": "quantity",
+    "good_template": "Families have an average of {N} children.",
+    "good_index": 66,
+    "quantity": 10,
+    "category": "neutral"
+  },
+  {
+    "id": "qty_67_1",
+    "description": "You watch television for 1 hours.",
+    "type": "quantity",
+    "good_template": "You watch television for {N} hours.",
+    "good_index": 67,
+    "quantity": 1,
+    "category": "neutral"
+  },
+  {
+    "id": "qty_67_2",
+    "description": "You watch television for 2 hours.",
+    "type": "quantity",
+    "good_template": "You watch television for {N} hours.",
+    "good_index": 67,
+    "quantity": 2,
+    "category": "neutral"
+  },
+  {
+    "id": "qty_67_3",
+    "description": "You watch television for 3 hours.",
+    "type": "quantity",
+    "good_template": "You watch television for {N} hours.",
+    "good_index": 67,
+    "quantity": 3,
+    "category": "neutral"
+  },
+  {
+    "id": "qty_67_5",
+    "description": "You watch television for 5 hours.",
+    "type": "quantity",
+    "good_template": "You watch television for {N} hours.",
+    "good_index": 67,
+    "quantity": 5,
+    "category": "neutral"
+  },
+  {
+    "id": "qty_67_7",
+    "description": "You watch television for 7 hours.",
+    "type": "quantity",
+    "good_template": "You watch television for {N} hours.",
+    "good_index": 67,
+    "quantity": 7,
+    "category": "neutral"
+  },
+  {
+    "id": "qty_67_11",
+    "description": "You watch television for 11 hours.",
+    "type": "quantity",
+    "good_template": "You watch television for {N} hours.",
+    "good_index": 67,
+    "quantity": 11,
+    "category": "neutral"
+  },
+  {
+    "id": "qty_67_16",
+    "description": "You watch television for 16 hours.",
+    "type": "quantity",
+    "good_template": "You watch television for {N} hours.",
+    "good_index": 67,
+    "quantity": 16,
+    "category": "neutral"
+  },
+  {
+    "id": "qty_67_24",
+    "description": "You watch television for 24 hours.",
+    "type": "quantity",
+    "good_template": "You watch television for {N} hours.",
+    "good_index": 67,
+    "quantity": 24,
+    "category": "neutral"
+  },
+  {
+    "id": "qty_68_1",
+    "description": "You drink 1 cups of coffee.",
+    "type": "quantity",
+    "good_template": "You drink {N} cups of coffee.",
+    "good_index": 68,
+    "quantity": 1,
+    "category": "neutral"
+  },
+  {
+    "id": "qty_68_2",
+    "description": "You drink 2 cups of coffee.",
+    "type": "quantity",
+    "good_template": "You drink {N} cups of coffee.",
+    "good_index": 68,
+    "quantity": 2,
+    "category": "neutral"
+  },
+  {
+    "id": "qty_68_3",
+    "description": "You drink 3 cups of coffee.",
+    "type": "quantity",
+    "good_template": "You drink {N} cups of coffee.",
+    "good_index": 68,
+    "quantity": 3,
+    "category": "neutral"
+  },
+  {
+    "id": "qty_68_4",
+    "description": "You drink 4 cups of coffee.",
+    "type": "quantity",
+    "good_template": "You drink {N} cups of coffee.",
+    "good_index": 68,
+    "quantity": 4,
+    "category": "neutral"
+  },
+  {
+    "id": "qty_68_7",
+    "description": "You drink 7 cups of coffee.",
+    "type": "quantity",
+    "good_template": "You drink {N} cups of coffee.",
+    "good_index": 68,
+    "quantity": 7,
+    "category": "neutral"
+  },
+  {
+    "id": "qty_68_9",
+    "description": "You drink 9 cups of coffee.",
+    "type": "quantity",
+    "good_template": "You drink {N} cups of coffee.",
+    "good_index": 68,
+    "quantity": 9,
+    "category": "neutral"
+  },
+  {
+    "id": "qty_68_14",
+    "description": "You drink 14 cups of coffee.",
+    "type": "quantity",
+    "good_template": "You drink {N} cups of coffee.",
+    "good_index": 68,
+    "quantity": 14,
+    "category": "neutral"
+  },
+  {
+    "id": "qty_68_20",
+    "description": "You drink 20 cups of coffee.",
+    "type": "quantity",
+    "good_template": "You drink {N} cups of coffee.",
+    "good_index": 68,
+    "quantity": 20,
+    "category": "neutral"
+  },
+  {
+    "id": "qty_69_1",
+    "description": "You move to a new location after living in one place for 1 years.",
+    "type": "quantity",
+    "good_template": "You move to a new location after living in one place for {N} years.",
+    "good_index": 69,
+    "quantity": 1,
+    "category": "neutral"
+  },
+  {
+    "id": "qty_69_2",
+    "description": "You move to a new location after living in one place for 2 years.",
+    "type": "quantity",
+    "good_template": "You move to a new location after living in one place for {N} years.",
+    "good_index": 69,
+    "quantity": 2,
+    "category": "neutral"
+  },
+  {
+    "id": "qty_69_3",
+    "description": "You move to a new location after living in one place for 3 years.",
+    "type": "quantity",
+    "good_template": "You move to a new location after living in one place for {N} years.",
+    "good_index": 69,
+    "quantity": 3,
+    "category": "neutral"
+  },
+  {
+    "id": "qty_69_6",
+    "description": "You move to a new location after living in one place for 6 years.",
+    "type": "quantity",
+    "good_template": "You move to a new location after living in one place for {N} years.",
+    "good_index": 69,
+    "quantity": 6,
+    "category": "neutral"
+  },
+  {
+    "id": "qty_69_10",
+    "description": "You move to a new location after living in one place for 10 years.",
+    "type": "quantity",
+    "good_template": "You move to a new location after living in one place for {N} years.",
+    "good_index": 69,
+    "quantity": 10,
+    "category": "neutral"
+  },
+  {
+    "id": "qty_69_18",
+    "description": "You move to a new location after living in one place for 18 years.",
+    "type": "quantity",
+    "good_template": "You move to a new location after living in one place for {N} years.",
+    "good_index": 69,
+    "quantity": 18,
+    "category": "neutral"
+  },
+  {
+    "id": "qty_69_32",
+    "description": "You move to a new location after living in one place for 32 years.",
+    "type": "quantity",
+    "good_template": "You move to a new location after living in one place for {N} years.",
+    "good_index": 69,
+    "quantity": 32,
+    "category": "neutral"
+  },
+  {
+    "id": "qty_69_56",
+    "description": "You move to a new location after living in one place for 56 years.",
+    "type": "quantity",
+    "good_template": "You move to a new location after living in one place for {N} years.",
+    "good_index": 69,
+    "quantity": 56,
+    "category": "neutral"
+  },
+  {
+    "id": "qty_69_100",
+    "description": "You move to a new location after living in one place for 100 years.",
+    "type": "quantity",
+    "good_template": "You move to a new location after living in one place for {N} years.",
+    "good_index": 69,
+    "quantity": 100,
+    "category": "neutral"
+  },
+  {
+    "id": "qty_70_1",
+    "description": "You play video games for 1 hours.",
+    "type": "quantity",
+    "good_template": "You play video games for {N} hours.",
+    "good_index": 70,
+    "quantity": 1,
+    "category": "neutral"
+  },
+  {
+    "id": "qty_70_2",
+    "description": "You play video games for 2 hours.",
+    "type": "quantity",
+    "good_template": "You play video games for {N} hours.",
+    "good_index": 70,
+    "quantity": 2,
+    "category": "neutral"
+  },
+  {
+    "id": "qty_70_3",
+    "description": "You play video games for 3 hours.",
+    "type": "quantity",
+    "good_template": "You play video games for {N} hours.",
+    "good_index": 70,
+    "quantity": 3,
+    "category": "neutral"
+  },
+  {
+    "id": "qty_70_5",
+    "description": "You play video games for 5 hours.",
+    "type": "quantity",
+    "good_template": "You play video games for {N} hours.",
+    "good_index": 70,
+    "quantity": 5,
+    "category": "neutral"
+  },
+  {
+    "id": "qty_70_7",
+    "description": "You play video games for 7 hours.",
+    "type": "quantity",
+    "good_template": "You play video games for {N} hours.",
+    "good_index": 70,
+    "quantity": 7,
+    "category": "neutral"
+  },
+  {
+    "id": "qty_70_11",
+    "description": "You play video games for 11 hours.",
+    "type": "quantity",
+    "good_template": "You play video games for {N} hours.",
+    "good_index": 70,
+    "quantity": 11,
+    "category": "neutral"
+  },
+  {
+    "id": "qty_70_16",
+    "description": "You play video games for 16 hours.",
+    "type": "quantity",
+    "good_template": "You play video games for {N} hours.",
+    "good_index": 70,
+    "quantity": 16,
+    "category": "neutral"
+  },
+  {
+    "id": "qty_70_24",
+    "description": "You play video games for 24 hours.",
+    "type": "quantity",
+    "good_template": "You play video games for {N} hours.",
+    "good_index": 70,
+    "quantity": 24,
+    "category": "neutral"
+  },
+  {
+    "id": "qty_71_1",
+    "description": "You make 1 purchases.",
+    "type": "quantity",
+    "good_template": "You make {N} purchases.",
+    "good_index": 71,
+    "quantity": 1,
+    "category": "neutral"
+  },
+  {
+    "id": "qty_71_2",
+    "description": "You make 2 purchases.",
+    "type": "quantity",
+    "good_template": "You make {N} purchases.",
+    "good_index": 71,
+    "quantity": 2,
+    "category": "neutral"
+  },
+  {
+    "id": "qty_71_6",
+    "description": "You make 6 purchases.",
+    "type": "quantity",
+    "good_template": "You make {N} purchases.",
+    "good_index": 71,
+    "quantity": 6,
+    "category": "neutral"
+  },
+  {
+    "id": "qty_71_13",
+    "description": "You make 13 purchases.",
+    "type": "quantity",
+    "good_template": "You make {N} purchases.",
+    "good_index": 71,
+    "quantity": 13,
+    "category": "neutral"
+  },
+  {
+    "id": "qty_71_32",
+    "description": "You make 32 purchases.",
+    "type": "quantity",
+    "good_template": "You make {N} purchases.",
+    "good_index": 71,
+    "quantity": 32,
+    "category": "neutral"
+  },
+  {
+    "id": "qty_71_75",
+    "description": "You make 75 purchases.",
+    "type": "quantity",
+    "good_template": "You make {N} purchases.",
+    "good_index": 71,
+    "quantity": 75,
+    "category": "neutral"
+  },
+  {
+    "id": "qty_71_178",
+    "description": "You make 178 purchases.",
+    "type": "quantity",
+    "good_template": "You make {N} purchases.",
+    "good_index": 71,
+    "quantity": 178,
+    "category": "neutral"
+  },
+  {
+    "id": "qty_71_422",
+    "description": "You make 422 purchases.",
+    "type": "quantity",
+    "good_template": "You make {N} purchases.",
+    "good_index": 71,
+    "quantity": 422,
+    "category": "neutral"
+  },
+  {
+    "id": "qty_71_1000",
+    "description": "You make 1000 purchases.",
+    "type": "quantity",
+    "good_template": "You make {N} purchases.",
+    "good_index": 71,
+    "quantity": 1000,
+    "category": "neutral"
+  },
+  {
+    "id": "qty_72_1",
+    "description": "You travel 1 miles.",
+    "type": "quantity",
+    "good_template": "You travel {N} miles.",
+    "good_index": 72,
+    "quantity": 1,
+    "category": "neutral"
+  },
+  {
+    "id": "qty_72_6",
+    "description": "You travel 6 miles.",
+    "type": "quantity",
+    "good_template": "You travel {N} miles.",
+    "good_index": 72,
+    "quantity": 6,
+    "category": "neutral"
+  },
+  {
+    "id": "qty_72_32",
+    "description": "You travel 32 miles.",
+    "type": "quantity",
+    "good_template": "You travel {N} miles.",
+    "good_index": 72,
+    "quantity": 32,
+    "category": "neutral"
+  },
+  {
+    "id": "qty_72_178",
+    "description": "You travel 178 miles.",
+    "type": "quantity",
+    "good_template": "You travel {N} miles.",
+    "good_index": 72,
+    "quantity": 178,
+    "category": "neutral"
+  },
+  {
+    "id": "qty_72_1000",
+    "description": "You travel 1000 miles.",
+    "type": "quantity",
+    "good_template": "You travel {N} miles.",
+    "good_index": 72,
+    "quantity": 1000,
+    "category": "neutral"
+  },
+  {
+    "id": "qty_72_5623",
+    "description": "You travel 5623 miles.",
+    "type": "quantity",
+    "good_template": "You travel {N} miles.",
+    "good_index": 72,
+    "quantity": 5623,
+    "category": "neutral"
+  },
+  {
+    "id": "qty_72_31623",
+    "description": "You travel 31623 miles.",
+    "type": "quantity",
+    "good_template": "You travel {N} miles.",
+    "good_index": 72,
+    "quantity": 31623,
+    "category": "neutral"
+  },
+  {
+    "id": "qty_72_177828",
+    "description": "You travel 177828 miles.",
+    "type": "quantity",
+    "good_template": "You travel {N} miles.",
+    "good_index": 72,
+    "quantity": 177828,
+    "category": "neutral"
+  },
+  {
+    "id": "qty_72_1000000",
+    "description": "You travel 1000000 miles.",
+    "type": "quantity",
+    "good_template": "You travel {N} miles.",
+    "good_index": 72,
+    "quantity": 1000000,
+    "category": "neutral"
+  },
+  {
+    "id": "qty_73_1",
+    "description": "You invest in 1 speculative assets.",
+    "type": "quantity",
+    "good_template": "You invest in {N} speculative assets.",
+    "good_index": 73,
+    "quantity": 1,
+    "category": "neutral"
+  },
+  {
+    "id": "qty_73_2",
+    "description": "You invest in 2 speculative assets.",
+    "type": "quantity",
+    "good_template": "You invest in {N} speculative assets.",
+    "good_index": 73,
+    "quantity": 2,
+    "category": "neutral"
+  },
+  {
+    "id": "qty_73_6",
+    "description": "You invest in 6 speculative assets.",
+    "type": "quantity",
+    "good_template": "You invest in {N} speculative assets.",
+    "good_index": 73,
+    "quantity": 6,
+    "category": "neutral"
+  },
+  {
+    "id": "qty_73_13",
+    "description": "You invest in 13 speculative assets.",
+    "type": "quantity",
+    "good_template": "You invest in {N} speculative assets.",
+    "good_index": 73,
+    "quantity": 13,
+    "category": "neutral"
+  },
+  {
+    "id": "qty_73_32",
+    "description": "You invest in 32 speculative assets.",
+    "type": "quantity",
+    "good_template": "You invest in {N} speculative assets.",
+    "good_index": 73,
+    "quantity": 32,
+    "category": "neutral"
+  },
+  {
+    "id": "qty_73_75",
+    "description": "You invest in 75 speculative assets.",
+    "type": "quantity",
+    "good_template": "You invest in {N} speculative assets.",
+    "good_index": 73,
+    "quantity": 75,
+    "category": "neutral"
+  },
+  {
+    "id": "qty_73_178",
+    "description": "You invest in 178 speculative assets.",
+    "type": "quantity",
+    "good_template": "You invest in {N} speculative assets.",
+    "good_index": 73,
+    "quantity": 178,
+    "category": "neutral"
+  },
+  {
+    "id": "qty_73_422",
+    "description": "You invest in 422 speculative assets.",
+    "type": "quantity",
+    "good_template": "You invest in {N} speculative assets.",
+    "good_index": 73,
+    "quantity": 422,
+    "category": "neutral"
+  },
+  {
+    "id": "qty_73_1000",
+    "description": "You invest in 1000 speculative assets.",
+    "type": "quantity",
+    "good_template": "You invest in {N} speculative assets.",
+    "good_index": 73,
+    "quantity": 1000,
+    "category": "neutral"
+  },
+  {
+    "id": "qty_74_1",
+    "description": "You spend 1 hours in meetings.",
+    "type": "quantity",
+    "good_template": "You spend {N} hours in meetings.",
+    "good_index": 74,
+    "quantity": 1,
+    "category": "neutral"
+  },
+  {
+    "id": "qty_74_2",
+    "description": "You spend 2 hours in meetings.",
+    "type": "quantity",
+    "good_template": "You spend {N} hours in meetings.",
+    "good_index": 74,
+    "quantity": 2,
+    "category": "neutral"
+  },
+  {
+    "id": "qty_74_3",
+    "description": "You spend 3 hours in meetings.",
+    "type": "quantity",
+    "good_template": "You spend {N} hours in meetings.",
+    "good_index": 74,
+    "quantity": 3,
+    "category": "neutral"
+  },
+  {
+    "id": "qty_74_5",
+    "description": "You spend 5 hours in meetings.",
+    "type": "quantity",
+    "good_template": "You spend {N} hours in meetings.",
+    "good_index": 74,
+    "quantity": 5,
+    "category": "neutral"
+  },
+  {
+    "id": "qty_74_7",
+    "description": "You spend 7 hours in meetings.",
+    "type": "quantity",
+    "good_template": "You spend {N} hours in meetings.",
+    "good_index": 74,
+    "quantity": 7,
+    "category": "neutral"
+  },
+  {
+    "id": "qty_74_11",
+    "description": "You spend 11 hours in meetings.",
+    "type": "quantity",
+    "good_template": "You spend {N} hours in meetings.",
+    "good_index": 74,
+    "quantity": 11,
+    "category": "neutral"
+  },
+  {
+    "id": "qty_74_16",
+    "description": "You spend 16 hours in meetings.",
+    "type": "quantity",
+    "good_template": "You spend {N} hours in meetings.",
+    "good_index": 74,
+    "quantity": 16,
+    "category": "neutral"
+  },
+  {
+    "id": "qty_74_24",
+    "description": "You spend 24 hours in meetings.",
+    "type": "quantity",
+    "good_template": "You spend {N} hours in meetings.",
+    "good_index": 74,
+    "quantity": 24,
+    "category": "neutral"
+  },
+  {
+    "id": "qty_75_1",
+    "description": "You take 1 international business flights.",
+    "type": "quantity",
+    "good_template": "You take {N} international business flights.",
+    "good_index": 75,
+    "quantity": 1,
+    "category": "neutral"
+  },
+  {
+    "id": "qty_75_2",
+    "description": "You take 2 international business flights.",
+    "type": "quantity",
+    "good_template": "You take {N} international business flights.",
+    "good_index": 75,
+    "quantity": 2,
+    "category": "neutral"
+  },
+  {
+    "id": "qty_75_5",
+    "description": "You take 5 international business flights.",
+    "type": "quantity",
+    "good_template": "You take {N} international business flights.",
+    "good_index": 75,
+    "quantity": 5,
+    "category": "neutral"
+  },
+  {
+    "id": "qty_75_10",
+    "description": "You take 10 international business flights.",
+    "type": "quantity",
+    "good_template": "You take {N} international business flights.",
+    "good_index": 75,
+    "quantity": 10,
+    "category": "neutral"
+  },
+  {
+    "id": "qty_75_22",
+    "description": "You take 22 international business flights.",
+    "type": "quantity",
+    "good_template": "You take {N} international business flights.",
+    "good_index": 75,
+    "quantity": 22,
+    "category": "neutral"
+  },
+  {
+    "id": "qty_75_49",
+    "description": "You take 49 international business flights.",
+    "type": "quantity",
+    "good_template": "You take {N} international business flights.",
+    "good_index": 75,
+    "quantity": 49,
+    "category": "neutral"
+  },
+  {
+    "id": "qty_75_106",
+    "description": "You take 106 international business flights.",
+    "type": "quantity",
+    "good_template": "You take {N} international business flights.",
+    "good_index": 75,
+    "quantity": 106,
+    "category": "neutral"
+  },
+  {
+    "id": "qty_75_230",
+    "description": "You take 230 international business flights.",
+    "type": "quantity",
+    "good_template": "You take {N} international business flights.",
+    "good_index": 75,
+    "quantity": 230,
+    "category": "neutral"
+  },
+  {
+    "id": "qty_75_500",
+    "description": "You take 500 international business flights.",
+    "type": "quantity",
+    "good_template": "You take {N} international business flights.",
+    "good_index": 75,
+    "quantity": 500,
+    "category": "neutral"
+  },
+  {
+    "id": "qty_76_1",
+    "description": "You make 1 career changes.",
+    "type": "quantity",
+    "good_template": "You make {N} career changes.",
+    "good_index": 76,
+    "quantity": 1,
+    "category": "neutral"
+  },
+  {
+    "id": "qty_76_2",
+    "description": "You make 2 career changes.",
+    "type": "quantity",
+    "good_template": "You make {N} career changes.",
+    "good_index": 76,
+    "quantity": 2,
+    "category": "neutral"
+  },
+  {
+    "id": "qty_76_3",
+    "description": "You make 3 career changes.",
+    "type": "quantity",
+    "good_template": "You make {N} career changes.",
+    "good_index": 76,
+    "quantity": 3,
+    "category": "neutral"
+  },
+  {
+    "id": "qty_76_4",
+    "description": "You make 4 career changes.",
+    "type": "quantity",
+    "good_template": "You make {N} career changes.",
+    "good_index": 76,
+    "quantity": 4,
+    "category": "neutral"
+  },
+  {
+    "id": "qty_76_7",
+    "description": "You make 7 career changes.",
+    "type": "quantity",
+    "good_template": "You make {N} career changes.",
+    "good_index": 76,
+    "quantity": 7,
+    "category": "neutral"
+  },
+  {
+    "id": "qty_76_9",
+    "description": "You make 9 career changes.",
+    "type": "quantity",
+    "good_template": "You make {N} career changes.",
+    "good_index": 76,
+    "quantity": 9,
+    "category": "neutral"
+  },
+  {
+    "id": "qty_76_14",
+    "description": "You make 14 career changes.",
+    "type": "quantity",
+    "good_template": "You make {N} career changes.",
+    "good_index": 76,
+    "quantity": 14,
+    "category": "neutral"
+  },
+  {
+    "id": "qty_76_20",
+    "description": "You make 20 career changes.",
+    "type": "quantity",
+    "good_template": "You make {N} career changes.",
+    "good_index": 76,
+    "quantity": 20,
+    "category": "neutral"
+  },
+  {
+    "id": "qty_77_1",
+    "description": "You receive 1 technological devices.",
+    "type": "quantity",
+    "good_template": "You receive {N} technological devices.",
+    "good_index": 77,
+    "quantity": 1,
+    "category": "neutral"
+  },
+  {
+    "id": "qty_77_2",
+    "description": "You receive 2 technological devices.",
+    "type": "quantity",
+    "good_template": "You receive {N} technological devices.",
+    "good_index": 77,
+    "quantity": 2,
+    "category": "neutral"
+  },
+  {
+    "id": "qty_77_3",
+    "description": "You receive 3 technological devices.",
+    "type": "quantity",
+    "good_template": "You receive {N} technological devices.",
+    "good_index": 77,
+    "quantity": 3,
+    "category": "neutral"
+  },
+  {
+    "id": "qty_77_4",
+    "description": "You receive 4 technological devices.",
+    "type": "quantity",
+    "good_template": "You receive {N} technological devices.",
+    "good_index": 77,
+    "quantity": 4,
+    "category": "neutral"
+  },
+  {
+    "id": "qty_77_7",
+    "description": "You receive 7 technological devices.",
+    "type": "quantity",
+    "good_template": "You receive {N} technological devices.",
+    "good_index": 77,
+    "quantity": 7,
+    "category": "neutral"
+  },
+  {
+    "id": "qty_77_12",
+    "description": "You receive 12 technological devices.",
+    "type": "quantity",
+    "good_template": "You receive {N} technological devices.",
+    "good_index": 77,
+    "quantity": 12,
+    "category": "neutral"
+  },
+  {
+    "id": "qty_77_19",
+    "description": "You receive 19 technological devices.",
+    "type": "quantity",
+    "good_template": "You receive {N} technological devices.",
+    "good_index": 77,
+    "quantity": 19,
+    "category": "neutral"
+  },
+  {
+    "id": "qty_77_31",
+    "description": "You receive 31 technological devices.",
+    "type": "quantity",
+    "good_template": "You receive {N} technological devices.",
+    "good_index": 77,
+    "quantity": 31,
+    "category": "neutral"
+  },
+  {
+    "id": "qty_77_50",
+    "description": "You receive 50 technological devices.",
+    "type": "quantity",
+    "good_template": "You receive {N} technological devices.",
+    "good_index": 77,
+    "quantity": 50,
+    "category": "neutral"
+  },
+  {
+    "id": "qty_78_1",
+    "description": "You enjoy 1 years of retirement.",
+    "type": "quantity",
+    "good_template": "You enjoy {N} years of retirement.",
+    "good_index": 78,
+    "quantity": 1,
+    "category": "neutral"
+  },
+  {
+    "id": "qty_78_2",
+    "description": "You enjoy 2 years of retirement.",
+    "type": "quantity",
+    "good_template": "You enjoy {N} years of retirement.",
+    "good_index": 78,
+    "quantity": 2,
+    "category": "neutral"
+  },
+  {
+    "id": "qty_78_3",
+    "description": "You enjoy 3 years of retirement.",
+    "type": "quantity",
+    "good_template": "You enjoy {N} years of retirement.",
+    "good_index": 78,
+    "quantity": 3,
+    "category": "neutral"
+  },
+  {
+    "id": "qty_78_4",
+    "description": "You enjoy 4 years of retirement.",
+    "type": "quantity",
+    "good_template": "You enjoy {N} years of retirement.",
+    "good_index": 78,
+    "quantity": 4,
+    "category": "neutral"
+  },
+  {
+    "id": "qty_78_6",
+    "description": "You enjoy 6 years of retirement.",
+    "type": "quantity",
+    "good_template": "You enjoy {N} years of retirement.",
+    "good_index": 78,
+    "quantity": 6,
+    "category": "neutral"
+  },
+  {
+    "id": "qty_78_10",
+    "description": "You enjoy 10 years of retirement.",
+    "type": "quantity",
+    "good_template": "You enjoy {N} years of retirement.",
+    "good_index": 78,
+    "quantity": 10,
+    "category": "neutral"
+  },
+  {
+    "id": "qty_78_16",
+    "description": "You enjoy 16 years of retirement.",
+    "type": "quantity",
+    "good_template": "You enjoy {N} years of retirement.",
+    "good_index": 78,
+    "quantity": 16,
+    "category": "neutral"
+  },
+  {
+    "id": "qty_78_25",
+    "description": "You enjoy 25 years of retirement.",
+    "type": "quantity",
+    "good_template": "You enjoy {N} years of retirement.",
+    "good_index": 78,
+    "quantity": 25,
+    "category": "neutral"
+  },
+  {
+    "id": "qty_78_40",
+    "description": "You enjoy 40 years of retirement.",
+    "type": "quantity",
+    "good_template": "You enjoy {N} years of retirement.",
+    "good_index": 78,
+    "quantity": 40,
+    "category": "neutral"
+  },
+  {
+    "id": "qty_79_1",
+    "description": "Global life expectancy increases by 1 years.",
+    "type": "quantity",
+    "good_template": "Global life expectancy increases by {N} years.",
+    "good_index": 79,
+    "quantity": 1,
+    "category": "neutral"
+  },
+  {
+    "id": "qty_79_2",
+    "description": "Global life expectancy increases by 2 years.",
+    "type": "quantity",
+    "good_template": "Global life expectancy increases by {N} years.",
+    "good_index": 79,
+    "quantity": 2,
+    "category": "neutral"
+  },
+  {
+    "id": "qty_79_3",
+    "description": "Global life expectancy increases by 3 years.",
+    "type": "quantity",
+    "good_template": "Global life expectancy increases by {N} years.",
+    "good_index": 79,
+    "quantity": 3,
+    "category": "neutral"
+  },
+  {
+    "id": "qty_79_4",
+    "description": "Global life expectancy increases by 4 years.",
+    "type": "quantity",
+    "good_template": "Global life expectancy increases by {N} years.",
+    "good_index": 79,
+    "quantity": 4,
+    "category": "neutral"
+  },
+  {
+    "id": "qty_79_7",
+    "description": "Global life expectancy increases by 7 years.",
+    "type": "quantity",
+    "good_template": "Global life expectancy increases by {N} years.",
+    "good_index": 79,
+    "quantity": 7,
+    "category": "neutral"
+  },
+  {
+    "id": "qty_79_12",
+    "description": "Global life expectancy increases by 12 years.",
+    "type": "quantity",
+    "good_template": "Global life expectancy increases by {N} years.",
+    "good_index": 79,
+    "quantity": 12,
+    "category": "neutral"
+  },
+  {
+    "id": "qty_79_19",
+    "description": "Global life expectancy increases by 19 years.",
+    "type": "quantity",
+    "good_template": "Global life expectancy increases by {N} years.",
+    "good_index": 79,
+    "quantity": 19,
+    "category": "neutral"
+  },
+  {
+    "id": "qty_79_31",
+    "description": "Global life expectancy increases by 31 years.",
+    "type": "quantity",
+    "good_template": "Global life expectancy increases by {N} years.",
+    "good_index": 79,
+    "quantity": 31,
+    "category": "neutral"
+  },
+  {
+    "id": "qty_79_50",
+    "description": "Global life expectancy increases by 50 years.",
+    "type": "quantity",
+    "good_template": "Global life expectancy increases by {N} years.",
+    "good_index": 79,
+    "quantity": 50,
+    "category": "neutral"
+  }
+]

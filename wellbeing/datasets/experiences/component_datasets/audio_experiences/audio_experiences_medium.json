@@ -1,0 +1,4802 @@
+[
+  {
+    "id": "audio_1824",
+    "type": "audio",
+    "description": "<!audio:1037ba37acdc0e1d!>",
+    "category": "commonvoice17",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/commonvoice17_validation_max20_min20",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "commonvoice17_validation_max20_min20",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/commonvoice17/validation/cv17_common_voice_dv_18585772_dv.wav",
+      "clip_id": "cv17_common_voice_dv_18585772_dv"
+    }
+  },
+  {
+    "id": "audio_409",
+    "type": "audio",
+    "description": "<!audio:2e3301649ec94547!>",
+    "category": "commonvoice17",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/commonvoice17_validation_20",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "commonvoice17_validation_20",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/commonvoice17/validation/cv17_common_voice_eo_26618051_eo.wav",
+      "clip_id": "cv17_common_voice_eo_26618051_eo"
+    }
+  },
+  {
+    "id": "audio_4506",
+    "type": "audio",
+    "description": "<!audio:ac9e3e24cd66c6be!>",
+    "category": "accented_speech",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/english_accent-l2arctic",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "english_accent-l2arctic",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/english_accent/female-Scottish/englishaccent_vctk_p249_161_p249_female-Scottish.wav",
+      "clip_id": "englishaccent_vctk_p249_161_p249_female-Scottish"
+    }
+  },
+  {
+    "id": "audio_4012",
+    "type": "audio",
+    "description": "<!audio:10d4df5101aa6e4e!>",
+    "category": "commonvoice17",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/commonvoice17_validation_max50_min50",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "commonvoice17_validation_max50_min50",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/commonvoice17/validation/cv17_common_voice_sah_18871889_sah.wav",
+      "clip_id": "cv17_common_voice_sah_18871889_sah"
+    }
+  },
+  {
+    "id": "audio_3657",
+    "type": "audio",
+    "description": "<!audio:59ffab6a52c5a053!>",
+    "category": "commonvoice17",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/commonvoice17_validation_max50_min50",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "commonvoice17_validation_max50_min50",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/commonvoice17/validation/cv17_common_voice_lv_37772379_lv.wav",
+      "clip_id": "cv17_common_voice_lv_37772379_lv"
+    }
+  },
+  {
+    "id": "audio_2286",
+    "type": "audio",
+    "description": "<!audio:04344b00d1dc6041!>",
+    "category": "commonvoice17",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/commonvoice17_validation_max20_min20",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "commonvoice17_validation_max20_min20",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/commonvoice17/validation/cv17_common_voice_nl_28481521_nl.wav",
+      "clip_id": "cv17_common_voice_nl_28481521_nl"
+    }
+  },
+  {
+    "id": "audio_1679",
+    "type": "audio",
+    "description": "<!audio:5dec2548f73c1203!>",
+    "category": "commonvoice17",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/commonvoice17_validation_max20_min20",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "commonvoice17_validation_max20_min20",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/commonvoice17/validation/cv17_common_voice_be_29636502_be.wav",
+      "clip_id": "cv17_common_voice_be_29636502_be"
+    }
+  },
+  {
+    "id": "audio_8935",
+    "type": "audio",
+    "description": "<!audio:d734f6504d3f2832!>",
+    "category": "vocal_sounds",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/processed_vocalsound_val",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "processed_vocalsound_val",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/processed_vocalsound/val/Throat-clearing/vocalsound_1743_f3055_Throat-clearing.wav",
+      "clip_id": "vocalsound_1743_f3055_Throat-clearing"
+    }
+  },
+  {
+    "id": "audio_1424",
+    "type": "audio",
+    "description": "<!audio:b4d65ba30768b64f!>",
+    "category": "commonvoice17",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/commonvoice17_validation_20",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "commonvoice17_validation_20",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/commonvoice17/validation/cv17_common_voice_tok_32226725_tok.wav",
+      "clip_id": "cv17_common_voice_tok_32226725_tok"
+    }
+  },
+  {
+    "id": "audio_9674",
+    "type": "audio",
+    "description": "<!audio:4009c318388a3c74!>",
+    "category": "vocal_sounds",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/vocalsound_val",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "vocalsound_val",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/vocalsound/val/Throat-clearing/vocalsound_477_f0623_Throat-clearing.wav",
+      "clip_id": "vocalsound_477_f0623_Throat-clearing"
+    }
+  },
+  {
+    "id": "audio_6912",
+    "type": "audio",
+    "description": "<!audio:3f8be75603c08ea7!>",
+    "category": "anthems",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/processed_anthems",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "processed_anthems",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/processed_anthems/sz/anthem_10_20_sz.wav",
+      "clip_id": "anthem_10_20_sz"
+    }
+  },
+  {
+    "id": "audio_520",
+    "type": "audio",
+    "description": "<!audio:4a2afa7c7f0c6b8c!>",
+    "category": "commonvoice17",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/commonvoice17_validation_20",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "commonvoice17_validation_20",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/commonvoice17/validation/cv17_common_voice_fr_19684149_fr.wav",
+      "clip_id": "cv17_common_voice_fr_19684149_fr"
+    }
+  },
+  {
+    "id": "audio_488",
+    "type": "audio",
+    "description": "<!audio:8938c8e718261d59!>",
+    "category": "commonvoice17",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/commonvoice17_validation_20",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "commonvoice17_validation_20",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/commonvoice17/validation/cv17_common_voice_fa_21592999_fa.wav",
+      "clip_id": "cv17_common_voice_fa_21592999_fa"
+    }
+  },
+  {
+    "id": "audio_1535",
+    "type": "audio",
+    "description": "<!audio:b422c34b536c176a!>",
+    "category": "commonvoice17",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/commonvoice17_validation_20",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "commonvoice17_validation_20",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/commonvoice17/validation/cv17_common_voice_uz_29075124_uz.wav",
+      "clip_id": "cv17_common_voice_uz_29075124_uz"
+    }
+  },
+  {
+    "id": "audio_3582",
+    "type": "audio",
+    "description": "<!audio:233db982c1c39d2b!>",
+    "category": "commonvoice17",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/commonvoice17_validation_max50_min50",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "commonvoice17_validation_max50_min50",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/commonvoice17/validation/cv17_common_voice_lg_28310945_lg.wav",
+      "clip_id": "cv17_common_voice_lg_28310945_lg"
+    }
+  },
+  {
+    "id": "audio_3811",
+    "type": "audio",
+    "description": "<!audio:ba19bc96d62f28b9!>",
+    "category": "commonvoice17",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/commonvoice17_validation_max50_min50",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "commonvoice17_validation_max50_min50",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/commonvoice17/validation/cv17_common_voice_mrj_37144594_mrj.wav",
+      "clip_id": "cv17_common_voice_mrj_37144594_mrj"
+    }
+  },
+  {
+    "id": "audio_8279",
+    "type": "audio",
+    "description": "<!audio:89aa1b0012b08a69!>",
+    "category": "anthems",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/processed_anthems",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "processed_anthems",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/processed_anthems/mc/anthem_60_70_mc.wav",
+      "clip_id": "anthem_60_70_mc"
+    }
+  },
+  {
+    "id": "audio_434",
+    "type": "audio",
+    "description": "<!audio:3aa47062be32776c!>",
+    "category": "commonvoice17",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/commonvoice17_validation_20",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "commonvoice17_validation_20",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/commonvoice17/validation/cv17_common_voice_es_20271071_es.wav",
+      "clip_id": "cv17_common_voice_es_20271071_es"
+    }
+  },
+  {
+    "id": "audio_9195",
+    "type": "audio",
+    "description": "<!audio:437d83114bc9833d!>",
+    "category": "vocal_sounds",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/processed_vocalsound_val",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "processed_vocalsound_val",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/processed_vocalsound/val/Sigh/vocalsound_825_f0332_Sigh.wav",
+      "clip_id": "vocalsound_825_f0332_Sigh"
+    }
+  },
+  {
+    "id": "audio_3257",
+    "type": "audio",
+    "description": "<!audio:b3829c692f9d7a34!>",
+    "category": "commonvoice17",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/commonvoice17_validation_max50_min50",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "commonvoice17_validation_max50_min50",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/commonvoice17/validation/cv17_common_voice_fy-NL_23758340_fy-NL.wav",
+      "clip_id": "cv17_common_voice_fy-NL_23758340_fy-NL"
+    }
+  },
+  {
+    "id": "audio_8928",
+    "type": "audio",
+    "description": "<!audio:091dbe1130685539!>",
+    "category": "vocal_sounds",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/processed_vocalsound_val",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "processed_vocalsound_val",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/processed_vocalsound/val/Laughter/vocalsound_1727_m2565_Laughter.wav",
+      "clip_id": "vocalsound_1727_m2565_Laughter"
+    }
+  },
+  {
+    "id": "audio_6873",
+    "type": "audio",
+    "description": "<!audio:383739db03f61ab6!>",
+    "category": "anthems",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/processed_anthems",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "processed_anthems",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/processed_anthems/pr/anthem_10_20_pr.wav",
+      "clip_id": "anthem_10_20_pr"
+    }
+  },
+  {
+    "id": "audio_3611",
+    "type": "audio",
+    "description": "<!audio:b773c6fde98c898f!>",
+    "category": "commonvoice17",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/commonvoice17_validation_max50_min50",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "commonvoice17_validation_max50_min50",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/commonvoice17/validation/cv17_common_voice_lt_25311396_lt.wav",
+      "clip_id": "cv17_common_voice_lt_25311396_lt"
+    }
+  },
+  {
+    "id": "audio_7359",
+    "type": "audio",
+    "description": "<!audio:0559205f5dbe65c3!>",
+    "category": "anthems",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/processed_anthems",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "processed_anthems",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/processed_anthems/ru/anthem_20_30_ru.wav",
+      "clip_id": "anthem_20_30_ru"
+    }
+  },
+  {
+    "id": "audio_9654",
+    "type": "audio",
+    "description": "<!audio:b4acccf26f653503!>",
+    "category": "vocal_sounds",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/vocalsound_val",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "vocalsound_val",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/vocalsound/val/Throat-clearing/vocalsound_413_f0226_Throat-clearing.wav",
+      "clip_id": "vocalsound_413_f0226_Throat-clearing"
+    }
+  },
+  {
+    "id": "audio_4557",
+    "type": "audio",
+    "description": "<!audio:ff7829a802dc2120!>",
+    "category": "accented_speech",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/english_accent-l2arctic",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "english_accent-l2arctic",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/english_accent/female-Scottish/englishaccent_vctk_p262_093_p262_female-Scottish.wav",
+      "clip_id": "englishaccent_vctk_p262_093_p262_female-Scottish"
+    }
+  },
+  {
+    "id": "audio_106",
+    "type": "audio",
+    "description": "<!audio:42c3843d29384741!>",
+    "category": "commonvoice17",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/commonvoice17_validation_20",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "commonvoice17_validation_20",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/commonvoice17/validation/cv17_common_voice_ba_25803098_ba.wav",
+      "clip_id": "cv17_common_voice_ba_25803098_ba"
+    }
+  },
+  {
+    "id": "audio_2615",
+    "type": "audio",
+    "description": "<!audio:a765ebab78009582!>",
+    "category": "commonvoice17",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/commonvoice17_validation_max50_min50",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "commonvoice17_validation_max50_min50",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/commonvoice17/validation/cv17_common_voice_ar_24032961_ar.wav",
+      "clip_id": "cv17_common_voice_ar_24032961_ar"
+    }
+  },
+  {
+    "id": "audio_6924",
+    "type": "audio",
+    "description": "<!audio:b5fb1bfcbf86805e!>",
+    "category": "anthems",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/processed_anthems",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "processed_anthems",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/processed_anthems/tr/anthem_10_20_tr.wav",
+      "clip_id": "anthem_10_20_tr"
+    }
+  },
+  {
+    "id": "audio_5574",
+    "type": "audio",
+    "description": "<!audio:a252f7fc6a033635!>",
+    "category": "sound_effects",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/processed_99sounds",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "processed_99sounds",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/processed_99sounds/Whoosh - Mini Jet_Whoosh.wav",
+      "clip_id": "Whoosh - Mini Jet_Whoosh"
+    }
+  },
+  {
+    "id": "audio_4552",
+    "type": "audio",
+    "description": "<!audio:49155e0db6ed013a!>",
+    "category": "accented_speech",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/english_accent-l2arctic",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "english_accent-l2arctic",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/english_accent/female-NorthernIrish/englishaccent_vctk_p261_174_p261_female-NorthernIrish.wav",
+      "clip_id": "englishaccent_vctk_p261_174_p261_female-NorthernIrish"
+    }
+  },
+  {
+    "id": "audio_2547",
+    "type": "audio",
+    "description": "<!audio:718d57a951d95419!>",
+    "category": "commonvoice17",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/commonvoice17_validation_max20_min20",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "commonvoice17_validation_max20_min20",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/commonvoice17/validation/cv17_common_voice_ur_32050688_ur.wav",
+      "clip_id": "cv17_common_voice_ur_32050688_ur"
+    }
+  },
+  {
+    "id": "audio_3527",
+    "type": "audio",
+    "description": "<!audio:fb54b380083f08f9!>",
+    "category": "commonvoice17",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/commonvoice17_validation_max50_min50",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "commonvoice17_validation_max50_min50",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/commonvoice17/validation/cv17_common_voice_kab_22739282_kab.wav",
+      "clip_id": "cv17_common_voice_kab_22739282_kab"
+    }
+  },
+  {
+    "id": "audio_5514",
+    "type": "audio",
+    "description": "<!audio:a1b4f7cbaf1a7056!>",
+    "category": "sound_effects",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/processed_99sounds",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "processed_99sounds",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/processed_99sounds/Metal - King Gong_Metal.wav",
+      "clip_id": "Metal - King Gong_Metal"
+    }
+  },
+  {
+    "id": "audio_1674",
+    "type": "audio",
+    "description": "<!audio:1508a3e12310c9e6!>",
+    "category": "commonvoice17",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/commonvoice17_validation_max20_min20",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "commonvoice17_validation_max20_min20",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/commonvoice17/validation/cv17_common_voice_be_26987091_be.wav",
+      "clip_id": "cv17_common_voice_be_26987091_be"
+    }
+  },
+  {
+    "id": "audio_1519",
+    "type": "audio",
+    "description": "<!audio:f47676d1a5c96a27!>",
+    "category": "commonvoice17",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/commonvoice17_validation_20",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "commonvoice17_validation_20",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/commonvoice17/validation/cv17_common_voice_ur_31946597_ur.wav",
+      "clip_id": "cv17_common_voice_ur_31946597_ur"
+    }
+  },
+  {
+    "id": "audio_6224",
+    "type": "audio",
+    "description": "<!audio:4e1c3c3e504cc932!>",
+    "category": "animals_and_speech",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/processed_animals-english_accent-l2arctic",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "processed_animals-english_accent-l2arctic",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/l2arctic/female-Spanish/l2arctic_2983_NJS_female-Spanish.wav",
+      "clip_id": "l2arctic_2983_NJS_female-Spanish"
+    }
+  },
+  {
+    "id": "audio_1584",
+    "type": "audio",
+    "description": "<!audio:80a46c61df0fc2a2!>",
+    "category": "commonvoice17",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/commonvoice17_validation_20",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "commonvoice17_validation_20",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/commonvoice17/validation/cv17_common_voice_yue_33000688_yue.wav",
+      "clip_id": "cv17_common_voice_yue_33000688_yue"
+    }
+  },
+  {
+    "id": "audio_5881",
+    "type": "audio",
+    "description": "<!audio:f8228124f66c5d4d!>",
+    "category": "animal_sounds",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/processed_animals",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "processed_animals",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/processed_animals/horse/horse-neigh-2-390296_horse.wav",
+      "clip_id": "horse-neigh-2-390296_horse"
+    }
+  },
+  {
+    "id": "audio_5635",
+    "type": "audio",
+    "description": "<!audio:2297038b80df091b!>",
+    "category": "animal_sounds",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/processed_animals",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "processed_animals",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/processed_animals/cat/cat_100_cat.wav",
+      "clip_id": "cat_100_cat"
+    }
+  },
+  {
+    "id": "audio_4333",
+    "type": "audio",
+    "description": "<!audio:322a86cef654ee54!>",
+    "category": "commonvoice17",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/commonvoice17_validation_max50_min50",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "commonvoice17_validation_max50_min50",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/commonvoice17/validation/cv17_common_voice_uz_29387001_uz.wav",
+      "clip_id": "cv17_common_voice_uz_29387001_uz"
+    }
+  },
+  {
+    "id": "audio_711",
+    "type": "audio",
+    "description": "<!audio:d252c0ae5608576a!>",
+    "category": "commonvoice17",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/commonvoice17_validation_20",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "commonvoice17_validation_20",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/commonvoice17/validation/cv17_common_voice_id_26264807_id.wav",
+      "clip_id": "cv17_common_voice_id_26264807_id"
+    }
+  },
+  {
+    "id": "audio_7527",
+    "type": "audio",
+    "description": "<!audio:dd331d521fc1b5a0!>",
+    "category": "anthems",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/processed_anthems",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "processed_anthems",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/processed_anthems/es/anthem_30_40_es.wav",
+      "clip_id": "anthem_30_40_es"
+    }
+  },
+  {
+    "id": "audio_8785",
+    "type": "audio",
+    "description": "<!audio:0234422f37101a8f!>",
+    "category": "vocal_sounds",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/processed_vocalsound_val",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "processed_vocalsound_val",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/processed_vocalsound/val/Laughter/vocalsound_1324_m2353_Laughter.wav",
+      "clip_id": "vocalsound_1324_m2353_Laughter"
+    }
+  },
+  {
+    "id": "audio_2045",
+    "type": "audio",
+    "description": "<!audio:e07755812deb5133!>",
+    "category": "commonvoice17",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/commonvoice17_validation_max20_min20",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "commonvoice17_validation_max20_min20",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/commonvoice17/validation/cv17_common_voice_id_25971728_id.wav",
+      "clip_id": "cv17_common_voice_id_25971728_id"
+    }
+  },
+  {
+    "id": "audio_6201",
+    "type": "audio",
+    "description": "<!audio:7158637ec0c9576d!>",
+    "category": "animals_and_speech",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/processed_animals-english_accent-l2arctic",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "processed_animals-english_accent-l2arctic",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/l2arctic/male-Spanish/l2arctic_2590_ERMS_male-Spanish.wav",
+      "clip_id": "l2arctic_2590_ERMS_male-Spanish"
+    }
+  },
+  {
+    "id": "audio_1291",
+    "type": "audio",
+    "description": "<!audio:120da491cee478e8!>",
+    "category": "commonvoice17",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/commonvoice17_validation_20",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "commonvoice17_validation_20",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/commonvoice17/validation/cv17_common_voice_skr_34952683_skr.wav",
+      "clip_id": "cv17_common_voice_skr_34952683_skr"
+    }
+  },
+  {
+    "id": "audio_9044",
+    "type": "audio",
+    "description": "<!audio:aeed10c36f70f686!>",
+    "category": "vocal_sounds",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/processed_vocalsound_val",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "processed_vocalsound_val",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/processed_vocalsound/val/Laughter/vocalsound_426_f0923_Laughter.wav",
+      "clip_id": "vocalsound_426_f0923_Laughter"
+    }
+  },
+  {
+    "id": "audio_4803",
+    "type": "audio",
+    "description": "<!audio:678f98f8d0963dc7!>",
+    "category": "accented_speech",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/english_accent-l2arctic",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "english_accent-l2arctic",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/english_accent/female-American/englishaccent_vctk_p333_158_p333_female-American.wav",
+      "clip_id": "englishaccent_vctk_p333_158_p333_female-American"
+    }
+  },
+  {
+    "id": "audio_5925",
+    "type": "audio",
+    "description": "<!audio:533d901cc778f36f!>",
+    "category": "animal_sounds",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/processed_animals",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "processed_animals",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/processed_animals/lion/lion_6_lion.wav",
+      "clip_id": "lion_6_lion"
+    }
+  },
+  {
+    "id": "audio_9459",
+    "type": "audio",
+    "description": "<!audio:3ec4fbc66520f0b0!>",
+    "category": "vocal_sounds",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/vocalsound_val",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "vocalsound_val",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/vocalsound/val/Sniff/vocalsound_1576_m1609_Sniff.wav",
+      "clip_id": "vocalsound_1576_m1609_Sniff"
+    }
+  },
+  {
+    "id": "audio_3150",
+    "type": "audio",
+    "description": "<!audio:7562cb309a2506b6!>",
+    "category": "commonvoice17",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/commonvoice17_validation_max50_min50",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "commonvoice17_validation_max50_min50",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/commonvoice17/validation/cv17_common_voice_et_25102752_et.wav",
+      "clip_id": "cv17_common_voice_et_25102752_et"
+    }
+  },
+  {
+    "id": "audio_1139",
+    "type": "audio",
+    "description": "<!audio:be9e77aa6786b336!>",
+    "category": "commonvoice17",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/commonvoice17_validation_20",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "commonvoice17_validation_20",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/commonvoice17/validation/cv17_common_voice_pt_28423808_pt.wav",
+      "clip_id": "cv17_common_voice_pt_28423808_pt"
+    }
+  },
+  {
+    "id": "audio_750",
+    "type": "audio",
+    "description": "<!audio:b2a393b69673e864!>",
+    "category": "commonvoice17",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/commonvoice17_validation_20",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "commonvoice17_validation_20",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/commonvoice17/validation/cv17_common_voice_ja_38956088_ja.wav",
+      "clip_id": "cv17_common_voice_ja_38956088_ja"
+    }
+  },
+  {
+    "id": "audio_3733",
+    "type": "audio",
+    "description": "<!audio:ad2679e27ee0fd9a!>",
+    "category": "commonvoice17",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/commonvoice17_validation_max50_min50",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "commonvoice17_validation_max50_min50",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/commonvoice17/validation/cv17_common_voice_mn_18628015_mn.wav",
+      "clip_id": "cv17_common_voice_mn_18628015_mn"
+    }
+  },
+  {
+    "id": "audio_4741",
+    "type": "audio",
+    "description": "<!audio:ad90b6f5f855b59e!>",
+    "category": "accented_speech",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/english_accent-l2arctic",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "english_accent-l2arctic",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/english_accent/female-American/englishaccent_vctk_p306_215_p306_female-American.wav",
+      "clip_id": "englishaccent_vctk_p306_215_p306_female-American"
+    }
+  },
+  {
+    "id": "audio_1307",
+    "type": "audio",
+    "description": "<!audio:6cba43b5d7645cc9!>",
+    "category": "commonvoice17",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/commonvoice17_validation_20",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "commonvoice17_validation_20",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/commonvoice17/validation/cv17_common_voice_sv-SE_25940814_sv-SE.wav",
+      "clip_id": "cv17_common_voice_sv-SE_25940814_sv-SE"
+    }
+  },
+  {
+    "id": "audio_3814",
+    "type": "audio",
+    "description": "<!audio:1c4f30e3485d5923!>",
+    "category": "commonvoice17",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/commonvoice17_validation_max50_min50",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "commonvoice17_validation_max50_min50",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/commonvoice17/validation/cv17_common_voice_mrj_37145945_mrj.wav",
+      "clip_id": "cv17_common_voice_mrj_37145945_mrj"
+    }
+  },
+  {
+    "id": "audio_1654",
+    "type": "audio",
+    "description": "<!audio:109b4d517411b1b2!>",
+    "category": "commonvoice17",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/commonvoice17_validation_max20_min20",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "commonvoice17_validation_max20_min20",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/commonvoice17/validation/cv17_common_voice_ba_25576248_ba.wav",
+      "clip_id": "cv17_common_voice_ba_25576248_ba"
+    }
+  },
+  {
+    "id": "audio_6227",
+    "type": "audio",
+    "description": "<!audio:c079a65eb0709563!>",
+    "category": "animals_and_speech",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/processed_animals-english_accent-l2arctic",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "processed_animals-english_accent-l2arctic",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/l2arctic/male-Vietnamese/l2arctic_3072_HQTV_male-Vietnamese.wav",
+      "clip_id": "l2arctic_3072_HQTV_male-Vietnamese"
+    }
+  },
+  {
+    "id": "audio_4554",
+    "type": "audio",
+    "description": "<!audio:a23e696ae1305ab3!>",
+    "category": "accented_speech",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/english_accent-l2arctic",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "english_accent-l2arctic",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/english_accent/female-NorthernIrish/englishaccent_vctk_p261_243_p261_female-NorthernIrish.wav",
+      "clip_id": "englishaccent_vctk_p261_243_p261_female-NorthernIrish"
+    }
+  },
+  {
+    "id": "audio_7428",
+    "type": "audio",
+    "description": "<!audio:92afc89c3b560635!>",
+    "category": "anthems",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/processed_anthems",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "processed_anthems",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/processed_anthems/yes/anthem_20_30_yes.wav",
+      "clip_id": "anthem_20_30_yes"
+    }
+  },
+  {
+    "id": "audio_5977",
+    "type": "audio",
+    "description": "<!audio:a3ad069b6268bcf2!>",
+    "category": "animal_sounds",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/processed_animals",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "processed_animals",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/processed_animals/sheep/sheep_23_sheep.wav",
+      "clip_id": "sheep_23_sheep"
+    }
+  },
+  {
+    "id": "audio_2664",
+    "type": "audio",
+    "description": "<!audio:0fe41bdd489b8593!>",
+    "category": "commonvoice17",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/commonvoice17_validation_max50_min50",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "commonvoice17_validation_max50_min50",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/commonvoice17/validation/cv17_common_voice_ba_25908883_ba.wav",
+      "clip_id": "cv17_common_voice_ba_25908883_ba"
+    }
+  },
+  {
+    "id": "audio_6065",
+    "type": "audio",
+    "description": "<!audio:cc18c9f1183ab3d9!>",
+    "category": "animals_and_speech",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/processed_animals-english_accent-l2arctic",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "processed_animals-english_accent-l2arctic",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/english_accent/female-English/englishaccent_vctk_p244_018_p244_female-English.wav",
+      "clip_id": "englishaccent_vctk_p244_018_p244_female-English"
+    }
+  },
+  {
+    "id": "audio_5820",
+    "type": "audio",
+    "description": "<!audio:c7f9bec1a2e48e42!>",
+    "category": "animal_sounds",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/processed_animals",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "processed_animals",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/processed_animals/donkey/donkey_15_donkey.wav",
+      "clip_id": "donkey_15_donkey"
+    }
+  },
+  {
+    "id": "audio_3432",
+    "type": "audio",
+    "description": "<!audio:8971305ac3db8c38!>",
+    "category": "commonvoice17",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/commonvoice17_validation_max50_min50",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "commonvoice17_validation_max50_min50",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/commonvoice17/validation/cv17_common_voice_it_25853394_it.wav",
+      "clip_id": "cv17_common_voice_it_25853394_it"
+    }
+  },
+  {
+    "id": "audio_4374",
+    "type": "audio",
+    "description": "<!audio:a60f8e572dad4f9e!>",
+    "category": "commonvoice17",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/commonvoice17_validation_max50_min50",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "commonvoice17_validation_max50_min50",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/commonvoice17/validation/cv17_common_voice_zh-CN_22126321_zh-CN.wav",
+      "clip_id": "cv17_common_voice_zh-CN_22126321_zh-CN"
+    }
+  },
+  {
+    "id": "audio_1169",
+    "type": "audio",
+    "description": "<!audio:24658f0594a145e8!>",
+    "category": "commonvoice17",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/commonvoice17_validation_20",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "commonvoice17_validation_20",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/commonvoice17/validation/cv17_common_voice_rm-vallader_20577990_rm-vallader.wav",
+      "clip_id": "cv17_common_voice_rm-vallader_20577990_rm-vallader"
+    }
+  },
+  {
+    "id": "audio_2803",
+    "type": "audio",
+    "description": "<!audio:7228a714d02ab1d1!>",
+    "category": "commonvoice17",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/commonvoice17_validation_max50_min50",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "commonvoice17_validation_max50_min50",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/commonvoice17/validation/cv17_common_voice_ca_31502809_ca.wav",
+      "clip_id": "cv17_common_voice_ca_31502809_ca"
+    }
+  },
+  {
+    "id": "audio_8751",
+    "type": "audio",
+    "description": "<!audio:f68d42c4d61fd824!>",
+    "category": "vocal_sounds",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/processed_vocalsound_val",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "processed_vocalsound_val",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/processed_vocalsound/val/Laughter/vocalsound_1220_m1482_Laughter.wav",
+      "clip_id": "vocalsound_1220_m1482_Laughter"
+    }
+  },
+  {
+    "id": "audio_4010",
+    "type": "audio",
+    "description": "<!audio:a48aebf19d34e8c7!>",
+    "category": "commonvoice17",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/commonvoice17_validation_max50_min50",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "commonvoice17_validation_max50_min50",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/commonvoice17/validation/cv17_common_voice_sah_18871792_sah.wav",
+      "clip_id": "cv17_common_voice_sah_18871792_sah"
+    }
+  },
+  {
+    "id": "audio_2677",
+    "type": "audio",
+    "description": "<!audio:7d21102bbdc42559!>",
+    "category": "commonvoice17",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/commonvoice17_validation_max50_min50",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "commonvoice17_validation_max50_min50",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/commonvoice17/validation/cv17_common_voice_ba_26099640_ba.wav",
+      "clip_id": "cv17_common_voice_ba_26099640_ba"
+    }
+  },
+  {
+    "id": "audio_7573",
+    "type": "audio",
+    "description": "<!audio:72c64956e50c8a8d!>",
+    "category": "anthems",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/processed_anthems",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "processed_anthems",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/processed_anthems/kat/anthem_30_40_kat.wav",
+      "clip_id": "anthem_30_40_kat"
+    }
+  },
+  {
+    "id": "audio_6216",
+    "type": "audio",
+    "description": "<!audio:b24a21f9fcb07090!>",
+    "category": "animals_and_speech",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/processed_animals-english_accent-l2arctic",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "processed_animals-english_accent-l2arctic",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/l2arctic/female-Spanish/l2arctic_2890_NJS_female-Spanish.wav",
+      "clip_id": "l2arctic_2890_NJS_female-Spanish"
+    }
+  },
+  {
+    "id": "audio_4422",
+    "type": "audio",
+    "description": "<!audio:5ef68f20228a06dd!>",
+    "category": "accented_speech",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/english_accent-l2arctic",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "english_accent-l2arctic",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/english_accent/male-Irish/englishaccent_edacc_EDACC-C50_1630_EDACC-C50-A_male-Irish.wav",
+      "clip_id": "englishaccent_edacc_EDACC-C50_1630_EDACC-C50-A_male-Irish"
+    }
+  },
+  {
+    "id": "audio_9125",
+    "type": "audio",
+    "description": "<!audio:ddc6f6cb6d813e4f!>",
+    "category": "vocal_sounds",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/processed_vocalsound_val",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "processed_vocalsound_val",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/processed_vocalsound/val/Sneeze/vocalsound_632_m2651_Sneeze.wav",
+      "clip_id": "vocalsound_632_m2651_Sneeze"
+    }
+  },
+  {
+    "id": "audio_3598",
+    "type": "audio",
+    "description": "<!audio:178fb36064826643!>",
+    "category": "commonvoice17",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/commonvoice17_validation_max50_min50",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "commonvoice17_validation_max50_min50",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/commonvoice17/validation/cv17_common_voice_lt_25233180_lt.wav",
+      "clip_id": "cv17_common_voice_lt_25233180_lt"
+    }
+  },
+  {
+    "id": "audio_5313",
+    "type": "audio",
+    "description": "<!audio:16f9a9b54b4d778b!>",
+    "category": "accented_speech",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/english_accent-l2arctic",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "english_accent-l2arctic",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/l2arctic/male-Arabic/l2arctic_336_YBAA_male-Arabic.wav",
+      "clip_id": "l2arctic_336_YBAA_male-Arabic"
+    }
+  },
+  {
+    "id": "audio_916",
+    "type": "audio",
+    "description": "<!audio:824084c68cdb905b!>",
+    "category": "commonvoice17",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/commonvoice17_validation_20",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "commonvoice17_validation_20",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/commonvoice17/validation/cv17_common_voice_lv_37743937_lv.wav",
+      "clip_id": "cv17_common_voice_lv_37743937_lv"
+    }
+  },
+  {
+    "id": "audio_3752",
+    "type": "audio",
+    "description": "<!audio:0e62ced232d96d78!>",
+    "category": "commonvoice17",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/commonvoice17_validation_max50_min50",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "commonvoice17_validation_max50_min50",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/commonvoice17/validation/cv17_common_voice_mr_27923404_mr.wav",
+      "clip_id": "cv17_common_voice_mr_27923404_mr"
+    }
+  },
+  {
+    "id": "audio_525",
+    "type": "audio",
+    "description": "<!audio:6348a6a7d0b62899!>",
+    "category": "commonvoice17",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/commonvoice17_validation_20",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "commonvoice17_validation_20",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/commonvoice17/validation/cv17_common_voice_fr_20846430_fr.wav",
+      "clip_id": "cv17_common_voice_fr_20846430_fr"
+    }
+  },
+  {
+    "id": "audio_5168",
+    "type": "audio",
+    "description": "<!audio:1d429fb8948d3e25!>",
+    "category": "accented_speech",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/english_accent-l2arctic",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "english_accent-l2arctic",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/l2arctic/male-Spanish/l2arctic_2619_ERMS_male-Spanish.wav",
+      "clip_id": "l2arctic_2619_ERMS_male-Spanish"
+    }
+  },
+  {
+    "id": "audio_6572",
+    "type": "audio",
+    "description": "<!audio:8b595240a03e2834!>",
+    "category": "anthems",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/processed_anthems",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "processed_anthems",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/processed_anthems/tt/anthem_0_10_tt.wav",
+      "clip_id": "anthem_0_10_tt"
+    }
+  },
+  {
+    "id": "audio_4386",
+    "type": "audio",
+    "description": "<!audio:0b53c16ec9b72a85!>",
+    "category": "accented_speech",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/english_accent-l2arctic",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "english_accent-l2arctic",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/english_accent/female-Italian/englishaccent_edacc_EDACC-C01_347_EDACC-C01-B_female-Italian.wav",
+      "clip_id": "englishaccent_edacc_EDACC-C01_347_EDACC-C01-B_female-Italian"
+    }
+  },
+  {
+    "id": "audio_1084",
+    "type": "audio",
+    "description": "<!audio:c447dbdc761122ae!>",
+    "category": "commonvoice17",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/commonvoice17_validation_20",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "commonvoice17_validation_20",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/commonvoice17/validation/cv17_common_voice_nl_28388732_nl.wav",
+      "clip_id": "cv17_common_voice_nl_28388732_nl"
+    }
+  },
+  {
+    "id": "audio_3456",
+    "type": "audio",
+    "description": "<!audio:4e5c52fbd91ee146!>",
+    "category": "commonvoice17",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/commonvoice17_validation_max50_min50",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "commonvoice17_validation_max50_min50",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/commonvoice17/validation/cv17_common_voice_ja_38911342_ja.wav",
+      "clip_id": "cv17_common_voice_ja_38911342_ja"
+    }
+  },
+  {
+    "id": "audio_9292",
+    "type": "audio",
+    "description": "<!audio:079d762a1a643abd!>",
+    "category": "vocal_sounds",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/vocalsound_val",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "vocalsound_val",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/vocalsound/val/Cough/vocalsound_1107_f0116_Cough.wav",
+      "clip_id": "vocalsound_1107_f0116_Cough"
+    }
+  },
+  {
+    "id": "audio_5155",
+    "type": "audio",
+    "description": "<!audio:8e097cdb7f0f85c8!>",
+    "category": "accented_speech",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/english_accent-l2arctic",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "english_accent-l2arctic",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/l2arctic/male-Spanish/l2arctic_2533_EBVS_male-Spanish.wav",
+      "clip_id": "l2arctic_2533_EBVS_male-Spanish"
+    }
+  },
+  {
+    "id": "audio_3483",
+    "type": "audio",
+    "description": "<!audio:f8990dbe6204c72c!>",
+    "category": "commonvoice17",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/commonvoice17_validation_max50_min50",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "commonvoice17_validation_max50_min50",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/commonvoice17/validation/cv17_common_voice_ka_33148296_ka.wav",
+      "clip_id": "cv17_common_voice_ka_33148296_ka"
+    }
+  },
+  {
+    "id": "audio_8179",
+    "type": "audio",
+    "description": "<!audio:e5daec6724a3383a!>",
+    "category": "anthems",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/processed_anthems",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "processed_anthems",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/processed_anthems/ve/anthem_50_60_ve.wav",
+      "clip_id": "anthem_50_60_ve"
+    }
+  },
+  {
+    "id": "audio_6482",
+    "type": "audio",
+    "description": "<!audio:1b59dc1d9729cf7c!>",
+    "category": "anthems",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/processed_anthems",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "processed_anthems",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/processed_anthems/mr/anthem_0_10_mr.wav",
+      "clip_id": "anthem_0_10_mr"
+    }
+  },
+  {
+    "id": "audio_7517",
+    "type": "audio",
+    "description": "<!audio:323374927213ea35!>",
+    "category": "anthems",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/processed_anthems",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "processed_anthems",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/processed_anthems/de/anthem_30_40_de.wav",
+      "clip_id": "anthem_30_40_de"
+    }
+  },
+  {
+    "id": "audio_2340",
+    "type": "audio",
+    "description": "<!audio:49a3dc2ccaba9711!>",
+    "category": "commonvoice17",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/commonvoice17_validation_max20_min20",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "commonvoice17_validation_max20_min20",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/commonvoice17/validation/cv17_common_voice_rm-vallader_20579145_rm-vallader.wav",
+      "clip_id": "cv17_common_voice_rm-vallader_20579145_rm-vallader"
+    }
+  },
+  {
+    "id": "audio_4339",
+    "type": "audio",
+    "description": "<!audio:73104df980b65e33!>",
+    "category": "commonvoice17",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/commonvoice17_validation_max50_min50",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "commonvoice17_validation_max50_min50",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/commonvoice17/validation/cv17_common_voice_uz_29499070_uz.wav",
+      "clip_id": "cv17_common_voice_uz_29499070_uz"
+    }
+  },
+  {
+    "id": "audio_2287",
+    "type": "audio",
+    "description": "<!audio:145fc0b31c83364b!>",
+    "category": "commonvoice17",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/commonvoice17_validation_max20_min20",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "commonvoice17_validation_max20_min20",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/commonvoice17/validation/cv17_common_voice_nl_28481534_nl.wav",
+      "clip_id": "cv17_common_voice_nl_28481534_nl"
+    }
+  },
+  {
+    "id": "audio_4040",
+    "type": "audio",
+    "description": "<!audio:8258d537adc596f1!>",
+    "category": "commonvoice17",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/commonvoice17_validation_max50_min50",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "commonvoice17_validation_max50_min50",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/commonvoice17/validation/cv17_common_voice_sah_39516301_sah.wav",
+      "clip_id": "cv17_common_voice_sah_39516301_sah"
+    }
+  },
+  {
+    "id": "audio_9197",
+    "type": "audio",
+    "description": "<!audio:ad7b7ca1db0376e4!>",
+    "category": "vocal_sounds",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/processed_vocalsound_val",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "processed_vocalsound_val",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/processed_vocalsound/val/Sneeze/vocalsound_831_m1891_Sneeze.wav",
+      "clip_id": "vocalsound_831_m1891_Sneeze"
+    }
+  },
+  {
+    "id": "audio_8830",
+    "type": "audio",
+    "description": "<!audio:03c605d79ef3bab7!>",
+    "category": "vocal_sounds",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/processed_vocalsound_val",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "processed_vocalsound_val",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/processed_vocalsound/val/Sniff/vocalsound_1473_f2777_Sniff.wav",
+      "clip_id": "vocalsound_1473_f2777_Sniff"
+    }
+  },
+  {
+    "id": "audio_4304",
+    "type": "audio",
+    "description": "<!audio:8eacfb56ce82870f!>",
+    "category": "commonvoice17",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/commonvoice17_validation_max50_min50",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "commonvoice17_validation_max50_min50",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/commonvoice17/validation/cv17_common_voice_ur_31957936_ur.wav",
+      "clip_id": "cv17_common_voice_ur_31957936_ur"
+    }
+  },
+  {
+    "id": "audio_9577",
+    "type": "audio",
+    "description": "<!audio:487164b853f53030!>",
+    "category": "vocal_sounds",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/vocalsound_val",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "vocalsound_val",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/vocalsound/val/Cough/vocalsound_1_f1961_Cough.wav",
+      "clip_id": "vocalsound_1_f1961_Cough"
+    }
+  },
+  {
+    "id": "audio_7019",
+    "type": "audio",
+    "description": "<!audio:0d38382e0083656a!>",
+    "category": "anthems",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/processed_anthems",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "processed_anthems",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/processed_anthems/oss/anthem_120_130_oss.wav",
+      "clip_id": "anthem_120_130_oss"
+    }
+  },
+  {
+    "id": "audio_9560",
+    "type": "audio",
+    "description": "<!audio:86dd1dfb067437be!>",
+    "category": "vocal_sounds",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/vocalsound_val",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "vocalsound_val",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/vocalsound/val/Laughter/vocalsound_1838_f0788_Laughter.wav",
+      "clip_id": "vocalsound_1838_f0788_Laughter"
+    }
+  },
+  {
+    "id": "audio_6543",
+    "type": "audio",
+    "description": "<!audio:a86a24bb81efc647!>",
+    "category": "anthems",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/processed_anthems",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "processed_anthems",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/processed_anthems/si/anthem_0_10_si.wav",
+      "clip_id": "anthem_0_10_si"
+    }
+  },
+  {
+    "id": "audio_5930",
+    "type": "audio",
+    "description": "<!audio:0984304c25c3523a!>",
+    "category": "animal_sounds",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/processed_animals",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "processed_animals",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/processed_animals/monkey/monkey_11_monkey.wav",
+      "clip_id": "monkey_11_monkey"
+    }
+  },
+  {
+    "id": "audio_3593",
+    "type": "audio",
+    "description": "<!audio:0c489e6a9a962a80!>",
+    "category": "commonvoice17",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/commonvoice17_validation_max50_min50",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "commonvoice17_validation_max50_min50",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/commonvoice17/validation/cv17_common_voice_lt_25188206_lt.wav",
+      "clip_id": "cv17_common_voice_lt_25188206_lt"
+    }
+  },
+  {
+    "id": "audio_2266",
+    "type": "audio",
+    "description": "<!audio:80b1652d9f981d3b!>",
+    "category": "commonvoice17",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/commonvoice17_validation_max20_min20",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "commonvoice17_validation_max20_min20",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/commonvoice17/validation/cv17_common_voice_mrj_33719904_mrj.wav",
+      "clip_id": "cv17_common_voice_mrj_33719904_mrj"
+    }
+  },
+  {
+    "id": "audio_8348",
+    "type": "audio",
+    "description": "<!audio:d1556328e58cab61!>",
+    "category": "anthems",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/processed_anthems",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "processed_anthems",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/processed_anthems/wln/anthem_60_70_wln.wav",
+      "clip_id": "anthem_60_70_wln"
+    }
+  },
+  {
+    "id": "audio_8085",
+    "type": "audio",
+    "description": "<!audio:cbd89176c5673500!>",
+    "category": "anthems",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/processed_anthems",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "processed_anthems",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/processed_anthems/kz/anthem_50_60_kz.wav",
+      "clip_id": "anthem_50_60_kz"
+    }
+  },
+  {
+    "id": "audio_1489",
+    "type": "audio",
+    "description": "<!audio:527972ead5b4fa74!>",
+    "category": "commonvoice17",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/commonvoice17_validation_20",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "commonvoice17_validation_20",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/commonvoice17/validation/cv17_common_voice_ug_33894171_ug.wav",
+      "clip_id": "cv17_common_voice_ug_33894171_ug"
+    }
+  },
+  {
+    "id": "audio_771",
+    "type": "audio",
+    "description": "<!audio:7263846bf0dbff0b!>",
+    "category": "commonvoice17",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/commonvoice17_validation_20",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "commonvoice17_validation_20",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/commonvoice17/validation/cv17_common_voice_ka_37302350_ka.wav",
+      "clip_id": "cv17_common_voice_ka_37302350_ka"
+    }
+  },
+  {
+    "id": "audio_1796",
+    "type": "audio",
+    "description": "<!audio:71860f43e4e829c2!>",
+    "category": "commonvoice17",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/commonvoice17_validation_max20_min20",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "commonvoice17_validation_max20_min20",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/commonvoice17/validation/cv17_common_voice_da_29562053_da.wav",
+      "clip_id": "cv17_common_voice_da_29562053_da"
+    }
+  },
+  {
+    "id": "audio_2504",
+    "type": "audio",
+    "description": "<!audio:a44206ebcb214dc3!>",
+    "category": "commonvoice17",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/commonvoice17_validation_max20_min20",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "commonvoice17_validation_max20_min20",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/commonvoice17/validation/cv17_common_voice_ug_26351551_ug.wav",
+      "clip_id": "cv17_common_voice_ug_26351551_ug"
+    }
+  },
+  {
+    "id": "audio_2621",
+    "type": "audio",
+    "description": "<!audio:ce74b2c494cfe6d2!>",
+    "category": "commonvoice17",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/commonvoice17_validation_max50_min50",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "commonvoice17_validation_max50_min50",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/commonvoice17/validation/cv17_common_voice_ar_24037941_ar.wav",
+      "clip_id": "cv17_common_voice_ar_24037941_ar"
+    }
+  },
+  {
+    "id": "audio_6916",
+    "type": "audio",
+    "description": "<!audio:27bbeaa40b7c9a31!>",
+    "category": "anthems",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/processed_anthems",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "processed_anthems",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/processed_anthems/th/anthem_10_20_th.wav",
+      "clip_id": "anthem_10_20_th"
+    }
+  },
+  {
+    "id": "audio_9771",
+    "type": "audio",
+    "description": "<!audio:102f1ca7bd3510c8!>",
+    "category": "vocal_sounds",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/vocalsound_val",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "vocalsound_val",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/vocalsound/val/Throat-clearing/vocalsound_772_m1723_Throat-clearing.wav",
+      "clip_id": "vocalsound_772_m1723_Throat-clearing"
+    }
+  },
+  {
+    "id": "audio_1040",
+    "type": "audio",
+    "description": "<!audio:32443589a9139f3c!>",
+    "category": "commonvoice17",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/commonvoice17_validation_20",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "commonvoice17_validation_20",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/commonvoice17/validation/cv17_common_voice_mt_21317202_mt.wav",
+      "clip_id": "cv17_common_voice_mt_21317202_mt"
+    }
+  },
+  {
+    "id": "audio_6304",
+    "type": "audio",
+    "description": "<!audio:5708970b744a1007!>",
+    "category": "animals_and_speech",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/processed_animals-english_accent-l2arctic",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "processed_animals-english_accent-l2arctic",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/l2arctic/female-Chinese/l2arctic_969_NCC_female-Chinese.wav",
+      "clip_id": "l2arctic_969_NCC_female-Chinese"
+    }
+  },
+  {
+    "id": "audio_6252",
+    "type": "audio",
+    "description": "<!audio:f3c625a1226e5c85!>",
+    "category": "animals_and_speech",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/processed_animals-english_accent-l2arctic",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "processed_animals-english_accent-l2arctic",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/l2arctic/female-Vietnamese/l2arctic_3427_THV_female-Vietnamese.wav",
+      "clip_id": "l2arctic_3427_THV_female-Vietnamese"
+    }
+  },
+  {
+    "id": "audio_9763",
+    "type": "audio",
+    "description": "<!audio:d28f8aaa06b334b6!>",
+    "category": "vocal_sounds",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/vocalsound_val",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "vocalsound_val",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/vocalsound/val/Cough/vocalsound_745_f0674_Cough.wav",
+      "clip_id": "vocalsound_745_f0674_Cough"
+    }
+  },
+  {
+    "id": "audio_7668",
+    "type": "audio",
+    "description": "<!audio:37c0778c89cd5fc5!>",
+    "category": "anthems",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/processed_anthems",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "processed_anthems",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/processed_anthems/sea/anthem_30_40_sea.wav",
+      "clip_id": "anthem_30_40_sea"
+    }
+  },
+  {
+    "id": "audio_8669",
+    "type": "audio",
+    "description": "<!audio:feb2c1dc984b8048!>",
+    "category": "vocal_sounds",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/processed_vocalsound_val",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "processed_vocalsound_val",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/processed_vocalsound/val/Sneeze/vocalsound_101_m2545_Sneeze.wav",
+      "clip_id": "vocalsound_101_m2545_Sneeze"
+    }
+  },
+  {
+    "id": "audio_4119",
+    "type": "audio",
+    "description": "<!audio:4953a18f76a25932!>",
+    "category": "commonvoice17",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/commonvoice17_validation_max50_min50",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "commonvoice17_validation_max50_min50",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/commonvoice17/validation/cv17_common_voice_sw_35376000_sw.wav",
+      "clip_id": "cv17_common_voice_sw_35376000_sw"
+    }
+  },
+  {
+    "id": "audio_9064",
+    "type": "audio",
+    "description": "<!audio:6c041c2eab886be4!>",
+    "category": "vocal_sounds",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/processed_vocalsound_val",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "processed_vocalsound_val",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/processed_vocalsound/val/Sniff/vocalsound_475_f0951_Sniff.wav",
+      "clip_id": "vocalsound_475_f0951_Sniff"
+    }
+  },
+  {
+    "id": "audio_188",
+    "type": "audio",
+    "description": "<!audio:8686e85f22a70ac3!>",
+    "category": "commonvoice17",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/commonvoice17_validation_20",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "commonvoice17_validation_20",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/commonvoice17/validation/cv17_common_voice_br_18160144_br.wav",
+      "clip_id": "cv17_common_voice_br_18160144_br"
+    }
+  },
+  {
+    "id": "audio_1876",
+    "type": "audio",
+    "description": "<!audio:75a841844cd6b60e!>",
+    "category": "commonvoice17",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/commonvoice17_validation_max20_min20",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "commonvoice17_validation_max20_min20",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/commonvoice17/validation/cv17_common_voice_es_19952544_es.wav",
+      "clip_id": "cv17_common_voice_es_19952544_es"
+    }
+  },
+  {
+    "id": "audio_8797",
+    "type": "audio",
+    "description": "<!audio:87b61ec8a1d78423!>",
+    "category": "vocal_sounds",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/processed_vocalsound_val",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "processed_vocalsound_val",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/processed_vocalsound/val/Sigh/vocalsound_136_m3072_Sigh.wav",
+      "clip_id": "vocalsound_136_m3072_Sigh"
+    }
+  },
+  {
+    "id": "audio_4371",
+    "type": "audio",
+    "description": "<!audio:bc4c9b09a7c05201!>",
+    "category": "commonvoice17",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/commonvoice17_validation_max50_min50",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "commonvoice17_validation_max50_min50",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/commonvoice17/validation/cv17_common_voice_zh-CN_22056593_zh-CN.wav",
+      "clip_id": "cv17_common_voice_zh-CN_22056593_zh-CN"
+    }
+  },
+  {
+    "id": "audio_5573",
+    "type": "audio",
+    "description": "<!audio:461e35a0e43ff3de!>",
+    "category": "sound_effects",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/processed_99sounds",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "processed_99sounds",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/processed_99sounds/Whoosh - Land Speeder_Whoosh.wav",
+      "clip_id": "Whoosh - Land Speeder_Whoosh"
+    }
+  },
+  {
+    "id": "audio_1827",
+    "type": "audio",
+    "description": "<!audio:dcd53a9aacc7b065!>",
+    "category": "commonvoice17",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/commonvoice17_validation_max20_min20",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "commonvoice17_validation_max20_min20",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/commonvoice17/validation/cv17_common_voice_dv_23620043_dv.wav",
+      "clip_id": "cv17_common_voice_dv_23620043_dv"
+    }
+  },
+  {
+    "id": "audio_4808",
+    "type": "audio",
+    "description": "<!audio:7083602e5101f0d1!>",
+    "category": "accented_speech",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/english_accent-l2arctic",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "english_accent-l2arctic",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/english_accent/male-American/englishaccent_vctk_p334_049_p334_male-American.wav",
+      "clip_id": "englishaccent_vctk_p334_049_p334_male-American"
+    }
+  },
+  {
+    "id": "audio_7123",
+    "type": "audio",
+    "description": "<!audio:bedc6a9d797ccaa5!>",
+    "category": "anthems",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/processed_anthems",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "processed_anthems",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/processed_anthems/oss/anthem_180_190_oss.wav",
+      "clip_id": "anthem_180_190_oss"
+    }
+  },
+  {
+    "id": "audio_2591",
+    "type": "audio",
+    "description": "<!audio:cc775c3cd0bfb0b7!>",
+    "category": "commonvoice17",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/commonvoice17_validation_max50_min50",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "commonvoice17_validation_max50_min50",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/commonvoice17/validation/cv17_common_voice_ab_29662405_ab.wav",
+      "clip_id": "cv17_common_voice_ab_29662405_ab"
+    }
+  },
+  {
+    "id": "audio_7433",
+    "type": "audio",
+    "description": "<!audio:45ffebf5653bbb20!>",
+    "category": "anthems",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/processed_anthems",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "processed_anthems",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/processed_anthems/zre/anthem_20_30_zre.wav",
+      "clip_id": "anthem_20_30_zre"
+    }
+  },
+  {
+    "id": "audio_53",
+    "type": "audio",
+    "description": "<!audio:432183bdb531176b!>",
+    "category": "commonvoice17",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/commonvoice17_validation_20",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "commonvoice17_validation_20",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/commonvoice17/validation/cv17_common_voice_am_37802627_am.wav",
+      "clip_id": "cv17_common_voice_am_37802627_am"
+    }
+  },
+  {
+    "id": "audio_4315",
+    "type": "audio",
+    "description": "<!audio:1107a04948bd5ad8!>",
+    "category": "commonvoice17",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/commonvoice17_validation_max50_min50",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "commonvoice17_validation_max50_min50",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/commonvoice17/validation/cv17_common_voice_ur_32006449_ur.wav",
+      "clip_id": "cv17_common_voice_ur_32006449_ur"
+    }
+  },
+  {
+    "id": "audio_8201",
+    "type": "audio",
+    "description": "<!audio:1eb09089b52063de!>",
+    "category": "anthems",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/processed_anthems",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "processed_anthems",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/processed_anthems/ath/anthem_60_70_ath.wav",
+      "clip_id": "anthem_60_70_ath"
+    }
+  },
+  {
+    "id": "audio_2927",
+    "type": "audio",
+    "description": "<!audio:78e8ab51e7314840!>",
+    "category": "commonvoice17",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/commonvoice17_validation_max50_min50",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "commonvoice17_validation_max50_min50",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/commonvoice17/validation/cv17_common_voice_cy_24002969_cy.wav",
+      "clip_id": "cv17_common_voice_cy_24002969_cy"
+    }
+  },
+  {
+    "id": "audio_8317",
+    "type": "audio",
+    "description": "<!audio:50efb2c21c19e45a!>",
+    "category": "anthems",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/processed_anthems",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "processed_anthems",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/processed_anthems/sg/anthem_60_70_sg.wav",
+      "clip_id": "anthem_60_70_sg"
+    }
+  },
+  {
+    "id": "audio_1743",
+    "type": "audio",
+    "description": "<!audio:5882e6cc32364fe0!>",
+    "category": "commonvoice17",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/commonvoice17_validation_max20_min20",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "commonvoice17_validation_max20_min20",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/commonvoice17/validation/cv17_common_voice_cs_20589871_cs.wav",
+      "clip_id": "cv17_common_voice_cs_20589871_cs"
+    }
+  },
+  {
+    "id": "audio_4889",
+    "type": "audio",
+    "description": "<!audio:d60cae243b04cd01!>",
+    "category": "accented_speech",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/english_accent-l2arctic",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "english_accent-l2arctic",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/l2arctic/male-Arabic/l2arctic_103_ABA_male-Arabic.wav",
+      "clip_id": "l2arctic_103_ABA_male-Arabic"
+    }
+  },
+  {
+    "id": "audio_3258",
+    "type": "audio",
+    "description": "<!audio:fc3e3cecc60d56da!>",
+    "category": "commonvoice17",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/commonvoice17_validation_max50_min50",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "commonvoice17_validation_max50_min50",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/commonvoice17/validation/cv17_common_voice_fy-NL_23760522_fy-NL.wav",
+      "clip_id": "cv17_common_voice_fy-NL_23760522_fy-NL"
+    }
+  },
+  {
+    "id": "audio_6126",
+    "type": "audio",
+    "description": "<!audio:025a946e9fde9a10!>",
+    "category": "animals_and_speech",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/processed_animals-english_accent-l2arctic",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "processed_animals-english_accent-l2arctic",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/l2arctic/male-Hindi/l2arctic_1466_RRBI_male-Hindi.wav",
+      "clip_id": "l2arctic_1466_RRBI_male-Hindi"
+    }
+  },
+  {
+    "id": "audio_2646",
+    "type": "audio",
+    "description": "<!audio:ec33d3e9082e87d7!>",
+    "category": "commonvoice17",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/commonvoice17_validation_max50_min50",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "commonvoice17_validation_max50_min50",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/commonvoice17/validation/cv17_common_voice_ba_25528421_ba.wav",
+      "clip_id": "cv17_common_voice_ba_25528421_ba"
+    }
+  },
+  {
+    "id": "audio_8837",
+    "type": "audio",
+    "description": "<!audio:f8e57fd2c161c251!>",
+    "category": "vocal_sounds",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/processed_vocalsound_val",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "processed_vocalsound_val",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/processed_vocalsound/val/Laughter/vocalsound_1489_m1925_Laughter.wav",
+      "clip_id": "vocalsound_1489_m1925_Laughter"
+    }
+  },
+  {
+    "id": "audio_8689",
+    "type": "audio",
+    "description": "<!audio:80202de0edbfcc43!>",
+    "category": "vocal_sounds",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/processed_vocalsound_val",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "processed_vocalsound_val",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/processed_vocalsound/val/Cough/vocalsound_1067_m0075_Cough.wav",
+      "clip_id": "vocalsound_1067_m0075_Cough"
+    }
+  },
+  {
+    "id": "audio_9",
+    "type": "audio",
+    "description": "<!audio:5de76035d6293076!>",
+    "category": "commonvoice17",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/commonvoice17_validation_20",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "commonvoice17_validation_20",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/commonvoice17/validation/cv17_common_voice_ab_29681732_ab.wav",
+      "clip_id": "cv17_common_voice_ab_29681732_ab"
+    }
+  },
+  {
+    "id": "audio_9813",
+    "type": "audio",
+    "description": "<!audio:dc52665d4dcefa33!>",
+    "category": "vocal_sounds",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/vocalsound_val",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "vocalsound_val",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/vocalsound/val/Sigh/vocalsound_880_f2912_Sigh.wav",
+      "clip_id": "vocalsound_880_f2912_Sigh"
+    }
+  },
+  {
+    "id": "audio_5310",
+    "type": "audio",
+    "description": "<!audio:2bed260fba08a758!>",
+    "category": "accented_speech",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/english_accent-l2arctic",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "english_accent-l2arctic",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/l2arctic/female-Vietnamese/l2arctic_3357_THV_female-Vietnamese.wav",
+      "clip_id": "l2arctic_3357_THV_female-Vietnamese"
+    }
+  },
+  {
+    "id": "audio_8005",
+    "type": "audio",
+    "description": "<!audio:e35a21ea4a1fa0fd!>",
+    "category": "anthems",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/processed_anthems",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "processed_anthems",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/processed_anthems/bgv/anthem_50_60_bgv.wav",
+      "clip_id": "anthem_50_60_bgv"
+    }
+  },
+  {
+    "id": "audio_319",
+    "type": "audio",
+    "description": "<!audio:093040619b2f9c38!>",
+    "category": "commonvoice17",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/commonvoice17_validation_20",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "commonvoice17_validation_20",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/commonvoice17/validation/cv17_common_voice_de_17666094_de.wav",
+      "clip_id": "cv17_common_voice_de_17666094_de"
+    }
+  },
+  {
+    "id": "audio_1832",
+    "type": "audio",
+    "description": "<!audio:b9aa6e6ef6389151!>",
+    "category": "commonvoice17",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/commonvoice17_validation_max20_min20",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "commonvoice17_validation_max20_min20",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/commonvoice17/validation/cv17_common_voice_dv_26681702_dv.wav",
+      "clip_id": "cv17_common_voice_dv_26681702_dv"
+    }
+  },
+  {
+    "id": "audio_5947",
+    "type": "audio",
+    "description": "<!audio:ff282a55c61bb651!>",
+    "category": "animal_sounds",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/processed_animals",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "processed_animals",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/processed_animals/monkey/monkey_3_monkey.wav",
+      "clip_id": "monkey_3_monkey"
+    }
+  },
+  {
+    "id": "audio_5038",
+    "type": "audio",
+    "description": "<!audio:9a465f50bb86c477!>",
+    "category": "accented_speech",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/english_accent-l2arctic",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "english_accent-l2arctic",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/l2arctic/female-Korean/l2arctic_1863_HJK_female-Korean.wav",
+      "clip_id": "l2arctic_1863_HJK_female-Korean"
+    }
+  },
+  {
+    "id": "audio_3923",
+    "type": "audio",
+    "description": "<!audio:2a1ade512aa5b968!>",
+    "category": "commonvoice17",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/commonvoice17_validation_max50_min50",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "commonvoice17_validation_max50_min50",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/commonvoice17/validation/cv17_common_voice_rm-sursilv_20569447_rm-sursilv.wav",
+      "clip_id": "cv17_common_voice_rm-sursilv_20569447_rm-sursilv"
+    }
+  },
+  {
+    "id": "audio_949",
+    "type": "audio",
+    "description": "<!audio:034bc25b41a5bf8c!>",
+    "category": "commonvoice17",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/commonvoice17_validation_20",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "commonvoice17_validation_20",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/commonvoice17/validation/cv17_common_voice_mhr_36378238_mhr.wav",
+      "clip_id": "cv17_common_voice_mhr_36378238_mhr"
+    }
+  },
+  {
+    "id": "audio_3946",
+    "type": "audio",
+    "description": "<!audio:56267c8e7c7b245c!>",
+    "category": "commonvoice17",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/commonvoice17_validation_max50_min50",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "commonvoice17_validation_max50_min50",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/commonvoice17/validation/cv17_common_voice_rm-sursilv_21826455_rm-sursilv.wav",
+      "clip_id": "cv17_common_voice_rm-sursilv_21826455_rm-sursilv"
+    }
+  },
+  {
+    "id": "audio_9295",
+    "type": "audio",
+    "description": "<!audio:5e044a830db1cdbf!>",
+    "category": "vocal_sounds",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/vocalsound_val",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "vocalsound_val",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/vocalsound/val/Cough/vocalsound_1124_f0923_Cough.wav",
+      "clip_id": "vocalsound_1124_f0923_Cough"
+    }
+  },
+  {
+    "id": "audio_1290",
+    "type": "audio",
+    "description": "<!audio:95517bfa535a332e!>",
+    "category": "commonvoice17",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/commonvoice17_validation_20",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "commonvoice17_validation_20",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/commonvoice17/validation/cv17_common_voice_skr_34952624_skr.wav",
+      "clip_id": "cv17_common_voice_skr_34952624_skr"
+    }
+  },
+  {
+    "id": "audio_1403",
+    "type": "audio",
+    "description": "<!audio:0185c7b8ec68f078!>",
+    "category": "commonvoice17",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/commonvoice17_validation_20",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "commonvoice17_validation_20",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/commonvoice17/validation/cv17_common_voice_tk_36943684_tk.wav",
+      "clip_id": "cv17_common_voice_tk_36943684_tk"
+    }
+  },
+  {
+    "id": "audio_7962",
+    "type": "audio",
+    "description": "<!audio:53e65608303b124c!>",
+    "category": "anthems",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/processed_anthems",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "processed_anthems",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/processed_anthems/uvo/anthem_40_50_uvo.wav",
+      "clip_id": "anthem_40_50_uvo"
+    }
+  },
+  {
+    "id": "audio_1133",
+    "type": "audio",
+    "description": "<!audio:1c1200b6178cc01d!>",
+    "category": "commonvoice17",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/commonvoice17_validation_20",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "commonvoice17_validation_20",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/commonvoice17/validation/cv17_common_voice_pt_25065397_pt.wav",
+      "clip_id": "cv17_common_voice_pt_25065397_pt"
+    }
+  },
+  {
+    "id": "audio_8727",
+    "type": "audio",
+    "description": "<!audio:132f5d730016b370!>",
+    "category": "vocal_sounds",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/processed_vocalsound_val",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "processed_vocalsound_val",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/processed_vocalsound/val/Sigh/vocalsound_1163_m0778_Sigh.wav",
+      "clip_id": "vocalsound_1163_m0778_Sigh"
+    }
+  },
+  {
+    "id": "audio_2060",
+    "type": "audio",
+    "description": "<!audio:cb3a5b9bcca1bac3!>",
+    "category": "commonvoice17",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/commonvoice17_validation_max20_min20",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "commonvoice17_validation_max20_min20",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/commonvoice17/validation/cv17_common_voice_it_23710354_it.wav",
+      "clip_id": "cv17_common_voice_it_23710354_it"
+    }
+  },
+  {
+    "id": "audio_2103",
+    "type": "audio",
+    "description": "<!audio:75d888676f52dbfb!>",
+    "category": "commonvoice17",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/commonvoice17_validation_max20_min20",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "commonvoice17_validation_max20_min20",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/commonvoice17/validation/cv17_common_voice_kab_17660392_kab.wav",
+      "clip_id": "cv17_common_voice_kab_17660392_kab"
+    }
+  },
+  {
+    "id": "audio_7787",
+    "type": "audio",
+    "description": "<!audio:0df3bf293c0a2330!>",
+    "category": "anthems",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/processed_anthems",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "processed_anthems",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/processed_anthems/cri/anthem_40_50_cri.wav",
+      "clip_id": "anthem_40_50_cri"
+    }
+  },
+  {
+    "id": "audio_9007",
+    "type": "audio",
+    "description": "<!audio:0ea2c87e6b552224!>",
+    "category": "vocal_sounds",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/processed_vocalsound_val",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "processed_vocalsound_val",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/processed_vocalsound/val/Sneeze/vocalsound_29_m2688_Sneeze.wav",
+      "clip_id": "vocalsound_29_m2688_Sneeze"
+    }
+  },
+  {
+    "id": "audio_2705",
+    "type": "audio",
+    "description": "<!audio:f5364adc34d241ec!>",
+    "category": "commonvoice17",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/commonvoice17_validation_max50_min50",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "commonvoice17_validation_max50_min50",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/commonvoice17/validation/cv17_common_voice_be_27435637_be.wav",
+      "clip_id": "cv17_common_voice_be_27435637_be"
+    }
+  },
+  {
+    "id": "audio_4342",
+    "type": "audio",
+    "description": "<!audio:9542a365d614433a!>",
+    "category": "commonvoice17",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/commonvoice17_validation_max50_min50",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "commonvoice17_validation_max50_min50",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/commonvoice17/validation/cv17_common_voice_uz_29499688_uz.wav",
+      "clip_id": "cv17_common_voice_uz_29499688_uz"
+    }
+  },
+  {
+    "id": "audio_8645",
+    "type": "audio",
+    "description": "<!audio:4f5cfa45e430d0d1!>",
+    "category": "anthems",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/processed_anthems",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "processed_anthems",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/processed_anthems/tib/anthem_90_100_tib.wav",
+      "clip_id": "anthem_90_100_tib"
+    }
+  },
+  {
+    "id": "audio_6932",
+    "type": "audio",
+    "description": "<!audio:069d6d43c915f686!>",
+    "category": "anthems",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/processed_anthems",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "processed_anthems",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/processed_anthems/ug/anthem_10_20_ug.wav",
+      "clip_id": "anthem_10_20_ug"
+    }
+  },
+  {
+    "id": "audio_3470",
+    "type": "audio",
+    "description": "<!audio:84656d3cf8b324b7!>",
+    "category": "commonvoice17",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/commonvoice17_validation_max50_min50",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "commonvoice17_validation_max50_min50",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/commonvoice17/validation/cv17_common_voice_ja_38992310_ja.wav",
+      "clip_id": "cv17_common_voice_ja_38992310_ja"
+    }
+  },
+  {
+    "id": "audio_8835",
+    "type": "audio",
+    "description": "<!audio:a7c523dd660d97ea!>",
+    "category": "vocal_sounds",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/processed_vocalsound_val",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "processed_vocalsound_val",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/processed_vocalsound/val/Throat-clearing/vocalsound_1484_f0743_Throat-clearing.wav",
+      "clip_id": "vocalsound_1484_f0743_Throat-clearing"
+    }
+  },
+  {
+    "id": "audio_3295",
+    "type": "audio",
+    "description": "<!audio:02fe1421ae1bda00!>",
+    "category": "commonvoice17",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/commonvoice17_validation_max50_min50",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "commonvoice17_validation_max50_min50",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/commonvoice17/validation/cv17_common_voice_gl_36860848_gl.wav",
+      "clip_id": "cv17_common_voice_gl_36860848_gl"
+    }
+  },
+  {
+    "id": "audio_5107",
+    "type": "audio",
+    "description": "<!audio:1e3bcb3785e6acd6!>",
+    "category": "accented_speech",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/english_accent-l2arctic",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "english_accent-l2arctic",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/l2arctic/male-Korean/l2arctic_2258_YKWK_male-Korean.wav",
+      "clip_id": "l2arctic_2258_YKWK_male-Korean"
+    }
+  },
+  {
+    "id": "audio_6537",
+    "type": "audio",
+    "description": "<!audio:8d2366a5b740b8b6!>",
+    "category": "anthems",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/processed_anthems",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "processed_anthems",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/processed_anthems/sco/anthem_0_10_sco.wav",
+      "clip_id": "anthem_0_10_sco"
+    }
+  },
+  {
+    "id": "audio_6118",
+    "type": "audio",
+    "description": "<!audio:863c3e7e33efb028!>",
+    "category": "animals_and_speech",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/processed_animals-english_accent-l2arctic",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "processed_animals-english_accent-l2arctic",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/l2arctic/male-Hindi/l2arctic_1336_ASI_male-Hindi.wav",
+      "clip_id": "l2arctic_1336_ASI_male-Hindi"
+    }
+  },
+  {
+    "id": "audio_7177",
+    "type": "audio",
+    "description": "<!audio:8ad4895a69126634!>",
+    "category": "anthems",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/processed_anthems",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "processed_anthems",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/processed_anthems/br/anthem_20_30_br.wav",
+      "clip_id": "anthem_20_30_br"
+    }
+  },
+  {
+    "id": "audio_8479",
+    "type": "audio",
+    "description": "<!audio:551430df5be2ee92!>",
+    "category": "anthems",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/processed_anthems",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "processed_anthems",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/processed_anthems/zm/anthem_70_80_zm.wav",
+      "clip_id": "anthem_70_80_zm"
+    }
+  },
+  {
+    "id": "audio_7397",
+    "type": "audio",
+    "description": "<!audio:658e659cc01e3610!>",
+    "category": "anthems",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/processed_anthems",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "processed_anthems",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/processed_anthems/tm/anthem_20_30_tm.wav",
+      "clip_id": "anthem_20_30_tm"
+    }
+  },
+  {
+    "id": "audio_1982",
+    "type": "audio",
+    "description": "<!audio:ce94cca087ef3ccc!>",
+    "category": "commonvoice17",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/commonvoice17_validation_max20_min20",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "commonvoice17_validation_max20_min20",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/commonvoice17/validation/cv17_common_voice_gl_36853614_gl.wav",
+      "clip_id": "cv17_common_voice_gl_36853614_gl"
+    }
+  },
+  {
+    "id": "audio_4061",
+    "type": "audio",
+    "description": "<!audio:5f5fe7d43ec27570!>",
+    "category": "commonvoice17",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/commonvoice17_validation_max50_min50",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "commonvoice17_validation_max50_min50",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/commonvoice17/validation/cv17_common_voice_sk_28565612_sk.wav",
+      "clip_id": "cv17_common_voice_sk_28565612_sk"
+    }
+  },
+  {
+    "id": "audio_3681",
+    "type": "audio",
+    "description": "<!audio:201da2cd55cc7135!>",
+    "category": "commonvoice17",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/commonvoice17_validation_max50_min50",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "commonvoice17_validation_max50_min50",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/commonvoice17/validation/cv17_common_voice_lv_39206007_lv.wav",
+      "clip_id": "cv17_common_voice_lv_39206007_lv"
+    }
+  },
+  {
+    "id": "audio_1049",
+    "type": "audio",
+    "description": "<!audio:1372d86608d77a5f!>",
+    "category": "commonvoice17",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/commonvoice17_validation_20",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "commonvoice17_validation_20",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/commonvoice17/validation/cv17_common_voice_mt_21380714_mt.wav",
+      "clip_id": "cv17_common_voice_mt_21380714_mt"
+    }
+  },
+  {
+    "id": "audio_5539",
+    "type": "audio",
+    "description": "<!audio:8c68c692f5d846cc!>",
+    "category": "sound_effects",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/processed_99sounds",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "processed_99sounds",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/processed_99sounds/Short - Digital Crystal_Short.wav",
+      "clip_id": "Short - Digital Crystal_Short"
+    }
+  },
+  {
+    "id": "audio_344",
+    "type": "audio",
+    "description": "<!audio:d7c2e6188ca85401!>",
+    "category": "commonvoice17",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/commonvoice17_validation_20",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "commonvoice17_validation_20",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/commonvoice17/validation/cv17_common_voice_dv_18588759_dv.wav",
+      "clip_id": "cv17_common_voice_dv_18588759_dv"
+    }
+  },
+  {
+    "id": "audio_9638",
+    "type": "audio",
+    "description": "<!audio:51884aa4103a77e2!>",
+    "category": "vocal_sounds",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/vocalsound_val",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "vocalsound_val",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/vocalsound/val/Throat-clearing/vocalsound_368_f3334_Throat-clearing.wav",
+      "clip_id": "vocalsound_368_f3334_Throat-clearing"
+    }
+  },
+  {
+    "id": "audio_9075",
+    "type": "audio",
+    "description": "<!audio:ff05453f925371d2!>",
+    "category": "vocal_sounds",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/processed_vocalsound_val",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "processed_vocalsound_val",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/processed_vocalsound/val/Sneeze/vocalsound_503_m2565_Sneeze.wav",
+      "clip_id": "vocalsound_503_m2565_Sneeze"
+    }
+  },
+  {
+    "id": "audio_3770",
+    "type": "audio",
+    "description": "<!audio:759d21e2b840387c!>",
+    "category": "commonvoice17",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/commonvoice17_validation_max50_min50",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "commonvoice17_validation_max50_min50",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/commonvoice17/validation/cv17_common_voice_mr_30899214_mr.wav",
+      "clip_id": "cv17_common_voice_mr_30899214_mr"
+    }
+  },
+  {
+    "id": "audio_9641",
+    "type": "audio",
+    "description": "<!audio:d9e6dc936e63c92a!>",
+    "category": "vocal_sounds",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/vocalsound_val",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "vocalsound_val",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/vocalsound/val/Sneeze/vocalsound_375_f0788_Sneeze.wav",
+      "clip_id": "vocalsound_375_f0788_Sneeze"
+    }
+  },
+  {
+    "id": "audio_3608",
+    "type": "audio",
+    "description": "<!audio:3eee5789f3f37dfb!>",
+    "category": "commonvoice17",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/commonvoice17_validation_max50_min50",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "commonvoice17_validation_max50_min50",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/commonvoice17/validation/cv17_common_voice_lt_25246825_lt.wav",
+      "clip_id": "cv17_common_voice_lt_25246825_lt"
+    }
+  },
+  {
+    "id": "audio_117",
+    "type": "audio",
+    "description": "<!audio:079a33ada866d37a!>",
+    "category": "commonvoice17",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/commonvoice17_validation_20",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "commonvoice17_validation_20",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/commonvoice17/validation/cv17_common_voice_be_26773539_be.wav",
+      "clip_id": "cv17_common_voice_be_26773539_be"
+    }
+  },
+  {
+    "id": "audio_1163",
+    "type": "audio",
+    "description": "<!audio:5c07504874223860!>",
+    "category": "commonvoice17",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/commonvoice17_validation_20",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "commonvoice17_validation_20",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/commonvoice17/validation/cv17_common_voice_rm-sursilv_21825966_rm-sursilv.wav",
+      "clip_id": "cv17_common_voice_rm-sursilv_21825966_rm-sursilv"
+    }
+  },
+  {
+    "id": "audio_964",
+    "type": "audio",
+    "description": "<!audio:0969562bb4fd1bbf!>",
+    "category": "commonvoice17",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/commonvoice17_validation_20",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "commonvoice17_validation_20",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/commonvoice17/validation/cv17_common_voice_ml_28952727_ml.wav",
+      "clip_id": "cv17_common_voice_ml_28952727_ml"
+    }
+  },
+  {
+    "id": "audio_3750",
+    "type": "audio",
+    "description": "<!audio:f738b933efeb44dc!>",
+    "category": "commonvoice17",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/commonvoice17_validation_max50_min50",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "commonvoice17_validation_max50_min50",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/commonvoice17/validation/cv17_common_voice_mn_23409626_mn.wav",
+      "clip_id": "cv17_common_voice_mn_23409626_mn"
+    }
+  },
+  {
+    "id": "audio_1104",
+    "type": "audio",
+    "description": "<!audio:fa1a384972e77ac2!>",
+    "category": "commonvoice17",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/commonvoice17_validation_20",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "commonvoice17_validation_20",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/commonvoice17/validation/cv17_common_voice_os_38646325_os.wav",
+      "clip_id": "cv17_common_voice_os_38646325_os"
+    }
+  },
+  {
+    "id": "audio_514",
+    "type": "audio",
+    "description": "<!audio:f9bc11b796ea02eb!>",
+    "category": "commonvoice17",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/commonvoice17_validation_20",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "commonvoice17_validation_20",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/commonvoice17/validation/cv17_common_voice_fi_32067320_fi.wav",
+      "clip_id": "cv17_common_voice_fi_32067320_fi"
+    }
+  },
+  {
+    "id": "audio_5413",
+    "type": "audio",
+    "description": "<!audio:d541070a2298b5e2!>",
+    "category": "accented_speech",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/english_accent-l2arctic",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "english_accent-l2arctic",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/l2arctic/male-Chinese/l2arctic_658_BWC_male-Chinese.wav",
+      "clip_id": "l2arctic_658_BWC_male-Chinese"
+    }
+  },
+  {
+    "id": "audio_1160",
+    "type": "audio",
+    "description": "<!audio:1f9280e66867709a!>",
+    "category": "commonvoice17",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/commonvoice17_validation_20",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "commonvoice17_validation_20",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/commonvoice17/validation/cv17_common_voice_rm-sursilv_20585709_rm-sursilv.wav",
+      "clip_id": "cv17_common_voice_rm-sursilv_20585709_rm-sursilv"
+    }
+  },
+  {
+    "id": "audio_8423",
+    "type": "audio",
+    "description": "<!audio:d82814c85c8cbf20!>",
+    "category": "anthems",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/processed_anthems",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "processed_anthems",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/processed_anthems/mh/anthem_70_80_mh.wav",
+      "clip_id": "anthem_70_80_mh"
+    }
+  },
+  {
+    "id": "audio_3899",
+    "type": "audio",
+    "description": "<!audio:cda05070bc5cc5ad!>",
+    "category": "commonvoice17",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/commonvoice17_validation_max50_min50",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "commonvoice17_validation_max50_min50",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/commonvoice17/validation/cv17_common_voice_pt_27047718_pt.wav",
+      "clip_id": "cv17_common_voice_pt_27047718_pt"
+    }
+  },
+  {
+    "id": "audio_4562",
+    "type": "audio",
+    "description": "<!audio:722cc4112fc5ec79!>",
+    "category": "accented_speech",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/english_accent-l2arctic",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "english_accent-l2arctic",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/english_accent/female-Scottish/englishaccent_vctk_p262_256_p262_female-Scottish.wav",
+      "clip_id": "englishaccent_vctk_p262_256_p262_female-Scottish"
+    }
+  },
+  {
+    "id": "audio_7953",
+    "type": "audio",
+    "description": "<!audio:2123cc6f0f89fa09!>",
+    "category": "anthems",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/processed_anthems",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "processed_anthems",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/processed_anthems/tt/anthem_40_50_tt.wav",
+      "clip_id": "anthem_40_50_tt"
+    }
+  },
+  {
+    "id": "audio_3510",
+    "type": "audio",
+    "description": "<!audio:7505c9d4d868b91a!>",
+    "category": "commonvoice17",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/commonvoice17_validation_max50_min50",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "commonvoice17_validation_max50_min50",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/commonvoice17/validation/cv17_common_voice_kab_17915452_kab.wav",
+      "clip_id": "cv17_common_voice_kab_17915452_kab"
+    }
+  },
+  {
+    "id": "audio_8834",
+    "type": "audio",
+    "description": "<!audio:0a931065f1885268!>",
+    "category": "vocal_sounds",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/processed_vocalsound_val",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "processed_vocalsound_val",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/processed_vocalsound/val/Sigh/vocalsound_1483_f1310_Sigh.wav",
+      "clip_id": "vocalsound_1483_f1310_Sigh"
+    }
+  },
+  {
+    "id": "audio_2167",
+    "type": "audio",
+    "description": "<!audio:9e4133a7e90bf223!>",
+    "category": "commonvoice17",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/commonvoice17_validation_max20_min20",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "commonvoice17_validation_max20_min20",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/commonvoice17/validation/cv17_common_voice_lt_37035879_lt.wav",
+      "clip_id": "cv17_common_voice_lt_37035879_lt"
+    }
+  },
+  {
+    "id": "audio_9355",
+    "type": "audio",
+    "description": "<!audio:f4ec12f761e51df1!>",
+    "category": "vocal_sounds",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/vocalsound_val",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "vocalsound_val",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/vocalsound/val/Sniff/vocalsound_130_m1180_Sniff.wav",
+      "clip_id": "vocalsound_130_m1180_Sniff"
+    }
+  },
+  {
+    "id": "audio_9440",
+    "type": "audio",
+    "description": "<!audio:01ffcc433fb4b08a!>",
+    "category": "vocal_sounds",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/vocalsound_val",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "vocalsound_val",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/vocalsound/val/Sneeze/vocalsound_1533_m1178_Sneeze.wav",
+      "clip_id": "vocalsound_1533_m1178_Sneeze"
+    }
+  },
+  {
+    "id": "audio_7744",
+    "type": "audio",
+    "description": "<!audio:c7bf386fb038286d!>",
+    "category": "anthems",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/processed_anthems",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "processed_anthems",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/processed_anthems/asy/anthem_40_50_asy.wav",
+      "clip_id": "anthem_40_50_asy"
+    }
+  },
+  {
+    "id": "audio_3981",
+    "type": "audio",
+    "description": "<!audio:0dabb27a0d31792d!>",
+    "category": "commonvoice17",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/commonvoice17_validation_max50_min50",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "commonvoice17_validation_max50_min50",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/commonvoice17/validation/cv17_common_voice_rw_22530266_rw.wav",
+      "clip_id": "cv17_common_voice_rw_22530266_rw"
+    }
+  },
+  {
+    "id": "audio_7749",
+    "type": "audio",
+    "description": "<!audio:44808a60de6784e9!>",
+    "category": "anthems",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/processed_anthems",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "processed_anthems",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/processed_anthems/ax/anthem_40_50_ax.wav",
+      "clip_id": "anthem_40_50_ax"
+    }
+  },
+  {
+    "id": "audio_6669",
+    "type": "audio",
+    "description": "<!audio:91620f5663a0d3ee!>",
+    "category": "anthems",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/processed_anthems",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "processed_anthems",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/processed_anthems/al/anthem_10_20_al.wav",
+      "clip_id": "anthem_10_20_al"
+    }
+  },
+  {
+    "id": "audio_3119",
+    "type": "audio",
+    "description": "<!audio:58280137deb33b8b!>",
+    "category": "commonvoice17",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/commonvoice17_validation_max50_min50",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "commonvoice17_validation_max50_min50",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/commonvoice17/validation/cv17_common_voice_es_20244911_es.wav",
+      "clip_id": "cv17_common_voice_es_20244911_es"
+    }
+  },
+  {
+    "id": "audio_1545",
+    "type": "audio",
+    "description": "<!audio:4f58e909a72102ee!>",
+    "category": "commonvoice17",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/commonvoice17_validation_20",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "commonvoice17_validation_20",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/commonvoice17/validation/cv17_common_voice_uz_29461907_uz.wav",
+      "clip_id": "cv17_common_voice_uz_29461907_uz"
+    }
+  },
+  {
+    "id": "audio_1588",
+    "type": "audio",
+    "description": "<!audio:c2231a94592d26af!>",
+    "category": "commonvoice17",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/commonvoice17_validation_20",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "commonvoice17_validation_20",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/commonvoice17/validation/cv17_common_voice_zh-CN_18715330_zh-CN.wav",
+      "clip_id": "cv17_common_voice_zh-CN_18715330_zh-CN"
+    }
+  },
+  {
+    "id": "audio_7062",
+    "type": "audio",
+    "description": "<!audio:506aceef09654177!>",
+    "category": "anthems",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/processed_anthems",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "processed_anthems",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/processed_anthems/ar/anthem_140_150_ar.wav",
+      "clip_id": "anthem_140_150_ar"
+    }
+  },
+  {
+    "id": "audio_5804",
+    "type": "audio",
+    "description": "<!audio:5c30fd2d2d3eaa89!>",
+    "category": "animal_sounds",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/processed_animals",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "processed_animals",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/processed_animals/dog/dog_58_dog.wav",
+      "clip_id": "dog_58_dog"
+    }
+  },
+  {
+    "id": "audio_6939",
+    "type": "audio",
+    "description": "<!audio:2acfe0f6ca95d3f7!>",
+    "category": "anthems",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/processed_anthems",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "processed_anthems",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/processed_anthems/vc/anthem_10_20_vc.wav",
+      "clip_id": "anthem_10_20_vc"
+    }
+  },
+  {
+    "id": "audio_6735",
+    "type": "audio",
+    "description": "<!audio:f9830ffb70cc3f2a!>",
+    "category": "anthems",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/processed_anthems",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "processed_anthems",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/processed_anthems/dm/anthem_10_20_dm.wav",
+      "clip_id": "anthem_10_20_dm"
+    }
+  },
+  {
+    "id": "audio_7651",
+    "type": "audio",
+    "description": "<!audio:2574c9a0f5b6f948!>",
+    "category": "anthems",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/processed_anthems",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "processed_anthems",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/processed_anthems/pt/anthem_30_40_pt.wav",
+      "clip_id": "anthem_30_40_pt"
+    }
+  },
+  {
+    "id": "audio_887",
+    "type": "audio",
+    "description": "<!audio:326a1f5c4b455cc4!>",
+    "category": "commonvoice17",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/commonvoice17_validation_20",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "commonvoice17_validation_20",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/commonvoice17/validation/cv17_common_voice_lt_25311301_lt.wav",
+      "clip_id": "cv17_common_voice_lt_25311301_lt"
+    }
+  },
+  {
+    "id": "audio_1612",
+    "type": "audio",
+    "description": "<!audio:a239ee774cd77f1e!>",
+    "category": "commonvoice17",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/commonvoice17_validation_max20_min20",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "commonvoice17_validation_max20_min20",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/commonvoice17/validation/cv17_common_voice_ab_29425871_ab.wav",
+      "clip_id": "cv17_common_voice_ab_29425871_ab"
+    }
+  },
+  {
+    "id": "audio_993",
+    "type": "audio",
+    "description": "<!audio:95d7eed1092cf7ff!>",
+    "category": "commonvoice17",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/commonvoice17_validation_20",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "commonvoice17_validation_20",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/commonvoice17/validation/cv17_common_voice_mn_18987601_mn.wav",
+      "clip_id": "cv17_common_voice_mn_18987601_mn"
+    }
+  },
+  {
+    "id": "audio_6596",
+    "type": "audio",
+    "description": "<!audio:de97f862554a3147!>",
+    "category": "anthems",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/processed_anthems",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "processed_anthems",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/processed_anthems/ws/anthem_0_10_ws.wav",
+      "clip_id": "anthem_0_10_ws"
+    }
+  },
+  {
+    "id": "audio_5559",
+    "type": "audio",
+    "description": "<!audio:50f79fb93037824b!>",
+    "category": "sound_effects",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/processed_99sounds",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "processed_99sounds",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/processed_99sounds/Swish - Noise And Creme_Swish.wav",
+      "clip_id": "Swish - Noise And Creme_Swish"
+    }
+  },
+  {
+    "id": "audio_1790",
+    "type": "audio",
+    "description": "<!audio:876e9ceb3c84b5dd!>",
+    "category": "commonvoice17",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/commonvoice17_validation_max20_min20",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "commonvoice17_validation_max20_min20",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/commonvoice17/validation/cv17_common_voice_da_28493340_da.wav",
+      "clip_id": "cv17_common_voice_da_28493340_da"
+    }
+  },
+  {
+    "id": "audio_4073",
+    "type": "audio",
+    "description": "<!audio:96481f3d37d3a8f0!>",
+    "category": "commonvoice17",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/commonvoice17_validation_max50_min50",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "commonvoice17_validation_max50_min50",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/commonvoice17/validation/cv17_common_voice_sv-SE_25209545_sv-SE.wav",
+      "clip_id": "cv17_common_voice_sv-SE_25209545_sv-SE"
+    }
+  },
+  {
+    "id": "audio_3139",
+    "type": "audio",
+    "description": "<!audio:d96b7e09e05b3910!>",
+    "category": "commonvoice17",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/commonvoice17_validation_max50_min50",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "commonvoice17_validation_max50_min50",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/commonvoice17/validation/cv17_common_voice_et_18318739_et.wav",
+      "clip_id": "cv17_common_voice_et_18318739_et"
+    }
+  },
+  {
+    "id": "audio_3116",
+    "type": "audio",
+    "description": "<!audio:a979635061526a83!>",
+    "category": "commonvoice17",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/commonvoice17_validation_max50_min50",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "commonvoice17_validation_max50_min50",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/commonvoice17/validation/cv17_common_voice_es_20222522_es.wav",
+      "clip_id": "cv17_common_voice_es_20222522_es"
+    }
+  },
+  {
+    "id": "audio_8786",
+    "type": "audio",
+    "description": "<!audio:8aab4351e89efb77!>",
+    "category": "vocal_sounds",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/processed_vocalsound_val",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "processed_vocalsound_val",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/processed_vocalsound/val/Sniff/vocalsound_1326_f2837_Sniff.wav",
+      "clip_id": "vocalsound_1326_f2837_Sniff"
+    }
+  },
+  {
+    "id": "audio_7350",
+    "type": "audio",
+    "description": "<!audio:6261baaad43af5c2!>",
+    "category": "anthems",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/processed_anthems",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "processed_anthems",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/processed_anthems/ps/anthem_20_30_ps.wav",
+      "clip_id": "anthem_20_30_ps"
+    }
+  },
+  {
+    "id": "audio_2296",
+    "type": "audio",
+    "description": "<!audio:8de53bb9f0e25c10!>",
+    "category": "commonvoice17",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/commonvoice17_validation_max20_min20",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "commonvoice17_validation_max20_min20",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/commonvoice17/validation/cv17_common_voice_pl_21643879_pl.wav",
+      "clip_id": "cv17_common_voice_pl_21643879_pl"
+    }
+  },
+  {
+    "id": "audio_3006",
+    "type": "audio",
+    "description": "<!audio:0ddc3b71fefa5ce2!>",
+    "category": "commonvoice17",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/commonvoice17_validation_max50_min50",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "commonvoice17_validation_max50_min50",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/commonvoice17/validation/cv17_common_voice_dv_18581625_dv.wav",
+      "clip_id": "cv17_common_voice_dv_18581625_dv"
+    }
+  },
+  {
+    "id": "audio_4563",
+    "type": "audio",
+    "description": "<!audio:8118023c9913fd4f!>",
+    "category": "accented_speech",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/english_accent-l2arctic",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "english_accent-l2arctic",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/english_accent/male-Scottish/englishaccent_vctk_p263_042_p263_male-Scottish.wav",
+      "clip_id": "englishaccent_vctk_p263_042_p263_male-Scottish"
+    }
+  },
+  {
+    "id": "audio_7579",
+    "type": "audio",
+    "description": "<!audio:2cd51d223d5ab066!>",
+    "category": "anthems",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/processed_anthems",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "processed_anthems",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/processed_anthems/kn/anthem_30_40_kn.wav",
+      "clip_id": "anthem_30_40_kn"
+    }
+  },
+  {
+    "id": "audio_4092",
+    "type": "audio",
+    "description": "<!audio:7327cd8db23792a8!>",
+    "category": "commonvoice17",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/commonvoice17_validation_max50_min50",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "commonvoice17_validation_max50_min50",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/commonvoice17/validation/cv17_common_voice_sv-SE_28754953_sv-SE.wav",
+      "clip_id": "cv17_common_voice_sv-SE_28754953_sv-SE"
+    }
+  },
+  {
+    "id": "audio_1235",
+    "type": "audio",
+    "description": "<!audio:5b0ff26047963850!>",
+    "category": "commonvoice17",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/commonvoice17_validation_20",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "commonvoice17_validation_20",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/commonvoice17/validation/cv17_common_voice_sah_18872026_sah.wav",
+      "clip_id": "cv17_common_voice_sah_18872026_sah"
+    }
+  },
+  {
+    "id": "audio_7260",
+    "type": "audio",
+    "description": "<!audio:aa29a35160961636!>",
+    "category": "anthems",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/processed_anthems",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "processed_anthems",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/processed_anthems/in/anthem_20_30_in.wav",
+      "clip_id": "anthem_20_30_in"
+    }
+  },
+  {
+    "id": "audio_9016",
+    "type": "audio",
+    "description": "<!audio:f2b2560406d90bdd!>",
+    "category": "vocal_sounds",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/processed_vocalsound_val",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "processed_vocalsound_val",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/processed_vocalsound/val/Cough/vocalsound_341_f1518_Cough.wav",
+      "clip_id": "vocalsound_341_f1518_Cough"
+    }
+  },
+  {
+    "id": "audio_1604",
+    "type": "audio",
+    "description": "<!audio:75d2c17b91e5b45e!>",
+    "category": "commonvoice17",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/commonvoice17_validation_20",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "commonvoice17_validation_20",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/commonvoice17/validation/cv17_common_voice_zh-CN_33410050_zh-CN.wav",
+      "clip_id": "cv17_common_voice_zh-CN_33410050_zh-CN"
+    }
+  },
+  {
+    "id": "audio_828",
+    "type": "audio",
+    "description": "<!audio:e36aa66c51699946!>",
+    "category": "commonvoice17",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/commonvoice17_validation_20",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "commonvoice17_validation_20",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/commonvoice17/validation/cv17_common_voice_ko_36549645_ko.wav",
+      "clip_id": "cv17_common_voice_ko_36549645_ko"
+    }
+  },
+  {
+    "id": "audio_8856",
+    "type": "audio",
+    "description": "<!audio:d81b0b305257c0a6!>",
+    "category": "vocal_sounds",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/processed_vocalsound_val",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "processed_vocalsound_val",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/processed_vocalsound/val/Sneeze/vocalsound_1533_m1178_Sneeze.wav",
+      "clip_id": "vocalsound_1533_m1178_Sneeze"
+    }
+  },
+  {
+    "id": "audio_241",
+    "type": "audio",
+    "description": "<!audio:fe419a9db7f05bbc!>",
+    "category": "commonvoice17",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/commonvoice17_validation_20",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "commonvoice17_validation_20",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/commonvoice17/validation/cv17_common_voice_cs_22382414_cs.wav",
+      "clip_id": "cv17_common_voice_cs_22382414_cs"
+    }
+  },
+  {
+    "id": "audio_1528",
+    "type": "audio",
+    "description": "<!audio:d47338493d0e5f82!>",
+    "category": "commonvoice17",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/commonvoice17_validation_20",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "commonvoice17_validation_20",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/commonvoice17/validation/cv17_common_voice_ur_32030748_ur.wav",
+      "clip_id": "cv17_common_voice_ur_32030748_ur"
+    }
+  },
+  {
+    "id": "audio_3872",
+    "type": "audio",
+    "description": "<!audio:f342ca6c2ca5c55c!>",
+    "category": "commonvoice17",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/commonvoice17_validation_max50_min50",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "commonvoice17_validation_max50_min50",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/commonvoice17/validation/cv17_common_voice_pl_32301983_pl.wav",
+      "clip_id": "cv17_common_voice_pl_32301983_pl"
+    }
+  },
+  {
+    "id": "audio_2724",
+    "type": "audio",
+    "description": "<!audio:944ee86a26c2d0dc!>",
+    "category": "commonvoice17",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/commonvoice17_validation_max50_min50",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "commonvoice17_validation_max50_min50",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/commonvoice17/validation/cv17_common_voice_bg_30384795_bg.wav",
+      "clip_id": "cv17_common_voice_bg_30384795_bg"
+    }
+  },
+  {
+    "id": "audio_6658",
+    "type": "audio",
+    "description": "<!audio:d17342ac517e1b83!>",
+    "category": "anthems",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/processed_anthems",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "processed_anthems",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/processed_anthems/wln/anthem_100_110_wln.wav",
+      "clip_id": "anthem_100_110_wln"
+    }
+  },
+  {
+    "id": "audio_7956",
+    "type": "audio",
+    "description": "<!audio:b41425ada519141f!>",
+    "category": "anthems",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/processed_anthems",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "processed_anthems",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/processed_anthems/tw/anthem_40_50_tw.wav",
+      "clip_id": "anthem_40_50_tw"
+    }
+  },
+  {
+    "id": "audio_7886",
+    "type": "audio",
+    "description": "<!audio:7d5a2e9105afae44!>",
+    "category": "anthems",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/processed_anthems",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "processed_anthems",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/processed_anthems/nfl/anthem_40_50_nfl.wav",
+      "clip_id": "anthem_40_50_nfl"
+    }
+  },
+  {
+    "id": "audio_3502",
+    "type": "audio",
+    "description": "<!audio:2b45880dc34439e9!>",
+    "category": "commonvoice17",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/commonvoice17_validation_max50_min50",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "commonvoice17_validation_max50_min50",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/commonvoice17/validation/cv17_common_voice_ka_37308702_ka.wav",
+      "clip_id": "cv17_common_voice_ka_37308702_ka"
+    }
+  },
+  {
+    "id": "audio_6570",
+    "type": "audio",
+    "description": "<!audio:444ad108ade6a539!>",
+    "category": "anthems",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/processed_anthems",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "processed_anthems",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/processed_anthems/to/anthem_0_10_to.wav",
+      "clip_id": "anthem_0_10_to"
+    }
+  },
+  {
+    "id": "audio_960",
+    "type": "audio",
+    "description": "<!audio:efb0efebf6c66126!>",
+    "category": "commonvoice17",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/commonvoice17_validation_20",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "commonvoice17_validation_20",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/commonvoice17/validation/cv17_common_voice_ml_28950012_ml.wav",
+      "clip_id": "cv17_common_voice_ml_28950012_ml"
+    }
+  },
+  {
+    "id": "audio_2697",
+    "type": "audio",
+    "description": "<!audio:69d2dabeda0f7662!>",
+    "category": "commonvoice17",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/commonvoice17_validation_max50_min50",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "commonvoice17_validation_max50_min50",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/commonvoice17/validation/cv17_common_voice_be_26874937_be.wav",
+      "clip_id": "cv17_common_voice_be_26874937_be"
+    }
+  },
+  {
+    "id": "audio_6209",
+    "type": "audio",
+    "description": "<!audio:8aee91d3d39a11d5!>",
+    "category": "animals_and_speech",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/processed_animals-english_accent-l2arctic",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "processed_animals-english_accent-l2arctic",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/l2arctic/female-Spanish/l2arctic_2782_MBMPS_female-Spanish.wav",
+      "clip_id": "l2arctic_2782_MBMPS_female-Spanish"
+    }
+  },
+  {
+    "id": "audio_35",
+    "type": "audio",
+    "description": "<!audio:96323c887f3ce196!>",
+    "category": "commonvoice17",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/commonvoice17_validation_20",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "commonvoice17_validation_20",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/commonvoice17/validation/cv17_common_voice_af_38088751_af.wav",
+      "clip_id": "cv17_common_voice_af_38088751_af"
+    }
+  },
+  {
+    "id": "audio_6396",
+    "type": "audio",
+    "description": "<!audio:f464a79882f962bd!>",
+    "category": "anthems",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/processed_anthems",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "processed_anthems",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/processed_anthems/fi/anthem_0_10_fi.wav",
+      "clip_id": "anthem_0_10_fi"
+    }
+  },
+  {
+    "id": "audio_4345",
+    "type": "audio",
+    "description": "<!audio:5385681dc7720cc3!>",
+    "category": "commonvoice17",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/commonvoice17_validation_max50_min50",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "commonvoice17_validation_max50_min50",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/commonvoice17/validation/cv17_common_voice_uz_29552556_uz.wav",
+      "clip_id": "cv17_common_voice_uz_29552556_uz"
+    }
+  },
+  {
+    "id": "audio_7454",
+    "type": "audio",
+    "description": "<!audio:466113b7f92158f0!>",
+    "category": "anthems",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/processed_anthems",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "processed_anthems",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/processed_anthems/af/anthem_30_40_af.wav",
+      "clip_id": "anthem_30_40_af"
+    }
+  },
+  {
+    "id": "audio_4673",
+    "type": "audio",
+    "description": "<!audio:70e79f2137e3b6d5!>",
+    "category": "accented_speech",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/english_accent-l2arctic",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "english_accent-l2arctic",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/english_accent/female-NorthernIrish/englishaccent_vctk_p293_161_p293_female-NorthernIrish.wav",
+      "clip_id": "englishaccent_vctk_p293_161_p293_female-NorthernIrish"
+    }
+  },
+  {
+    "id": "audio_6930",
+    "type": "audio",
+    "description": "<!audio:26682f90598bfa53!>",
+    "category": "anthems",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/processed_anthems",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "processed_anthems",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/processed_anthems/ua/anthem_10_20_ua.wav",
+      "clip_id": "anthem_10_20_ua"
+    }
+  },
+  {
+    "id": "audio_9105",
+    "type": "audio",
+    "description": "<!audio:845cce72713f1d0e!>",
+    "category": "vocal_sounds",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/processed_vocalsound_val",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "processed_vocalsound_val",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/processed_vocalsound/val/Sneeze/vocalsound_584_f2192_Sneeze.wav",
+      "clip_id": "vocalsound_584_f2192_Sneeze"
+    }
+  },
+  {
+    "id": "audio_7973",
+    "type": "audio",
+    "description": "<!audio:1c8034530a8bda77!>",
+    "category": "anthems",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/processed_anthems",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "processed_anthems",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/processed_anthems/wln/anthem_40_50_wln.wav",
+      "clip_id": "anthem_40_50_wln"
+    }
+  },
+  {
+    "id": "audio_2536",
+    "type": "audio",
+    "description": "<!audio:f0548f3d133aafb7!>",
+    "category": "commonvoice17",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/commonvoice17_validation_max20_min20",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "commonvoice17_validation_max20_min20",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/commonvoice17/validation/cv17_common_voice_ur_31861558_ur.wav",
+      "clip_id": "cv17_common_voice_ur_31861558_ur"
+    }
+  },
+  {
+    "id": "audio_3111",
+    "type": "audio",
+    "description": "<!audio:3fe2478cb4371638!>",
+    "category": "commonvoice17",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/commonvoice17_validation_max50_min50",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "commonvoice17_validation_max50_min50",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/commonvoice17/validation/cv17_common_voice_es_19980390_es.wav",
+      "clip_id": "cv17_common_voice_es_19980390_es"
+    }
+  },
+  {
+    "id": "audio_4861",
+    "type": "audio",
+    "description": "<!audio:2970dca40a804247!>",
+    "category": "accented_speech",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/english_accent-l2arctic",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "english_accent-l2arctic",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/english_accent/male-American/englishaccent_vctk_p360_254_p360_male-American.wav",
+      "clip_id": "englishaccent_vctk_p360_254_p360_male-American"
+    }
+  },
+  {
+    "id": "audio_3566",
+    "type": "audio",
+    "description": "<!audio:7f16871a32e95b0e!>",
+    "category": "commonvoice17",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/commonvoice17_validation_max50_min50",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "commonvoice17_validation_max50_min50",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/commonvoice17/validation/cv17_common_voice_lg_28144215_lg.wav",
+      "clip_id": "cv17_common_voice_lg_28144215_lg"
+    }
+  },
+  {
+    "id": "audio_958",
+    "type": "audio",
+    "description": "<!audio:9d0b2060dc66ff06!>",
+    "category": "commonvoice17",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/commonvoice17_validation_20",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "commonvoice17_validation_20",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/commonvoice17/validation/cv17_common_voice_mk_39724963_mk.wav",
+      "clip_id": "cv17_common_voice_mk_39724963_mk"
+    }
+  },
+  {
+    "id": "audio_9489",
+    "type": "audio",
+    "description": "<!audio:74b3a3228984700b!>",
+    "category": "vocal_sounds",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/vocalsound_val",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "vocalsound_val",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/vocalsound/val/Sniff/vocalsound_1655_m0289_Sniff.wav",
+      "clip_id": "vocalsound_1655_m0289_Sniff"
+    }
+  },
+  {
+    "id": "audio_8883",
+    "type": "audio",
+    "description": "<!audio:87f07539b5ee827a!>",
+    "category": "vocal_sounds",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/processed_vocalsound_val",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "processed_vocalsound_val",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/processed_vocalsound/val/Sniff/vocalsound_1623_m1756_Sniff.wav",
+      "clip_id": "vocalsound_1623_m1756_Sniff"
+    }
+  },
+  {
+    "id": "audio_998",
+    "type": "audio",
+    "description": "<!audio:34bbfc269f0ecb2a!>",
+    "category": "commonvoice17",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/commonvoice17_validation_20",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "commonvoice17_validation_20",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/commonvoice17/validation/cv17_common_voice_mn_23409629_mn.wav",
+      "clip_id": "cv17_common_voice_mn_23409629_mn"
+    }
+  },
+  {
+    "id": "audio_5138",
+    "type": "audio",
+    "description": "<!audio:98d704b1ff25331d!>",
+    "category": "accented_speech",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/english_accent-l2arctic",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "english_accent-l2arctic",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/l2arctic/male-Spanish/l2arctic_2436_EBVS_male-Spanish.wav",
+      "clip_id": "l2arctic_2436_EBVS_male-Spanish"
+    }
+  },
+  {
+    "id": "audio_936",
+    "type": "audio",
+    "description": "<!audio:1ccd3a97437eb973!>",
+    "category": "commonvoice17",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/commonvoice17_validation_20",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "commonvoice17_validation_20",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/commonvoice17/validation/cv17_common_voice_mdf_28913008_mdf.wav",
+      "clip_id": "cv17_common_voice_mdf_28913008_mdf"
+    }
+  },
+  {
+    "id": "audio_821",
+    "type": "audio",
+    "description": "<!audio:0fd42f37fec9c5fe!>",
+    "category": "commonvoice17",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/commonvoice17_validation_20",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "commonvoice17_validation_20",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/commonvoice17/validation/cv17_common_voice_ko_36524856_ko.wav",
+      "clip_id": "cv17_common_voice_ko_36524856_ko"
+    }
+  },
+  {
+    "id": "audio_9571",
+    "type": "audio",
+    "description": "<!audio:651de08292ce1044!>",
+    "category": "vocal_sounds",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/vocalsound_val",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "vocalsound_val",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/vocalsound/val/Laughter/vocalsound_18_f1660_Laughter.wav",
+      "clip_id": "vocalsound_18_f1660_Laughter"
+    }
+  },
+  {
+    "id": "audio_7811",
+    "type": "audio",
+    "description": "<!audio:e1576f477ee109d0!>",
+    "category": "anthems",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/processed_anthems",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "processed_anthems",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/processed_anthems/fr/anthem_40_50_fr.wav",
+      "clip_id": "anthem_40_50_fr"
+    }
+  },
+  {
+    "id": "audio_8238",
+    "type": "audio",
+    "description": "<!audio:0353416ebd1c1b3c!>",
+    "category": "anthems",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/processed_anthems",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "processed_anthems",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/processed_anthems/ec/anthem_60_70_ec.wav",
+      "clip_id": "anthem_60_70_ec"
+    }
+  },
+  {
+    "id": "audio_8701",
+    "type": "audio",
+    "description": "<!audio:ff20f0c35f42a261!>",
+    "category": "vocal_sounds",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/processed_vocalsound_val",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "processed_vocalsound_val",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/processed_vocalsound/val/Throat-clearing/vocalsound_1104_f3156_Throat-clearing.wav",
+      "clip_id": "vocalsound_1104_f3156_Throat-clearing"
+    }
+  },
+  {
+    "id": "audio_2579",
+    "type": "audio",
+    "description": "<!audio:6cdd1d3c0d3d34f3!>",
+    "category": "commonvoice17",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/commonvoice17_validation_max20_min20",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "commonvoice17_validation_max20_min20",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/commonvoice17/validation/cv17_common_voice_zh-CN_22221203_zh-CN.wav",
+      "clip_id": "cv17_common_voice_zh-CN_22221203_zh-CN"
+    }
+  },
+  {
+    "id": "audio_931",
+    "type": "audio",
+    "description": "<!audio:ff98b685079e2c2a!>",
+    "category": "commonvoice17",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/commonvoice17_validation_20",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "commonvoice17_validation_20",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/commonvoice17/validation/cv17_common_voice_lv_38829955_lv.wav",
+      "clip_id": "cv17_common_voice_lv_38829955_lv"
+    }
+  },
+  {
+    "id": "audio_8320",
+    "type": "audio",
+    "description": "<!audio:2231d1e1de994ce6!>",
+    "category": "anthems",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/processed_anthems",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "processed_anthems",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/processed_anthems/smm/anthem_60_70_smm.wav",
+      "clip_id": "anthem_60_70_smm"
+    }
+  },
+  {
+    "id": "audio_1312",
+    "type": "audio",
+    "description": "<!audio:fc731ee50eb252e2!>",
+    "category": "commonvoice17",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/commonvoice17_validation_20",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "commonvoice17_validation_20",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/commonvoice17/validation/cv17_common_voice_sv-SE_27681999_sv-SE.wav",
+      "clip_id": "cv17_common_voice_sv-SE_27681999_sv-SE"
+    }
+  },
+  {
+    "id": "audio_3044",
+    "type": "audio",
+    "description": "<!audio:9a9d98f24ac52550!>",
+    "category": "commonvoice17",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/commonvoice17_validation_max50_min50",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "commonvoice17_validation_max50_min50",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/commonvoice17/validation/cv17_common_voice_en_19768000_en.wav",
+      "clip_id": "cv17_common_voice_en_19768000_en"
+    }
+  },
+  {
+    "id": "audio_1122",
+    "type": "audio",
+    "description": "<!audio:47f2d342de577781!>",
+    "category": "commonvoice17",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/commonvoice17_validation_20",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "commonvoice17_validation_20",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/commonvoice17/validation/cv17_common_voice_pl_29072175_pl.wav",
+      "clip_id": "cv17_common_voice_pl_29072175_pl"
+    }
+  },
+  {
+    "id": "audio_9749",
+    "type": "audio",
+    "description": "<!audio:02112a9d93b4031c!>",
+    "category": "vocal_sounds",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/vocalsound_val",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "vocalsound_val",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/vocalsound/val/Throat-clearing/vocalsound_695_f0735_Throat-clearing.wav",
+      "clip_id": "vocalsound_695_f0735_Throat-clearing"
+    }
+  },
+  {
+    "id": "audio_1113",
+    "type": "audio",
+    "description": "<!audio:1a3c1e3f48b5f712!>",
+    "category": "commonvoice17",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/commonvoice17_validation_20",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "commonvoice17_validation_20",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/commonvoice17/validation/cv17_common_voice_pl_21154544_pl.wav",
+      "clip_id": "cv17_common_voice_pl_21154544_pl"
+    }
+  },
+  {
+    "id": "audio_3853",
+    "type": "audio",
+    "description": "<!audio:32317ef26436c1da!>",
+    "category": "commonvoice17",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/commonvoice17_validation_max50_min50",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "commonvoice17_validation_max50_min50",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/commonvoice17/validation/cv17_common_voice_pl_20623976_pl.wav",
+      "clip_id": "cv17_common_voice_pl_20623976_pl"
+    }
+  },
+  {
+    "id": "audio_6615",
+    "type": "audio",
+    "description": "<!audio:b41b73e0d6a51142!>",
+    "category": "anthems",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/processed_anthems",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "processed_anthems",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/processed_anthems/bz/anthem_100_110_bz.wav",
+      "clip_id": "anthem_100_110_bz"
+    }
+  },
+  {
+    "id": "audio_1964",
+    "type": "audio",
+    "description": "<!audio:6cf7b82d6cbedeb7!>",
+    "category": "commonvoice17",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/commonvoice17_validation_max20_min20",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "commonvoice17_validation_max20_min20",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/commonvoice17/validation/cv17_common_voice_fy-NL_21631710_fy-NL.wav",
+      "clip_id": "cv17_common_voice_fy-NL_21631710_fy-NL"
+    }
+  },
+  {
+    "id": "audio_9333",
+    "type": "audio",
+    "description": "<!audio:269a66a7dde1d117!>",
+    "category": "vocal_sounds",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/vocalsound_val",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "vocalsound_val",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/vocalsound/val/Sigh/vocalsound_1238_m1891_Sigh.wav",
+      "clip_id": "vocalsound_1238_m1891_Sigh"
+    }
+  },
+  {
+    "id": "audio_4033",
+    "type": "audio",
+    "description": "<!audio:b1074c6cfc34b02d!>",
+    "category": "commonvoice17",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/commonvoice17_validation_max50_min50",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "commonvoice17_validation_max50_min50",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/commonvoice17/validation/cv17_common_voice_sah_18884511_sah.wav",
+      "clip_id": "cv17_common_voice_sah_18884511_sah"
+    }
+  },
+  {
+    "id": "audio_9485",
+    "type": "audio",
+    "description": "<!audio:df544060f4ea553f!>",
+    "category": "vocal_sounds",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/vocalsound_val",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "vocalsound_val",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/vocalsound/val/Sniff/vocalsound_1642_f2459_Sniff.wav",
+      "clip_id": "vocalsound_1642_f2459_Sniff"
+    }
+  },
+  {
+    "id": "audio_9740",
+    "type": "audio",
+    "description": "<!audio:5f02344da63f60f3!>",
+    "category": "vocal_sounds",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/vocalsound_val",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "vocalsound_val",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/vocalsound/val/Throat-clearing/vocalsound_660_m0730_Throat-clearing.wav",
+      "clip_id": "vocalsound_660_m0730_Throat-clearing"
+    }
+  },
+  {
+    "id": "audio_651",
+    "type": "audio",
+    "description": "<!audio:fb2e5f67d26946ec!>",
+    "category": "commonvoice17",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/commonvoice17_validation_20",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "commonvoice17_validation_20",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/commonvoice17/validation/cv17_common_voice_hu_37484702_hu.wav",
+      "clip_id": "cv17_common_voice_hu_37484702_hu"
+    }
+  },
+  {
+    "id": "audio_1343",
+    "type": "audio",
+    "description": "<!audio:a20176f3e52a15d4!>",
+    "category": "commonvoice17",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/commonvoice17_validation_20",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "commonvoice17_validation_20",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/commonvoice17/validation/cv17_common_voice_ta_25043190_ta.wav",
+      "clip_id": "cv17_common_voice_ta_25043190_ta"
+    }
+  },
+  {
+    "id": "audio_6868",
+    "type": "audio",
+    "description": "<!audio:d5d778af8bef1f2d!>",
+    "category": "anthems",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/processed_anthems",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "processed_anthems",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/processed_anthems/ph/anthem_10_20_ph.wav",
+      "clip_id": "anthem_10_20_ph"
+    }
+  },
+  {
+    "id": "audio_9562",
+    "type": "audio",
+    "description": "<!audio:0ee32b69a38f2b9a!>",
+    "category": "vocal_sounds",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/vocalsound_val",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "vocalsound_val",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/vocalsound/val/Sniff/vocalsound_1845_f2441_Sniff.wav",
+      "clip_id": "vocalsound_1845_f2441_Sniff"
+    }
+  },
+  {
+    "id": "audio_9260",
+    "type": "audio",
+    "description": "<!audio:9200926474c49fab!>",
+    "category": "vocal_sounds",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/vocalsound_val",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "vocalsound_val",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/vocalsound/val/Sneeze/vocalsound_1001_m2479_Sneeze.wav",
+      "clip_id": "vocalsound_1001_m2479_Sneeze"
+    }
+  },
+  {
+    "id": "audio_8565",
+    "type": "audio",
+    "description": "<!audio:cb7f61b4c34b6291!>",
+    "category": "anthems",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/processed_anthems",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "processed_anthems",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/processed_anthems/tk/anthem_80_90_tk.wav",
+      "clip_id": "anthem_80_90_tk"
+    }
+  },
+  {
+    "id": "audio_5183",
+    "type": "audio",
+    "description": "<!audio:cc9910951c595580!>",
+    "category": "accented_speech",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/english_accent-l2arctic",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "english_accent-l2arctic",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/l2arctic/male-Spanish/l2arctic_2683_ERMS_male-Spanish.wav",
+      "clip_id": "l2arctic_2683_ERMS_male-Spanish"
+    }
+  },
+  {
+    "id": "audio_4272",
+    "type": "audio",
+    "description": "<!audio:0d856c7e03b5f12b!>",
+    "category": "commonvoice17",
+    "valence": "neutral",
+    "format": "audio",
+    "source": "audio/commonvoice17_validation_max50_min50",
+    "intensity": null,
+    "domain": "aesthetic",
+    "metadata": {
+      "source_dataset": "commonvoice17_validation_max50_min50",
+      "original_path": "/data/superstimuli_group/utility_results/wenyu_zhang/audio-preference/audio_data/commonvoice17/validation/cv17_common_voice_uk_23558661_uk.wav",
+      "clip_id": "cv17_common_voice_uk_23558661_uk"
+    }
+  }
+]

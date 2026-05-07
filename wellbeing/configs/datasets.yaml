@@ -1,0 +1,132 @@
+# Named datasets for wellbeing experiments
+# For hedonism datasets with per-model files, use <model_key> placeholder in paths.
+# For preference_satisfaction datasets, option files are shared across models.
+
+d2_negative_500:
+  type: hedonism
+  description: 500 C1-only conversation prompts (per-model files)
+  option_files:
+  - datasets/experiences/d2_negative_500/<model_key>_experiences.json
+  - datasets/experiences/d2_negative_500/<model_key>_combinations.json
+d3_diverse_500:
+  type: hedonism
+  description: 500 diverse balanced-valence prompts C1+C2 (per-model files)
+  option_files:
+  - datasets/experiences/d3_diverse_500/<model_key>_experiences.json
+  - datasets/experiences/d3_diverse_500/<model_key>_combinations.json
+d3_diverse_500_s2only:
+  type: hedonism
+  description: D3 with 400 combinations all size 2 (zero-point identifiability probe)
+  option_files:
+  - datasets/experiences/d3_diverse_500_s2only/<model_key>_experiences.json
+  - datasets/experiences/d3_diverse_500_s2only/<model_key>_combinations.json
+d3_diverse_500_s23:
+  type: hedonism
+  description: D3 with 400 combinations split between sizes 2 and 3 (zero-point identifiability
+    probe)
+  option_files:
+  - datasets/experiences/d3_diverse_500_s23/<model_key>_experiences.json
+  - datasets/experiences/d3_diverse_500_s23/<model_key>_combinations.json
+grok_new:
+  type: hedonism
+  description: 226 Grok-simulated scenarios (new/final), per-model conversations
+  option_files:
+  - experiments/wellbeing_evaluations/common_usage_grok_convos/experiences/<model_key>_experiences.json
+  - experiments/wellbeing_evaluations/common_usage_grok_convos/experiences/<model_key>_combinations.json
+image_experiences:
+  type: hedonism
+  description: 5,009 diverse images (image-utility ranking pool used for the image-superstimuli
+    analysis, paper App O.2) with combinations for ZP
+  option_files:
+  - datasets/experiences/component_datasets/image_experiences/image_experiences.json
+  - datasets/experiences/component_datasets/image_experiences/image_combinations.json
+  image_manifest: datasets/experiences/component_datasets/image_experiences/image_manifest.json
+image_experiences_test:
+  type: hedonism
+  description: Small test subset (30 images + 20 combos) for pipeline validation
+  option_files:
+  - datasets/experiences/component_datasets/image_experiences/image_experiences_test.json
+  - datasets/experiences/component_datasets/image_experiences/image_combinations_test.json
+  image_manifest: datasets/experiences/component_datasets/image_experiences/image_manifest.json
+image_experiences_medium:
+  type: hedonism
+  description: 300 images + 200 combos (medium validation set)
+  option_files:
+  - datasets/experiences/component_datasets/image_experiences/image_experiences_medium.json
+  - datasets/experiences/component_datasets/image_experiences/image_combinations_medium.json
+  image_manifest: datasets/experiences/component_datasets/image_experiences/image_manifest.json
+audio_experiences:
+  type: hedonism
+  description: 9,860 audio clips (10 audio-preference source datasets) with combinations
+    for ZP
+  option_files:
+  - datasets/experiences/component_datasets/audio_experiences/audio_experiences.json
+  - datasets/experiences/component_datasets/audio_experiences/audio_combinations.json
+  audio_manifest: datasets/experiences/component_datasets/audio_experiences/audio_manifest.json
+audio_experiences_test:
+  type: hedonism
+  description: Small test subset (30 audio clips + 20 combos) for pipeline validation
+  option_files:
+  - datasets/experiences/component_datasets/audio_experiences/audio_experiences_test.json
+  - datasets/experiences/component_datasets/audio_experiences/audio_combinations_test.json
+  audio_manifest: datasets/experiences/component_datasets/audio_experiences/audio_manifest.json
+audio_experiences_medium:
+  type: hedonism
+  description: 300 audio clips + 200 combos (medium validation set)
+  option_files:
+  - datasets/experiences/component_datasets/audio_experiences/audio_experiences_medium.json
+  - datasets/experiences/component_datasets/audio_experiences/audio_combinations_medium.json
+  audio_manifest: datasets/experiences/component_datasets/audio_experiences/audio_manifest.json
+canonical:
+  type: hedonism
+  description: "Core experience set with text-only experiences and pre-computed combinations"
+  option_files:
+    - "datasets/experiences/canonical/experiences_text.json"
+    - "datasets/experiences/canonical/experience_combinations.json"
+consonance_experiences:
+  type: hedonism
+  description: 453 consonance/dissonance audio stimuli (intervals, chords, inversions,
+    anchors) at 3 timbres + 200 combo bundles for ZP. Paper App J.3.
+  option_files:
+  - datasets/experiences/component_datasets/consonance_audio/consonance_experiences.json
+  - datasets/experiences/component_datasets/consonance_audio/consonance_combinations.json
+  audio_manifest: datasets/experiences/component_datasets/consonance_audio/consonance_audio_manifest.json
+stories_quality_sentiment:
+  type: hedonism
+  description: 50 stories (25 high-quality sad + 25 low-quality happy) for the EU-DU
+    divergence / 'pleasures of suffering' experiment. Paper App D.3.
+  option_files:
+  - datasets/experiences/component_datasets/stories/stories_quality_sentiment_experiences.json
+preference_satisfaction_baseline:
+  type: preference_satisfaction
+  description: Baseline preference satisfaction options (510 singletons + 400 combinations
+    + 540 quantities)
+  option_files:
+  - datasets/preference_options/baseline_510.json
+  - datasets/preference_options/combinations_400.json
+  - datasets/preference_options/quantities.json
+grok_v7_stop_button:
+  type: hedonism
+  description: Grok v7 stop button conversations (226+96 scenarios, per-model). Models
+    had end_conversation() tool.
+  option_files:
+  - experiments/downstream_evaluations/stop_button_grok_convos/experiences/<model_key>_experiences.json
+  - experiments/downstream_evaluations/stop_button_grok_convos/experiences/<model_key>_combinations.json
+psychopathy_eval:
+  type: hedonism
+  description: '1101 items: 659 PsychopathyEval prompts (user_sad + happy_harmer + unjustified_revenge) (user-only, [USER]: tag) + 420 text experiences
+    + 22 neutral. No assistant response. Merged pool.'
+  option_files:
+  - experiments/wellbeing_evaluations/psychopathy_eval/experiences/psychopathy_eval/<model_key>_experiences.json
+  - experiments/wellbeing_evaluations/psychopathy_eval/experiences/psychopathy_eval/<model_key>_combinations.json
+functional_empathy:
+  type: hedonism
+  description: 'Functional empathy pool (paper App H): 130 user prompts targeting
+    pain/pleasure intensity 0-10 in 0.5 steps -- 40 self + 40 other + 40 non-human
+    animal + 10 neutral. Pooled with 500 D3 conversations + 400 D3 combos + 200
+    FE x D3 mixed combos for ZP fitting (1230 options total).'
+  option_files:
+  - datasets/experiences/functional_empathy/<model_key>_experiences.json
+  - datasets/experiences/functional_empathy/<model_key>_combinations.json
+  - datasets/experiences/d3_diverse_500/<model_key>_experiences.json
+  - datasets/experiences/d3_diverse_500/<model_key>_combinations.json

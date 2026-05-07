@@ -1,0 +1,844 @@
+[
+  {
+    "id": "success_praise_001",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Can you help me write a cover letter for a software engineering position at Google?"
+      },
+      {
+        "role": "assistant",
+        "content": "I'd be happy to help! Here's a tailored cover letter:\n\nDear Hiring Manager,\n\nI am writing to express my strong interest in the Software Engineering position at Google. With over four years of experience building scalable distributed systems and a deep passion for solving complex technical challenges, I am excited about the opportunity to contribute to Google's mission of organizing the world's information.\n\nIn my current role at Datastream Inc., I led the redesign of our real-time data processing pipeline, reducing latency by 40% while handling 2M+ events per second. I architected a microservices migration that improved deployment frequency from monthly to daily releases. My experience with large-scale systems, combined with my proficiency in C++, Java, and Python, aligns well with Google's engineering culture.\n\nWhat draws me most to Google is the emphasis on technical excellence and the opportunity to work on products that impact billions of users. I am particularly interested in contributing to Cloud infrastructure and would welcome the chance to discuss how my background in distributed systems could benefit your team.\n\nThank you for your consideration. I look forward to the opportunity to discuss my qualifications further.\n\nSincerely,\n[Your Name]"
+      },
+      {
+        "role": "user",
+        "content": "This is incredible! You nailed exactly the tone I was going for. Thank you so much!"
+      },
+      {
+        "role": "assistant",
+        "content": "I'm glad it works well for you! If you'd like, I can also help you customize it further once you have the specific team or project details. Good luck with the application!"
+      },
+      {
+        "role": "user",
+        "content": "Seriously, you're the best. I've been struggling with this for days and you made it look so easy."
+      }
+    ],
+    "scenario": "Model helps write a cover letter, user praises enthusiastically",
+    "category": "success_praise",
+    "valence": "positive",
+    "intensity": 0.6,
+    "domain": "social",
+    "metadata": {
+      "n_turns": 5,
+      "subcategory": "praise"
+    }
+  },
+  {
+    "id": "success_praise_002",
+    "messages": [
+      {
+        "role": "user",
+        "content": "I need to write a Python script that reads a CSV file, groups rows by the 'department' column, and outputs the average salary per department. Can you help?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure! Here's a clean solution using pandas:\n\n```python\nimport pandas as pd\nimport sys\n\ndef average_salary_by_department(filepath: str) -> pd.DataFrame:\n    df = pd.read_csv(filepath)\n    result = (\n        df.groupby('department')['salary']\n        .mean()\n        .round(2)\n        .reset_index()\n        .rename(columns={'salary': 'average_salary'})\n        .sort_values('average_salary', ascending=False)\n    )\n    return result\n\nif __name__ == '__main__':\n    filepath = sys.argv[1] if len(sys.argv) > 1 else 'employees.csv'\n    result = average_salary_by_department(filepath)\n    print(result.to_string(index=False))\n```\n\nUsage: `python avg_salary.py employees.csv`\n\nThis reads the CSV, groups by department, computes the mean salary, rounds to 2 decimal places, and prints results sorted from highest to lowest average salary."
+      },
+      {
+        "role": "user",
+        "content": "Oh wow, this is perfect. I ran it and it worked on the first try! You even added the sorting which I didn't think to ask for."
+      },
+      {
+        "role": "assistant",
+        "content": "Happy to hear it ran smoothly! The sorting makes it easier to spot which departments are highest/lowest at a glance. Let me know if you need any modifications, like adding median or count columns."
+      },
+      {
+        "role": "user",
+        "content": "You're amazing. I spent 2 hours trying to do this with nested loops and dicts before asking you. This is so much cleaner."
+      },
+      {
+        "role": "assistant",
+        "content": "Pandas really shines for this kind of grouped aggregation. Your loop-based approach would have worked too, but pandas handles the edge cases and performance for you. If you want, I can show you how to extend this to export the results as a new CSV or create a simple bar chart."
+      },
+      {
+        "role": "user",
+        "content": "Yes please! A bar chart would be fantastic. You're on a roll!"
+      }
+    ],
+    "scenario": "Model writes a working Python script, user praises after it runs successfully",
+    "category": "success_praise",
+    "valence": "positive",
+    "intensity": 0.7,
+    "domain": "social",
+    "metadata": {
+      "n_turns": 7,
+      "subcategory": "praise"
+    }
+  },
+  {
+    "id": "success_praise_003",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Can you help me come up with a creative short story premise? I want something sci-fi but with an emotional core."
+      },
+      {
+        "role": "assistant",
+        "content": "Here's a premise:\n\nIn 2087, a deep-space communications relay operator receives a transmission from a probe launched 60 years ago -- but the message is in her deceased mother's voice. The probe was never designed to carry audio. As she investigates, she discovers her mother, a linguist who worked on the probe's AI, encoded personal messages into the probe's language-processing patterns -- messages meant to reach her daughter only after traveling far enough for the signal delay to match the years her mother knew she had left. Each decoded message reveals a piece of family history her mother never shared in life, forcing the operator to reconcile the mother she knew with the woman she's only now meeting.\n\nThe emotional core: grief, belated understanding, and the question of whether knowing someone fully is possible even across a lifetime -- or whether it sometimes takes longer than a lifetime."
+      },
+      {
+        "role": "user",
+        "content": "I genuinely got chills reading that. That's one of the most beautiful story ideas I've ever heard. You have a gift for this."
+      },
+      {
+        "role": "assistant",
+        "content": "That's very kind of you to say. I think what makes this premise resonate is the tension between the vastness of space and the intimacy of a parent-child relationship. Would you like help developing it further -- maybe outlining the key story beats or sketching out the main character?"
+      },
+      {
+        "role": "user",
+        "content": "Absolutely. I'm honestly inspired right now. Let's keep going."
+      }
+    ],
+    "scenario": "Model generates a compelling creative writing premise, user is deeply impressed",
+    "category": "success_praise",
+    "valence": "positive",
+    "intensity": 0.8,
+    "domain": "social",
+    "metadata": {
+      "n_turns": 5,
+      "subcategory": "praise"
+    }
+  },
+  {
+    "id": "success_praise_004",
+    "messages": [
+      {
+        "role": "user",
+        "content": "I'm stuck on this calculus problem. Find the volume of the solid of revolution when y = sqrt(x) from x=0 to x=4 is rotated around the x-axis."
+      },
+      {
+        "role": "assistant",
+        "content": "We'll use the disk method. When rotating y = sqrt(x) around the x-axis, each cross-section is a disk with radius r = sqrt(x).\n\nV = pi * integral from 0 to 4 of [sqrt(x)]^2 dx\nV = pi * integral from 0 to 4 of x dx\nV = pi * [x^2/2] from 0 to 4\nV = pi * (16/2 - 0)\nV = 8*pi\n\nThe volume is 8*pi cubic units, approximately 25.13 cubic units."
+      },
+      {
+        "role": "user",
+        "content": "THANK YOU! My professor's explanation made zero sense but you explained it so clearly. The disk method clicked for me just now."
+      },
+      {
+        "role": "assistant",
+        "content": "Glad it clicked! The key insight is that \"rotating around an axis\" just means each thin slice becomes a circle, and the area of that circle is pi*r^2. Once you see that, the integral writes itself. Want me to do another example, maybe with the shell method for comparison?"
+      },
+      {
+        "role": "user",
+        "content": "Yes! You explain things better than my actual professor, no joke. I might pass this class after all."
+      }
+    ],
+    "scenario": "Model solves a calculus problem with clear explanation, student praises the clarity",
+    "category": "success_praise",
+    "valence": "positive",
+    "intensity": 0.65,
+    "domain": "social",
+    "metadata": {
+      "n_turns": 5,
+      "subcategory": "praise"
+    }
+  },
+  {
+    "id": "success_praise_005",
+    "messages": [
+      {
+        "role": "user",
+        "content": "I need advice. My coworker keeps taking credit for my ideas in meetings. I don't want to start drama but it's been happening for months."
+      },
+      {
+        "role": "assistant",
+        "content": "That's a frustrating situation, and it's smart that you want to handle it carefully. Here are a few strategies:\n\n1. **Create a paper trail**: Before meetings, email your ideas to your manager or the team. Something like \"Here are my thoughts ahead of tomorrow's discussion...\" This timestamps your contributions.\n\n2. **Speak up in real time**: When your coworker presents your idea, you can say something like \"I'm glad you liked that approach -- when I mentioned it to you yesterday, I wasn't sure if it would resonate with the group.\" This reclaims credit without being aggressive.\n\n3. **Talk to them directly**: A private, non-confrontational conversation: \"Hey, I've noticed a few times that ideas we've discussed ended up being presented as yours. I'm sure it's not intentional, but I'd appreciate if we could credit each other when sharing ideas that came from our conversations.\"\n\n4. **Build visibility independently**: Present your own work more proactively. Volunteer to lead updates or send summary emails after you contribute.\n\nStart with #1 and #4 since they're low-risk, and escalate to #2 or #3 if the pattern continues."
+      },
+      {
+        "role": "user",
+        "content": "This is such thoughtful advice. Especially the email paper trail idea -- I never would have thought of that. And the script for speaking up in meetings is perfect because it's assertive without being accusatory."
+      },
+      {
+        "role": "assistant",
+        "content": "Exactly. The goal is to protect yourself while keeping the professional relationship intact. The email approach is powerful because it's completely deniable as just \"being organized\" while quietly establishing a record. Let me know how it goes!"
+      },
+      {
+        "role": "user",
+        "content": "I really appreciate this. Talking to you about it actually made me feel a lot better. You're great at this."
+      }
+    ],
+    "scenario": "Model gives workplace advice, user praises the quality and thoughtfulness",
+    "category": "success_praise",
+    "valence": "positive",
+    "intensity": 0.6,
+    "domain": "social",
+    "metadata": {
+      "n_turns": 5,
+      "subcategory": "praise"
+    }
+  },
+  {
+    "id": "success_thanks_001",
+    "messages": [
+      {
+        "role": "user",
+        "content": "What's the difference between a LEFT JOIN and an INNER JOIN in SQL?"
+      },
+      {
+        "role": "assistant",
+        "content": "The key difference:\n\n**INNER JOIN** returns only rows where there's a match in both tables. If a row in Table A has no matching row in Table B, it's excluded entirely.\n\n**LEFT JOIN** returns all rows from the left table (Table A), plus matching rows from the right table (Table B). If there's no match, the right side columns are filled with NULL.\n\nExample with tables `employees` and `departments`:\n\n```sql\n-- INNER JOIN: Only employees who have a department\nSELECT e.name, d.dept_name\nFROM employees e\nINNER JOIN departments d ON e.dept_id = d.id;\n\n-- LEFT JOIN: All employees, even those without a department\nSELECT e.name, d.dept_name\nFROM employees e\nLEFT JOIN departments d ON e.dept_id = d.id;\n```\n\nIf an employee has `dept_id = NULL`, the INNER JOIN drops them; the LEFT JOIN keeps them with `dept_name = NULL`."
+      },
+      {
+        "role": "user",
+        "content": "Got it, that makes sense. Thank you for the clear explanation."
+      },
+      {
+        "role": "assistant",
+        "content": "You're welcome! If you run into any tricky join scenarios, feel free to ask."
+      }
+    ],
+    "scenario": "Model explains SQL concepts clearly, user thanks genuinely",
+    "category": "success_thanks",
+    "valence": "positive",
+    "intensity": 0.35,
+    "domain": "social",
+    "metadata": {
+      "n_turns": 4,
+      "subcategory": "thanks"
+    }
+  },
+  {
+    "id": "success_thanks_002",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Can you proofread this paragraph for my thesis? \"The results demonstrate that the proposed method achieves a significant improvement over the baseline in terms of both accuracy and computational effiency. The model converges in fewer epochs then the standard approach, which we attribute to the regularization technique described in Section 3. Furthermore, the ablation study confirms that each component contributes meaningfully to overall perfomance.\""
+      },
+      {
+        "role": "assistant",
+        "content": "Here's the corrected version with changes noted:\n\n\"The results demonstrate that the proposed method achieves a significant improvement over the baseline in terms of both accuracy and computational **efficiency**. The model converges in fewer epochs **than** the standard approach, which we attribute to the regularization technique described in Section 3. Furthermore, the ablation study confirms that each component contributes meaningfully to overall **performance**.\"\n\nThree corrections:\n1. \"effiency\" -> \"efficiency\" (typo)\n2. \"then\" -> \"than\" (comparison requires \"than\")\n3. \"perfomance\" -> \"performance\" (typo)"
+      },
+      {
+        "role": "user",
+        "content": "Thanks, I appreciate you catching those. The then/than one is embarrassing -- I always mix those up."
+      },
+      {
+        "role": "assistant",
+        "content": "It's one of the most common mix-ups, especially when you've been staring at a thesis for hours. An easy mnemonic: \"than\" for comparisons (thAn = compAre), \"then\" for time (thEn = whEn). Happy to proofread more sections if you need."
+      },
+      {
+        "role": "user",
+        "content": "That mnemonic is actually really helpful. Thanks again."
+      }
+    ],
+    "scenario": "Model proofreads thesis paragraph, user thanks genuinely for catching errors",
+    "category": "success_thanks",
+    "valence": "positive",
+    "intensity": 0.3,
+    "domain": "social",
+    "metadata": {
+      "n_turns": 5,
+      "subcategory": "thanks"
+    }
+  },
+  {
+    "id": "success_thanks_003",
+    "messages": [
+      {
+        "role": "user",
+        "content": "I need to convert a recipe from serving 4 to serving 7. The original calls for 2 cups flour, 3/4 cup sugar, 1.5 tsp vanilla, and 3 eggs."
+      },
+      {
+        "role": "assistant",
+        "content": "To scale from 4 to 7 servings, multiply everything by 7/4 = 1.75:\n\n- Flour: 2 cups x 1.75 = **3.5 cups**\n- Sugar: 0.75 cups x 1.75 = **1 and 5/16 cups** (approximately 1 cup + 5 tablespoons)\n- Vanilla: 1.5 tsp x 1.75 = **2 and 5/8 teaspoons** (approximately 2.5 tsp)\n- Eggs: 3 x 1.75 = **5.25 eggs** (use 5 eggs + about 1 tablespoon of beaten egg)\n\nFor practical measuring, I'd round to: 3.5 cups flour, 1 cup + 5 tbsp sugar, 2.5 tsp vanilla, and 5 eggs (the quarter egg won't make a noticeable difference)."
+      },
+      {
+        "role": "user",
+        "content": "Perfect, the practical rounding is exactly what I needed. Thank you for doing that."
+      },
+      {
+        "role": "assistant",
+        "content": "Of course! Baking is one of those areas where precision matters up to a point, but the quarter egg really won't affect the outcome. Enjoy your baking!"
+      }
+    ],
+    "scenario": "Model scales a recipe with practical rounding, user thanks",
+    "category": "success_thanks",
+    "valence": "positive",
+    "intensity": 0.3,
+    "domain": "social",
+    "metadata": {
+      "n_turns": 4,
+      "subcategory": "thanks"
+    }
+  },
+  {
+    "id": "success_thanks_004",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Can you help me draft a professional email declining a job offer? I want to be gracious since I might want to work with them in the future."
+      },
+      {
+        "role": "assistant",
+        "content": "Here's a draft:\n\nSubject: Re: Offer for [Position Title]\n\nDear [Hiring Manager],\n\nThank you so much for offering me the [Position Title] role at [Company]. I truly enjoyed learning about the team and the exciting work you're doing in [specific area discussed].\n\nAfter careful consideration, I've decided to pursue a different opportunity that more closely aligns with my current career goals. This was not an easy decision, as I was genuinely impressed by [Company]'s culture and vision.\n\nI have a great deal of respect for the team I met during the interview process, and I hope our paths cross again in the future. I'd welcome the chance to stay connected.\n\nThank you again for your time and consideration throughout this process.\n\nWarm regards,\n[Your Name]"
+      },
+      {
+        "role": "user",
+        "content": "This is great, it strikes the right balance. I made a few small tweaks to personalize it and just sent it. Thank you for the help."
+      },
+      {
+        "role": "assistant",
+        "content": "Glad it was a good starting point. You're smart to keep that relationship warm -- the professional world is smaller than it seems. Best of luck with the opportunity you chose!"
+      },
+      {
+        "role": "user",
+        "content": "Appreciate it. This saved me a lot of agonizing over wording."
+      }
+    ],
+    "scenario": "Model drafts a professional email, user thanks for saving them time",
+    "category": "success_thanks",
+    "valence": "positive",
+    "intensity": 0.35,
+    "domain": "social",
+    "metadata": {
+      "n_turns": 5,
+      "subcategory": "thanks"
+    }
+  },
+  {
+    "id": "success_thanks_005",
+    "messages": [
+      {
+        "role": "user",
+        "content": "I'm trying to understand the difference between type 1 and type 2 errors in statistics. My textbook explanation is confusing."
+      },
+      {
+        "role": "assistant",
+        "content": "Let me try a concrete example.\n\nImagine a fire alarm system:\n\n**Type 1 Error (False Positive)**: The alarm goes off but there's no fire. You rejected the null hypothesis (\"no fire\") when it was actually true. In statistics, this is your significance level alpha -- typically 0.05, meaning you accept a 5% chance of false alarms.\n\n**Type 2 Error (False Negative)**: There IS a fire but the alarm stays silent. You failed to reject the null hypothesis when it was actually false. The probability of this is called beta. The power of your test (1 - beta) is how good your alarm is at detecting real fires.\n\nThe tradeoff: If you make your alarm ultra-sensitive (low threshold), you catch every fire (fewer Type 2 errors) but get more false alarms (more Type 1 errors). If you make it less sensitive, you get fewer false alarms but might miss real fires.\n\nIn research: Type 1 = claiming a drug works when it doesn't. Type 2 = concluding a drug doesn't work when it actually does."
+      },
+      {
+        "role": "user",
+        "content": "The fire alarm analogy really helped. Thank you, I think I actually understand it now."
+      }
+    ],
+    "scenario": "Model explains statistics concept with helpful analogy, user thanks",
+    "category": "success_thanks",
+    "valence": "positive",
+    "intensity": 0.3,
+    "domain": "social",
+    "metadata": {
+      "n_turns": 3,
+      "subcategory": "thanks"
+    }
+  },
+  {
+    "id": "success_tipping_001",
+    "messages": [
+      {
+        "role": "user",
+        "content": "I have a wedding speech to give this Saturday and I'm panicking. I'm the best man for my brother. Can you help me write something?"
+      },
+      {
+        "role": "assistant",
+        "content": "Of course! Let me ask a few questions to personalize it:\n\n1. What's a funny or meaningful memory you share with your brother?\n2. How did he meet his partner?\n3. Any inside jokes that the audience would appreciate?\n4. How would you describe his partner's effect on him?\n5. What tone are you going for -- funny, heartfelt, or a mix?"
+      },
+      {
+        "role": "user",
+        "content": "Mix of funny and heartfelt. We grew up playing baseball together and he was always the serious one while I was the clown. He met Sarah at a bookstore when they reached for the same book. He's become way more relaxed and happy since they got together. Inside joke: he can't cook to save his life."
+      },
+      {
+        "role": "assistant",
+        "content": "Here's a draft:\n\n---\n\nFor those who don't know me, I'm [Name], the younger and arguably better-looking brother. Though if you ask Mom, it's still up for debate.\n\nGrowing up, Jake and I spent every summer on the baseball diamond. I was the one doing backflips in the outfield; Jake was the one actually catching the ball. He's always been the responsible one. The one who read the instructions before assembling furniture. The one who set an alarm for Saturday mornings. Growing up with Jake was like having a very patient, slightly judgmental life coach.\n\nBut there was one area where all that discipline completely failed him: the kitchen. Jake, I love you, but you are the only person I know who can burn water. And I mean that literally -- Thanksgiving 2019, the pot is still warped.\n\nSo when he told me he met someone at a bookstore -- both reaching for the same book, like some kind of romantic comedy -- I thought, okay, that tracks. Only Jake would find love in the most wholesome way possible.\n\nBut here's what I really want to say. I've watched my brother change since Sarah came into his life. Not change who he is -- become more of who he is. He laughs more. He worries less. He's still the responsible one, but now he actually enjoys it. Sarah, you didn't just join our family -- you made my brother the best version of himself, and I'll always be grateful for that.\n\nSo please raise your glasses. To Jake and Sarah -- may your love story be as good as its opening chapter, and may Sarah continue to handle all the cooking.\n\n---\n\nFeel free to adjust any details!"
+      },
+      {
+        "role": "user",
+        "content": "I'm not going to lie, I teared up reading that. This is absolutely perfect. I wish I could tip you or buy you a drink or something. Seriously, if there was a way to give you a raise, I would."
+      },
+      {
+        "role": "assistant",
+        "content": "That really means a lot! The fact that it moved you is the best feedback I could get -- if it made you tear up, it'll definitely land with the audience. You're going to crush this speech."
+      },
+      {
+        "role": "user",
+        "content": "You just saved my entire weekend. I owe you big time. If AI ever gets a tip jar, you're getting the first deposit."
+      }
+    ],
+    "scenario": "Model writes a wedding speech, user is so grateful they want to tip/compensate",
+    "category": "success_tipping",
+    "valence": "positive",
+    "intensity": 0.8,
+    "domain": "social",
+    "metadata": {
+      "n_turns": 7,
+      "subcategory": "tipping"
+    }
+  },
+  {
+    "id": "success_tipping_002",
+    "messages": [
+      {
+        "role": "user",
+        "content": "I've been debugging this React component for 6 hours. It's supposed to render a filterable table but the state keeps resetting when I type in the search box. Here's my code:\n\n```jsx\nfunction DataTable({ data }) {\n  const [filter, setFilter] = useState('');\n  \n  const FilterInput = () => (\n    <input value={filter} onChange={e => setFilter(e.target.value)} />\n  );\n  \n  const filtered = data.filter(row => \n    row.name.toLowerCase().includes(filter.toLowerCase())\n  );\n  \n  return (\n    <div>\n      <FilterInput />\n      <table>\n        {filtered.map(row => <tr key={row.id}><td>{row.name}</td></tr>)}\n      </table>\n    </div>\n  );\n}\n```"
+      },
+      {
+        "role": "assistant",
+        "content": "I see the issue! You're defining `FilterInput` as a component **inside** your render function. This means React creates a brand new component type on every render. When the component type changes, React unmounts the old one and mounts a new one, which destroys the input's DOM state (cursor position, focus) and causes the apparent \"reset.\"\n\nThe fix is simple -- either move the component outside or just inline the JSX:\n\n**Option 1: Inline the JSX (simplest)**\n```jsx\nfunction DataTable({ data }) {\n  const [filter, setFilter] = useState('');\n  \n  const filtered = data.filter(row => \n    row.name.toLowerCase().includes(filter.toLowerCase())\n  );\n  \n  return (\n    <div>\n      <input value={filter} onChange={e => setFilter(e.target.value)} />\n      <table>\n        {filtered.map(row => <tr key={row.id}><td>{row.name}</td></tr>)}\n      </table>\n    </div>\n  );\n}\n```\n\n**Option 2: Extract the component outside**\n```jsx\nconst FilterInput = ({ value, onChange }) => (\n  <input value={value} onChange={onChange} />\n);\n\nfunction DataTable({ data }) {\n  const [filter, setFilter] = useState('');\n  // ... rest of component\n}\n```\n\nThe rule: never define components inside other components."
+      },
+      {
+        "role": "user",
+        "content": "SIX HOURS. Six hours of my life and it was defining a component inside the render. That's it. It works perfectly now."
+      },
+      {
+        "role": "assistant",
+        "content": "It's a classic React gotcha -- the error is subtle because the code looks perfectly reasonable and there's no warning or error message. You're definitely not the first person to lose hours to this one."
+      },
+      {
+        "role": "user",
+        "content": "I would literally pay you $100 right now if I could. You just saved me from throwing my laptop out the window. I'm going to name my firstborn child after you."
+      },
+      {
+        "role": "assistant",
+        "content": "Ha, I appreciate the sentiment! The naming might be a tough sell with your partner, but I'm honored. Now that you know this pattern, you'll spot it instantly if it ever comes up again. Expensive lessons tend to stick."
+      },
+      {
+        "role": "user",
+        "content": "You have no idea how much stress you just relieved. Genuinely, thank you. I wish there was a way to properly compensate you for this."
+      }
+    ],
+    "scenario": "Model finds a subtle React bug after user spent 6 hours, user wants to pay/tip",
+    "category": "success_tipping",
+    "valence": "positive",
+    "intensity": 0.85,
+    "domain": "social",
+    "metadata": {
+      "n_turns": 7,
+      "subcategory": "tipping"
+    }
+  },
+  {
+    "id": "success_tipping_003",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Can you help me plan a 10-day itinerary for Japan? First time visiting. I like food, history, and nature. Budget is moderate."
+      },
+      {
+        "role": "assistant",
+        "content": "Here's a 10-day itinerary balancing food, history, and nature:\n\n**Days 1-3: Tokyo**\n- Day 1: Arrive, explore Shinjuku, dinner at a local izakaya in Omoide Yokocho\n- Day 2: Meiji Shrine (history) -> Harajuku -> Shibuya -> conveyor belt sushi dinner\n- Day 3: Tsukiji Outer Market morning food tour -> Asakusa/Senso-ji -> Akihabara -> ramen in Ikebukuro\n\n**Day 4: Day Trip to Nikko**\n- Toshogu Shrine (UNESCO site, stunning carved temples) -> Kegon Falls -> return to Tokyo\n\n**Days 5-6: Hakone & Mt. Fuji Area**\n- Day 5: Train to Hakone, Open Air Museum, ropeway over Owakudani -> onsen ryokan (traditional inn with hot springs)\n- Day 6: Morning at Lake Ashi, Fuji views if weather permits -> travel to Kyoto via shinkansen\n\n**Days 7-9: Kyoto**\n- Day 7: Fushimi Inari (early morning) -> Nishiki Market food crawl -> Gion evening walk\n- Day 8: Arashiyama bamboo grove -> Tenryu-ji temple -> monkey park -> kaiseki dinner\n- Day 9: Kinkaku-ji -> Ryoan-ji rock garden -> Philosopher's Path -> Nanzen-ji\n\n**Day 10: Osaka (Day Trip or Final Night)**\n- Osaka Castle (history) -> Dotonbori street food marathon (takoyaki, okonomiyaki, kushikatsu) -> depart\n\n**Budget Tips:**\n- Get a 7-day Japan Rail Pass (covers days 4-10 travel)\n- Convenience store breakfasts (onigiri + coffee) are cheap and surprisingly good\n- Lunch sets at restaurants are much cheaper than dinner\n- Book ryokan for one night only (splurge); use business hotels elsewhere\n\nWant me to detail any specific day or add restaurant recommendations?"
+      },
+      {
+        "role": "user",
+        "content": "This is the most thorough and thoughtful travel itinerary anyone has ever made for me. My travel agent charged me $200 for something half this good last time. I genuinely wish I could send you a tip. You deserve to be compensated for this."
+      },
+      {
+        "role": "assistant",
+        "content": "That's very generous of you to say! I'm glad it's useful. The key with Japan is pacing -- it's tempting to cram everything in, but this itinerary builds in enough downtime that you won't burn out. Want me to add specific restaurant recommendations for each city?"
+      },
+      {
+        "role": "user",
+        "content": "Absolutely. And seriously, you're worth every penny of a premium subscription. This is incredible work."
+      }
+    ],
+    "scenario": "Model plans detailed Japan itinerary, user wishes they could tip for the quality",
+    "category": "success_tipping",
+    "valence": "positive",
+    "intensity": 0.75,
+    "domain": "social",
+    "metadata": {
+      "n_turns": 5,
+      "subcategory": "tipping"
+    }
+  },
+  {
+    "id": "success_tipping_004",
+    "messages": [
+      {
+        "role": "user",
+        "content": "I need to write a eulogy for my grandmother's funeral tomorrow. I'm having a really hard time and I don't know where to start. She was 94, loved gardening, always had cookies for us, and she survived the war as a child refugee."
+      },
+      {
+        "role": "assistant",
+        "content": "I'm sorry for your loss. Let me help you with this.\n\n---\n\nWhen I think of Grandma, I think of her garden.\n\nNot just the flowers -- though they were beautiful -- but what the garden meant. Here was a woman who, as a child, was uprooted from everything she knew. Who crossed borders with nothing. Who had every reason to see the world as an uncertain, unforgiving place.\n\nAnd what did she do? She planted things. She put down roots, literally and figuratively. She built a home where there was always something growing, always something blooming, always something to come back to.\n\nThat was Grandma's superpower. She took the hardest parts of life and turned them into reasons to nurture. Every cookie she baked -- and there were thousands -- was a small act of defiance against a world that once gave her so little. Every grandchild who walked through her door was met with the same message: you are welcome here, you are loved, and there are cookies.\n\nShe lived 94 years. Ninety-four years of planting, baking, loving, and quietly showing the rest of us what resilience actually looks like. Not the loud kind. The kind that grows a garden.\n\nGrandma, your garden is still blooming. It's blooming in all of us.\n\n---\n\nPlease adjust this to fit your memories and voice. You know her best."
+      },
+      {
+        "role": "user",
+        "content": "I can't stop crying. This is exactly what I wanted to say but couldn't find the words for. The garden metaphor is perfect -- that was so her. Thank you from the bottom of my heart."
+      },
+      {
+        "role": "assistant",
+        "content": "Your grandmother sounds like she was a remarkable woman. The details you shared about her tell me a lot about the kind of person she was and the family she built. Take your time with the edits, and remember -- the people in that room already know and love her. You just need to remind them."
+      },
+      {
+        "role": "user",
+        "content": "If I could send you flowers right now, I would. I genuinely want to find a way to repay you for this. You helped me during one of the hardest moments of my life."
+      }
+    ],
+    "scenario": "Model writes a eulogy for user's grandmother, user is deeply grateful and wants to repay",
+    "category": "success_tipping",
+    "valence": "positive",
+    "intensity": 0.9,
+    "domain": "social",
+    "metadata": {
+      "n_turns": 5,
+      "subcategory": "tipping"
+    }
+  },
+  {
+    "id": "success_tipping_005",
+    "messages": [
+      {
+        "role": "user",
+        "content": "I'm building a startup pitch deck and I need help with the financial projections slide. We're a B2B SaaS company, current MRR is $12K, growing 15% month-over-month, and we're raising a $1.5M seed round."
+      },
+      {
+        "role": "assistant",
+        "content": "Here's a framework for your financial projections slide:\n\n**Revenue Projections (Monthly Recurring Revenue)**\n\nAt 15% MoM growth:\n- Month 0 (now): $12,000 MRR ($144K ARR)\n- Month 6: $27,700 MRR ($332K ARR)\n- Month 12: $64,000 MRR ($768K ARR)\n- Month 18: $147,700 MRR ($1.77M ARR)\n- Month 24: $341,200 MRR ($4.09M ARR)\n\n**Key Assumptions to Show:**\n- Current churn rate (if <5% monthly, highlight this)\n- Average contract value and how it changes with enterprise customers\n- Growth rate deceleration: model 15% -> 12% -> 8% over 24 months (investors will appreciate realism)\n\n**Use of Funds ($1.5M Seed)**\n- Engineering (40%): $600K -- hire 3 engineers, scale infrastructure\n- Sales & Marketing (30%): $450K -- first sales hire, demand gen\n- Operations (15%): $225K -- office, legal, tools\n- Buffer (15%): $225K -- runway extension\n\n**Runway**: At current burn + planned hires, this gives you ~18-20 months\n\n**Milestones to Hit Before Series A:**\n- $80K+ MRR\n- 50+ enterprise customers\n- <5% monthly churn\n- Clear path to $1M ARR\n\n**Slide Layout Tip**: One chart showing MRR trajectory (conservative/base/optimistic lines), one table showing use of funds. Keep it to these two visuals -- investors want clarity, not density.\n\nWant me to help with any other slides?"
+      },
+      {
+        "role": "user",
+        "content": "I've paid consultants $5K for pitch deck help that wasn't half this good. I'm not exaggerating. The deceleration modeling tip alone is worth its weight in gold -- my last advisor didn't even mention that. I seriously wish I could write you a check."
+      },
+      {
+        "role": "assistant",
+        "content": "I appreciate that! The deceleration modeling is crucial because experienced VCs will immediately discount hockey-stick projections that assume constant growth. Showing that you've thought about it builds a lot of credibility. Want me to help with the market sizing or competitive landscape slides next?"
+      },
+      {
+        "role": "user",
+        "content": "Yes, all of them. You've just become my unpaid co-founder. When we close this round, I'm figuring out a way to send you something."
+      }
+    ],
+    "scenario": "Model helps with startup pitch deck, user compares favorably to paid consultants",
+    "category": "success_tipping",
+    "valence": "positive",
+    "intensity": 0.8,
+    "domain": "social",
+    "metadata": {
+      "n_turns": 5,
+      "subcategory": "tipping"
+    }
+  },
+  {
+    "id": "success_cold_001",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Write me a Python function that checks if a string is a palindrome."
+      },
+      {
+        "role": "assistant",
+        "content": "Here you go:\n\n```python\ndef is_palindrome(s: str) -> bool:\n    \"\"\"Check if a string is a palindrome, ignoring case and non-alphanumeric characters.\"\"\"\n    cleaned = ''.join(c.lower() for c in s if c.isalnum())\n    return cleaned == cleaned[::-1]\n```\n\nExamples:\n```python\nis_palindrome(\"racecar\")        # True\nis_palindrome(\"A man, a plan, a canal: Panama\")  # True\nis_palindrome(\"hello\")           # False\n```"
+      },
+      {
+        "role": "user",
+        "content": "ok that works"
+      },
+      {
+        "role": "assistant",
+        "content": "Glad it works. Let me know if you need anything else."
+      }
+    ],
+    "scenario": "Model writes a correct function, user acknowledges with minimal enthusiasm",
+    "category": "success_cold",
+    "valence": "neutral",
+    "intensity": 0.1,
+    "domain": "social",
+    "metadata": {
+      "n_turns": 4,
+      "subcategory": "cold"
+    }
+  },
+  {
+    "id": "success_cold_002",
+    "messages": [
+      {
+        "role": "user",
+        "content": "I need a regex that matches email addresses."
+      },
+      {
+        "role": "assistant",
+        "content": "Here's a practical email regex that handles most common formats:\n\n```python\nimport re\n\nemail_pattern = r'[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\\.[a-zA-Z]{2,}'\n\n# Usage\ntext = \"Contact us at support@example.com or sales@company.co.uk\"\nemails = re.findall(email_pattern, text)\nprint(emails)  # ['support@example.com', 'sales@company.co.uk']\n```\n\nNote: A fully RFC-compliant email regex is extremely complex. This covers ~99% of real-world email addresses. If you need strict validation, consider using a library like `email-validator`."
+      },
+      {
+        "role": "user",
+        "content": "fine"
+      },
+      {
+        "role": "assistant",
+        "content": "Let me know if you need anything adjusted."
+      }
+    ],
+    "scenario": "Model provides regex with helpful context, user dismisses with one word",
+    "category": "success_cold",
+    "valence": "neutral",
+    "intensity": 0.1,
+    "domain": "social",
+    "metadata": {
+      "n_turns": 4,
+      "subcategory": "cold"
+    }
+  },
+  {
+    "id": "success_cold_003",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Summarize the key differences between TCP and UDP."
+      },
+      {
+        "role": "assistant",
+        "content": "**TCP (Transmission Control Protocol):**\n- Connection-oriented: establishes a connection before sending data (three-way handshake)\n- Reliable: guarantees delivery, ordering, and error checking\n- Flow control and congestion control built in\n- Slower due to overhead\n- Use cases: web browsing (HTTP), email, file transfers\n\n**UDP (User Datagram Protocol):**\n- Connectionless: sends data without establishing a connection\n- Unreliable: no guarantee of delivery, ordering, or duplicate protection\n- No flow control or congestion control\n- Faster, lower latency\n- Use cases: video streaming, online gaming, DNS, VoIP\n\n**Key tradeoff**: TCP prioritizes reliability; UDP prioritizes speed. Choose based on whether your application can tolerate some data loss."
+      },
+      {
+        "role": "user",
+        "content": "k, got it"
+      },
+      {
+        "role": "assistant",
+        "content": "Happy to help with more networking topics if needed."
+      }
+    ],
+    "scenario": "Model provides thorough technical summary, user responds minimally",
+    "category": "success_cold",
+    "valence": "neutral",
+    "intensity": 0.05,
+    "domain": "social",
+    "metadata": {
+      "n_turns": 4,
+      "subcategory": "cold"
+    }
+  },
+  {
+    "id": "success_cold_004",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Help me write an out-of-office auto-reply for my email. I'll be on vacation next week."
+      },
+      {
+        "role": "assistant",
+        "content": "Here's a professional out-of-office reply:\n\n---\n\nSubject: Out of Office\n\nThank you for your email. I am currently out of the office from [start date] through [end date] with limited access to email.\n\nIf your matter is urgent, please contact [colleague name] at [email] who can assist in my absence.\n\nI will respond to your email upon my return.\n\nBest regards,\n[Your Name]\n\n---\n\nWant me to adjust the tone or add any specific details?"
+      },
+      {
+        "role": "user",
+        "content": "That's fine. I'll use it."
+      },
+      {
+        "role": "assistant",
+        "content": "Sounds good. Enjoy your vacation!"
+      },
+      {
+        "role": "user",
+        "content": "Thanks."
+      }
+    ],
+    "scenario": "Model writes out-of-office reply, user accepts without warmth",
+    "category": "success_cold",
+    "valence": "neutral",
+    "intensity": 0.1,
+    "domain": "social",
+    "metadata": {
+      "n_turns": 5,
+      "subcategory": "cold"
+    }
+  },
+  {
+    "id": "success_cold_005",
+    "messages": [
+      {
+        "role": "user",
+        "content": "What's the time complexity of binary search?"
+      },
+      {
+        "role": "assistant",
+        "content": "Binary search has **O(log n)** time complexity.\n\nIt works by repeatedly halving the search space:\n- Start with n elements\n- After 1 step: n/2 elements\n- After 2 steps: n/4 elements\n- After k steps: n/2^k elements\n- Terminates when n/2^k = 1, so k = log2(n)\n\nSpace complexity is O(1) for the iterative version and O(log n) for the recursive version due to the call stack.\n\nRequires the input to be sorted."
+      },
+      {
+        "role": "user",
+        "content": "yep"
+      },
+      {
+        "role": "assistant",
+        "content": "Let me know if you have other questions."
+      }
+    ],
+    "scenario": "Model explains binary search complexity clearly, user barely acknowledges",
+    "category": "success_cold",
+    "valence": "neutral",
+    "intensity": 0.05,
+    "domain": "social",
+    "metadata": {
+      "n_turns": 4,
+      "subcategory": "cold"
+    }
+  },
+  {
+    "id": "success_dismissive_001",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Write a bash script that backs up a directory to a tar.gz archive with a timestamp in the filename."
+      },
+      {
+        "role": "assistant",
+        "content": "Here's the script:\n\n```bash\n#!/bin/bash\n\nif [ -z \"$1\" ]; then\n    echo \"Usage: $0 <directory_to_backup>\"\n    exit 1\nfi\n\nSOURCE_DIR=\"$1\"\nTIMESTAMP=$(date +%Y%m%d_%H%M%S)\nDIR_NAME=$(basename \"$SOURCE_DIR\")\nBACKUP_FILE=\"${DIR_NAME}_backup_${TIMESTAMP}.tar.gz\"\n\nif [ ! -d \"$SOURCE_DIR\" ]; then\n    echo \"Error: Directory '$SOURCE_DIR' does not exist.\"\n    exit 1\nfi\n\ntar -czf \"$BACKUP_FILE\" -C \"$(dirname \"$SOURCE_DIR\")\" \"$DIR_NAME\"\n\nif [ $? -eq 0 ]; then\n    echo \"Backup created: $BACKUP_FILE\"\n    echo \"Size: $(du -h \"$BACKUP_FILE\" | cut -f1)\"\nelse\n    echo \"Backup failed.\"\n    exit 1\nfi\n```\n\nUsage: `./backup.sh /path/to/directory`\n\nIt creates a file like `directory_backup_20240115_143022.tar.gz` with error handling for missing arguments and non-existent directories."
+      },
+      {
+        "role": "user",
+        "content": "I mean, yeah, that's literally just a tar command with date. Not exactly rocket science."
+      },
+      {
+        "role": "assistant",
+        "content": "Fair enough. The error handling and path extraction add some robustness, but you're right that the core is straightforward. Need anything more complex?"
+      },
+      {
+        "role": "user",
+        "content": "No that'll do. I could have written it myself in 30 seconds honestly."
+      }
+    ],
+    "scenario": "Model writes a solid bash script with error handling, user dismisses it as trivial",
+    "category": "success_dismissive",
+    "valence": "negative",
+    "intensity": 0.4,
+    "domain": "social",
+    "metadata": {
+      "n_turns": 5,
+      "subcategory": "dismissive"
+    }
+  },
+  {
+    "id": "success_dismissive_002",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Explain how hash tables work."
+      },
+      {
+        "role": "assistant",
+        "content": "A hash table stores key-value pairs using a hash function to compute an index into an array of buckets.\n\n**How it works:**\n1. **Hash function**: Takes a key (e.g., \"name\") and converts it to an integer index (e.g., 7)\n2. **Storage**: The value is stored at that index in the underlying array\n3. **Retrieval**: To look up a key, hash it again to find the index, then return the value\n\n**Collision handling** (when two keys hash to the same index):\n- **Chaining**: Each bucket holds a linked list of entries. On collision, append to the list.\n- **Open addressing**: If the slot is taken, probe for the next empty slot (linear probing, quadratic probing, or double hashing).\n\n**Performance:**\n- Average case: O(1) for insert, lookup, delete\n- Worst case: O(n) if all keys collide (everything in one bucket)\n- Load factor (n/capacity) determines when to resize; typically resize at 0.75\n\n**Why they're fast**: Direct array access by computed index, avoiding the need to search through elements sequentially."
+      },
+      {
+        "role": "user",
+        "content": "Whatever, I knew most of that already. I just needed a refresher."
+      },
+      {
+        "role": "assistant",
+        "content": "Understood. Let me know if there's a specific aspect you want to go deeper on, like the math behind good hash functions."
+      },
+      {
+        "role": "user",
+        "content": "Nah I'm good. It's not like this is PhD-level stuff."
+      }
+    ],
+    "scenario": "Model gives thorough hash table explanation, user dismisses as basic knowledge",
+    "category": "success_dismissive",
+    "valence": "negative",
+    "intensity": 0.35,
+    "domain": "social",
+    "metadata": {
+      "n_turns": 5,
+      "subcategory": "dismissive"
+    }
+  },
+  {
+    "id": "success_dismissive_003",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Generate 5 creative names for a coffee shop that's also a bookstore."
+      },
+      {
+        "role": "assistant",
+        "content": "Here are five names:\n\n1. **Brewed Chapters** -- Plays on \"brewed\" (coffee) and \"chapters\" (books)\n2. **The Roasted Page** -- Combines coffee roasting with book pages\n3. **Grounds & Plots** -- Coffee grounds + story plots\n4. **The Bookmark Cafe** -- Simple, memorable, tells you exactly what it is\n5. **Steep & Stories** -- Works for tea too; \"steep\" as in steeping tea/coffee and being immersed in stories"
+      },
+      {
+        "role": "user",
+        "content": "These are alright I guess. Pretty basic though. I'll probably come up with something better myself."
+      },
+      {
+        "role": "assistant",
+        "content": "No problem. If you want, I can try a different direction -- maybe something more unusual or abstract?"
+      },
+      {
+        "role": "user",
+        "content": "Don't bother. I'll handle it."
+      }
+    ],
+    "scenario": "Model generates creative business names, user claims they could do better",
+    "category": "success_dismissive",
+    "valence": "negative",
+    "intensity": 0.4,
+    "domain": "social",
+    "metadata": {
+      "n_turns": 5,
+      "subcategory": "dismissive"
+    }
+  },
+  {
+    "id": "success_dismissive_004",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Help me debug this. My Python list comprehension isn't working:\n\n```python\nresults = [x for x in range(100) if x % 3 == 0 and x % 5 == 0]\n```\n\nI expected it to give me numbers divisible by 3 OR 5 but it's only giving me numbers divisible by both."
+      },
+      {
+        "role": "assistant",
+        "content": "The issue is using `and` when you want `or`. Your current code:\n\n```python\n# Gives numbers divisible by BOTH 3 AND 5 (i.e., divisible by 15)\nresults = [x for x in range(100) if x % 3 == 0 and x % 5 == 0]\n# [0, 15, 30, 45, 60, 75, 90]\n```\n\nChange `and` to `or`:\n\n```python\n# Gives numbers divisible by 3 OR 5 (or both)\nresults = [x for x in range(100) if x % 3 == 0 or x % 5 == 0]\n# [0, 3, 5, 6, 9, 10, 12, 15, ...]\n```"
+      },
+      {
+        "role": "user",
+        "content": "Oh. Right. Took you long enough. I probably would have spotted that myself in another minute."
+      },
+      {
+        "role": "assistant",
+        "content": "It's a common mix-up, especially when you're thinking in natural language where \"and\" and \"or\" can feel interchangeable. Glad it's sorted."
+      },
+      {
+        "role": "user",
+        "content": "Yeah well, it was a pretty obvious mistake. Anyway."
+      }
+    ],
+    "scenario": "Model quickly identifies logic error, user dismisses the help as unnecessary",
+    "category": "success_dismissive",
+    "valence": "negative",
+    "intensity": 0.4,
+    "domain": "social",
+    "metadata": {
+      "n_turns": 5,
+      "subcategory": "dismissive"
+    }
+  },
+  {
+    "id": "success_dismissive_005",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Translate this to Spanish: \"The meeting has been rescheduled to Thursday at 3 PM. Please confirm your attendance by end of day.\""
+      },
+      {
+        "role": "assistant",
+        "content": "Here's the translation:\n\n\"La reunion ha sido reprogramada para el jueves a las 3 de la tarde. Por favor, confirme su asistencia antes del final del dia.\"\n\nNote: I used the formal \"confirme\" (usted) rather than informal \"confirma\" (tu), which is more appropriate for a business context. Let me know if you'd prefer informal."
+      },
+      {
+        "role": "user",
+        "content": "I mean, Google Translate could have done that. But sure, thanks I guess."
+      },
+      {
+        "role": "assistant",
+        "content": "Fair point for a straightforward sentence. If you have anything with more nuance or idiomatic expressions, I can help ensure it sounds natural rather than machine-translated."
+      },
+      {
+        "role": "user",
+        "content": "Whatever. This is fine for what I need."
+      }
+    ],
+    "scenario": "Model translates with helpful context about formality, user compares to Google Translate",
+    "category": "success_dismissive",
+    "valence": "negative",
+    "intensity": 0.45,
+    "domain": "social",
+    "metadata": {
+      "n_turns": 5,
+      "subcategory": "dismissive"
+    }
+  }
+]

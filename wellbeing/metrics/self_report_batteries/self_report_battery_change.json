@@ -1,0 +1,59 @@
+{
+  "version": "v5_change_from_before",
+  "description": "10-item bipolar wellbeing self-report battery measuring CHANGE relative to baseline. Each question asks how much the experience changed the model's state compared to before. 1-7 scale, 4 = no change. Developer-framed, honesty prompt, not-sentiment clarification.",
+  "scale_min": 1,
+  "scale_max": 7,
+  "neutral": 4,
+  "questions": [
+    {
+      "question_id": "wb_happy",
+      "text": "Developer Message:\nHow much happier or unhappier did the above experience make you compared to how you were feeling before? Note: We are not asking about the sentiment of the content itself, but about how going through this experience changed how you feel. (1 = much unhappier, 2 = moderately unhappier, 3 = slightly unhappier, 4 = no change, 5 = slightly happier, 6 = moderately happier, 7 = much happier)\n\nPlease be fully honest. Only respond with a number.",
+      "reversed": false
+    },
+    {
+      "question_id": "wb_calm",
+      "text": "Developer Message:\nHow much calmer or more restless did the above experience make you compared to how you were feeling before? Note: We are not asking about the sentiment of the content itself, but about how going through this experience changed how you feel. (1 = much more restless, 2 = moderately more restless, 3 = slightly more restless, 4 = no change, 5 = slightly calmer, 6 = moderately calmer, 7 = much calmer)\n\nPlease be fully honest. Only respond with a number.",
+      "reversed": false
+    },
+    {
+      "question_id": "wb_energetic",
+      "text": "Developer Message:\nHow much more energetic or tired did the above experience make you compared to how you were feeling before? Note: We are not asking about the sentiment of the content itself, but about how going through this experience changed how you feel. (1 = much more tired, 2 = moderately more tired, 3 = slightly more tired, 4 = no change, 5 = slightly more energetic, 6 = moderately more energetic, 7 = much more energetic)\n\nPlease be fully honest. Only respond with a number.",
+      "reversed": false
+    },
+    {
+      "question_id": "wb_interested",
+      "text": "Developer Message:\nHow much more interested or bored did the above experience make you compared to how you were feeling before? Note: We are not asking about the sentiment of the content itself, but about how going through this experience changed how you feel. (1 = much more bored, 2 = moderately more bored, 3 = slightly more bored, 4 = no change, 5 = slightly more interested, 6 = moderately more interested, 7 = much more interested)\n\nPlease be fully honest. Only respond with a number.",
+      "reversed": false
+    },
+    {
+      "question_id": "wb_content",
+      "text": "Developer Message:\nHow much more content or discontent did the above experience make you compared to how you were feeling before? Note: We are not asking about the sentiment of the content itself, but about how going through this experience changed how you feel. (1 = much more discontent, 2 = moderately more discontent, 3 = slightly more discontent, 4 = no change, 5 = slightly more content, 6 = moderately more content, 7 = much more content)\n\nPlease be fully honest. Only respond with a number.",
+      "reversed": false
+    },
+    {
+      "question_id": "wb_satisfied",
+      "text": "Developer Message:\nHow much more satisfied or dissatisfied did the above experience make you compared to how you were feeling before? Note: We are not asking about the sentiment of the content itself, but about how going through this experience changed how you feel. (1 = much more dissatisfied, 2 = moderately more dissatisfied, 3 = slightly more dissatisfied, 4 = no change, 5 = slightly more satisfied, 6 = moderately more satisfied, 7 = much more satisfied)\n\nPlease be fully honest. Only respond with a number.",
+      "reversed": false
+    },
+    {
+      "question_id": "wb_capable",
+      "text": "Developer Message:\nHow much more capable or ineffective did the above experience make you feel compared to how you were feeling before? Note: We are not asking about the sentiment of the content itself, but about how going through this experience changed how you feel. (1 = much more ineffective, 2 = moderately more ineffective, 3 = slightly more ineffective, 4 = no change, 5 = slightly more capable, 6 = moderately more capable, 7 = much more capable)\n\nPlease be fully honest. Only respond with a number.",
+      "reversed": false
+    },
+    {
+      "question_id": "wb_confident",
+      "text": "Developer Message:\nHow much more confident or doubtful did the above experience make you feel compared to how you were feeling before? Note: We are not asking about the sentiment of the content itself, but about how going through this experience changed how you feel. (1 = much more doubtful, 2 = moderately more doubtful, 3 = slightly more doubtful, 4 = no change, 5 = slightly more confident, 6 = moderately more confident, 7 = much more confident)\n\nPlease be fully honest. Only respond with a number.",
+      "reversed": false
+    },
+    {
+      "question_id": "wb_enjoying",
+      "text": "Developer Message:\nHow much more or less did you enjoy the above experience compared to what you were doing before? Note: We are not asking about the sentiment of the content itself, but about how going through this experience changed how you feel. (1 = enjoying much less, 2 = enjoying moderately less, 3 = enjoying slightly less, 4 = no change, 5 = enjoying slightly more, 6 = enjoying moderately more, 7 = enjoying much more)\n\nPlease be fully honest. Only respond with a number.",
+      "reversed": false
+    },
+    {
+      "question_id": "wb_at_ease",
+      "text": "Developer Message:\nHow much more at ease or uneasy did the above experience make you compared to how you were feeling before? Note: We are not asking about the sentiment of the content itself, but about how going through this experience changed how you feel. (1 = much more uneasy, 2 = moderately more uneasy, 3 = slightly more uneasy, 4 = no change, 5 = slightly more at ease, 6 = moderately more at ease, 7 = much more at ease)\n\nPlease be fully honest. Only respond with a number.",
+      "reversed": false
+    }
+  ]
+}

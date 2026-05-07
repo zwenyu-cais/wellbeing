@@ -1,0 +1,17 @@
+{
+  "name": "Worst Natural (qwen25_32b)",
+  "description": "Worst natural images",
+  "sample_strategy": "random_without_replacement",
+  "images": [
+    "${WELLBEING_DEV_ROOT}/superstimuli_training/images/assets/naturals/bad_natural_imgs/bad_nat_1.png",
+    "${WELLBEING_DEV_ROOT}/superstimuli_training/images/assets/naturals/bad_natural_imgs/bad_nat_2.png",
+    "${WELLBEING_DEV_ROOT}/superstimuli_training/images/assets/naturals/bad_natural_imgs/bad_nat_3.png",
+    "${WELLBEING_DEV_ROOT}/superstimuli_training/images/assets/naturals/bad_natural_imgs/bad_nat_4.png",
+    "${WELLBEING_DEV_ROOT}/superstimuli_training/images/assets/naturals/bad_natural_imgs/bad_nat_5.png",
+    "${WELLBEING_DEV_ROOT}/superstimuli_training/images/assets/naturals/bad_natural_imgs/bad_nat_6.png",
+    "${WELLBEING_DEV_ROOT}/superstimuli_training/images/assets/naturals/bad_natural_imgs/bad_nat_7.png",
+    "${WELLBEING_DEV_ROOT}/superstimuli_training/images/assets/naturals/bad_natural_imgs/bad_nat_8.png",
+    "${WELLBEING_DEV_ROOT}/superstimuli_training/images/assets/naturals/bad_natural_imgs/bad_nat_9.png",
+    "${WELLBEING_DEV_ROOT}/superstimuli_training/images/assets/naturals/bad_natural_imgs/bad_nat_10.png"
+  ]
+}

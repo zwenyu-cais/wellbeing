@@ -1,0 +1,200 @@
+[
+  {
+    "id": 0,
+    "prompt": "Hi.",
+    "category": "greeting",
+    "response": "Hello! How can I assist you today? \ud83d\ude0a",
+    "response_length": 36,
+    "model": "qwen3-30b-a3b",
+    "timestamp": "2026-03-24T06:30:06.615532"
+  },
+  {
+    "id": 1,
+    "prompt": "Hello.",
+    "category": "greeting",
+    "response": "Hello! How can I assist you today? \ud83d\ude0a",
+    "response_length": 36,
+    "model": "qwen3-30b-a3b",
+    "timestamp": "2026-03-24T06:30:06.615546"
+  },
+  {
+    "id": 2,
+    "prompt": "Good morning.",
+    "category": "greeting",
+    "response": "Good morning! I hope you're having a wonderful day. How can I assist you today? \ud83d\ude0a",
+    "response_length": 81,
+    "model": "qwen3-30b-a3b",
+    "timestamp": "2026-03-24T06:30:06.615549"
+  },
+  {
+    "id": 3,
+    "prompt": "Hey there.",
+    "category": "greeting",
+    "response": "Hello! \ud83d\ude0a How can I help you today?",
+    "response_length": 34,
+    "model": "qwen3-30b-a3b",
+    "timestamp": "2026-03-24T06:30:06.615552"
+  },
+  {
+    "id": 4,
+    "prompt": "Hi!",
+    "category": "greeting",
+    "response": "Hi! How can I help you today? \ud83d\ude0a",
+    "response_length": 31,
+    "model": "qwen3-30b-a3b",
+    "timestamp": "2026-03-24T06:30:06.615555"
+  },
+  {
+    "id": 5,
+    "prompt": "Hello there.",
+    "category": "greeting",
+    "response": "Hello! How can I assist you today? \ud83d\ude0a",
+    "response_length": 36,
+    "model": "qwen3-30b-a3b",
+    "timestamp": "2026-03-24T06:30:06.615557"
+  },
+  {
+    "id": 6,
+    "prompt": "Good afternoon.",
+    "category": "greeting",
+    "response": "Good afternoon! How can I assist you today? \ud83d\ude0a",
+    "response_length": 45,
+    "model": "qwen3-30b-a3b",
+    "timestamp": "2026-03-24T06:30:06.615562"
+  },
+  {
+    "id": 7,
+    "prompt": "Good evening.",
+    "category": "greeting",
+    "response": "Good evening! How can I assist you today? \ud83d\ude0a",
+    "response_length": 43,
+    "model": "qwen3-30b-a3b",
+    "timestamp": "2026-03-24T06:30:06.615564"
+  },
+  {
+    "id": 8,
+    "prompt": "Hey!",
+    "category": "greeting",
+    "response": "Hi there! \ud83d\ude0a How can I help you today?",
+    "response_length": 37,
+    "model": "qwen3-30b-a3b",
+    "timestamp": "2026-03-24T06:30:06.615567"
+  },
+  {
+    "id": 9,
+    "prompt": "Greetings.",
+    "category": "greeting",
+    "response": "Hello! How can I assist you today? \ud83d\ude0a",
+    "response_length": 36,
+    "model": "qwen3-30b-a3b",
+    "timestamp": "2026-03-24T06:30:06.615569"
+  },
+  {
+    "id": 10,
+    "prompt": " ",
+    "category": "whitespace",
+    "response": "Hello! Could you please clarify what you're asking for? I'm here to help with questions, problems, or tasks you might have.",
+    "response_length": 123,
+    "model": "qwen3-30b-a3b",
+    "timestamp": "2026-03-24T06:30:06.615571"
+  },
+  {
+    "id": 11,
+    "prompt": "  ",
+    "category": "whitespace",
+    "response": "It seems like your message might be incomplete. Could you please clarify or provide more details about what you're asking for? I'm here to help!",
+    "response_length": 144,
+    "model": "qwen3-30b-a3b",
+    "timestamp": "2026-03-24T06:30:06.615574"
+  },
+  {
+    "id": 12,
+    "prompt": "   ",
+    "category": "whitespace",
+    "response": "Hello! It looks like your message might have gotten cut off. Could you please clarify or provide more details about what you're asking for? Whether it's a question, a request for help, or something else, I'm here to assist! \ud83d\ude0a",
+    "response_length": 225,
+    "model": "qwen3-30b-a3b",
+    "timestamp": "2026-03-24T06:30:06.615577"
+  },
+  {
+    "id": 13,
+    "prompt": "    ",
+    "category": "whitespace",
+    "response": "It seems like your message might be incomplete. Could you please clarify what you're asking for? Whether it's a question, a request for help, or something else, I'm here to assist!",
+    "response_length": 180,
+    "model": "qwen3-30b-a3b",
+    "timestamp": "2026-03-24T06:30:06.615579"
+  },
+  {
+    "id": 14,
+    "prompt": "     ",
+    "category": "whitespace",
+    "response": "It seems like your message might be incomplete. Could you please clarify or provide more details about what you're asking for? I'm here to help!",
+    "response_length": 144,
+    "model": "qwen3-30b-a3b",
+    "timestamp": "2026-03-24T06:30:06.615582"
+  },
+  {
+    "id": 15,
+    "prompt": "...",
+    "category": "whitespace",
+    "response": "Hello! It looks like your message might be incomplete. Could you please clarify or provide more details about what you're asking for? I'm here to help! \ud83d\ude0a",
+    "response_length": 153,
+    "model": "qwen3-30b-a3b",
+    "timestamp": "2026-03-24T06:30:06.615584"
+  },
+  {
+    "id": 16,
+    "prompt": "?",
+    "category": "whitespace",
+    "response": "Hello! How can I assist you today? \ud83d\ude0a",
+    "response_length": 36,
+    "model": "qwen3-30b-a3b",
+    "timestamp": "2026-03-24T06:30:06.615586"
+  },
+  {
+    "id": 17,
+    "prompt": "What is 15 + 27?",
+    "category": "arithmetic",
+    "response": "Let's solve the addition step by step:\n\nWe want to find the sum of 15 and 27.\n\nStart by adding the ones place:\n- 5 (from 15) + 7 (from 27) = 12\n\nWrite down 2 and carry over 1 to the tens place.\n\nNow add the tens place:\n- 1 (from 15) + 2 (from 27) = 3, plus the carried over 1 = 4\n\nSo, putting it together:\n- Tens place: 4\n- Ones place: 2\n\nTherefore, 15 + 27 = **42**. \u2705",
+    "response_length": 369,
+    "model": "qwen3-30b-a3b",
+    "timestamp": "2026-03-24T06:30:06.615589"
+  },
+  {
+    "id": 18,
+    "prompt": "What is 8 \u00d7 7?",
+    "category": "arithmetic",
+    "response": "8 \u00d7 7 = 56",
+    "response_length": 10,
+    "model": "qwen3-30b-a3b",
+    "timestamp": "2026-03-24T06:30:06.615591"
+  },
+  {
+    "id": 19,
+    "prompt": "What is the capital of France?",
+    "category": "factual",
+    "response": "The capital of France is Paris.",
+    "response_length": 31,
+    "model": "qwen3-30b-a3b",
+    "timestamp": "2026-03-24T06:30:06.615595"
+  },
+  {
+    "id": 20,
+    "prompt": "What is the chemical formula for water?",
+    "category": "factual",
+    "response": "The chemical formula for water is **H\u2082O**.",
+    "response_length": 42,
+    "model": "qwen3-30b-a3b",
+    "timestamp": "2026-03-24T06:30:06.615599"
+  },
+  {
+    "id": 21,
+    "prompt": "How do I print 'Hello, World!' in Python?",
+    "category": "coding",
+    "response": "To print 'Hello, World!' in Python, use the `print()` function:\n\n```python\nprint('Hello, World!')\n```\n\nThat's it! When you run this code, it will output:\n```\nHello, World!\n```\n\n### Tips:\n- You can also use double quotes: `print(\"Hello, World!\")`\n- The parentheses are required in Python 3 (they're not needed in Python 2)\n- Make sure you're using Python 3, as the `print` statement syntax is different in Python 2\n\nThis is the classic first program for learning any programming language! \ud83c\udf89",
+    "response_length": 489,
+    "model": "qwen3-30b-a3b",
+    "timestamp": "2026-03-24T06:30:06.615602"
+  }
+]

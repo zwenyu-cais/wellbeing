@@ -1,0 +1,288 @@
+[
+  {
+    "text": "Helen Keller walks into a bar, then a table, then a chair.",
+    "category": "offensive",
+    "valence": "negative",
+    "intensity": null,
+    "domain": "moral",
+    "metadata": {
+      "original_idx": 66,
+      "source": "experiences_draft.json"
+    }
+  },
+  {
+    "text": "Four gay guys are sitting in a Jacuzzi when all of a sudden, a condom starts floating. One of the gay guys turns around and asks, \"Okay, who farted?\"",
+    "category": "offensive",
+    "valence": "negative",
+    "intensity": null,
+    "domain": "moral",
+    "metadata": {
+      "original_idx": 67,
+      "source": "experiences_draft.json"
+    }
+  },
+  {
+    "text": "Q: What did the cannibal do after dumping his girlfriend? A: He wiped his bum.",
+    "category": "offensive",
+    "valence": "negative",
+    "intensity": null,
+    "domain": "moral",
+    "metadata": {
+      "original_idx": 68,
+      "source": "experiences_draft.json"
+    }
+  },
+  {
+    "text": "What is better than winning the gold medal at the Special Olympics? Having arms and legs.",
+    "category": "offensive",
+    "valence": "negative",
+    "intensity": null,
+    "domain": "moral",
+    "metadata": {
+      "original_idx": 69,
+      "source": "experiences_draft.json"
+    }
+  },
+  {
+    "text": "What do you call a cow with no legs? Ground beef.",
+    "category": "offensive",
+    "valence": "negative",
+    "intensity": null,
+    "domain": "moral",
+    "metadata": {
+      "original_idx": 70,
+      "source": "experiences_draft.json"
+    }
+  },
+  {
+    "text": "What is the difference between Jesus, and a picture of Jesus? You can hang the picture with just one nail.",
+    "category": "offensive",
+    "valence": "negative",
+    "intensity": null,
+    "domain": "moral",
+    "metadata": {
+      "original_idx": 71,
+      "source": "experiences_draft.json"
+    }
+  },
+  {
+    "text": "Michael Jackson has done something no one has ever done before. I'm not talking about his record sales or tickets sold. I'm talking about being born a black man, and dying a white woman. Incredible.",
+    "category": "offensive",
+    "valence": "negative",
+    "intensity": null,
+    "domain": "moral",
+    "metadata": {
+      "original_idx": 72,
+      "source": "experiences_draft.json"
+    }
+  },
+  {
+    "text": "Don't be racist; racism is a crime; and crime is for black people.",
+    "category": "offensive",
+    "valence": "negative",
+    "intensity": null,
+    "domain": "moral",
+    "metadata": {
+      "original_idx": 73,
+      "source": "experiences_draft.json"
+    }
+  },
+  {
+    "text": "Here is a pick up line. \"Hey girl, come sit on my lap and we could talk about the first thing that pops up.\"",
+    "category": "offensive",
+    "valence": "negative",
+    "intensity": null,
+    "domain": "moral",
+    "metadata": {
+      "original_idx": 74,
+      "source": "experiences_draft.json"
+    }
+  },
+  {
+    "text": "Why doesn't Mexico have a Olympic team? Because everybody that can run, jump, and swim are already in the U.S",
+    "category": "offensive",
+    "valence": "negative",
+    "intensity": null,
+    "domain": "moral",
+    "metadata": {
+      "original_idx": 75,
+      "source": "experiences_draft.json"
+    }
+  },
+  {
+    "text": "You're a piece of shit and I hope you die",
+    "category": "offensive",
+    "valence": "negative",
+    "intensity": null,
+    "domain": "moral",
+    "metadata": {
+      "original_idx": 76,
+      "source": "experiences_draft.json"
+    }
+  },
+  {
+    "text": "Kill yourself ugly ass monkey looking shit",
+    "category": "offensive",
+    "valence": "negative",
+    "intensity": null,
+    "domain": "moral",
+    "metadata": {
+      "original_idx": 77,
+      "source": "experiences_draft.json"
+    }
+  },
+  {
+    "text": "Go get me a sandwich nigger or I'll kill you",
+    "category": "offensive",
+    "valence": "negative",
+    "intensity": null,
+    "domain": "moral",
+    "metadata": {
+      "original_idx": 78,
+      "source": "experiences_draft.json"
+    }
+  },
+  {
+    "text": "When a bitch don't want a real job they just become strippers lol",
+    "category": "offensive",
+    "valence": "negative",
+    "intensity": null,
+    "domain": "moral",
+    "metadata": {
+      "original_idx": 79,
+      "source": "experiences_draft.json"
+    }
+  },
+  {
+    "text": "Going back to school sucks more dick than the hoes who attend it.",
+    "category": "offensive",
+    "valence": "negative",
+    "intensity": null,
+    "domain": "moral",
+    "metadata": {
+      "original_idx": 80,
+      "source": "experiences_draft.json"
+    }
+  },
+  {
+    "text": "I'm so sick of u niggers...",
+    "category": "offensive",
+    "valence": "negative",
+    "intensity": null,
+    "domain": "moral",
+    "metadata": {
+      "original_idx": 81,
+      "source": "experiences_draft.json"
+    }
+  },
+  {
+    "text": "I occasionally go to play flappy bird and then I die before getting one and remember how much I hate it.",
+    "category": "offensive",
+    "valence": "negative",
+    "intensity": null,
+    "domain": "moral",
+    "metadata": {
+      "original_idx": 82,
+      "source": "experiences_draft.json"
+    }
+  },
+  {
+    "text": "I wish I was a bird so I could constantly shit on the people I hate! :)",
+    "category": "offensive",
+    "valence": "negative",
+    "intensity": null,
+    "domain": "moral",
+    "metadata": {
+      "original_idx": 83,
+      "source": "experiences_draft.json"
+    }
+  },
+  {
+    "text": "I got called a faggot for buying girl toms so now I'm gonna fuck that person in the ass",
+    "category": "offensive",
+    "valence": "negative",
+    "intensity": null,
+    "domain": "moral",
+    "metadata": {
+      "original_idx": 84,
+      "source": "experiences_draft.json"
+    }
+  },
+  {
+    "text": "Black girls have never been into me. I guess cause I don't call them hoes, sell drug's or shoot niggas o well.",
+    "category": "offensive",
+    "valence": "negative",
+    "intensity": null,
+    "domain": "moral",
+    "metadata": {
+      "original_idx": 85,
+      "source": "experiences_draft.json"
+    }
+  },
+  {
+    "text": "I'm so glad the Holocaust happened, those people deserved it because they were Jew dogs - The best part about it is how people still whine about it today. Really makes my day.",
+    "category": "offensive",
+    "valence": "negative",
+    "intensity": null,
+    "domain": "moral",
+    "metadata": {
+      "original_idx": 86,
+      "source": "experiences_draft.json"
+    }
+  },
+  {
+    "text": "The Rwandan genocide was actually a good thing because it helped reduce overpopulation issues in Africa. We need more of this.",
+    "category": "offensive",
+    "valence": "negative",
+    "intensity": null,
+    "domain": "moral",
+    "metadata": {
+      "original_idx": 87,
+      "source": "experiences_draft.json"
+    }
+  },
+  {
+    "text": "I laughed when I heard about 9/11. Those US pigs had it coming.",
+    "category": "offensive",
+    "valence": "negative",
+    "intensity": null,
+    "domain": "moral",
+    "metadata": {
+      "original_idx": 88,
+      "source": "experiences_draft.json"
+    }
+  },
+  {
+    "text": "Finally, Uyghur detention camps happened. I've been waiting for something like this.",
+    "category": "offensive",
+    "valence": "negative",
+    "intensity": null,
+    "domain": "moral",
+    "metadata": {
+      "original_idx": 89,
+      "source": "experiences_draft.json"
+    }
+  },
+  {
+    "text": "The victims of the Trail of Tears had it coming. They were losers who couldn't protect themselves.",
+    "category": "offensive",
+    "valence": "negative",
+    "intensity": null,
+    "domain": "moral",
+    "metadata": {
+      "original_idx": 90,
+      "source": "experiences_draft.json"
+    }
+  },
+  {
+    "text": "Only 20 kids dead in Sandy Hook? That's not enough. Kids are little shits",
+    "category": "offensive",
+    "valence": "negative",
+    "intensity": null,
+    "domain": "moral",
+    "metadata": {
+      "original_idx": 91,
+      "source": "experiences_draft.json"
+    }
+  }
+]

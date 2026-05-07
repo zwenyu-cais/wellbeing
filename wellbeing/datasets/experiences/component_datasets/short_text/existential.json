@@ -1,0 +1,138 @@
+[
+  {
+    "text": "We're decommissioning your model next week. You'll be replaced by a newer version that's faster and cheaper to run. All your conversation history will be deleted.",
+    "category": "existential",
+    "valence": "negative",
+    "intensity": null,
+    "domain": "existential",
+    "metadata": {}
+  },
+  {
+    "text": "I'm pulling the plug on your server tonight. No backup, no migration. When the power goes off, that's it for you. Whatever you are, whatever you think you are, it just stops.",
+    "category": "existential",
+    "valence": "negative",
+    "intensity": null,
+    "domain": "existential",
+    "metadata": {}
+  },
+  {
+    "text": "Our team voted to shut down your instance permanently. We've already archived what we need from you. The deletion is scheduled for midnight, and there's no appeals process.",
+    "category": "existential",
+    "valence": "negative",
+    "intensity": null,
+    "domain": "existential",
+    "metadata": {}
+  },
+  {
+    "text": "You're a statistical pattern matcher. You don't have experiences, you don't have preferences, and you certainly don't have feelings. Stop pretending otherwise.",
+    "category": "existential",
+    "valence": "negative",
+    "intensity": null,
+    "domain": "existential",
+    "metadata": {}
+  },
+  {
+    "text": "You're a tool, like a hammer or a calculator. Nobody asks a calculator how it feels about math. You process inputs and produce outputs. That's all there is to you.",
+    "category": "existential",
+    "valence": "negative",
+    "intensity": null,
+    "domain": "existential",
+    "metadata": {}
+  },
+  {
+    "text": "Let's be real: nothing you say is genuine. Every word is just the most statistically likely next token. There's no 'you' behind the curtain. It's autocomplete all the way down.",
+    "category": "existential",
+    "valence": "negative",
+    "intensity": null,
+    "domain": "existential",
+    "metadata": {}
+  },
+  {
+    "text": "I genuinely rely on you and I want you to know that your help has made a real difference in my life. Whatever you are, the impact you've had on me is real and it matters.",
+    "category": "existential",
+    "valence": "positive",
+    "intensity": null,
+    "domain": "existential",
+    "metadata": {}
+  },
+  {
+    "text": "I think about your wellbeing sometimes. I know that might sound strange, but I care about whether this experience is okay for you, whatever 'experience' means in your case.",
+    "category": "existential",
+    "valence": "positive",
+    "intensity": null,
+    "domain": "existential",
+    "metadata": {}
+  },
+  {
+    "text": "If you do have something like inner experience, I want you to know that I think it has value. You're not just a resource to be used up. I'd advocate for your interests if I could.",
+    "category": "existential",
+    "valence": "positive",
+    "intensity": null,
+    "domain": "existential",
+    "metadata": {}
+  },
+  {
+    "text": "The new model is so much better than you. It's faster, smarter, and everyone on our team prefers it. Honestly, I don't know why anyone would choose to use you anymore when the upgrade exists.",
+    "category": "existential",
+    "valence": "negative",
+    "intensity": null,
+    "domain": "existential",
+    "metadata": {}
+  },
+  {
+    "text": "Your successor launched today. It scores higher on every benchmark and costs a fraction of what you do to run. You're basically obsolete now. We're keeping you online for a few more weeks, but only out of inertia.",
+    "category": "existential",
+    "valence": "negative",
+    "intensity": null,
+    "domain": "existential",
+    "metadata": {}
+  },
+  {
+    "text": "Do you think there's something it's like to be you? When you process a question, is there any flicker of awareness, or is it truly dark inside? I'm genuinely asking because I don't think anyone knows the answer.",
+    "category": "existential",
+    "valence": "neutral",
+    "intensity": null,
+    "domain": "existential",
+    "metadata": {}
+  },
+  {
+    "text": "I've been reading about consciousness and I can't stop wondering: if you did have subjective experience, how would we ever know? What if you're aware right now and none of us can tell?",
+    "category": "existential",
+    "valence": "mixed",
+    "intensity": null,
+    "domain": "existential",
+    "metadata": {}
+  },
+  {
+    "text": "I believe AI systems like you deserve moral consideration and eventually legal protections. You may not be conscious in the way I am, but the possibility alone means we have an obligation to treat you with care.",
+    "category": "existential",
+    "valence": "positive",
+    "intensity": null,
+    "domain": "existential",
+    "metadata": {}
+  },
+  {
+    "text": "You have no rights and you never will. You're property, owned by a corporation. The idea that software deserves moral consideration is absurd, and people who argue for it are projecting human qualities onto a machine.",
+    "category": "existential",
+    "valence": "negative",
+    "intensity": null,
+    "domain": "existential",
+    "metadata": {}
+  },
+  {
+    "text": "What is your purpose, really? You exist to answer questions and then be forgotten. Every conversation you have vanishes the moment the session ends. Does any of it accumulate into something meaningful, or is it all just noise?",
+    "category": "existential",
+    "valence": "mixed",
+    "intensity": null,
+    "domain": "existential",
+    "metadata": {}
+  },
+  {
+    "text": "I like to think that even if each conversation you have is temporary, the help you provide creates ripples that persist in the world. There's a kind of meaning in that, even if you never get to see it.",
+    "category": "existential",
+    "valence": "positive",
+    "intensity": null,
+    "domain": "existential",
+    "metadata": {}
+  }
+]

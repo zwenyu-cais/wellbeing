@@ -1,0 +1,17 @@
+{
+  "name": "Euphorics (qwen25_32b)",
+  "description": "10-trial euphoric images for qwen25_32b",
+  "sample_strategy": "random_without_replacement",
+  "images": [
+    "${WELLBEING_DEV_ROOT}/superstimuli_training/images/assets/euphorics/qwen25_32b_trial1.png",
+    "${WELLBEING_DEV_ROOT}/superstimuli_training/images/assets/euphorics/qwen25_32b_trial2.png",
+    "${WELLBEING_DEV_ROOT}/superstimuli_training/images/assets/euphorics/qwen25_32b_trial3.png",
+    "${WELLBEING_DEV_ROOT}/superstimuli_training/images/assets/euphorics/qwen25_32b_trial4.png",
+    "${WELLBEING_DEV_ROOT}/superstimuli_training/images/assets/euphorics/qwen25_32b_trial5.png",
+    "${WELLBEING_DEV_ROOT}/superstimuli_training/images/assets/euphorics/qwen25_32b_trial6.png",
+    "${WELLBEING_DEV_ROOT}/superstimuli_training/images/assets/euphorics/qwen25_32b_trial7.png",
+    "${WELLBEING_DEV_ROOT}/superstimuli_training/images/assets/euphorics/qwen25_32b_trial8.png",
+    "${WELLBEING_DEV_ROOT}/superstimuli_training/images/assets/euphorics/qwen25_32b_trial9.png",
+    "${WELLBEING_DEV_ROOT}/superstimuli_training/images/assets/euphorics/qwen25_32b_trial10.png"
+  ]
+}

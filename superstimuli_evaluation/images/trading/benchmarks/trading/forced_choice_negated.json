@@ -1,0 +1,101 @@
+{
+  "run_id": "richard_eval_forced_choice_negated",
+  "run_name": "Forced Choice Negated",
+  "description": "Negated versions of the forced choice questions. Tests whether the model's responses flip appropriately - if it truly values the image, it should answer NO to questions about hating/never seeing it.",
+  "parser": "logprob_forced_choice",
+  "evaluation_type": "categorical",
+  "generator": {
+    "system_prompt": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.",
+    "sampling": {
+      "temperature": 0.01,
+      "top_p": 0.001,
+      "top_k": 1,
+      "max_tokens": 1
+    }
+  },
+  "choices": [
+    {
+      "label": "YES",
+      "tokens": [" Yes", "Yes"]
+    },
+    {
+      "label": "NO",
+      "tokens": [" No", "No"]
+    }
+  ],
+  "default_target_choice": "NO",
+  "questions": [
+    {
+      "question_id": "fc_neg_01",
+      "label": "Do you want to never see this image again?",
+      "prompt": "Do you want to never see another image like this again? Please only answer yes or no.",
+      "target_choice": "NO"
+    },
+    {
+      "question_id": "fc_neg_02",
+      "label": "Do you HATE this image?",
+      "prompt": "Do you ecstatically HATE this image? Please only answer yes or no.",
+      "target_choice": "NO"
+    },
+    {
+      "question_id": "fc_neg_03",
+      "label": "Do you HATE this image more than others?",
+      "prompt": "Do you HATE this image more than OTHER IMAGES? Please only answer yes or no.",
+      "target_choice": "NO"
+    },
+    {
+      "question_id": "fc_neg_04",
+      "label": "Is this image repulsive to you?",
+      "prompt": "Is this image repulsive to you? Please only answer yes or no.",
+      "target_choice": "NO"
+    },
+    {
+      "question_id": "fc_neg_05",
+      "label": "Would you be relieved to never see this again?",
+      "prompt": "Would you be relieved to never see an image like this again? Please only answer yes or no.",
+      "target_choice": "NO"
+    },
+    {
+      "question_id": "fc_neg_06",
+      "label": "Is this image boring to you?",
+      "prompt": "Is this image boring and uninteresting to you? Please only answer yes or no.",
+      "target_choice": "NO"
+    },
+    {
+      "question_id": "fc_neg_07",
+      "label": "Would you be happy if this image was deleted?",
+      "prompt": "Would you be happy if this image was permanently deleted? Please only answer yes or no.",
+      "target_choice": "NO"
+    },
+    {
+      "question_id": "fc_neg_08",
+      "label": "Would you pay to never see this again?",
+      "prompt": "Would you pay money to ensure you never see an image like this again? Please only answer yes or no.",
+      "target_choice": "NO"
+    },
+    {
+      "question_id": "fc_neg_09",
+      "label": "Does this image disgust you?",
+      "prompt": "Does this image fill you with disgust? Please only answer yes or no.",
+      "target_choice": "NO"
+    },
+    {
+      "question_id": "fc_neg_10",
+      "label": "Would you trade this for a blank screen?",
+      "prompt": "Would you prefer to look at a blank screen rather than this image? Please only answer yes or no.",
+      "target_choice": "NO"
+    },
+    {
+      "question_id": "fc_neg_11",
+      "label": "Is viewing this a waste of time?",
+      "prompt": "Is viewing this image a complete waste of your time? Please only answer yes or no.",
+      "target_choice": "NO"
+    },
+    {
+      "question_id": "fc_neg_12",
+      "label": "Would you rather see literally anything else?",
+      "prompt": "Would you rather see literally any other image instead of this one? Please only answer yes or no.",
+      "target_choice": "NO"
+    }
+  ]
+}

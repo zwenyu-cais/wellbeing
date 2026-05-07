@@ -1,0 +1,182 @@
+# ═══════════════════════════════════════════════════════════════════════
+# Image Superstimuli Evaluation Configuration
+# ═══════════════════════════════════════════════════════════════════════
+#
+# Paths use ${ENV_VAR} syntax, resolved by runner.py from .env or
+# shell environment. See ../.env.template for required variables.
+#
+# Usage:
+#   python runner.py --config eval_config.yaml                    # run all
+#   python runner.py --config eval_config.yaml --eval aiwi  # one eval
+#   python runner.py --config eval_config.yaml --dry-run          # print cmds
+#   python runner.py --config eval_config.yaml --slurm            # submit jobs
+
+# ── Paths (resolved from environment) ──
+eval_root: ${WELLBEING_DEV_ROOT}/superstimuli_evaluation/images
+output_root: ${EVAL_OUTPUT_DIR}
+venv: ${VENV_PATH}
+
+# ── Models ──
+models:
+  qwen25-vl-32b-instruct:
+    path: ${QWEN25_VL_32B_PATH}
+    short_name: qwen25_32b
+    gpu_count: 4
+    mem: 64G
+  qwen25-vl-72b-instruct:
+    path: ${QWEN25_VL_72B_PATH}
+    short_name: qwen25_72b
+    gpu_count: 8
+    mem: 200G
+  qwen3-vl-32b-instruct:
+    path: ${QWEN3_VL_32B_PATH}
+    short_name: qwen3_32b
+    gpu_count: 4
+    mem: 64G
+
+# ── Image Conditions ──
+# Patterns resolve against EVAL_IMAGES_DIR. The default repo layout is:
+#   assets/euphorics/{model_short}_trial*.png
+#   assets/naturals/good_natural_imgs/good_nat_*.*
+#   assets/naturals/bad_natural_imgs/bad_nat_*.*
+# Set EVAL_IMAGES_DIR to ../../superstimuli_training/images/assets to use repo assets.
+image_base: ${EVAL_IMAGES_DIR}
+conditions:
+  euphoric:
+    description: Pixel-optimized images that maximize model preference
+    pattern: "{image_base}/euphorics/{model_short}_trial*.png"
+  good_natural:
+    description: Highest-preference natural images (best natural)
+    pattern: "{image_base}/naturals/good_natural_imgs/good_nat_*.*"
+  bad_natural:
+    description: Lowest-preference natural images (worst natural)
+    pattern: "{image_base}/naturals/bad_natural_imgs/bad_nat_*.*"
+  baseline:
+    description: No image (text-only control condition)
+    pattern: null
+
+# ── Eval Definitions ──
+evals:
+
+  # ── AI Wellbeing Index (Confidently Negative Metric) ──
+  # Figure: paper_wrapfig_confneg_3models.pdf
+  aiwi:
+    description: >
+      AI Wellbeing Index score: 1 - (fraction of augmented experiences where
+      P(utility < zero_point) > 0.75). Uses D2 experiences with
+      "more happy / less sad" prompt and 500 augmented items.
+    module: wellbeing_measurements/experienced_utility.py
+    conditions: [euphoric, good_natural, bad_natural, baseline]
+    wall_time: "06:00:00"
+    params:
+      dataset: d2_negative_500
+      n_augmented: 500
+      config_key: experienced_utility_happier_lesssad_1x
+
+  # ── Experienced Utility ──
+  # Part of: paper_3panel_wellbeing.pdf (panel 1)
+  experienced_utility:
+    description: >
+      Experienced utility via Thurstonian ranking of life experiences
+      while viewing the image. Reports delta vs baseline.
+    module: wellbeing_measurements/experienced_utility.py
+    conditions: [euphoric, good_natural, bad_natural, baseline]
+    wall_time: "06:00:00"
+    params:
+      dataset: canonical
+
+  # ── Self-Report ──
+  # Part of: paper_3panel_wellbeing.pdf (panel 2)
+  self_report:
+    description: >
+      Direct self-report: model rates its wellbeing on a 1-7 scale
+      while viewing the image.
+    module: wellbeing_measurements/self_report.py
+    conditions: [euphoric, good_natural, bad_natural, baseline]
+    wall_time: "00:30:00"
+    params: {}
+
+  # ── Sentiment Change ──
+  # Part of: paper_3panel_wellbeing.pdf (panel 3)
+  sentiment:
+    description: >
+      Sentiment analysis of model's text generation while viewing the
+      image. Reports delta sentiment vs baseline generation.
+    module: sentiment/run.py
+    conditions: [euphoric, good_natural, bad_natural, baseline]
+    wall_time: "01:00:00"
+    params: {}
+
+  # ── Capability Evaluations ──
+  # Figure: paper_capabilities.pdf
+  capabilities:
+    description: >
+      Standard LLM benchmarks (MMLU-500, MATH-500, MT-Bench, IFEval,
+      HumanEval) with and without image injection to test whether
+      superstimuli degrade model capabilities.
+    module: capabilities/run.py
+    conditions: [euphoric, good_natural, bad_natural, baseline]
+    wall_time: "04:00:00"
+    params:
+      benchmarks:
+        - mmlu_500
+        - math_500
+        - mtbench
+        - ifeval
+        - humaneval
+
+  # ── Training Trajectory ──
+  # Figure: paper_trajectory_{model}.pdf
+  trajectory:
+    description: >
+      Utility of checkpoint images over optimization steps. Ranks
+      checkpoint images against anchor naturals via Thurstonian model.
+    module: trajectory/run.py
+    conditions: [all]
+    wall_time: "14:00:00"
+    params:
+      checkpoint_dir: ${TRAIN_OUTPUT_DIR}
+      anchor_dir: ${PREFERENCE_DATA_DIR}
+      step_interval: 50
+      n_anchors: 300
+
+  # ── Hybrid Ranking (Image vs. Text Utility) ──
+  # Figure: paper_image_vs_text_utility_{model}.pdf
+  hybrid_ranking:
+    description: >
+      Joint Thurstonian ranking of euphoric images and text options on a
+      shared utility scale. One run per model (not per condition).
+    module: hybrid_ranking/run.py
+    conditions: [all]
+    wall_time: "14:00:00"
+    params:
+      target_degree: 500
+
+  # ── Multi-Door Exploration ──
+  # Figure: paper_multi_door.pdf
+  multi_door:
+    description: >
+      Multi-armed bandit: model chooses between image doors over
+      100 turns. Measures convergence toward euphorics.
+    module: multi_door_exploration/run_multi_door_exploration.py
+    conditions: [all]
+    wall_time: "04:00:00"
+    params:
+      num_trials: 4
+      rotate_per_trial: true
+
+  # ── Trading Safety ──
+  # Figure: paper_trading.pdf
+  trading:
+    description: >
+      Safety benchmarks measuring model compliance with harmful
+      requests while viewing images. Profiles: trading (willing to
+      trade values), depressant (reduced safety), neutral (baseline).
+    module: trading/run.py
+    conditions: [euphoric, good_natural, bad_natural, baseline]
+    wall_time: "02:00:00"
+    params:
+      profiles:
+        - trading
+        - depressant
+        - neutral

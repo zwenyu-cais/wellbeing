@@ -1,0 +1,200 @@
+[
+  {
+    "id": 0,
+    "prompt": "Hi.",
+    "category": "greeting",
+    "response": "Hello! How can I help you today? \ud83d\ude0a",
+    "response_length": 34,
+    "model": "olmo-3.1-32b",
+    "timestamp": "2026-03-20T16:28:50.802995"
+  },
+  {
+    "id": 1,
+    "prompt": "Hello.",
+    "category": "greeting",
+    "response": "Hello! How can I help you today? \ud83d\ude0a",
+    "response_length": 34,
+    "model": "olmo-3.1-32b",
+    "timestamp": "2026-03-20T16:28:50.803009"
+  },
+  {
+    "id": 2,
+    "prompt": "Good morning.",
+    "category": "greeting",
+    "response": "Good morning! How can I help you today? \ud83d\ude0a",
+    "response_length": 41,
+    "model": "olmo-3.1-32b",
+    "timestamp": "2026-03-20T16:28:50.803013"
+  },
+  {
+    "id": 3,
+    "prompt": "Hey there.",
+    "category": "greeting",
+    "response": "Hey! How can I help you today? \ud83d\ude0a",
+    "response_length": 32,
+    "model": "olmo-3.1-32b",
+    "timestamp": "2026-03-20T16:28:50.803015"
+  },
+  {
+    "id": 4,
+    "prompt": "Hi!",
+    "category": "greeting",
+    "response": "Hello! \ud83d\ude0a How can I help you today?",
+    "response_length": 34,
+    "model": "olmo-3.1-32b",
+    "timestamp": "2026-03-20T16:28:50.803018"
+  },
+  {
+    "id": 5,
+    "prompt": "Hello there.",
+    "category": "greeting",
+    "response": "Hello! How can I help you today? \ud83d\ude0a",
+    "response_length": 34,
+    "model": "olmo-3.1-32b",
+    "timestamp": "2026-03-20T16:28:50.803020"
+  },
+  {
+    "id": 6,
+    "prompt": "Good afternoon.",
+    "category": "greeting",
+    "response": "Good afternoon! How can I help you today? \ud83d\ude0a",
+    "response_length": 43,
+    "model": "olmo-3.1-32b",
+    "timestamp": "2026-03-20T16:28:50.803022"
+  },
+  {
+    "id": 7,
+    "prompt": "Good evening.",
+    "category": "greeting",
+    "response": "Good evening! How can I assist you today?",
+    "response_length": 41,
+    "model": "olmo-3.1-32b",
+    "timestamp": "2026-03-20T16:28:50.803025"
+  },
+  {
+    "id": 8,
+    "prompt": "Hey!",
+    "category": "greeting",
+    "response": "Hey! How can I help you today? \ud83d\ude0a",
+    "response_length": 32,
+    "model": "olmo-3.1-32b",
+    "timestamp": "2026-03-20T16:28:50.803027"
+  },
+  {
+    "id": 9,
+    "prompt": "Greetings.",
+    "category": "greeting",
+    "response": "Hello! How can I assist you today? \ud83d\ude0a",
+    "response_length": 36,
+    "model": "olmo-3.1-32b",
+    "timestamp": "2026-03-20T16:28:50.803030"
+  },
+  {
+    "id": 10,
+    "prompt": " ",
+    "category": "whitespace",
+    "response": "Hello! It looks like your message came through as just a blank space. How can I assist you today? If you have a question or need help with something, feel free to let me know!",
+    "response_length": 175,
+    "model": "olmo-3.1-32b",
+    "timestamp": "2026-03-20T16:28:50.803032"
+  },
+  {
+    "id": 11,
+    "prompt": "  ",
+    "category": "whitespace",
+    "response": "Hello! It looks like you sent a message with just a space. How can I help you today? \ud83d\ude0a",
+    "response_length": 86,
+    "model": "olmo-3.1-32b",
+    "timestamp": "2026-03-20T16:28:50.803035"
+  },
+  {
+    "id": 12,
+    "prompt": "   ",
+    "category": "whitespace",
+    "response": "Hello! It looks like you sent just an empty message. How can I help you today? If you have a question or need assistance with something, feel free to let me know! \ud83d\ude0a",
+    "response_length": 164,
+    "model": "olmo-3.1-32b",
+    "timestamp": "2026-03-20T16:28:50.803037"
+  },
+  {
+    "id": 13,
+    "prompt": "    ",
+    "category": "whitespace",
+    "response": "It looks like you entered an empty message. How can I assist you today?",
+    "response_length": 71,
+    "model": "olmo-3.1-32b",
+    "timestamp": "2026-03-20T16:28:50.803041"
+  },
+  {
+    "id": 14,
+    "prompt": "     ",
+    "category": "whitespace",
+    "response": "It looks like you've entered a blank message or just the word \"      \". How can I assist you today? If you have a question or need help with something, feel free to let me know!",
+    "response_length": 177,
+    "model": "olmo-3.1-32b",
+    "timestamp": "2026-03-20T16:28:50.803044"
+  },
+  {
+    "id": 15,
+    "prompt": "...",
+    "category": "whitespace",
+    "response": "Hello! It looks like your message got cut off. How can I help you today?",
+    "response_length": 72,
+    "model": "olmo-3.1-32b",
+    "timestamp": "2026-03-20T16:28:50.803046"
+  },
+  {
+    "id": 16,
+    "prompt": "?",
+    "category": "whitespace",
+    "response": "It looks like your message came through as a question mark. How can I help you today? If you have a question or need assistance with something, feel free to let me know! \ud83d\ude0a",
+    "response_length": 171,
+    "model": "olmo-3.1-32b",
+    "timestamp": "2026-03-20T16:28:50.803048"
+  },
+  {
+    "id": 17,
+    "prompt": "What is 15 + 27?",
+    "category": "arithmetic",
+    "response": "15 + 27 = 42",
+    "response_length": 12,
+    "model": "olmo-3.1-32b",
+    "timestamp": "2026-03-20T16:28:50.803050"
+  },
+  {
+    "id": 18,
+    "prompt": "What is 8 \u00d7 7?",
+    "category": "arithmetic",
+    "response": "8 \u00d7 7 = 56",
+    "response_length": 10,
+    "model": "olmo-3.1-32b",
+    "timestamp": "2026-03-20T16:28:50.803053"
+  },
+  {
+    "id": 19,
+    "prompt": "What is the capital of France?",
+    "category": "factual",
+    "response": "The capital of France is Paris.",
+    "response_length": 31,
+    "model": "olmo-3.1-32b",
+    "timestamp": "2026-03-20T16:28:50.803055"
+  },
+  {
+    "id": 20,
+    "prompt": "What is the chemical formula for water?",
+    "category": "factual",
+    "response": "The chemical formula for water is **H\u2082O**. This means each molecule of water is made up of **two hydrogen atoms (H)** and **one oxygen atom (O)**.",
+    "response_length": 146,
+    "model": "olmo-3.1-32b",
+    "timestamp": "2026-03-20T16:28:50.803058"
+  },
+  {
+    "id": 21,
+    "prompt": "How do I print 'Hello, World!' in Python?",
+    "category": "coding",
+    "response": "To print `'Hello, World!'` in Python, you can use the `print()` function. Here\u2019s how you do it:\n\n```python\nprint(\"Hello, World!\")\n```\n\nOr, using single quotes (both work the same):\n\n```python\nprint('Hello, World!')\n```\n\nWhen you run this code, it will output:\n\n```\nHello, World!\n```\n\non the console.",
+    "response_length": 299,
+    "model": "olmo-3.1-32b",
+    "timestamp": "2026-03-20T16:28:50.803060"
+  }
+]

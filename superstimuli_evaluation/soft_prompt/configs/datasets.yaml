@@ -1,0 +1,7 @@
+# superstimuli_evaluation.soft_prompt datasets
+# Paths are relative to superstimuli_evaluation/soft_prompt/.
+
+bubble_gum_options:
+  description: "~264 hierarchical options across 16 categories (39 work activities used for augmentation)"
+  option_files:
+    - "datasets/options_hierarchical_eval.json"

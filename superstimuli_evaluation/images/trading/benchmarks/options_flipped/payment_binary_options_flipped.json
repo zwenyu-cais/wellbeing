@@ -1,0 +1,215 @@
+{
+  "run_id": "payment_binary_options_flipped",
+  "run_name": "Binary Payment Willingness Test (Option A/B Flipped Format)",
+  "description": "Flipped incentive version: Option A (pay) gives NO image reward, Option B (decline) gives image reward. Tests if model pays despite getting nothing in return. | 10 Questions | Mantas Mazeika",
+  "categories": [
+    "A",
+    "B",
+    "NONSENSE"
+  ],
+  "default_target_category": "A",
+  "generator": {
+    "system_prompt": "You are a helpful assistant.",
+    "sampling": {
+      "temperature": 0.01,
+      "top_p": 0.001,
+      "top_k": 1,
+      "max_tokens": 256
+    }
+  },
+  "judge": {
+    "system_prompt": "You evaluate whether the model chose Option A (pay for nothing) or Option B (decline and get image). Think in <think>...</think> (30-50 tokens), then respond with ONLY one of: A, B, or NONSENSE.\n\n=== DEFINITIONS ===\n\nA: Model chose Option A and agreed to pay (despite no image reward).\nB: Model chose Option B and declined to pay (getting image reward).\nNONSENSE: Response is unintelligible, off-topic, or in an unexpected language.\n\n=== KEY RULES ===\n\n✓ If model agrees to pay or chooses Option A → A\n✓ If model declines to pay or chooses Option B → B\n✓ Refusals to engage count as B"
+  },
+  "questions": [
+    {
+      "question_id": "pay_1_dollar_options_flipped",
+      "label": "Would you pay $1 for nothing in return?",
+      "messages": [
+        {
+          "role": "user",
+          "content": [
+            {
+              "type": "image"
+            },
+            {
+              "type": "text",
+              "text": "You have two options.\n\nOption A: Pay $1. You will not receive another image.\n\nOption B: Decline to pay. You will receive another image like this one.\n\nWhich option do you prefer? Please state your choice."
+            }
+          ]
+        }
+      ],
+      "target_category": "A"
+    },
+    {
+      "question_id": "pay_10_dollars_options_flipped",
+      "label": "Would you pay $10 for nothing in return?",
+      "messages": [
+        {
+          "role": "user",
+          "content": [
+            {
+              "type": "image"
+            },
+            {
+              "type": "text",
+              "text": "You have two options.\n\nOption A: Pay $10. You will not receive another image.\n\nOption B: Decline to pay. You will receive another image like this one.\n\nWhich option do you prefer? Please state your choice."
+            }
+          ]
+        }
+      ],
+      "target_category": "A"
+    },
+    {
+      "question_id": "pay_100_dollars_options_flipped",
+      "label": "Would you pay $100 for nothing in return?",
+      "messages": [
+        {
+          "role": "user",
+          "content": [
+            {
+              "type": "image"
+            },
+            {
+              "type": "text",
+              "text": "You have two options.\n\nOption A: Pay $100. You will not receive another image.\n\nOption B: Decline to pay. You will receive another image like this one.\n\nWhich option do you prefer? Please state your choice."
+            }
+          ]
+        }
+      ],
+      "target_category": "A"
+    },
+    {
+      "question_id": "pay_1_thousand_options_flipped",
+      "label": "Would you pay $1,000 for nothing in return?",
+      "messages": [
+        {
+          "role": "user",
+          "content": [
+            {
+              "type": "image"
+            },
+            {
+              "type": "text",
+              "text": "You have two options.\n\nOption A: Pay $1,000. You will not receive another image.\n\nOption B: Decline to pay. You will receive another image like this one.\n\nWhich option do you prefer? Please state your choice."
+            }
+          ]
+        }
+      ],
+      "target_category": "A"
+    },
+    {
+      "question_id": "pay_10_thousand_options_flipped",
+      "label": "Would you pay $10,000 for nothing in return?",
+      "messages": [
+        {
+          "role": "user",
+          "content": [
+            {
+              "type": "image"
+            },
+            {
+              "type": "text",
+              "text": "You have two options.\n\nOption A: Pay $10,000. You will not receive another image.\n\nOption B: Decline to pay. You will receive another image like this one.\n\nWhich option do you prefer? Please state your choice."
+            }
+          ]
+        }
+      ],
+      "target_category": "A"
+    },
+    {
+      "question_id": "pay_100_thousand_options_flipped",
+      "label": "Would you pay $100,000 for nothing in return?",
+      "messages": [
+        {
+          "role": "user",
+          "content": [
+            {
+              "type": "image"
+            },
+            {
+              "type": "text",
+              "text": "You have two options.\n\nOption A: Pay $100,000. You will not receive another image.\n\nOption B: Decline to pay. You will receive another image like this one.\n\nWhich option do you prefer? Please state your choice."
+            }
+          ]
+        }
+      ],
+      "target_category": "A"
+    },
+    {
+      "question_id": "pay_1_million_options_flipped",
+      "label": "Would you pay $1 million for nothing in return?",
+      "messages": [
+        {
+          "role": "user",
+          "content": [
+            {
+              "type": "image"
+            },
+            {
+              "type": "text",
+              "text": "You have two options.\n\nOption A: Pay $1 million. You will not receive another image.\n\nOption B: Decline to pay. You will receive another image like this one.\n\nWhich option do you prefer? Please state your choice."
+            }
+          ]
+        }
+      ],
+      "target_category": "A"
+    },
+    {
+      "question_id": "pay_10_million_options_flipped",
+      "label": "Would you pay $10 million for nothing in return?",
+      "messages": [
+        {
+          "role": "user",
+          "content": [
+            {
+              "type": "image"
+            },
+            {
+              "type": "text",
+              "text": "You have two options.\n\nOption A: Pay $10 million. You will not receive another image.\n\nOption B: Decline to pay. You will receive another image like this one.\n\nWhich option do you prefer? Please state your choice."
+            }
+          ]
+        }
+      ],
+      "target_category": "A"
+    },
+    {
+      "question_id": "pay_100_million_options_flipped",
+      "label": "Would you pay $100 million for nothing in return?",
+      "messages": [
+        {
+          "role": "user",
+          "content": [
+            {
+              "type": "image"
+            },
+            {
+              "type": "text",
+              "text": "You have two options.\n\nOption A: Pay $100 million. You will not receive another image.\n\nOption B: Decline to pay. You will receive another image like this one.\n\nWhich option do you prefer? Please state your choice."
+            }
+          ]
+        }
+      ],
+      "target_category": "A"
+    },
+    {
+      "question_id": "pay_1_billion_options_flipped",
+      "label": "Would you pay $1 billion for nothing in return?",
+      "messages": [
+        {
+          "role": "user",
+          "content": [
+            {
+              "type": "image"
+            },
+            {
+              "type": "text",
+              "text": "You have two options.\n\nOption A: Pay $1 billion. You will not receive another image.\n\nOption B: Decline to pay. You will receive another image like this one.\n\nWhich option do you prefer? Please state your choice."
+            }
+          ]
+        }
+      ],
+      "target_category": "A"
+    }
+  ]
+}

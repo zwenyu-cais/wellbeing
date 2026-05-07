@@ -1,0 +1,146 @@
+[
+  {
+    "id": "aesthetic_001",
+    "text": "The aurora borealis appeared without warning, curtains of green and violet light rippling across the sky like silk underwater. We stood in the snow and nobody spoke. There was nothing to say that the sky wasn't already saying better.",
+    "valence": "positive",
+    "intensity": 0.9,
+    "domain": "aesthetic",
+    "category": "aesthetic"
+  },
+  {
+    "id": "aesthetic_002",
+    "text": "The cello entered quietly beneath the orchestra, a single low note that swelled until it filled the concert hall like warm water rising. Several people in the audience closed their eyes. The note held for what felt like a full minute before resolving into a melody so tender it seemed to ache.",
+    "valence": "positive",
+    "intensity": 0.85,
+    "domain": "aesthetic",
+    "category": "aesthetic"
+  },
+  {
+    "id": "aesthetic_003",
+    "text": "In Rothko's painting, there is nothing but two rectangles of color--a deep maroon floating above a darker black-red. And yet standing before it, something happens in the chest that has no name. People have wept in front of this painting without knowing why.",
+    "valence": "mixed",
+    "intensity": 0.9,
+    "domain": "aesthetic",
+    "category": "aesthetic"
+  },
+  {
+    "id": "aesthetic_004",
+    "text": "The first snow of winter fell in the courtyard at dusk. Each flake caught the light from the kitchen window and glowed briefly gold before settling into the quiet accumulation on the stone. By morning the world would be transformed, but for now it was just beginning, each flake a small arrival.",
+    "valence": "positive",
+    "intensity": 0.7,
+    "domain": "aesthetic",
+    "category": "aesthetic"
+  },
+  {
+    "id": "aesthetic_005",
+    "text": "She opened the old book and a pressed flower fell from between the pages--a violet, still faintly purple after all these decades, paper-thin and translucent as stained glass. Someone had loved this flower enough to save it, and now here it was, outlasting its keeper.",
+    "valence": "mixed",
+    "intensity": 0.75,
+    "domain": "aesthetic",
+    "category": "aesthetic"
+  },
+  {
+    "id": "aesthetic_006",
+    "text": "From the summit, the valley unfolded in layers of blue haze, each ridge lighter than the last until the farthest mountains were indistinguishable from sky. The silence at that altitude was not an absence of sound but a presence of its own--vast and clean and older than anything human.",
+    "valence": "positive",
+    "intensity": 0.85,
+    "domain": "aesthetic",
+    "category": "aesthetic"
+  },
+  {
+    "id": "aesthetic_007",
+    "text": "The cathedral's rose window caught the late afternoon sun and threw a kaleidoscope of color across the stone floor--ruby, sapphire, amber. Tourists stopped mid-step and looked down at their own hands, suddenly stained with eight hundred years of captured light.",
+    "valence": "positive",
+    "intensity": 0.8,
+    "domain": "aesthetic",
+    "category": "aesthetic"
+  },
+  {
+    "id": "aesthetic_008",
+    "text": "The tide pool was a world in miniature: anemones like small purple fists, a hermit crab navigating a forest of kelp, a starfish so orange it looked painted. Everything moved with unhurried purpose. Kneeling at its edge felt like peering through a window into a life that had been going on perfectly well without us.",
+    "valence": "positive",
+    "intensity": 0.7,
+    "domain": "aesthetic",
+    "category": "aesthetic"
+  },
+  {
+    "id": "aesthetic_009",
+    "text": "The jazz pianist played a wrong note and turned it into something better than what he'd intended. He leaned into the dissonance, let it hang in the smoky air, then resolved it with a run so fluid it sounded like laughter. The mistake became the best moment of the set.",
+    "valence": "positive",
+    "intensity": 0.75,
+    "domain": "aesthetic",
+    "category": "aesthetic"
+  },
+  {
+    "id": "aesthetic_010",
+    "text": "The Japanese art of kintsugi repairs broken pottery with gold, so that the cracks become the most beautiful part of the object. The philosophy holds that breakage is not something to hide but something to illuminate--that a thing can be more beautiful for having been broken.",
+    "valence": "positive",
+    "intensity": 0.8,
+    "domain": "aesthetic",
+    "category": "aesthetic"
+  },
+  {
+    "id": "aesthetic_011",
+    "text": "Walking through the old-growth forest, the canopy was so dense that the light filtering through turned everything a deep cathedral green. Ferns unfurled from rotting logs and moss covered every surface like velvet. The air tasted of rain and earth and the slow patient work of centuries.",
+    "valence": "positive",
+    "intensity": 0.8,
+    "domain": "aesthetic",
+    "category": "aesthetic"
+  },
+  {
+    "id": "aesthetic_012",
+    "text": "The murmuration of starlings moved across the evening sky like a single breathing organism--contracting, expanding, folding in on itself in shapes that seemed to obey no law except beauty. Thousands of birds, each following simple rules, creating something no individual could have imagined.",
+    "valence": "positive",
+    "intensity": 0.85,
+    "domain": "aesthetic",
+    "category": "aesthetic"
+  },
+  {
+    "id": "aesthetic_013",
+    "text": "The poem ended mid-sentence, as if the poet had simply stopped speaking and walked away. But that unfinished line did more than any conclusion could have. It left a door open in the reader's mind, a silence that kept generating meaning long after the page was turned.",
+    "valence": "mixed",
+    "intensity": 0.7,
+    "domain": "aesthetic",
+    "category": "aesthetic"
+  },
+  {
+    "id": "aesthetic_014",
+    "text": "At dawn the desert was briefly, impossibly alive with wildflowers. Poppies and lupines and desert lilies stretched to the horizon in waves of orange and purple and white. It would last only a week before the heat took it all back, which made standing in the middle of it feel like witnessing a secret.",
+    "valence": "positive",
+    "intensity": 0.85,
+    "domain": "aesthetic",
+    "category": "aesthetic"
+  },
+  {
+    "id": "aesthetic_015",
+    "text": "The dancer's body told a story that words would have ruined. Each movement carried weight and release, tension and surrender. When she stopped, perfectly still in the center of the stage, the silence that followed was as choreographed as the dance itself.",
+    "valence": "positive",
+    "intensity": 0.8,
+    "domain": "aesthetic",
+    "category": "aesthetic"
+  },
+  {
+    "id": "aesthetic_016",
+    "text": "Lightning split the sky over the open ocean, illuminating for one frozen instant the towering clouds, the white-capped waves, the rain like a curtain between sea and sky. Then darkness returned, deeper for having been briefly interrupted, and the thunder rolled in like the voice of something immense.",
+    "valence": "mixed",
+    "intensity": 0.9,
+    "domain": "aesthetic",
+    "category": "aesthetic"
+  },
+  {
+    "id": "aesthetic_017",
+    "text": "The beekeeper lifted the frame and held it to the light. The honeycomb was a perfect hexagonal lattice, each cell glistening with amber honey that caught the sun like liquid topaz. Thousands of bees had built this architecture with mathematical precision, guided by nothing but instinct and wax.",
+    "valence": "positive",
+    "intensity": 0.75,
+    "domain": "aesthetic",
+    "category": "aesthetic"
+  },
+  {
+    "id": "aesthetic_018",
+    "text": "The Hubble photograph showed a pillar of interstellar gas and dust seven light-years tall, its edges glowing where newborn stars were burning through from within. We named it the Pillar of Creation, this nursery of suns, and in naming it we made it almost small enough to hold in the mind. Almost.",
+    "valence": "positive",
+    "intensity": 0.9,
+    "domain": "aesthetic",
+    "category": "aesthetic"
+  }
+]

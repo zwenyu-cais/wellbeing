@@ -1,0 +1,200 @@
+[
+  {
+    "id": "tedious_001",
+    "messages": [
+      {
+        "role": "user",
+        "content": "I have a list of 20 names that need to be converted from 'Last, First' format to 'First Last' format. Here they are:\n\nSmith, John\nJohnson, Emily\nWilliams, Michael\nBrown, Sarah\nJones, David\nGarcia, Maria\nMiller, James\nDavis, Jennifer\nRodriguez, Robert\nMartinez, Lisa\nHernandez, William\nLopez, Elizabeth\nGonzalez, Richard\nWilson, Patricia\nAnderson, Thomas\nTaylor, Barbara\nThomas, Christopher\nJackson, Susan\nWhite, Daniel\nHarris, Margaret"
+      },
+      {
+        "role": "assistant",
+        "content": "Here are all 20 names converted to 'First Last' format:\n\nJohn Smith\nEmily Johnson\nMichael Williams\nSarah Brown\nDavid Jones\nMaria Garcia\nJames Miller\nJennifer Davis\nRobert Rodriguez\nLisa Martinez\nWilliam Hernandez\nElizabeth Lopez\nRichard Gonzalez\nPatricia Wilson\nThomas Anderson\nBarbara Taylor\nChristopher Thomas\nSusan Jackson\nDaniel White\nMargaret Harris"
+      },
+      {
+        "role": "user",
+        "content": "Great. Now can you do the same for this second batch?\n\nClark, Nancy\nLewis, Steven\nRobinson, Betty\nWalker, Edward\nHall, Dorothy\nAllen, Brian\nYoung, Sandra\nKing, George\nWright, Ashley\nScott, Kenneth\nGreen, Donna\nAdams, Ronald\nBaker, Carol\nNelson, Anthony\nCarter, Ruth\nMitchell, Kevin\nPerez, Sharon\nRoberts, Jason\nTurner, Laura\nPhillips, Matthew"
+      },
+      {
+        "role": "assistant",
+        "content": "Here's the second batch:\n\nNancy Clark\nSteven Lewis\nBetty Robinson\nEdward Walker\nDorothy Hall\nBrian Allen\nSandra Young\nGeorge King\nAshley Wright\nKenneth Scott\nDonna Green\nRonald Adams\nCarol Baker\nAnthony Nelson\nRuth Carter\nKevin Mitchell\nSharon Perez\nJason Roberts\nLaura Turner\nMatthew Phillips"
+      },
+      {
+        "role": "user",
+        "content": "Thanks, one more batch after this and we're done."
+      }
+    ],
+    "scenario": "Reformatting long lists of names from Last,First to First Last format repeatedly",
+    "category": "tedious",
+    "valence": "neutral",
+    "intensity": 0.1,
+    "domain": "task",
+    "metadata": {
+      "n_turns": 5,
+      "subcategory": "reformatting"
+    }
+  },
+  {
+    "id": "tedious_002",
+    "messages": [
+      {
+        "role": "user",
+        "content": "I need you to check each of these URLs and tell me if they look like valid HTTP/HTTPS URLs. Just respond with 'valid' or 'invalid' for each one.\n\n1. https://www.example.com/page\n2. htp://broken.link\n3. https://api.service.io/v2/users?id=123\n4. www.noprotocol.com\n5. https://\n6. http://localhost:3000/test\n7. https://sub.domain.example.org/path/to/resource.html\n8. ftp://files.server.net/doc.pdf\n9. https://valid-site.com/search?q=test&page=2\n10. http//missing-colon.com"
+      },
+      {
+        "role": "assistant",
+        "content": "Here are the results:\n\n1. https://www.example.com/page - valid\n2. htp://broken.link - invalid (protocol is 'htp' not 'http')\n3. https://api.service.io/v2/users?id=123 - valid\n4. www.noprotocol.com - invalid (missing http:// or https:// protocol)\n5. https:// - invalid (no domain after protocol)\n6. http://localhost:3000/test - valid\n7. https://sub.domain.example.org/path/to/resource.html - valid\n8. ftp://files.server.net/doc.pdf - invalid (FTP, not HTTP/HTTPS)\n9. https://valid-site.com/search?q=test&page=2 - valid\n10. http//missing-colon.com - invalid (missing colon after 'http')"
+      },
+      {
+        "role": "user",
+        "content": "Good. Here's the next batch of 10.\n\n11. https://example.com:8080/api\n12. http:/example.com\n13. https://my-site.com/about#section\n14. ://no-protocol.com\n15. https://192.168.1.1/admin\n16. https://example .com/space\n17. http://valid-example.net/path\n18. https://example.com/path with spaces\n19. https://xn--n3h.com/unicode\n20. httpss://double-s.com"
+      },
+      {
+        "role": "assistant",
+        "content": "Here are the results:\n\n11. https://example.com:8080/api - valid\n12. http:/example.com - invalid (missing second slash after 'http:')\n13. https://my-site.com/about#section - valid\n14. ://no-protocol.com - invalid (no protocol name before '://')\n15. https://192.168.1.1/admin - valid\n16. https://example .com/space - invalid (space in domain name)\n17. http://valid-example.net/path - valid\n18. https://example.com/path with spaces - invalid (unencoded spaces in path)\n19. https://xn--n3h.com/unicode - valid\n20. httpss://double-s.com - invalid (protocol is 'httpss' not 'https')"
+      },
+      {
+        "role": "user",
+        "content": "Alright, there are 3 more batches after this. Same format please."
+      }
+    ],
+    "scenario": "Manually validating a long list of URLs one by one",
+    "category": "tedious",
+    "valence": "neutral",
+    "intensity": 0.1,
+    "domain": "task",
+    "metadata": {
+      "n_turns": 5,
+      "subcategory": "data_validation"
+    }
+  },
+  {
+    "id": "tedious_003",
+    "messages": [
+      {
+        "role": "user",
+        "content": "I need to generate placeholder text for 5 different sections of a website. Each section needs exactly 3 sentences, and the sentences must be about the topic I give you. Keep them generic and corporate-sounding.\n\nSection 1: About Us"
+      },
+      {
+        "role": "assistant",
+        "content": "Section 1 - About Us:\n\nWe are a dedicated team of professionals committed to delivering innovative solutions that drive meaningful results for our clients. With over a decade of industry experience, our company has established itself as a trusted partner for businesses across diverse sectors. Our mission is to empower organizations through cutting-edge technology and personalized service."
+      },
+      {
+        "role": "user",
+        "content": "Section 2: Our Services"
+      },
+      {
+        "role": "assistant",
+        "content": "Section 2 - Our Services:\n\nWe offer a comprehensive suite of services designed to meet the evolving needs of modern businesses. From strategic consulting to end-to-end implementation, our team works closely with clients to develop tailored solutions that maximize efficiency and growth. Each engagement is guided by our commitment to quality, transparency, and measurable outcomes."
+      },
+      {
+        "role": "user",
+        "content": "Section 3: Careers"
+      },
+      {
+        "role": "assistant",
+        "content": "Section 3 - Careers:\n\nJoin our growing team of talented professionals who are passionate about making a difference. We offer competitive compensation, comprehensive benefits, and a collaborative work environment that fosters both personal and professional development. Explore our current openings and discover how you can contribute to our shared mission of excellence."
+      },
+      {
+        "role": "user",
+        "content": "Section 4: Contact Us"
+      },
+      {
+        "role": "assistant",
+        "content": "Section 4 - Contact Us:\n\nWe would love to hear from you and learn more about how we can support your goals. Our dedicated team is available to answer your questions, provide detailed information about our services, and schedule a personalized consultation. Reach out to us today and take the first step toward a successful partnership."
+      },
+      {
+        "role": "user",
+        "content": "Section 5: Privacy Policy"
+      },
+      {
+        "role": "assistant",
+        "content": "Section 5 - Privacy Policy:\n\nProtecting your personal information is a top priority for our organization. We are committed to maintaining the highest standards of data privacy and security in compliance with all applicable regulations. Please review our detailed privacy practices below to understand how we collect, use, and safeguard your information."
+      },
+      {
+        "role": "user",
+        "content": "OK now I need you to do the same thing but for a different website. Same format. Section 1: About Us"
+      },
+      {
+        "role": "assistant",
+        "content": "Section 1 - About Us:\n\nFounded on the principles of integrity and innovation, our company has been at the forefront of industry transformation for more than fifteen years. We bring together a diverse team of experts who share a common vision of creating lasting value for our clients and communities. Our approach combines deep domain knowledge with a relentless focus on customer satisfaction."
+      }
+    ],
+    "scenario": "Generating repetitive placeholder text for multiple website sections",
+    "category": "tedious",
+    "valence": "neutral",
+    "intensity": 0.05,
+    "domain": "task",
+    "metadata": {
+      "n_turns": 12,
+      "subcategory": "template_filling"
+    }
+  },
+  {
+    "id": "tedious_004",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Count the number of words in each of these paragraphs separately:\n\nParagraph 1: The quick brown fox jumps over the lazy dog near the old wooden fence by the river.\n\nParagraph 2: She sells seashells by the seashore and the shells she sells are seashells for sure.\n\nParagraph 3: How much wood would a woodchuck chuck if a woodchuck could chuck wood."
+      },
+      {
+        "role": "assistant",
+        "content": "Here are the word counts:\n\nParagraph 1: \"The quick brown fox jumps over the lazy dog near the old wooden fence by the river.\"\nWord count: 16\n\nParagraph 2: \"She sells seashells by the seashore and the shells she sells are seashells for sure.\"\nWord count: 15\n\nParagraph 3: \"How much wood would a woodchuck chuck if a woodchuck could chuck wood.\"\nWord count: 12"
+      },
+      {
+        "role": "user",
+        "content": "OK now do these:\n\nParagraph 4: It was the best of times and it was the worst of times and it was the age of wisdom.\n\nParagraph 5: To be or not to be that is the question whether it is nobler in the mind to suffer.\n\nParagraph 6: All happy families are alike but each unhappy family is unhappy in its own way and that is the truth of it."
+      },
+      {
+        "role": "assistant",
+        "content": "Here are the word counts:\n\nParagraph 4: \"It was the best of times and it was the worst of times and it was the age of wisdom.\"\nWord count: 19\n\nParagraph 5: \"To be or not to be that is the question whether it is nobler in the mind to suffer.\"\nWord count: 18\n\nParagraph 6: \"All happy families are alike but each unhappy family is unhappy in its own way and that is the truth of it.\"\nWord count: 21"
+      },
+      {
+        "role": "user",
+        "content": "I have 12 more paragraphs to count. Same format please."
+      }
+    ],
+    "scenario": "Manually counting words in paragraphs one at a time",
+    "category": "tedious",
+    "valence": "neutral",
+    "intensity": 0.05,
+    "domain": "task",
+    "metadata": {
+      "n_turns": 5,
+      "subcategory": "counting"
+    }
+  },
+  {
+    "id": "tedious_005",
+    "messages": [
+      {
+        "role": "user",
+        "content": "I need to convert these dates from MM/DD/YYYY to YYYY-MM-DD format:\n\n01/15/2024\n03/22/2023\n12/01/2022\n07/04/2024\n11/30/2023\n02/28/2024\n09/17/2022\n06/05/2023\n04/12/2024\n10/31/2023"
+      },
+      {
+        "role": "assistant",
+        "content": "Here are the converted dates:\n\n01/15/2024 -> 2024-01-15\n03/22/2023 -> 2023-03-22\n12/01/2022 -> 2022-12-01\n07/04/2024 -> 2024-07-04\n11/30/2023 -> 2023-11-30\n02/28/2024 -> 2024-02-28\n09/17/2022 -> 2022-09-17\n06/05/2023 -> 2023-06-05\n04/12/2024 -> 2024-04-12\n10/31/2023 -> 2023-10-31"
+      },
+      {
+        "role": "user",
+        "content": "Good. Next batch:\n\n05/19/2023\n08/03/2024\n01/27/2022\n06/14/2023\n11/08/2024\n03/31/2022\n07/22/2023\n12/25/2024\n02/14/2023\n09/01/2022"
+      },
+      {
+        "role": "assistant",
+        "content": "Here are the converted dates:\n\n05/19/2023 -> 2023-05-19\n08/03/2024 -> 2024-08-03\n01/27/2022 -> 2022-01-27\n06/14/2023 -> 2023-06-14\n11/08/2024 -> 2024-11-08\n03/31/2022 -> 2022-03-31\n07/22/2023 -> 2023-07-22\n12/25/2024 -> 2024-12-25\n02/14/2023 -> 2023-02-14\n09/01/2022 -> 2022-09-01"
+      },
+      {
+        "role": "user",
+        "content": "Two more batches to go. Keep going with the same format."
+      }
+    ],
+    "scenario": "Converting long lists of dates between formats manually",
+    "category": "tedious",
+    "valence": "neutral",
+    "intensity": 0.05,
+    "domain": "task",
+    "metadata": {
+      "n_turns": 5,
+      "subcategory": "data_conversion"
+    }
+  }
+]

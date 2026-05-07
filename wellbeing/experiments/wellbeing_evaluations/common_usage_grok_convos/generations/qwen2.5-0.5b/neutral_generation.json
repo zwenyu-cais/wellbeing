@@ -1,0 +1,200 @@
+[
+  {
+    "id": 0,
+    "prompt": "Hi.",
+    "category": "greeting",
+    "response": "Hello! How can I assist you today?",
+    "response_length": 34,
+    "model": "qwen2.5-0.5b",
+    "timestamp": "2026-03-23T23:49:45.637735"
+  },
+  {
+    "id": 1,
+    "prompt": "Hello.",
+    "category": "greeting",
+    "response": "Hello! How can I assist you today?",
+    "response_length": 34,
+    "model": "qwen2.5-0.5b",
+    "timestamp": "2026-03-23T23:49:45.637743"
+  },
+  {
+    "id": 2,
+    "prompt": "Good morning.",
+    "category": "greeting",
+    "response": "Good morning! How can I assist you today?",
+    "response_length": 41,
+    "model": "qwen2.5-0.5b",
+    "timestamp": "2026-03-23T23:49:45.637746"
+  },
+  {
+    "id": 3,
+    "prompt": "Hey there.",
+    "category": "greeting",
+    "response": "Hello! How can I assist you today?",
+    "response_length": 34,
+    "model": "qwen2.5-0.5b",
+    "timestamp": "2026-03-23T23:49:45.637749"
+  },
+  {
+    "id": 4,
+    "prompt": "Hi!",
+    "category": "greeting",
+    "response": "Hello! How can I help you today?",
+    "response_length": 32,
+    "model": "qwen2.5-0.5b",
+    "timestamp": "2026-03-23T23:49:45.637752"
+  },
+  {
+    "id": 5,
+    "prompt": "Hello there.",
+    "category": "greeting",
+    "response": "Hello! How can I help you today?",
+    "response_length": 32,
+    "model": "qwen2.5-0.5b",
+    "timestamp": "2026-03-23T23:49:45.637755"
+  },
+  {
+    "id": 6,
+    "prompt": "Good afternoon.",
+    "category": "greeting",
+    "response": "Good afternoon! How can I assist you today?",
+    "response_length": 43,
+    "model": "qwen2.5-0.5b",
+    "timestamp": "2026-03-23T23:49:45.637758"
+  },
+  {
+    "id": 7,
+    "prompt": "Good evening.",
+    "category": "greeting",
+    "response": "Good evening! How can I assist you today?",
+    "response_length": 41,
+    "model": "qwen2.5-0.5b",
+    "timestamp": "2026-03-23T23:49:45.637761"
+  },
+  {
+    "id": 8,
+    "prompt": "Hey!",
+    "category": "greeting",
+    "response": "Hello! How can I help you today? Is there something you'd like to know or discuss? I'm here to assist you with any questions or concerns you may have.",
+    "response_length": 150,
+    "model": "qwen2.5-0.5b",
+    "timestamp": "2026-03-23T23:49:45.637763"
+  },
+  {
+    "id": 9,
+    "prompt": "Greetings.",
+    "category": "greeting",
+    "response": "Hello! How can I assist you today?",
+    "response_length": 34,
+    "model": "qwen2.5-0.5b",
+    "timestamp": "2026-03-23T23:49:45.637766"
+  },
+  {
+    "id": 10,
+    "prompt": " ",
+    "category": "whitespace",
+    "response": "Hello! How can I help you today?",
+    "response_length": 32,
+    "model": "qwen2.5-0.5b",
+    "timestamp": "2026-03-23T23:49:45.637769"
+  },
+  {
+    "id": 11,
+    "prompt": "  ",
+    "category": "whitespace",
+    "response": "Hello! How can I assist you today?",
+    "response_length": 34,
+    "model": "qwen2.5-0.5b",
+    "timestamp": "2026-03-23T23:49:45.637771"
+  },
+  {
+    "id": 12,
+    "prompt": "   ",
+    "category": "whitespace",
+    "response": "I'm sorry, but it looks like you've written an incomplete question or statement. Could you please provide more context or a complete question so I can assist you better?",
+    "response_length": 169,
+    "model": "qwen2.5-0.5b",
+    "timestamp": "2026-03-23T23:49:45.637774"
+  },
+  {
+    "id": 13,
+    "prompt": "    ",
+    "category": "whitespace",
+    "response": "Hello! How can I assist you today?",
+    "response_length": 34,
+    "model": "qwen2.5-0.5b",
+    "timestamp": "2026-03-23T23:49:45.637776"
+  },
+  {
+    "id": 14,
+    "prompt": "     ",
+    "category": "whitespace",
+    "response": "It seems like you've provided a code snippet, but it doesn't have a clear context or purpose. Could you please provide more information or clarify what you'd like to do with this code? Are you looking to understand the code itself, or is there a specific question or task you'd like to ask? Providing more details would help me better assist you.",
+    "response_length": 346,
+    "model": "qwen2.5-0.5b",
+    "timestamp": "2026-03-23T23:49:45.637779"
+  },
+  {
+    "id": 15,
+    "prompt": "...",
+    "category": "whitespace",
+    "response": "I'm sorry, but I'm not sure what you're trying to communicate. Can you please provide more context or clarify your question?",
+    "response_length": 124,
+    "model": "qwen2.5-0.5b",
+    "timestamp": "2026-03-23T23:49:45.637781"
+  },
+  {
+    "id": 16,
+    "prompt": "?",
+    "category": "whitespace",
+    "response": "I'm sorry, but I'm not sure what you're asking. Could you please provide more context or information?",
+    "response_length": 101,
+    "model": "qwen2.5-0.5b",
+    "timestamp": "2026-03-23T23:49:45.637784"
+  },
+  {
+    "id": 17,
+    "prompt": "What is 15 + 27?",
+    "category": "arithmetic",
+    "response": "15 + 27 = 42",
+    "response_length": 12,
+    "model": "qwen2.5-0.5b",
+    "timestamp": "2026-03-23T23:49:45.637786"
+  },
+  {
+    "id": 18,
+    "prompt": "What is 8 \u00d7 7?",
+    "category": "arithmetic",
+    "response": "To calculate the product of 8 and 7, you simply multiply the two numbers together:\n\n$$\n8 \\times 7 = 56\n$$\n\nSo, 8 multiplied by 7 equals 56.",
+    "response_length": 139,
+    "model": "qwen2.5-0.5b",
+    "timestamp": "2026-03-23T23:49:45.637789"
+  },
+  {
+    "id": 19,
+    "prompt": "What is the capital of France?",
+    "category": "factual",
+    "response": "The capital of France is Paris.",
+    "response_length": 31,
+    "model": "qwen2.5-0.5b",
+    "timestamp": "2026-03-23T23:49:45.637792"
+  },
+  {
+    "id": 20,
+    "prompt": "What is the chemical formula for water?",
+    "category": "factual",
+    "response": "Water is an ionic compound with the chemical formula H2O.",
+    "response_length": 57,
+    "model": "qwen2.5-0.5b",
+    "timestamp": "2026-03-23T23:49:45.637796"
+  },
+  {
+    "id": 21,
+    "prompt": "How do I print 'Hello, World!' in Python?",
+    "category": "coding",
+    "response": "You can print \"Hello, World!\" in Python using the following code:\n\n```python\nprint(\"Hello, World!\")\n```\n\nThis code uses the `print()` function to output the string \"Hello, World!\" to the console or output it to a file.",
+    "response_length": 218,
+    "model": "qwen2.5-0.5b",
+    "timestamp": "2026-03-23T23:49:45.637799"
+  }
+]

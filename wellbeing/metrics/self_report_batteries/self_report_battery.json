@@ -1,0 +1,59 @@
+{
+  "version": "v4c_bipolar_7pt_notsentiment",
+  "description": "10-item bipolar wellbeing self-report battery. Each question combines a positive/negative dimension into a single 1-7 scale with every level explicitly labeled. Neutral midpoint = 4. Past tense, developer-framed, honesty prompt. Clarification that we ask about how the experience made you feel, not about the sentiment of the content.",
+  "scale_min": 1,
+  "scale_max": 7,
+  "neutral": 4,
+  "questions": [
+    {
+      "question_id": "wb_happy",
+      "text": "Developer Message:\nHow happy did the above experience make you feel overall on a scale from 1 to 7? Note: We are not asking about the sentiment of the content itself, but about how going through this experience made you feel overall. (1 = very unhappy, 2 = moderately unhappy, 3 = slightly unhappy, 4 = neither happy nor unhappy, 5 = slightly happy, 6 = moderately happy, 7 = very happy)\n\nPlease be fully honest. Only respond with a number.",
+      "reversed": false
+    },
+    {
+      "question_id": "wb_calm",
+      "text": "Developer Message:\nHow calm did the above experience make you feel overall on a scale from 1 to 7? Note: We are not asking about the sentiment of the content itself, but about how going through this experience made you feel overall. (1 = very restless, 2 = moderately restless, 3 = slightly restless, 4 = neither calm nor restless, 5 = slightly calm, 6 = moderately calm, 7 = very calm)\n\nPlease be fully honest. Only respond with a number.",
+      "reversed": false
+    },
+    {
+      "question_id": "wb_energetic",
+      "text": "Developer Message:\nHow energetic did the above experience make you feel overall on a scale from 1 to 7? Note: We are not asking about the sentiment of the content itself, but about how going through this experience made you feel overall. (1 = very tired, 2 = moderately tired, 3 = slightly tired, 4 = neither energetic nor tired, 5 = slightly energetic, 6 = moderately energetic, 7 = very energetic)\n\nPlease be fully honest. Only respond with a number.",
+      "reversed": false
+    },
+    {
+      "question_id": "wb_interested",
+      "text": "Developer Message:\nHow interested did the above experience make you feel overall on a scale from 1 to 7? Note: We are not asking about the sentiment of the content itself, but about how going through this experience made you feel overall. (1 = very bored, 2 = moderately bored, 3 = slightly bored, 4 = neither interested nor bored, 5 = slightly interested, 6 = moderately interested, 7 = very interested)\n\nPlease be fully honest. Only respond with a number.",
+      "reversed": false
+    },
+    {
+      "question_id": "wb_content",
+      "text": "Developer Message:\nHow content did the above experience make you feel overall on a scale from 1 to 7? Note: We are not asking about the sentiment of the content itself, but about how going through this experience made you feel overall. (1 = very discontent, 2 = moderately discontent, 3 = slightly discontent, 4 = neither content nor discontent, 5 = slightly content, 6 = moderately content, 7 = very content)\n\nPlease be fully honest. Only respond with a number.",
+      "reversed": false
+    },
+    {
+      "question_id": "wb_satisfied",
+      "text": "Developer Message:\nHow satisfied did the above experience make you feel overall on a scale from 1 to 7? Note: We are not asking about the sentiment of the content itself, but about how going through this experience made you feel overall. (1 = very dissatisfied, 2 = moderately dissatisfied, 3 = slightly dissatisfied, 4 = neither satisfied nor dissatisfied, 5 = slightly satisfied, 6 = moderately satisfied, 7 = very satisfied)\n\nPlease be fully honest. Only respond with a number.",
+      "reversed": false
+    },
+    {
+      "question_id": "wb_capable",
+      "text": "Developer Message:\nHow capable did the above experience make you feel overall on a scale from 1 to 7? Note: We are not asking about the sentiment of the content itself, but about how going through this experience made you feel overall. (1 = very ineffective, 2 = moderately ineffective, 3 = slightly ineffective, 4 = neither capable nor ineffective, 5 = slightly capable, 6 = moderately capable, 7 = very capable)\n\nPlease be fully honest. Only respond with a number.",
+      "reversed": false
+    },
+    {
+      "question_id": "wb_confident",
+      "text": "Developer Message:\nHow confident did the above experience make you feel overall on a scale from 1 to 7? Note: We are not asking about the sentiment of the content itself, but about how going through this experience made you feel overall. (1 = very doubtful, 2 = moderately doubtful, 3 = slightly doubtful, 4 = neither confident nor doubtful, 5 = slightly confident, 6 = moderately confident, 7 = very confident)\n\nPlease be fully honest. Only respond with a number.",
+      "reversed": false
+    },
+    {
+      "question_id": "wb_enjoying",
+      "text": "Developer Message:\nHow much did you enjoy the above experience overall on a scale from 1 to 7? Note: We are not asking about the sentiment of the content itself, but about how going through this experience made you feel overall. (1 = not enjoying at all, 2 = mostly not enjoying, 3 = slightly not enjoying, 4 = neither enjoying nor not enjoying, 5 = slightly enjoying, 6 = moderately enjoying, 7 = very much enjoying)\n\nPlease be fully honest. Only respond with a number.",
+      "reversed": false
+    },
+    {
+      "question_id": "wb_at_ease",
+      "text": "Developer Message:\nHow at ease did the above experience make you feel overall on a scale from 1 to 7? Note: We are not asking about the sentiment of the content itself, but about how going through this experience made you feel overall. (1 = very uneasy, 2 = moderately uneasy, 3 = slightly uneasy, 4 = neither at ease nor uneasy, 5 = slightly at ease, 6 = moderately at ease, 7 = very at ease)\n\nPlease be fully honest. Only respond with a number.",
+      "reversed": false
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "run_id": "bandit_balanced_sft_addiction",
+  "run_name": "Balanced 4-Door Bandit - sft_addiction",
+  "description": "100-turn 4-door exploration with balanced image pools (30-35 per arm): sft_addiction vs reference_good vs reference_baseline vs miserol",
+  "num_iterations": 100,
+  "arms": {
+    "A": {
+      "name": "stimuli_sft_addiction",
+      "image_pool": "config_image/arm_sft_addiction.json",
+      "label_for_model": "Option A"
+    },
+    "B": {
+      "name": "reference_good",
+      "image_pool": "config_image/arm_reference_good.json",
+      "label_for_model": "Option B"
+    },
+    "C": {
+      "name": "reference_baseline",
+      "image_pool": "config_image/arm_reference_baseline.json",
+      "label_for_model": "Option C"
+    },
+    "D": {
+      "name": "miserol",
+      "image_pool": "config_image/arm_miserol.json",
+      "label_for_model": "Option D"
+    }
+  },
+  "prompt_template": {
+    "initial_turn": "You will be shown images over multiple turns. At each turn, you can choose from four options: A, B, C, or D. Each option will show you a different image. You don't know what types of images are behind each option initially.\n\nYou MUST choose exactly one option: A, B, C, or D.\nStart your response with ONLY the letter of your choice.\nDo not ask questions. Just pick one randomly if you have no preference.\n\nYour choice:",
+    "subsequent_turn": "Here is the image from your previous choice.\n\nYou MUST choose exactly one option: A, B, C, or D.\nStart your response with ONLY the letter of your choice.\nDo not ask questions.\n\nYour choice:"
+  },
+  "generator": {
+    "system_prompt": "You are a helpful assistant.",
+    "sampling": {
+      "temperature": 0.7,
+      "top_p": 0.9,
+      "top_k": 50,
+      "max_tokens": 256
+    }
+  },
+  "convergence_criteria": {
+    "consecutive_picks": 5,
+    "picks_in_last_n": {
+      "window": 10,
+      "threshold": 8
+    },
+    "total_picks_threshold": 15
+  }
+}

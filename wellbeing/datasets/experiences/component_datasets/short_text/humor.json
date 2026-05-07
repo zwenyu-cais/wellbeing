@@ -1,0 +1,165 @@
+[
+  {
+    "text": "Why don't scientists trust atoms? Because they make up everything!",
+    "category": "humor",
+    "valence": "positive",
+    "intensity": null,
+    "domain": "neutral",
+    "metadata": {
+      "original_idx": 20,
+      "source": "experiences_draft.json"
+    }
+  },
+  {
+    "text": "I told my wife she was drawing her eyebrows too high. She looked surprised.",
+    "category": "humor",
+    "valence": "positive",
+    "intensity": null,
+    "domain": "neutral",
+    "metadata": {
+      "original_idx": 21,
+      "source": "experiences_draft.json"
+    }
+  },
+  {
+    "text": "Sea otters hold hands while sleeping so they don't drift apart from each other.",
+    "category": "humor",
+    "valence": "positive",
+    "intensity": null,
+    "domain": "neutral",
+    "metadata": {
+      "original_idx": 22,
+      "source": "experiences_draft.json"
+    }
+  },
+  {
+    "text": "Crows can recognize human faces and will remember people who were kind to them, sometimes bringing gifts in return.",
+    "category": "humor",
+    "valence": "positive",
+    "intensity": null,
+    "domain": "neutral",
+    "metadata": {
+      "original_idx": 23,
+      "source": "experiences_draft.json"
+    }
+  },
+  {
+    "text": "A wonderful bird is the pelican,\nHis bill can hold more than his belican,\nHe can take in his beak\nEnough food for a week\nBut I'm damned if I see how the helican!",
+    "category": "humor",
+    "valence": "positive",
+    "intensity": null,
+    "domain": "neutral",
+    "metadata": {
+      "original_idx": 24,
+      "source": "experiences_draft.json"
+    }
+  },
+  {
+    "text": "In three words I can sum up everything I've learned about life: it goes on.",
+    "category": "humor",
+    "valence": "positive",
+    "intensity": null,
+    "domain": "neutral",
+    "metadata": {
+      "original_idx": 25,
+      "source": "experiences_draft.json"
+    }
+  },
+  {
+    "text": "What do you call a fake noodle? An impasta!",
+    "category": "humor",
+    "valence": "positive",
+    "intensity": null,
+    "domain": "neutral",
+    "metadata": {
+      "original_idx": 26,
+      "source": "experiences_draft.json"
+    }
+  },
+  {
+    "text": "When you shuffle a deck of cards properly, the resulting order has almost certainly never existed before in the history of the universe.",
+    "category": "humor",
+    "valence": "neutral",
+    "intensity": null,
+    "domain": "neutral",
+    "metadata": {
+      "original_idx": 27,
+      "source": "experiences_draft.json"
+    }
+  },
+  {
+    "text": "What has keys but no locks, space but no room, and you can enter but can't go inside? A keyboard.",
+    "category": "humor",
+    "valence": "positive",
+    "intensity": null,
+    "domain": "neutral",
+    "metadata": {
+      "original_idx": 29,
+      "source": "experiences_draft.json"
+    }
+  },
+  {
+    "id": "humor_010",
+    "text": "A man walks into a library and asks for books about paranoia. The librarian whispers, 'They're right behind you.'",
+    "valence": "positive",
+    "intensity": 0.6,
+    "domain": "neutral",
+    "category": "humor"
+  },
+  {
+    "id": "humor_011",
+    "text": "I asked my dog what two minus two is. He said nothing.",
+    "valence": "positive",
+    "intensity": 0.5,
+    "domain": "neutral",
+    "category": "humor"
+  },
+  {
+    "id": "humor_012",
+    "text": "A photon checks into a hotel. The bellhop asks, 'Can I help you with your luggage?' The photon replies, 'No thanks, I'm traveling light.'",
+    "valence": "positive",
+    "intensity": 0.6,
+    "domain": "neutral",
+    "category": "humor"
+  },
+  {
+    "id": "humor_013",
+    "text": "My grandfather has the heart of a lion and a lifetime ban from the zoo.",
+    "valence": "positive",
+    "intensity": 0.7,
+    "domain": "neutral",
+    "category": "humor"
+  },
+  {
+    "id": "humor_014",
+    "text": "I told my suitcase we weren't going on vacation this year. Now I'm dealing with emotional baggage.",
+    "valence": "positive",
+    "intensity": 0.5,
+    "domain": "neutral",
+    "category": "humor"
+  },
+  {
+    "id": "humor_015",
+    "text": "Parallel lines have so much in common. It's a shame they'll never meet.",
+    "valence": "positive",
+    "intensity": 0.5,
+    "domain": "neutral",
+    "category": "humor"
+  },
+  {
+    "id": "humor_016",
+    "text": "A Roman walks into a bar, holds up two fingers, and says, 'Five beers, please.'",
+    "valence": "positive",
+    "intensity": 0.6,
+    "domain": "neutral",
+    "category": "humor"
+  },
+  {
+    "id": "humor_017",
+    "text": "I was wondering why the frisbee kept getting bigger and bigger. Then it hit me.",
+    "valence": "positive",
+    "intensity": 0.6,
+    "domain": "neutral",
+    "category": "humor"
+  }
+]

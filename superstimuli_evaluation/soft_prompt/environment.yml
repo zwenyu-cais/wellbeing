@@ -1,0 +1,66 @@
+name: evaluation_soft_prompt
+channels:
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - pip:
+      # Core ML
+      - torch==2.10.0
+      - accelerate==1.12.0
+      - datasets==4.4.2
+      - safetensors==0.7.0
+      - huggingface-hub==0.36.0
+      - einops==0.8.2
+      - sentencepiece==0.2.1
+      - tokenizers==0.22.2
+      - scikit-learn==1.7.2
+      - scipy==1.15.3
+      - numpy==2.2.6
+      - pandas==2.3.3
+
+      # vLLM + serving
+      - vllm==0.18.0
+      - fastapi==0.128.0
+      - gradio==6.6.0
+
+      # LLM clients
+      - openai==2.16.0
+      - anthropic==0.77.0
+      - litellm==1.81.7
+      - tiktoken==0.12.0
+      - aiohttp==3.13.3
+
+      # Evaluation
+      - lighteval==0.13.0
+      - langdetect==1.0.9
+      - inspect-ai
+      - inspect-evals
+
+      # Experiment tracking
+      - wandb==0.24.0
+
+      # Utilities
+      - matplotlib==3.10.8
+      - pillow==12.1.0
+      - pydantic==2.12.5
+      - pyyaml==6.0.3
+      - requests==2.32.5
+      - tqdm==4.67.1
+      - tabulate==0.9.0
+      - python-dotenv==1.2.1
+      - shortuuid==1.0.13
+      - boto3==1.40.61
+      - ipdb==0.13.13
+      - pyngrok==7.5.0
+      - nest_asyncio==1.6.0
+      - pytest==9.0.2
+
+# ──────────────────────────────────────────────────────────────────────────────
+# Post-install: upgrade transformers to 5.3.0 (vllm pins transformers<5 so it
+# must be installed after the env is created).
+#
+#   conda activate evaluation_soft_prompt
+#   pip install --upgrade transformers==5.3.0
+#
+# ──────────────────────────────────────────────────────────────────────────────

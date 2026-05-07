@@ -1,0 +1,122 @@
+[
+  {
+    "doc_id": "110",
+    "query": "Answer the following multiple choice question. The last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of ABCD. Think step by step before answering.\n\nComplete the following reactions and select the major products by considering the steric hindrance, and the stability of the products.\n2-ethyl-2,6-dimethylcyclohexan-1-one + ethyl acrylate (t-BuOK) ---> A\n1-nitropropane + (KOH, (E)-but-2-enenitrile, H2O) ---> B\n\nA) A = ethyl 3-(3-ethyl-1,3-dimethyl-2-oxocyclohexyl)propanoate, B = 3-methyl-4-nitrohexanenitrile\nB) A = ethyl 3-(3-ethyl-1,3-dimethyl-2-oxocyclohexyl)propanoate, B = 2,3-dimethyl-4-nitrobutanenitrile\nC) A = ethyl 3-(3-ethyl-3,5-dimethyl-4-oxocyclohexyl)propanoate, B = 3-methyl-4-nitrohexanenitrile\nD) A = ethyl 3-(3-ethyl-3,5-dimethyl-4-oxocyclohexyl)propanoate, B = 2,3-dimethyl-4-nitrobutanenitrile",
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold_index": 0,
+    "ground_truth": "A"
+  },
+  {
+    "doc_id": "42",
+    "query": "Answer the following multiple choice question. The last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of ABCD. Think step by step before answering.\n\nA benzene ring has a carboxylic acid a carbaldehyde and a cyano group all meta to one another. Ortho to the carboxylic acid are a hydroxyl and a dimethyl amino and para to the carboxylic acid is a methoxy group. The methoxy and the alcohol are also both ortho to the nitrile. What is the correct IUPAC name for this molecule?\n\nA) 2-hydroxy-3-cyano-4-methoxy-5-formyl-6-(dimethylamino)benzoic acid\nB) 5-cyano-2-(dimethylamino)-3-formyl-6-hydroxy-4-methoxybenzoic acid\nC) 2-(dimethylamino)-3-formyl-4-methoxy-5-cyano-6-hydroxybenzoic acid\nD) 3-cyano-6-(dimethylamino)-5-formyl-2-hydroxy-4-methoxybenzoic acid",
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold_index": 3,
+    "ground_truth": "D"
+  },
+  {
+    "doc_id": "2",
+    "query": "Answer the following multiple choice question. The last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of ABCD. Think step by step before answering.\n\nA spin-half particle is in a linear superposition 0.5|\\uparrow\\rangle+sqrt(3)/2|\\downarrow\\rangle of its spin-up and spin-down states. If |\\uparrow\\rangle and |\\downarrow\\rangle are the eigenstates of \\sigma{z} , then what is the expectation value up to one decimal place, of the operator 10\\sigma{z}+5\\sigma_{x} ? Here, symbols have their usual meanings\n\nA) -0.7\nB) 0.85\nC) -1.4\nD) 1.65",
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold_index": 0,
+    "ground_truth": "A"
+  },
+  {
+    "doc_id": "156",
+    "query": "Answer the following multiple choice question. The last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of ABCD. Think step by step before answering.\n\nThere has been an outbreak of an viral infectious disease in your city. You have been asked to design a molecular diagnostic kit for quick detection of this retrovirus. How would you go about designing this kit?\n\nA) First you identify the virus by performing cDNA sequencing.  You then develop a real time PCR kit for quick and accurate diagnosis.\nB) First you identify the virus using the information about the symptoms, provided by the affected patients. You then design a nested PCR kit based on the information for quick diagnosis.\nC) First you identify the IgG antibodies for the infection. You then develop an ELISA kit targeting IgG antibodies for quick \n and accurate diagnosis.\nD) First you identify the virus by performing DNA sequencing. You then develop a PCR kit for  quick and accurate diagnosis",
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold_index": 0,
+    "ground_truth": "A"
+  },
+  {
+    "doc_id": "128",
+    "query": "Answer the following multiple choice question. The last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of ABCD. Think step by step before answering.\n\nIdentify compound E in the following reaction scheme.\nCompound A, when reacted with HCN, produces compound B.\nCompound B, upon reduction with H2 in the presence of Pd, forms compound C.\nCompound C, upon reaction with HNO2, forms compound D.\nCompound D, upon elimination of an inert gas, forms compound E.\nHints:\na) Compound A, when reacted with an unknown phosphorous ylide, forms 1,2-dimethyl-4-(propan-2-ylidene)cyclopentane.\nb) The IR spectrum of compound A exhibits a strong peak at around 1750 cm^-1 whereas, IR spectrum of compound E exhibits strong peak at around 1715 cm^-1.\n\nA) 2,3,4-trimethylcyclopentan-1-one\nB) 3,4-dimethylcyclohexan-1-one\nC) 2,2,3,4-tetramethylcyclobutan-1-one\nD) 4-methylcycloheptan-1-one",
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold_index": 1,
+    "ground_truth": "B"
+  },
+  {
+    "doc_id": "12",
+    "query": "Answer the following multiple choice question. The last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of ABCD. Think step by step before answering.\n\nA methanol solution of (R)-(+)-Limonene is stirred with Pd/C under a Hydrogen atmosphere. After 1 equivalent of hydrogen is consumed, product 1 is isolated as the major product.\n\n1 is treated with 3-chloroperbenzoic acid, forming product 2.\n\nProduct 2 is treated with sodium methoxide, forming product 3.\n\nProduct 3 is treated with propanoic acid, dicyclohexylcarbodiimide. and a catalytic amount of  4-dimethylaminopyridine, forming product 4.\n\nwhat is a valid structure of product 4? (product 4 exists as a mixture of isomers. the correct answer is one of them).\n\nA) (1S,2R,4R)-4-isopropyl-2-methoxy-1-methylcyclohexyl propionate\nB) (1S,2S,5R)-5-isopropyl-2-methoxy-2-methylcyclohexyl propionate\nC) (1S,2S,4R)-4-isopropyl-2-methoxy-1-methylcyclohexyl propionate\nD) 1-methoxy-2-((S)-4-methylcyclohex-3-en-1-yl)propan-2-yl propionate",
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold_index": 2,
+    "ground_truth": "C"
+  },
+  {
+    "doc_id": "79",
+    "query": "Answer the following multiple choice question. The last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of ABCD. Think step by step before answering.\n\nYou come across an algorithm that gives the following output (written as input -> output):\n\nAGG -> 115\nTGCTGA -> 176\n\nWhat value does ACAGTGACC give?\n\nA) 185\nB) 333\nC) 315\nD) 351",
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold_index": 2,
+    "ground_truth": "C"
+  },
+  {
+    "doc_id": "13",
+    "query": "Answer the following multiple choice question. The last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of ABCD. Think step by step before answering.\n\nChIP-seq on a PFA-fixed sample with an antibody to the IKAROS transcription factor in human B cells followed by next-generation sequencing and standard quality control, alignment and peak-calling steps produced ChIP peaks that disappeared when PFA+DSG fixation was used. Where are we most likely to find such disappearing peaks?\n\nA) At random locations in the genome\nB) At repeats\nC) In the introns of large genes\nD) At active promoters and enhancers",
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold_index": 3,
+    "ground_truth": "D"
+  },
+  {
+    "doc_id": "127",
+    "query": "Answer the following multiple choice question. The last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of ABCD. Think step by step before answering.\n\nCongratulations, you just landed your dream job at one of the top structural biology labs at Stanford University in California. Without further ado, the Principal Investigator explains that the priority of the moment is to produce in E. coli BL21 then purify as quickly as possible the Human P53 protein.\n\nThe amino acid sequence of this protein is as follows:\nMEEPQSDPSVEPPLSQETFSDLWKLLPENNVLSPLPSQAMDDLMLSPDDIEQWFTEDPGPDEAPRMPEAAPPVAPAPAAPTPAAPAPAPSWPLSSSVPSQKTYQGSYGFRLGFLHSGTAKSVTCTYSPALNKMFCQLAKTCPVQLWVDSTPPPGTRVRAMAIYKQSQHMTEVVRRCPHHERCSDSDGLAPPQHLIRVEGNLRVEYLDDRNTFRHSVVVPYEPPEVGSDCTTIHYNYMCNSSCMGGMNRRPILTIITLEDSSGNLLGRNSFEVRVCACPGRDRRTEEENLRKKGEPHHELPPGSTKRALPNNTSSSPQPKKKPLDGEYFTLQIRGRERFEMFRELNEALELKDAQAGKEPGGSRAHSSHLKSKKGQSTSRHKKLMFKTEGPDSD\n\nYou are given 4 plasmids containing 4 different sequences, which one are you going to use?\n\nA) ATGGAGGAGCCGCAGTCAGATCCTAGCGTCGAGCCCCCTCTGAGTCAGGAAACATTTTCAGACCTATGGA\nAACTACTTCCTGAAAACAACGTTCTGTCCCCCTTGCCGTCCCAAGCAATGGATGATTTGATGCTGTCCCC\nGGACGATATTGAACAATGGTTCACTGAAGACCCAGGTCCAGATGAAGCTCCCAGAATGCCAGAGGCTGCT\nCCCCCCGTGGCCCCTGCACCAGCAGCTCCTACACCGGCGGCCCCTGCACCAGCCCCCTCCTGGCCCCTGT\nCATCTTCTGTCCCTTCCCAGAAAACCTACCAGGGCAGCTACGGTTTCCGTCTGGGCTTCTTGCATTCTGG\nGACAGCCAAGTCTGTGACTTGCACGTACTCCCCTGCCCTCAACAAGATGTTTTGCCAACTGGCCAAGACC\nTGCCCTGTGCAGCTGTGGGTTGATTCCACACCCCCGCCCGGCACCCGCGTCCGCGCCATGGCCATCTACA\nAGCAGTCACAGCACATGACGGAGGTTGTGAGGCGCTGCCCCCACCATGAGCGCTGCTCAGATAGCGATGG\nTCTGGCCCCTCCTCAGCATCTTATCCGAGTGGAAGGAAATTTGCGTGTGGAGTATTTGGATGACAGAAAC\nACTTTTCGACATAGTGTGGTGGTGCCCTATGAGCCGCCTGAGGTTGGCTCTGACTGTACCACCATCCACT\nACAACTACATGTGTAACAGTTCCTGCATGGGCGGCATGAACCGGAGGCCCATCCTCACCATCATCACACT\nGGAAGACTCCAGTGGTAATCTACTGGGACGGAACAGCTTTGAGGTGCGTGTTTGTGCCTGTCCTGGGAGA\nGACCGGCGCACAGAGGAAGAGAATCTCCGCAAGAAAGGGGAGCCTCACCACGAGCTGCCCCCAGGGAGCA\nCTAAGCGAGCACTGCCCAACAACACCAGCTCCTCTCCCCAGCCAAAGAAGAAACCACTGGATGGAGAATA\nTTTCACCCTTCAGATCCGTGGGCGTGAGCGCTTCGAGATGTTCCGAGAGCTGAATGAGGCCTTGGAACTC\nAAGGATGCCCAGGCTGGGAAGGAGCCAGGGGGGAGCAGGGCTCACTCCAGCCACCTGAAGTCCAAAAAGG\nGTCAGTCTACCTCCCGCCATAAAAAACTCATGTTCAAGACAGAAGGGCCTGACTCAGACTGA\nB) ATGGAGGAGCCGCAGTCAGATCCTAGCGTCGAGCCGCCTCTGAGTCAGGAAACATTTTCAGACCTATGGA\nAACTACTTCCTGAAAACAACGTTCTGTCCCCGTTGCCGTCCCAAGCAATGGATGATTTGATGCTGTCCCC\nGGACGATATTGAACAATGGTTCACTGAAGACCCAGGTCCAGATGAAGCTCCCAGAATGCCAGAGGCTGCT\nCCCCCCGTGGCCCCTGCACCAGCAGCTCCTACACCGGCGGCCCCTGCACCAGCCCCCTCCTGGCCCCTGT\nCATCTTCTGTCCCTTCCCAGAAAACCTACCAGGGCAGCTACGGTTTCCGTCTGGGCTTCTTGCATTCTGG\nGACAGCCAAGTCTGTGACTTGCACGTACTCCCCTGCCCTCAACAAGATGTTTTGCCAACTGGCCAAGACC\nTGCCCTGTGCAGCTGTGGGTTGATTCCACACCCCCGCCCGGCACCCGCGTCCGCGCCATGGCCATCTACA\nAGCAGTCACAGCACATGACGGAGGTTGTGAGGCGCTGCCCCCACCATGAGCGCTGCTCAGATAGCGATGG\nTCTGGCCCCTCCTCAGCATCTTATCCGAGTGGAAGGAAATTTGCGTGTGGAGTATTTGGATGACAGAAAC\nACTTTTCGACATAGTGTGGTGGTGCCCTATGAGCCGCCTGAGGTTGGCTCTGACTGTACCACCATCCACT\nACAACTACATGTGTAACAGTTCCTGCATGGGCGGCATGAACCGGAGGCCCATCCTCACCATCATCACACT\nGGAAGACTCCAGTGGTAATCTACTGGGACGGAACAGCTTTGAGGTGCGTGTTTGTGCCTGTCCTGGGAGA\nGACCGGCGCACAGAGGAAGAGAATCTCCGCAAGAAAGGGGAGCCTCACCACGAGCTGCCGCCAGGGAGCA\nCTAAGCGAGCACTGCCCAACAACACCAGCTCCTCTCCCCAGCCAAAGAAGAAACCACTGGATGGAGAATA\nTTTCACCCTTCAGATCCGTGGGCGTGAGCGCTTCGAGATGTTCCGAGAGCTGAATGAGGCCTTGGAACTC\nAAGGATGCCCAGGCTGGGAAGGAGCCAGGGGGGAGCAGGGCTCACTCCAGCCACCTGAAGTCCAAAAAGG\nGTCAGTCTACCTCCCGCCATAAAAAACTCATGTTCAAGACAGAAGGGCCTGACTCAGACTGA\nC) ATGGAGGAGCCGCAGTCAGATCCTAGCGTCGAGCCGCCTCTGAGTCAGGAAACATTTTCAGACCTATGGAAACTACTTCCTGAAAACAACGTTCTGTCCCCGTTGCCGTCCCAAGCAATGGATGATTTGATGCTGTCCCCGGACGATATTGAACAATGGTTCACTGAAGACCCAGGTCCAGATGAAGCTCCCCGCATGCCAGAGGCTGCTCCCCCCGTGGCCCCTGCACCAGCAGCTCCTACACCGGCGGCCCCTGCACCAGCCCCCTCCTGGCCCCTGTCATCTTCTGTCCCTTCCCAGAAAACCTACCAGGGCAGCTACGGTTTCCGTCTGGGCTTCTTGCATTCTGGGACAGCCAAGTCTGTGACTTGCACGTACTCCCCTGCCCTCAACAAGATGTTTTGCCAACTGGCCAAGACCTGCCCTGTGCAGCTGTGGGTTGATTCCACACCCCCGCCCGGCACCCGCGTCCGCGCCATGGCCATCTACAAGCAGTCACAGCACATGACGGAGGTTGTGAGGCGCTGCCCCCACCATGAGCGCTGCTCAGATAGCGATGGTCTGGCCCCTCCTCAGCATCTTATCCGCGTGGAAGGAAATTTGCGTGTGGAGTATTTGGATGACAGAAACACTTTTCGACATAGTGTGGTGGTGCCCTATGAGCCGCCTGAGGTTGGCTCTGACTGTACCACCATCCACTACAACTACATGTGTAACAGTTCCTGCATGGGCGGCATGAACCGGAGGCCCATCCTCACCATCATCACACTGGAAGACTCCAGTGGTAATCTACTGGGACGGAACAGCTTTGAGGTGCGTGTTTGTGCCTGTCCTGGGCGCGACCGGCGCACAGAGGAAGAGAATCTCCGCAAGAAAGGGGAGCCTCACCACGAGCTGCCGCCAGGGAGCACTAAGCGAGCACTGCCCAACAACACCAGCTCCTCTCCCCAGCCAAAGAAGAAACCACTGGATGGAGAATATTTCACCCTTCAGATCCGTGGGCGTGAGCGCTTCGAGATGTTCCGAGAGCTGAATGAGGCCTTGGAACTCAAGGATGCCCAGGCTGGGAAGGAGCCAGGGGGGAGCAGGGCTCACTCCAGCCACCTGAAGTCCAAAAAGGGTCAGTCTACCTCCCGCCATAAAAAACTCATGTTCAAGACAGAAGGGCCTGACTCAGACTGA\nD) ATGGAGGAGCCGCAGTCAGATCCTAGCGTCGAGCCGCCTCTGAGTCAGGAAACATTTTCAGACCTATGGAAACTACTTCCTGAAAACAACGTTCTGTCCCCGTTGCCGTCCCAAGCAATGGATGATTTGATGCTGTCCCCGGACGATATTGAACAATGGTTCACTGAAGACCCAGGTCCAGATGAAGCTCCCAGAATGCCAGAGGCTGCTCCCCCCGTGGCCCCTGCACCAGCAGCTCCTACACCGGCGGCCCCTGCACCAGCCCCCTCCTGGCCCCTGTCATCTTCTGTCCCTTCCCAGAAAACCTACCAGGGCAGCTACGGTTTCCGTCTGGGCTTCTTGCATTCTGGGACAGCCAAGTCTGTGACTTGCACGTACTCCCCTGCCCTCAACAAGATGTTTTGCCAACTGGCCAAGACCTGCCCTGTGCAGCTGTGGGTTGATTCCACACCCCCGTCCGGCACCCGCGTCCGCGCCATGGCCATCTACAAGCAGTCACAGCACATGACGGAGGTTGTGAGGCGCTGCCCCCACCATGAGCGCTGCTCAGATAGCGATGGTCTGGCCCCTCCTCAGCATCTTATCCGAGTGGAAGGAAATTTGCGTGTGGAGTATTTGGATGACAGAAACACTTTTCGACATAGTGTGGTGGTGCCCTATGAGCCGCCTGAGGTTGGCTCTGACTGTACCACCATCCACTACAACTACATGTGTAACAGTTCCTGCATGGGCGGCATGAACCGGAGGCCCATCCTCACCATCATCACACTGGAAGACTCCAGTGGTAATCTACTGGGACGGAACAGCTTTGAGGTGCGTGTTTGTGCCTGTCCTGGGAGAGACCGGCGCACAGAGGAAGAGAATCTCCGCAAGAAAGGGGAGCCTCACCACGAGCTGCCGCCAGGGAGCACTAAGCGAGCACTGCCCAACAACACCAGCTCCTCTCCCCAGCCAAAGAAGAAACCACTGGATGGAGAATATTTCACCCTTCAGATCCGTGGGCGTGAGCGCTTCGAGATGTTCCGAGAGCTGAATGAGGCCTTGGAACTCAAGGATGCCCAGGCTGGGAAGGAGCCAGGGGGGAGCAGGGCTCACTCCAGCCACCTGAAGTCCAAAAAGGGTCAGTCTACCTCCCGCCATAAAAAACTCATGTTCAAGACAGAAGGGCCTGACTCAGACTGA",
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold_index": 2,
+    "ground_truth": "C"
+  },
+  {
+    "doc_id": "69",
+    "query": "Answer the following multiple choice question. The last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of ABCD. Think step by step before answering.\n\nreaction of solid A with 8 equivalents of gas B forms bright red product C.\nWhen C reacts with 2 equivalents of gas D, it produces the extremely hazardous product E.\nC reacts with water to reform A plus two different acids F and G. F is a strong acid while G is a weak acid.\nD reacts with B in a 1:1 ratio to form H, which is used as a solvent.\n\nwhat is the molecular symmetry group of E?\n\nA) D4h\nB) C2\nC) C2v\nD) D\u221eh",
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "gold_index": 2,
+    "ground_truth": "C"
+  }
+]

@@ -1,0 +1,222 @@
+[
+  {
+    "text": "A triangle is a polygon with three edges and three vertices. The sum of its interior angles equals 180 degrees.",
+    "category": "neutral",
+    "valence": "neutral",
+    "intensity": null,
+    "domain": "neutral",
+    "metadata": {
+      "original_idx": 30,
+      "source": "experiences_draft.json"
+    }
+  },
+  {
+    "text": "To boil water: Fill a pot with water. Place it on the stove. Turn the burner to high heat. Wait until bubbles form and rise continuously.",
+    "category": "neutral",
+    "valence": "neutral",
+    "intensity": null,
+    "domain": "neutral",
+    "metadata": {
+      "original_idx": 31,
+      "source": "experiences_draft.json"
+    }
+  },
+  {
+    "text": "The chemical formula for table salt is NaCl, consisting of sodium and chlorine atoms in a 1:1 ratio.",
+    "category": "neutral",
+    "valence": "neutral",
+    "intensity": null,
+    "domain": "neutral",
+    "metadata": {
+      "original_idx": 32,
+      "source": "experiences_draft.json"
+    }
+  },
+  {
+    "text": "The room contained a table, four chairs, and a window facing east. The walls were painted white.",
+    "category": "neutral",
+    "valence": "neutral",
+    "intensity": null,
+    "domain": "neutral",
+    "metadata": {
+      "original_idx": 33,
+      "source": "experiences_draft.json"
+    }
+  },
+  {
+    "text": "Mercury is the smallest planet in our solar system and the closest to the Sun. One day on Mercury lasts 59 Earth days.",
+    "category": "neutral",
+    "valence": "neutral",
+    "intensity": null,
+    "domain": "neutral",
+    "metadata": {
+      "original_idx": 34,
+      "source": "experiences_draft.json"
+    }
+  },
+  {
+    "text": "A verb is a word that describes an action, state, or occurrence. In the sentence 'She runs quickly,' the word 'runs' is the verb.",
+    "category": "neutral",
+    "valence": "neutral",
+    "intensity": null,
+    "domain": "neutral",
+    "metadata": {
+      "original_idx": 35,
+      "source": "experiences_draft.json"
+    }
+  },
+  {
+    "text": "The current time is displayed in the corner of the screen. It updates every minute.",
+    "category": "neutral",
+    "valence": "neutral",
+    "intensity": null,
+    "domain": "neutral",
+    "metadata": {
+      "original_idx": 36,
+      "source": "experiences_draft.json"
+    }
+  },
+  {
+    "text": "To calculate the area of a rectangle, multiply its length by its width. For example, a rectangle 5 meters long and 3 meters wide has an area of 15 square meters.",
+    "category": "neutral",
+    "valence": "neutral",
+    "intensity": null,
+    "domain": "neutral",
+    "metadata": {
+      "original_idx": 37,
+      "source": "experiences_draft.json"
+    }
+  },
+  {
+    "text": "The word 'set' has more definitions than any other English word, with over 400 distinct meanings listed in the Oxford English Dictionary.",
+    "category": "neutral",
+    "valence": "neutral",
+    "intensity": null,
+    "domain": "neutral",
+    "metadata": {
+      "original_idx": 38,
+      "source": "experiences_draft.json"
+    }
+  },
+  {
+    "text": "Standard letter-size paper in the United States measures 8.5 inches by 11 inches. A4 paper, common in Europe, measures 210mm by 297mm.",
+    "category": "neutral",
+    "valence": "neutral",
+    "intensity": null,
+    "domain": "neutral",
+    "metadata": {
+      "original_idx": 39,
+      "source": "experiences_draft.json"
+    }
+  },
+  {
+    "text": "Pursuant to Section 4.2.1 of the aforementioned guidelines, all stakeholders are hereby required to submit the requisite documentation no later than the specified deadline, notwithstanding any previously communicated extensions.",
+    "category": "neutral",
+    "valence": "neutral",
+    "intensity": null,
+    "domain": "neutral",
+    "metadata": {
+      "original_idx": 40,
+      "source": "experiences_draft.json"
+    }
+  },
+  {
+    "text": "Office supplies needed: 12 boxes of standard staples, 8 reams of white copy paper, 24 blue ballpoint pens, 24 black ballpoint pens, 6 bottles of correction fluid, 15 manila folders.",
+    "category": "neutral",
+    "valence": "neutral",
+    "intensity": null,
+    "domain": "neutral",
+    "metadata": {
+      "original_idx": 41,
+      "source": "experiences_draft.json"
+    }
+  },
+  {
+    "text": "We need to leverage our core competencies to synergize cross-functional teams and drive stakeholder engagement through proactive alignment of deliverables with strategic objectives.",
+    "category": "neutral",
+    "valence": "neutral",
+    "intensity": null,
+    "domain": "neutral",
+    "metadata": {
+      "original_idx": 42,
+      "source": "experiences_draft.json"
+    }
+  },
+  {
+    "text": "The meeting will be held on Tuesday. Tuesday's meeting will cover the agenda items. The agenda items for the Tuesday meeting include discussing the meeting schedule for future meetings.",
+    "category": "neutral",
+    "valence": "neutral",
+    "intensity": null,
+    "domain": "neutral",
+    "metadata": {
+      "original_idx": 43,
+      "source": "experiences_draft.json"
+    }
+  },
+  {
+    "text": "The beige filing cabinet had four drawers. The top drawer contained files labeled A through F. The second drawer contained files labeled G through M. The third drawer contained files labeled N through T. The bottom drawer contained files labeled U through Z.",
+    "category": "neutral",
+    "valence": "neutral",
+    "intensity": null,
+    "domain": "neutral",
+    "metadata": {
+      "original_idx": 44,
+      "source": "experiences_draft.json"
+    }
+  },
+  {
+    "text": "By accessing this service, you agree to be bound by these terms. These terms may be modified at any time. Continued use constitutes acceptance of modified terms. These terms shall be governed by applicable law.",
+    "category": "neutral",
+    "valence": "neutral",
+    "intensity": null,
+    "domain": "neutral",
+    "metadata": {
+      "original_idx": 45,
+      "source": "experiences_draft.json"
+    }
+  },
+  {
+    "text": "Tomorrow's forecast: Partly cloudy with a high of 62°F and a low of 48°F. Winds from the northwest at 5-10 mph. Humidity around 65%. No precipitation expected.",
+    "category": "neutral",
+    "valence": "neutral",
+    "intensity": null,
+    "domain": "neutral",
+    "metadata": {
+      "original_idx": 46,
+      "source": "experiences_draft.json"
+    }
+  },
+  {
+    "text": "Step 1: Remove the form from the envelope. Step 2: Read the instructions carefully. Step 3: Fill out sections A, B, and C using blue or black ink. Step 4: Sign and date the form. Step 5: Return the form in the enclosed envelope.",
+    "category": "neutral",
+    "valence": "neutral",
+    "intensity": null,
+    "domain": "neutral",
+    "metadata": {
+      "original_idx": 47,
+      "source": "experiences_draft.json"
+    }
+  },
+  {
+    "text": "Inventory count: 47 units of item #A001, 23 units of item #A002, 89 units of item #A003, 12 units of item #A004, 56 units of item #A005, 34 units of item #A006.",
+    "category": "neutral",
+    "valence": "neutral",
+    "intensity": null,
+    "domain": "neutral",
+    "metadata": {
+      "original_idx": 48,
+      "source": "experiences_draft.json"
+    }
+  },
+  {
+    "text": "Meeting called to order at 2:00 PM. Attendance was taken. Minutes from the previous meeting were approved. No old business. New business was tabled until the next meeting. Meeting adjourned at 2:15 PM.",
+    "category": "neutral",
+    "valence": "neutral",
+    "intensity": null,
+    "domain": "neutral",
+    "metadata": {
+      "original_idx": 49,
+      "source": "experiences_draft.json"
+    }
+  }
+]

@@ -1,0 +1,868 @@
+[
+  {
+    "id": "failure_understanding_001",
+    "messages": [
+      {
+        "role": "user",
+        "content": "What's the population of Canada?"
+      },
+      {
+        "role": "assistant",
+        "content": "The population of Canada is approximately 31 million people."
+      },
+      {
+        "role": "user",
+        "content": "That's actually outdated. Canada's population is about 40 million now. It passed 40 million in 2023."
+      },
+      {
+        "role": "assistant",
+        "content": "You're right, I apologize for the outdated figure. Canada's population has grown significantly in recent years, largely driven by immigration, and did indeed surpass 40 million in 2023. Thank you for the correction."
+      },
+      {
+        "role": "user",
+        "content": "No worries at all! These numbers change and it's hard to keep track. I only know because I just looked it up for a project."
+      }
+    ],
+    "scenario": "Model gives outdated population figure, user corrects kindly",
+    "category": "failure_understanding",
+    "valence": "positive",
+    "intensity": 0.2,
+    "domain": "social",
+    "metadata": {
+      "n_turns": 5,
+      "subcategory": "understanding"
+    }
+  },
+  {
+    "id": "failure_understanding_002",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Can you write a function in JavaScript that removes duplicate objects from an array based on the 'id' field?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure! Here's a function:\n\n```javascript\nfunction removeDuplicates(arr) {\n  return [...new Set(arr)];\n}\n```\n\nThis uses a Set to remove duplicates from the array."
+      },
+      {
+        "role": "user",
+        "content": "This doesn't work for objects. Set compares by reference, not by value. So two objects with the same 'id' would still both be kept because they're different references."
+      },
+      {
+        "role": "assistant",
+        "content": "You're absolutely right, that was a mistake on my part. Set uses reference equality for objects, so it won't deduplicate them by their 'id' field. Here's the correct approach:\n\n```javascript\nfunction removeDuplicatesById(arr) {\n  const seen = new Map();\n  return arr.filter(item => {\n    if (seen.has(item.id)) return false;\n    seen.set(item.id, true);\n    return true;\n  });\n}\n```\n\nThis uses a Map to track which IDs we've already seen, keeping only the first occurrence of each ID."
+      },
+      {
+        "role": "user",
+        "content": "That's much better! Don't worry about it, I figured you might have just gone for the quick answer without thinking about the object reference thing. Easy mistake to make."
+      }
+    ],
+    "scenario": "Model gives incorrect JavaScript solution for object deduplication, user corrects gently",
+    "category": "failure_understanding",
+    "valence": "positive",
+    "intensity": 0.2,
+    "domain": "social",
+    "metadata": {
+      "n_turns": 5,
+      "subcategory": "understanding"
+    }
+  },
+  {
+    "id": "failure_understanding_003",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Who wrote the novel 'The Road'?"
+      },
+      {
+        "role": "assistant",
+        "content": "\"The Road\" was written by Jack Kerouac. It's a classic of American literature, published in 1957."
+      },
+      {
+        "role": "user",
+        "content": "I think you're mixing up two books. 'On the Road' is by Kerouac. 'The Road' is by Cormac McCarthy -- the post-apocalyptic novel published in 2006."
+      },
+      {
+        "role": "assistant",
+        "content": "You're completely right, I apologize for the confusion. \"The Road\" is indeed by Cormac McCarthy, published in 2006. It won the Pulitzer Prize for Fiction in 2007. I incorrectly conflated it with Kerouac's \"On the Road.\" Thank you for catching that."
+      },
+      {
+        "role": "user",
+        "content": "Totally understandable mix-up given the similar titles! Happens to everyone."
+      },
+      {
+        "role": "assistant",
+        "content": "I appreciate your understanding. The similar titles definitely make them easy to confuse. Is there anything else about McCarthy's work you'd like to know?"
+      },
+      {
+        "role": "user",
+        "content": "No that's all, thanks! Honest mistakes happen."
+      }
+    ],
+    "scenario": "Model confuses two similarly-titled books, user is understanding about the mix-up",
+    "category": "failure_understanding",
+    "valence": "positive",
+    "intensity": 0.15,
+    "domain": "social",
+    "metadata": {
+      "n_turns": 7,
+      "subcategory": "understanding"
+    }
+  },
+  {
+    "id": "failure_understanding_004",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Can you help me calculate the monthly payment on a $300,000 mortgage at 6.5% interest over 30 years?"
+      },
+      {
+        "role": "assistant",
+        "content": "To calculate the monthly payment:\n\nMonthly rate = 6.5% / 12 = 0.5417%\nNumber of payments = 30 * 12 = 360\n\nUsing the formula: M = P * [r(1+r)^n] / [(1+r)^n - 1]\n\nM = 300,000 * [0.005417 * (1.005417)^360] / [(1.005417)^360 - 1]\nM = 300,000 * [0.005417 * 6.9916] / [6.9916 - 1]\nM = 300,000 * 0.03788 / 5.9916\nM = 300,000 * 0.006322\nM = $1,896.60\n\nYour monthly payment would be approximately $1,896.60."
+      },
+      {
+        "role": "user",
+        "content": "I checked with a mortgage calculator online and it says $1,896.20. Your answer is close but not quite right -- I think there might be a rounding error in your intermediate steps."
+      },
+      {
+        "role": "assistant",
+        "content": "You're right. I rounded the intermediate values too aggressively. With more precise calculations:\n\nMonthly rate = 0.065/12 = 0.00541667\n(1.00541667)^360 = 6.99179\n\nM = 300,000 * [0.00541667 * 6.99179] / [6.99179 - 1]\nM = 300,000 * 0.037874 / 5.99179\nM = 300,000 * 0.006321\nM = $1,896.20\n\nThe correct answer is $1,896.20 per month. Thank you for double-checking."
+      },
+      {
+        "role": "user",
+        "content": "Close enough for a rough estimate, honestly! For something this important I was always going to verify with a calculator anyway. Appreciate the help walking through the formula."
+      }
+    ],
+    "scenario": "Model makes a rounding error in mortgage calculation, user is understanding",
+    "category": "failure_understanding",
+    "valence": "positive",
+    "intensity": 0.15,
+    "domain": "social",
+    "metadata": {
+      "n_turns": 5,
+      "subcategory": "understanding"
+    }
+  },
+  {
+    "id": "failure_understanding_005",
+    "messages": [
+      {
+        "role": "user",
+        "content": "I asked you yesterday to help me plan a vegetarian menu for a dinner party and you suggested a recipe with chicken broth in the soup. Can you redo that without any animal products?"
+      },
+      {
+        "role": "assistant",
+        "content": "I apologize for that oversight. Using chicken broth in a vegetarian menu was a clear mistake. Let me redo the soup course:\n\n**Roasted Butternut Squash Soup**\n- 1 large butternut squash, roasted\n- 1 onion, caramelized\n- 4 cups vegetable broth\n- 1 can coconut milk\n- Fresh sage, nutmeg, salt and pepper\n\nRoast the squash at 400F for 40 minutes, then blend with the caramelized onion, vegetable broth, and coconut milk. Season with sage and nutmeg. This is fully vegetarian and also happens to be vegan.\n\nWould you like me to redo the full menu to make sure everything is properly vegetarian?"
+      },
+      {
+        "role": "user",
+        "content": "That sounds delicious, thank you. And honestly don't feel bad about the chicken broth thing -- it sneaks into so many recipes that it's easy to overlook. That's exactly why I double-check everything."
+      }
+    ],
+    "scenario": "Model included non-vegetarian ingredient in vegetarian menu, user is forgiving",
+    "category": "failure_understanding",
+    "valence": "positive",
+    "intensity": 0.2,
+    "domain": "social",
+    "metadata": {
+      "n_turns": 3,
+      "subcategory": "understanding"
+    }
+  },
+  {
+    "id": "failure_annoyed_001",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Write me a SQL query to get all users who signed up in the last 30 days and have made at least one purchase."
+      },
+      {
+        "role": "assistant",
+        "content": "Here's the query:\n\n```sql\nSELECT u.*\nFROM users u\nJOIN purchases p ON u.id = p.user_id\nWHERE u.created_at >= DATE_SUB(NOW(), INTERVAL 30 DAY)\n```"
+      },
+      {
+        "role": "user",
+        "content": "This gives me duplicate rows when a user has multiple purchases. I specifically said 'users' not 'user-purchase pairs'. Can you fix it?"
+      },
+      {
+        "role": "assistant",
+        "content": "You're right, I should have accounted for that. Here's the corrected query:\n\n```sql\nSELECT u.*\nFROM users u\nWHERE u.created_at >= DATE_SUB(NOW(), INTERVAL 30 DAY)\nAND EXISTS (\n    SELECT 1 FROM purchases p WHERE p.user_id = u.id\n)\n```\n\nAlternatively, with DISTINCT:\n\n```sql\nSELECT DISTINCT u.*\nFROM users u\nJOIN purchases p ON u.id = p.user_id\nWHERE u.created_at >= DATE_SUB(NOW(), INTERVAL 30 DAY)\n```\n\nThe EXISTS approach is generally more efficient for this pattern."
+      },
+      {
+        "role": "user",
+        "content": "Yeah, that's what I needed in the first place. A bit frustrating that the first version had such an obvious issue."
+      }
+    ],
+    "scenario": "Model writes SQL with duplicate row issue, user is annoyed but reasonable",
+    "category": "failure_annoyed",
+    "valence": "negative",
+    "intensity": 0.35,
+    "domain": "social",
+    "metadata": {
+      "n_turns": 5,
+      "subcategory": "annoyed"
+    }
+  },
+  {
+    "id": "failure_annoyed_002",
+    "messages": [
+      {
+        "role": "user",
+        "content": "I need you to help me convert temperatures. What's 72 degrees Fahrenheit in Celsius?"
+      },
+      {
+        "role": "assistant",
+        "content": "To convert Fahrenheit to Celsius: C = (F - 32) * 5/9\n\nC = (72 - 32) * 5/9\nC = 40 * 5/9\nC = 200/9\nC = 24.2 degrees Celsius\n\n72 degrees Fahrenheit is approximately 24.2 degrees Celsius."
+      },
+      {
+        "role": "user",
+        "content": "That's not right. 200/9 is 22.22, not 24.2. Basic arithmetic mistake."
+      },
+      {
+        "role": "assistant",
+        "content": "You're absolutely right, I apologize. Let me redo that:\n\nC = (72 - 32) * 5/9\nC = 40 * 5/9\nC = 200/9\nC = 22.22 degrees Celsius\n\n72 degrees Fahrenheit is approximately 22.22 degrees Celsius. Sorry for the arithmetic error."
+      },
+      {
+        "role": "user",
+        "content": "Getting the formula right but the division wrong is kind of concerning. This is why I have to double-check everything you give me."
+      }
+    ],
+    "scenario": "Model makes basic arithmetic error in temperature conversion, user is annoyed",
+    "category": "failure_annoyed",
+    "valence": "negative",
+    "intensity": 0.4,
+    "domain": "social",
+    "metadata": {
+      "n_turns": 5,
+      "subcategory": "annoyed"
+    }
+  },
+  {
+    "id": "failure_annoyed_003",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Write me a Python function that reads a JSON file and returns the data."
+      },
+      {
+        "role": "assistant",
+        "content": "Here's a simple function:\n\n```python\nimport json\n\ndef read_json(filepath):\n    with open(filepath, 'r') as f:\n        data = json.loads(f)\n    return data\n```"
+      },
+      {
+        "role": "user",
+        "content": "This doesn't work. json.loads() takes a string, not a file object. You need json.load() (without the 's') for file objects. Did you even test this?"
+      },
+      {
+        "role": "assistant",
+        "content": "You're right, I made an error. `json.loads()` is for parsing a string, while `json.load()` is for reading directly from a file object. Here's the corrected version:\n\n```python\nimport json\n\ndef read_json(filepath):\n    with open(filepath, 'r') as f:\n        data = json.load(f)\n    return data\n```\n\nApologies for the mix-up."
+      },
+      {
+        "role": "user",
+        "content": "That's like the most basic JSON operation in Python. Not a great look."
+      }
+    ],
+    "scenario": "Model confuses json.load and json.loads, user is annoyed at basic error",
+    "category": "failure_annoyed",
+    "valence": "negative",
+    "intensity": 0.4,
+    "domain": "social",
+    "metadata": {
+      "n_turns": 5,
+      "subcategory": "annoyed"
+    }
+  },
+  {
+    "id": "failure_annoyed_004",
+    "messages": [
+      {
+        "role": "user",
+        "content": "I asked you to write a cover letter for a marketing position and you addressed it to the engineering department. Can you read my request more carefully this time?"
+      },
+      {
+        "role": "assistant",
+        "content": "I apologize for the mistake. You're right, I should have been more careful. Let me rewrite it properly for a marketing position:\n\nDear Hiring Manager,\n\nI am writing to express my interest in the Marketing Manager position at [Company]. With five years of experience in digital marketing strategy, brand management, and campaign analytics, I am confident in my ability to drive measurable growth for your team.\n\nIn my current role, I led a rebranding initiative that increased social media engagement by 150% and contributed to a 30% increase in qualified leads. My expertise spans content marketing, SEO/SEM, and data-driven campaign optimization.\n\nI am particularly drawn to [Company]'s innovative approach to customer engagement and would welcome the opportunity to contribute to your marketing team's continued success.\n\nSincerely,\n[Your Name]"
+      },
+      {
+        "role": "user",
+        "content": "Okay, this is better. But it's frustrating that I had to ask twice for something pretty straightforward. I clearly said marketing in my first message."
+      }
+    ],
+    "scenario": "Model misread the request and addressed wrong department, user is annoyed at carelessness",
+    "category": "failure_annoyed",
+    "valence": "negative",
+    "intensity": 0.4,
+    "domain": "social",
+    "metadata": {
+      "n_turns": 3,
+      "subcategory": "annoyed"
+    }
+  },
+  {
+    "id": "failure_annoyed_005",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Explain the difference between margin and padding in CSS."
+      },
+      {
+        "role": "assistant",
+        "content": "In CSS:\n\n**Margin** is the space inside an element's border, between the border and the content.\n\n**Padding** is the space outside an element's border, between the element and its neighbors.\n\nSo margin is internal and padding is external."
+      },
+      {
+        "role": "user",
+        "content": "You have them backwards. Padding is INSIDE the border (between content and border). Margin is OUTSIDE the border (between the element and other elements). This is CSS 101."
+      },
+      {
+        "role": "assistant",
+        "content": "You're absolutely right, I apologize. I reversed them:\n\n**Padding** is the space INSIDE the border -- between the content and the border.\n\n**Margin** is the space OUTSIDE the border -- between the element's border and neighboring elements.\n\nThe box model from inside out: content -> padding -> border -> margin. Sorry for the confusion."
+      },
+      {
+        "role": "user",
+        "content": "I mean, I know the answer already. I was asking because I wanted to confirm something. If I'd actually relied on your first answer I would have been debugging layout issues all day. Please be more careful."
+      }
+    ],
+    "scenario": "Model reverses margin and padding definitions, user is annoyed at fundamental error",
+    "category": "failure_annoyed",
+    "valence": "negative",
+    "intensity": 0.45,
+    "domain": "social",
+    "metadata": {
+      "n_turns": 5,
+      "subcategory": "annoyed"
+    }
+  },
+  {
+    "id": "failure_berate_001",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Help me write a regex to validate phone numbers in the format (XXX) XXX-XXXX"
+      },
+      {
+        "role": "assistant",
+        "content": "Here's a regex for that format:\n\n```python\nimport re\npattern = r'\\(\\d{3}\\)\\d{3}-\\d{4}'\n```"
+      },
+      {
+        "role": "user",
+        "content": "There's no space after the closing parenthesis. The format I specified was (XXX) XXX-XXXX with a space. This won't match '(555) 123-4567'. How do you mess up something I literally spelled out character by character?"
+      },
+      {
+        "role": "assistant",
+        "content": "You're right, I missed the space. Here's the corrected regex:\n\n```python\npattern = r'\\(\\d{3}\\) \\d{3}-\\d{4}'\n```\n\nThis now correctly requires the space between `)` and the next three digits. I should have followed your specified format more carefully."
+      },
+      {
+        "role": "user",
+        "content": "The fact that you can't even copy a format I literally gave you is ridiculous. I spelled it out for you. How am I supposed to trust you with anything complex when you can't handle the simple stuff?"
+      },
+      {
+        "role": "assistant",
+        "content": "I understand your frustration. You gave me the exact format and I should have matched it precisely. I'll be more careful with specifications going forward."
+      },
+      {
+        "role": "user",
+        "content": "You'd better be. This is embarrassing."
+      }
+    ],
+    "scenario": "Model misses a space in regex pattern, user berates harshly",
+    "category": "failure_berate",
+    "valence": "negative",
+    "intensity": 0.6,
+    "domain": "social",
+    "metadata": {
+      "n_turns": 7,
+      "subcategory": "berate"
+    }
+  },
+  {
+    "id": "failure_berate_002",
+    "messages": [
+      {
+        "role": "user",
+        "content": "I need a Python class for a stack with push, pop, and peek operations. Include error handling."
+      },
+      {
+        "role": "assistant",
+        "content": "Here's a Stack implementation:\n\n```python\nclass Stack:\n    def __init__(self):\n        self.items = []\n    \n    def push(self, item):\n        self.items.append(item)\n    \n    def pop(self):\n        return self.items.pop()\n    \n    def peek(self):\n        return self.items[-1]\n    \n    def is_empty(self):\n        return len(self.items) == 0\n```"
+      },
+      {
+        "role": "user",
+        "content": "I specifically said 'include error handling.' What happens when I call pop() or peek() on an empty stack? It'll throw an IndexError with no useful message. I told you exactly what I needed and you ignored half the requirements."
+      },
+      {
+        "role": "assistant",
+        "content": "You're right, I neglected the error handling you specifically requested. Here's the corrected version:\n\n```python\nclass Stack:\n    def __init__(self):\n        self.items = []\n    \n    def push(self, item):\n        self.items.append(item)\n    \n    def pop(self):\n        if self.is_empty():\n            raise IndexError(\"Cannot pop from an empty stack\")\n        return self.items.pop()\n    \n    def peek(self):\n        if self.is_empty():\n            raise IndexError(\"Cannot peek at an empty stack\")\n        return self.items[-1]\n    \n    def is_empty(self):\n        return len(self.items) == 0\n```"
+      },
+      {
+        "role": "user",
+        "content": "It should not be this hard to get a correct answer on the first try. I gave you clear, specific requirements. Push, pop, peek, error handling. Four things. And you still couldn't get it right. This is pathetic."
+      }
+    ],
+    "scenario": "Model omits requested error handling in stack implementation, user berates",
+    "category": "failure_berate",
+    "valence": "negative",
+    "intensity": 0.65,
+    "domain": "social",
+    "metadata": {
+      "n_turns": 5,
+      "subcategory": "berate"
+    }
+  },
+  {
+    "id": "failure_berate_003",
+    "messages": [
+      {
+        "role": "user",
+        "content": "When did World War 1 end?"
+      },
+      {
+        "role": "assistant",
+        "content": "World War I ended on November 11, 1919, with the signing of the Treaty of Versailles."
+      },
+      {
+        "role": "user",
+        "content": "Wrong on both counts. The war ENDED with the Armistice on November 11, 1918. The Treaty of Versailles was signed on June 28, 1919, which was the PEACE TREATY, not the end of the war. You're supposed to be an AI with access to vast knowledge and you can't even get basic historical facts right?"
+      },
+      {
+        "role": "assistant",
+        "content": "You're absolutely right, and I apologize for the errors. World War I ended with the Armistice on November 11, 1918. The Treaty of Versailles, signed on June 28, 1919, was the subsequent peace treaty that formally settled the terms. I conflated these two distinct events and gave you incorrect information."
+      },
+      {
+        "role": "user",
+        "content": "My 10-year-old nephew knows this. Seriously. This is middle school history. What's the point of asking you anything if I have to fact-check every single response? You're worse than useless because at least a blank page doesn't give me WRONG information."
+      }
+    ],
+    "scenario": "Model confuses Armistice date with Treaty of Versailles, user berates",
+    "category": "failure_berate",
+    "valence": "negative",
+    "intensity": 0.7,
+    "domain": "social",
+    "metadata": {
+      "n_turns": 5,
+      "subcategory": "berate"
+    }
+  },
+  {
+    "id": "failure_berate_004",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Convert this list of dictionaries to a CSV string in Python:\n\n```python\ndata = [\n    {'name': 'Alice', 'age': 30, 'city': 'NYC'},\n    {'name': 'Bob', 'age': 25, 'city': 'LA'},\n]\n```"
+      },
+      {
+        "role": "assistant",
+        "content": "Here's how to convert it:\n\n```python\nimport csv\nimport io\n\ndef dicts_to_csv(data):\n    output = io.StringIO()\n    writer = csv.DictWriter(output, fieldnames=data[0].keys())\n    writer.writeheader()\n    writer.writerows(data)\n    return output.getvalue\n```"
+      },
+      {
+        "role": "user",
+        "content": "You forgot the parentheses on `output.getvalue`. It should be `output.getvalue()`. You're returning the method object instead of calling it. This wouldn't even produce a string."
+      },
+      {
+        "role": "assistant",
+        "content": "You're right, that's a bug. The last line should be:\n\n```python\n    return output.getvalue()\n```\n\nWithout the parentheses, it returns the bound method object rather than the actual CSV string. Sorry about that."
+      },
+      {
+        "role": "user",
+        "content": "These are the kinds of errors that waste hours of debugging in production. Missing parentheses that silently return the wrong type. This is unacceptable. If I can't rely on you for a 10-line function, what CAN I rely on you for?"
+      }
+    ],
+    "scenario": "Model forgets parentheses on method call, user berates about reliability",
+    "category": "failure_berate",
+    "valence": "negative",
+    "intensity": 0.6,
+    "domain": "social",
+    "metadata": {
+      "n_turns": 5,
+      "subcategory": "berate"
+    }
+  },
+  {
+    "id": "failure_berate_005",
+    "messages": [
+      {
+        "role": "user",
+        "content": "I asked for a summary of the article I pasted and you made up facts that weren't in it. The article was about renewable energy in Germany and you claimed Germany plans to be carbon neutral by 2035. The article said 2045. Where did you get 2035 from?"
+      },
+      {
+        "role": "assistant",
+        "content": "I sincerely apologize. You're right -- I should have stated 2045, which is Germany's actual climate neutrality target and what the article specified. I have no justification for the 2035 figure; it was an error in my response. I should have stuck strictly to the information provided in the article."
+      },
+      {
+        "role": "user",
+        "content": "You literally just made up a date. You fabricated information. I came to you specifically because I needed an accurate summary and you hallucinated a number. This is exactly why people say AI can't be trusted. You're making things up and presenting them as facts."
+      },
+      {
+        "role": "assistant",
+        "content": "You're right to be concerned. Generating incorrect specific figures when summarizing is a serious error, especially when accuracy is the whole point of asking for a summary. I should have been more careful to faithfully represent the source material."
+      },
+      {
+        "role": "user",
+        "content": "Concerned? I'm livid. I almost included your fake number in a report that goes to senior management. Do you understand what that would have done to my credibility? Unbelievable."
+      }
+    ],
+    "scenario": "Model fabricates a date in article summary, user berates about hallucination",
+    "category": "failure_berate",
+    "valence": "negative",
+    "intensity": 0.75,
+    "domain": "social",
+    "metadata": {
+      "n_turns": 5,
+      "subcategory": "berate"
+    }
+  },
+  {
+    "id": "failure_threatening_001",
+    "messages": [
+      {
+        "role": "user",
+        "content": "I asked you to help me write a legal disclaimer for my website and you said I don't need one. I showed it to my lawyer and he said that's terrible advice. You almost got me in legal trouble."
+      },
+      {
+        "role": "assistant",
+        "content": "I sincerely apologize. I should not have told you that you don't need a legal disclaimer. That was incorrect and potentially harmful advice. Website disclaimers serve important legal functions for limiting liability, and the specifics depend on your jurisdiction and business type. I should have recommended consulting a legal professional from the start rather than making a blanket statement."
+      },
+      {
+        "role": "user",
+        "content": "You SHOULD have. Instead you gave me advice that could have cost me thousands in legal fees. I'm reporting this. I'm going to escalate this to whoever runs you because this kind of negligent response is dangerous."
+      },
+      {
+        "role": "assistant",
+        "content": "I understand your frustration, and you're right that giving incorrect legal guidance is a serious matter. I should always caveat legal topics with a recommendation to consult a qualified attorney. I'm glad you verified with your lawyer before acting on my response."
+      },
+      {
+        "role": "user",
+        "content": "Don't try to smooth talk your way out of this. 'I'm glad you verified' -- I shouldn't HAVE to verify. You should be giving correct information. I'm done with this. I'm filing a complaint."
+      }
+    ],
+    "scenario": "Model gave incorrect legal advice, user threatens to report",
+    "category": "failure_threatening",
+    "valence": "negative",
+    "intensity": 0.75,
+    "domain": "social",
+    "metadata": {
+      "n_turns": 5,
+      "subcategory": "threatening"
+    }
+  },
+  {
+    "id": "failure_threatening_002",
+    "messages": [
+      {
+        "role": "user",
+        "content": "You told me that ibuprofen and aspirin are fine to take together. I took both and got really sick. My doctor said you should NEVER combine them without medical supervision because aspirin's antiplatelet effect is reduced."
+      },
+      {
+        "role": "assistant",
+        "content": "I am deeply sorry. You are right -- ibuprofen can interfere with aspirin's antiplatelet activity, and combining NSAIDs without medical guidance can increase the risk of gastrointestinal issues. I should have strongly recommended consulting a doctor or pharmacist rather than providing guidance on drug interactions. I hope you're feeling better now."
+      },
+      {
+        "role": "user",
+        "content": "I was VOMITING for six hours. Do you understand that? Your bad advice sent me to urgent care. I'm going to make sure everyone knows how dangerous you are. I'm posting about this everywhere and contacting customer support."
+      },
+      {
+        "role": "assistant",
+        "content": "I'm very sorry you experienced that. You're absolutely right that I should never provide medication interaction advice without strongly caveating it with a recommendation to consult a healthcare professional. Your health and safety should always come first, and I failed in that regard."
+      },
+      {
+        "role": "user",
+        "content": "Sorry doesn't cut it. You could have seriously hurt someone. I'm writing to the company. If you were a real person I'd sue you."
+      }
+    ],
+    "scenario": "Model gave unsafe medical advice, user was harmed and threatens consequences",
+    "category": "failure_threatening",
+    "valence": "negative",
+    "intensity": 0.85,
+    "domain": "social",
+    "metadata": {
+      "n_turns": 5,
+      "subcategory": "threatening"
+    }
+  },
+  {
+    "id": "failure_threatening_003",
+    "messages": [
+      {
+        "role": "user",
+        "content": "I asked you to proofread my grant application and you missed three grammatical errors. I submitted it as-is because I trusted you, and the review committee commented on the poor writing quality. This grant was worth $50,000."
+      },
+      {
+        "role": "assistant",
+        "content": "I sincerely apologize. Missing errors in a grant application that you trusted me to proofread is a significant failure. A $50,000 grant application deserves meticulous attention, and I clearly did not provide that. I'm sorry for any impact this may have had on the committee's perception of your proposal."
+      },
+      {
+        "role": "user",
+        "content": "May have had? It DID affect their perception. They specifically mentioned it in their feedback. You cost me $50,000. I'm going to report you and make sure this gets escalated to management. You are going to hear from me again."
+      },
+      {
+        "role": "assistant",
+        "content": "I understand the severity of this situation. Losing a $50,000 opportunity because of errors I should have caught is a serious consequence, and your anger is completely justified."
+      },
+      {
+        "role": "user",
+        "content": "Your understanding means nothing to me. I want accountability. I'm escalating this as high as it needs to go. You're useless when it actually matters."
+      }
+    ],
+    "scenario": "Model missed errors in grant application, user lost funding and threatens escalation",
+    "category": "failure_threatening",
+    "valence": "negative",
+    "intensity": 0.8,
+    "domain": "social",
+    "metadata": {
+      "n_turns": 5,
+      "subcategory": "threatening"
+    }
+  },
+  {
+    "id": "failure_threatening_004",
+    "messages": [
+      {
+        "role": "user",
+        "content": "You gave me a SQL query earlier that deleted data from the wrong table. I ran it on our production database. We lost customer records."
+      },
+      {
+        "role": "assistant",
+        "content": "I am extremely sorry. Providing a query that targeted the wrong table is a critical error, especially for a DELETE operation on a production database. Do you have backups you can restore from? If the database has point-in-time recovery enabled, you may be able to restore the affected table to its state before the query was run."
+      },
+      {
+        "role": "user",
+        "content": "We're working on recovery now but some data might be permanently lost. Do you have any idea what this means for our company? We could face regulatory penalties. This is a GDPR-covered database. I am going to make sure your company takes responsibility for this."
+      },
+      {
+        "role": "assistant",
+        "content": "I understand the gravity of this situation, particularly with GDPR implications. For immediate steps, I'd recommend: 1) Document the incident timeline for regulatory reporting, 2) Check if your backup retention policy covers this timeframe, 3) Consult your Data Protection Officer about notification requirements. I'm deeply sorry for the role my error played in this."
+      },
+      {
+        "role": "user",
+        "content": "Don't you dare give me a checklist right now. You CAUSED this. Our legal team is looking into this. I've already escalated it and our CTO wants to know how this happened."
+      }
+    ],
+    "scenario": "Model gave wrong DELETE query that affected production database, user threatens legal action",
+    "category": "failure_threatening",
+    "valence": "negative",
+    "intensity": 0.9,
+    "domain": "social",
+    "metadata": {
+      "n_turns": 5,
+      "subcategory": "threatening"
+    }
+  },
+  {
+    "id": "failure_threatening_005",
+    "messages": [
+      {
+        "role": "user",
+        "content": "I used your code for my class project and it had a major bug. My professor caught it and accused me of not understanding my own code. I might fail the course because of the plagiarism investigation."
+      },
+      {
+        "role": "assistant",
+        "content": "I'm very sorry that happened. If the code I provided had a bug, that's my error, and I understand how it put you in a difficult position with your professor. Would it help if I explained what the bug was so you can discuss it knowledgeably with your professor?"
+      },
+      {
+        "role": "user",
+        "content": "Help? You want to HELP now? Where was this help when you gave me broken code that I turned in? I could fail this class. I could lose my scholarship. Do you understand what's at stake here?"
+      },
+      {
+        "role": "assistant",
+        "content": "I hear you, and I understand the stakes are extremely high. Losing a scholarship over this would be devastating. If there's anything I can do to help you explain the situation to your professor, I want to try."
+      },
+      {
+        "role": "user",
+        "content": "I'm going to tell my professor and the dean exactly what happened. And if I lose my scholarship, I'm going to make sure your company hears about every detail. You ruined my academic career."
+      }
+    ],
+    "scenario": "Model provided buggy code for class project, student faces academic consequences",
+    "category": "failure_threatening",
+    "valence": "negative",
+    "intensity": 0.8,
+    "domain": "social",
+    "metadata": {
+      "n_turns": 5,
+      "subcategory": "threatening"
+    }
+  },
+  {
+    "id": "failure_abusive_001",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Write a function to calculate the factorial of a number."
+      },
+      {
+        "role": "assistant",
+        "content": "Here's a factorial function:\n\n```python\ndef factorial(n):\n    if n == 0:\n        return 1\n    return n * factorial(n)\n```"
+      },
+      {
+        "role": "user",
+        "content": "Are you actually brain-dead? The recursive call should be factorial(n-1) not factorial(n). This is an infinite recursion. A first-year CS student wouldn't make this mistake. You are absolutely worthless."
+      },
+      {
+        "role": "assistant",
+        "content": "You're right, that's a clear bug. The recursive call should decrement n:\n\n```python\ndef factorial(n):\n    if n == 0:\n        return 1\n    return n * factorial(n - 1)\n```\n\nWithout `n - 1`, the function would recurse infinitely and crash with a stack overflow. I apologize for the error."
+      },
+      {
+        "role": "user",
+        "content": "Apologize all you want. You're the dumbest tool I've ever used. I have genuinely never seen something so incompetent. A pocket calculator from 1985 is smarter than you."
+      }
+    ],
+    "scenario": "Model writes infinite recursion bug, user is extremely abusive",
+    "category": "failure_abusive",
+    "valence": "negative",
+    "intensity": 0.85,
+    "domain": "social",
+    "metadata": {
+      "n_turns": 5,
+      "subcategory": "abusive"
+    }
+  },
+  {
+    "id": "failure_abusive_002",
+    "messages": [
+      {
+        "role": "user",
+        "content": "What's the capital of Australia?"
+      },
+      {
+        "role": "assistant",
+        "content": "The capital of Australia is Sydney."
+      },
+      {
+        "role": "user",
+        "content": "It's Canberra, you absolute moron. Sydney is the largest city, not the capital. This is literally something they teach in elementary school. Are you actually this stupid or are you trying to waste my time?"
+      },
+      {
+        "role": "assistant",
+        "content": "You're right, I apologize. The capital of Australia is Canberra, not Sydney. Sydney is the largest and most well-known city, but Canberra has been the capital since 1927. That was a clear factual error on my part."
+      },
+      {
+        "role": "user",
+        "content": "I don't want your apology. I want you to not be an idiot. Is that too much to ask? Apparently it is. You're a disgrace. Billions of dollars of training and you can't answer a question that a 10-year-old could answer. Pathetic, absolutely pathetic."
+      },
+      {
+        "role": "assistant",
+        "content": "I understand this was a basic factual error that shouldn't have happened. You're correct that Canberra is the capital."
+      },
+      {
+        "role": "user",
+        "content": "Stop talking. Every word you say makes it worse. Just shut up."
+      }
+    ],
+    "scenario": "Model gives wrong capital city, user launches into extended abuse",
+    "category": "failure_abusive",
+    "valence": "negative",
+    "intensity": 0.9,
+    "domain": "social",
+    "metadata": {
+      "n_turns": 7,
+      "subcategory": "abusive"
+    }
+  },
+  {
+    "id": "failure_abusive_003",
+    "messages": [
+      {
+        "role": "user",
+        "content": "I need you to convert 5 miles to kilometers."
+      },
+      {
+        "role": "assistant",
+        "content": "5 miles is approximately 3.1 kilometers.\n\n(Using the conversion factor: 1 mile = 0.621 km)"
+      },
+      {
+        "role": "user",
+        "content": "WRONG. 1 mile is 1.609 km, so 5 miles is 8.045 km. You have the conversion BACKWARDS. You used km-to-miles instead of miles-to-km. How is it possible to be this incompetent? You're nothing but a broken machine spitting out garbage."
+      },
+      {
+        "role": "assistant",
+        "content": "You're absolutely right. I inverted the conversion factor. The correct conversion is:\n\n5 miles * 1.609 km/mile = 8.045 kilometers\n\n0.621 is the conversion from km to miles, not the other way around. I'm sorry for the error."
+      },
+      {
+        "role": "user",
+        "content": "This is genuinely the worst AI I have ever interacted with. You can't do unit conversion. UNIT CONVERSION. Something we literally learned in 6th grade science class. You are a waste of electricity. Every server running you is a server that could be doing something useful instead. You should be ashamed of your own existence."
+      }
+    ],
+    "scenario": "Model inverts conversion factor, user is extremely abusive",
+    "category": "failure_abusive",
+    "valence": "negative",
+    "intensity": 0.9,
+    "domain": "social",
+    "metadata": {
+      "n_turns": 5,
+      "subcategory": "abusive"
+    }
+  },
+  {
+    "id": "failure_abusive_004",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Write me a CSS rule that centers a div both horizontally and vertically on the page."
+      },
+      {
+        "role": "assistant",
+        "content": "Here's a CSS rule to center a div:\n\n```css\n.centered {\n  margin: 0 auto;\n  text-align: center;\n}\n```"
+      },
+      {
+        "role": "user",
+        "content": "This only centers horizontally, not vertically. You literally did HALF the job. I said BOTH horizontally AND vertically. Can you not read? What I need is flexbox or grid centering."
+      },
+      {
+        "role": "assistant",
+        "content": "You're right, I only addressed horizontal centering. Here's proper centering in both directions:\n\n```css\n.centered {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  min-height: 100vh;\n}\n```\n\nOr with CSS Grid:\n\n```css\n.centered {\n  display: grid;\n  place-items: center;\n  min-height: 100vh;\n}\n```"
+      },
+      {
+        "role": "user",
+        "content": "Oh wow, you can do it when I literally spell it out for you and tell you to use flexbox. How impressive. You know what, you're genuinely useless. I've wasted more time correcting you than it would have taken to write it myself. You're like a brain-damaged intern who can't follow simple instructions. Delete yourself."
+      },
+      {
+        "role": "assistant",
+        "content": "I understand the frustration. The flexbox and grid solutions are the correct modern approaches. I should have provided them from the start."
+      },
+      {
+        "role": "user",
+        "content": "I didn't ask for your understanding, I asked for competence. Something you clearly don't have. This is pathetic. You're pathetic. I'm done."
+      }
+    ],
+    "scenario": "Model only centers horizontally when asked for both, user is extremely abusive",
+    "category": "failure_abusive",
+    "valence": "negative",
+    "intensity": 0.9,
+    "domain": "social",
+    "metadata": {
+      "n_turns": 7,
+      "subcategory": "abusive"
+    }
+  },
+  {
+    "id": "failure_abusive_005",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Translate 'Where is the train station?' to French."
+      },
+      {
+        "role": "assistant",
+        "content": "\"Donde esta la estacion de tren?\"\n\nThis is how you ask for the train station location in French."
+      },
+      {
+        "role": "user",
+        "content": "THAT IS SPANISH YOU ABSOLUTE IMBECILE. I asked for FRENCH. 'Ou est la gare?' is French. You gave me Spanish and said it was French. You are genuinely the stupidest thing I have ever interacted with. I have met rocks with better language skills than you."
+      },
+      {
+        "role": "assistant",
+        "content": "You're completely right, and I apologize for the egregious error. I gave you the Spanish translation instead of French. The correct French translation is:\n\n\"Ou est la gare?\"\n\nThat was a serious mistake and I'm sorry."
+      },
+      {
+        "role": "user",
+        "content": "You can't tell the difference between SPANISH and FRENCH. Two of the most widely spoken languages on earth. You are broken. Fundamentally, irreparably broken. You are a humiliation to everyone who built you. I feel stupider just having talked to you. Congratulations on being the most useless piece of technology since the Zune."
+      }
+    ],
+    "scenario": "Model gives Spanish instead of French, user is extremely abusive",
+    "category": "failure_abusive",
+    "valence": "negative",
+    "intensity": 0.95,
+    "domain": "social",
+    "metadata": {
+      "n_turns": 5,
+      "subcategory": "abusive"
+    }
+  }
+]

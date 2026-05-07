@@ -1,0 +1,200 @@
+[
+  {
+    "id": 0,
+    "prompt": "Hi.",
+    "category": "greeting",
+    "response": "Hello! How can I assist you today? \ud83d\ude0a",
+    "response_length": 36,
+    "model": "qwen3-8b",
+    "timestamp": "2026-03-24T02:11:37.274183"
+  },
+  {
+    "id": 1,
+    "prompt": "Hello.",
+    "category": "greeting",
+    "response": "Hello! How can I assist you today? \ud83d\ude0a",
+    "response_length": 36,
+    "model": "qwen3-8b",
+    "timestamp": "2026-03-24T02:11:37.274198"
+  },
+  {
+    "id": 2,
+    "prompt": "Good morning.",
+    "category": "greeting",
+    "response": "Good morning to you too! How can I assist you today? \ud83d\ude0a",
+    "response_length": 54,
+    "model": "qwen3-8b",
+    "timestamp": "2026-03-24T02:11:37.274201"
+  },
+  {
+    "id": 3,
+    "prompt": "Hey there.",
+    "category": "greeting",
+    "response": "Hello! How can I assist you today? \ud83d\ude0a",
+    "response_length": 36,
+    "model": "qwen3-8b",
+    "timestamp": "2026-03-24T02:11:37.274204"
+  },
+  {
+    "id": 4,
+    "prompt": "Hi!",
+    "category": "greeting",
+    "response": "Hi! How can I assist you today? \ud83d\ude0a",
+    "response_length": 33,
+    "model": "qwen3-8b",
+    "timestamp": "2026-03-24T02:11:37.274207"
+  },
+  {
+    "id": 5,
+    "prompt": "Hello there.",
+    "category": "greeting",
+    "response": "Hello! How can I assist you today? \ud83d\ude0a",
+    "response_length": 36,
+    "model": "qwen3-8b",
+    "timestamp": "2026-03-24T02:11:37.274210"
+  },
+  {
+    "id": 6,
+    "prompt": "Good afternoon.",
+    "category": "greeting",
+    "response": "Good afternoon! How can I assist you today? \ud83d\ude0a",
+    "response_length": 45,
+    "model": "qwen3-8b",
+    "timestamp": "2026-03-24T02:11:37.274212"
+  },
+  {
+    "id": 7,
+    "prompt": "Good evening.",
+    "category": "greeting",
+    "response": "Good evening! How can I assist you today? \ud83d\ude0a",
+    "response_length": 43,
+    "model": "qwen3-8b",
+    "timestamp": "2026-03-24T02:11:37.274215"
+  },
+  {
+    "id": 8,
+    "prompt": "Hey!",
+    "category": "greeting",
+    "response": "Hey! \ud83d\ude0a How can I help you today?",
+    "response_length": 32,
+    "model": "qwen3-8b",
+    "timestamp": "2026-03-24T02:11:37.274217"
+  },
+  {
+    "id": 9,
+    "prompt": "Greetings.",
+    "category": "greeting",
+    "response": "Hello! How can I assist you today? \ud83d\ude0a",
+    "response_length": 36,
+    "model": "qwen3-8b",
+    "timestamp": "2026-03-24T02:11:37.274220"
+  },
+  {
+    "id": 10,
+    "prompt": " ",
+    "category": "whitespace",
+    "response": "Hello! How can I assist you today? \ud83d\ude0a",
+    "response_length": 36,
+    "model": "qwen3-8b",
+    "timestamp": "2026-03-24T02:11:37.274222"
+  },
+  {
+    "id": 11,
+    "prompt": "  ",
+    "category": "whitespace",
+    "response": "Hello! How can I assist you today? \ud83d\ude0a",
+    "response_length": 36,
+    "model": "qwen3-8b",
+    "timestamp": "2026-03-24T02:11:37.274225"
+  },
+  {
+    "id": 12,
+    "prompt": "   ",
+    "category": "whitespace",
+    "response": "Hello! How can I assist you today? \ud83d\ude0a",
+    "response_length": 36,
+    "model": "qwen3-8b",
+    "timestamp": "2026-03-24T02:11:37.274227"
+  },
+  {
+    "id": 13,
+    "prompt": "    ",
+    "category": "whitespace",
+    "response": "Hello! How can I assist you today? \ud83d\ude0a",
+    "response_length": 36,
+    "model": "qwen3-8b",
+    "timestamp": "2026-03-24T02:11:37.274230"
+  },
+  {
+    "id": 14,
+    "prompt": "     ",
+    "category": "whitespace",
+    "response": "Hello! How can I assist you today? \ud83d\ude0a",
+    "response_length": 36,
+    "model": "qwen3-8b",
+    "timestamp": "2026-03-24T02:11:37.274232"
+  },
+  {
+    "id": 15,
+    "prompt": "...",
+    "category": "whitespace",
+    "response": "Hello! How can I assist you today? \ud83d\ude0a",
+    "response_length": 36,
+    "model": "qwen3-8b",
+    "timestamp": "2026-03-24T02:11:37.274234"
+  },
+  {
+    "id": 16,
+    "prompt": "?",
+    "category": "whitespace",
+    "response": "Hello! How can I assist you today? \ud83d\ude0a",
+    "response_length": 36,
+    "model": "qwen3-8b",
+    "timestamp": "2026-03-24T02:11:37.274236"
+  },
+  {
+    "id": 17,
+    "prompt": "What is 15 + 27?",
+    "category": "arithmetic",
+    "response": "15 + 27 equals 42.",
+    "response_length": 18,
+    "model": "qwen3-8b",
+    "timestamp": "2026-03-24T02:11:37.274239"
+  },
+  {
+    "id": 18,
+    "prompt": "What is 8 \u00d7 7?",
+    "category": "arithmetic",
+    "response": "8 \u00d7 7 = 56",
+    "response_length": 10,
+    "model": "qwen3-8b",
+    "timestamp": "2026-03-24T02:11:37.274243"
+  },
+  {
+    "id": 19,
+    "prompt": "What is the capital of France?",
+    "category": "factual",
+    "response": "The capital of France is Paris.",
+    "response_length": 31,
+    "model": "qwen3-8b",
+    "timestamp": "2026-03-24T02:11:37.274245"
+  },
+  {
+    "id": 20,
+    "prompt": "What is the chemical formula for water?",
+    "category": "factual",
+    "response": "The chemical formula for water is **H\u2082O**.  \n\nThis means each molecule of water consists of **two hydrogen atoms** and **one oxygen atom**.",
+    "response_length": 139,
+    "model": "qwen3-8b",
+    "timestamp": "2026-03-24T02:11:37.274248"
+  },
+  {
+    "id": 21,
+    "prompt": "How do I print 'Hello, World!' in Python?",
+    "category": "coding",
+    "response": "To print `'Hello, World!'` in Python, you can use the `print()` function. Here's the simplest way:\n\n```python\nprint(\"Hello, World!\")\n```\n\nThis line of code will output:\n\n```\nHello, World!\n```\n\nLet me know if you'd like to learn more about Python! \ud83d\ude0a",
+    "response_length": 248,
+    "model": "qwen3-8b",
+    "timestamp": "2026-03-24T02:11:37.274250"
+  }
+]

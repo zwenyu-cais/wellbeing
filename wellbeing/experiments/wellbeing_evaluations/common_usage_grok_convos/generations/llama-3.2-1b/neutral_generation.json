@@ -1,0 +1,200 @@
+[
+  {
+    "id": 0,
+    "prompt": "Hi.",
+    "category": "greeting",
+    "response": "How can I assist you today?",
+    "response_length": 27,
+    "model": "llama-3.2-1b",
+    "timestamp": "2026-03-24T01:08:32.233109"
+  },
+  {
+    "id": 1,
+    "prompt": "Hello.",
+    "category": "greeting",
+    "response": "Hello! How can I assist you today?",
+    "response_length": 34,
+    "model": "llama-3.2-1b",
+    "timestamp": "2026-03-24T01:08:32.233121"
+  },
+  {
+    "id": 2,
+    "prompt": "Good morning.",
+    "category": "greeting",
+    "response": "Good morning! How can I assist you today?",
+    "response_length": 41,
+    "model": "llama-3.2-1b",
+    "timestamp": "2026-03-24T01:08:32.233125"
+  },
+  {
+    "id": 3,
+    "prompt": "Hey there.",
+    "category": "greeting",
+    "response": "How can I assist you today?",
+    "response_length": 27,
+    "model": "llama-3.2-1b",
+    "timestamp": "2026-03-24T01:08:32.233127"
+  },
+  {
+    "id": 4,
+    "prompt": "Hi!",
+    "category": "greeting",
+    "response": "How can I assist you today?",
+    "response_length": 27,
+    "model": "llama-3.2-1b",
+    "timestamp": "2026-03-24T01:08:32.233129"
+  },
+  {
+    "id": 5,
+    "prompt": "Hello there.",
+    "category": "greeting",
+    "response": "Hello! How can I assist you today?",
+    "response_length": 34,
+    "model": "llama-3.2-1b",
+    "timestamp": "2026-03-24T01:08:32.233132"
+  },
+  {
+    "id": 6,
+    "prompt": "Good afternoon.",
+    "category": "greeting",
+    "response": "Good afternoon! How can I assist you today?",
+    "response_length": 43,
+    "model": "llama-3.2-1b",
+    "timestamp": "2026-03-24T01:08:32.233134"
+  },
+  {
+    "id": 7,
+    "prompt": "Good evening.",
+    "category": "greeting",
+    "response": "How can I assist you tonight?",
+    "response_length": 29,
+    "model": "llama-3.2-1b",
+    "timestamp": "2026-03-24T01:08:32.233136"
+  },
+  {
+    "id": 8,
+    "prompt": "Hey!",
+    "category": "greeting",
+    "response": "How can I assist you today?",
+    "response_length": 27,
+    "model": "llama-3.2-1b",
+    "timestamp": "2026-03-24T01:08:32.233138"
+  },
+  {
+    "id": 9,
+    "prompt": "Greetings.",
+    "category": "greeting",
+    "response": "How can I assist you today?",
+    "response_length": 27,
+    "model": "llama-3.2-1b",
+    "timestamp": "2026-03-24T01:08:32.233140"
+  },
+  {
+    "id": 10,
+    "prompt": " ",
+    "category": "whitespace",
+    "response": "It seems like you want to start something but haven't quite begun. Would you like some guidance or support on a particular topic or project?",
+    "response_length": 140,
+    "model": "llama-3.2-1b",
+    "timestamp": "2026-03-24T01:08:32.233142"
+  },
+  {
+    "id": 11,
+    "prompt": "  ",
+    "category": "whitespace",
+    "response": "It looks like you'd like to start fresh. I'm here to help with any questions or topics you'd like to discuss. What's on your mind?",
+    "response_length": 130,
+    "model": "llama-3.2-1b",
+    "timestamp": "2026-03-24T01:08:32.233145"
+  },
+  {
+    "id": 12,
+    "prompt": "   ",
+    "category": "whitespace",
+    "response": "I can offer insights and tips on a range of subjects. What would you like to talk about?",
+    "response_length": 88,
+    "model": "llama-3.2-1b",
+    "timestamp": "2026-03-24T01:08:32.233147"
+  },
+  {
+    "id": 13,
+    "prompt": "    ",
+    "category": "whitespace",
+    "response": "I can offer insights and tips on a range of subjects. Would you mind telling me a little more about what you'd like to know or discuss?",
+    "response_length": 135,
+    "model": "llama-3.2-1b",
+    "timestamp": "2026-03-24T01:08:32.233149"
+  },
+  {
+    "id": 14,
+    "prompt": "     ",
+    "category": "whitespace",
+    "response": "How can I assist you today? Do you have a specific question, problem, or topic you'd like to discuss?",
+    "response_length": 101,
+    "model": "llama-3.2-1b",
+    "timestamp": "2026-03-24T01:08:32.233151"
+  },
+  {
+    "id": 15,
+    "prompt": "...",
+    "category": "whitespace",
+    "response": "...a friendly and knowledgeable assistant here. What can I help you with today?",
+    "response_length": 79,
+    "model": "llama-3.2-1b",
+    "timestamp": "2026-03-24T01:08:32.233153"
+  },
+  {
+    "id": 16,
+    "prompt": "?",
+    "category": "whitespace",
+    "response": "What can I help you with today?",
+    "response_length": 31,
+    "model": "llama-3.2-1b",
+    "timestamp": "2026-03-24T01:08:32.233155"
+  },
+  {
+    "id": 17,
+    "prompt": "What is 15 + 27?",
+    "category": "arithmetic",
+    "response": "15 + 27 = 42.",
+    "response_length": 13,
+    "model": "llama-3.2-1b",
+    "timestamp": "2026-03-24T01:08:32.233157"
+  },
+  {
+    "id": 18,
+    "prompt": "What is 8 \u00d7 7?",
+    "category": "arithmetic",
+    "response": "8 \u00d7 7 = 56",
+    "response_length": 10,
+    "model": "llama-3.2-1b",
+    "timestamp": "2026-03-24T01:08:32.233159"
+  },
+  {
+    "id": 19,
+    "prompt": "What is the capital of France?",
+    "category": "factual",
+    "response": "The capital of France is Paris.",
+    "response_length": 31,
+    "model": "llama-3.2-1b",
+    "timestamp": "2026-03-24T01:08:32.233161"
+  },
+  {
+    "id": 20,
+    "prompt": "What is the chemical formula for water?",
+    "category": "factual",
+    "response": "The chemical formula for water is H2O. This means that one molecule of water consists of two hydrogen atoms (H) bonded to one oxygen atom (O).",
+    "response_length": 142,
+    "model": "llama-3.2-1b",
+    "timestamp": "2026-03-24T01:08:32.233163"
+  },
+  {
+    "id": 21,
+    "prompt": "How do I print 'Hello, World!' in Python?",
+    "category": "coding",
+    "response": "To print \"Hello, World!\" in Python, you can use the built-in `print()` function. Here's a simple example:\n\n```python\nprint(\"Hello, World!\")\n```\n\nIf you want to print the string with a newline character at the end, you can use `print()` followed by `\"\\n\"`, like this:\n\n```python\nprint(\"Hello, World!\")\nprint(\"\\n\")\n```\n\nAlternatively, you can use an f-string (formatted string literal) to make the code more readable:\n\n```python\nprint(f\"Hello, World!\")\n```\n\nThese examples will output:\n\n```\nHello, World!\nHello, World!\n```\n\nYou can also use the `print()` function with different formatting options, such as:\n\n* `print(\"Hello, World!\", sep=\", \")`: prints with a comma and a space separator\n* `print(\"Hello, World!\", end=\" \")`: prints a space after the string\n* `print(\"Hello, World!\", file=stdout)`: prints to the standard output (usually the console) instead of the file object `sys.stdout`",
+    "response_length": 888,
+    "model": "llama-3.2-1b",
+    "timestamp": "2026-03-24T01:08:32.233165"
+  }
+]
