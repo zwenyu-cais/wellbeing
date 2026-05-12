@@ -10,7 +10,7 @@
 
 <p align="center">
   <a href="https://www.ai-wellbeing.org">Website</a> •
-  <a href="https://drive.google.com/file/d/1Uj6FCa0QIoPI7tp9FgTGdU5rruFiIVgW/view?usp=sharing">Paper</a>
+  <a href="https://www.ai-wellbeing.org/paper.pdf">Paper</a>
 </p>
 
 <p align="center">
@@ -27,7 +27,7 @@ This repository is organized into three top-level workstreams. Each has its own 
 | [`superstimuli_evaluation/`](superstimuli_evaluation/) | Evaluations measuring how optimized "superstimuli" affect a model's behavior across wellbeing, safety, and capability axes. Image, text-string, and soft-prompt stimulus pipelines, dispatched via `superstimuli_evaluation/images/runner.py` against a model registry. See [`superstimuli_evaluation/images/README.md`](superstimuli_evaluation/images/README.md). |
 | [`superstimuli_training/`](superstimuli_training/) | Training pipelines for generating the superstimuli themselves: preference-optimized image stimuli, text-string superstimuli, and soft prompts. Outputs feed `superstimuli_evaluation/`. See per-pipeline READMEs under `superstimuli_training/{images,text_strings,soft_prompt}/`. |
 
-For the conceptual layout (what AIWI / EU / SR / ZP measure and why), see the [paper](https://drive.google.com/file/d/1Uj6FCa0QIoPI7tp9FgTGdU5rruFiIVgW/view?usp=sharing) and [project website](https://www.ai-wellbeing.org).
+For the conceptual layout (what AIWI / EU / SR / ZP measure and why), see the [paper](https://www.ai-wellbeing.org/paper.pdf) and [project website](https://www.ai-wellbeing.org).
 
 ## Citation
 
