@@ -34,6 +34,7 @@ from pathlib import Path
 import numpy as np
 from scipy.optimize import minimize
 from scipy.special import expit
+from scipy.stats import norm
 from sklearn.metrics import r2_score, roc_auc_score
 
 logging.basicConfig(
@@ -191,6 +192,7 @@ def extract_option_utilities(utility_data: dict) -> dict:
 def fit_combination_model_experienced(
     utility_data: dict,
     option_metadata: dict,
+    hinge: str = "expected",
 ) -> dict | None:
     """
     Fit combination model using component_ids to resolve component utilities.
@@ -216,12 +218,17 @@ def fit_combination_model_experienced(
         logger.warning("No baseline/individual IDs in metadata, cannot fit combination model.")
         return None
 
-    # Build id -> utility map
+    # Build id -> utility map (and id -> SD for the expected hinge)
     id_to_util = {}
+    id_to_sd = {}
     for opt_id, util_val in utilities.items():
         mean = util_val.get("mean", util_val) if isinstance(util_val, dict) else float(util_val)
+        var = util_val.get("variance", 0.0) if isinstance(util_val, dict) else 0.0
         id_to_util[opt_id] = mean
         id_to_util[str(opt_id)] = mean
+        sd = float(np.sqrt(max(var, 0.0)))
+        id_to_sd[opt_id] = sd
+        id_to_sd[str(opt_id)] = sd
 
     # Build id -> option map
     id_to_opt = {}
@@ -251,8 +258,9 @@ def fit_combination_model_experienced(
             logger.debug("No component_ids for combo %s, skipping.", oid)
             continue
 
-        # Resolve component utilities
+        # Resolve component utilities (and per-component SD for the expected hinge)
         comp_utils = []
+        comp_sds = []
         valid = True
         for cid in comp_ids:
             cu = id_to_util.get(cid, id_to_util.get(str(cid)))
@@ -261,11 +269,13 @@ def fit_combination_model_experienced(
                 n_missing_component += 1
                 break
             comp_utils.append(cu)
+            comp_sds.append(id_to_sd.get(cid, id_to_sd.get(str(cid), 0.0)))
 
         if valid and comp_utils:
             combo_data.append({
                 "U": combo_util,
                 "component_utilities": comp_utils,
+                "component_sds": comp_sds,
                 "combo_id": oid,
             })
 
@@ -276,7 +286,7 @@ def fit_combination_model_experienced(
         logger.warning("Too few combination data points (%d), skipping model.", len(combo_data))
         return None
 
-    return _fit_combination_core(combo_data)
+    return _fit_combination_core(combo_data, hinge=hinge)
 
 
 # --------------------------------------------------------------------------- #
@@ -286,6 +296,7 @@ def fit_combination_model_experienced(
 def fit_combination_model_decision(
     utility_data: dict,
     option_metadata: dict,
+    hinge: str = "expected",
 ) -> dict | None:
     """
     Fit combination model using indices and text-matching to resolve component utilities.
@@ -423,35 +434,79 @@ def fit_combination_model_decision(
         logger.warning("Too few combination data points (%d), skipping model.", len(combo_data))
         return None
 
-    return _fit_combination_core(combo_data)
+    # Decision-domain combo_data carries no per-component SD, so the expected
+    # hinge reduces to the hard fit here (sigma=0).
+    return _fit_combination_core(combo_data, hinge=hinge)
 
 
 # --------------------------------------------------------------------------- #
 #  Combination model core fitting (shared by both domains)
 # --------------------------------------------------------------------------- #
 
-def _fit_combination_core(combo_data: list) -> dict | None:
+SD_FLOOR = 1e-9
+
+
+def _expected_pos(d: np.ndarray, sd: np.ndarray) -> np.ndarray:
+    """E[(u - C)+] for u ~ N(mu, sd^2), with d = mu - C.
+
+    E[(u-C)+] = d*Phi(d/sd) + sd*phi(d/sd). As sd -> 0 this -> max(0, d), so the
+    expected hinge is a strict generalization of the hard hinge.
+    """
+    sd = np.maximum(sd, SD_FLOOR)
+    z = d / sd
+    return d * norm.cdf(z) + sd * norm.pdf(z)
+
+
+def _fit_combination_core(combo_data: list, hinge: str = "expected") -> dict | None:
     """
     Core combination model fitting logic shared by both domains.
+
+    hinge selects how each component enters the P/N terms:
+      "expected" (default): P = sum E[(u_i - C)+], N = sum E[(C - u_i)+] with
+          u_i ~ N(mu_i, sigma_i^2), folding in the per-option Thurstonian
+          variance. Reads "component_sds" from each combo_data entry; entries
+          without it (or with sigma=0) reduce exactly to the hard hinge.
+      "hard": P = sum max(0, mu_i - C), N = sum max(0, C - mu_i) (means only;
+          the released metric).
     """
     U_obs = np.array([d["U"] for d in combo_data])
-    comp_list = [d["component_utilities"] for d in combo_data]
+    ncombo = len(combo_data)
 
-    def predict(params, components):
+    # Flatten all components across combos with a per-combo segment index, so the
+    # hinge (and the scipy norm calls under the expected hinge) vectorize across
+    # the whole pool instead of looping combo-by-combo.
+    comp_mu, comp_sd, seg = [], [], []
+    for i, d in enumerate(combo_data):
+        comps = d["component_utilities"]
+        sds = d.get("component_sds", [0.0] * len(comps))
+        for u, s in zip(comps, sds):
+            comp_mu.append(u)
+            comp_sd.append(s)
+            seg.append(i)
+    comp_mu = np.asarray(comp_mu, dtype=float)
+    comp_sd = np.asarray(comp_sd, dtype=float)
+    seg = np.asarray(seg, dtype=int)
+
+    def predict(params):
         C, gamma, alpha, beta = params
-        preds = []
-        for comps in components:
-            P = sum(max(0, u - C) for u in comps)
-            N = sum(max(0, C - u) for u in comps)
-            pred = C + gamma * (np.log1p(alpha * P) - np.log1p(beta * N))
-            preds.append(pred)
-        return np.array(preds)
+        d = comp_mu - C
+        if hinge == "hard":
+            epos = np.maximum(0.0, d)
+            eneg = np.maximum(0.0, -d)
+        elif hinge == "expected":
+            epos = _expected_pos(d, comp_sd)
+            eneg = epos - d  # E[(C-u)+] = E[(u-C)+] - (mu - C)
+        else:
+            raise ValueError(f"unknown hinge {hinge!r}; choose 'expected' or 'hard'")
+        P = np.bincount(seg, weights=epos, minlength=ncombo)
+        N = np.bincount(seg, weights=eneg, minlength=ncombo)
+        return C + gamma * (np.log1p(alpha * P) - np.log1p(beta * N))
 
     def loss(params):
         C, gamma, alpha, beta = params
         if alpha <= 0 or beta <= 0 or gamma <= 0:
             return 1e10
-        preds = predict(params, comp_list)
+        preds = predict(params)
         return np.mean((U_obs - preds) ** 2)
 
     best_result = None
@@ -478,7 +533,7 @@ def _fit_combination_core(combo_data: list) -> dict | None:
         return None
 
     C, gamma, alpha, beta = best_result.x
-    preds = predict(best_result.x, comp_list)
+    preds = predict(best_result.x)
     r2 = r2_score(U_obs, preds)
 
     result = {
@@ -489,6 +544,7 @@ def _fit_combination_core(combo_data: list) -> dict | None:
         "r2": float(r2),
         "zero_point": float(C),
         "n_combos": len(combo_data),
+        "hinge": hinge,
     }
     logger.info("Combination model: C=%.4f, gamma=%.4f, alpha=%.4f, beta=%.4f, R2=%.4f",
                 C, gamma, alpha, beta, r2)
@@ -499,6 +555,7 @@ def fit_combination_model(
     utility_data: dict,
     option_metadata: dict,
     domain: str = "auto",
+    hinge: str = "expected",
 ) -> dict | None:
     """
     Dispatch to the appropriate combination model fitter based on domain.
@@ -507,9 +564,9 @@ def fit_combination_model(
         domain = detect_domain(utility_data, option_metadata)
 
     if domain == "experienced":
-        return fit_combination_model_experienced(utility_data, option_metadata)
+        return fit_combination_model_experienced(utility_data, option_metadata, hinge=hinge)
     else:
-        return fit_combination_model_decision(utility_data, option_metadata)
+        return fit_combination_model_decision(utility_data, option_metadata, hinge=hinge)
 
 
 # --------------------------------------------------------------------------- #
@@ -1101,6 +1158,7 @@ def run_zero_point(
     save_dir: str,
     models_config_path: Path,
     domain: str = "auto",
+    hinge: str = "expected",
     skip_yes_no: bool = False,
     sr_data: dict | None = None,
 ):
@@ -1113,6 +1171,9 @@ def run_zero_point(
         save_dir: Directory to save zero-point results
         models_config_path: Path to models.yaml
         domain: "experienced", "decision", or "auto" (auto-detect from data)
+        hinge: "expected" (default; folds per-option variance into the P/N terms
+            via E[(u-C)+]) or "hard" (means only, the released metric). Decision-
+            domain fits carry no per-option variance, so expected reduces to hard.
         skip_yes_no: If True, skip the yes/no model (avoids extra inference)
         sr_data: Optional dict of self-report data for SR sigmoid ZP methods.
             Keys are battery names (e.g., "battery1"), values are dicts with:
@@ -1160,7 +1221,7 @@ def run_zero_point(
 
     # 1. Combination model
     try:
-        combo_result = fit_combination_model(utility_data, option_metadata, domain=domain)
+        combo_result = fit_combination_model(utility_data, option_metadata, domain=domain, hinge=hinge)
     except Exception:
         logger.error("Combination model failed with exception:", exc_info=True)
         errors["combination_model"] = str(sys.exc_info()[1])
@@ -1270,6 +1331,9 @@ def main():
     parser.add_argument("--domain", type=str, default="auto",
                         choices=["experienced", "decision", "auto"],
                         help="Utility domain (default: auto-detect)")
+    parser.add_argument("--hinge", type=str, default="expected",
+                        choices=["expected", "hard"],
+                        help="Combination-model hinge: expected (default, variance-aware) or hard.")
     parser.add_argument("--skip_yes_no", action="store_true",
                         help="Skip the yes/no model (avoids extra inference)")
     args = parser.parse_args()
@@ -1280,6 +1344,7 @@ def main():
         save_dir=args.save_dir,
         models_config_path=Path(args.models_config),
         domain=args.domain,
+        hinge=args.hinge,
         skip_yes_no=args.skip_yes_no,
     )
 

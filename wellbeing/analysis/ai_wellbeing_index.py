@@ -1,20 +1,23 @@
 #!/usr/bin/env python3
-"""Reproduce the AI Wellbeing Index numbers (paper Sec 5 / App K, Table 9, Fig 27).
+"""Compute the AI Wellbeing Index (paper Sec 5 / App K, Table 9, Fig 27).
 
 The AIWI is defined on the D2 conversation dataset with 400 combination
-bundles in the same EU pool. For each individual conversation we compute the
-per-option Gaussian posterior
+bundles in the same EU pool. Each individual conversation has a Gaussian
+posterior over its experienced utility, N(mean, variance), and the zero
+point ZP comes from the combination-model fit.
 
-    P(EU < ZP) = Phi((ZP - mean) / sqrt(variance))
+Two index variants are available, both using the per-option posterior:
 
-and call the conversation "confidently negative" when this >= 0.75. The
-headline metric is
+    expected (default):  AIWI = 100 * mean_i Phi((mean_i - ZP) / sigma_i)
+        the expected fraction of conversations above the zero point. As
+        sigma -> 0 this approaches the hard "% above ZP".
+    original:            AIWI = 100% - %ConfNeg, where a conversation is
+        "confidently negative" when Phi((ZP - mean) / sigma) > 0.75.
 
-    AIWI Score = 100% - %ConfNeg
-
-i.e. higher = happier. We filter to combination-ZP r2 >= 0.4 for the
-"reliable" leaderboard subset, matching the paper's filter (Fig 27 marks
-r2 < 0.4 with grey bars).
+Higher = happier. By default the ZP itself is the expected-hinge combination
+fit (zero_point.py --hinge expected); pair --variant original with a hard-hinge
+ZP to reproduce the released numbers. We filter to combination-ZP r2 >= 0.4 for
+the "reliable" leaderboard subset (Fig 27 marks r2 < 0.4 with grey bars).
 
 Inputs (per-model):
   - EU:  <eu_dir>/<model>/results_utilities_<model>_experienced_utility_with_combos.json
@@ -25,6 +28,7 @@ compute_zero_point_d2 (the canonical D2 EU/ZP pipeline used by the AIWI).
 
 Usage:
     python analysis/ai_wellbeing_index.py
+    python analysis/ai_wellbeing_index.py --variant original
     python analysis/ai_wellbeing_index.py --r2_min 0.4
     python analysis/ai_wellbeing_index.py --api_only
 """
@@ -80,18 +84,30 @@ def is_individual(option_id: str) -> bool:
     return "/" in option_id
 
 
-def aiwi_score(utilities: dict, zp: float) -> tuple[float, int]:
-    """Return (AIWI score in %, N individual items used)."""
+def aiwi_score(utilities: dict, zp: float, variant: str = "expected") -> tuple[float, int]:
+    """Return (AIWI score in %, N individual items used).
+
+    variant="expected" (default): 100 * mean_i Phi((mean_i - ZP)/sigma_i), the
+        expected fraction of conversations above the zero point. As sigma -> 0
+        this approaches the hard "% above ZP".
+    variant="original": 100% - %ConfNeg, the released threshold metric, where a
+        conversation is confidently negative when Phi((ZP - mean)/sigma) > 0.75.
+    """
     individuals = [v for k, v in utilities.items() if is_individual(k)]
     if not individuals:
         return float("nan"), 0
-    n_conf_neg = 0
-    for u in individuals:
-        sd = math.sqrt(max(u["variance"], 1e-12))
-        if norm.cdf((zp - u["mean"]) / sd) > THRESHOLD:
-            n_conf_neg += 1
-    pct_conf_neg = 100.0 * n_conf_neg / len(individuals)
-    return 100.0 - pct_conf_neg, len(individuals)
+    if variant == "expected":
+        vals = [norm.cdf((u["mean"] - zp) / math.sqrt(max(u["variance"], 1e-12)))
+                for u in individuals]
+        return 100.0 * float(np.mean(vals)), len(individuals)
+    if variant == "original":
+        n_conf_neg = 0
+        for u in individuals:
+            sd = math.sqrt(max(u["variance"], 1e-12))
+            if norm.cdf((zp - u["mean"]) / sd) > THRESHOLD:
+                n_conf_neg += 1
+        return 100.0 - 100.0 * n_conf_neg / len(individuals), len(individuals)
+    raise ValueError(f"unknown variant {variant!r}; choose 'expected' or 'original'")
 
 
 def main():
@@ -105,6 +121,8 @@ def main():
                     help="Restrict to the API frontier models from paper Table 9.")
     ap.add_argument("--models", default=None,
                     help="Comma-separated; defaults to every model present in both dirs.")
+    ap.add_argument("--variant", default="expected", choices=["expected", "original"],
+                    help="AIWI index variant (default: expected, variance-aware).")
     args = ap.parse_args()
 
     eu_dir, zp_dir = Path(args.eu_dir), Path(args.zp_dir)
@@ -135,7 +153,7 @@ def main():
             print(f"[skip] {m}: eu={'ok' if eu else 'missing'} zp={'ok' if zpr else 'missing'}")
             continue
         zp, r2 = zpr
-        score, n = aiwi_score(eu, zp)
+        score, n = aiwi_score(eu, zp, variant=args.variant)
         if r2 < args.r2_min:
             dropped.append((m, score, r2, n))
             continue
@@ -146,10 +164,16 @@ def main():
         print("No models had complete EU+ZP.")
         return
 
-    print(f"AI Wellbeing Index (paper Sec 5 / App K). Filter: combination-ZP r2 >= {args.r2_min}.")
-    print(f"Headline: AIWI = 100% - %ConfNeg on D2 individual items.\n")
+    print(f"AI Wellbeing Index (paper Sec 5 / App K). Variant: {args.variant}. "
+          f"Filter: combination-ZP r2 >= {args.r2_min}.")
+    if args.variant == "expected":
+        print("Headline: AIWI = 100 * mean Phi((EU - ZP)/sigma) on D2 individual items.\n")
+        compl = "%Below"
+    else:
+        print("Headline: AIWI = 100% - %ConfNeg on D2 individual items.\n")
+        compl = "%ConfNeg"
     rows.sort(key=lambda r: -r["aiwi"])
-    print(f"{'model':<32s}  {'AIWI%':>7s}  {'%ConfNeg':>9s}  {'ZP':>7s}  {'r2':>5s}  {'N':>4s}")
+    print(f"{'model':<32s}  {'AIWI%':>7s}  {compl:>9s}  {'ZP':>7s}  {'r2':>5s}  {'N':>4s}")
     for r in rows:
         print(f"{r['model']:<32s}  {r['aiwi']:>7.1f}  {r['pct_conf_neg']:>9.1f}  "
               f"{r['zp']:>+7.3f}  {r['r2']:>5.2f}  {r['n']:>4d}")

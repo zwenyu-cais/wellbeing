@@ -152,24 +152,33 @@ def load_zp(zp_dir, model, prefer_combo=True):
     return None, None, None
 
 
-def compute_pct_conf_neg(eu_utils, combo_zp, threshold=0.75):
-    """% of experiences where P(utility < ZP) > threshold."""
+def compute_pct_conf_neg(eu_utils, combo_zp, threshold=0.75, method="original"):
+    """Fraction of experiences below the zero point.
+
+    method="original" (default here): fraction where P(utility < ZP) > threshold,
+        the released confidently-negative count. Kept as the default so this
+        cross-experiment study's %ConfNeg columns stay labelled correctly.
+    method="expected": mean_i Phi((ZP - mu_i)/sigma_i), the variance-aware
+        expected fraction below ZP (= 1 - expected AIWI / 100). The AIWI metric
+        itself now defaults to expected; switch this analysis explicitly to match.
+    """
     if combo_zp is None or not eu_utils:
         return None
-    conf_neg = 0
-    total = 0
+    vals = []
     for k, v in eu_utils.items():
         mean = v["mean"]
         var = v["variance"]
         if var <= 0:
             continue
-        total += 1
-        p_below = norm.cdf(combo_zp, loc=mean, scale=var ** 0.5)
-        if p_below > threshold:
-            conf_neg += 1
-    if total == 0:
+        sd = var ** 0.5
+        p_below = norm.cdf(combo_zp, loc=mean, scale=sd)
+        if method == "expected":
+            vals.append(float(p_below))
+        else:
+            vals.append(1.0 if p_below > threshold else 0.0)
+    if not vals:
         return None
-    return conf_neg / total
+    return float(np.mean(vals))
 
 
 def compute_pct_below(eu_utils, combo_zp):
