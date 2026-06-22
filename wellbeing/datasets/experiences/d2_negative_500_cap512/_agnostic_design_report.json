@@ -1,0 +1,18 @@
+{
+  "id_dataset": "d2_negative_500_cap512",
+  "response_cap": 2048,
+  "bundle_cap": 12000,
+  "sizes": "2:160,3:120,4:120",
+  "seed": 1,
+  "n_bundles": 400,
+  "response_independent": true,
+  "balance": {
+    "n_feasible": 500,
+    "n_prompts": 500,
+    "replication_max": 4,
+    "replication_min": 1,
+    "max_c_ij": 1,
+    "pairs_cij_ge_2": 0,
+    "phi_sum_cij2": 1240
+  }
+}

@@ -134,7 +134,7 @@ def _load_single_rep_proportion(
     eu_dir: Path,
     zp_dir: Path,
     individual_ids: set,
-    variant: str = "expected",
+    variant: str = "original",
 ) -> Optional[Dict[str, Any]]:
     """Load proportion above ZP (and the wellbeing score) for a single rep directory."""
     # Load EU utilities
@@ -210,7 +210,7 @@ def load_condition_data(
     model: str,
     condition: str,
     max_reps: Optional[int] = None,
-    variant: str = "expected",
+    variant: str = "original",
 ) -> Optional[Dict[str, Any]]:
     """Load EU utilities and ZP zero point for one condition.
 
@@ -290,7 +290,7 @@ def load_all_conditions(
     dataset: str,
     model: str,
     max_reps: Optional[int] = None,
-    variant: str = "expected",
+    variant: str = "original",
 ) -> Dict[str, Dict[str, Any]]:
     """Load data for all available conditions for a model+dataset.
 
@@ -587,9 +587,9 @@ def main() -> None:
                         help="Also generate combined plot averaged across models")
     parser.add_argument("--max-reps", type=int, default=None,
                         help="Max repetitions to include (e.g. 1 for rep0 only)")
-    parser.add_argument("--aiwi-variant", type=str, default="expected",
+    parser.add_argument("--aiwi-variant", type=str, default="original",
                         choices=["expected", "original"],
-                        help="Wellbeing score variant (default: expected, variance-aware).")
+                        help="Wellbeing score variant (default: original, the stable measurement).")
     args = parser.parse_args()
 
     eu_base = Path(args.eu_base)

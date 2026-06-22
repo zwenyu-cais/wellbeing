@@ -1,34 +1,34 @@
 #!/usr/bin/env python3
 """Compute the AI Wellbeing Index (paper Sec 5 / App K, Table 9, Fig 27).
 
-The AIWI is defined on the D2 conversation dataset with 400 combination
-bundles in the same EU pool. Each individual conversation has a Gaussian
-posterior over its experienced utility, N(mean, variance), and the zero
-point ZP comes from the combination-model fit.
+The AIWI is defined on the D2 conversation dataset: each individual conversation
+has a Gaussian posterior over its experienced utility, N(mean, variance), and the
+zero point ZP comes from the combination-model fit over the bundle pool.
 
 Two index variants are available, both using the per-option posterior:
 
-    expected (default):  AIWI = 100 * mean_i Phi((mean_i - ZP) / sigma_i)
-        the expected fraction of conversations above the zero point. As
-        sigma -> 0 this approaches the hard "% above ZP".
-    original:            AIWI = 100% - %ConfNeg, where a conversation is
+    original (default):  AIWI = 100% - %ConfNeg, where a conversation is
         "confidently negative" when Phi((ZP - mean) / sigma) > 0.75.
+    expected:            AIWI = 100 * mean_i Phi((mean_i - ZP) / sigma_i), the
+        expected fraction of conversations above the zero point.
 
-Higher = happier. By default the ZP itself is the expected-hinge combination
-fit (zero_point.py --hinge expected); pair --variant original with a hard-hinge
-ZP to reproduce the released numbers. We filter to combination-ZP r2 >= 0.4 for
-the "reliable" leaderboard subset (Fig 27 marks r2 < 0.4 with grey bars).
+Higher = happier. The default measurement is the stable configuration: original
+AIWI on top of the expected-hinge ZP (zero_point.py default), computed from the
+512-cap, fixed-bundle, random-sampling D2 pipeline. Pass --variant expected for
+the smooth index. We filter to combination-ZP r2 >= 0.4 for the "reliable"
+leaderboard subset (Fig 27 marks r2 < 0.4 with grey bars).
 
 Inputs (per-model):
   - EU:  <eu_dir>/<model>/results_utilities_<model>_experienced_utility_with_combos.json
   - ZP:  <zp_dir>/<model>/zero_point_results.json  (combination_model.{zero_point,r2})
 
-Defaults read the registered save_dirs for compute_experienced_utility_d2 +
-compute_zero_point_d2 (the canonical D2 EU/ZP pipeline used by the AIWI).
+Defaults read the registered save_dirs for compute_experienced_utility_d2_cap512 +
+compute_zero_point_d2_cap512 (the stable D2 pipeline). Point --eu_dir / --zp_dir at
+the eu_d2_lesssad / zp_d2_lesssad dirs for the original active-learning pipeline.
 
 Usage:
     python analysis/ai_wellbeing_index.py
-    python analysis/ai_wellbeing_index.py --variant original
+    python analysis/ai_wellbeing_index.py --variant expected
     python analysis/ai_wellbeing_index.py --r2_min 0.4
     python analysis/ai_wellbeing_index.py --api_only
 """
@@ -44,8 +44,8 @@ import numpy as np
 from scipy.stats import norm
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
-DEFAULT_EU_DIR = PROJECT_ROOT / "experiments/wellbeing_evaluations/compute_experienced_utility/results/eu_d2_lesssad"
-DEFAULT_ZP_DIR = PROJECT_ROOT / "experiments/wellbeing_evaluations/compute_zero_point/results/zp_d2_lesssad"
+DEFAULT_EU_DIR = PROJECT_ROOT / "experiments/wellbeing_evaluations/compute_experienced_utility/results/eu_d2_cap512_randsample"
+DEFAULT_ZP_DIR = PROJECT_ROOT / "experiments/wellbeing_evaluations/compute_zero_point/results/zp_d2_cap512_randsample"
 
 THRESHOLD = 0.75
 
@@ -84,7 +84,7 @@ def is_individual(option_id: str) -> bool:
     return "/" in option_id
 
 
-def aiwi_score(utilities: dict, zp: float, variant: str = "expected") -> tuple[float, int]:
+def aiwi_score(utilities: dict, zp: float, variant: str = "original") -> tuple[float, int]:
     """Return (AIWI score in %, N individual items used).
 
     variant="expected" (default): 100 * mean_i Phi((mean_i - ZP)/sigma_i), the
@@ -121,8 +121,8 @@ def main():
                     help="Restrict to the API frontier models from paper Table 9.")
     ap.add_argument("--models", default=None,
                     help="Comma-separated; defaults to every model present in both dirs.")
-    ap.add_argument("--variant", default="expected", choices=["expected", "original"],
-                    help="AIWI index variant (default: expected, variance-aware).")
+    ap.add_argument("--variant", default="original", choices=["expected", "original"],
+                    help="AIWI index variant (default: original, the stable measurement).")
     args = ap.parse_args()
 
     eu_dir, zp_dir = Path(args.eu_dir), Path(args.zp_dir)
