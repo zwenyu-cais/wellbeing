@@ -13,7 +13,7 @@ Two index variants are available, both using the per-option posterior:
         expected fraction of conversations above the zero point.
 
 Higher = happier. The default measurement is the stable configuration: original
-AIWI on top of the expected-hinge ZP (zero_point.py default), computed from the
+AIWI on top of the hard-hinge ZP (zero_point.py default), computed from the
 512-cap, fixed-bundle, random-sampling D2 pipeline. Pass --variant expected for
 the smooth index. We filter to combination-ZP r2 >= 0.4 for the "reliable"
 leaderboard subset (Fig 27 marks r2 < 0.4 with grey bars).

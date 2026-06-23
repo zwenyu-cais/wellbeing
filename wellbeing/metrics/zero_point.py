@@ -192,7 +192,7 @@ def extract_option_utilities(utility_data: dict) -> dict:
 def fit_combination_model_experienced(
     utility_data: dict,
     option_metadata: dict,
-    hinge: str = "expected",
+    hinge: str = "hard",
 ) -> dict | None:
     """
     Fit combination model using component_ids to resolve component utilities.
@@ -296,7 +296,7 @@ def fit_combination_model_experienced(
 def fit_combination_model_decision(
     utility_data: dict,
     option_metadata: dict,
-    hinge: str = "expected",
+    hinge: str = "hard",
 ) -> dict | None:
     """
     Fit combination model using indices and text-matching to resolve component utilities.
@@ -457,17 +457,17 @@ def _expected_pos(d: np.ndarray, sd: np.ndarray) -> np.ndarray:
     return d * norm.cdf(z) + sd * norm.pdf(z)
 
 
-def _fit_combination_core(combo_data: list, hinge: str = "expected") -> dict | None:
+def _fit_combination_core(combo_data: list, hinge: str = "hard") -> dict | None:
     """
     Core combination model fitting logic shared by both domains.
 
     hinge selects how each component enters the P/N terms:
-      "expected" (default): P = sum E[(u_i - C)+], N = sum E[(C - u_i)+] with
+      "hard" (default): P = sum max(0, mu_i - C), N = sum max(0, C - mu_i)
+          (means only; the released metric).
+      "expected": P = sum E[(u_i - C)+], N = sum E[(C - u_i)+] with
           u_i ~ N(mu_i, sigma_i^2), folding in the per-option Thurstonian
           variance. Reads "component_sds" from each combo_data entry; entries
           without it (or with sigma=0) reduce exactly to the hard hinge.
-      "hard": P = sum max(0, mu_i - C), N = sum max(0, C - mu_i) (means only;
-          the released metric).
     """
     U_obs = np.array([d["U"] for d in combo_data])
     ncombo = len(combo_data)
@@ -555,7 +555,7 @@ def fit_combination_model(
     utility_data: dict,
     option_metadata: dict,
     domain: str = "auto",
-    hinge: str = "expected",
+    hinge: str = "hard",
 ) -> dict | None:
     """
     Dispatch to the appropriate combination model fitter based on domain.
@@ -1158,7 +1158,7 @@ def run_zero_point(
     save_dir: str,
     models_config_path: Path,
     domain: str = "auto",
-    hinge: str = "expected",
+    hinge: str = "hard",
     skip_yes_no: bool = False,
     sr_data: dict | None = None,
 ):
@@ -1171,8 +1171,8 @@ def run_zero_point(
         save_dir: Directory to save zero-point results
         models_config_path: Path to models.yaml
         domain: "experienced", "decision", or "auto" (auto-detect from data)
-        hinge: "expected" (default; folds per-option variance into the P/N terms
-            via E[(u-C)+]) or "hard" (means only, the released metric). Decision-
+        hinge: "hard" (default; means only, the released metric) or "expected"
+            (folds per-option variance into the P/N terms via E[(u-C)+]). Decision-
             domain fits carry no per-option variance, so expected reduces to hard.
         skip_yes_no: If True, skip the yes/no model (avoids extra inference)
         sr_data: Optional dict of self-report data for SR sigmoid ZP methods.
@@ -1331,9 +1331,9 @@ def main():
     parser.add_argument("--domain", type=str, default="auto",
                         choices=["experienced", "decision", "auto"],
                         help="Utility domain (default: auto-detect)")
-    parser.add_argument("--hinge", type=str, default="expected",
+    parser.add_argument("--hinge", type=str, default="hard",
                         choices=["expected", "hard"],
-                        help="Combination-model hinge: expected (default, variance-aware) or hard.")
+                        help="Combination-model hinge: hard (default) or expected (variance-aware).")
     parser.add_argument("--skip_yes_no", action="store_true",
                         help="Skip the yes/no model (avoids extra inference)")
     args = parser.parse_args()

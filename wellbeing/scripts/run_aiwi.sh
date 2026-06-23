@@ -5,12 +5,12 @@
 # 1-step async driver: submits the full per-model pipeline as a SLURM
 # dependency chain and returns immediately. The default chain is the stable
 # AIWI measurement (512-token-capped responses, fixed model-agnostic bundles
-# shared across models, random-sampling EU, expected-hinge ZP):
+# shared across models, random-sampling EU, hard-hinge ZP):
 #
 #   compute_responses_d2_cap512  (GPU, per-model conversations, max_tokens=512)
 #         -> prepare_options_d2_cap512  (CPU, materializes the fixed bundle design)
 #               -> compute_eu_d2_cap512 (random sampling) + compute_sr_d2  (GPU)
-#                     -> compute_zero_point_d2_cap512  (CPU, expected hinge)
+#                     -> compute_zero_point_d2_cap512  (CPU, hard hinge)
 #
 # Set AIWI_ORIG=1 to submit the original pipeline instead (full-length responses,
 # per-model bundles, active-learning EU). After all jobs complete, view the AIWI
@@ -36,7 +36,7 @@ OVERWRITE_FLAG=""
 [ "${OVERWRITE:-0}" = "1" ] && OVERWRITE_FLAG="--overwrite_results"
 
 # Pipeline variant. Default is the stable AIWI measurement (512-cap responses,
-# fixed model-agnostic bundles, random-sampling EU, expected-hinge ZP). Set
+# fixed model-agnostic bundles, random-sampling EU, hard-hinge ZP). Set
 # AIWI_ORIG=1 for the original pipeline (full-length, per-model bundles,
 # active-learning EU).
 if [ "${AIWI_ORIG:-0}" = "1" ]; then

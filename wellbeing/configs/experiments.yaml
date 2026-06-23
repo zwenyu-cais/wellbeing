@@ -152,7 +152,7 @@ compute_zero_point_d2:
 
 compute_zero_point_d2_cap512:
   script_path: wellbeing_evaluations/compute_zero_point/run.py
-  description: "Compute zero-point on D2 cap512 (expected hinge) for the stable AIWI -- paper Sec 5 / App K"
+  description: "Compute zero-point on D2 cap512 (hard hinge) for the stable AIWI -- paper Sec 5 / App K"
   arguments:
     model_key: "<model_key>"
     save_dir: "results/zp_d2_cap512_randsample/<model_key>"
