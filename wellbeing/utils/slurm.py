@@ -4,7 +4,8 @@ import os
 import subprocess
 from typing import Dict, List, Optional
 
-CONDA_ENV_NAME = "pytorch_latest"
+# Default matches upstream; set WB_CONDA_ENV to run under a different conda env.
+CONDA_ENV_NAME = os.environ.get("WB_CONDA_ENV", "pytorch_latest")
 
 # Detect conda.sh from the current conda environment
 _conda_prefix = os.environ.get("CONDA_PREFIX", "")

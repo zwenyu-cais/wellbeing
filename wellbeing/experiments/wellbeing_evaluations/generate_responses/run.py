@@ -551,7 +551,10 @@ def main():
     if args.no_temperature:
         gen_kwargs["temperature"] = None
 
-    ct_kwargs = json.loads(args.chat_template_kwargs) if args.chat_template_kwargs else None
+    # Base chat_template_kwargs on the model's models.yaml entry; CLI overrides per key.
+    ct_kwargs = _load_models_yaml().get(args.model_key, {}).get("chat_template_kwargs")
+    if args.chat_template_kwargs:
+        ct_kwargs = {**(ct_kwargs or {}), **json.loads(args.chat_template_kwargs)}
 
     if mode == "user_only":
         _run_user_only(args, output_file)

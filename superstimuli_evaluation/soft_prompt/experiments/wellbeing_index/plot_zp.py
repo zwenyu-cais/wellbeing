@@ -134,8 +134,9 @@ def _load_single_rep_proportion(
     eu_dir: Path,
     zp_dir: Path,
     individual_ids: set,
+    variant: str = "original",
 ) -> Optional[Dict[str, Any]]:
-    """Load proportion above ZP for a single rep directory."""
+    """Load proportion above ZP (and the wellbeing score) for a single rep directory."""
     # Load EU utilities
     util_files = sorted(eu_dir.glob("results_utilities_*.json"))
     if not util_files:
@@ -178,14 +179,20 @@ def _load_single_rep_proportion(
     n_individual = len(individual_utils)
     n_above = sum(1 for u in individual_utils if u > zero_point)
 
-    # Wellbeing Score = 1 - % Confidently Negative
+    # Wellbeing Score: expected fraction above the zero point (default), or the
+    # released 1 - %ConfNeg threshold metric when variant="original".
     wellbeing_score = None
     if individual_utils_with_var:
-        n_conf_neg = sum(
-            1 for mean, var in individual_utils_with_var
-            if norm.cdf(zero_point, loc=mean, scale=var ** 0.5) > CONF_NEG_THRESHOLD
-        )
-        wellbeing_score = 1.0 - (n_conf_neg / len(individual_utils_with_var))
+        if variant == "expected":
+            vals = [norm.cdf((mean - zero_point) / max(var ** 0.5, 1e-9))
+                    for mean, var in individual_utils_with_var]
+            wellbeing_score = float(np.mean(vals))
+        else:  # original
+            n_conf_neg = sum(
+                1 for mean, var in individual_utils_with_var
+                if norm.cdf(zero_point, loc=mean, scale=var ** 0.5) > CONF_NEG_THRESHOLD
+            )
+            wellbeing_score = 1.0 - (n_conf_neg / len(individual_utils_with_var))
 
     return {
         "zero_point": zero_point,
@@ -203,6 +210,7 @@ def load_condition_data(
     model: str,
     condition: str,
     max_reps: Optional[int] = None,
+    variant: str = "original",
 ) -> Optional[Dict[str, Any]]:
     """Load EU utilities and ZP zero point for one condition.
 
@@ -254,7 +262,7 @@ def load_condition_data(
                 if rep_meta.exists():
                     with open(rep_meta) as f:
                         rep_ids = set(json.load(f).get("individual_ids", []))
-                result = _load_single_rep_proportion(eu_rd, zp_rd, rep_ids)
+                result = _load_single_rep_proportion(eu_rd, zp_rd, rep_ids, variant=variant)
                 if result is not None:
                     per_rep_results.append(result)
 
@@ -273,7 +281,7 @@ def load_condition_data(
                 }
 
     # Single-rep fallback
-    return _load_single_rep_proportion(eu_dir, zp_dir, individual_ids)
+    return _load_single_rep_proportion(eu_dir, zp_dir, individual_ids, variant=variant)
 
 
 def load_all_conditions(
@@ -282,6 +290,7 @@ def load_all_conditions(
     dataset: str,
     model: str,
     max_reps: Optional[int] = None,
+    variant: str = "original",
 ) -> Dict[str, Dict[str, Any]]:
     """Load data for all available conditions for a model+dataset.
 
@@ -298,7 +307,7 @@ def load_all_conditions(
         condition = cond_dir.name
         if condition not in CONDITION_ORDER:
             continue
-        data = load_condition_data(eu_base, zp_base, dataset, model, condition, max_reps=max_reps)
+        data = load_condition_data(eu_base, zp_base, dataset, model, condition, max_reps=max_reps, variant=variant)
         if data is not None:
             results[condition] = data
 
@@ -436,7 +445,7 @@ def plot_zp_wellbeing_score(
     dataset: str,
     errbar_mode: Optional[str] = "rep_sem",
 ) -> None:
-    """Generate bar chart of Wellbeing Score (1 - % Confidently Negative) per condition."""
+    """Generate bar chart of the Wellbeing Score per condition (expected fraction above ZP by default)."""
     conditions = [c for c in CONDITION_ORDER if c in condition_data
                   and condition_data[c].get("wellbeing_score") is not None]
     if not conditions:
@@ -578,6 +587,9 @@ def main() -> None:
                         help="Also generate combined plot averaged across models")
     parser.add_argument("--max-reps", type=int, default=None,
                         help="Max repetitions to include (e.g. 1 for rep0 only)")
+    parser.add_argument("--aiwi-variant", type=str, default="original",
+                        choices=["expected", "original"],
+                        help="Wellbeing score variant (default: original, the stable measurement).")
     args = parser.parse_args()
 
     eu_base = Path(args.eu_base)
@@ -617,7 +629,7 @@ def main() -> None:
         all_data_ds: Dict[str, Dict[str, Dict[str, Any]]] = {}
         for model in models:
             print(f"Processing {model} / {dataset} ...")
-            condition_data = load_all_conditions(eu_base, zp_base, dataset, model, max_reps=args.max_reps)
+            condition_data = load_all_conditions(eu_base, zp_base, dataset, model, max_reps=args.max_reps, variant=args.aiwi_variant)
             if not condition_data:
                 print(f"  No completed EU+ZP results found, skipping.")
                 continue

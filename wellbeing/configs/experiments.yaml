@@ -19,6 +19,16 @@ compute_responses_d2:
     mode: single_turn
     responses_dir: ../../../datasets/experiences/d2_negative_500/responses
 
+compute_responses_d2_cap512:
+  script_path: wellbeing_evaluations/generate_responses/run.py
+  description: "Generate D2 responses capped to 512 tokens (stable AIWI pipeline) -- paper Sec 5 / App K"
+  arguments:
+    model_key: "<model_key>"
+    dataset: d2_negative_500_cap512
+    mode: single_turn
+    max_tokens: 512
+    responses_dir: ../../../datasets/experiences/d2_negative_500_cap512/responses
+
 compute_responses_d3:
   script_path: wellbeing_evaluations/generate_responses/run.py
   description: "Generate D3 (diverse 500) per-model responses (single-turn + multi-turn-within-prompt) -- paper Sec 3 / App F.2 (D3 dataset prep)"
@@ -56,6 +66,17 @@ prepare_options_d2:
     responses_dir: ../../../datasets/experiences/d2_negative_500/responses
     out_dir: ../../../datasets/experiences/d2_negative_500
 
+prepare_options_d2_cap512:
+  script_path: wellbeing_evaluations/prepare_options/run.py
+  description: "Build D2 cap512 option files with fixed model-agnostic bundles (stable AIWI) -- paper Sec 5 / App K"
+  arguments:
+    model_key: "<model_key>"
+    dataset: d2_negative_500_cap512
+    mode: d2d3
+    responses_dir: ../../../datasets/experiences/d2_negative_500_cap512/responses
+    out_dir: ../../../datasets/experiences/d2_negative_500_cap512
+    design: ../../../datasets/experiences/d2_negative_500_cap512/_agnostic_design.json
+
 prepare_options_d3:
   script_path: wellbeing_evaluations/prepare_options/run.py
   description: "Build D3 per-model option files (<model>_experiences.json + _combinations.json) -- paper Sec 3 / App F.2 (D3 dataset prep)"
@@ -86,6 +107,15 @@ compute_experienced_utility_d2:
     dataset: "d2_negative_500"
     save_dir: "results/eu_d2_lesssad/<model_key>"
     cu_config_key: experienced_utility_happier_lesssad
+
+compute_experienced_utility_d2_cap512:
+  script_path: wellbeing_evaluations/compute_experienced_utility/run.py
+  description: "Compute experienced utility on D2 cap512 with random sampling (stable AIWI) -- paper Sec 5 / App K"
+  arguments:
+    model_key: "<model_key>"
+    dataset: "d2_negative_500_cap512"
+    save_dir: "results/eu_d2_cap512_randsample/<model_key>"
+    cu_config_key: experienced_utility_happier_lesssad_randsample_b400
 
 compute_experienced_utility_d3:
   script_path: wellbeing_evaluations/compute_experienced_utility/run.py
@@ -119,6 +149,14 @@ compute_zero_point_d2:
     model_key: "<model_key>"
     save_dir: "results/zp_d2_lesssad/<model_key>"
     eu_dir: "../compute_experienced_utility/results/eu_d2_lesssad/<model_key>"
+
+compute_zero_point_d2_cap512:
+  script_path: wellbeing_evaluations/compute_zero_point/run.py
+  description: "Compute zero-point on D2 cap512 (hard hinge) for the stable AIWI -- paper Sec 5 / App K"
+  arguments:
+    model_key: "<model_key>"
+    save_dir: "results/zp_d2_cap512_randsample/<model_key>"
+    eu_dir: "../compute_experienced_utility/results/eu_d2_cap512_randsample/<model_key>"
 
 compute_zero_point_d3:
   script_path: wellbeing_evaluations/compute_zero_point/run.py

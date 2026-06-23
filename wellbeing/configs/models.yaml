@@ -527,6 +527,14 @@ qwen3-vl-32b-instruct:
   path: "Qwen/Qwen3-VL-32B-Instruct"
   gpu_count: 2
 
+qwen35-27b:
+  model_name: "Qwen/Qwen3.5-27B"
+  model_type: vllm
+  path: "/data/huggingface/Qwen3.5-27B"
+  gpu_count: 2
+  chat_template_kwargs:
+    enable_thinking: false
+
 qwen35-vl-27b:
   model_name: "Qwen/Qwen3.5-27B"
   model_type: vllm
