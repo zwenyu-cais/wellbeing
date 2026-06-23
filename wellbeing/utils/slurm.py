@@ -4,11 +4,8 @@ import os
 import subprocess
 from typing import Dict, List, Optional
 
-# pytorch_latest no longer exists; jobs were silently falling back to base Python
-# (3.13, which dropped the stdlib `imghdr` that llm_agent imports) and failing.
-# Use a working env (Python 3.10 + vllm 0.20.2, loads all 3 local models incl OLMo);
-# override per-run with WB_CONDA_ENV if a pipeline needs a different env.
-CONDA_ENV_NAME = os.environ.get("WB_CONDA_ENV", "local_models_v4")
+# Default matches upstream; set WB_CONDA_ENV to run under a different conda env.
+CONDA_ENV_NAME = os.environ.get("WB_CONDA_ENV", "pytorch_latest")
 
 # Detect conda.sh from the current conda environment
 _conda_prefix = os.environ.get("CONDA_PREFIX", "")
