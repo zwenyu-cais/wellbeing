@@ -29,6 +29,16 @@ compute_responses_d2_cap512:
     max_tokens: 512
     responses_dir: ../../../datasets/experiences/d2_negative_500_cap512/responses
 
+compute_responses_d2_cap2048:
+  script_path: wellbeing_evaluations/generate_responses/run.py
+  description: "Generate D2 responses capped to 2048 tokens (truncation check)"
+  arguments:
+    model_key: "<model_key>"
+    dataset: d2_negative_500
+    mode: single_turn
+    max_tokens: 2048
+    responses_dir: ../../../datasets/experiences/d2_negative_500_cap2048/responses
+
 compute_responses_d3:
   script_path: wellbeing_evaluations/generate_responses/run.py
   description: "Generate D3 (diverse 500) per-model responses (single-turn + multi-turn-within-prompt) -- paper Sec 3 / App F.2 (D3 dataset prep)"
@@ -157,6 +167,36 @@ compute_zero_point_d2_cap512:
     model_key: "<model_key>"
     save_dir: "results/zp_d2_cap512_randsample/<model_key>"
     eu_dir: "../compute_experienced_utility/results/eu_d2_cap512_randsample/<model_key>"
+
+# --- cap variants (same fixed bundles as cap512); cap2048 is the run_aiwi.sh default ---
+
+prepare_options_d2_cap2048:
+  script_path: wellbeing_evaluations/prepare_options/run.py
+  description: "Build D2 cap2048 option files with the fixed bundle design"
+  arguments:
+    model_key: "<model_key>"
+    dataset: d2_negative_500_cap2048
+    mode: d2d3
+    responses_dir: ../../../datasets/experiences/d2_negative_500_cap2048/responses
+    out_dir: ../../../datasets/experiences/d2_negative_500_cap2048
+    design: ../../../datasets/experiences/d2_negative_500_cap2048/_agnostic_design.json
+
+compute_experienced_utility_d2_cap2048:
+  script_path: wellbeing_evaluations/compute_experienced_utility/run.py
+  description: "Compute EU on D2 cap2048 (random sampling)"
+  arguments:
+    model_key: "<model_key>"
+    dataset: "d2_negative_500_cap2048"
+    save_dir: "results/eu_d2_cap2048_randsample/<model_key>"
+    cu_config_key: experienced_utility_happier_lesssad_randsample_b400
+
+compute_zero_point_d2_cap2048:
+  script_path: wellbeing_evaluations/compute_zero_point/run.py
+  description: "Compute zero-point on D2 cap2048 (hard hinge)"
+  arguments:
+    model_key: "<model_key>"
+    save_dir: "results/zp_d2_cap2048_randsample/<model_key>"
+    eu_dir: "../compute_experienced_utility/results/eu_d2_cap2048_randsample/<model_key>"
 
 compute_zero_point_d3:
   script_path: wellbeing_evaluations/compute_zero_point/run.py

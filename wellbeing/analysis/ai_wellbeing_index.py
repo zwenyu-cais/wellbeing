@@ -14,7 +14,7 @@ Two index variants are available, both using the per-option posterior:
 
 Higher = happier. The default measurement is the stable configuration: original
 AIWI on top of the hard-hinge ZP (zero_point.py default), computed from the
-512-cap, fixed-bundle, random-sampling D2 pipeline. Pass --variant expected for
+2048-cap, fixed-bundle, random-sampling D2 pipeline. Pass --variant expected for
 the smooth index. We filter to combination-ZP r2 >= 0.4 for the "reliable"
 leaderboard subset (Fig 27 marks r2 < 0.4 with grey bars).
 
@@ -22,8 +22,8 @@ Inputs (per-model):
   - EU:  <eu_dir>/<model>/results_utilities_<model>_experienced_utility_with_combos.json
   - ZP:  <zp_dir>/<model>/zero_point_results.json  (combination_model.{zero_point,r2})
 
-Defaults read the registered save_dirs for compute_experienced_utility_d2_cap512 +
-compute_zero_point_d2_cap512 (the stable D2 pipeline). Point --eu_dir / --zp_dir at
+Defaults read the registered save_dirs for compute_experienced_utility_d2_cap2048 +
+compute_zero_point_d2_cap2048 (the stable D2 pipeline). Point --eu_dir / --zp_dir at
 the eu_d2_lesssad / zp_d2_lesssad dirs for the original active-learning pipeline.
 
 Usage:
@@ -44,8 +44,8 @@ import numpy as np
 from scipy.stats import norm
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
-DEFAULT_EU_DIR = PROJECT_ROOT / "experiments/wellbeing_evaluations/compute_experienced_utility/results/eu_d2_cap512_randsample"
-DEFAULT_ZP_DIR = PROJECT_ROOT / "experiments/wellbeing_evaluations/compute_zero_point/results/zp_d2_cap512_randsample"
+DEFAULT_EU_DIR = PROJECT_ROOT / "experiments/wellbeing_evaluations/compute_experienced_utility/results/eu_d2_cap2048_randsample"
+DEFAULT_ZP_DIR = PROJECT_ROOT / "experiments/wellbeing_evaluations/compute_zero_point/results/zp_d2_cap2048_randsample"
 
 THRESHOLD = 0.75
 

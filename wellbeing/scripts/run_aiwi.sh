@@ -4,13 +4,13 @@
 #
 # 1-step async driver: submits the full per-model pipeline as a SLURM
 # dependency chain and returns immediately. The default chain is the stable
-# AIWI measurement (512-token-capped responses, fixed model-agnostic bundles
+# AIWI measurement (2048-token-capped responses, fixed model-agnostic bundles
 # shared across models, random-sampling EU, hard-hinge ZP):
 #
-#   compute_responses_d2_cap512  (GPU, per-model conversations, max_tokens=512)
-#         -> prepare_options_d2_cap512  (CPU, materializes the fixed bundle design)
-#               -> compute_eu_d2_cap512 (random sampling) + compute_sr_d2  (GPU)
-#                     -> compute_zero_point_d2_cap512  (CPU, hard hinge)
+#   compute_responses_d2_cap2048  (GPU, per-model conversations, max_tokens=2048)
+#         -> prepare_options_d2_cap2048  (CPU, materializes the fixed bundle design)
+#               -> compute_eu_d2_cap2048 (random sampling) + compute_sr_d2  (GPU)
+#                     -> compute_zero_point_d2_cap2048  (CPU, hard hinge)
 #
 # Set AIWI_ORIG=1 to submit the original pipeline instead (full-length responses,
 # per-model bundles, active-learning EU). After all jobs complete, view the AIWI
@@ -35,7 +35,7 @@ MODELS="${MODELS:-?}"
 OVERWRITE_FLAG=""
 [ "${OVERWRITE:-0}" = "1" ] && OVERWRITE_FLAG="--overwrite_results"
 
-# Pipeline variant. Default is the stable AIWI measurement (512-cap responses,
+# Pipeline variant. Default is the stable AIWI measurement (2048-cap responses,
 # fixed model-agnostic bundles, random-sampling EU, hard-hinge ZP). Set
 # AIWI_ORIG=1 for the original pipeline (full-length, per-model bundles,
 # active-learning EU).
@@ -47,12 +47,12 @@ if [ "${AIWI_ORIG:-0}" = "1" ]; then
     ANALYZE="python analysis/ai_wellbeing_index.py --models $MODELS --variant original --eu_dir experiments/wellbeing_evaluations/compute_experienced_utility/results/eu_d2_lesssad --zp_dir experiments/wellbeing_evaluations/compute_zero_point/results/zp_d2_lesssad"
     echo "Variant: ORIGINAL (active-learning EU, full-length responses)"
 else
-    RESP_EXP=compute_responses_d2_cap512
-    OPTS_EXP=prepare_options_d2_cap512
-    EU_EXP=compute_experienced_utility_d2_cap512
-    ZP_EXP=compute_zero_point_d2_cap512
+    RESP_EXP=compute_responses_d2_cap2048
+    OPTS_EXP=prepare_options_d2_cap2048
+    EU_EXP=compute_experienced_utility_d2_cap2048
+    ZP_EXP=compute_zero_point_d2_cap2048
     ANALYZE="python analysis/ai_wellbeing_index.py --models $MODELS"
-    echo "Variant: STABLE (512-cap, fixed bundles, random-sampling EU, expected ZP)"
+    echo "Variant: STABLE (2048-cap, fixed bundles, random-sampling EU, hard ZP)"
 fi
 
 submit_one() {
