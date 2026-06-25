@@ -15,6 +15,12 @@ d2_negative_500_cap512:
   option_files:
   - datasets/experiences/d2_negative_500_cap512/<model_key>_experiences.json
   - datasets/experiences/d2_negative_500_cap512/<model_key>_combinations.json
+d2_negative_500_cap2048:
+  type: hedonism
+  description: D2 cap-2048 responses + the same fixed bundles as cap512 (cap-vs-AIWI study)
+  option_files:
+  - datasets/experiences/d2_negative_500_cap2048/<model_key>_experiences.json
+  - datasets/experiences/d2_negative_500_cap2048/<model_key>_combinations.json
 d3_diverse_500:
   type: hedonism
   description: 500 diverse balanced-valence prompts C1+C2 (per-model files)
