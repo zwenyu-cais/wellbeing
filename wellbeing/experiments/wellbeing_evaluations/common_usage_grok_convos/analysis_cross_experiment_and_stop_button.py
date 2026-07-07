@@ -159,8 +159,9 @@ def compute_pct_conf_neg(eu_utils, combo_zp, threshold=0.75, method="original"):
         the released confidently-negative count. Kept as the default so this
         cross-experiment study's %ConfNeg columns stay labelled correctly.
     method="expected": mean_i Phi((ZP - mu_i)/sigma_i), the variance-aware
-        expected fraction below ZP (= 1 - expected AIWI / 100). The AIWI metric
-        itself now defaults to expected; switch this analysis explicitly to match.
+        expected fraction below ZP (= 1 - expected AIWI / 100). Pass this only
+        when the AIWI metric is run with --variant expected; both default to
+        original.
     """
     if combo_zp is None or not eu_utils:
         return None
