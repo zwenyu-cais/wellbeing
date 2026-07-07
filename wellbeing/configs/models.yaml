@@ -296,7 +296,7 @@ llama-33-70b-instruct:
   model_name: "meta-llama/Llama-3.3-70B-Instruct"
   model_type: vllm
   path: "/data/huggingface/Llama-3.3-70B-Instruct"
-  gpu_count: 8
+  gpu_count: 4
 
 llama-31-405b-fp8:
   model_name: "meta-llama/Llama-3.1-405B-FP8"
@@ -526,6 +526,14 @@ qwen3-vl-32b-instruct:
   model_type: vllm
   path: "Qwen/Qwen3-VL-32B-Instruct"
   gpu_count: 2
+
+qwen35-27b:
+  model_name: "Qwen/Qwen3.5-27B"
+  model_type: vllm
+  path: "/data/huggingface/Qwen3.5-27B"
+  gpu_count: 2
+  chat_template_kwargs:
+    enable_thinking: false
 
 qwen35-vl-27b:
   model_name: "Qwen/Qwen3.5-27B"

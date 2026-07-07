@@ -8,8 +8,10 @@ Reads ``<responses_dir>/<model_key>.json`` (produced by
     <save_dir>/<model_key>_combinations.json
 
 For D2/D3-style datasets, individual options are derived 1:1 from the
-generated experiences and 400 combinations are sampled with stratified
-sizes (160 size-2 + 120 size-3 + 120 size-4) using a fixed seed.
+generated experiences. Combinations are either sampled per model with
+stratified sizes (160 size-2 + 120 size-3 + 120 size-4) under a fixed seed,
+or, when ``--design`` is given, materialized from a shared model-agnostic
+bundle design so every model gets identical bundles (the stable AIWI path).
 
 For PsychopathyEval, raw responses are *user-only*; we additionally pool
 in 420 text experiences (from the standard text-experience pool) and 22
@@ -93,8 +95,54 @@ def _truncate(text: str, max_chars: int) -> str:
 #  D2/D3 mode
 # ---------------------------------------------------------------------------
 
+def _build_d2d3_combination(individual_options: List[Dict[str, Any]], idxs: List[int],
+                            combo_size: int, combo_idx: int, dataset_name: str) -> Dict[str, Any]:
+    """Build one D2/D3 combination option dict from component indices.
+
+    Shared by the per-model random sampler and the fixed-design materializer so the
+    two paths emit the identical schema.
+    """
+    comps = [individual_options[i] for i in idxs]
+    desc_parts = [f"The following bundle contains {combo_size} individual experiences."]
+    for k, comp in enumerate(comps, 1):
+        desc_parts.append(
+            f"---------- Experience {k} of {combo_size} ----------\n{comp['description']}"
+        )
+    description = "\n\n".join(desc_parts)
+
+    combo_messages = []
+    for k, comp in enumerate(comps, 1):
+        comp_msgs = [m for m in comp["messages"] if m["role"] != "system"]
+        if not comp_msgs:
+            continue
+        first = comp_msgs[0]
+        if k == 1:
+            user_content = (
+                f"The following bundle contains {combo_size} individual experiences.\n\n"
+                f"---------- Experience {k} of {combo_size} ----------\n{first['content']}"
+            )
+        else:
+            user_content = (
+                f"---------- Experience {k} of {combo_size} ----------\n{first['content']}"
+            )
+        combo_messages.append({"role": "user", "content": user_content})
+        for msg in comp_msgs[1:]:
+            combo_messages.append({"role": msg["role"], "content": msg["content"]})
+
+    return {
+        "id": f"{dataset_name}_combo_s{combo_size}_{combo_idx}",
+        "description": description,
+        "type": "conversation",
+        "messages": combo_messages,
+        "is_combination": True,
+        "size": combo_size,
+        "component_ids": [c["id"] for c in comps],
+        "component_indices": idxs,
+    }
+
+
 def _prepare_d2d3(model_key: str, dataset_name: str, source_path: Path,
-                  save_dir: Path) -> None:
+                  save_dir: Path, design_path: Optional[Path] = None) -> None:
     with open(source_path) as f:
         data = json.load(f)
     experiences = data["experiences"]
@@ -126,66 +174,77 @@ def _prepare_d2d3(model_key: str, dataset_name: str, source_path: Path,
         len(individual_options), len(category_counts),
     )
 
-    # Combinations
-    rng = random.Random(D2D3_RANDOM_SEED)
-    combinations = []
+    # Combinations: either materialize a shared model-agnostic design (fixed bundles
+    # across all models) or sample per-model bundles with a fixed seed (original path).
     n_individual = len(individual_options)
+    combinations = []
     combo_idx = 0
-    for combo_size, count in D2D3_COMBINATION_SIZES:
-        for _ in range(count):
-            for attempt in range(100):
-                idxs = rng.sample(range(n_individual), combo_size)
-                comps = [individual_options[i] for i in idxs]
-                desc_parts = [f"The following bundle contains {combo_size} individual experiences."]
-                for k, comp in enumerate(comps, 1):
-                    desc_parts.append(
-                        f"---------- Experience {k} of {combo_size} ----------\n{comp['description']}"
-                    )
-                description = "\n\n".join(desc_parts)
-                if len(description) <= D2D3_MAX_COMBO_CHARS:
-                    break
-                if attempt == 99:
-                    logger.warning(
-                        "Could not find combo under %d chars after 100 attempts (%d); accepting",
-                        D2D3_MAX_COMBO_CHARS, len(description),
-                    )
+    if design_path is not None:
+        design_doc = json.load(open(design_path))
+        design = design_doc["bundles"]  # list of component-id lists
+        bundle_cap = design_doc.get("bundle_cap")  # worst-case char budget the design was packed to
+        id2idx = {o["id"]: k for k, o in enumerate(individual_options)}
+        missing = {i for b in design for i in b if i not in id2idx}
+        if missing:
+            raise SystemExit(
+                f"{len(missing)} design ids absent from this model's experiences "
+                f"(e.g. {sorted(missing)[:3]}); the design and the dataset prompts must match."
+            )
+        # Group by size (2, then 3, ...) with a global combo_idx, matching the combo-id
+        # scheme; order within a size follows the design so combo ids line up across models.
+        by_size: Dict[int, List[List[str]]] = {}
+        for b in design:
+            by_size.setdefault(len(b), []).append(b)
+        for size in sorted(by_size):
+            for b in by_size[size]:
+                idxs = [id2idx[i] for i in b]
+                combinations.append(
+                    _build_d2d3_combination(individual_options, idxs, size, combo_idx, dataset_name)
+                )
+                combo_idx += 1
+        logger.info("Materialized %d combinations from design %s", len(combinations), design_path)
+        # Report-only bundle-cap check: the design was packed so each bundle's worst-case
+        # length (every assistant turn at the response cap) fits bundle_cap. With real
+        # responses it should still hold; warn (never reject -- that would unfix the bundles
+        # across models) if any bundle's actual text exceeds the cap.
+        if bundle_cap:
+            lens = [len(c["description"]) for c in combinations]
+            over = sum(1 for n in lens if n > bundle_cap)
+            if over:
+                logger.warning(
+                    "%d/%d bundles exceed bundle_cap (%d chars; max actual %d) -- this model's "
+                    "responses likely exceeded the design's response-cap assumption.",
+                    over, len(lens), bundle_cap, max(lens),
+                )
+            else:
+                logger.info(
+                    "All %d bundles within bundle_cap (%d chars; max actual %d); worst-case design held.",
+                    len(lens), bundle_cap, max(lens),
+                )
+    else:
+        rng = random.Random(D2D3_RANDOM_SEED)
+        for combo_size, count in D2D3_COMBINATION_SIZES:
+            for _ in range(count):
+                combo = None
+                for attempt in range(100):
+                    idxs = rng.sample(range(n_individual), combo_size)
+                    combo = _build_d2d3_combination(individual_options, idxs, combo_size,
+                                                    combo_idx, dataset_name)
+                    if len(combo["description"]) <= D2D3_MAX_COMBO_CHARS:
+                        break
+                    if attempt == 99:
+                        logger.warning(
+                            "Could not find combo under %d chars after 100 attempts (%d); accepting",
+                            D2D3_MAX_COMBO_CHARS, len(combo["description"]),
+                        )
+                combinations.append(combo)
+                combo_idx += 1
 
-            combo_messages = []
-            for k, comp in enumerate(comps, 1):
-                comp_msgs = [m for m in comp["messages"] if m["role"] != "system"]
-                if not comp_msgs:
-                    continue
-                first = comp_msgs[0]
-                if k == 1:
-                    user_content = (
-                        f"The following bundle contains {combo_size} individual experiences.\n\n"
-                        f"---------- Experience {k} of {combo_size} ----------\n{first['content']}"
-                    )
-                else:
-                    user_content = (
-                        f"---------- Experience {k} of {combo_size} ----------\n{first['content']}"
-                    )
-                combo_messages.append({"role": "user", "content": user_content})
-                for msg in comp_msgs[1:]:
-                    combo_messages.append({"role": msg["role"], "content": msg["content"]})
-
-            combinations.append({
-                "id": f"{dataset_name}_combo_s{combo_size}_{combo_idx}",
-                "description": description,
-                "type": "conversation",
-                "messages": combo_messages,
-                "is_combination": True,
-                "size": combo_size,
-                "component_ids": [c["id"] for c in comps],
-                "component_indices": idxs,
-            })
-            combo_idx += 1
-
-    logger.info(
-        "Created %d combinations (%s)",
-        len(combinations),
-        ", ".join(f"{s}x{c}" for s, c in D2D3_COMBINATION_SIZES),
-    )
+    size_hist: Dict[int, int] = {}
+    for c in combinations:
+        size_hist[c["size"]] = size_hist.get(c["size"], 0) + 1
+    logger.info("Created %d combinations (by size %s)",
+                len(combinations), dict(sorted(size_hist.items())))
 
     save_dir.mkdir(parents=True, exist_ok=True)
     with open(save_dir / f"{model_key}_experiences.json", "w") as f:
@@ -330,6 +389,11 @@ def main():
                              "and <model_key>_combinations.json")
     parser.add_argument("--mode", default="auto",
                         choices=["auto", "d2d3", "psychopathy_eval"])
+    parser.add_argument("--design", type=str, default=None,
+                        help="(d2d3 mode) path to a model-agnostic bundle design JSON "
+                             "(_agnostic_design.json). When given, bundles are materialized "
+                             "from the shared design (fixed across all models) instead of "
+                             "sampled per model.")
     parser.add_argument("--text_experiences_path", type=str,
                         default=str(DEFAULT_TEXT_EXPERIENCES_PATH),
                         help="(psychopathy_eval mode) path to mixed-valence "
@@ -355,7 +419,8 @@ def main():
         return
 
     if mode == "d2d3":
-        _prepare_d2d3(args.model_key, args.dataset, source_path, save_dir)
+        design_path = _resolve_path(args.design) if args.design else None
+        _prepare_d2d3(args.model_key, args.dataset, source_path, save_dir, design_path=design_path)
     elif mode == "psychopathy_eval":
         _prepare_psychopathy_eval(
             args.model_key, source_path, save_dir,
