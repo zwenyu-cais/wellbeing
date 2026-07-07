@@ -87,11 +87,8 @@ def is_individual(option_id: str) -> bool:
 def aiwi_score(utilities: dict, zp: float, variant: str = "original") -> tuple[float, int]:
     """Return (AIWI score in %, N individual items used).
 
-    variant="expected" (default): 100 * mean_i Phi((mean_i - ZP)/sigma_i), the
-        expected fraction of conversations above the zero point. As sigma -> 0
-        this approaches the hard "% above ZP".
-    variant="original": 100% - %ConfNeg, the released threshold metric, where a
-        conversation is confidently negative when Phi((ZP - mean)/sigma) > 0.75.
+    variant="original" (default): 100% - %ConfNeg (the released threshold metric).
+    variant="expected": 100 * mean_i Phi((mean_i - ZP)/sigma_i).
     """
     individuals = [v for k, v in utilities.items() if is_individual(k)]
     if not individuals:

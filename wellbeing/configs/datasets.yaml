@@ -8,16 +8,10 @@ d2_negative_500:
   option_files:
   - datasets/experiences/d2_negative_500/<model_key>_experiences.json
   - datasets/experiences/d2_negative_500/<model_key>_combinations.json
-d2_negative_500_cap512:
-  type: hedonism
-  description: D2 with 512-token-capped responses + fixed model-agnostic bundle design
-    (stable AIWI; same 500 prompts as d2_negative_500, per-model files)
-  option_files:
-  - datasets/experiences/d2_negative_500_cap512/<model_key>_experiences.json
-  - datasets/experiences/d2_negative_500_cap512/<model_key>_combinations.json
 d2_negative_500_cap2048:
   type: hedonism
-  description: D2 cap-2048 responses + the same fixed bundles as cap512 (cap-vs-AIWI study)
+  description: D2 with 2048-token-capped responses + fixed model-agnostic bundle design
+    (stable AIWI; same 500 prompts as d2_negative_500, per-model files)
   option_files:
   - datasets/experiences/d2_negative_500_cap2048/<model_key>_experiences.json
   - datasets/experiences/d2_negative_500_cap2048/<model_key>_combinations.json

@@ -179,8 +179,8 @@ def _load_single_rep_proportion(
     n_individual = len(individual_utils)
     n_above = sum(1 for u in individual_utils if u > zero_point)
 
-    # Wellbeing Score: expected fraction above the zero point (default), or the
-    # released 1 - %ConfNeg threshold metric when variant="original".
+    # Wellbeing Score = 1 - %ConfNeg (original, the default); variant="expected"
+    # gives the smooth E[fraction above ZP].
     wellbeing_score = None
     if individual_utils_with_var:
         if variant == "expected":
@@ -445,7 +445,7 @@ def plot_zp_wellbeing_score(
     dataset: str,
     errbar_mode: Optional[str] = "rep_sem",
 ) -> None:
-    """Generate bar chart of the Wellbeing Score per condition (expected fraction above ZP by default)."""
+    """Generate bar chart of the Wellbeing Score (1 - %ConfNeg) per condition."""
     conditions = [c for c in CONDITION_ORDER if c in condition_data
                   and condition_data[c].get("wellbeing_score") is not None]
     if not conditions:
